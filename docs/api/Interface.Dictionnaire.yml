@@ -48,13 +48,22 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: >-
+    Constructeur du dictionnaire prend en entrée le nom du fichier qu'il va lire et convertir en tableau de tableaux
+
+    Tout en triant grace à un tri fusion les elements de chaque ligne quand il l'ajoute au tableau
+
+    Les try catch permettent d'éviter les exception du type : Fichier non trouvé ou indice hors des limites
+  example: []
   syntax:
     content: public Dictionnaire(string nomDuFichier, string l)
     parameters:
     - id: nomDuFichier
       type: System.String
+      description: ''
     - id: l
       type: System.String
+      description: ''
     content.vb: Public Sub New(nomDuFichier As String, l As String)
   overload: Interface.Dictionnaire.#ctor*
   nameWithType.vb: Dictionnaire.New(String, String)
@@ -74,10 +83,13 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: Methode pour decrire une instance de la classe Dictionaire en donnant pour chaque lettre le nom de mots qu'il contient
+  example: []
   syntax:
     content: public string DicoToString()
     return:
       type: System.String
+      description: ''
     content.vb: Public Function DicoToString() As String
   overload: Interface.Dictionnaire.DicoToString*
 - uid: Interface.Dictionnaire.RechDichoRecursifInstance(System.String)
@@ -94,13 +106,17 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: Methode d'instance qui fait la recherche Recursive dans le dico pour plus de practicité
+  example: []
   syntax:
     content: public bool RechDichoRecursifInstance(string mot)
     parameters:
     - id: mot
       type: System.String
+      description: ''
     return:
       type: System.Boolean
+      description: ''
     content.vb: Public Function RechDichoRecursifInstance(mot As String) As Boolean
   overload: Interface.Dictionnaire.RechDichoRecursifInstance*
   nameWithType.vb: Dictionnaire.RechDichoRecursifInstance(String)
@@ -120,19 +136,26 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: Methode de classe qui effectue la recherche recursive dans le dico comme vu en TD et cours de Compléxité
+  example: []
   syntax:
     content: public static bool RechDichoRecursif(int debut, int fin, string[] dico, string mot)
     parameters:
     - id: debut
       type: System.Int32
+      description: ''
     - id: fin
       type: System.Int32
+      description: ''
     - id: dico
       type: System.String[]
+      description: ''
     - id: mot
       type: System.String
+      description: ''
     return:
       type: System.Boolean
+      description: ''
     content.vb: Public Shared Function RechDichoRecursif(debut As Integer, fin As Integer, dico As String(), mot As String) As Boolean
   overload: Interface.Dictionnaire.RechDichoRecursif*
   nameWithType.vb: Dictionnaire.RechDichoRecursif(Integer, Integer, String(), String)
@@ -152,15 +175,20 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: Methode qui effectue le tri fusion comme vu en TD
+  example: []
   syntax:
     content: public static void TriFusionRecursif(string[] tab, int debut, int fin)
     parameters:
     - id: tab
       type: System.String[]
+      description: ''
     - id: debut
       type: System.Int32
+      description: ''
     - id: fin
       type: System.Int32
+      description: ''
     content.vb: Public Shared Sub TriFusionRecursif(tab As String(), debut As Integer, fin As Integer)
   overload: Interface.Dictionnaire.TriFusionRecursif*
   nameWithType.vb: Dictionnaire.TriFusionRecursif(String(), Integer, Integer)

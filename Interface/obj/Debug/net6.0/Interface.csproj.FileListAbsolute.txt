@@ -42,3 +42,5 @@ C:\Users\emich\MotsGlisses\Interface\obj\Debug\net6.0\refint\Interface.dll
 C:\Users\emich\MotsGlisses\Interface\obj\Debug\net6.0\Interface.pdb
 C:\Users\emich\MotsGlisses\Interface\obj\Debug\net6.0\Interface.genruntimeconfig.cache
 C:\Users\emich\MotsGlisses\Interface\obj\Debug\net6.0\ref\Interface.dll
+C:\Users\emich\MotsGlisses\Interface\bin\Debug\net6.0\Interface.xml
+C:\Users\emich\MotsGlisses\Interface\obj\Debug\net6.0\Interface.xml

@@ -1,0 +1,469 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CueWaveFileWriter
+ | MotsGliss&#233;s </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CueWaveFileWriter
+ | MotsGliss&#233;s ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="MotsGliss&#233;s">
+            MotsGliss&#233;s
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NAudio.Wave.CueWaveFileWriter">
+
+
+
+  <h1 id="NAudio_Wave_CueWaveFileWriter" data-uid="NAudio.Wave.CueWaveFileWriter" class="text-break">
+    Class CueWaveFileWriter
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NAudio.html">NAudio</a>.<a class="xref" href="NAudio.Wave.html">Wave</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NAudio.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CueWaveFileWriter : WaveFileWriter, IDisposable, IAsyncDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject">MarshalByRefObject</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></div>
+      <div><a class="xref" href="NAudio.Wave.WaveFileWriter.html">WaveFileWriter</a></div>
+      <div><span class="xref">CueWaveFileWriter</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iasyncdisposable">IAsyncDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_CreateWaveFile16_System_String_NAudio_Wave_ISampleProvider_">WaveFileWriter.CreateWaveFile16(string, ISampleProvider)</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_CreateWaveFile_System_String_NAudio_Wave_IWaveProvider_">WaveFileWriter.CreateWaveFile(string, IWaveProvider)</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_WriteWavFileToStream_System_IO_Stream_NAudio_Wave_IWaveProvider_">WaveFileWriter.WriteWavFileToStream(Stream, IWaveProvider)</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_Read_System_Byte___System_Int32_System_Int32_">WaveFileWriter.Read(byte[], int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_Seek_System_Int64_System_IO_SeekOrigin_">WaveFileWriter.Seek(long, SeekOrigin)</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_SetLength_System_Int64_">WaveFileWriter.SetLength(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_WriteData_System_Byte___System_Int32_System_Int32_">WaveFileWriter.WriteData(byte[], int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_Write_System_Byte___System_Int32_System_Int32_">WaveFileWriter.Write(byte[], int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_WriteSample_System_Single_">WaveFileWriter.WriteSample(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_WriteSamples_System_Single___System_Int32_System_Int32_">WaveFileWriter.WriteSamples(float[], int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_WriteData_System_Int16___System_Int32_System_Int32_">WaveFileWriter.WriteData(short[], int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_WriteSamples_System_Int16___System_Int32_System_Int32_">WaveFileWriter.WriteSamples(short[], int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_Flush">WaveFileWriter.Flush()</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_Dispose_System_Boolean_">WaveFileWriter.Dispose(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_Filename">WaveFileWriter.Filename</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_Length">WaveFileWriter.Length</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_TotalTime">WaveFileWriter.TotalTime</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_WaveFormat">WaveFileWriter.WaveFormat</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_CanRead">WaveFileWriter.CanRead</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_CanWrite">WaveFileWriter.CanWrite</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_CanSeek">WaveFileWriter.CanSeek</a>
+    </div>
+    <div>
+      <a class="xref" href="NAudio.Wave.WaveFileWriter.html#NAudio_Wave_WaveFileWriter_Position">WaveFileWriter.Position</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.null">Stream.Null</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.copyto#system-io-stream-copyto(system-io-stream)">Stream.CopyTo(Stream)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.copyto#system-io-stream-copyto(system-io-stream-system-int32)">Stream.CopyTo(Stream, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.copytoasync#system-io-stream-copytoasync(system-io-stream)">Stream.CopyToAsync(Stream)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.copytoasync#system-io-stream-copytoasync(system-io-stream-system-int32)">Stream.CopyToAsync(Stream, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.copytoasync#system-io-stream-copytoasync(system-io-stream-system-threading-cancellationtoken)">Stream.CopyToAsync(Stream, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.copytoasync#system-io-stream-copytoasync(system-io-stream-system-int32-system-threading-cancellationtoken)">Stream.CopyToAsync(Stream, int, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.dispose#system-io-stream-dispose">Stream.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.close">Stream.Close()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.disposeasync">Stream.DisposeAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.flushasync#system-io-stream-flushasync">Stream.FlushAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.flushasync#system-io-stream-flushasync(system-threading-cancellationtoken)">Stream.FlushAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.createwaithandle">Stream.CreateWaitHandle()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.beginread">Stream.BeginRead(byte[], int, int, AsyncCallback, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.endread">Stream.EndRead(IAsyncResult)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.readasync#system-io-stream-readasync(system-byte()-system-int32-system-int32)">Stream.ReadAsync(byte[], int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.readasync#system-io-stream-readasync(system-byte()-system-int32-system-int32-system-threading-cancellationtoken)">Stream.ReadAsync(byte[], int, int, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.readasync#system-io-stream-readasync(system-memory((system-byte))-system-threading-cancellationtoken)">Stream.ReadAsync(Memory&lt;byte&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.beginwrite">Stream.BeginWrite(byte[], int, int, AsyncCallback, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.endwrite">Stream.EndWrite(IAsyncResult)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.writeasync#system-io-stream-writeasync(system-byte()-system-int32-system-int32)">Stream.WriteAsync(byte[], int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.writeasync#system-io-stream-writeasync(system-byte()-system-int32-system-int32-system-threading-cancellationtoken)">Stream.WriteAsync(byte[], int, int, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.writeasync#system-io-stream-writeasync(system-readonlymemory((system-byte))-system-threading-cancellationtoken)">Stream.WriteAsync(ReadOnlyMemory&lt;byte&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.read#system-io-stream-read(system-span((system-byte)))">Stream.Read(Span&lt;byte&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.readbyte">Stream.ReadByte()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.write#system-io-stream-write(system-readonlyspan((system-byte)))">Stream.Write(ReadOnlySpan&lt;byte&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.writebyte">Stream.WriteByte(byte)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.synchronized">Stream.Synchronized(Stream)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.objectinvariant">Stream.ObjectInvariant()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.validatebufferarguments">Stream.ValidateBufferArguments(byte[], int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.validatecopytoarguments">Stream.ValidateCopyToArguments(Stream, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.cantimeout">Stream.CanTimeout</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.readtimeout">Stream.ReadTimeout</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream.writetimeout">Stream.WriteTimeout</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice">MarshalByRefObject.GetLifetimeService()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice">MarshalByRefObject.InitializeLifetimeService()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone">MarshalByRefObject.MemberwiseClone(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="NAudio_Wave_CueWaveFileWriter__ctor_" data-uid="NAudio.Wave.CueWaveFileWriter.#ctor*"></a>
+
+  <h3 id="NAudio_Wave_CueWaveFileWriter__ctor_System_String_NAudio_Wave_WaveFormat_" data-uid="NAudio.Wave.CueWaveFileWriter.#ctor(System.String,NAudio.Wave.WaveFormat)">
+  CueWaveFileWriter(string, WaveFormat)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CueWaveFileWriter(string fileName, WaveFormat waveFormat)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>waveFormat</code> <a class="xref" href="NAudio.Wave.WaveFormat.html">WaveFormat</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NAudio_Wave_CueWaveFileWriter_AddCue_" data-uid="NAudio.Wave.CueWaveFileWriter.AddCue*"></a>
+
+  <h3 id="NAudio_Wave_CueWaveFileWriter_AddCue_System_Int32_System_String_" data-uid="NAudio.Wave.CueWaveFileWriter.AddCue(System.Int32,System.String)">
+  AddCue(int, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddCue(int position, string label)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Wave_CueWaveFileWriter_UpdateHeader_" data-uid="NAudio.Wave.CueWaveFileWriter.UpdateHeader*"></a>
+
+  <h3 id="NAudio_Wave_CueWaveFileWriter_UpdateHeader_System_IO_BinaryWriter_" data-uid="NAudio.Wave.CueWaveFileWriter.UpdateHeader(System.IO.BinaryWriter)">
+  UpdateHeader(BinaryWriter)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void UpdateHeader(BinaryWriter writer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.binarywriter">BinaryWriter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

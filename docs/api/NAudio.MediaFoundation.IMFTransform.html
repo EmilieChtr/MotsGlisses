@@ -1,0 +1,933 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IMFTransform
+ | MotsGliss&#233;s </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IMFTransform
+ | MotsGliss&#233;s ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="MotsGliss&#233;s">
+            MotsGliss&#233;s
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NAudio.MediaFoundation.IMFTransform">
+
+
+
+  <h1 id="NAudio_MediaFoundation_IMFTransform" data-uid="NAudio.MediaFoundation.IMFTransform" class="text-break">
+    Interface IMFTransform
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NAudio.html">NAudio</a>.<a class="xref" href="NAudio.MediaFoundation.html">MediaFoundation</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NAudio.Wasapi.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+[Guid(&quot;bf94c121-5b05-4e6f-8000-ba598961414d&quot;)]
+public interface IMFTransform</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_AddInputStreams_" data-uid="NAudio.MediaFoundation.IMFTransform.AddInputStreams*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_AddInputStreams_System_Int32_System_IntPtr_" data-uid="NAudio.MediaFoundation.IMFTransform.AddInputStreams(System.Int32,System.IntPtr)">
+  AddInputStreams(int, IntPtr)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddInputStreams(int cStreams, IntPtr adwStreamIDs)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cStreams</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>adwStreamIDs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_DeleteInputStream_" data-uid="NAudio.MediaFoundation.IMFTransform.DeleteInputStream*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_DeleteInputStream_System_Int32_" data-uid="NAudio.MediaFoundation.IMFTransform.DeleteInputStream(System.Int32)">
+  DeleteInputStream(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeleteInputStream(int dwOutputStreamId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwOutputStreamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_GetAttributes_" data-uid="NAudio.MediaFoundation.IMFTransform.GetAttributes*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_GetAttributes_NAudio_MediaFoundation_IMFAttributes__" data-uid="NAudio.MediaFoundation.IMFTransform.GetAttributes(NAudio.MediaFoundation.IMFAttributes@)">
+  GetAttributes(out IMFAttributes)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetAttributes(out IMFAttributes pAttributes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pAttributes</code> <a class="xref" href="NAudio.MediaFoundation.IMFAttributes.html">IMFAttributes</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_GetInputAvailableType_" data-uid="NAudio.MediaFoundation.IMFTransform.GetInputAvailableType*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_GetInputAvailableType_System_Int32_System_Int32_NAudio_MediaFoundation_IMFMediaType__" data-uid="NAudio.MediaFoundation.IMFTransform.GetInputAvailableType(System.Int32,System.Int32,NAudio.MediaFoundation.IMFMediaType@)">
+  GetInputAvailableType(int, int, out IMFMediaType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetInputAvailableType(int dwInputStreamId, int dwTypeIndex, out IMFMediaType ppType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwInputStreamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>dwTypeIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>ppType</code> <a class="xref" href="NAudio.MediaFoundation.IMFMediaType.html">IMFMediaType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_GetInputCurrentType_" data-uid="NAudio.MediaFoundation.IMFTransform.GetInputCurrentType*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_GetInputCurrentType_System_Int32_NAudio_MediaFoundation_IMFMediaType__" data-uid="NAudio.MediaFoundation.IMFTransform.GetInputCurrentType(System.Int32,NAudio.MediaFoundation.IMFMediaType@)">
+  GetInputCurrentType(int, out IMFMediaType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetInputCurrentType(int dwInputStreamId, out IMFMediaType ppType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwInputStreamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>ppType</code> <a class="xref" href="NAudio.MediaFoundation.IMFMediaType.html">IMFMediaType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_GetInputStatus_" data-uid="NAudio.MediaFoundation.IMFTransform.GetInputStatus*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_GetInputStatus_System_Int32_NAudio_MediaFoundation__MFT_INPUT_STATUS_FLAGS__" data-uid="NAudio.MediaFoundation.IMFTransform.GetInputStatus(System.Int32,NAudio.MediaFoundation._MFT_INPUT_STATUS_FLAGS@)">
+  GetInputStatus(int, out _MFT_INPUT_STATUS_FLAGS)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetInputStatus(int dwInputStreamId, out _MFT_INPUT_STATUS_FLAGS pdwFlags)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwInputStreamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pdwFlags</code> <a class="xref" href="NAudio.MediaFoundation._MFT_INPUT_STATUS_FLAGS.html">_MFT_INPUT_STATUS_FLAGS</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_GetInputStreamAttributes_" data-uid="NAudio.MediaFoundation.IMFTransform.GetInputStreamAttributes*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_GetInputStreamAttributes_System_Int32_NAudio_MediaFoundation_IMFAttributes__" data-uid="NAudio.MediaFoundation.IMFTransform.GetInputStreamAttributes(System.Int32,NAudio.MediaFoundation.IMFAttributes@)">
+  GetInputStreamAttributes(int, out IMFAttributes)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetInputStreamAttributes(int dwInputStreamId, out IMFAttributes pAttributes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwInputStreamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pAttributes</code> <a class="xref" href="NAudio.MediaFoundation.IMFAttributes.html">IMFAttributes</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_GetInputStreamInfo_" data-uid="NAudio.MediaFoundation.IMFTransform.GetInputStreamInfo*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_GetInputStreamInfo_System_Int32_NAudio_MediaFoundation_MFT_INPUT_STREAM_INFO__" data-uid="NAudio.MediaFoundation.IMFTransform.GetInputStreamInfo(System.Int32,NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO@)">
+  GetInputStreamInfo(int, out MFT_INPUT_STREAM_INFO)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetInputStreamInfo(int dwInputStreamId, out MFT_INPUT_STREAM_INFO pStreamInfo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwInputStreamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pStreamInfo</code> <a class="xref" href="NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.html">MFT_INPUT_STREAM_INFO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_GetOutputAvailableType_" data-uid="NAudio.MediaFoundation.IMFTransform.GetOutputAvailableType*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_GetOutputAvailableType_System_Int32_System_Int32_NAudio_MediaFoundation_IMFMediaType__" data-uid="NAudio.MediaFoundation.IMFTransform.GetOutputAvailableType(System.Int32,System.Int32,NAudio.MediaFoundation.IMFMediaType@)">
+  GetOutputAvailableType(int, int, out IMFMediaType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetOutputAvailableType(int dwOutputStreamId, int dwTypeIndex, out IMFMediaType ppType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwOutputStreamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>dwTypeIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>ppType</code> <a class="xref" href="NAudio.MediaFoundation.IMFMediaType.html">IMFMediaType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_GetOutputCurrentType_" data-uid="NAudio.MediaFoundation.IMFTransform.GetOutputCurrentType*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_GetOutputCurrentType_System_Int32_NAudio_MediaFoundation_IMFMediaType__" data-uid="NAudio.MediaFoundation.IMFTransform.GetOutputCurrentType(System.Int32,NAudio.MediaFoundation.IMFMediaType@)">
+  GetOutputCurrentType(int, out IMFMediaType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetOutputCurrentType(int dwOutputStreamId, out IMFMediaType ppType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwOutputStreamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>ppType</code> <a class="xref" href="NAudio.MediaFoundation.IMFMediaType.html">IMFMediaType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_GetOutputStatus_" data-uid="NAudio.MediaFoundation.IMFTransform.GetOutputStatus*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_GetOutputStatus_System_Int32_NAudio_MediaFoundation__MFT_OUTPUT_STATUS_FLAGS__" data-uid="NAudio.MediaFoundation.IMFTransform.GetOutputStatus(System.Int32,NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS@)">
+  GetOutputStatus(int, out _MFT_OUTPUT_STATUS_FLAGS)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetOutputStatus(int dwInputStreamId, out _MFT_OUTPUT_STATUS_FLAGS pdwFlags)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwInputStreamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pdwFlags</code> <a class="xref" href="NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS.html">_MFT_OUTPUT_STATUS_FLAGS</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_GetOutputStreamAttributes_" data-uid="NAudio.MediaFoundation.IMFTransform.GetOutputStreamAttributes*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_GetOutputStreamAttributes_System_Int32_NAudio_MediaFoundation_IMFAttributes__" data-uid="NAudio.MediaFoundation.IMFTransform.GetOutputStreamAttributes(System.Int32,NAudio.MediaFoundation.IMFAttributes@)">
+  GetOutputStreamAttributes(int, out IMFAttributes)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetOutputStreamAttributes(int dwOutputStreamId, out IMFAttributes pAttributes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwOutputStreamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pAttributes</code> <a class="xref" href="NAudio.MediaFoundation.IMFAttributes.html">IMFAttributes</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_GetOutputStreamInfo_" data-uid="NAudio.MediaFoundation.IMFTransform.GetOutputStreamInfo*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_GetOutputStreamInfo_System_Int32_NAudio_MediaFoundation_MFT_OUTPUT_STREAM_INFO__" data-uid="NAudio.MediaFoundation.IMFTransform.GetOutputStreamInfo(System.Int32,NAudio.MediaFoundation.MFT_OUTPUT_STREAM_INFO@)">
+  GetOutputStreamInfo(int, out MFT_OUTPUT_STREAM_INFO)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetOutputStreamInfo(int dwOutputStreamId, out MFT_OUTPUT_STREAM_INFO pStreamInfo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwOutputStreamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pStreamInfo</code> <a class="xref" href="NAudio.MediaFoundation.MFT_OUTPUT_STREAM_INFO.html">MFT_OUTPUT_STREAM_INFO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_GetStreamCount_" data-uid="NAudio.MediaFoundation.IMFTransform.GetStreamCount*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_GetStreamCount_System_Int32__System_Int32__" data-uid="NAudio.MediaFoundation.IMFTransform.GetStreamCount(System.Int32@,System.Int32@)">
+  GetStreamCount(out int, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetStreamCount(out int pcInputStreams, out int pcOutputStreams)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pcInputStreams</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pcOutputStreams</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_GetStreamIds_" data-uid="NAudio.MediaFoundation.IMFTransform.GetStreamIds*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_GetStreamIds_System_Int32_System_IntPtr_System_Int32_System_IntPtr_" data-uid="NAudio.MediaFoundation.IMFTransform.GetStreamIds(System.Int32,System.IntPtr,System.Int32,System.IntPtr)">
+  GetStreamIds(int, IntPtr, int, IntPtr)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetStreamIds(int dwInputIdArraySize, IntPtr pdwInputIDs, int dwOutputIdArraySize, IntPtr pdwOutputIDs)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwInputIdArraySize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pdwInputIDs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+    <dt><code>dwOutputIdArraySize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pdwOutputIDs</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_GetStreamLimits_" data-uid="NAudio.MediaFoundation.IMFTransform.GetStreamLimits*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_GetStreamLimits_System_Int32__System_Int32__System_Int32__System_Int32__" data-uid="NAudio.MediaFoundation.IMFTransform.GetStreamLimits(System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+  GetStreamLimits(out int, out int, out int, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetStreamLimits(out int pdwInputMinimum, out int pdwInputMaximum, out int pdwOutputMinimum, out int pdwOutputMaximum)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pdwInputMinimum</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pdwInputMaximum</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pdwOutputMinimum</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pdwOutputMaximum</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_ProcessEvent_" data-uid="NAudio.MediaFoundation.IMFTransform.ProcessEvent*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_ProcessEvent_System_Int32_NAudio_MediaFoundation_IMFMediaEvent_" data-uid="NAudio.MediaFoundation.IMFTransform.ProcessEvent(System.Int32,NAudio.MediaFoundation.IMFMediaEvent)">
+  ProcessEvent(int, IMFMediaEvent)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ProcessEvent(int dwInputStreamId, IMFMediaEvent pEvent)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwInputStreamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pEvent</code> <a class="xref" href="NAudio.MediaFoundation.IMFMediaEvent.html">IMFMediaEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_ProcessInput_" data-uid="NAudio.MediaFoundation.IMFTransform.ProcessInput*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_ProcessInput_System_Int32_NAudio_MediaFoundation_IMFSample_System_Int32_" data-uid="NAudio.MediaFoundation.IMFTransform.ProcessInput(System.Int32,NAudio.MediaFoundation.IMFSample,System.Int32)">
+  ProcessInput(int, IMFSample, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ProcessInput(int dwInputStreamId, IMFSample pSample, int dwFlags)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwInputStreamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pSample</code> <a class="xref" href="NAudio.MediaFoundation.IMFSample.html">IMFSample</a></dt>
+    <dd></dd>
+    <dt><code>dwFlags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_ProcessMessage_" data-uid="NAudio.MediaFoundation.IMFTransform.ProcessMessage*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_ProcessMessage_NAudio_MediaFoundation_MFT_MESSAGE_TYPE_System_IntPtr_" data-uid="NAudio.MediaFoundation.IMFTransform.ProcessMessage(NAudio.MediaFoundation.MFT_MESSAGE_TYPE,System.IntPtr)">
+  ProcessMessage(MFT_MESSAGE_TYPE, IntPtr)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ProcessMessage(MFT_MESSAGE_TYPE eMessage, IntPtr ulParam)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eMessage</code> <a class="xref" href="NAudio.MediaFoundation.MFT_MESSAGE_TYPE.html">MFT_MESSAGE_TYPE</a></dt>
+    <dd></dd>
+    <dt><code>ulParam</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_ProcessOutput_" data-uid="NAudio.MediaFoundation.IMFTransform.ProcessOutput*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_ProcessOutput_NAudio_MediaFoundation__MFT_PROCESS_OUTPUT_FLAGS_System_Int32_NAudio_MediaFoundation_MFT_OUTPUT_DATA_BUFFER___NAudio_MediaFoundation__MFT_PROCESS_OUTPUT_STATUS__" data-uid="NAudio.MediaFoundation.IMFTransform.ProcessOutput(NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS,System.Int32,NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER[],NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS@)">
+  ProcessOutput(_MFT_PROCESS_OUTPUT_FLAGS, int, MFT_OUTPUT_DATA_BUFFER[], out _MFT_PROCESS_OUTPUT_STATUS)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int ProcessOutput(_MFT_PROCESS_OUTPUT_FLAGS dwFlags, int cOutputBufferCount, MFT_OUTPUT_DATA_BUFFER[] pOutputSamples, out _MFT_PROCESS_OUTPUT_STATUS pdwStatus)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwFlags</code> <a class="xref" href="NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.html">_MFT_PROCESS_OUTPUT_FLAGS</a></dt>
+    <dd></dd>
+    <dt><code>cOutputBufferCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pOutputSamples</code> <a class="xref" href="NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER.html">MFT_OUTPUT_DATA_BUFFER</a>[]</dt>
+    <dd></dd>
+    <dt><code>pdwStatus</code> <a class="xref" href="NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS.html">_MFT_PROCESS_OUTPUT_STATUS</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_SetInputType_" data-uid="NAudio.MediaFoundation.IMFTransform.SetInputType*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_SetInputType_System_Int32_NAudio_MediaFoundation_IMFMediaType_NAudio_MediaFoundation__MFT_SET_TYPE_FLAGS_" data-uid="NAudio.MediaFoundation.IMFTransform.SetInputType(System.Int32,NAudio.MediaFoundation.IMFMediaType,NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS)">
+  SetInputType(int, IMFMediaType, _MFT_SET_TYPE_FLAGS)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetInputType(int dwInputStreamId, IMFMediaType pType, _MFT_SET_TYPE_FLAGS dwFlags)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwInputStreamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pType</code> <a class="xref" href="NAudio.MediaFoundation.IMFMediaType.html">IMFMediaType</a></dt>
+    <dd></dd>
+    <dt><code>dwFlags</code> <a class="xref" href="NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS.html">_MFT_SET_TYPE_FLAGS</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_SetOutputBounds_" data-uid="NAudio.MediaFoundation.IMFTransform.SetOutputBounds*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_SetOutputBounds_System_Int64_System_Int64_" data-uid="NAudio.MediaFoundation.IMFTransform.SetOutputBounds(System.Int64,System.Int64)">
+  SetOutputBounds(long, long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetOutputBounds(long hnsLowerBound, long hnsUpperBound)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hnsLowerBound</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>hnsUpperBound</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFTransform_SetOutputType_" data-uid="NAudio.MediaFoundation.IMFTransform.SetOutputType*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFTransform_SetOutputType_System_Int32_NAudio_MediaFoundation_IMFMediaType_NAudio_MediaFoundation__MFT_SET_TYPE_FLAGS_" data-uid="NAudio.MediaFoundation.IMFTransform.SetOutputType(System.Int32,NAudio.MediaFoundation.IMFMediaType,NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS)">
+  SetOutputType(int, IMFMediaType, _MFT_SET_TYPE_FLAGS)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetOutputType(int dwOutputStreamId, IMFMediaType pType, _MFT_SET_TYPE_FLAGS dwFlags)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwOutputStreamId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pType</code> <a class="xref" href="NAudio.MediaFoundation.IMFMediaType.html">IMFMediaType</a></dt>
+    <dd></dd>
+    <dt><code>dwFlags</code> <a class="xref" href="NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS.html">_MFT_SET_TYPE_FLAGS</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

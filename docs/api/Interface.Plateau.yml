@@ -54,15 +54,20 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: Constructeur d'un plateau pour le cas sans fichier
+  example: []
   syntax:
     content: public Plateau(int taille = 8, string fPlateau = "Plateau.csv", string fLettresRegles = "Lettre.txt")
     parameters:
     - id: taille
       type: System.Int32
+      description: ''
     - id: fPlateau
       type: System.String
+      description: ''
     - id: fLettresRegles
       type: System.String
+      description: ''
     content.vb: Public Sub New(taille As Integer = 8, fPlateau As String = "Plateau.csv", fLettresRegles As String = "Lettre.txt")
   overload: Interface.Plateau.#ctor*
   nameWithType.vb: Plateau.New(Integer, String, String)
@@ -82,11 +87,14 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: Constructeur du plateau pour le cas avec un fichier
+  example: []
   syntax:
     content: public Plateau(string fPlateau)
     parameters:
     - id: fPlateau
       type: System.String
+      description: ''
     content.vb: Public Sub New(fPlateau As String)
   overload: Interface.Plateau.#ctor*
   nameWithType.vb: Plateau.New(String)
@@ -106,11 +114,14 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: Met le contenu du fichier Lettre.txt dans string[][] lettresRegles
+  example: []
   syntax:
     content: public void CreerLettresRegles(string fLettresRegles)
     parameters:
     - id: fLettresRegles
       type: System.String
+      description: ''
     content.vb: Public Sub CreerLettresRegles(fLettresRegles As String)
   overload: Interface.Plateau.CreerLettresRegles*
   nameWithType.vb: Plateau.CreerLettresRegles(String)
@@ -130,6 +141,8 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: Rempli le plateau de lettre en appelant ChoisirLettre pour choisir des lettre avec une probabilité d'apparition cohérente à la probabilité de retrouvé ces lettres dans la langue francaise
+  example: []
   syntax:
     content: public void RemplirPlateauLettres()
     content.vb: Public Sub RemplirPlateauLettres()
@@ -148,11 +161,14 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: Methode qui initialise chacun des membres d'un tableau de int à 0 de facon à ne pas avoir un tableau rempli de valeur null
+  example: []
   syntax:
     content: public static void InitiaIntTab0(int[] tab)
     parameters:
     - id: tab
       type: System.Int32[]
+      description: ''
     content.vb: Public Shared Sub InitiaIntTab0(tab As Integer())
   overload: Interface.Plateau.InitiaIntTab0*
   nameWithType.vb: Plateau.InitiaIntTab0(Integer())
@@ -172,10 +188,13 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: Methode qui retourne le plateau en string (toString())
+  example: []
   syntax:
     content: public string PlateauToString()
     return:
       type: System.String
+      description: ''
     content.vb: Public Function PlateauToString() As String
   overload: Interface.Plateau.PlateauToString*
 - uid: Interface.Plateau.ToFile
@@ -192,6 +211,8 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: Methode qui ecrit le fichier du plateau et sauvegarde la plateau à l'interieur
+  example: []
   syntax:
     content: public void ToFile()
     content.vb: Public Sub ToFile()
@@ -210,10 +231,13 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: Methode qui lit le fichier csv et convertit son contenu en Plateau
+  example: []
   syntax:
     content: public char[,] ToRead()
     return:
       type: System.Char[,]
+      description: ''
     content.vb: Public Function ToRead() As Char(,)
   overload: Interface.Plateau.ToRead*
 - uid: Interface.Plateau.RechercheMot(System.String)
@@ -230,13 +254,17 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: Methode qui Recherche un mot dans la matrice et qui retourne un Dictionary avec les coordonnéés des lettres si le mot est trouvé
+  example: []
   syntax:
     content: public Dictionary<(int, int), char> RechercheMot(string mot)
     parameters:
     - id: mot
       type: System.String
+      description: ''
     return:
       type: System.Collections.Generic.Dictionary{System.ValueTuple{System.Int32,System.Int32},System.Char}
+      description: ''
     content.vb: Public Function RechercheMot(mot As String) As Dictionary(Of (Integer, Integer), Char)
   overload: Interface.Plateau.RechercheMot*
   nameWithType.vb: Plateau.RechercheMot(String)
@@ -256,11 +284,14 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: Methode qui met à jour le Plateau
+  example: []
   syntax:
     content: public void MajPlateau(Dictionary<(int, int), char> res)
     parameters:
     - id: res
       type: System.Collections.Generic.Dictionary{System.ValueTuple{System.Int32,System.Int32},System.Char}
+      description: ''
     content.vb: Public Sub MajPlateau(res As Dictionary(Of (Integer, Integer), Char))
   overload: Interface.Plateau.MajPlateau*
   nameWithType.vb: Plateau.MajPlateau(Dictionary(Of (Integer, Integer), Char))
@@ -280,15 +311,20 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: Methode qui decale une colone d'une matrice plusieurs fois en fonction de la ligne à laquel la lettre effacée est et si la case en dessous est effacé aussi ou pas
+  example: []
   syntax:
     content: public static void DecaleColonnePlateau(char[,] plateau, int col, int ligne)
     parameters:
     - id: plateau
       type: System.Char[,]
+      description: ''
     - id: col
       type: System.Int32
+      description: ''
     - id: ligne
       type: System.Int32
+      description: ''
     content.vb: Public Shared Sub DecaleColonnePlateau(plateau As Char(,), col As Integer, ligne As Integer)
   overload: Interface.Plateau.DecaleColonnePlateau*
   nameWithType.vb: Plateau.DecaleColonnePlateau(Char(,), Integer, Integer)
@@ -308,13 +344,17 @@ items:
   assemblies:
   - Interface
   namespace: Interface
+  summary: Methode qui decale une colonne d'une matrice de 1
+  example: []
   syntax:
     content: public static void DecaleColonnePlateau1(char[,] plateau, int col)
     parameters:
     - id: plateau
       type: System.Char[,]
+      description: ''
     - id: col
       type: System.Int32
+      description: ''
     content.vb: Public Shared Sub DecaleColonnePlateau1(plateau As Char(,), col As Integer)
   overload: Interface.Plateau.DecaleColonnePlateau1*
   nameWithType.vb: Plateau.DecaleColonnePlateau1(Char(,), Integer)

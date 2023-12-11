@@ -1,0 +1,1221 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IMFActivate
+ | MotsGliss&#233;s </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IMFActivate
+ | MotsGliss&#233;s ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="MotsGliss&#233;s">
+            MotsGliss&#233;s
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NAudio.MediaFoundation.IMFActivate">
+
+
+
+  <h1 id="NAudio_MediaFoundation_IMFActivate" data-uid="NAudio.MediaFoundation.IMFActivate" class="text-break">
+    Interface IMFActivate
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NAudio.html">NAudio</a>.<a class="xref" href="NAudio.MediaFoundation.html">MediaFoundation</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NAudio.Wasapi.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+[Guid(&quot;7FEE9E9A-4A89-47a6-899C-B6A53A70FB67&quot;)]
+public interface IMFActivate : IMFAttributes</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_ActivateObject_" data-uid="NAudio.MediaFoundation.IMFActivate.ActivateObject*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_ActivateObject_System_Guid_System_Object__" data-uid="NAudio.MediaFoundation.IMFActivate.ActivateObject(System.Guid,System.Object@)">
+  ActivateObject(Guid, out object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ActivateObject(Guid riid, out object ppv)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>riid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>ppv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_Compare_" data-uid="NAudio.MediaFoundation.IMFActivate.Compare*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_Compare_NAudio_MediaFoundation_IMFAttributes_System_Int32_System_Boolean__" data-uid="NAudio.MediaFoundation.IMFActivate.Compare(NAudio.MediaFoundation.IMFAttributes,System.Int32,System.Boolean@)">
+  Compare(IMFAttributes, int, out bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Compare(IMFAttributes pTheirs, int matchType, out bool pbResult)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pTheirs</code> <a class="xref" href="NAudio.MediaFoundation.IMFAttributes.html">IMFAttributes</a></dt>
+    <dd></dd>
+    <dt><code>matchType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pbResult</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_CompareItem_" data-uid="NAudio.MediaFoundation.IMFActivate.CompareItem*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_CompareItem_System_Guid_System_IntPtr_System_Boolean__" data-uid="NAudio.MediaFoundation.IMFActivate.CompareItem(System.Guid,System.IntPtr,System.Boolean@)">
+  CompareItem(Guid, IntPtr, out bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CompareItem(Guid guidKey, IntPtr value, out bool pbResult)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+    <dt><code>pbResult</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_CopyAllItems_" data-uid="NAudio.MediaFoundation.IMFActivate.CopyAllItems*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_CopyAllItems_NAudio_MediaFoundation_IMFAttributes_" data-uid="NAudio.MediaFoundation.IMFActivate.CopyAllItems(NAudio.MediaFoundation.IMFAttributes)">
+  CopyAllItems(IMFAttributes)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CopyAllItems(IMFAttributes pDest)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pDest</code> <a class="xref" href="NAudio.MediaFoundation.IMFAttributes.html">IMFAttributes</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_DeleteAllItems_" data-uid="NAudio.MediaFoundation.IMFActivate.DeleteAllItems*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_DeleteAllItems" data-uid="NAudio.MediaFoundation.IMFActivate.DeleteAllItems">
+  DeleteAllItems()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeleteAllItems()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_DeleteItem_" data-uid="NAudio.MediaFoundation.IMFActivate.DeleteItem*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_DeleteItem_System_Guid_" data-uid="NAudio.MediaFoundation.IMFActivate.DeleteItem(System.Guid)">
+  DeleteItem(Guid)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeleteItem(Guid guidKey)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_DetachObject_" data-uid="NAudio.MediaFoundation.IMFActivate.DetachObject*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_DetachObject" data-uid="NAudio.MediaFoundation.IMFActivate.DetachObject">
+  DetachObject()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DetachObject()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_GetAllocatedBlob_" data-uid="NAudio.MediaFoundation.IMFActivate.GetAllocatedBlob*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_GetAllocatedBlob_System_Guid_System_IntPtr__System_Int32__" data-uid="NAudio.MediaFoundation.IMFActivate.GetAllocatedBlob(System.Guid,System.IntPtr@,System.Int32@)">
+  GetAllocatedBlob(Guid, out IntPtr, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetAllocatedBlob(Guid guidKey, out IntPtr ip, out int pcbSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>ip</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+    <dt><code>pcbSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_GetAllocatedString_" data-uid="NAudio.MediaFoundation.IMFActivate.GetAllocatedString*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_GetAllocatedString_System_Guid_System_String__System_Int32__" data-uid="NAudio.MediaFoundation.IMFActivate.GetAllocatedString(System.Guid,System.String@,System.Int32@)">
+  GetAllocatedString(Guid, out string, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetAllocatedString(Guid guidKey, out string ppwszValue, out int pcchLength)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>ppwszValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>pcchLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_GetBlob_" data-uid="NAudio.MediaFoundation.IMFActivate.GetBlob*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_GetBlob_System_Guid_System_Byte___System_Int32_System_Int32__" data-uid="NAudio.MediaFoundation.IMFActivate.GetBlob(System.Guid,System.Byte[],System.Int32,System.Int32@)">
+  GetBlob(Guid, byte[], int, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetBlob(Guid guidKey, byte[] pBuf, int cbBufSize, out int pcbBlobSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>pBuf</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>cbBufSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pcbBlobSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_GetBlobSize_" data-uid="NAudio.MediaFoundation.IMFActivate.GetBlobSize*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_GetBlobSize_System_Guid_System_Int32__" data-uid="NAudio.MediaFoundation.IMFActivate.GetBlobSize(System.Guid,System.Int32@)">
+  GetBlobSize(Guid, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetBlobSize(Guid guidKey, out int pcbBlobSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>pcbBlobSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_GetCount_" data-uid="NAudio.MediaFoundation.IMFActivate.GetCount*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_GetCount_System_Int32__" data-uid="NAudio.MediaFoundation.IMFActivate.GetCount(System.Int32@)">
+  GetCount(out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetCount(out int pcItems)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pcItems</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_GetDouble_" data-uid="NAudio.MediaFoundation.IMFActivate.GetDouble*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_GetDouble_System_Guid_System_Double__" data-uid="NAudio.MediaFoundation.IMFActivate.GetDouble(System.Guid,System.Double@)">
+  GetDouble(Guid, out double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetDouble(Guid guidKey, out double pfValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>pfValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_GetGUID_" data-uid="NAudio.MediaFoundation.IMFActivate.GetGUID*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_GetGUID_System_Guid_System_Guid__" data-uid="NAudio.MediaFoundation.IMFActivate.GetGUID(System.Guid,System.Guid@)">
+  GetGUID(Guid, out Guid)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetGUID(Guid guidKey, out Guid pguidValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>pguidValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_GetItem_" data-uid="NAudio.MediaFoundation.IMFActivate.GetItem*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_GetItem_System_Guid_System_IntPtr_" data-uid="NAudio.MediaFoundation.IMFActivate.GetItem(System.Guid,System.IntPtr)">
+  GetItem(Guid, IntPtr)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetItem(Guid guidKey, IntPtr pValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>pValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_GetItemByIndex_" data-uid="NAudio.MediaFoundation.IMFActivate.GetItemByIndex*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_GetItemByIndex_System_Int32_System_Guid__System_IntPtr_" data-uid="NAudio.MediaFoundation.IMFActivate.GetItemByIndex(System.Int32,System.Guid@,System.IntPtr)">
+  GetItemByIndex(int, out Guid, IntPtr)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetItemByIndex(int unIndex, out Guid pGuidKey, IntPtr pValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>unIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pGuidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>pValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_GetItemType_" data-uid="NAudio.MediaFoundation.IMFActivate.GetItemType*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_GetItemType_System_Guid_System_Int32__" data-uid="NAudio.MediaFoundation.IMFActivate.GetItemType(System.Guid,System.Int32@)">
+  GetItemType(Guid, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetItemType(Guid guidKey, out int pType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>pType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_GetString_" data-uid="NAudio.MediaFoundation.IMFActivate.GetString*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_GetString_System_Guid_System_Text_StringBuilder_System_Int32_System_Int32__" data-uid="NAudio.MediaFoundation.IMFActivate.GetString(System.Guid,System.Text.StringBuilder,System.Int32,System.Int32@)">
+  GetString(Guid, StringBuilder, int, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetString(Guid guidKey, StringBuilder pwszValue, int cchBufSize, out int pcchLength)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>pwszValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></dt>
+    <dd></dd>
+    <dt><code>cchBufSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pcchLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_GetStringLength_" data-uid="NAudio.MediaFoundation.IMFActivate.GetStringLength*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_GetStringLength_System_Guid_System_Int32__" data-uid="NAudio.MediaFoundation.IMFActivate.GetStringLength(System.Guid,System.Int32@)">
+  GetStringLength(Guid, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetStringLength(Guid guidKey, out int pcchLength)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>pcchLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_GetUINT32_" data-uid="NAudio.MediaFoundation.IMFActivate.GetUINT32*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_GetUINT32_System_Guid_System_Int32__" data-uid="NAudio.MediaFoundation.IMFActivate.GetUINT32(System.Guid,System.Int32@)">
+  GetUINT32(Guid, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetUINT32(Guid guidKey, out int punValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>punValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_GetUINT64_" data-uid="NAudio.MediaFoundation.IMFActivate.GetUINT64*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_GetUINT64_System_Guid_System_Int64__" data-uid="NAudio.MediaFoundation.IMFActivate.GetUINT64(System.Guid,System.Int64@)">
+  GetUINT64(Guid, out long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetUINT64(Guid guidKey, out long punValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>punValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_GetUnknown_" data-uid="NAudio.MediaFoundation.IMFActivate.GetUnknown*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_GetUnknown_System_Guid_System_Guid_System_Object__" data-uid="NAudio.MediaFoundation.IMFActivate.GetUnknown(System.Guid,System.Guid,System.Object@)">
+  GetUnknown(Guid, Guid, out object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetUnknown(Guid guidKey, Guid riid, out object ppv)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>riid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>ppv</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_LockStore_" data-uid="NAudio.MediaFoundation.IMFActivate.LockStore*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_LockStore" data-uid="NAudio.MediaFoundation.IMFActivate.LockStore">
+  LockStore()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LockStore()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_SetBlob_" data-uid="NAudio.MediaFoundation.IMFActivate.SetBlob*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_SetBlob_System_Guid_System_Byte___System_Int32_" data-uid="NAudio.MediaFoundation.IMFActivate.SetBlob(System.Guid,System.Byte[],System.Int32)">
+  SetBlob(Guid, byte[], int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetBlob(Guid guidKey, byte[] pBuf, int cbBufSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>pBuf</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+    <dt><code>cbBufSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_SetDouble_" data-uid="NAudio.MediaFoundation.IMFActivate.SetDouble*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_SetDouble_System_Guid_System_Double_" data-uid="NAudio.MediaFoundation.IMFActivate.SetDouble(System.Guid,System.Double)">
+  SetDouble(Guid, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetDouble(Guid guidKey, double fValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>fValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_SetGUID_" data-uid="NAudio.MediaFoundation.IMFActivate.SetGUID*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_SetGUID_System_Guid_System_Guid_" data-uid="NAudio.MediaFoundation.IMFActivate.SetGUID(System.Guid,System.Guid)">
+  SetGUID(Guid, Guid)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetGUID(Guid guidKey, Guid guidValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>guidValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_SetItem_" data-uid="NAudio.MediaFoundation.IMFActivate.SetItem*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_SetItem_System_Guid_System_IntPtr_" data-uid="NAudio.MediaFoundation.IMFActivate.SetItem(System.Guid,System.IntPtr)">
+  SetItem(Guid, IntPtr)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetItem(Guid guidKey, IntPtr value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_SetString_" data-uid="NAudio.MediaFoundation.IMFActivate.SetString*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_SetString_System_Guid_System_String_" data-uid="NAudio.MediaFoundation.IMFActivate.SetString(System.Guid,System.String)">
+  SetString(Guid, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetString(Guid guidKey, string wszValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>wszValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_SetUINT32_" data-uid="NAudio.MediaFoundation.IMFActivate.SetUINT32*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_SetUINT32_System_Guid_System_Int32_" data-uid="NAudio.MediaFoundation.IMFActivate.SetUINT32(System.Guid,System.Int32)">
+  SetUINT32(Guid, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetUINT32(Guid guidKey, int unValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>unValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_SetUINT64_" data-uid="NAudio.MediaFoundation.IMFActivate.SetUINT64*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_SetUINT64_System_Guid_System_Int64_" data-uid="NAudio.MediaFoundation.IMFActivate.SetUINT64(System.Guid,System.Int64)">
+  SetUINT64(Guid, long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetUINT64(Guid guidKey, long unValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>unValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_SetUnknown_" data-uid="NAudio.MediaFoundation.IMFActivate.SetUnknown*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_SetUnknown_System_Guid_System_Object_" data-uid="NAudio.MediaFoundation.IMFActivate.SetUnknown(System.Guid,System.Object)">
+  SetUnknown(Guid, object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetUnknown(Guid guidKey, object pUnknown)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>pUnknown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_ShutdownObject_" data-uid="NAudio.MediaFoundation.IMFActivate.ShutdownObject*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_ShutdownObject" data-uid="NAudio.MediaFoundation.IMFActivate.ShutdownObject">
+  ShutdownObject()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ShutdownObject()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFActivate_UnlockStore_" data-uid="NAudio.MediaFoundation.IMFActivate.UnlockStore*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFActivate_UnlockStore" data-uid="NAudio.MediaFoundation.IMFActivate.UnlockStore">
+  UnlockStore()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UnlockStore()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

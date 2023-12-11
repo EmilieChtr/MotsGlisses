@@ -1,0 +1,806 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class WaveBuffer
+ | MotsGliss&#233;s </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class WaveBuffer
+ | MotsGliss&#233;s ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="MotsGliss&#233;s">
+            MotsGliss&#233;s
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NAudio.Wave.WaveBuffer">
+
+
+
+  <h1 id="NAudio_Wave_WaveBuffer" data-uid="NAudio.Wave.WaveBuffer" class="text-break">
+    Class WaveBuffer
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NAudio.html">NAudio</a>.<a class="xref" href="NAudio.Wave.html">Wave</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NAudio.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class WaveBuffer : IWaveBuffer</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">WaveBuffer</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="NAudio.Wave.IWaveBuffer.html">IWaveBuffer</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="NAudio_Wave_WaveBuffer__ctor_" data-uid="NAudio.Wave.WaveBuffer.#ctor*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer__ctor_System_Byte___" data-uid="NAudio.Wave.WaveBuffer.#ctor(System.Byte[])">
+  WaveBuffer(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WaveBuffer(byte[] bufferToBoundTo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bufferToBoundTo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Wave_WaveBuffer__ctor_" data-uid="NAudio.Wave.WaveBuffer.#ctor*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer__ctor_System_Int32_" data-uid="NAudio.Wave.WaveBuffer.#ctor(System.Int32)">
+  WaveBuffer(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WaveBuffer(int sizeToAllocateInBytes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sizeToAllocateInBytes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="NAudio_Wave_WaveBuffer_numberOfBytes" data-uid="NAudio.Wave.WaveBuffer.numberOfBytes">
+  numberOfBytes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int numberOfBytes</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NAudio_Wave_WaveBuffer_ByteBuffer_" data-uid="NAudio.Wave.WaveBuffer.ByteBuffer*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer_ByteBuffer" data-uid="NAudio.Wave.WaveBuffer.ByteBuffer">
+  ByteBuffer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] ByteBuffer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_Wave_WaveBuffer_ByteBufferCount_" data-uid="NAudio.Wave.WaveBuffer.ByteBufferCount*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer_ByteBufferCount" data-uid="NAudio.Wave.WaveBuffer.ByteBufferCount">
+  ByteBufferCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ByteBufferCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_Wave_WaveBuffer_FloatBuffer_" data-uid="NAudio.Wave.WaveBuffer.FloatBuffer*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer_FloatBuffer" data-uid="NAudio.Wave.WaveBuffer.FloatBuffer">
+  FloatBuffer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float[] FloatBuffer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_Wave_WaveBuffer_FloatBufferCount_" data-uid="NAudio.Wave.WaveBuffer.FloatBufferCount*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer_FloatBufferCount" data-uid="NAudio.Wave.WaveBuffer.FloatBufferCount">
+  FloatBufferCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FloatBufferCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_Wave_WaveBuffer_IntBuffer_" data-uid="NAudio.Wave.WaveBuffer.IntBuffer*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer_IntBuffer" data-uid="NAudio.Wave.WaveBuffer.IntBuffer">
+  IntBuffer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int[] IntBuffer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_Wave_WaveBuffer_IntBufferCount_" data-uid="NAudio.Wave.WaveBuffer.IntBufferCount*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer_IntBufferCount" data-uid="NAudio.Wave.WaveBuffer.IntBufferCount">
+  IntBufferCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int IntBufferCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_Wave_WaveBuffer_MaxSize_" data-uid="NAudio.Wave.WaveBuffer.MaxSize*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer_MaxSize" data-uid="NAudio.Wave.WaveBuffer.MaxSize">
+  MaxSize
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MaxSize { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_Wave_WaveBuffer_ShortBuffer_" data-uid="NAudio.Wave.WaveBuffer.ShortBuffer*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer_ShortBuffer" data-uid="NAudio.Wave.WaveBuffer.ShortBuffer">
+  ShortBuffer
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short[] ShortBuffer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_Wave_WaveBuffer_ShortBufferCount_" data-uid="NAudio.Wave.WaveBuffer.ShortBufferCount*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer_ShortBufferCount" data-uid="NAudio.Wave.WaveBuffer.ShortBufferCount">
+  ShortBufferCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ShortBufferCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NAudio_Wave_WaveBuffer_BindTo_" data-uid="NAudio.Wave.WaveBuffer.BindTo*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer_BindTo_System_Byte___" data-uid="NAudio.Wave.WaveBuffer.BindTo(System.Byte[])">
+  BindTo(byte[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BindTo(byte[] bufferToBoundTo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bufferToBoundTo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Wave_WaveBuffer_Clear_" data-uid="NAudio.Wave.WaveBuffer.Clear*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer_Clear" data-uid="NAudio.Wave.WaveBuffer.Clear">
+  Clear()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Wave_WaveBuffer_Copy_" data-uid="NAudio.Wave.WaveBuffer.Copy*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer_Copy_System_Array_" data-uid="NAudio.Wave.WaveBuffer.Copy(System.Array)">
+  Copy(Array)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Copy(Array destinationArray)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>destinationArray</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.array">Array</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="NAudio_Wave_WaveBuffer_op_Implicit_" data-uid="NAudio.Wave.WaveBuffer.op_Implicit*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer_op_Implicit_NAudio_Wave_WaveBuffer__System_Byte__" data-uid="NAudio.Wave.WaveBuffer.op_Implicit(NAudio.Wave.WaveBuffer)~System.Byte[]">
+  implicit operator byte[](WaveBuffer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator byte[](WaveBuffer waveBuffer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>waveBuffer</code> <a class="xref" href="NAudio.Wave.WaveBuffer.html">WaveBuffer</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Wave_WaveBuffer_op_Implicit_" data-uid="NAudio.Wave.WaveBuffer.op_Implicit*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer_op_Implicit_NAudio_Wave_WaveBuffer__System_Int16__" data-uid="NAudio.Wave.WaveBuffer.op_Implicit(NAudio.Wave.WaveBuffer)~System.Int16[]">
+  implicit operator short[](WaveBuffer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator short[](WaveBuffer waveBuffer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>waveBuffer</code> <a class="xref" href="NAudio.Wave.WaveBuffer.html">WaveBuffer</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Wave_WaveBuffer_op_Implicit_" data-uid="NAudio.Wave.WaveBuffer.op_Implicit*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer_op_Implicit_NAudio_Wave_WaveBuffer__System_Int32__" data-uid="NAudio.Wave.WaveBuffer.op_Implicit(NAudio.Wave.WaveBuffer)~System.Int32[]">
+  implicit operator int[](WaveBuffer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator int[](WaveBuffer waveBuffer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>waveBuffer</code> <a class="xref" href="NAudio.Wave.WaveBuffer.html">WaveBuffer</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Wave_WaveBuffer_op_Implicit_" data-uid="NAudio.Wave.WaveBuffer.op_Implicit*"></a>
+
+  <h3 id="NAudio_Wave_WaveBuffer_op_Implicit_NAudio_Wave_WaveBuffer__System_Single__" data-uid="NAudio.Wave.WaveBuffer.op_Implicit(NAudio.Wave.WaveBuffer)~System.Single[]">
+  implicit operator float[](WaveBuffer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator float[](WaveBuffer waveBuffer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>waveBuffer</code> <a class="xref" href="NAudio.Wave.WaveBuffer.html">WaveBuffer</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

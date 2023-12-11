@@ -218,3 +218,4 @@ C:\Users\emich\MotsGlisses\InterfaceTests\obj\Debug\net6.0\refint\InterfaceTests
 C:\Users\emich\MotsGlisses\InterfaceTests\obj\Debug\net6.0\InterfaceTests.pdb
 C:\Users\emich\MotsGlisses\InterfaceTests\obj\Debug\net6.0\InterfaceTests.genruntimeconfig.cache
 C:\Users\emich\MotsGlisses\InterfaceTests\obj\Debug\net6.0\ref\InterfaceTests.dll
+C:\Users\emich\MotsGlisses\InterfaceTests\bin\Debug\net6.0\Interface.xml

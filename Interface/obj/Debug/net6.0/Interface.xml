@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Interface</name>
+    </assembly>
+    <members>
+        <member name="M:Interface.Dictionnaire.#ctor(System.String,System.String)">
+            <summary>
+            Constructeur du dictionnaire prend en entrée le nom du fichier qu'il va lire et convertir en tableau de tableaux
+            Tout en triant grace à un tri fusion les elements de chaque ligne quand il l'ajoute au tableau
+            Les try catch permettent d'éviter les exception du type : Fichier non trouvé ou indice hors des limites
+            </summary>
+            <param name="nomDuFichier"></param>
+            <param name="l"></param>
+        </member>
+        <member name="M:Interface.Dictionnaire.DicoToString">
+            <summary>
+            Methode pour decrire une instance de la classe Dictionaire en donnant pour chaque lettre le nom de mots qu'il contient
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Interface.Dictionnaire.RechDichoRecursifInstance(System.String)">
+            <summary>
+            Methode d'instance qui fait la recherche Recursive dans le dico pour plus de practicité
+            </summary>
+            <param name="mot"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Interface.Dictionnaire.RechDichoRecursif(System.Int32,System.Int32,System.String[],System.String)">
+            <summary>
+            Methode de classe qui effectue la recherche recursive dans le dico comme vu en TD et cours de Compléxité
+            </summary>
+            <param name="debut"></param>
+            <param name="fin"></param>
+            <param name="dico"></param>
+            <param name="mot"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Interface.Dictionnaire.TriFusionRecursif(System.String[],System.Int32,System.Int32)">
+            <summary>
+            Methode qui effectue le tri fusion comme vu en TD
+            </summary>
+            <param name="tab"></param>
+            <param name="debut"></param>
+            <param name="fin"></param>
+        </member>
+        <member name="M:Interface.Dictionnaire.Fusion(System.String[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Methode qui effectue la fusion entre deux tableaux
+            </summary>
+            <param name="tab"></param>
+            <param name="debut"></param>
+            <param name="milieu"></param>
+            <param name="fin"></param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Interface.Jeu.Joueur1(System.TimeSpan,System.DateTime)" -->
+        <!-- Badly formed XML comment ignored for member "M:Interface.Jeu.Joueur2(System.TimeSpan,System.DateTime)" -->
+        <!-- Badly formed XML comment ignored for member "M:Interface.Joueur.#ctor(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:Interface.Joueur.Add_Mot(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:Interface.Joueur.Add_Score(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:Interface.Joueur.Contient(System.String)" -->
+        <member name="M:Interface.Plateau.#ctor(System.Int32,System.String,System.String)">
+            <summary>
+            Constructeur d'un plateau pour le cas sans fichier
+            </summary>
+            <param name="taille"></param>
+            <param name="fPlateau"></param>
+            <param name="fLettresRegles"></param>
+        </member>
+        <member name="M:Interface.Plateau.#ctor(System.String)">
+            <summary>
+            Constructeur du plateau pour le cas avec un fichier
+            </summary>
+            <param name="fPlateau"></param>
+        </member>
+        <member name="M:Interface.Plateau.CreerLettresRegles(System.String)">
+            <summary>
+            Met le contenu du fichier Lettre.txt dans string[][] lettresRegles
+            </summary>
+            <param name="fLettresRegles"></param>
+        </member>
+        <member name="M:Interface.Plateau.RemplirPlateauLettres">
+            <summary>
+            Rempli le plateau de lettre en appelant ChoisirLettre pour choisir des lettre avec une probabilité d'apparition cohérente à la probabilité de retrouvé ces lettres dans la langue francaise
+            </summary>
+        </member>
+        <member name="M:Interface.Plateau.ChoisirLettre(System.Double[],System.Random)">
+            <summary>
+            Utilise le tableau de probabilité des lettres déclaré dans les attributs de la classe pour choisir une lettre
+            </summary>
+            <param name="probabilites"></param>
+            <param name="rand"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Interface.Plateau.InitiaIntTab0(System.Int32[])">
+            <summary>
+            Methode qui initialise chacun des membres d'un tableau de int à 0 de facon à ne pas avoir un tableau rempli de valeur null
+            </summary>
+            <param name="tab"></param>
+        </member>
+        <member name="M:Interface.Plateau.PlateauToString">
+            <summary>
+            Methode qui retourne le plateau en string (toString())
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Interface.Plateau.ToFile">
+            <summary>
+            Methode qui ecrit le fichier du plateau et sauvegarde la plateau à l'interieur
+            </summary>
+        </member>
+        <member name="M:Interface.Plateau.ToRead">
+            <summary>
+            Methode qui lit le fichier csv et convertit son contenu en Plateau
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Interface.Plateau.RechercheMot(System.String)">
+            <summary>
+            Methode qui Recherche un mot dans la matrice et qui retourne un Dictionary avec les coordonnéés des lettres si le mot est trouvé
+            </summary>
+            <param name="mot"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Interface.Plateau.MotEstPresentRecursif(System.String,System.Int32,System.Int32,System.Int32,System.Collections.Generic.Dictionary{System.ValueTuple{System.Int32,System.Int32},System.Char})">
+            <summary>
+            Methode qui renvoit si true si un mot est present dans la matrice et false sinon
+            </summary>
+            <param name="mot"></param>
+            <param name="ligne"></param>
+            <param name="col"></param>
+            <param name="index"></param>
+            <param name="res"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Interface.Plateau.MajPlateau(System.Collections.Generic.Dictionary{System.ValueTuple{System.Int32,System.Int32},System.Char})">
+            <summary>
+            Methode qui met à jour le Plateau
+            </summary>
+            <param name="res"></param>
+        </member>
+        <member name="M:Interface.Plateau.DecaleColonnePlateau(System.Char[0:,0:],System.Int32,System.Int32)">
+            <summary>
+            Methode qui decale une colone d'une matrice plusieurs fois en fonction de la ligne à laquel la lettre effacée est et si la case en dessous est effacé aussi ou pas
+            </summary>
+            <param name="plateau"></param>
+            <param name="col"></param>
+            <param name="ligne"></param>
+        </member>
+        <member name="M:Interface.Plateau.DecaleColonnePlateau1(System.Char[0:,0:],System.Int32)">
+            <summary>
+            Methode qui decale une colonne d'une matrice de 1
+            </summary>
+            <param name="plateau"></param>
+            <param name="col"></param>
+        </member>
+        <member name="M:Interface.Program.Main">
+            <summary>
+            Le Main s'occupe de faire l'affichage de l'entrée du jeu (titre) puis appelle AffMenu pour afficher le menu
+            </summary>
+        </member>
+        <member name="M:Interface.Program.AffMenu(NAudio.Wave.WaveOutEvent)">
+            <summary>
+            La méthode AffMenu affiche le menu et laisse le choix a l'utilisateur entre le fichier, aléatoire et sortir
+            Elle demande le fichier tant qu'elle ne le trouve pas dans le l'ordinateur
+            </summary>
+        </member>
+        <member name="M:Interface.Program.Fin">
+            <summary>
+            La méthode Fin s'execute quand une partie est finie, elle demande à l'utilisateur si il veut refaire une partie ou non
+            si oui on retourne au menu
+            si non on sort de la console
+            </summary>
+        </member>
+    </members>
+</doc>
