@@ -1,0 +1,983 @@
+### YamlMime:ManagedReference
+items:
+- uid: Interface.Plateau
+  commentId: T:Interface.Plateau
+  id: Plateau
+  parent: Interface
+  children:
+  - Interface.Plateau.#ctor(System.Int32,System.String,System.String)
+  - Interface.Plateau.#ctor(System.String)
+  - Interface.Plateau.CreerLettresRegles(System.String)
+  - Interface.Plateau.DecaleColonnePlateau(System.Char[0:,0:],System.Int32,System.Int32)
+  - Interface.Plateau.DecaleColonnePlateau1(System.Char[0:,0:],System.Int32)
+  - Interface.Plateau.InitiaIntTab0(System.Int32[])
+  - Interface.Plateau.MajPlateau(System.Collections.Generic.Dictionary{System.ValueTuple{System.Int32,System.Int32},System.Char})
+  - Interface.Plateau.PlateauToString
+  - Interface.Plateau.RechercheMot(System.String)
+  - Interface.Plateau.RemplirPlateauLettres
+  - Interface.Plateau.ToFile
+  - Interface.Plateau.ToRead
+  langs:
+  - csharp
+  - vb
+  name: Plateau
+  nameWithType: Plateau
+  fullName: Interface.Plateau
+  type: Class
+  source:
+    remote:
+      path: Interface/Plateau.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: Plateau
+    path: ../Interface/Plateau.cs
+    startLine: 13
+  assemblies:
+  - Interface
+  namespace: Interface
+  syntax:
+    content: public class Plateau
+    content.vb: Public Class Plateau
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Interface.Plateau.#ctor(System.Int32,System.String,System.String)
+  commentId: M:Interface.Plateau.#ctor(System.Int32,System.String,System.String)
+  id: '#ctor(System.Int32,System.String,System.String)'
+  parent: Interface.Plateau
+  langs:
+  - csharp
+  - vb
+  name: Plateau(int, string, string)
+  nameWithType: Plateau.Plateau(int, string, string)
+  fullName: Interface.Plateau.Plateau(int, string, string)
+  type: Constructor
+  source:
+    remote:
+      path: Interface/Plateau.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: .ctor
+    path: ../Interface/Plateau.cs
+    startLine: 46
+  assemblies:
+  - Interface
+  namespace: Interface
+  summary: Constructeur d'un plateau pour le cas sans fichier
+  example: []
+  syntax:
+    content: public Plateau(int taille = 8, string fPlateau = "Plateau.csv", string fLettresRegles = "Lettre.txt")
+    parameters:
+    - id: taille
+      type: System.Int32
+      description: ''
+    - id: fPlateau
+      type: System.String
+      description: ''
+    - id: fLettresRegles
+      type: System.String
+      description: ''
+    content.vb: Public Sub New(taille As Integer = 8, fPlateau As String = "Plateau.csv", fLettresRegles As String = "Lettre.txt")
+  overload: Interface.Plateau.#ctor*
+  nameWithType.vb: Plateau.New(Integer, String, String)
+  fullName.vb: Interface.Plateau.New(Integer, String, String)
+  name.vb: New(Integer, String, String)
+- uid: Interface.Plateau.#ctor(System.String)
+  commentId: M:Interface.Plateau.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Interface.Plateau
+  langs:
+  - csharp
+  - vb
+  name: Plateau(string)
+  nameWithType: Plateau.Plateau(string)
+  fullName: Interface.Plateau.Plateau(string)
+  type: Constructor
+  source:
+    remote:
+      path: Interface/Plateau.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: .ctor
+    path: ../Interface/Plateau.cs
+    startLine: 72
+  assemblies:
+  - Interface
+  namespace: Interface
+  summary: Constructeur du plateau pour le cas avec un fichier
+  example: []
+  syntax:
+    content: public Plateau(string fPlateau)
+    parameters:
+    - id: fPlateau
+      type: System.String
+      description: ''
+    content.vb: Public Sub New(fPlateau As String)
+  overload: Interface.Plateau.#ctor*
+  nameWithType.vb: Plateau.New(String)
+  fullName.vb: Interface.Plateau.New(String)
+  name.vb: New(String)
+- uid: Interface.Plateau.CreerLettresRegles(System.String)
+  commentId: M:Interface.Plateau.CreerLettresRegles(System.String)
+  id: CreerLettresRegles(System.String)
+  parent: Interface.Plateau
+  langs:
+  - csharp
+  - vb
+  name: CreerLettresRegles(string)
+  nameWithType: Plateau.CreerLettresRegles(string)
+  fullName: Interface.Plateau.CreerLettresRegles(string)
+  type: Method
+  source:
+    remote:
+      path: Interface/Plateau.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: CreerLettresRegles
+    path: ../Interface/Plateau.cs
+    startLine: 98
+  assemblies:
+  - Interface
+  namespace: Interface
+  summary: Met le contenu du fichier Lettre.txt dans string[][] lettresRegles
+  example: []
+  syntax:
+    content: public void CreerLettresRegles(string fLettresRegles)
+    parameters:
+    - id: fLettresRegles
+      type: System.String
+      description: ''
+    content.vb: Public Sub CreerLettresRegles(fLettresRegles As String)
+  overload: Interface.Plateau.CreerLettresRegles*
+  nameWithType.vb: Plateau.CreerLettresRegles(String)
+  fullName.vb: Interface.Plateau.CreerLettresRegles(String)
+  name.vb: CreerLettresRegles(String)
+- uid: Interface.Plateau.RemplirPlateauLettres
+  commentId: M:Interface.Plateau.RemplirPlateauLettres
+  id: RemplirPlateauLettres
+  parent: Interface.Plateau
+  langs:
+  - csharp
+  - vb
+  name: RemplirPlateauLettres()
+  nameWithType: Plateau.RemplirPlateauLettres()
+  fullName: Interface.Plateau.RemplirPlateauLettres()
+  type: Method
+  source:
+    remote:
+      path: Interface/Plateau.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: RemplirPlateauLettres
+    path: ../Interface/Plateau.cs
+    startLine: 124
+  assemblies:
+  - Interface
+  namespace: Interface
+  summary: Rempli le plateau de lettre en appelant ChoisirLettre pour choisir des lettre avec une probabilité d'apparition cohérente à la probabilité de retrouvé ces lettres dans la langue francaise
+  example: []
+  syntax:
+    content: public void RemplirPlateauLettres()
+    content.vb: Public Sub RemplirPlateauLettres()
+  overload: Interface.Plateau.RemplirPlateauLettres*
+- uid: Interface.Plateau.InitiaIntTab0(System.Int32[])
+  commentId: M:Interface.Plateau.InitiaIntTab0(System.Int32[])
+  id: InitiaIntTab0(System.Int32[])
+  parent: Interface.Plateau
+  langs:
+  - csharp
+  - vb
+  name: InitiaIntTab0(int[])
+  nameWithType: Plateau.InitiaIntTab0(int[])
+  fullName: Interface.Plateau.InitiaIntTab0(int[])
+  type: Method
+  source:
+    remote:
+      path: Interface/Plateau.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: InitiaIntTab0
+    path: ../Interface/Plateau.cs
+    startLine: 165
+  assemblies:
+  - Interface
+  namespace: Interface
+  summary: Methode qui initialise chacun des membres d'un tableau de int à 0 de facon à ne pas avoir un tableau rempli de valeur null
+  example: []
+  syntax:
+    content: public static void InitiaIntTab0(int[] tab)
+    parameters:
+    - id: tab
+      type: System.Int32[]
+      description: ''
+    content.vb: Public Shared Sub InitiaIntTab0(tab As Integer())
+  overload: Interface.Plateau.InitiaIntTab0*
+  nameWithType.vb: Plateau.InitiaIntTab0(Integer())
+  fullName.vb: Interface.Plateau.InitiaIntTab0(Integer())
+  name.vb: InitiaIntTab0(Integer())
+- uid: Interface.Plateau.PlateauToString
+  commentId: M:Interface.Plateau.PlateauToString
+  id: PlateauToString
+  parent: Interface.Plateau
+  langs:
+  - csharp
+  - vb
+  name: PlateauToString()
+  nameWithType: Plateau.PlateauToString()
+  fullName: Interface.Plateau.PlateauToString()
+  type: Method
+  source:
+    remote:
+      path: Interface/Plateau.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: PlateauToString
+    path: ../Interface/Plateau.cs
+    startLine: 183
+  assemblies:
+  - Interface
+  namespace: Interface
+  summary: Methode qui retourne le plateau en string (toString())
+  example: []
+  syntax:
+    content: public string PlateauToString()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Function PlateauToString() As String
+  overload: Interface.Plateau.PlateauToString*
+- uid: Interface.Plateau.ToFile
+  commentId: M:Interface.Plateau.ToFile
+  id: ToFile
+  parent: Interface.Plateau
+  langs:
+  - csharp
+  - vb
+  name: ToFile()
+  nameWithType: Plateau.ToFile()
+  fullName: Interface.Plateau.ToFile()
+  type: Method
+  source:
+    remote:
+      path: Interface/Plateau.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: ToFile
+    path: ../Interface/Plateau.cs
+    startLine: 214
+  assemblies:
+  - Interface
+  namespace: Interface
+  summary: Methode qui ecrit le fichier du plateau et sauvegarde la plateau à l'interieur
+  example: []
+  syntax:
+    content: public void ToFile()
+    content.vb: Public Sub ToFile()
+  overload: Interface.Plateau.ToFile*
+- uid: Interface.Plateau.ToRead
+  commentId: M:Interface.Plateau.ToRead
+  id: ToRead
+  parent: Interface.Plateau
+  langs:
+  - csharp
+  - vb
+  name: ToRead()
+  nameWithType: Plateau.ToRead()
+  fullName: Interface.Plateau.ToRead()
+  type: Method
+  source:
+    remote:
+      path: Interface/Plateau.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: ToRead
+    path: ../Interface/Plateau.cs
+    startLine: 258
+  assemblies:
+  - Interface
+  namespace: Interface
+  summary: Methode qui lit le fichier csv et convertit son contenu en Plateau
+  example: []
+  syntax:
+    content: public char[,] ToRead()
+    return:
+      type: System.Char[,]
+      description: ''
+    content.vb: Public Function ToRead() As Char(,)
+  overload: Interface.Plateau.ToRead*
+- uid: Interface.Plateau.RechercheMot(System.String)
+  commentId: M:Interface.Plateau.RechercheMot(System.String)
+  id: RechercheMot(System.String)
+  parent: Interface.Plateau
+  langs:
+  - csharp
+  - vb
+  name: RechercheMot(string)
+  nameWithType: Plateau.RechercheMot(string)
+  fullName: Interface.Plateau.RechercheMot(string)
+  type: Method
+  source:
+    remote:
+      path: Interface/Plateau.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: RechercheMot
+    path: ../Interface/Plateau.cs
+    startLine: 292
+  assemblies:
+  - Interface
+  namespace: Interface
+  summary: Methode qui Recherche un mot dans la matrice et qui retourne un Dictionary avec les coordonnéés des lettres si le mot est trouvé
+  example: []
+  syntax:
+    content: public Dictionary<(int, int), char> RechercheMot(string mot)
+    parameters:
+    - id: mot
+      type: System.String
+      description: ''
+    return:
+      type: System.Collections.Generic.Dictionary{System.ValueTuple{System.Int32,System.Int32},System.Char}
+      description: ''
+    content.vb: Public Function RechercheMot(mot As String) As Dictionary(Of (Integer, Integer), Char)
+  overload: Interface.Plateau.RechercheMot*
+  nameWithType.vb: Plateau.RechercheMot(String)
+  fullName.vb: Interface.Plateau.RechercheMot(String)
+  name.vb: RechercheMot(String)
+- uid: Interface.Plateau.MajPlateau(System.Collections.Generic.Dictionary{System.ValueTuple{System.Int32,System.Int32},System.Char})
+  commentId: M:Interface.Plateau.MajPlateau(System.Collections.Generic.Dictionary{System.ValueTuple{System.Int32,System.Int32},System.Char})
+  id: MajPlateau(System.Collections.Generic.Dictionary{System.ValueTuple{System.Int32,System.Int32},System.Char})
+  parent: Interface.Plateau
+  langs:
+  - csharp
+  - vb
+  name: MajPlateau(Dictionary<(int, int), char>)
+  nameWithType: Plateau.MajPlateau(Dictionary<(int, int), char>)
+  fullName: Interface.Plateau.MajPlateau(System.Collections.Generic.Dictionary<(int, int), char>)
+  type: Method
+  source:
+    remote:
+      path: Interface/Plateau.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: MajPlateau
+    path: ../Interface/Plateau.cs
+    startLine: 412
+  assemblies:
+  - Interface
+  namespace: Interface
+  summary: Methode qui met à jour le Plateau
+  example: []
+  syntax:
+    content: public void MajPlateau(Dictionary<(int, int), char> res)
+    parameters:
+    - id: res
+      type: System.Collections.Generic.Dictionary{System.ValueTuple{System.Int32,System.Int32},System.Char}
+      description: ''
+    content.vb: Public Sub MajPlateau(res As Dictionary(Of (Integer, Integer), Char))
+  overload: Interface.Plateau.MajPlateau*
+  nameWithType.vb: Plateau.MajPlateau(Dictionary(Of (Integer, Integer), Char))
+  fullName.vb: Interface.Plateau.MajPlateau(System.Collections.Generic.Dictionary(Of (Integer, Integer), Char))
+  name.vb: MajPlateau(Dictionary(Of (Integer, Integer), Char))
+- uid: Interface.Plateau.DecaleColonnePlateau(System.Char[0:,0:],System.Int32,System.Int32)
+  commentId: M:Interface.Plateau.DecaleColonnePlateau(System.Char[0:,0:],System.Int32,System.Int32)
+  id: DecaleColonnePlateau(System.Char[0:,0:],System.Int32,System.Int32)
+  parent: Interface.Plateau
+  langs:
+  - csharp
+  - vb
+  name: DecaleColonnePlateau(char[,], int, int)
+  nameWithType: Plateau.DecaleColonnePlateau(char[,], int, int)
+  fullName: Interface.Plateau.DecaleColonnePlateau(char[,], int, int)
+  type: Method
+  source:
+    remote:
+      path: Interface/Plateau.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: DecaleColonnePlateau
+    path: ../Interface/Plateau.cs
+    startLine: 457
+  assemblies:
+  - Interface
+  namespace: Interface
+  summary: Methode qui decale une colone d'une matrice plusieurs fois en fonction de la ligne à laquel la lettre effacée est et si la case en dessous est effacé aussi ou pas
+  example: []
+  syntax:
+    content: public static void DecaleColonnePlateau(char[,] plateau, int col, int ligne)
+    parameters:
+    - id: plateau
+      type: System.Char[,]
+      description: ''
+    - id: col
+      type: System.Int32
+      description: ''
+    - id: ligne
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Sub DecaleColonnePlateau(plateau As Char(,), col As Integer, ligne As Integer)
+  overload: Interface.Plateau.DecaleColonnePlateau*
+  nameWithType.vb: Plateau.DecaleColonnePlateau(Char(,), Integer, Integer)
+  fullName.vb: Interface.Plateau.DecaleColonnePlateau(Char(,), Integer, Integer)
+  name.vb: DecaleColonnePlateau(Char(,), Integer, Integer)
+- uid: Interface.Plateau.DecaleColonnePlateau1(System.Char[0:,0:],System.Int32)
+  commentId: M:Interface.Plateau.DecaleColonnePlateau1(System.Char[0:,0:],System.Int32)
+  id: DecaleColonnePlateau1(System.Char[0:,0:],System.Int32)
+  parent: Interface.Plateau
+  langs:
+  - csharp
+  - vb
+  name: DecaleColonnePlateau1(char[,], int)
+  nameWithType: Plateau.DecaleColonnePlateau1(char[,], int)
+  fullName: Interface.Plateau.DecaleColonnePlateau1(char[,], int)
+  type: Method
+  source:
+    remote:
+      path: Interface/Plateau.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: DecaleColonnePlateau1
+    path: ../Interface/Plateau.cs
+    startLine: 478
+  assemblies:
+  - Interface
+  namespace: Interface
+  summary: Methode qui decale une colonne d'une matrice de 1
+  example: []
+  syntax:
+    content: public static void DecaleColonnePlateau1(char[,] plateau, int col)
+    parameters:
+    - id: plateau
+      type: System.Char[,]
+      description: ''
+    - id: col
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Sub DecaleColonnePlateau1(plateau As Char(,), col As Integer)
+  overload: Interface.Plateau.DecaleColonnePlateau1*
+  nameWithType.vb: Plateau.DecaleColonnePlateau1(Char(,), Integer)
+  fullName.vb: Interface.Plateau.DecaleColonnePlateau1(Char(,), Integer)
+  name.vb: DecaleColonnePlateau1(Char(,), Integer)
+references:
+- uid: Interface
+  commentId: N:Interface
+  href: Interface.html
+  name: Interface
+  nameWithType: Interface
+  fullName: Interface
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Interface.Plateau.#ctor*
+  commentId: Overload:Interface.Plateau.#ctor
+  href: Interface.Plateau.html#Interface_Plateau__ctor_System_Int32_System_String_System_String_
+  name: Plateau
+  nameWithType: Plateau.Plateau
+  fullName: Interface.Plateau.Plateau
+  nameWithType.vb: Plateau.New
+  fullName.vb: Interface.Plateau.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Interface.Plateau.CreerLettresRegles*
+  commentId: Overload:Interface.Plateau.CreerLettresRegles
+  href: Interface.Plateau.html#Interface_Plateau_CreerLettresRegles_System_String_
+  name: CreerLettresRegles
+  nameWithType: Plateau.CreerLettresRegles
+  fullName: Interface.Plateau.CreerLettresRegles
+- uid: Interface.Plateau.RemplirPlateauLettres*
+  commentId: Overload:Interface.Plateau.RemplirPlateauLettres
+  href: Interface.Plateau.html#Interface_Plateau_RemplirPlateauLettres
+  name: RemplirPlateauLettres
+  nameWithType: Plateau.RemplirPlateauLettres
+  fullName: Interface.Plateau.RemplirPlateauLettres
+- uid: Interface.Plateau.InitiaIntTab0*
+  commentId: Overload:Interface.Plateau.InitiaIntTab0
+  href: Interface.Plateau.html#Interface_Plateau_InitiaIntTab0_System_Int32___
+  name: InitiaIntTab0
+  nameWithType: Plateau.InitiaIntTab0
+  fullName: Interface.Plateau.InitiaIntTab0
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: Interface.Plateau.PlateauToString*
+  commentId: Overload:Interface.Plateau.PlateauToString
+  href: Interface.Plateau.html#Interface_Plateau_PlateauToString
+  name: PlateauToString
+  nameWithType: Plateau.PlateauToString
+  fullName: Interface.Plateau.PlateauToString
+- uid: Interface.Plateau.ToFile*
+  commentId: Overload:Interface.Plateau.ToFile
+  href: Interface.Plateau.html#Interface_Plateau_ToFile
+  name: ToFile
+  nameWithType: Plateau.ToFile
+  fullName: Interface.Plateau.ToFile
+- uid: Interface.Plateau.ToRead*
+  commentId: Overload:Interface.Plateau.ToRead
+  href: Interface.Plateau.html#Interface_Plateau_ToRead
+  name: ToRead
+  nameWithType: Plateau.ToRead
+  fullName: Interface.Plateau.ToRead
+- uid: System.Char[,]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char[,]
+  nameWithType: char[,]
+  fullName: char[,]
+  nameWithType.vb: Char(,)
+  fullName.vb: Char(,)
+  name.vb: Char(,)
+  spec.csharp:
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '['
+  - name: ','
+  - name: ']'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: (
+  - name: ','
+  - name: )
+- uid: Interface.Plateau.RechercheMot*
+  commentId: Overload:Interface.Plateau.RechercheMot
+  href: Interface.Plateau.html#Interface_Plateau_RechercheMot_System_String_
+  name: RechercheMot
+  nameWithType: Plateau.RechercheMot
+  fullName: Interface.Plateau.RechercheMot
+- uid: System.Collections.Generic.Dictionary{System.ValueTuple{System.Int32,System.Int32},System.Char}
+  commentId: T:System.Collections.Generic.Dictionary{System.ValueTuple{System.Int32,System.Int32},System.Char}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<(int, int), char>
+  nameWithType: Dictionary<(int, int), char>
+  fullName: System.Collections.Generic.Dictionary<(int, int), char>
+  nameWithType.vb: Dictionary(Of (Integer, Integer), Char)
+  fullName.vb: System.Collections.Generic.Dictionary(Of (Integer, Integer), Char)
+  name.vb: Dictionary(Of (Integer, Integer), Char)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Interface.Plateau.MajPlateau*
+  commentId: Overload:Interface.Plateau.MajPlateau
+  href: Interface.Plateau.html#Interface_Plateau_MajPlateau_System_Collections_Generic_Dictionary_System_ValueTuple_System_Int32_System_Int32__System_Char__
+  name: MajPlateau
+  nameWithType: Plateau.MajPlateau
+  fullName: Interface.Plateau.MajPlateau
+- uid: Interface.Plateau.DecaleColonnePlateau*
+  commentId: Overload:Interface.Plateau.DecaleColonnePlateau
+  href: Interface.Plateau.html#Interface_Plateau_DecaleColonnePlateau_System_Char_0
+  name: DecaleColonnePlateau
+  nameWithType: Plateau.DecaleColonnePlateau
+  fullName: Interface.Plateau.DecaleColonnePlateau
+- uid: Interface.Plateau.DecaleColonnePlateau1*
+  commentId: Overload:Interface.Plateau.DecaleColonnePlateau1
+  href: Interface.Plateau.html#Interface_Plateau_DecaleColonnePlateau1_System_Char_0
+  name: DecaleColonnePlateau1
+  nameWithType: Plateau.DecaleColonnePlateau1
+  fullName: Interface.Plateau.DecaleColonnePlateau1

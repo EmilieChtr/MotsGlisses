@@ -1,0 +1,514 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Interface
+  name: Interface
+  href: api/Interface.html
+  commentId: N:Interface
+  fullName: Interface
+  nameWithType: Interface
+- uid: Interface.Dictionnaire
+  name: Dictionnaire
+  href: api/Interface.Dictionnaire.html
+  commentId: T:Interface.Dictionnaire
+  fullName: Interface.Dictionnaire
+  nameWithType: Dictionnaire
+- uid: Interface.Dictionnaire.#ctor(System.String,System.String)
+  name: Dictionnaire(string, string)
+  href: api/Interface.Dictionnaire.html#Interface_Dictionnaire__ctor_System_String_System_String_
+  commentId: M:Interface.Dictionnaire.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: Interface.Dictionnaire.Dictionnaire(string, string)
+  fullName.vb: Interface.Dictionnaire.New(String, String)
+  nameWithType: Dictionnaire.Dictionnaire(string, string)
+  nameWithType.vb: Dictionnaire.New(String, String)
+- uid: Interface.Dictionnaire.#ctor*
+  name: Dictionnaire
+  href: api/Interface.Dictionnaire.html#Interface_Dictionnaire__ctor_
+  commentId: Overload:Interface.Dictionnaire.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Interface.Dictionnaire.Dictionnaire
+  fullName.vb: Interface.Dictionnaire.New
+  nameWithType: Dictionnaire.Dictionnaire
+  nameWithType.vb: Dictionnaire.New
+- uid: Interface.Dictionnaire.DicoToString
+  name: DicoToString()
+  href: api/Interface.Dictionnaire.html#Interface_Dictionnaire_DicoToString
+  commentId: M:Interface.Dictionnaire.DicoToString
+  fullName: Interface.Dictionnaire.DicoToString()
+  nameWithType: Dictionnaire.DicoToString()
+- uid: Interface.Dictionnaire.DicoToString*
+  name: DicoToString
+  href: api/Interface.Dictionnaire.html#Interface_Dictionnaire_DicoToString_
+  commentId: Overload:Interface.Dictionnaire.DicoToString
+  isSpec: "True"
+  fullName: Interface.Dictionnaire.DicoToString
+  nameWithType: Dictionnaire.DicoToString
+- uid: Interface.Dictionnaire.NomFichier
+  name: NomFichier
+  href: api/Interface.Dictionnaire.html#Interface_Dictionnaire_NomFichier
+  commentId: P:Interface.Dictionnaire.NomFichier
+  fullName: Interface.Dictionnaire.NomFichier
+  nameWithType: Dictionnaire.NomFichier
+- uid: Interface.Dictionnaire.NomFichier*
+  name: NomFichier
+  href: api/Interface.Dictionnaire.html#Interface_Dictionnaire_NomFichier_
+  commentId: Overload:Interface.Dictionnaire.NomFichier
+  isSpec: "True"
+  fullName: Interface.Dictionnaire.NomFichier
+  nameWithType: Dictionnaire.NomFichier
+- uid: Interface.Dictionnaire.RechDichoRecursif(System.Int32,System.Int32,System.String[],System.String)
+  name: RechDichoRecursif(int, int, string[], string)
+  href: api/Interface.Dictionnaire.html#Interface_Dictionnaire_RechDichoRecursif_System_Int32_System_Int32_System_String___System_String_
+  commentId: M:Interface.Dictionnaire.RechDichoRecursif(System.Int32,System.Int32,System.String[],System.String)
+  name.vb: RechDichoRecursif(Integer, Integer, String(), String)
+  fullName: Interface.Dictionnaire.RechDichoRecursif(int, int, string[], string)
+  fullName.vb: Interface.Dictionnaire.RechDichoRecursif(Integer, Integer, String(), String)
+  nameWithType: Dictionnaire.RechDichoRecursif(int, int, string[], string)
+  nameWithType.vb: Dictionnaire.RechDichoRecursif(Integer, Integer, String(), String)
+- uid: Interface.Dictionnaire.RechDichoRecursif*
+  name: RechDichoRecursif
+  href: api/Interface.Dictionnaire.html#Interface_Dictionnaire_RechDichoRecursif_
+  commentId: Overload:Interface.Dictionnaire.RechDichoRecursif
+  isSpec: "True"
+  fullName: Interface.Dictionnaire.RechDichoRecursif
+  nameWithType: Dictionnaire.RechDichoRecursif
+- uid: Interface.Dictionnaire.RechDichoRecursifInstance(System.String)
+  name: RechDichoRecursifInstance(string)
+  href: api/Interface.Dictionnaire.html#Interface_Dictionnaire_RechDichoRecursifInstance_System_String_
+  commentId: M:Interface.Dictionnaire.RechDichoRecursifInstance(System.String)
+  name.vb: RechDichoRecursifInstance(String)
+  fullName: Interface.Dictionnaire.RechDichoRecursifInstance(string)
+  fullName.vb: Interface.Dictionnaire.RechDichoRecursifInstance(String)
+  nameWithType: Dictionnaire.RechDichoRecursifInstance(string)
+  nameWithType.vb: Dictionnaire.RechDichoRecursifInstance(String)
+- uid: Interface.Dictionnaire.RechDichoRecursifInstance*
+  name: RechDichoRecursifInstance
+  href: api/Interface.Dictionnaire.html#Interface_Dictionnaire_RechDichoRecursifInstance_
+  commentId: Overload:Interface.Dictionnaire.RechDichoRecursifInstance
+  isSpec: "True"
+  fullName: Interface.Dictionnaire.RechDichoRecursifInstance
+  nameWithType: Dictionnaire.RechDichoRecursifInstance
+- uid: Interface.Dictionnaire.TriFusionRecursif(System.String[],System.Int32,System.Int32)
+  name: TriFusionRecursif(string[], int, int)
+  href: api/Interface.Dictionnaire.html#Interface_Dictionnaire_TriFusionRecursif_System_String___System_Int32_System_Int32_
+  commentId: M:Interface.Dictionnaire.TriFusionRecursif(System.String[],System.Int32,System.Int32)
+  name.vb: TriFusionRecursif(String(), Integer, Integer)
+  fullName: Interface.Dictionnaire.TriFusionRecursif(string[], int, int)
+  fullName.vb: Interface.Dictionnaire.TriFusionRecursif(String(), Integer, Integer)
+  nameWithType: Dictionnaire.TriFusionRecursif(string[], int, int)
+  nameWithType.vb: Dictionnaire.TriFusionRecursif(String(), Integer, Integer)
+- uid: Interface.Dictionnaire.TriFusionRecursif*
+  name: TriFusionRecursif
+  href: api/Interface.Dictionnaire.html#Interface_Dictionnaire_TriFusionRecursif_
+  commentId: Overload:Interface.Dictionnaire.TriFusionRecursif
+  isSpec: "True"
+  fullName: Interface.Dictionnaire.TriFusionRecursif
+  nameWithType: Dictionnaire.TriFusionRecursif
+- uid: Interface.Jeu
+  name: Jeu
+  href: api/Interface.Jeu.html
+  commentId: T:Interface.Jeu
+  fullName: Interface.Jeu
+  nameWithType: Jeu
+- uid: Interface.Jeu.#ctor(Interface.Dictionnaire,Interface.Plateau,System.String,System.String,System.Int32,System.Int32)
+  name: Jeu(Dictionnaire, Plateau, string, string, int, int)
+  href: api/Interface.Jeu.html#Interface_Jeu__ctor_Interface_Dictionnaire_Interface_Plateau_System_String_System_String_System_Int32_System_Int32_
+  commentId: M:Interface.Jeu.#ctor(Interface.Dictionnaire,Interface.Plateau,System.String,System.String,System.Int32,System.Int32)
+  name.vb: New(Dictionnaire, Plateau, String, String, Integer, Integer)
+  fullName: Interface.Jeu.Jeu(Interface.Dictionnaire, Interface.Plateau, string, string, int, int)
+  fullName.vb: Interface.Jeu.New(Interface.Dictionnaire, Interface.Plateau, String, String, Integer, Integer)
+  nameWithType: Jeu.Jeu(Dictionnaire, Plateau, string, string, int, int)
+  nameWithType.vb: Jeu.New(Dictionnaire, Plateau, String, String, Integer, Integer)
+- uid: Interface.Jeu.#ctor*
+  name: Jeu
+  href: api/Interface.Jeu.html#Interface_Jeu__ctor_
+  commentId: Overload:Interface.Jeu.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Interface.Jeu.Jeu
+  fullName.vb: Interface.Jeu.New
+  nameWithType: Jeu.Jeu
+  nameWithType.vb: Jeu.New
+- uid: Interface.Jeu.Joueur1(System.TimeSpan,System.DateTime)
+  name: Joueur1(TimeSpan, DateTime)
+  href: api/Interface.Jeu.html#Interface_Jeu_Joueur1_System_TimeSpan_System_DateTime_
+  commentId: M:Interface.Jeu.Joueur1(System.TimeSpan,System.DateTime)
+  name.vb: Joueur1(TimeSpan, Date)
+  fullName: Interface.Jeu.Joueur1(System.TimeSpan, System.DateTime)
+  fullName.vb: Interface.Jeu.Joueur1(System.TimeSpan, Date)
+  nameWithType: Jeu.Joueur1(TimeSpan, DateTime)
+  nameWithType.vb: Jeu.Joueur1(TimeSpan, Date)
+- uid: Interface.Jeu.Joueur1*
+  name: Joueur1
+  href: api/Interface.Jeu.html#Interface_Jeu_Joueur1_
+  commentId: Overload:Interface.Jeu.Joueur1
+  isSpec: "True"
+  fullName: Interface.Jeu.Joueur1
+  nameWithType: Jeu.Joueur1
+- uid: Interface.Jeu.Joueur2(System.TimeSpan,System.DateTime)
+  name: Joueur2(TimeSpan, DateTime)
+  href: api/Interface.Jeu.html#Interface_Jeu_Joueur2_System_TimeSpan_System_DateTime_
+  commentId: M:Interface.Jeu.Joueur2(System.TimeSpan,System.DateTime)
+  name.vb: Joueur2(TimeSpan, Date)
+  fullName: Interface.Jeu.Joueur2(System.TimeSpan, System.DateTime)
+  fullName.vb: Interface.Jeu.Joueur2(System.TimeSpan, Date)
+  nameWithType: Jeu.Joueur2(TimeSpan, DateTime)
+  nameWithType.vb: Jeu.Joueur2(TimeSpan, Date)
+- uid: Interface.Jeu.Joueur2*
+  name: Joueur2
+  href: api/Interface.Jeu.html#Interface_Jeu_Joueur2_
+  commentId: Overload:Interface.Jeu.Joueur2
+  isSpec: "True"
+  fullName: Interface.Jeu.Joueur2
+  nameWithType: Jeu.Joueur2
+- uid: Interface.Jeu.Resume
+  name: Resume()
+  href: api/Interface.Jeu.html#Interface_Jeu_Resume
+  commentId: M:Interface.Jeu.Resume
+  fullName: Interface.Jeu.Resume()
+  nameWithType: Jeu.Resume()
+- uid: Interface.Jeu.Resume*
+  name: Resume
+  href: api/Interface.Jeu.html#Interface_Jeu_Resume_
+  commentId: Overload:Interface.Jeu.Resume
+  isSpec: "True"
+  fullName: Interface.Jeu.Resume
+  nameWithType: Jeu.Resume
+- uid: Interface.Joueur
+  name: Joueur
+  href: api/Interface.Joueur.html
+  commentId: T:Interface.Joueur
+  fullName: Interface.Joueur
+  nameWithType: Joueur
+- uid: Interface.Joueur.#ctor(System.String)
+  name: Joueur(string)
+  href: api/Interface.Joueur.html#Interface_Joueur__ctor_System_String_
+  commentId: M:Interface.Joueur.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Interface.Joueur.Joueur(string)
+  fullName.vb: Interface.Joueur.New(String)
+  nameWithType: Joueur.Joueur(string)
+  nameWithType.vb: Joueur.New(String)
+- uid: Interface.Joueur.#ctor*
+  name: Joueur
+  href: api/Interface.Joueur.html#Interface_Joueur__ctor_
+  commentId: Overload:Interface.Joueur.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Interface.Joueur.Joueur
+  fullName.vb: Interface.Joueur.New
+  nameWithType: Joueur.Joueur
+  nameWithType.vb: Joueur.New
+- uid: Interface.Joueur.Add_Mot(System.String)
+  name: Add_Mot(string)
+  href: api/Interface.Joueur.html#Interface_Joueur_Add_Mot_System_String_
+  commentId: M:Interface.Joueur.Add_Mot(System.String)
+  name.vb: Add_Mot(String)
+  fullName: Interface.Joueur.Add_Mot(string)
+  fullName.vb: Interface.Joueur.Add_Mot(String)
+  nameWithType: Joueur.Add_Mot(string)
+  nameWithType.vb: Joueur.Add_Mot(String)
+- uid: Interface.Joueur.Add_Mot*
+  name: Add_Mot
+  href: api/Interface.Joueur.html#Interface_Joueur_Add_Mot_
+  commentId: Overload:Interface.Joueur.Add_Mot
+  isSpec: "True"
+  fullName: Interface.Joueur.Add_Mot
+  nameWithType: Joueur.Add_Mot
+- uid: Interface.Joueur.Add_Score(System.String)
+  name: Add_Score(string)
+  href: api/Interface.Joueur.html#Interface_Joueur_Add_Score_System_String_
+  commentId: M:Interface.Joueur.Add_Score(System.String)
+  name.vb: Add_Score(String)
+  fullName: Interface.Joueur.Add_Score(string)
+  fullName.vb: Interface.Joueur.Add_Score(String)
+  nameWithType: Joueur.Add_Score(string)
+  nameWithType.vb: Joueur.Add_Score(String)
+- uid: Interface.Joueur.Add_Score*
+  name: Add_Score
+  href: api/Interface.Joueur.html#Interface_Joueur_Add_Score_
+  commentId: Overload:Interface.Joueur.Add_Score
+  isSpec: "True"
+  fullName: Interface.Joueur.Add_Score
+  nameWithType: Joueur.Add_Score
+- uid: Interface.Joueur.Contient(System.String)
+  name: Contient(string)
+  href: api/Interface.Joueur.html#Interface_Joueur_Contient_System_String_
+  commentId: M:Interface.Joueur.Contient(System.String)
+  name.vb: Contient(String)
+  fullName: Interface.Joueur.Contient(string)
+  fullName.vb: Interface.Joueur.Contient(String)
+  nameWithType: Joueur.Contient(string)
+  nameWithType.vb: Joueur.Contient(String)
+- uid: Interface.Joueur.Contient*
+  name: Contient
+  href: api/Interface.Joueur.html#Interface_Joueur_Contient_
+  commentId: Overload:Interface.Joueur.Contient
+  isSpec: "True"
+  fullName: Interface.Joueur.Contient
+  nameWithType: Joueur.Contient
+- uid: Interface.Joueur.CreerLettresRegles(System.String)
+  name: CreerLettresRegles(string)
+  href: api/Interface.Joueur.html#Interface_Joueur_CreerLettresRegles_System_String_
+  commentId: M:Interface.Joueur.CreerLettresRegles(System.String)
+  name.vb: CreerLettresRegles(String)
+  fullName: Interface.Joueur.CreerLettresRegles(string)
+  fullName.vb: Interface.Joueur.CreerLettresRegles(String)
+  nameWithType: Joueur.CreerLettresRegles(string)
+  nameWithType.vb: Joueur.CreerLettresRegles(String)
+- uid: Interface.Joueur.CreerLettresRegles*
+  name: CreerLettresRegles
+  href: api/Interface.Joueur.html#Interface_Joueur_CreerLettresRegles_
+  commentId: Overload:Interface.Joueur.CreerLettresRegles
+  isSpec: "True"
+  fullName: Interface.Joueur.CreerLettresRegles
+  nameWithType: Joueur.CreerLettresRegles
+- uid: Interface.Joueur.Mots
+  name: Mots
+  href: api/Interface.Joueur.html#Interface_Joueur_Mots
+  commentId: P:Interface.Joueur.Mots
+  fullName: Interface.Joueur.Mots
+  nameWithType: Joueur.Mots
+- uid: Interface.Joueur.Mots*
+  name: Mots
+  href: api/Interface.Joueur.html#Interface_Joueur_Mots_
+  commentId: Overload:Interface.Joueur.Mots
+  isSpec: "True"
+  fullName: Interface.Joueur.Mots
+  nameWithType: Joueur.Mots
+- uid: Interface.Joueur.Nom
+  name: Nom
+  href: api/Interface.Joueur.html#Interface_Joueur_Nom
+  commentId: P:Interface.Joueur.Nom
+  fullName: Interface.Joueur.Nom
+  nameWithType: Joueur.Nom
+- uid: Interface.Joueur.Nom*
+  name: Nom
+  href: api/Interface.Joueur.html#Interface_Joueur_Nom_
+  commentId: Overload:Interface.Joueur.Nom
+  isSpec: "True"
+  fullName: Interface.Joueur.Nom
+  nameWithType: Joueur.Nom
+- uid: Interface.Joueur.Score
+  name: Score
+  href: api/Interface.Joueur.html#Interface_Joueur_Score
+  commentId: P:Interface.Joueur.Score
+  fullName: Interface.Joueur.Score
+  nameWithType: Joueur.Score
+- uid: Interface.Joueur.Score*
+  name: Score
+  href: api/Interface.Joueur.html#Interface_Joueur_Score_
+  commentId: Overload:Interface.Joueur.Score
+  isSpec: "True"
+  fullName: Interface.Joueur.Score
+  nameWithType: Joueur.Score
+- uid: Interface.Joueur.toString
+  name: toString()
+  href: api/Interface.Joueur.html#Interface_Joueur_toString
+  commentId: M:Interface.Joueur.toString
+  fullName: Interface.Joueur.toString()
+  nameWithType: Joueur.toString()
+- uid: Interface.Joueur.toString*
+  name: toString
+  href: api/Interface.Joueur.html#Interface_Joueur_toString_
+  commentId: Overload:Interface.Joueur.toString
+  isSpec: "True"
+  fullName: Interface.Joueur.toString
+  nameWithType: Joueur.toString
+- uid: Interface.Joueur.toStringListe
+  name: toStringListe()
+  href: api/Interface.Joueur.html#Interface_Joueur_toStringListe
+  commentId: M:Interface.Joueur.toStringListe
+  fullName: Interface.Joueur.toStringListe()
+  nameWithType: Joueur.toStringListe()
+- uid: Interface.Joueur.toStringListe*
+  name: toStringListe
+  href: api/Interface.Joueur.html#Interface_Joueur_toStringListe_
+  commentId: Overload:Interface.Joueur.toStringListe
+  isSpec: "True"
+  fullName: Interface.Joueur.toStringListe
+  nameWithType: Joueur.toStringListe
+- uid: Interface.Plateau
+  name: Plateau
+  href: api/Interface.Plateau.html
+  commentId: T:Interface.Plateau
+  fullName: Interface.Plateau
+  nameWithType: Plateau
+- uid: Interface.Plateau.#ctor(System.Int32,System.String,System.String)
+  name: Plateau(int, string, string)
+  href: api/Interface.Plateau.html#Interface_Plateau__ctor_System_Int32_System_String_System_String_
+  commentId: M:Interface.Plateau.#ctor(System.Int32,System.String,System.String)
+  name.vb: New(Integer, String, String)
+  fullName: Interface.Plateau.Plateau(int, string, string)
+  fullName.vb: Interface.Plateau.New(Integer, String, String)
+  nameWithType: Plateau.Plateau(int, string, string)
+  nameWithType.vb: Plateau.New(Integer, String, String)
+- uid: Interface.Plateau.#ctor(System.String)
+  name: Plateau(string)
+  href: api/Interface.Plateau.html#Interface_Plateau__ctor_System_String_
+  commentId: M:Interface.Plateau.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Interface.Plateau.Plateau(string)
+  fullName.vb: Interface.Plateau.New(String)
+  nameWithType: Plateau.Plateau(string)
+  nameWithType.vb: Plateau.New(String)
+- uid: Interface.Plateau.#ctor*
+  name: Plateau
+  href: api/Interface.Plateau.html#Interface_Plateau__ctor_
+  commentId: Overload:Interface.Plateau.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Interface.Plateau.Plateau
+  fullName.vb: Interface.Plateau.New
+  nameWithType: Plateau.Plateau
+  nameWithType.vb: Plateau.New
+- uid: Interface.Plateau.CreerLettresRegles(System.String)
+  name: CreerLettresRegles(string)
+  href: api/Interface.Plateau.html#Interface_Plateau_CreerLettresRegles_System_String_
+  commentId: M:Interface.Plateau.CreerLettresRegles(System.String)
+  name.vb: CreerLettresRegles(String)
+  fullName: Interface.Plateau.CreerLettresRegles(string)
+  fullName.vb: Interface.Plateau.CreerLettresRegles(String)
+  nameWithType: Plateau.CreerLettresRegles(string)
+  nameWithType.vb: Plateau.CreerLettresRegles(String)
+- uid: Interface.Plateau.CreerLettresRegles*
+  name: CreerLettresRegles
+  href: api/Interface.Plateau.html#Interface_Plateau_CreerLettresRegles_
+  commentId: Overload:Interface.Plateau.CreerLettresRegles
+  isSpec: "True"
+  fullName: Interface.Plateau.CreerLettresRegles
+  nameWithType: Plateau.CreerLettresRegles
+- uid: Interface.Plateau.DecaleColonnePlateau(System.Char[0:,0:],System.Int32,System.Int32)
+  name: DecaleColonnePlateau(char[,], int, int)
+  href: api/Interface.Plateau.html#Interface_Plateau_DecaleColonnePlateau_System_Char_0__0___System_Int32_System_Int32_
+  commentId: M:Interface.Plateau.DecaleColonnePlateau(System.Char[0:,0:],System.Int32,System.Int32)
+  name.vb: DecaleColonnePlateau(Char(,), Integer, Integer)
+  fullName: Interface.Plateau.DecaleColonnePlateau(char[,], int, int)
+  fullName.vb: Interface.Plateau.DecaleColonnePlateau(Char(,), Integer, Integer)
+  nameWithType: Plateau.DecaleColonnePlateau(char[,], int, int)
+  nameWithType.vb: Plateau.DecaleColonnePlateau(Char(,), Integer, Integer)
+- uid: Interface.Plateau.DecaleColonnePlateau*
+  name: DecaleColonnePlateau
+  href: api/Interface.Plateau.html#Interface_Plateau_DecaleColonnePlateau_
+  commentId: Overload:Interface.Plateau.DecaleColonnePlateau
+  isSpec: "True"
+  fullName: Interface.Plateau.DecaleColonnePlateau
+  nameWithType: Plateau.DecaleColonnePlateau
+- uid: Interface.Plateau.DecaleColonnePlateau1(System.Char[0:,0:],System.Int32)
+  name: DecaleColonnePlateau1(char[,], int)
+  href: api/Interface.Plateau.html#Interface_Plateau_DecaleColonnePlateau1_System_Char_0__0___System_Int32_
+  commentId: M:Interface.Plateau.DecaleColonnePlateau1(System.Char[0:,0:],System.Int32)
+  name.vb: DecaleColonnePlateau1(Char(,), Integer)
+  fullName: Interface.Plateau.DecaleColonnePlateau1(char[,], int)
+  fullName.vb: Interface.Plateau.DecaleColonnePlateau1(Char(,), Integer)
+  nameWithType: Plateau.DecaleColonnePlateau1(char[,], int)
+  nameWithType.vb: Plateau.DecaleColonnePlateau1(Char(,), Integer)
+- uid: Interface.Plateau.DecaleColonnePlateau1*
+  name: DecaleColonnePlateau1
+  href: api/Interface.Plateau.html#Interface_Plateau_DecaleColonnePlateau1_
+  commentId: Overload:Interface.Plateau.DecaleColonnePlateau1
+  isSpec: "True"
+  fullName: Interface.Plateau.DecaleColonnePlateau1
+  nameWithType: Plateau.DecaleColonnePlateau1
+- uid: Interface.Plateau.InitiaIntTab0(System.Int32[])
+  name: InitiaIntTab0(int[])
+  href: api/Interface.Plateau.html#Interface_Plateau_InitiaIntTab0_System_Int32___
+  commentId: M:Interface.Plateau.InitiaIntTab0(System.Int32[])
+  name.vb: InitiaIntTab0(Integer())
+  fullName: Interface.Plateau.InitiaIntTab0(int[])
+  fullName.vb: Interface.Plateau.InitiaIntTab0(Integer())
+  nameWithType: Plateau.InitiaIntTab0(int[])
+  nameWithType.vb: Plateau.InitiaIntTab0(Integer())
+- uid: Interface.Plateau.InitiaIntTab0*
+  name: InitiaIntTab0
+  href: api/Interface.Plateau.html#Interface_Plateau_InitiaIntTab0_
+  commentId: Overload:Interface.Plateau.InitiaIntTab0
+  isSpec: "True"
+  fullName: Interface.Plateau.InitiaIntTab0
+  nameWithType: Plateau.InitiaIntTab0
+- uid: Interface.Plateau.MajPlateau(System.Collections.Generic.Dictionary{System.ValueTuple{System.Int32,System.Int32},System.Char})
+  name: MajPlateau(Dictionary<(int, int), char>)
+  href: api/Interface.Plateau.html#Interface_Plateau_MajPlateau_System_Collections_Generic_Dictionary_System_ValueTuple_System_Int32_System_Int32__System_Char__
+  commentId: M:Interface.Plateau.MajPlateau(System.Collections.Generic.Dictionary{System.ValueTuple{System.Int32,System.Int32},System.Char})
+  name.vb: MajPlateau(Dictionary(Of (Integer, Integer), Char))
+  fullName: Interface.Plateau.MajPlateau(System.Collections.Generic.Dictionary<(int, int), char>)
+  fullName.vb: Interface.Plateau.MajPlateau(System.Collections.Generic.Dictionary(Of (Integer, Integer), Char))
+  nameWithType: Plateau.MajPlateau(Dictionary<(int, int), char>)
+  nameWithType.vb: Plateau.MajPlateau(Dictionary(Of (Integer, Integer), Char))
+- uid: Interface.Plateau.MajPlateau*
+  name: MajPlateau
+  href: api/Interface.Plateau.html#Interface_Plateau_MajPlateau_
+  commentId: Overload:Interface.Plateau.MajPlateau
+  isSpec: "True"
+  fullName: Interface.Plateau.MajPlateau
+  nameWithType: Plateau.MajPlateau
+- uid: Interface.Plateau.PlateauToString
+  name: PlateauToString()
+  href: api/Interface.Plateau.html#Interface_Plateau_PlateauToString
+  commentId: M:Interface.Plateau.PlateauToString
+  fullName: Interface.Plateau.PlateauToString()
+  nameWithType: Plateau.PlateauToString()
+- uid: Interface.Plateau.PlateauToString*
+  name: PlateauToString
+  href: api/Interface.Plateau.html#Interface_Plateau_PlateauToString_
+  commentId: Overload:Interface.Plateau.PlateauToString
+  isSpec: "True"
+  fullName: Interface.Plateau.PlateauToString
+  nameWithType: Plateau.PlateauToString
+- uid: Interface.Plateau.RechercheMot(System.String)
+  name: RechercheMot(string)
+  href: api/Interface.Plateau.html#Interface_Plateau_RechercheMot_System_String_
+  commentId: M:Interface.Plateau.RechercheMot(System.String)
+  name.vb: RechercheMot(String)
+  fullName: Interface.Plateau.RechercheMot(string)
+  fullName.vb: Interface.Plateau.RechercheMot(String)
+  nameWithType: Plateau.RechercheMot(string)
+  nameWithType.vb: Plateau.RechercheMot(String)
+- uid: Interface.Plateau.RechercheMot*
+  name: RechercheMot
+  href: api/Interface.Plateau.html#Interface_Plateau_RechercheMot_
+  commentId: Overload:Interface.Plateau.RechercheMot
+  isSpec: "True"
+  fullName: Interface.Plateau.RechercheMot
+  nameWithType: Plateau.RechercheMot
+- uid: Interface.Plateau.RemplirPlateauLettres
+  name: RemplirPlateauLettres()
+  href: api/Interface.Plateau.html#Interface_Plateau_RemplirPlateauLettres
+  commentId: M:Interface.Plateau.RemplirPlateauLettres
+  fullName: Interface.Plateau.RemplirPlateauLettres()
+  nameWithType: Plateau.RemplirPlateauLettres()
+- uid: Interface.Plateau.RemplirPlateauLettres*
+  name: RemplirPlateauLettres
+  href: api/Interface.Plateau.html#Interface_Plateau_RemplirPlateauLettres_
+  commentId: Overload:Interface.Plateau.RemplirPlateauLettres
+  isSpec: "True"
+  fullName: Interface.Plateau.RemplirPlateauLettres
+  nameWithType: Plateau.RemplirPlateauLettres
+- uid: Interface.Plateau.ToFile
+  name: ToFile()
+  href: api/Interface.Plateau.html#Interface_Plateau_ToFile
+  commentId: M:Interface.Plateau.ToFile
+  fullName: Interface.Plateau.ToFile()
+  nameWithType: Plateau.ToFile()
+- uid: Interface.Plateau.ToFile*
+  name: ToFile
+  href: api/Interface.Plateau.html#Interface_Plateau_ToFile_
+  commentId: Overload:Interface.Plateau.ToFile
+  isSpec: "True"
+  fullName: Interface.Plateau.ToFile
+  nameWithType: Plateau.ToFile
+- uid: Interface.Plateau.ToRead
+  name: ToRead()
+  href: api/Interface.Plateau.html#Interface_Plateau_ToRead
+  commentId: M:Interface.Plateau.ToRead
+  fullName: Interface.Plateau.ToRead()
+  nameWithType: Plateau.ToRead()
+- uid: Interface.Plateau.ToRead*
+  name: ToRead
+  href: api/Interface.Plateau.html#Interface_Plateau_ToRead_
+  commentId: Overload:Interface.Plateau.ToRead
+  isSpec: "True"
+  fullName: Interface.Plateau.ToRead
+  nameWithType: Plateau.ToRead

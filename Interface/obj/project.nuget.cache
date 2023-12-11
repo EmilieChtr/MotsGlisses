@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TKT8CyYwWMm1leVzUnVzkcpTJTNvXjdVVd2F2Grnn1D/J4wQKY2lqLRjvRxh65oxtwH97jNR8Wrkva45ZcaK4A==",
+  "dgSpecHash": "aUjojBAtAAyh05PvigDMKA4i1dCuFLzGTfTwj2tgCGfeba4ZopX09fy10LR1eDI7IFYGUphJiqt9OrAB91V5gg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emich\\OneDrive\\Documents\\Perso\\Scolaire\\ESILV\\A2\\A2 S3\\Informatique\\Algo POO\\Interface\\Interface\\Interface.csproj",
+  "projectFilePath": "C:\\Users\\emich\\MotsGlisses\\Interface\\Interface.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emich\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\emich\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
@@ -13,7 +13,11 @@
     "C:\\Users\\emich\\.nuget\\packages\\naudio.wasapi\\2.2.1\\naudio.wasapi.2.2.1.nupkg.sha512",
     "C:\\Users\\emich\\.nuget\\packages\\naudio.winmm\\2.2.1\\naudio.winmm.2.2.1.nupkg.sha512",
     "C:\\Users\\emich\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\emich\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\emich\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\emich\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\emich\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\emich\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\emich\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }

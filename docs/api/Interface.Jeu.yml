@@ -1,0 +1,504 @@
+### YamlMime:ManagedReference
+items:
+- uid: Interface.Jeu
+  commentId: T:Interface.Jeu
+  id: Jeu
+  parent: Interface
+  children:
+  - Interface.Jeu.#ctor(Interface.Dictionnaire,Interface.Plateau,System.String,System.String,System.Int32,System.Int32)
+  - Interface.Jeu.Joueur1(System.TimeSpan,System.DateTime)
+  - Interface.Jeu.Joueur2(System.TimeSpan,System.DateTime)
+  - Interface.Jeu.Resume
+  langs:
+  - csharp
+  - vb
+  name: Jeu
+  nameWithType: Jeu
+  fullName: Interface.Jeu
+  type: Class
+  source:
+    remote:
+      path: Interface/Jeu.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: Jeu
+    path: ../Interface/Jeu.cs
+    startLine: 17
+  assemblies:
+  - Interface
+  namespace: Interface
+  syntax:
+    content: public class Jeu
+    content.vb: Public Class Jeu
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Interface.Jeu.#ctor(Interface.Dictionnaire,Interface.Plateau,System.String,System.String,System.Int32,System.Int32)
+  commentId: M:Interface.Jeu.#ctor(Interface.Dictionnaire,Interface.Plateau,System.String,System.String,System.Int32,System.Int32)
+  id: '#ctor(Interface.Dictionnaire,Interface.Plateau,System.String,System.String,System.Int32,System.Int32)'
+  parent: Interface.Jeu
+  langs:
+  - csharp
+  - vb
+  name: Jeu(Dictionnaire, Plateau, string, string, int, int)
+  nameWithType: Jeu.Jeu(Dictionnaire, Plateau, string, string, int, int)
+  fullName: Interface.Jeu.Jeu(Interface.Dictionnaire, Interface.Plateau, string, string, int, int)
+  type: Constructor
+  source:
+    remote:
+      path: Interface/Jeu.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: .ctor
+    path: ../Interface/Jeu.cs
+    startLine: 35
+  assemblies:
+  - Interface
+  namespace: Interface
+  syntax:
+    content: public Jeu(Dictionnaire dico, Plateau plateau, string joueur1, string joueur2, int tempsTour = 10, int tempsTot = 180)
+    parameters:
+    - id: dico
+      type: Interface.Dictionnaire
+    - id: plateau
+      type: Interface.Plateau
+    - id: joueur1
+      type: System.String
+    - id: joueur2
+      type: System.String
+    - id: tempsTour
+      type: System.Int32
+    - id: tempsTot
+      type: System.Int32
+    content.vb: Public Sub New(dico As Dictionnaire, plateau As Plateau, joueur1 As String, joueur2 As String, tempsTour As Integer = 10, tempsTot As Integer = 180)
+  overload: Interface.Jeu.#ctor*
+  nameWithType.vb: Jeu.New(Dictionnaire, Plateau, String, String, Integer, Integer)
+  fullName.vb: Interface.Jeu.New(Interface.Dictionnaire, Interface.Plateau, String, String, Integer, Integer)
+  name.vb: New(Dictionnaire, Plateau, String, String, Integer, Integer)
+- uid: Interface.Jeu.Joueur1(System.TimeSpan,System.DateTime)
+  commentId: M:Interface.Jeu.Joueur1(System.TimeSpan,System.DateTime)
+  id: Joueur1(System.TimeSpan,System.DateTime)
+  parent: Interface.Jeu
+  langs:
+  - csharp
+  - vb
+  name: Joueur1(TimeSpan, DateTime)
+  nameWithType: Jeu.Joueur1(TimeSpan, DateTime)
+  fullName: Interface.Jeu.Joueur1(System.TimeSpan, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Interface/Jeu.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: Joueur1
+    path: ../Interface/Jeu.cs
+    startLine: 58
+  assemblies:
+  - Interface
+  namespace: Interface
+  syntax:
+    content: public void Joueur1(TimeSpan t, DateTime debut)
+    parameters:
+    - id: t
+      type: System.TimeSpan
+    - id: debut
+      type: System.DateTime
+    content.vb: Public Sub Joueur1(t As TimeSpan, debut As Date)
+  overload: Interface.Jeu.Joueur1*
+  nameWithType.vb: Jeu.Joueur1(TimeSpan, Date)
+  fullName.vb: Interface.Jeu.Joueur1(System.TimeSpan, Date)
+  name.vb: Joueur1(TimeSpan, Date)
+- uid: Interface.Jeu.Joueur2(System.TimeSpan,System.DateTime)
+  commentId: M:Interface.Jeu.Joueur2(System.TimeSpan,System.DateTime)
+  id: Joueur2(System.TimeSpan,System.DateTime)
+  parent: Interface.Jeu
+  langs:
+  - csharp
+  - vb
+  name: Joueur2(TimeSpan, DateTime)
+  nameWithType: Jeu.Joueur2(TimeSpan, DateTime)
+  fullName: Interface.Jeu.Joueur2(System.TimeSpan, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Interface/Jeu.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: Joueur2
+    path: ../Interface/Jeu.cs
+    startLine: 153
+  assemblies:
+  - Interface
+  namespace: Interface
+  syntax:
+    content: public void Joueur2(TimeSpan t, DateTime debut)
+    parameters:
+    - id: t
+      type: System.TimeSpan
+    - id: debut
+      type: System.DateTime
+    content.vb: Public Sub Joueur2(t As TimeSpan, debut As Date)
+  overload: Interface.Jeu.Joueur2*
+  nameWithType.vb: Jeu.Joueur2(TimeSpan, Date)
+  fullName.vb: Interface.Jeu.Joueur2(System.TimeSpan, Date)
+  name.vb: Joueur2(TimeSpan, Date)
+- uid: Interface.Jeu.Resume
+  commentId: M:Interface.Jeu.Resume
+  id: Resume
+  parent: Interface.Jeu
+  langs:
+  - csharp
+  - vb
+  name: Resume()
+  nameWithType: Jeu.Resume()
+  fullName: Interface.Jeu.Resume()
+  type: Method
+  source:
+    remote:
+      path: Interface/Jeu.cs
+      branch: main
+      repo: https://github.com/EmilieChtr/MotsGlisses.git
+    id: Resume
+    path: ../Interface/Jeu.cs
+    startLine: 236
+  assemblies:
+  - Interface
+  namespace: Interface
+  syntax:
+    content: public void Resume()
+    content.vb: Public Sub [Resume]()
+  overload: Interface.Jeu.Resume*
+references:
+- uid: Interface
+  commentId: N:Interface
+  href: Interface.html
+  name: Interface
+  nameWithType: Interface
+  fullName: Interface
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Interface.Jeu.#ctor*
+  commentId: Overload:Interface.Jeu.#ctor
+  href: Interface.Jeu.html#Interface_Jeu__ctor_Interface_Dictionnaire_Interface_Plateau_System_String_System_String_System_Int32_System_Int32_
+  name: Jeu
+  nameWithType: Jeu.Jeu
+  fullName: Interface.Jeu.Jeu
+  nameWithType.vb: Jeu.New
+  fullName.vb: Interface.Jeu.New
+  name.vb: New
+- uid: Interface.Dictionnaire
+  commentId: T:Interface.Dictionnaire
+  parent: Interface
+  href: Interface.Dictionnaire.html
+  name: Dictionnaire
+  nameWithType: Dictionnaire
+  fullName: Interface.Dictionnaire
+- uid: Interface.Plateau
+  commentId: T:Interface.Plateau
+  parent: Interface
+  href: Interface.Plateau.html
+  name: Plateau
+  nameWithType: Plateau
+  fullName: Interface.Plateau
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Interface.Jeu.Joueur1*
+  commentId: Overload:Interface.Jeu.Joueur1
+  href: Interface.Jeu.html#Interface_Jeu_Joueur1_System_TimeSpan_System_DateTime_
+  name: Joueur1
+  nameWithType: Jeu.Joueur1
+  fullName: Interface.Jeu.Joueur1
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: Interface.Jeu.Joueur2*
+  commentId: Overload:Interface.Jeu.Joueur2
+  href: Interface.Jeu.html#Interface_Jeu_Joueur2_System_TimeSpan_System_DateTime_
+  name: Joueur2
+  nameWithType: Jeu.Joueur2
+  fullName: Interface.Jeu.Joueur2
+- uid: Interface.Jeu.Resume*
+  commentId: Overload:Interface.Jeu.Resume
+  href: Interface.Jeu.html#Interface_Jeu_Resume
+  name: Resume
+  nameWithType: Jeu.Resume
+  fullName: Interface.Jeu.Resume

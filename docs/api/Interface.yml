@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Interface
+  commentId: N:Interface
+  id: Interface
+  children:
+  - Interface.Dictionnaire
+  - Interface.Jeu
+  - Interface.Joueur
+  - Interface.Plateau
+  langs:
+  - csharp
+  - vb
+  name: Interface
+  nameWithType: Interface
+  fullName: Interface
+  type: Namespace
+  assemblies:
+  - Interface
+references:
+- uid: Interface.Dictionnaire
+  commentId: T:Interface.Dictionnaire
+  parent: Interface
+  href: Interface.Dictionnaire.html
+  name: Dictionnaire
+  nameWithType: Dictionnaire
+  fullName: Interface.Dictionnaire
+- uid: Interface.Jeu
+  commentId: T:Interface.Jeu
+  href: Interface.Jeu.html
+  name: Jeu
+  nameWithType: Jeu
+  fullName: Interface.Jeu
+- uid: Interface.Joueur
+  commentId: T:Interface.Joueur
+  href: Interface.Joueur.html
+  name: Joueur
+  nameWithType: Joueur
+  fullName: Interface.Joueur
+- uid: Interface.Plateau
+  commentId: T:Interface.Plateau
+  parent: Interface
+  href: Interface.Plateau.html
+  name: Plateau
+  nameWithType: Plateau
+  fullName: Interface.Plateau
+- uid: Interface
+  commentId: N:Interface
+  href: Interface.html
+  name: Interface
+  nameWithType: Interface
+  fullName: Interface

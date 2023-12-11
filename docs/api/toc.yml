@@ -1,0 +1,14 @@
+### YamlMime:TableOfContent
+items:
+- uid: Interface
+  name: Interface
+  items:
+  - uid: Interface.Dictionnaire
+    name: Dictionnaire
+  - uid: Interface.Jeu
+    name: Jeu
+  - uid: Interface.Joueur
+    name: Joueur
+  - uid: Interface.Plateau
+    name: Plateau
+memberLayout: SamePage
