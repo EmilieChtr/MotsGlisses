@@ -1,0 +1,615 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation.IMFByteStream
+  commentId: T:NAudio.MediaFoundation.IMFByteStream
+  id: IMFByteStream
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation.IMFByteStream.BeginRead(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)
+  - NAudio.MediaFoundation.IMFByteStream.BeginWrite(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)
+  - NAudio.MediaFoundation.IMFByteStream.Close
+  - NAudio.MediaFoundation.IMFByteStream.EndRead(System.IntPtr,System.Int32@)
+  - NAudio.MediaFoundation.IMFByteStream.EndWrite(System.IntPtr,System.Int32@)
+  - NAudio.MediaFoundation.IMFByteStream.Flush
+  - NAudio.MediaFoundation.IMFByteStream.GetCapabilities(System.Int32@)
+  - NAudio.MediaFoundation.IMFByteStream.GetCurrentPosition(System.Int64@)
+  - NAudio.MediaFoundation.IMFByteStream.GetLength(System.Int64@)
+  - NAudio.MediaFoundation.IMFByteStream.IsEndOfStream(System.Boolean@)
+  - NAudio.MediaFoundation.IMFByteStream.Read(System.IntPtr,System.Int32,System.Int32@)
+  - NAudio.MediaFoundation.IMFByteStream.Seek(System.Int32,System.Int64,System.Int32,System.Int64@)
+  - NAudio.MediaFoundation.IMFByteStream.SetCurrentPosition(System.Int64)
+  - NAudio.MediaFoundation.IMFByteStream.SetLength(System.Int64)
+  - NAudio.MediaFoundation.IMFByteStream.Write(System.IntPtr,System.Int32,System.Int32@)
+  langs:
+  - csharp
+  - vb
+  name: IMFByteStream
+  nameWithType: IMFByteStream
+  fullName: NAudio.MediaFoundation.IMFByteStream
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      [Guid("ad4c1b00-4bf7-422f-9175-756693d9130d")]
+
+      public interface IMFByteStream
+    content.vb: >-
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      <Guid("ad4c1b00-4bf7-422f-9175-756693d9130d")>
+
+      Public Interface IMFByteStream
+  attributes:
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ad4c1b00-4bf7-422f-9175-756693d9130d
+- uid: NAudio.MediaFoundation.IMFByteStream.GetCapabilities(System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFByteStream.GetCapabilities(System.Int32@)
+  id: GetCapabilities(System.Int32@)
+  parent: NAudio.MediaFoundation.IMFByteStream
+  langs:
+  - csharp
+  - vb
+  name: GetCapabilities(ref int)
+  nameWithType: IMFByteStream.GetCapabilities(ref int)
+  fullName: NAudio.MediaFoundation.IMFByteStream.GetCapabilities(ref int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetCapabilities(ref int pdwCapabiities)
+    parameters:
+    - id: pdwCapabiities
+      type: System.Int32
+    content.vb: Sub GetCapabilities(pdwCapabiities As Integer)
+  overload: NAudio.MediaFoundation.IMFByteStream.GetCapabilities*
+  nameWithType.vb: IMFByteStream.GetCapabilities(Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFByteStream.GetCapabilities(Integer)
+  name.vb: GetCapabilities(Integer)
+- uid: NAudio.MediaFoundation.IMFByteStream.GetLength(System.Int64@)
+  commentId: M:NAudio.MediaFoundation.IMFByteStream.GetLength(System.Int64@)
+  id: GetLength(System.Int64@)
+  parent: NAudio.MediaFoundation.IMFByteStream
+  langs:
+  - csharp
+  - vb
+  name: GetLength(ref long)
+  nameWithType: IMFByteStream.GetLength(ref long)
+  fullName: NAudio.MediaFoundation.IMFByteStream.GetLength(ref long)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetLength(ref long pqwLength)
+    parameters:
+    - id: pqwLength
+      type: System.Int64
+    content.vb: Sub GetLength(pqwLength As Long)
+  overload: NAudio.MediaFoundation.IMFByteStream.GetLength*
+  nameWithType.vb: IMFByteStream.GetLength(Long)
+  fullName.vb: NAudio.MediaFoundation.IMFByteStream.GetLength(Long)
+  name.vb: GetLength(Long)
+- uid: NAudio.MediaFoundation.IMFByteStream.SetLength(System.Int64)
+  commentId: M:NAudio.MediaFoundation.IMFByteStream.SetLength(System.Int64)
+  id: SetLength(System.Int64)
+  parent: NAudio.MediaFoundation.IMFByteStream
+  langs:
+  - csharp
+  - vb
+  name: SetLength(long)
+  nameWithType: IMFByteStream.SetLength(long)
+  fullName: NAudio.MediaFoundation.IMFByteStream.SetLength(long)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetLength(long qwLength)
+    parameters:
+    - id: qwLength
+      type: System.Int64
+    content.vb: Sub SetLength(qwLength As Long)
+  overload: NAudio.MediaFoundation.IMFByteStream.SetLength*
+  nameWithType.vb: IMFByteStream.SetLength(Long)
+  fullName.vb: NAudio.MediaFoundation.IMFByteStream.SetLength(Long)
+  name.vb: SetLength(Long)
+- uid: NAudio.MediaFoundation.IMFByteStream.GetCurrentPosition(System.Int64@)
+  commentId: M:NAudio.MediaFoundation.IMFByteStream.GetCurrentPosition(System.Int64@)
+  id: GetCurrentPosition(System.Int64@)
+  parent: NAudio.MediaFoundation.IMFByteStream
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentPosition(ref long)
+  nameWithType: IMFByteStream.GetCurrentPosition(ref long)
+  fullName: NAudio.MediaFoundation.IMFByteStream.GetCurrentPosition(ref long)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetCurrentPosition(ref long pqwPosition)
+    parameters:
+    - id: pqwPosition
+      type: System.Int64
+    content.vb: Sub GetCurrentPosition(pqwPosition As Long)
+  overload: NAudio.MediaFoundation.IMFByteStream.GetCurrentPosition*
+  nameWithType.vb: IMFByteStream.GetCurrentPosition(Long)
+  fullName.vb: NAudio.MediaFoundation.IMFByteStream.GetCurrentPosition(Long)
+  name.vb: GetCurrentPosition(Long)
+- uid: NAudio.MediaFoundation.IMFByteStream.SetCurrentPosition(System.Int64)
+  commentId: M:NAudio.MediaFoundation.IMFByteStream.SetCurrentPosition(System.Int64)
+  id: SetCurrentPosition(System.Int64)
+  parent: NAudio.MediaFoundation.IMFByteStream
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentPosition(long)
+  nameWithType: IMFByteStream.SetCurrentPosition(long)
+  fullName: NAudio.MediaFoundation.IMFByteStream.SetCurrentPosition(long)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetCurrentPosition(long qwPosition)
+    parameters:
+    - id: qwPosition
+      type: System.Int64
+    content.vb: Sub SetCurrentPosition(qwPosition As Long)
+  overload: NAudio.MediaFoundation.IMFByteStream.SetCurrentPosition*
+  nameWithType.vb: IMFByteStream.SetCurrentPosition(Long)
+  fullName.vb: NAudio.MediaFoundation.IMFByteStream.SetCurrentPosition(Long)
+  name.vb: SetCurrentPosition(Long)
+- uid: NAudio.MediaFoundation.IMFByteStream.IsEndOfStream(System.Boolean@)
+  commentId: M:NAudio.MediaFoundation.IMFByteStream.IsEndOfStream(System.Boolean@)
+  id: IsEndOfStream(System.Boolean@)
+  parent: NAudio.MediaFoundation.IMFByteStream
+  langs:
+  - csharp
+  - vb
+  name: IsEndOfStream(ref bool)
+  nameWithType: IMFByteStream.IsEndOfStream(ref bool)
+  fullName: NAudio.MediaFoundation.IMFByteStream.IsEndOfStream(ref bool)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void IsEndOfStream(ref bool pfEndOfStream)
+    parameters:
+    - id: pfEndOfStream
+      type: System.Boolean
+    content.vb: Sub IsEndOfStream(pfEndOfStream As Boolean)
+  overload: NAudio.MediaFoundation.IMFByteStream.IsEndOfStream*
+  nameWithType.vb: IMFByteStream.IsEndOfStream(Boolean)
+  fullName.vb: NAudio.MediaFoundation.IMFByteStream.IsEndOfStream(Boolean)
+  name.vb: IsEndOfStream(Boolean)
+- uid: NAudio.MediaFoundation.IMFByteStream.Read(System.IntPtr,System.Int32,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFByteStream.Read(System.IntPtr,System.Int32,System.Int32@)
+  id: Read(System.IntPtr,System.Int32,System.Int32@)
+  parent: NAudio.MediaFoundation.IMFByteStream
+  langs:
+  - csharp
+  - vb
+  name: Read(IntPtr, int, ref int)
+  nameWithType: IMFByteStream.Read(IntPtr, int, ref int)
+  fullName: NAudio.MediaFoundation.IMFByteStream.Read(System.IntPtr, int, ref int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void Read(IntPtr pb, int cb, ref int pcbRead)
+    parameters:
+    - id: pb
+      type: System.IntPtr
+    - id: cb
+      type: System.Int32
+    - id: pcbRead
+      type: System.Int32
+    content.vb: Sub Read(pb As IntPtr, cb As Integer, pcbRead As Integer)
+  overload: NAudio.MediaFoundation.IMFByteStream.Read*
+  nameWithType.vb: IMFByteStream.Read(IntPtr, Integer, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFByteStream.Read(System.IntPtr, Integer, Integer)
+  name.vb: Read(IntPtr, Integer, Integer)
+- uid: NAudio.MediaFoundation.IMFByteStream.BeginRead(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)
+  commentId: M:NAudio.MediaFoundation.IMFByteStream.BeginRead(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)
+  id: BeginRead(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)
+  parent: NAudio.MediaFoundation.IMFByteStream
+  langs:
+  - csharp
+  - vb
+  name: BeginRead(IntPtr, int, IntPtr, IntPtr)
+  nameWithType: IMFByteStream.BeginRead(IntPtr, int, IntPtr, IntPtr)
+  fullName: NAudio.MediaFoundation.IMFByteStream.BeginRead(System.IntPtr, int, System.IntPtr, System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void BeginRead(IntPtr pb, int cb, IntPtr pCallback, IntPtr punkState)
+    parameters:
+    - id: pb
+      type: System.IntPtr
+    - id: cb
+      type: System.Int32
+    - id: pCallback
+      type: System.IntPtr
+    - id: punkState
+      type: System.IntPtr
+    content.vb: Sub BeginRead(pb As IntPtr, cb As Integer, pCallback As IntPtr, punkState As IntPtr)
+  overload: NAudio.MediaFoundation.IMFByteStream.BeginRead*
+  nameWithType.vb: IMFByteStream.BeginRead(IntPtr, Integer, IntPtr, IntPtr)
+  fullName.vb: NAudio.MediaFoundation.IMFByteStream.BeginRead(System.IntPtr, Integer, System.IntPtr, System.IntPtr)
+  name.vb: BeginRead(IntPtr, Integer, IntPtr, IntPtr)
+- uid: NAudio.MediaFoundation.IMFByteStream.EndRead(System.IntPtr,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFByteStream.EndRead(System.IntPtr,System.Int32@)
+  id: EndRead(System.IntPtr,System.Int32@)
+  parent: NAudio.MediaFoundation.IMFByteStream
+  langs:
+  - csharp
+  - vb
+  name: EndRead(IntPtr, ref int)
+  nameWithType: IMFByteStream.EndRead(IntPtr, ref int)
+  fullName: NAudio.MediaFoundation.IMFByteStream.EndRead(System.IntPtr, ref int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void EndRead(IntPtr pResult, ref int pcbRead)
+    parameters:
+    - id: pResult
+      type: System.IntPtr
+    - id: pcbRead
+      type: System.Int32
+    content.vb: Sub EndRead(pResult As IntPtr, pcbRead As Integer)
+  overload: NAudio.MediaFoundation.IMFByteStream.EndRead*
+  nameWithType.vb: IMFByteStream.EndRead(IntPtr, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFByteStream.EndRead(System.IntPtr, Integer)
+  name.vb: EndRead(IntPtr, Integer)
+- uid: NAudio.MediaFoundation.IMFByteStream.Write(System.IntPtr,System.Int32,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFByteStream.Write(System.IntPtr,System.Int32,System.Int32@)
+  id: Write(System.IntPtr,System.Int32,System.Int32@)
+  parent: NAudio.MediaFoundation.IMFByteStream
+  langs:
+  - csharp
+  - vb
+  name: Write(IntPtr, int, ref int)
+  nameWithType: IMFByteStream.Write(IntPtr, int, ref int)
+  fullName: NAudio.MediaFoundation.IMFByteStream.Write(System.IntPtr, int, ref int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void Write(IntPtr pb, int cb, ref int pcbWritten)
+    parameters:
+    - id: pb
+      type: System.IntPtr
+    - id: cb
+      type: System.Int32
+    - id: pcbWritten
+      type: System.Int32
+    content.vb: Sub Write(pb As IntPtr, cb As Integer, pcbWritten As Integer)
+  overload: NAudio.MediaFoundation.IMFByteStream.Write*
+  nameWithType.vb: IMFByteStream.Write(IntPtr, Integer, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFByteStream.Write(System.IntPtr, Integer, Integer)
+  name.vb: Write(IntPtr, Integer, Integer)
+- uid: NAudio.MediaFoundation.IMFByteStream.BeginWrite(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)
+  commentId: M:NAudio.MediaFoundation.IMFByteStream.BeginWrite(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)
+  id: BeginWrite(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)
+  parent: NAudio.MediaFoundation.IMFByteStream
+  langs:
+  - csharp
+  - vb
+  name: BeginWrite(IntPtr, int, IntPtr, IntPtr)
+  nameWithType: IMFByteStream.BeginWrite(IntPtr, int, IntPtr, IntPtr)
+  fullName: NAudio.MediaFoundation.IMFByteStream.BeginWrite(System.IntPtr, int, System.IntPtr, System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void BeginWrite(IntPtr pb, int cb, IntPtr pCallback, IntPtr punkState)
+    parameters:
+    - id: pb
+      type: System.IntPtr
+    - id: cb
+      type: System.Int32
+    - id: pCallback
+      type: System.IntPtr
+    - id: punkState
+      type: System.IntPtr
+    content.vb: Sub BeginWrite(pb As IntPtr, cb As Integer, pCallback As IntPtr, punkState As IntPtr)
+  overload: NAudio.MediaFoundation.IMFByteStream.BeginWrite*
+  nameWithType.vb: IMFByteStream.BeginWrite(IntPtr, Integer, IntPtr, IntPtr)
+  fullName.vb: NAudio.MediaFoundation.IMFByteStream.BeginWrite(System.IntPtr, Integer, System.IntPtr, System.IntPtr)
+  name.vb: BeginWrite(IntPtr, Integer, IntPtr, IntPtr)
+- uid: NAudio.MediaFoundation.IMFByteStream.EndWrite(System.IntPtr,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFByteStream.EndWrite(System.IntPtr,System.Int32@)
+  id: EndWrite(System.IntPtr,System.Int32@)
+  parent: NAudio.MediaFoundation.IMFByteStream
+  langs:
+  - csharp
+  - vb
+  name: EndWrite(IntPtr, ref int)
+  nameWithType: IMFByteStream.EndWrite(IntPtr, ref int)
+  fullName: NAudio.MediaFoundation.IMFByteStream.EndWrite(System.IntPtr, ref int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void EndWrite(IntPtr pResult, ref int pcbWritten)
+    parameters:
+    - id: pResult
+      type: System.IntPtr
+    - id: pcbWritten
+      type: System.Int32
+    content.vb: Sub EndWrite(pResult As IntPtr, pcbWritten As Integer)
+  overload: NAudio.MediaFoundation.IMFByteStream.EndWrite*
+  nameWithType.vb: IMFByteStream.EndWrite(IntPtr, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFByteStream.EndWrite(System.IntPtr, Integer)
+  name.vb: EndWrite(IntPtr, Integer)
+- uid: NAudio.MediaFoundation.IMFByteStream.Seek(System.Int32,System.Int64,System.Int32,System.Int64@)
+  commentId: M:NAudio.MediaFoundation.IMFByteStream.Seek(System.Int32,System.Int64,System.Int32,System.Int64@)
+  id: Seek(System.Int32,System.Int64,System.Int32,System.Int64@)
+  parent: NAudio.MediaFoundation.IMFByteStream
+  langs:
+  - csharp
+  - vb
+  name: Seek(int, long, int, ref long)
+  nameWithType: IMFByteStream.Seek(int, long, int, ref long)
+  fullName: NAudio.MediaFoundation.IMFByteStream.Seek(int, long, int, ref long)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void Seek(int SeekOrigin, long llSeekOffset, int dwSeekFlags, ref long pqwCurrentPosition)
+    parameters:
+    - id: SeekOrigin
+      type: System.Int32
+    - id: llSeekOffset
+      type: System.Int64
+    - id: dwSeekFlags
+      type: System.Int32
+    - id: pqwCurrentPosition
+      type: System.Int64
+    content.vb: Sub Seek(SeekOrigin As Integer, llSeekOffset As Long, dwSeekFlags As Integer, pqwCurrentPosition As Long)
+  overload: NAudio.MediaFoundation.IMFByteStream.Seek*
+  nameWithType.vb: IMFByteStream.Seek(Integer, Long, Integer, Long)
+  fullName.vb: NAudio.MediaFoundation.IMFByteStream.Seek(Integer, Long, Integer, Long)
+  name.vb: Seek(Integer, Long, Integer, Long)
+- uid: NAudio.MediaFoundation.IMFByteStream.Flush
+  commentId: M:NAudio.MediaFoundation.IMFByteStream.Flush
+  id: Flush
+  parent: NAudio.MediaFoundation.IMFByteStream
+  langs:
+  - csharp
+  - vb
+  name: Flush()
+  nameWithType: IMFByteStream.Flush()
+  fullName: NAudio.MediaFoundation.IMFByteStream.Flush()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void Flush()
+    content.vb: Sub Flush()
+  overload: NAudio.MediaFoundation.IMFByteStream.Flush*
+- uid: NAudio.MediaFoundation.IMFByteStream.Close
+  commentId: M:NAudio.MediaFoundation.IMFByteStream.Close
+  id: Close
+  parent: NAudio.MediaFoundation.IMFByteStream
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: IMFByteStream.Close()
+  fullName: NAudio.MediaFoundation.IMFByteStream.Close()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void Close()
+    content.vb: Sub Close()
+  overload: NAudio.MediaFoundation.IMFByteStream.Close*
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation.IMFByteStream.GetCapabilities*
+  commentId: Overload:NAudio.MediaFoundation.IMFByteStream.GetCapabilities
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFByteStream.html#NAudio_MediaFoundation_IMFByteStream_GetCapabilities_System_Int32__
+  name: GetCapabilities
+  nameWithType: IMFByteStream.GetCapabilities
+  fullName: NAudio.MediaFoundation.IMFByteStream.GetCapabilities
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.MediaFoundation.IMFByteStream.GetLength*
+  commentId: Overload:NAudio.MediaFoundation.IMFByteStream.GetLength
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFByteStream.html#NAudio_MediaFoundation_IMFByteStream_GetLength_System_Int64__
+  name: GetLength
+  nameWithType: IMFByteStream.GetLength
+  fullName: NAudio.MediaFoundation.IMFByteStream.GetLength
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: NAudio.MediaFoundation.IMFByteStream.SetLength*
+  commentId: Overload:NAudio.MediaFoundation.IMFByteStream.SetLength
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFByteStream.html#NAudio_MediaFoundation_IMFByteStream_SetLength_System_Int64_
+  name: SetLength
+  nameWithType: IMFByteStream.SetLength
+  fullName: NAudio.MediaFoundation.IMFByteStream.SetLength
+- uid: NAudio.MediaFoundation.IMFByteStream.GetCurrentPosition*
+  commentId: Overload:NAudio.MediaFoundation.IMFByteStream.GetCurrentPosition
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFByteStream.html#NAudio_MediaFoundation_IMFByteStream_GetCurrentPosition_System_Int64__
+  name: GetCurrentPosition
+  nameWithType: IMFByteStream.GetCurrentPosition
+  fullName: NAudio.MediaFoundation.IMFByteStream.GetCurrentPosition
+- uid: NAudio.MediaFoundation.IMFByteStream.SetCurrentPosition*
+  commentId: Overload:NAudio.MediaFoundation.IMFByteStream.SetCurrentPosition
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFByteStream.html#NAudio_MediaFoundation_IMFByteStream_SetCurrentPosition_System_Int64_
+  name: SetCurrentPosition
+  nameWithType: IMFByteStream.SetCurrentPosition
+  fullName: NAudio.MediaFoundation.IMFByteStream.SetCurrentPosition
+- uid: NAudio.MediaFoundation.IMFByteStream.IsEndOfStream*
+  commentId: Overload:NAudio.MediaFoundation.IMFByteStream.IsEndOfStream
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFByteStream.html#NAudio_MediaFoundation_IMFByteStream_IsEndOfStream_System_Boolean__
+  name: IsEndOfStream
+  nameWithType: IMFByteStream.IsEndOfStream
+  fullName: NAudio.MediaFoundation.IMFByteStream.IsEndOfStream
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NAudio.MediaFoundation.IMFByteStream.Read*
+  commentId: Overload:NAudio.MediaFoundation.IMFByteStream.Read
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFByteStream.html#NAudio_MediaFoundation_IMFByteStream_Read_System_IntPtr_System_Int32_System_Int32__
+  name: Read
+  nameWithType: IMFByteStream.Read
+  fullName: NAudio.MediaFoundation.IMFByteStream.Read
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: NAudio.MediaFoundation.IMFByteStream.BeginRead*
+  commentId: Overload:NAudio.MediaFoundation.IMFByteStream.BeginRead
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFByteStream.html#NAudio_MediaFoundation_IMFByteStream_BeginRead_System_IntPtr_System_Int32_System_IntPtr_System_IntPtr_
+  name: BeginRead
+  nameWithType: IMFByteStream.BeginRead
+  fullName: NAudio.MediaFoundation.IMFByteStream.BeginRead
+- uid: NAudio.MediaFoundation.IMFByteStream.EndRead*
+  commentId: Overload:NAudio.MediaFoundation.IMFByteStream.EndRead
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFByteStream.html#NAudio_MediaFoundation_IMFByteStream_EndRead_System_IntPtr_System_Int32__
+  name: EndRead
+  nameWithType: IMFByteStream.EndRead
+  fullName: NAudio.MediaFoundation.IMFByteStream.EndRead
+- uid: NAudio.MediaFoundation.IMFByteStream.Write*
+  commentId: Overload:NAudio.MediaFoundation.IMFByteStream.Write
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFByteStream.html#NAudio_MediaFoundation_IMFByteStream_Write_System_IntPtr_System_Int32_System_Int32__
+  name: Write
+  nameWithType: IMFByteStream.Write
+  fullName: NAudio.MediaFoundation.IMFByteStream.Write
+- uid: NAudio.MediaFoundation.IMFByteStream.BeginWrite*
+  commentId: Overload:NAudio.MediaFoundation.IMFByteStream.BeginWrite
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFByteStream.html#NAudio_MediaFoundation_IMFByteStream_BeginWrite_System_IntPtr_System_Int32_System_IntPtr_System_IntPtr_
+  name: BeginWrite
+  nameWithType: IMFByteStream.BeginWrite
+  fullName: NAudio.MediaFoundation.IMFByteStream.BeginWrite
+- uid: NAudio.MediaFoundation.IMFByteStream.EndWrite*
+  commentId: Overload:NAudio.MediaFoundation.IMFByteStream.EndWrite
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFByteStream.html#NAudio_MediaFoundation_IMFByteStream_EndWrite_System_IntPtr_System_Int32__
+  name: EndWrite
+  nameWithType: IMFByteStream.EndWrite
+  fullName: NAudio.MediaFoundation.IMFByteStream.EndWrite
+- uid: NAudio.MediaFoundation.IMFByteStream.Seek*
+  commentId: Overload:NAudio.MediaFoundation.IMFByteStream.Seek
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFByteStream.html#NAudio_MediaFoundation_IMFByteStream_Seek_System_Int32_System_Int64_System_Int32_System_Int64__
+  name: Seek
+  nameWithType: IMFByteStream.Seek
+  fullName: NAudio.MediaFoundation.IMFByteStream.Seek
+- uid: NAudio.MediaFoundation.IMFByteStream.Flush*
+  commentId: Overload:NAudio.MediaFoundation.IMFByteStream.Flush
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFByteStream.html#NAudio_MediaFoundation_IMFByteStream_Flush
+  name: Flush
+  nameWithType: IMFByteStream.Flush
+  fullName: NAudio.MediaFoundation.IMFByteStream.Flush
+- uid: NAudio.MediaFoundation.IMFByteStream.Close*
+  commentId: Overload:NAudio.MediaFoundation.IMFByteStream.Close
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFByteStream.html#NAudio_MediaFoundation_IMFByteStream_Close
+  name: Close
+  nameWithType: IMFByteStream.Close
+  fullName: NAudio.MediaFoundation.IMFByteStream.Close

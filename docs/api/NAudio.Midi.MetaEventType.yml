@@ -1,0 +1,398 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Midi.MetaEventType
+  commentId: T:NAudio.Midi.MetaEventType
+  id: MetaEventType
+  parent: NAudio.Midi
+  children:
+  - NAudio.Midi.MetaEventType.Copyright
+  - NAudio.Midi.MetaEventType.CuePoint
+  - NAudio.Midi.MetaEventType.DeviceName
+  - NAudio.Midi.MetaEventType.EndTrack
+  - NAudio.Midi.MetaEventType.KeySignature
+  - NAudio.Midi.MetaEventType.Lyric
+  - NAudio.Midi.MetaEventType.Marker
+  - NAudio.Midi.MetaEventType.MidiChannel
+  - NAudio.Midi.MetaEventType.MidiPort
+  - NAudio.Midi.MetaEventType.ProgramName
+  - NAudio.Midi.MetaEventType.SequenceTrackName
+  - NAudio.Midi.MetaEventType.SequencerSpecific
+  - NAudio.Midi.MetaEventType.SetTempo
+  - NAudio.Midi.MetaEventType.SmpteOffset
+  - NAudio.Midi.MetaEventType.TextEvent
+  - NAudio.Midi.MetaEventType.TimeSignature
+  - NAudio.Midi.MetaEventType.TrackInstrumentName
+  - NAudio.Midi.MetaEventType.TrackSequenceNumber
+  langs:
+  - csharp
+  - vb
+  name: MetaEventType
+  nameWithType: MetaEventType
+  fullName: NAudio.Midi.MetaEventType
+  type: Enum
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: 'public enum MetaEventType : byte'
+    content.vb: Public Enum MetaEventType As Byte
+- uid: NAudio.Midi.MetaEventType.TrackSequenceNumber
+  commentId: F:NAudio.Midi.MetaEventType.TrackSequenceNumber
+  id: TrackSequenceNumber
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: TrackSequenceNumber
+  nameWithType: MetaEventType.TrackSequenceNumber
+  fullName: NAudio.Midi.MetaEventType.TrackSequenceNumber
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: TrackSequenceNumber = 0
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.TextEvent
+  commentId: F:NAudio.Midi.MetaEventType.TextEvent
+  id: TextEvent
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: TextEvent
+  nameWithType: MetaEventType.TextEvent
+  fullName: NAudio.Midi.MetaEventType.TextEvent
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: TextEvent = 1
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.Copyright
+  commentId: F:NAudio.Midi.MetaEventType.Copyright
+  id: Copyright
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: Copyright
+  nameWithType: MetaEventType.Copyright
+  fullName: NAudio.Midi.MetaEventType.Copyright
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: Copyright = 2
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.SequenceTrackName
+  commentId: F:NAudio.Midi.MetaEventType.SequenceTrackName
+  id: SequenceTrackName
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: SequenceTrackName
+  nameWithType: MetaEventType.SequenceTrackName
+  fullName: NAudio.Midi.MetaEventType.SequenceTrackName
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: SequenceTrackName = 3
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.TrackInstrumentName
+  commentId: F:NAudio.Midi.MetaEventType.TrackInstrumentName
+  id: TrackInstrumentName
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: TrackInstrumentName
+  nameWithType: MetaEventType.TrackInstrumentName
+  fullName: NAudio.Midi.MetaEventType.TrackInstrumentName
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: TrackInstrumentName = 4
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.Lyric
+  commentId: F:NAudio.Midi.MetaEventType.Lyric
+  id: Lyric
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: Lyric
+  nameWithType: MetaEventType.Lyric
+  fullName: NAudio.Midi.MetaEventType.Lyric
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: Lyric = 5
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.Marker
+  commentId: F:NAudio.Midi.MetaEventType.Marker
+  id: Marker
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: Marker
+  nameWithType: MetaEventType.Marker
+  fullName: NAudio.Midi.MetaEventType.Marker
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: Marker = 6
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.CuePoint
+  commentId: F:NAudio.Midi.MetaEventType.CuePoint
+  id: CuePoint
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: CuePoint
+  nameWithType: MetaEventType.CuePoint
+  fullName: NAudio.Midi.MetaEventType.CuePoint
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: CuePoint = 7
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.ProgramName
+  commentId: F:NAudio.Midi.MetaEventType.ProgramName
+  id: ProgramName
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: ProgramName
+  nameWithType: MetaEventType.ProgramName
+  fullName: NAudio.Midi.MetaEventType.ProgramName
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: ProgramName = 8
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.DeviceName
+  commentId: F:NAudio.Midi.MetaEventType.DeviceName
+  id: DeviceName
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: DeviceName
+  nameWithType: MetaEventType.DeviceName
+  fullName: NAudio.Midi.MetaEventType.DeviceName
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: DeviceName = 9
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.MidiChannel
+  commentId: F:NAudio.Midi.MetaEventType.MidiChannel
+  id: MidiChannel
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: MidiChannel
+  nameWithType: MetaEventType.MidiChannel
+  fullName: NAudio.Midi.MetaEventType.MidiChannel
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: MidiChannel = 32
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.MidiPort
+  commentId: F:NAudio.Midi.MetaEventType.MidiPort
+  id: MidiPort
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: MidiPort
+  nameWithType: MetaEventType.MidiPort
+  fullName: NAudio.Midi.MetaEventType.MidiPort
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: MidiPort = 33
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.EndTrack
+  commentId: F:NAudio.Midi.MetaEventType.EndTrack
+  id: EndTrack
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: EndTrack
+  nameWithType: MetaEventType.EndTrack
+  fullName: NAudio.Midi.MetaEventType.EndTrack
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: EndTrack = 47
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.SetTempo
+  commentId: F:NAudio.Midi.MetaEventType.SetTempo
+  id: SetTempo
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: SetTempo
+  nameWithType: MetaEventType.SetTempo
+  fullName: NAudio.Midi.MetaEventType.SetTempo
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: SetTempo = 81
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.SmpteOffset
+  commentId: F:NAudio.Midi.MetaEventType.SmpteOffset
+  id: SmpteOffset
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: SmpteOffset
+  nameWithType: MetaEventType.SmpteOffset
+  fullName: NAudio.Midi.MetaEventType.SmpteOffset
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: SmpteOffset = 84
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.TimeSignature
+  commentId: F:NAudio.Midi.MetaEventType.TimeSignature
+  id: TimeSignature
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: TimeSignature
+  nameWithType: MetaEventType.TimeSignature
+  fullName: NAudio.Midi.MetaEventType.TimeSignature
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: TimeSignature = 88
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.KeySignature
+  commentId: F:NAudio.Midi.MetaEventType.KeySignature
+  id: KeySignature
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: KeySignature
+  nameWithType: MetaEventType.KeySignature
+  fullName: NAudio.Midi.MetaEventType.KeySignature
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: KeySignature = 89
+    return:
+      type: NAudio.Midi.MetaEventType
+- uid: NAudio.Midi.MetaEventType.SequencerSpecific
+  commentId: F:NAudio.Midi.MetaEventType.SequencerSpecific
+  id: SequencerSpecific
+  parent: NAudio.Midi.MetaEventType
+  langs:
+  - csharp
+  - vb
+  name: SequencerSpecific
+  nameWithType: MetaEventType.SequencerSpecific
+  fullName: NAudio.Midi.MetaEventType.SequencerSpecific
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: SequencerSpecific = 127
+    return:
+      type: NAudio.Midi.MetaEventType
+references:
+- uid: NAudio.Midi
+  commentId: N:NAudio.Midi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Midi
+  nameWithType: NAudio.Midi
+  fullName: NAudio.Midi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+- uid: NAudio.Midi.MetaEventType
+  commentId: T:NAudio.Midi.MetaEventType
+  parent: NAudio.Midi
+  isExternal: true
+  href: NAudio.Midi.MetaEventType.html
+  name: MetaEventType
+  nameWithType: MetaEventType
+  fullName: NAudio.Midi.MetaEventType

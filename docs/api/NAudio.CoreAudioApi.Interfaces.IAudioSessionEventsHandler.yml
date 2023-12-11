@@ -1,0 +1,365 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler
+  id: IAudioSessionEventsHandler
+  parent: NAudio.CoreAudioApi.Interfaces
+  children:
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnChannelVolumeChanged(System.UInt32,System.IntPtr,System.UInt32)
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnDisplayNameChanged(System.String)
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnGroupingParamChanged(System.Guid@)
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnIconPathChanged(System.String)
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnSessionDisconnected(NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason)
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnStateChanged(NAudio.CoreAudioApi.Interfaces.AudioSessionState)
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnVolumeChanged(System.Single,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: IAudioSessionEventsHandler
+  nameWithType: IAudioSessionEventsHandler
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public interface IAudioSessionEventsHandler
+    content.vb: Public Interface IAudioSessionEventsHandler
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnVolumeChanged(System.Single,System.Boolean)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnVolumeChanged(System.Single,System.Boolean)
+  id: OnVolumeChanged(System.Single,System.Boolean)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler
+  langs:
+  - csharp
+  - vb
+  name: OnVolumeChanged(float, bool)
+  nameWithType: IAudioSessionEventsHandler.OnVolumeChanged(float, bool)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnVolumeChanged(float, bool)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: void OnVolumeChanged(float volume, bool isMuted)
+    parameters:
+    - id: volume
+      type: System.Single
+    - id: isMuted
+      type: System.Boolean
+    content.vb: Sub OnVolumeChanged(volume As Single, isMuted As Boolean)
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnVolumeChanged*
+  nameWithType.vb: IAudioSessionEventsHandler.OnVolumeChanged(Single, Boolean)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnVolumeChanged(Single, Boolean)
+  name.vb: OnVolumeChanged(Single, Boolean)
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnDisplayNameChanged(System.String)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnDisplayNameChanged(System.String)
+  id: OnDisplayNameChanged(System.String)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler
+  langs:
+  - csharp
+  - vb
+  name: OnDisplayNameChanged(string)
+  nameWithType: IAudioSessionEventsHandler.OnDisplayNameChanged(string)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnDisplayNameChanged(string)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: void OnDisplayNameChanged(string displayName)
+    parameters:
+    - id: displayName
+      type: System.String
+    content.vb: Sub OnDisplayNameChanged(displayName As String)
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnDisplayNameChanged*
+  nameWithType.vb: IAudioSessionEventsHandler.OnDisplayNameChanged(String)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnDisplayNameChanged(String)
+  name.vb: OnDisplayNameChanged(String)
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnIconPathChanged(System.String)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnIconPathChanged(System.String)
+  id: OnIconPathChanged(System.String)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler
+  langs:
+  - csharp
+  - vb
+  name: OnIconPathChanged(string)
+  nameWithType: IAudioSessionEventsHandler.OnIconPathChanged(string)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnIconPathChanged(string)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: void OnIconPathChanged(string iconPath)
+    parameters:
+    - id: iconPath
+      type: System.String
+    content.vb: Sub OnIconPathChanged(iconPath As String)
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnIconPathChanged*
+  nameWithType.vb: IAudioSessionEventsHandler.OnIconPathChanged(String)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnIconPathChanged(String)
+  name.vb: OnIconPathChanged(String)
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnChannelVolumeChanged(System.UInt32,System.IntPtr,System.UInt32)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnChannelVolumeChanged(System.UInt32,System.IntPtr,System.UInt32)
+  id: OnChannelVolumeChanged(System.UInt32,System.IntPtr,System.UInt32)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler
+  langs:
+  - csharp
+  - vb
+  name: OnChannelVolumeChanged(uint, IntPtr, uint)
+  nameWithType: IAudioSessionEventsHandler.OnChannelVolumeChanged(uint, IntPtr, uint)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnChannelVolumeChanged(uint, System.IntPtr, uint)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: void OnChannelVolumeChanged(uint channelCount, IntPtr newVolumes, uint channelIndex)
+    parameters:
+    - id: channelCount
+      type: System.UInt32
+    - id: newVolumes
+      type: System.IntPtr
+    - id: channelIndex
+      type: System.UInt32
+    content.vb: Sub OnChannelVolumeChanged(channelCount As UInteger, newVolumes As IntPtr, channelIndex As UInteger)
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnChannelVolumeChanged*
+  nameWithType.vb: IAudioSessionEventsHandler.OnChannelVolumeChanged(UInteger, IntPtr, UInteger)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnChannelVolumeChanged(UInteger, System.IntPtr, UInteger)
+  name.vb: OnChannelVolumeChanged(UInteger, IntPtr, UInteger)
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnGroupingParamChanged(System.Guid@)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnGroupingParamChanged(System.Guid@)
+  id: OnGroupingParamChanged(System.Guid@)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler
+  langs:
+  - csharp
+  - vb
+  name: OnGroupingParamChanged(ref Guid)
+  nameWithType: IAudioSessionEventsHandler.OnGroupingParamChanged(ref Guid)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnGroupingParamChanged(ref System.Guid)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: void OnGroupingParamChanged(ref Guid groupingId)
+    parameters:
+    - id: groupingId
+      type: System.Guid
+    content.vb: Sub OnGroupingParamChanged(groupingId As Guid)
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnGroupingParamChanged*
+  nameWithType.vb: IAudioSessionEventsHandler.OnGroupingParamChanged(Guid)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnGroupingParamChanged(System.Guid)
+  name.vb: OnGroupingParamChanged(Guid)
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnStateChanged(NAudio.CoreAudioApi.Interfaces.AudioSessionState)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnStateChanged(NAudio.CoreAudioApi.Interfaces.AudioSessionState)
+  id: OnStateChanged(NAudio.CoreAudioApi.Interfaces.AudioSessionState)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler
+  langs:
+  - csharp
+  - vb
+  name: OnStateChanged(AudioSessionState)
+  nameWithType: IAudioSessionEventsHandler.OnStateChanged(AudioSessionState)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnStateChanged(NAudio.CoreAudioApi.Interfaces.AudioSessionState)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: void OnStateChanged(AudioSessionState state)
+    parameters:
+    - id: state
+      type: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+    content.vb: Sub OnStateChanged(state As AudioSessionState)
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnStateChanged*
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnSessionDisconnected(NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnSessionDisconnected(NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason)
+  id: OnSessionDisconnected(NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler
+  langs:
+  - csharp
+  - vb
+  name: OnSessionDisconnected(AudioSessionDisconnectReason)
+  nameWithType: IAudioSessionEventsHandler.OnSessionDisconnected(AudioSessionDisconnectReason)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnSessionDisconnected(NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: void OnSessionDisconnected(AudioSessionDisconnectReason disconnectReason)
+    parameters:
+    - id: disconnectReason
+      type: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+    content.vb: Sub OnSessionDisconnected(disconnectReason As AudioSessionDisconnectReason)
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnSessionDisconnected*
+references:
+- uid: NAudio.CoreAudioApi.Interfaces
+  commentId: N:NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi.Interfaces
+  nameWithType: NAudio.CoreAudioApi.Interfaces
+  fullName: NAudio.CoreAudioApi.Interfaces
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnVolumeChanged*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnVolumeChanged
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionEventsHandler_OnVolumeChanged_System_Single_System_Boolean_
+  name: OnVolumeChanged
+  nameWithType: IAudioSessionEventsHandler.OnVolumeChanged
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnVolumeChanged
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnDisplayNameChanged*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnDisplayNameChanged
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionEventsHandler_OnDisplayNameChanged_System_String_
+  name: OnDisplayNameChanged
+  nameWithType: IAudioSessionEventsHandler.OnDisplayNameChanged
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnDisplayNameChanged
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnIconPathChanged*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnIconPathChanged
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionEventsHandler_OnIconPathChanged_System_String_
+  name: OnIconPathChanged
+  nameWithType: IAudioSessionEventsHandler.OnIconPathChanged
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnIconPathChanged
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnChannelVolumeChanged*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnChannelVolumeChanged
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionEventsHandler_OnChannelVolumeChanged_System_UInt32_System_IntPtr_System_UInt32_
+  name: OnChannelVolumeChanged
+  nameWithType: IAudioSessionEventsHandler.OnChannelVolumeChanged
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnChannelVolumeChanged
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnGroupingParamChanged*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnGroupingParamChanged
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionEventsHandler_OnGroupingParamChanged_System_Guid__
+  name: OnGroupingParamChanged
+  nameWithType: IAudioSessionEventsHandler.OnGroupingParamChanged
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnGroupingParamChanged
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnStateChanged*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnStateChanged
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionEventsHandler_OnStateChanged_NAudio_CoreAudioApi_Interfaces_AudioSessionState_
+  name: OnStateChanged
+  nameWithType: IAudioSessionEventsHandler.OnStateChanged
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnStateChanged
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+  commentId: T:NAudio.CoreAudioApi.Interfaces.AudioSessionState
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.AudioSessionState.html
+  name: AudioSessionState
+  nameWithType: AudioSessionState
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnSessionDisconnected*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnSessionDisconnected
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionEventsHandler_OnSessionDisconnected_NAudio_CoreAudioApi_Interfaces_AudioSessionDisconnectReason_
+  name: OnSessionDisconnected
+  nameWithType: IAudioSessionEventsHandler.OnSessionDisconnected
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.OnSessionDisconnected
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+  commentId: T:NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.html
+  name: AudioSessionDisconnectReason
+  nameWithType: AudioSessionDisconnectReason
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason

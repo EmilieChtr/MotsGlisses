@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect.ChorusPhase
+  commentId: T:NAudio.Dmo.Effect.ChorusPhase
+  id: ChorusPhase
+  parent: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.ChorusPhase.Neg180
+  - NAudio.Dmo.Effect.ChorusPhase.Neg90
+  - NAudio.Dmo.Effect.ChorusPhase.Pos180
+  - NAudio.Dmo.Effect.ChorusPhase.Pos90
+  - NAudio.Dmo.Effect.ChorusPhase.Zero
+  langs:
+  - csharp
+  - vb
+  name: ChorusPhase
+  nameWithType: ChorusPhase
+  fullName: NAudio.Dmo.Effect.ChorusPhase
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public enum ChorusPhase
+    content.vb: Public Enum ChorusPhase
+- uid: NAudio.Dmo.Effect.ChorusPhase.Neg180
+  commentId: F:NAudio.Dmo.Effect.ChorusPhase.Neg180
+  id: Neg180
+  parent: NAudio.Dmo.Effect.ChorusPhase
+  langs:
+  - csharp
+  - vb
+  name: Neg180
+  nameWithType: ChorusPhase.Neg180
+  fullName: NAudio.Dmo.Effect.ChorusPhase.Neg180
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Neg180 = 0
+    return:
+      type: NAudio.Dmo.Effect.ChorusPhase
+- uid: NAudio.Dmo.Effect.ChorusPhase.Neg90
+  commentId: F:NAudio.Dmo.Effect.ChorusPhase.Neg90
+  id: Neg90
+  parent: NAudio.Dmo.Effect.ChorusPhase
+  langs:
+  - csharp
+  - vb
+  name: Neg90
+  nameWithType: ChorusPhase.Neg90
+  fullName: NAudio.Dmo.Effect.ChorusPhase.Neg90
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Neg90 = 1
+    return:
+      type: NAudio.Dmo.Effect.ChorusPhase
+- uid: NAudio.Dmo.Effect.ChorusPhase.Zero
+  commentId: F:NAudio.Dmo.Effect.ChorusPhase.Zero
+  id: Zero
+  parent: NAudio.Dmo.Effect.ChorusPhase
+  langs:
+  - csharp
+  - vb
+  name: Zero
+  nameWithType: ChorusPhase.Zero
+  fullName: NAudio.Dmo.Effect.ChorusPhase.Zero
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Zero = 2
+    return:
+      type: NAudio.Dmo.Effect.ChorusPhase
+- uid: NAudio.Dmo.Effect.ChorusPhase.Pos90
+  commentId: F:NAudio.Dmo.Effect.ChorusPhase.Pos90
+  id: Pos90
+  parent: NAudio.Dmo.Effect.ChorusPhase
+  langs:
+  - csharp
+  - vb
+  name: Pos90
+  nameWithType: ChorusPhase.Pos90
+  fullName: NAudio.Dmo.Effect.ChorusPhase.Pos90
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Pos90 = 3
+    return:
+      type: NAudio.Dmo.Effect.ChorusPhase
+- uid: NAudio.Dmo.Effect.ChorusPhase.Pos180
+  commentId: F:NAudio.Dmo.Effect.ChorusPhase.Pos180
+  id: Pos180
+  parent: NAudio.Dmo.Effect.ChorusPhase
+  langs:
+  - csharp
+  - vb
+  name: Pos180
+  nameWithType: ChorusPhase.Pos180
+  fullName: NAudio.Dmo.Effect.ChorusPhase.Pos180
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Pos180 = 4
+    return:
+      type: NAudio.Dmo.Effect.ChorusPhase
+references:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+- uid: NAudio.Dmo.Effect.ChorusPhase
+  commentId: T:NAudio.Dmo.Effect.ChorusPhase
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.ChorusPhase.html
+  name: ChorusPhase
+  nameWithType: ChorusPhase
+  fullName: NAudio.Dmo.Effect.ChorusPhase

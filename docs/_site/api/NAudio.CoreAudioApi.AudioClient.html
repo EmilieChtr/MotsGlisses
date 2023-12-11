@@ -1,0 +1,828 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AudioClient
+ | MotsGliss&#233;s </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AudioClient
+ | MotsGliss&#233;s ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="MotsGliss&#233;s">
+            MotsGliss&#233;s
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NAudio.CoreAudioApi.AudioClient">
+
+
+
+  <h1 id="NAudio_CoreAudioApi_AudioClient" data-uid="NAudio.CoreAudioApi.AudioClient" class="text-break">
+    Class AudioClient
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NAudio.html">NAudio</a>.<a class="xref" href="NAudio.CoreAudioApi.html">CoreAudioApi</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NAudio.Wasapi.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AudioClient : IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AudioClient</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient__ctor_" data-uid="NAudio.CoreAudioApi.AudioClient.#ctor*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient__ctor_NAudio_CoreAudioApi_Interfaces_IAudioClient_" data-uid="NAudio.CoreAudioApi.AudioClient.#ctor(NAudio.CoreAudioApi.Interfaces.IAudioClient)">
+  AudioClient(IAudioClient)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClient(IAudioClient audioClientInterface)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>audioClientInterface</code> <a class="xref" href="NAudio.CoreAudioApi.Interfaces.IAudioClient.html">IAudioClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_AudioCaptureClient_" data-uid="NAudio.CoreAudioApi.AudioClient.AudioCaptureClient*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_AudioCaptureClient" data-uid="NAudio.CoreAudioApi.AudioClient.AudioCaptureClient">
+  AudioCaptureClient
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioCaptureClient AudioCaptureClient { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NAudio.CoreAudioApi.AudioCaptureClient.html">AudioCaptureClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_AudioClockClient_" data-uid="NAudio.CoreAudioApi.AudioClient.AudioClockClient*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_AudioClockClient" data-uid="NAudio.CoreAudioApi.AudioClient.AudioClockClient">
+  AudioClockClient
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClockClient AudioClockClient { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NAudio.CoreAudioApi.AudioClockClient.html">AudioClockClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_AudioRenderClient_" data-uid="NAudio.CoreAudioApi.AudioClient.AudioRenderClient*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_AudioRenderClient" data-uid="NAudio.CoreAudioApi.AudioClient.AudioRenderClient">
+  AudioRenderClient
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioRenderClient AudioRenderClient { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NAudio.CoreAudioApi.AudioRenderClient.html">AudioRenderClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_AudioStreamVolume_" data-uid="NAudio.CoreAudioApi.AudioClient.AudioStreamVolume*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_AudioStreamVolume" data-uid="NAudio.CoreAudioApi.AudioClient.AudioStreamVolume">
+  AudioStreamVolume
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioStreamVolume AudioStreamVolume { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NAudio.CoreAudioApi.AudioStreamVolume.html">AudioStreamVolume</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_BufferSize_" data-uid="NAudio.CoreAudioApi.AudioClient.BufferSize*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_BufferSize" data-uid="NAudio.CoreAudioApi.AudioClient.BufferSize">
+  BufferSize
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BufferSize { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_CurrentPadding_" data-uid="NAudio.CoreAudioApi.AudioClient.CurrentPadding*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_CurrentPadding" data-uid="NAudio.CoreAudioApi.AudioClient.CurrentPadding">
+  CurrentPadding
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CurrentPadding { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_DefaultDevicePeriod_" data-uid="NAudio.CoreAudioApi.AudioClient.DefaultDevicePeriod*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_DefaultDevicePeriod" data-uid="NAudio.CoreAudioApi.AudioClient.DefaultDevicePeriod">
+  DefaultDevicePeriod
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long DefaultDevicePeriod { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_MinimumDevicePeriod_" data-uid="NAudio.CoreAudioApi.AudioClient.MinimumDevicePeriod*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_MinimumDevicePeriod" data-uid="NAudio.CoreAudioApi.AudioClient.MinimumDevicePeriod">
+  MinimumDevicePeriod
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long MinimumDevicePeriod { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_MixFormat_" data-uid="NAudio.CoreAudioApi.AudioClient.MixFormat*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_MixFormat" data-uid="NAudio.CoreAudioApi.AudioClient.MixFormat">
+  MixFormat
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WaveFormat MixFormat { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NAudio.Wave.WaveFormat.html">WaveFormat</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_StreamLatency_" data-uid="NAudio.CoreAudioApi.AudioClient.StreamLatency*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_StreamLatency" data-uid="NAudio.CoreAudioApi.AudioClient.StreamLatency">
+  StreamLatency
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long StreamLatency { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_ActivateAsync_" data-uid="NAudio.CoreAudioApi.AudioClient.ActivateAsync*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_ActivateAsync_System_String_System_Nullable_NAudio_CoreAudioApi_AudioClientProperties__" data-uid="NAudio.CoreAudioApi.AudioClient.ActivateAsync(System.String,System.Nullable{NAudio.CoreAudioApi.AudioClientProperties})">
+  ActivateAsync(string, AudioClientProperties?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;AudioClient&gt; ActivateAsync(string deviceInterfacePath, AudioClientProperties? audioClientProperties)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceInterfacePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>audioClientProperties</code> <a class="xref" href="NAudio.CoreAudioApi.AudioClientProperties.html">AudioClientProperties</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="NAudio.CoreAudioApi.AudioClient.html">AudioClient</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_Dispose_" data-uid="NAudio.CoreAudioApi.AudioClient.Dispose*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_Dispose" data-uid="NAudio.CoreAudioApi.AudioClient.Dispose">
+  Dispose()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_Initialize_" data-uid="NAudio.CoreAudioApi.AudioClient.Initialize*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_Initialize_NAudio_CoreAudioApi_AudioClientShareMode_NAudio_CoreAudioApi_AudioClientStreamFlags_System_Int64_System_Int64_NAudio_Wave_WaveFormat_System_Guid_" data-uid="NAudio.CoreAudioApi.AudioClient.Initialize(NAudio.CoreAudioApi.AudioClientShareMode,NAudio.CoreAudioApi.AudioClientStreamFlags,System.Int64,System.Int64,NAudio.Wave.WaveFormat,System.Guid)">
+  Initialize(AudioClientShareMode, AudioClientStreamFlags, long, long, WaveFormat, Guid)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize(AudioClientShareMode shareMode, AudioClientStreamFlags streamFlags, long bufferDuration, long periodicity, WaveFormat waveFormat, Guid audioSessionGuid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>shareMode</code> <a class="xref" href="NAudio.CoreAudioApi.AudioClientShareMode.html">AudioClientShareMode</a></dt>
+    <dd></dd>
+    <dt><code>streamFlags</code> <a class="xref" href="NAudio.CoreAudioApi.AudioClientStreamFlags.html">AudioClientStreamFlags</a></dt>
+    <dd></dd>
+    <dt><code>bufferDuration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>periodicity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>waveFormat</code> <a class="xref" href="NAudio.Wave.WaveFormat.html">WaveFormat</a></dt>
+    <dd></dd>
+    <dt><code>audioSessionGuid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_IsFormatSupported_" data-uid="NAudio.CoreAudioApi.AudioClient.IsFormatSupported*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_IsFormatSupported_NAudio_CoreAudioApi_AudioClientShareMode_NAudio_Wave_WaveFormat_" data-uid="NAudio.CoreAudioApi.AudioClient.IsFormatSupported(NAudio.CoreAudioApi.AudioClientShareMode,NAudio.Wave.WaveFormat)">
+  IsFormatSupported(AudioClientShareMode, WaveFormat)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFormatSupported(AudioClientShareMode shareMode, WaveFormat desiredFormat)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>shareMode</code> <a class="xref" href="NAudio.CoreAudioApi.AudioClientShareMode.html">AudioClientShareMode</a></dt>
+    <dd></dd>
+    <dt><code>desiredFormat</code> <a class="xref" href="NAudio.Wave.WaveFormat.html">WaveFormat</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_IsFormatSupported_" data-uid="NAudio.CoreAudioApi.AudioClient.IsFormatSupported*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_IsFormatSupported_NAudio_CoreAudioApi_AudioClientShareMode_NAudio_Wave_WaveFormat_NAudio_Wave_WaveFormatExtensible__" data-uid="NAudio.CoreAudioApi.AudioClient.IsFormatSupported(NAudio.CoreAudioApi.AudioClientShareMode,NAudio.Wave.WaveFormat,NAudio.Wave.WaveFormatExtensible@)">
+  IsFormatSupported(AudioClientShareMode, WaveFormat, out WaveFormatExtensible)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFormatSupported(AudioClientShareMode shareMode, WaveFormat desiredFormat, out WaveFormatExtensible closestMatchFormat)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>shareMode</code> <a class="xref" href="NAudio.CoreAudioApi.AudioClientShareMode.html">AudioClientShareMode</a></dt>
+    <dd></dd>
+    <dt><code>desiredFormat</code> <a class="xref" href="NAudio.Wave.WaveFormat.html">WaveFormat</a></dt>
+    <dd></dd>
+    <dt><code>closestMatchFormat</code> <a class="xref" href="NAudio.Wave.WaveFormatExtensible.html">WaveFormatExtensible</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_Reset_" data-uid="NAudio.CoreAudioApi.AudioClient.Reset*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_Reset" data-uid="NAudio.CoreAudioApi.AudioClient.Reset">
+  Reset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_SetEventHandle_" data-uid="NAudio.CoreAudioApi.AudioClient.SetEventHandle*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_SetEventHandle_System_IntPtr_" data-uid="NAudio.CoreAudioApi.AudioClient.SetEventHandle(System.IntPtr)">
+  SetEventHandle(IntPtr)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetEventHandle(IntPtr eventWaitHandle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventWaitHandle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_Start_" data-uid="NAudio.CoreAudioApi.AudioClient.Start*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_Start" data-uid="NAudio.CoreAudioApi.AudioClient.Start">
+  Start()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Start()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_CoreAudioApi_AudioClient_Stop_" data-uid="NAudio.CoreAudioApi.AudioClient.Stop*"></a>
+
+  <h3 id="NAudio_CoreAudioApi_AudioClient_Stop" data-uid="NAudio.CoreAudioApi.AudioClient.Stop">
+  Stop()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Stop()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

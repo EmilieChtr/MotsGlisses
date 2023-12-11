@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Codecs
+  commentId: N:NAudio.Codecs
+  id: NAudio.Codecs
+  children:
+  - NAudio.Codecs.ALawDecoder
+  - NAudio.Codecs.ALawEncoder
+  - NAudio.Codecs.Band
+  - NAudio.Codecs.G722Codec
+  - NAudio.Codecs.G722CodecState
+  - NAudio.Codecs.G722Flags
+  - NAudio.Codecs.MuLawDecoder
+  - NAudio.Codecs.MuLawEncoder
+  langs:
+  - csharp
+  - vb
+  name: NAudio.Codecs
+  nameWithType: NAudio.Codecs
+  fullName: NAudio.Codecs
+  type: Namespace
+  assemblies:
+  - NAudio.Core
+references:
+- uid: NAudio.Codecs.ALawDecoder
+  commentId: T:NAudio.Codecs.ALawDecoder
+  isExternal: true
+  href: NAudio.Codecs.ALawDecoder.html
+  name: ALawDecoder
+  nameWithType: ALawDecoder
+  fullName: NAudio.Codecs.ALawDecoder
+- uid: NAudio.Codecs.ALawEncoder
+  commentId: T:NAudio.Codecs.ALawEncoder
+  isExternal: true
+  href: NAudio.Codecs.ALawEncoder.html
+  name: ALawEncoder
+  nameWithType: ALawEncoder
+  fullName: NAudio.Codecs.ALawEncoder
+- uid: NAudio.Codecs.G722Codec
+  commentId: T:NAudio.Codecs.G722Codec
+  isExternal: true
+  href: NAudio.Codecs.G722Codec.html
+  name: G722Codec
+  nameWithType: G722Codec
+  fullName: NAudio.Codecs.G722Codec
+- uid: NAudio.Codecs.G722CodecState
+  commentId: T:NAudio.Codecs.G722CodecState
+  parent: NAudio.Codecs
+  isExternal: true
+  href: NAudio.Codecs.G722CodecState.html
+  name: G722CodecState
+  nameWithType: G722CodecState
+  fullName: NAudio.Codecs.G722CodecState
+- uid: NAudio.Codecs.Band
+  commentId: T:NAudio.Codecs.Band
+  isExternal: true
+  href: NAudio.Codecs.Band.html
+  name: Band
+  nameWithType: Band
+  fullName: NAudio.Codecs.Band
+- uid: NAudio.Codecs.G722Flags
+  commentId: T:NAudio.Codecs.G722Flags
+  parent: NAudio.Codecs
+  isExternal: true
+  href: NAudio.Codecs.G722Flags.html
+  name: G722Flags
+  nameWithType: G722Flags
+  fullName: NAudio.Codecs.G722Flags
+- uid: NAudio.Codecs.MuLawDecoder
+  commentId: T:NAudio.Codecs.MuLawDecoder
+  isExternal: true
+  href: NAudio.Codecs.MuLawDecoder.html
+  name: MuLawDecoder
+  nameWithType: MuLawDecoder
+  fullName: NAudio.Codecs.MuLawDecoder
+- uid: NAudio.Codecs.MuLawEncoder
+  commentId: T:NAudio.Codecs.MuLawEncoder
+  isExternal: true
+  href: NAudio.Codecs.MuLawEncoder.html
+  name: MuLawEncoder
+  nameWithType: MuLawEncoder
+  fullName: NAudio.Codecs.MuLawEncoder
+- uid: NAudio.Codecs
+  commentId: N:NAudio.Codecs
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Codecs
+  nameWithType: NAudio.Codecs
+  fullName: NAudio.Codecs
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Codecs
+    name: Codecs
+    isExternal: true
+    href: NAudio.Codecs.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Codecs
+    name: Codecs
+    isExternal: true
+    href: NAudio.Codecs.html

@@ -1,0 +1,672 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor
+  commentId: T:NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor
+  id: DmoMp3FrameDecompressor
+  parent: NAudio.FileFormats.Mp3
+  children:
+  - NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.#ctor(NAudio.Wave.WaveFormat)
+  - NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame,System.Byte[],System.Int32)
+  - NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Dispose
+  - NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.OutputFormat
+  - NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Reset
+  langs:
+  - csharp
+  - vb
+  name: DmoMp3FrameDecompressor
+  nameWithType: DmoMp3FrameDecompressor
+  fullName: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor
+  type: Class
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.FileFormats.Mp3
+  syntax:
+    content: 'public class DmoMp3FrameDecompressor : IMp3FrameDecompressor, IDisposable'
+    content.vb: Public Class DmoMp3FrameDecompressor Implements IMp3FrameDecompressor, IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - NAudio.Wave.IMp3FrameDecompressor
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.#ctor(NAudio.Wave.WaveFormat)
+  commentId: M:NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.#ctor(NAudio.Wave.WaveFormat)
+  id: '#ctor(NAudio.Wave.WaveFormat)'
+  parent: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor
+  langs:
+  - csharp
+  - vb
+  name: DmoMp3FrameDecompressor(WaveFormat)
+  nameWithType: DmoMp3FrameDecompressor.DmoMp3FrameDecompressor(WaveFormat)
+  fullName: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.DmoMp3FrameDecompressor(NAudio.Wave.WaveFormat)
+  type: Constructor
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.FileFormats.Mp3
+  syntax:
+    content: public DmoMp3FrameDecompressor(WaveFormat sourceFormat)
+    parameters:
+    - id: sourceFormat
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public Sub New(sourceFormat As WaveFormat)
+  overload: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.#ctor*
+  nameWithType.vb: DmoMp3FrameDecompressor.New(WaveFormat)
+  fullName.vb: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.New(NAudio.Wave.WaveFormat)
+  name.vb: New(WaveFormat)
+- uid: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame,System.Byte[],System.Int32)
+  commentId: M:NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame,System.Byte[],System.Int32)
+  id: DecompressFrame(NAudio.Wave.Mp3Frame,System.Byte[],System.Int32)
+  parent: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor
+  langs:
+  - csharp
+  - vb
+  name: DecompressFrame(Mp3Frame, byte[], int)
+  nameWithType: DmoMp3FrameDecompressor.DecompressFrame(Mp3Frame, byte[], int)
+  fullName: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame, byte[], int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.FileFormats.Mp3
+  example: []
+  syntax:
+    content: public int DecompressFrame(Mp3Frame frame, byte[] dest, int destOffset)
+    parameters:
+    - id: frame
+      type: NAudio.Wave.Mp3Frame
+    - id: dest
+      type: System.Byte[]
+    - id: destOffset
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function DecompressFrame(frame As Mp3Frame, dest As Byte(), destOffset As Integer) As Integer
+  overload: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.DecompressFrame*
+  implements:
+  - NAudio.Wave.IMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame,System.Byte[],System.Int32)
+  nameWithType.vb: DmoMp3FrameDecompressor.DecompressFrame(Mp3Frame, Byte(), Integer)
+  fullName.vb: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame, Byte(), Integer)
+  name.vb: DecompressFrame(Mp3Frame, Byte(), Integer)
+- uid: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Reset
+  commentId: M:NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Reset
+  id: Reset
+  parent: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: DmoMp3FrameDecompressor.Reset()
+  fullName: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Reset()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.FileFormats.Mp3
+  example: []
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset()
+  overload: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Reset*
+  implements:
+  - NAudio.Wave.IMp3FrameDecompressor.Reset
+- uid: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Dispose
+  commentId: M:NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Dispose
+  id: Dispose
+  parent: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: DmoMp3FrameDecompressor.Dispose()
+  fullName: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Dispose()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.FileFormats.Mp3
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.OutputFormat
+  commentId: P:NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.OutputFormat
+  id: OutputFormat
+  parent: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor
+  langs:
+  - csharp
+  - vb
+  name: OutputFormat
+  nameWithType: DmoMp3FrameDecompressor.OutputFormat
+  fullName: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.OutputFormat
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.FileFormats.Mp3
+  example: []
+  syntax:
+    content: public WaveFormat OutputFormat { get; }
+    parameters: []
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public ReadOnly Property OutputFormat As WaveFormat
+  overload: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.OutputFormat*
+  implements:
+  - NAudio.Wave.IMp3FrameDecompressor.OutputFormat
+references:
+- uid: NAudio.FileFormats.Mp3
+  commentId: N:NAudio.FileFormats.Mp3
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.FileFormats.Mp3
+  nameWithType: NAudio.FileFormats.Mp3
+  fullName: NAudio.FileFormats.Mp3
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.FileFormats
+    name: FileFormats
+    isExternal: true
+    href: NAudio.FileFormats.html
+  - name: .
+  - uid: NAudio.FileFormats.Mp3
+    name: Mp3
+    isExternal: true
+    href: NAudio.FileFormats.Mp3.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.FileFormats
+    name: FileFormats
+    isExternal: true
+    href: NAudio.FileFormats.html
+  - name: .
+  - uid: NAudio.FileFormats.Mp3
+    name: Mp3
+    isExternal: true
+    href: NAudio.FileFormats.Mp3.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NAudio.Wave.IMp3FrameDecompressor
+  commentId: T:NAudio.Wave.IMp3FrameDecompressor
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.IMp3FrameDecompressor.html
+  name: IMp3FrameDecompressor
+  nameWithType: IMp3FrameDecompressor
+  fullName: NAudio.Wave.IMp3FrameDecompressor
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.#ctor*
+  commentId: Overload:NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.#ctor
+  isExternal: true
+  href: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.html#NAudio_FileFormats_Mp3_DmoMp3FrameDecompressor__ctor_NAudio_Wave_WaveFormat_
+  name: DmoMp3FrameDecompressor
+  nameWithType: DmoMp3FrameDecompressor.DmoMp3FrameDecompressor
+  fullName: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.DmoMp3FrameDecompressor
+  nameWithType.vb: DmoMp3FrameDecompressor.New
+  fullName.vb: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.New
+  name.vb: New
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat
+- uid: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.DecompressFrame*
+  commentId: Overload:NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.DecompressFrame
+  isExternal: true
+  href: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.html#NAudio_FileFormats_Mp3_DmoMp3FrameDecompressor_DecompressFrame_NAudio_Wave_Mp3Frame_System_Byte___System_Int32_
+  name: DecompressFrame
+  nameWithType: DmoMp3FrameDecompressor.DecompressFrame
+  fullName: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.DecompressFrame
+- uid: NAudio.Wave.IMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame,System.Byte[],System.Int32)
+  commentId: M:NAudio.Wave.IMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame,System.Byte[],System.Int32)
+  parent: NAudio.Wave.IMp3FrameDecompressor
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: DecompressFrame(Mp3Frame, byte[], int)
+  nameWithType: IMp3FrameDecompressor.DecompressFrame(Mp3Frame, byte[], int)
+  fullName: NAudio.Wave.IMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame, byte[], int)
+  nameWithType.vb: IMp3FrameDecompressor.DecompressFrame(Mp3Frame, Byte(), Integer)
+  fullName.vb: NAudio.Wave.IMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame, Byte(), Integer)
+  name.vb: DecompressFrame(Mp3Frame, Byte(), Integer)
+  spec.csharp:
+  - uid: NAudio.Wave.IMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame,System.Byte[],System.Int32)
+    name: DecompressFrame
+    isExternal: true
+  - name: (
+  - uid: NAudio.Wave.Mp3Frame
+    name: Mp3Frame
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.IMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame,System.Byte[],System.Int32)
+    name: DecompressFrame
+    isExternal: true
+  - name: (
+  - uid: NAudio.Wave.Mp3Frame
+    name: Mp3Frame
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: NAudio.Wave.Mp3Frame
+  commentId: T:NAudio.Wave.Mp3Frame
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.Mp3Frame.html
+  name: Mp3Frame
+  nameWithType: Mp3Frame
+  fullName: NAudio.Wave.Mp3Frame
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Reset*
+  commentId: Overload:NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Reset
+  isExternal: true
+  href: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.html#NAudio_FileFormats_Mp3_DmoMp3FrameDecompressor_Reset
+  name: Reset
+  nameWithType: DmoMp3FrameDecompressor.Reset
+  fullName: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Reset
+- uid: NAudio.Wave.IMp3FrameDecompressor.Reset
+  commentId: M:NAudio.Wave.IMp3FrameDecompressor.Reset
+  parent: NAudio.Wave.IMp3FrameDecompressor
+  isExternal: true
+  name: Reset()
+  nameWithType: IMp3FrameDecompressor.Reset()
+  fullName: NAudio.Wave.IMp3FrameDecompressor.Reset()
+  spec.csharp:
+  - uid: NAudio.Wave.IMp3FrameDecompressor.Reset
+    name: Reset
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.IMp3FrameDecompressor.Reset
+    name: Reset
+    isExternal: true
+  - name: (
+  - name: )
+- uid: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Dispose*
+  commentId: Overload:NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Dispose
+  isExternal: true
+  href: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.html#NAudio_FileFormats_Mp3_DmoMp3FrameDecompressor_Dispose
+  name: Dispose
+  nameWithType: DmoMp3FrameDecompressor.Dispose
+  fullName: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.OutputFormat*
+  commentId: Overload:NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.OutputFormat
+  isExternal: true
+  href: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.html#NAudio_FileFormats_Mp3_DmoMp3FrameDecompressor_OutputFormat
+  name: OutputFormat
+  nameWithType: DmoMp3FrameDecompressor.OutputFormat
+  fullName: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.OutputFormat
+- uid: NAudio.Wave.IMp3FrameDecompressor.OutputFormat
+  commentId: P:NAudio.Wave.IMp3FrameDecompressor.OutputFormat
+  parent: NAudio.Wave.IMp3FrameDecompressor
+  isExternal: true
+  name: OutputFormat
+  nameWithType: IMp3FrameDecompressor.OutputFormat
+  fullName: NAudio.Wave.IMp3FrameDecompressor.OutputFormat

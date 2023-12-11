@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  commentId: T:NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  id: PartTypeEnum
+  parent: NAudio.CoreAudioApi.Interfaces
+  children:
+  - NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Category
+  - NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Connector
+  - NAudio.CoreAudioApi.Interfaces.PartTypeEnum.HardwarePeriphery
+  - NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Other
+  - NAudio.CoreAudioApi.Interfaces.PartTypeEnum.SoftwareDriver
+  - NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Splitter
+  - NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Subunit
+  langs:
+  - csharp
+  - vb
+  name: PartTypeEnum
+  nameWithType: PartTypeEnum
+  fullName: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public enum PartTypeEnum
+    content.vb: Public Enum PartTypeEnum
+- uid: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Connector
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Connector
+  id: Connector
+  parent: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Connector
+  nameWithType: PartTypeEnum.Connector
+  fullName: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Connector
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: Connector = 0
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+- uid: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Subunit
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Subunit
+  id: Subunit
+  parent: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Subunit
+  nameWithType: PartTypeEnum.Subunit
+  fullName: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Subunit
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: Subunit = 1
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+- uid: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.HardwarePeriphery
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PartTypeEnum.HardwarePeriphery
+  id: HardwarePeriphery
+  parent: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: HardwarePeriphery
+  nameWithType: PartTypeEnum.HardwarePeriphery
+  fullName: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.HardwarePeriphery
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: HardwarePeriphery = 2
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+- uid: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.SoftwareDriver
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PartTypeEnum.SoftwareDriver
+  id: SoftwareDriver
+  parent: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: SoftwareDriver
+  nameWithType: PartTypeEnum.SoftwareDriver
+  fullName: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.SoftwareDriver
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: SoftwareDriver = 3
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+- uid: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Splitter
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Splitter
+  id: Splitter
+  parent: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Splitter
+  nameWithType: PartTypeEnum.Splitter
+  fullName: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Splitter
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: Splitter = 4
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+- uid: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Category
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Category
+  id: Category
+  parent: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: PartTypeEnum.Category
+  fullName: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Category
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: Category = 5
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+- uid: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Other
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Other
+  id: Other
+  parent: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: PartTypeEnum.Other
+  fullName: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.Other
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: Other = 6
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+references:
+- uid: NAudio.CoreAudioApi.Interfaces
+  commentId: N:NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi.Interfaces
+  nameWithType: NAudio.CoreAudioApi.Interfaces
+  fullName: NAudio.CoreAudioApi.Interfaces
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+- uid: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  commentId: T:NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.html
+  name: PartTypeEnum
+  nameWithType: PartTypeEnum
+  fullName: NAudio.CoreAudioApi.Interfaces.PartTypeEnum

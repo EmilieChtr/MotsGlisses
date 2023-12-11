@@ -1,0 +1,341 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Midi.MidiCommandCode
+  commentId: T:NAudio.Midi.MidiCommandCode
+  id: MidiCommandCode
+  parent: NAudio.Midi
+  children:
+  - NAudio.Midi.MidiCommandCode.AutoSensing
+  - NAudio.Midi.MidiCommandCode.ChannelAfterTouch
+  - NAudio.Midi.MidiCommandCode.ContinueSequence
+  - NAudio.Midi.MidiCommandCode.ControlChange
+  - NAudio.Midi.MidiCommandCode.Eox
+  - NAudio.Midi.MidiCommandCode.KeyAfterTouch
+  - NAudio.Midi.MidiCommandCode.MetaEvent
+  - NAudio.Midi.MidiCommandCode.NoteOff
+  - NAudio.Midi.MidiCommandCode.NoteOn
+  - NAudio.Midi.MidiCommandCode.PatchChange
+  - NAudio.Midi.MidiCommandCode.PitchWheelChange
+  - NAudio.Midi.MidiCommandCode.StartSequence
+  - NAudio.Midi.MidiCommandCode.StopSequence
+  - NAudio.Midi.MidiCommandCode.Sysex
+  - NAudio.Midi.MidiCommandCode.TimingClock
+  langs:
+  - csharp
+  - vb
+  name: MidiCommandCode
+  nameWithType: MidiCommandCode
+  fullName: NAudio.Midi.MidiCommandCode
+  type: Enum
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: 'public enum MidiCommandCode : byte'
+    content.vb: Public Enum MidiCommandCode As Byte
+- uid: NAudio.Midi.MidiCommandCode.NoteOff
+  commentId: F:NAudio.Midi.MidiCommandCode.NoteOff
+  id: NoteOff
+  parent: NAudio.Midi.MidiCommandCode
+  langs:
+  - csharp
+  - vb
+  name: NoteOff
+  nameWithType: MidiCommandCode.NoteOff
+  fullName: NAudio.Midi.MidiCommandCode.NoteOff
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: NoteOff = 128
+    return:
+      type: NAudio.Midi.MidiCommandCode
+- uid: NAudio.Midi.MidiCommandCode.NoteOn
+  commentId: F:NAudio.Midi.MidiCommandCode.NoteOn
+  id: NoteOn
+  parent: NAudio.Midi.MidiCommandCode
+  langs:
+  - csharp
+  - vb
+  name: NoteOn
+  nameWithType: MidiCommandCode.NoteOn
+  fullName: NAudio.Midi.MidiCommandCode.NoteOn
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: NoteOn = 144
+    return:
+      type: NAudio.Midi.MidiCommandCode
+- uid: NAudio.Midi.MidiCommandCode.KeyAfterTouch
+  commentId: F:NAudio.Midi.MidiCommandCode.KeyAfterTouch
+  id: KeyAfterTouch
+  parent: NAudio.Midi.MidiCommandCode
+  langs:
+  - csharp
+  - vb
+  name: KeyAfterTouch
+  nameWithType: MidiCommandCode.KeyAfterTouch
+  fullName: NAudio.Midi.MidiCommandCode.KeyAfterTouch
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: KeyAfterTouch = 160
+    return:
+      type: NAudio.Midi.MidiCommandCode
+- uid: NAudio.Midi.MidiCommandCode.ControlChange
+  commentId: F:NAudio.Midi.MidiCommandCode.ControlChange
+  id: ControlChange
+  parent: NAudio.Midi.MidiCommandCode
+  langs:
+  - csharp
+  - vb
+  name: ControlChange
+  nameWithType: MidiCommandCode.ControlChange
+  fullName: NAudio.Midi.MidiCommandCode.ControlChange
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: ControlChange = 176
+    return:
+      type: NAudio.Midi.MidiCommandCode
+- uid: NAudio.Midi.MidiCommandCode.PatchChange
+  commentId: F:NAudio.Midi.MidiCommandCode.PatchChange
+  id: PatchChange
+  parent: NAudio.Midi.MidiCommandCode
+  langs:
+  - csharp
+  - vb
+  name: PatchChange
+  nameWithType: MidiCommandCode.PatchChange
+  fullName: NAudio.Midi.MidiCommandCode.PatchChange
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: PatchChange = 192
+    return:
+      type: NAudio.Midi.MidiCommandCode
+- uid: NAudio.Midi.MidiCommandCode.ChannelAfterTouch
+  commentId: F:NAudio.Midi.MidiCommandCode.ChannelAfterTouch
+  id: ChannelAfterTouch
+  parent: NAudio.Midi.MidiCommandCode
+  langs:
+  - csharp
+  - vb
+  name: ChannelAfterTouch
+  nameWithType: MidiCommandCode.ChannelAfterTouch
+  fullName: NAudio.Midi.MidiCommandCode.ChannelAfterTouch
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: ChannelAfterTouch = 208
+    return:
+      type: NAudio.Midi.MidiCommandCode
+- uid: NAudio.Midi.MidiCommandCode.PitchWheelChange
+  commentId: F:NAudio.Midi.MidiCommandCode.PitchWheelChange
+  id: PitchWheelChange
+  parent: NAudio.Midi.MidiCommandCode
+  langs:
+  - csharp
+  - vb
+  name: PitchWheelChange
+  nameWithType: MidiCommandCode.PitchWheelChange
+  fullName: NAudio.Midi.MidiCommandCode.PitchWheelChange
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: PitchWheelChange = 224
+    return:
+      type: NAudio.Midi.MidiCommandCode
+- uid: NAudio.Midi.MidiCommandCode.Sysex
+  commentId: F:NAudio.Midi.MidiCommandCode.Sysex
+  id: Sysex
+  parent: NAudio.Midi.MidiCommandCode
+  langs:
+  - csharp
+  - vb
+  name: Sysex
+  nameWithType: MidiCommandCode.Sysex
+  fullName: NAudio.Midi.MidiCommandCode.Sysex
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: Sysex = 240
+    return:
+      type: NAudio.Midi.MidiCommandCode
+- uid: NAudio.Midi.MidiCommandCode.Eox
+  commentId: F:NAudio.Midi.MidiCommandCode.Eox
+  id: Eox
+  parent: NAudio.Midi.MidiCommandCode
+  langs:
+  - csharp
+  - vb
+  name: Eox
+  nameWithType: MidiCommandCode.Eox
+  fullName: NAudio.Midi.MidiCommandCode.Eox
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: Eox = 247
+    return:
+      type: NAudio.Midi.MidiCommandCode
+- uid: NAudio.Midi.MidiCommandCode.TimingClock
+  commentId: F:NAudio.Midi.MidiCommandCode.TimingClock
+  id: TimingClock
+  parent: NAudio.Midi.MidiCommandCode
+  langs:
+  - csharp
+  - vb
+  name: TimingClock
+  nameWithType: MidiCommandCode.TimingClock
+  fullName: NAudio.Midi.MidiCommandCode.TimingClock
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: TimingClock = 248
+    return:
+      type: NAudio.Midi.MidiCommandCode
+- uid: NAudio.Midi.MidiCommandCode.StartSequence
+  commentId: F:NAudio.Midi.MidiCommandCode.StartSequence
+  id: StartSequence
+  parent: NAudio.Midi.MidiCommandCode
+  langs:
+  - csharp
+  - vb
+  name: StartSequence
+  nameWithType: MidiCommandCode.StartSequence
+  fullName: NAudio.Midi.MidiCommandCode.StartSequence
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: StartSequence = 250
+    return:
+      type: NAudio.Midi.MidiCommandCode
+- uid: NAudio.Midi.MidiCommandCode.ContinueSequence
+  commentId: F:NAudio.Midi.MidiCommandCode.ContinueSequence
+  id: ContinueSequence
+  parent: NAudio.Midi.MidiCommandCode
+  langs:
+  - csharp
+  - vb
+  name: ContinueSequence
+  nameWithType: MidiCommandCode.ContinueSequence
+  fullName: NAudio.Midi.MidiCommandCode.ContinueSequence
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: ContinueSequence = 251
+    return:
+      type: NAudio.Midi.MidiCommandCode
+- uid: NAudio.Midi.MidiCommandCode.StopSequence
+  commentId: F:NAudio.Midi.MidiCommandCode.StopSequence
+  id: StopSequence
+  parent: NAudio.Midi.MidiCommandCode
+  langs:
+  - csharp
+  - vb
+  name: StopSequence
+  nameWithType: MidiCommandCode.StopSequence
+  fullName: NAudio.Midi.MidiCommandCode.StopSequence
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: StopSequence = 252
+    return:
+      type: NAudio.Midi.MidiCommandCode
+- uid: NAudio.Midi.MidiCommandCode.AutoSensing
+  commentId: F:NAudio.Midi.MidiCommandCode.AutoSensing
+  id: AutoSensing
+  parent: NAudio.Midi.MidiCommandCode
+  langs:
+  - csharp
+  - vb
+  name: AutoSensing
+  nameWithType: MidiCommandCode.AutoSensing
+  fullName: NAudio.Midi.MidiCommandCode.AutoSensing
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: AutoSensing = 254
+    return:
+      type: NAudio.Midi.MidiCommandCode
+- uid: NAudio.Midi.MidiCommandCode.MetaEvent
+  commentId: F:NAudio.Midi.MidiCommandCode.MetaEvent
+  id: MetaEvent
+  parent: NAudio.Midi.MidiCommandCode
+  langs:
+  - csharp
+  - vb
+  name: MetaEvent
+  nameWithType: MidiCommandCode.MetaEvent
+  fullName: NAudio.Midi.MidiCommandCode.MetaEvent
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: MetaEvent = 255
+    return:
+      type: NAudio.Midi.MidiCommandCode
+references:
+- uid: NAudio.Midi
+  commentId: N:NAudio.Midi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Midi
+  nameWithType: NAudio.Midi
+  fullName: NAudio.Midi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+- uid: NAudio.Midi.MidiCommandCode
+  commentId: T:NAudio.Midi.MidiCommandCode
+  parent: NAudio.Midi
+  isExternal: true
+  href: NAudio.Midi.MidiCommandCode.html
+  name: MidiCommandCode
+  nameWithType: MidiCommandCode
+  fullName: NAudio.Midi.MidiCommandCode

@@ -1,0 +1,1074 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MediaObject
+ | MotsGliss&#233;s </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MediaObject
+ | MotsGliss&#233;s ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="MotsGliss&#233;s">
+            MotsGliss&#233;s
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NAudio.Dmo.MediaObject">
+
+
+
+  <h1 id="NAudio_Dmo_MediaObject" data-uid="NAudio.Dmo.MediaObject" class="text-break">
+    Class MediaObject
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NAudio.html">NAudio</a>.<a class="xref" href="NAudio.Dmo.html">Dmo</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NAudio.Wasapi.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class MediaObject : IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">MediaObject</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NAudio_Dmo_MediaObject_InputStreamCount_" data-uid="NAudio.Dmo.MediaObject.InputStreamCount*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_InputStreamCount" data-uid="NAudio.Dmo.MediaObject.InputStreamCount">
+  InputStreamCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int InputStreamCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_OutputStreamCount_" data-uid="NAudio.Dmo.MediaObject.OutputStreamCount*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_OutputStreamCount" data-uid="NAudio.Dmo.MediaObject.OutputStreamCount">
+  OutputStreamCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int OutputStreamCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NAudio_Dmo_MediaObject_AllocateStreamingResources_" data-uid="NAudio.Dmo.MediaObject.AllocateStreamingResources*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_AllocateStreamingResources" data-uid="NAudio.Dmo.MediaObject.AllocateStreamingResources">
+  AllocateStreamingResources()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AllocateStreamingResources()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_Discontinuity_" data-uid="NAudio.Dmo.MediaObject.Discontinuity*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_Discontinuity_System_Int32_" data-uid="NAudio.Dmo.MediaObject.Discontinuity(System.Int32)">
+  Discontinuity(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Discontinuity(int inputStreamIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_Dispose_" data-uid="NAudio.Dmo.MediaObject.Dispose*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_Dispose" data-uid="NAudio.Dmo.MediaObject.Dispose">
+  Dispose()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_Flush_" data-uid="NAudio.Dmo.MediaObject.Flush*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_Flush" data-uid="NAudio.Dmo.MediaObject.Flush">
+  Flush()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Flush()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_FreeStreamingResources_" data-uid="NAudio.Dmo.MediaObject.FreeStreamingResources*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_FreeStreamingResources" data-uid="NAudio.Dmo.MediaObject.FreeStreamingResources">
+  FreeStreamingResources()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FreeStreamingResources()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_GetInputMaxLatency_" data-uid="NAudio.Dmo.MediaObject.GetInputMaxLatency*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_GetInputMaxLatency_System_Int32_" data-uid="NAudio.Dmo.MediaObject.GetInputMaxLatency(System.Int32)">
+  GetInputMaxLatency(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long GetInputMaxLatency(int inputStreamIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_GetInputSizeInfo_" data-uid="NAudio.Dmo.MediaObject.GetInputSizeInfo*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_GetInputSizeInfo_System_Int32_" data-uid="NAudio.Dmo.MediaObject.GetInputSizeInfo(System.Int32)">
+  GetInputSizeInfo(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MediaObjectSizeInfo GetInputSizeInfo(int inputStreamIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NAudio.Dmo.MediaObjectSizeInfo.html">MediaObjectSizeInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_GetInputType_" data-uid="NAudio.Dmo.MediaObject.GetInputType*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_GetInputType_System_Int32_System_Int32_" data-uid="NAudio.Dmo.MediaObject.GetInputType(System.Int32,System.Int32)">
+  GetInputType(int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DmoMediaType? GetInputType(int inputStream, int inputTypeIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputStream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>inputTypeIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NAudio.Dmo.DmoMediaType.html">DmoMediaType</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_GetInputTypes_" data-uid="NAudio.Dmo.MediaObject.GetInputTypes*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_GetInputTypes_System_Int32_" data-uid="NAudio.Dmo.MediaObject.GetInputTypes(System.Int32)">
+  GetInputTypes(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;DmoMediaType&gt; GetInputTypes(int inputStreamIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="NAudio.Dmo.DmoMediaType.html">DmoMediaType</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_GetOutputCurrentType_" data-uid="NAudio.Dmo.MediaObject.GetOutputCurrentType*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_GetOutputCurrentType_System_Int32_" data-uid="NAudio.Dmo.MediaObject.GetOutputCurrentType(System.Int32)">
+  GetOutputCurrentType(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DmoMediaType GetOutputCurrentType(int outputStreamIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>outputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NAudio.Dmo.DmoMediaType.html">DmoMediaType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_GetOutputSizeInfo_" data-uid="NAudio.Dmo.MediaObject.GetOutputSizeInfo*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_GetOutputSizeInfo_System_Int32_" data-uid="NAudio.Dmo.MediaObject.GetOutputSizeInfo(System.Int32)">
+  GetOutputSizeInfo(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MediaObjectSizeInfo GetOutputSizeInfo(int outputStreamIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>outputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NAudio.Dmo.MediaObjectSizeInfo.html">MediaObjectSizeInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_GetOutputType_" data-uid="NAudio.Dmo.MediaObject.GetOutputType*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_GetOutputType_System_Int32_System_Int32_" data-uid="NAudio.Dmo.MediaObject.GetOutputType(System.Int32,System.Int32)">
+  GetOutputType(int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DmoMediaType? GetOutputType(int outputStream, int outputTypeIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>outputStream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>outputTypeIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NAudio.Dmo.DmoMediaType.html">DmoMediaType</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_GetOutputTypes_" data-uid="NAudio.Dmo.MediaObject.GetOutputTypes*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_GetOutputTypes_System_Int32_" data-uid="NAudio.Dmo.MediaObject.GetOutputTypes(System.Int32)">
+  GetOutputTypes(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;DmoMediaType&gt; GetOutputTypes(int outputStreamIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>outputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="NAudio.Dmo.DmoMediaType.html">DmoMediaType</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_IsAcceptingData_" data-uid="NAudio.Dmo.MediaObject.IsAcceptingData*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_IsAcceptingData_System_Int32_" data-uid="NAudio.Dmo.MediaObject.IsAcceptingData(System.Int32)">
+  IsAcceptingData(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAcceptingData(int inputStreamIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_ProcessInput_" data-uid="NAudio.Dmo.MediaObject.ProcessInput*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_ProcessInput_System_Int32_NAudio_Dmo_IMediaBuffer_NAudio_Dmo_DmoInputDataBufferFlags_System_Int64_System_Int64_" data-uid="NAudio.Dmo.MediaObject.ProcessInput(System.Int32,NAudio.Dmo.IMediaBuffer,NAudio.Dmo.DmoInputDataBufferFlags,System.Int64,System.Int64)">
+  ProcessInput(int, IMediaBuffer, DmoInputDataBufferFlags, long, long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ProcessInput(int inputStreamIndex, IMediaBuffer mediaBuffer, DmoInputDataBufferFlags flags, long timestamp, long duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>mediaBuffer</code> <a class="xref" href="NAudio.Dmo.IMediaBuffer.html">IMediaBuffer</a></dt>
+    <dd></dd>
+    <dt><code>flags</code> <a class="xref" href="NAudio.Dmo.DmoInputDataBufferFlags.html">DmoInputDataBufferFlags</a></dt>
+    <dd></dd>
+    <dt><code>timestamp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_ProcessOutput_" data-uid="NAudio.Dmo.MediaObject.ProcessOutput*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_ProcessOutput_NAudio_Dmo_DmoProcessOutputFlags_System_Int32_NAudio_Dmo_DmoOutputDataBuffer___" data-uid="NAudio.Dmo.MediaObject.ProcessOutput(NAudio.Dmo.DmoProcessOutputFlags,System.Int32,NAudio.Dmo.DmoOutputDataBuffer[])">
+  ProcessOutput(DmoProcessOutputFlags, int, DmoOutputDataBuffer[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ProcessOutput(DmoProcessOutputFlags flags, int outputBufferCount, DmoOutputDataBuffer[] outputBuffers)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>flags</code> <a class="xref" href="NAudio.Dmo.DmoProcessOutputFlags.html">DmoProcessOutputFlags</a></dt>
+    <dd></dd>
+    <dt><code>outputBufferCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>outputBuffers</code> <a class="xref" href="NAudio.Dmo.DmoOutputDataBuffer.html">DmoOutputDataBuffer</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_SetInputType_" data-uid="NAudio.Dmo.MediaObject.SetInputType*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_SetInputType_System_Int32_NAudio_Dmo_DmoMediaType_" data-uid="NAudio.Dmo.MediaObject.SetInputType(System.Int32,NAudio.Dmo.DmoMediaType)">
+  SetInputType(int, DmoMediaType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInputType(int inputStreamIndex, DmoMediaType mediaType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="NAudio.Dmo.DmoMediaType.html">DmoMediaType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_SetInputWaveFormat_" data-uid="NAudio.Dmo.MediaObject.SetInputWaveFormat*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_SetInputWaveFormat_System_Int32_NAudio_Wave_WaveFormat_" data-uid="NAudio.Dmo.MediaObject.SetInputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)">
+  SetInputWaveFormat(int, WaveFormat)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInputWaveFormat(int inputStreamIndex, WaveFormat waveFormat)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>waveFormat</code> <a class="xref" href="NAudio.Wave.WaveFormat.html">WaveFormat</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_SetOutputType_" data-uid="NAudio.Dmo.MediaObject.SetOutputType*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_SetOutputType_System_Int32_NAudio_Dmo_DmoMediaType_" data-uid="NAudio.Dmo.MediaObject.SetOutputType(System.Int32,NAudio.Dmo.DmoMediaType)">
+  SetOutputType(int, DmoMediaType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetOutputType(int outputStreamIndex, DmoMediaType mediaType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>outputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="NAudio.Dmo.DmoMediaType.html">DmoMediaType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_SetOutputWaveFormat_" data-uid="NAudio.Dmo.MediaObject.SetOutputWaveFormat*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_SetOutputWaveFormat_System_Int32_NAudio_Wave_WaveFormat_" data-uid="NAudio.Dmo.MediaObject.SetOutputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)">
+  SetOutputWaveFormat(int, WaveFormat)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetOutputWaveFormat(int outputStreamIndex, WaveFormat waveFormat)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>outputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>waveFormat</code> <a class="xref" href="NAudio.Wave.WaveFormat.html">WaveFormat</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_SupportsInputType_" data-uid="NAudio.Dmo.MediaObject.SupportsInputType*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_SupportsInputType_System_Int32_NAudio_Dmo_DmoMediaType_" data-uid="NAudio.Dmo.MediaObject.SupportsInputType(System.Int32,NAudio.Dmo.DmoMediaType)">
+  SupportsInputType(int, DmoMediaType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupportsInputType(int inputStreamIndex, DmoMediaType mediaType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="NAudio.Dmo.DmoMediaType.html">DmoMediaType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_SupportsInputWaveFormat_" data-uid="NAudio.Dmo.MediaObject.SupportsInputWaveFormat*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_SupportsInputWaveFormat_System_Int32_NAudio_Wave_WaveFormat_" data-uid="NAudio.Dmo.MediaObject.SupportsInputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)">
+  SupportsInputWaveFormat(int, WaveFormat)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupportsInputWaveFormat(int inputStreamIndex, WaveFormat waveFormat)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>waveFormat</code> <a class="xref" href="NAudio.Wave.WaveFormat.html">WaveFormat</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_SupportsOutputType_" data-uid="NAudio.Dmo.MediaObject.SupportsOutputType*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_SupportsOutputType_System_Int32_NAudio_Dmo_DmoMediaType_" data-uid="NAudio.Dmo.MediaObject.SupportsOutputType(System.Int32,NAudio.Dmo.DmoMediaType)">
+  SupportsOutputType(int, DmoMediaType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupportsOutputType(int outputStreamIndex, DmoMediaType mediaType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>outputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>mediaType</code> <a class="xref" href="NAudio.Dmo.DmoMediaType.html">DmoMediaType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_Dmo_MediaObject_SupportsOutputWaveFormat_" data-uid="NAudio.Dmo.MediaObject.SupportsOutputWaveFormat*"></a>
+
+  <h3 id="NAudio_Dmo_MediaObject_SupportsOutputWaveFormat_System_Int32_NAudio_Wave_WaveFormat_" data-uid="NAudio.Dmo.MediaObject.SupportsOutputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)">
+  SupportsOutputWaveFormat(int, WaveFormat)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SupportsOutputWaveFormat(int outputStreamIndex, WaveFormat waveFormat)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>outputStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>waveFormat</code> <a class="xref" href="NAudio.Wave.WaveFormat.html">WaveFormat</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

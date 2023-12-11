@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS
+  commentId: T:NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS
+  id: _MFT_PROCESS_OUTPUT_STATUS
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS.MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS
+  - NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS.None
+  langs:
+  - csharp
+  - vb
+  name: _MFT_PROCESS_OUTPUT_STATUS
+  nameWithType: _MFT_PROCESS_OUTPUT_STATUS
+  fullName: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum _MFT_PROCESS_OUTPUT_STATUS
+    content.vb: >-
+      <Flags>
+
+      Public Enum _MFT_PROCESS_OUTPUT_STATUS
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS.None
+  commentId: F:NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS.None
+  id: None
+  parent: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: _MFT_PROCESS_OUTPUT_STATUS.None
+  fullName: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS.None
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: None = 0
+    return:
+      type: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS
+- uid: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS.MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS
+  commentId: F:NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS.MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS
+  id: MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS
+  parent: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS
+  langs:
+  - csharp
+  - vb
+  name: MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS
+  nameWithType: _MFT_PROCESS_OUTPUT_STATUS.MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS
+  fullName: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS.MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS = 256
+    return:
+      type: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS
+  commentId: T:NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS.html
+  name: _MFT_PROCESS_OUTPUT_STATUS
+  nameWithType: _MFT_PROCESS_OUTPUT_STATUS
+  fullName: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS

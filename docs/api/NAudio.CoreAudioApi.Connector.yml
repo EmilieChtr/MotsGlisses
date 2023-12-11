@@ -1,0 +1,607 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.Connector
+  commentId: T:NAudio.CoreAudioApi.Connector
+  id: Connector
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.Connector.ConnectTo(NAudio.CoreAudioApi.Connector)
+  - NAudio.CoreAudioApi.Connector.ConnectedTo
+  - NAudio.CoreAudioApi.Connector.ConnectedToConnectorId
+  - NAudio.CoreAudioApi.Connector.ConnectedToDeviceId
+  - NAudio.CoreAudioApi.Connector.DataFlow
+  - NAudio.CoreAudioApi.Connector.Disconnect
+  - NAudio.CoreAudioApi.Connector.IsConnected
+  - NAudio.CoreAudioApi.Connector.Part
+  - NAudio.CoreAudioApi.Connector.Type
+  langs:
+  - csharp
+  - vb
+  name: Connector
+  nameWithType: Connector
+  fullName: NAudio.CoreAudioApi.Connector
+  type: Class
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public class Connector
+    content.vb: Public Class Connector
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.CoreAudioApi.Connector.ConnectTo(NAudio.CoreAudioApi.Connector)
+  commentId: M:NAudio.CoreAudioApi.Connector.ConnectTo(NAudio.CoreAudioApi.Connector)
+  id: ConnectTo(NAudio.CoreAudioApi.Connector)
+  parent: NAudio.CoreAudioApi.Connector
+  langs:
+  - csharp
+  - vb
+  name: ConnectTo(Connector)
+  nameWithType: Connector.ConnectTo(Connector)
+  fullName: NAudio.CoreAudioApi.Connector.ConnectTo(NAudio.CoreAudioApi.Connector)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public void ConnectTo(Connector other)
+    parameters:
+    - id: other
+      type: NAudio.CoreAudioApi.Connector
+    content.vb: Public Sub ConnectTo(other As Connector)
+  overload: NAudio.CoreAudioApi.Connector.ConnectTo*
+- uid: NAudio.CoreAudioApi.Connector.Disconnect
+  commentId: M:NAudio.CoreAudioApi.Connector.Disconnect
+  id: Disconnect
+  parent: NAudio.CoreAudioApi.Connector
+  langs:
+  - csharp
+  - vb
+  name: Disconnect()
+  nameWithType: Connector.Disconnect()
+  fullName: NAudio.CoreAudioApi.Connector.Disconnect()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public void Disconnect()
+    content.vb: Public Sub Disconnect()
+  overload: NAudio.CoreAudioApi.Connector.Disconnect*
+- uid: NAudio.CoreAudioApi.Connector.Type
+  commentId: P:NAudio.CoreAudioApi.Connector.Type
+  id: Type
+  parent: NAudio.CoreAudioApi.Connector
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Connector.Type
+  fullName: NAudio.CoreAudioApi.Connector.Type
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public ConnectorType Type { get; }
+    parameters: []
+    return:
+      type: NAudio.CoreAudioApi.ConnectorType
+    content.vb: Public ReadOnly Property Type As ConnectorType
+  overload: NAudio.CoreAudioApi.Connector.Type*
+- uid: NAudio.CoreAudioApi.Connector.DataFlow
+  commentId: P:NAudio.CoreAudioApi.Connector.DataFlow
+  id: DataFlow
+  parent: NAudio.CoreAudioApi.Connector
+  langs:
+  - csharp
+  - vb
+  name: DataFlow
+  nameWithType: Connector.DataFlow
+  fullName: NAudio.CoreAudioApi.Connector.DataFlow
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public DataFlow DataFlow { get; }
+    parameters: []
+    return:
+      type: NAudio.CoreAudioApi.DataFlow
+    content.vb: Public ReadOnly Property DataFlow As DataFlow
+  overload: NAudio.CoreAudioApi.Connector.DataFlow*
+- uid: NAudio.CoreAudioApi.Connector.IsConnected
+  commentId: P:NAudio.CoreAudioApi.Connector.IsConnected
+  id: IsConnected
+  parent: NAudio.CoreAudioApi.Connector
+  langs:
+  - csharp
+  - vb
+  name: IsConnected
+  nameWithType: Connector.IsConnected
+  fullName: NAudio.CoreAudioApi.Connector.IsConnected
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public bool IsConnected { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsConnected As Boolean
+  overload: NAudio.CoreAudioApi.Connector.IsConnected*
+- uid: NAudio.CoreAudioApi.Connector.ConnectedTo
+  commentId: P:NAudio.CoreAudioApi.Connector.ConnectedTo
+  id: ConnectedTo
+  parent: NAudio.CoreAudioApi.Connector
+  langs:
+  - csharp
+  - vb
+  name: ConnectedTo
+  nameWithType: Connector.ConnectedTo
+  fullName: NAudio.CoreAudioApi.Connector.ConnectedTo
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public Connector ConnectedTo { get; }
+    parameters: []
+    return:
+      type: NAudio.CoreAudioApi.Connector
+    content.vb: Public ReadOnly Property ConnectedTo As Connector
+  overload: NAudio.CoreAudioApi.Connector.ConnectedTo*
+- uid: NAudio.CoreAudioApi.Connector.ConnectedToConnectorId
+  commentId: P:NAudio.CoreAudioApi.Connector.ConnectedToConnectorId
+  id: ConnectedToConnectorId
+  parent: NAudio.CoreAudioApi.Connector
+  langs:
+  - csharp
+  - vb
+  name: ConnectedToConnectorId
+  nameWithType: Connector.ConnectedToConnectorId
+  fullName: NAudio.CoreAudioApi.Connector.ConnectedToConnectorId
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public string ConnectedToConnectorId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ConnectedToConnectorId As String
+  overload: NAudio.CoreAudioApi.Connector.ConnectedToConnectorId*
+- uid: NAudio.CoreAudioApi.Connector.ConnectedToDeviceId
+  commentId: P:NAudio.CoreAudioApi.Connector.ConnectedToDeviceId
+  id: ConnectedToDeviceId
+  parent: NAudio.CoreAudioApi.Connector
+  langs:
+  - csharp
+  - vb
+  name: ConnectedToDeviceId
+  nameWithType: Connector.ConnectedToDeviceId
+  fullName: NAudio.CoreAudioApi.Connector.ConnectedToDeviceId
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public string ConnectedToDeviceId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ConnectedToDeviceId As String
+  overload: NAudio.CoreAudioApi.Connector.ConnectedToDeviceId*
+- uid: NAudio.CoreAudioApi.Connector.Part
+  commentId: P:NAudio.CoreAudioApi.Connector.Part
+  id: Part
+  parent: NAudio.CoreAudioApi.Connector
+  langs:
+  - csharp
+  - vb
+  name: Part
+  nameWithType: Connector.Part
+  fullName: NAudio.CoreAudioApi.Connector.Part
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public Part Part { get; }
+    parameters: []
+    return:
+      type: NAudio.CoreAudioApi.Part
+    content.vb: Public ReadOnly Property Part As Part
+  overload: NAudio.CoreAudioApi.Connector.Part*
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.CoreAudioApi.Connector.ConnectTo*
+  commentId: Overload:NAudio.CoreAudioApi.Connector.ConnectTo
+  isExternal: true
+  href: NAudio.CoreAudioApi.Connector.html#NAudio_CoreAudioApi_Connector_ConnectTo_NAudio_CoreAudioApi_Connector_
+  name: ConnectTo
+  nameWithType: Connector.ConnectTo
+  fullName: NAudio.CoreAudioApi.Connector.ConnectTo
+- uid: NAudio.CoreAudioApi.Connector
+  commentId: T:NAudio.CoreAudioApi.Connector
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.Connector.html
+  name: Connector
+  nameWithType: Connector
+  fullName: NAudio.CoreAudioApi.Connector
+- uid: NAudio.CoreAudioApi.Connector.Disconnect*
+  commentId: Overload:NAudio.CoreAudioApi.Connector.Disconnect
+  isExternal: true
+  href: NAudio.CoreAudioApi.Connector.html#NAudio_CoreAudioApi_Connector_Disconnect
+  name: Disconnect
+  nameWithType: Connector.Disconnect
+  fullName: NAudio.CoreAudioApi.Connector.Disconnect
+- uid: NAudio.CoreAudioApi.Connector.Type*
+  commentId: Overload:NAudio.CoreAudioApi.Connector.Type
+  isExternal: true
+  href: NAudio.CoreAudioApi.Connector.html#NAudio_CoreAudioApi_Connector_Type
+  name: Type
+  nameWithType: Connector.Type
+  fullName: NAudio.CoreAudioApi.Connector.Type
+- uid: NAudio.CoreAudioApi.ConnectorType
+  commentId: T:NAudio.CoreAudioApi.ConnectorType
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.ConnectorType.html
+  name: ConnectorType
+  nameWithType: ConnectorType
+  fullName: NAudio.CoreAudioApi.ConnectorType
+- uid: NAudio.CoreAudioApi.Connector.DataFlow*
+  commentId: Overload:NAudio.CoreAudioApi.Connector.DataFlow
+  isExternal: true
+  href: NAudio.CoreAudioApi.Connector.html#NAudio_CoreAudioApi_Connector_DataFlow
+  name: DataFlow
+  nameWithType: Connector.DataFlow
+  fullName: NAudio.CoreAudioApi.Connector.DataFlow
+- uid: NAudio.CoreAudioApi.DataFlow
+  commentId: T:NAudio.CoreAudioApi.DataFlow
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.DataFlow.html
+  name: DataFlow
+  nameWithType: DataFlow
+  fullName: NAudio.CoreAudioApi.DataFlow
+- uid: NAudio.CoreAudioApi.Connector.IsConnected*
+  commentId: Overload:NAudio.CoreAudioApi.Connector.IsConnected
+  isExternal: true
+  href: NAudio.CoreAudioApi.Connector.html#NAudio_CoreAudioApi_Connector_IsConnected
+  name: IsConnected
+  nameWithType: Connector.IsConnected
+  fullName: NAudio.CoreAudioApi.Connector.IsConnected
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NAudio.CoreAudioApi.Connector.ConnectedTo*
+  commentId: Overload:NAudio.CoreAudioApi.Connector.ConnectedTo
+  isExternal: true
+  href: NAudio.CoreAudioApi.Connector.html#NAudio_CoreAudioApi_Connector_ConnectedTo
+  name: ConnectedTo
+  nameWithType: Connector.ConnectedTo
+  fullName: NAudio.CoreAudioApi.Connector.ConnectedTo
+- uid: NAudio.CoreAudioApi.Connector.ConnectedToConnectorId*
+  commentId: Overload:NAudio.CoreAudioApi.Connector.ConnectedToConnectorId
+  isExternal: true
+  href: NAudio.CoreAudioApi.Connector.html#NAudio_CoreAudioApi_Connector_ConnectedToConnectorId
+  name: ConnectedToConnectorId
+  nameWithType: Connector.ConnectedToConnectorId
+  fullName: NAudio.CoreAudioApi.Connector.ConnectedToConnectorId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.CoreAudioApi.Connector.ConnectedToDeviceId*
+  commentId: Overload:NAudio.CoreAudioApi.Connector.ConnectedToDeviceId
+  isExternal: true
+  href: NAudio.CoreAudioApi.Connector.html#NAudio_CoreAudioApi_Connector_ConnectedToDeviceId
+  name: ConnectedToDeviceId
+  nameWithType: Connector.ConnectedToDeviceId
+  fullName: NAudio.CoreAudioApi.Connector.ConnectedToDeviceId
+- uid: NAudio.CoreAudioApi.Connector.Part*
+  commentId: Overload:NAudio.CoreAudioApi.Connector.Part
+  isExternal: true
+  href: NAudio.CoreAudioApi.Connector.html#NAudio_CoreAudioApi_Connector_Part
+  name: Part
+  nameWithType: Connector.Part
+  fullName: NAudio.CoreAudioApi.Connector.Part
+- uid: NAudio.CoreAudioApi.Part
+  commentId: T:NAudio.CoreAudioApi.Part
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.Part.html
+  name: Part
+  nameWithType: Part
+  fullName: NAudio.CoreAudioApi.Part

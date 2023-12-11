@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.Mp3WaveFormatId
+  commentId: T:NAudio.Wave.Mp3WaveFormatId
+  id: Mp3WaveFormatId
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.Mp3WaveFormatId.ConstantFrameSize
+  - NAudio.Wave.Mp3WaveFormatId.Mpeg
+  - NAudio.Wave.Mp3WaveFormatId.Unknown
+  langs:
+  - csharp
+  - vb
+  name: Mp3WaveFormatId
+  nameWithType: Mp3WaveFormatId
+  fullName: NAudio.Wave.Mp3WaveFormatId
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: 'public enum Mp3WaveFormatId : ushort'
+    content.vb: Public Enum Mp3WaveFormatId As UShort
+- uid: NAudio.Wave.Mp3WaveFormatId.Unknown
+  commentId: F:NAudio.Wave.Mp3WaveFormatId.Unknown
+  id: Unknown
+  parent: NAudio.Wave.Mp3WaveFormatId
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: Mp3WaveFormatId.Unknown
+  fullName: NAudio.Wave.Mp3WaveFormatId.Unknown
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: Unknown = 0
+    return:
+      type: NAudio.Wave.Mp3WaveFormatId
+- uid: NAudio.Wave.Mp3WaveFormatId.Mpeg
+  commentId: F:NAudio.Wave.Mp3WaveFormatId.Mpeg
+  id: Mpeg
+  parent: NAudio.Wave.Mp3WaveFormatId
+  langs:
+  - csharp
+  - vb
+  name: Mpeg
+  nameWithType: Mp3WaveFormatId.Mpeg
+  fullName: NAudio.Wave.Mp3WaveFormatId.Mpeg
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: Mpeg = 1
+    return:
+      type: NAudio.Wave.Mp3WaveFormatId
+- uid: NAudio.Wave.Mp3WaveFormatId.ConstantFrameSize
+  commentId: F:NAudio.Wave.Mp3WaveFormatId.ConstantFrameSize
+  id: ConstantFrameSize
+  parent: NAudio.Wave.Mp3WaveFormatId
+  langs:
+  - csharp
+  - vb
+  name: ConstantFrameSize
+  nameWithType: Mp3WaveFormatId.ConstantFrameSize
+  fullName: NAudio.Wave.Mp3WaveFormatId.ConstantFrameSize
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: ConstantFrameSize = 2
+    return:
+      type: NAudio.Wave.Mp3WaveFormatId
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Wave.Mp3WaveFormatId
+  commentId: T:NAudio.Wave.Mp3WaveFormatId
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.Mp3WaveFormatId.html
+  name: Mp3WaveFormatId
+  nameWithType: Mp3WaveFormatId
+  fullName: NAudio.Wave.Mp3WaveFormatId

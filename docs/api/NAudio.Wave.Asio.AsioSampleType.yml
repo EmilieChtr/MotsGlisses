@@ -1,0 +1,465 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.Asio.AsioSampleType
+  commentId: T:NAudio.Wave.Asio.AsioSampleType
+  id: AsioSampleType
+  parent: NAudio.Wave.Asio
+  children:
+  - NAudio.Wave.Asio.AsioSampleType.DSDInt8LSB1
+  - NAudio.Wave.Asio.AsioSampleType.DSDInt8MSB1
+  - NAudio.Wave.Asio.AsioSampleType.DSDInt8NER8
+  - NAudio.Wave.Asio.AsioSampleType.Float32LSB
+  - NAudio.Wave.Asio.AsioSampleType.Float32MSB
+  - NAudio.Wave.Asio.AsioSampleType.Float64LSB
+  - NAudio.Wave.Asio.AsioSampleType.Float64MSB
+  - NAudio.Wave.Asio.AsioSampleType.Int16LSB
+  - NAudio.Wave.Asio.AsioSampleType.Int16MSB
+  - NAudio.Wave.Asio.AsioSampleType.Int24LSB
+  - NAudio.Wave.Asio.AsioSampleType.Int24MSB
+  - NAudio.Wave.Asio.AsioSampleType.Int32LSB
+  - NAudio.Wave.Asio.AsioSampleType.Int32LSB16
+  - NAudio.Wave.Asio.AsioSampleType.Int32LSB18
+  - NAudio.Wave.Asio.AsioSampleType.Int32LSB20
+  - NAudio.Wave.Asio.AsioSampleType.Int32LSB24
+  - NAudio.Wave.Asio.AsioSampleType.Int32MSB
+  - NAudio.Wave.Asio.AsioSampleType.Int32MSB16
+  - NAudio.Wave.Asio.AsioSampleType.Int32MSB18
+  - NAudio.Wave.Asio.AsioSampleType.Int32MSB20
+  - NAudio.Wave.Asio.AsioSampleType.Int32MSB24
+  langs:
+  - csharp
+  - vb
+  name: AsioSampleType
+  nameWithType: AsioSampleType
+  fullName: NAudio.Wave.Asio.AsioSampleType
+  type: Enum
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public enum AsioSampleType
+    content.vb: Public Enum AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Int16MSB
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Int16MSB
+  id: Int16MSB
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Int16MSB
+  nameWithType: AsioSampleType.Int16MSB
+  fullName: NAudio.Wave.Asio.AsioSampleType.Int16MSB
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Int16MSB = 0
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Int24MSB
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Int24MSB
+  id: Int24MSB
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Int24MSB
+  nameWithType: AsioSampleType.Int24MSB
+  fullName: NAudio.Wave.Asio.AsioSampleType.Int24MSB
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Int24MSB = 1
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Int32MSB
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Int32MSB
+  id: Int32MSB
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Int32MSB
+  nameWithType: AsioSampleType.Int32MSB
+  fullName: NAudio.Wave.Asio.AsioSampleType.Int32MSB
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Int32MSB = 2
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Float32MSB
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Float32MSB
+  id: Float32MSB
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Float32MSB
+  nameWithType: AsioSampleType.Float32MSB
+  fullName: NAudio.Wave.Asio.AsioSampleType.Float32MSB
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Float32MSB = 3
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Float64MSB
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Float64MSB
+  id: Float64MSB
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Float64MSB
+  nameWithType: AsioSampleType.Float64MSB
+  fullName: NAudio.Wave.Asio.AsioSampleType.Float64MSB
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Float64MSB = 4
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Int32MSB16
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Int32MSB16
+  id: Int32MSB16
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Int32MSB16
+  nameWithType: AsioSampleType.Int32MSB16
+  fullName: NAudio.Wave.Asio.AsioSampleType.Int32MSB16
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Int32MSB16 = 8
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Int32MSB18
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Int32MSB18
+  id: Int32MSB18
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Int32MSB18
+  nameWithType: AsioSampleType.Int32MSB18
+  fullName: NAudio.Wave.Asio.AsioSampleType.Int32MSB18
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Int32MSB18 = 9
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Int32MSB20
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Int32MSB20
+  id: Int32MSB20
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Int32MSB20
+  nameWithType: AsioSampleType.Int32MSB20
+  fullName: NAudio.Wave.Asio.AsioSampleType.Int32MSB20
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Int32MSB20 = 10
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Int32MSB24
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Int32MSB24
+  id: Int32MSB24
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Int32MSB24
+  nameWithType: AsioSampleType.Int32MSB24
+  fullName: NAudio.Wave.Asio.AsioSampleType.Int32MSB24
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Int32MSB24 = 11
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Int16LSB
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Int16LSB
+  id: Int16LSB
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Int16LSB
+  nameWithType: AsioSampleType.Int16LSB
+  fullName: NAudio.Wave.Asio.AsioSampleType.Int16LSB
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Int16LSB = 16
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Int24LSB
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Int24LSB
+  id: Int24LSB
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Int24LSB
+  nameWithType: AsioSampleType.Int24LSB
+  fullName: NAudio.Wave.Asio.AsioSampleType.Int24LSB
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Int24LSB = 17
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Int32LSB
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Int32LSB
+  id: Int32LSB
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Int32LSB
+  nameWithType: AsioSampleType.Int32LSB
+  fullName: NAudio.Wave.Asio.AsioSampleType.Int32LSB
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Int32LSB = 18
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Float32LSB
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Float32LSB
+  id: Float32LSB
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Float32LSB
+  nameWithType: AsioSampleType.Float32LSB
+  fullName: NAudio.Wave.Asio.AsioSampleType.Float32LSB
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Float32LSB = 19
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Float64LSB
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Float64LSB
+  id: Float64LSB
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Float64LSB
+  nameWithType: AsioSampleType.Float64LSB
+  fullName: NAudio.Wave.Asio.AsioSampleType.Float64LSB
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Float64LSB = 20
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Int32LSB16
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Int32LSB16
+  id: Int32LSB16
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Int32LSB16
+  nameWithType: AsioSampleType.Int32LSB16
+  fullName: NAudio.Wave.Asio.AsioSampleType.Int32LSB16
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Int32LSB16 = 24
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Int32LSB18
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Int32LSB18
+  id: Int32LSB18
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Int32LSB18
+  nameWithType: AsioSampleType.Int32LSB18
+  fullName: NAudio.Wave.Asio.AsioSampleType.Int32LSB18
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Int32LSB18 = 25
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Int32LSB20
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Int32LSB20
+  id: Int32LSB20
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Int32LSB20
+  nameWithType: AsioSampleType.Int32LSB20
+  fullName: NAudio.Wave.Asio.AsioSampleType.Int32LSB20
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Int32LSB20 = 26
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.Int32LSB24
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.Int32LSB24
+  id: Int32LSB24
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: Int32LSB24
+  nameWithType: AsioSampleType.Int32LSB24
+  fullName: NAudio.Wave.Asio.AsioSampleType.Int32LSB24
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: Int32LSB24 = 27
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.DSDInt8LSB1
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.DSDInt8LSB1
+  id: DSDInt8LSB1
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: DSDInt8LSB1
+  nameWithType: AsioSampleType.DSDInt8LSB1
+  fullName: NAudio.Wave.Asio.AsioSampleType.DSDInt8LSB1
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: DSDInt8LSB1 = 32
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.DSDInt8MSB1
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.DSDInt8MSB1
+  id: DSDInt8MSB1
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: DSDInt8MSB1
+  nameWithType: AsioSampleType.DSDInt8MSB1
+  fullName: NAudio.Wave.Asio.AsioSampleType.DSDInt8MSB1
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: DSDInt8MSB1 = 33
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio.AsioSampleType.DSDInt8NER8
+  commentId: F:NAudio.Wave.Asio.AsioSampleType.DSDInt8NER8
+  id: DSDInt8NER8
+  parent: NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: DSDInt8NER8
+  nameWithType: AsioSampleType.DSDInt8NER8
+  fullName: NAudio.Wave.Asio.AsioSampleType.DSDInt8NER8
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: DSDInt8NER8 = 40
+    return:
+      type: NAudio.Wave.Asio.AsioSampleType
+references:
+- uid: NAudio.Wave.Asio
+  commentId: N:NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave.Asio
+  nameWithType: NAudio.Wave.Asio
+  fullName: NAudio.Wave.Asio
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Asio
+    name: Asio
+    isExternal: true
+    href: NAudio.Wave.Asio.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Asio
+    name: Asio
+    isExternal: true
+    href: NAudio.Wave.Asio.html
+- uid: NAudio.Wave.Asio.AsioSampleType
+  commentId: T:NAudio.Wave.Asio.AsioSampleType
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioSampleType.html
+  name: AsioSampleType
+  nameWithType: AsioSampleType
+  fullName: NAudio.Wave.Asio.AsioSampleType

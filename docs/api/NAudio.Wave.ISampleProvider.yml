@@ -1,0 +1,881 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.ISampleProvider
+  commentId: T:NAudio.Wave.ISampleProvider
+  id: ISampleProvider
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.ISampleProvider.Read(System.Single[],System.Int32,System.Int32)
+  - NAudio.Wave.ISampleProvider.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: ISampleProvider
+  nameWithType: ISampleProvider
+  fullName: NAudio.Wave.ISampleProvider
+  type: Interface
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public interface ISampleProvider
+    content.vb: Public Interface ISampleProvider
+  extensionMethods:
+  - NAudio.Wave.ISampleProvider.NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider)
+  - NAudio.Wave.ISampleProvider.NAudio.Wave.WaveExtensionMethods.FollowedBy(System.TimeSpan,NAudio.Wave.ISampleProvider)
+  - NAudio.Wave.ISampleProvider.NAudio.Wave.WaveExtensionMethods.Skip(System.TimeSpan)
+  - NAudio.Wave.ISampleProvider.NAudio.Wave.WaveExtensionMethods.Take(System.TimeSpan)
+  - NAudio.Wave.ISampleProvider.NAudio.Wave.WaveExtensionMethods.ToMono(System.Single,System.Single)
+  - NAudio.Wave.ISampleProvider.NAudio.Wave.WaveExtensionMethods.ToStereo(System.Single,System.Single)
+  - NAudio.Wave.ISampleProvider.NAudio.Wave.WaveExtensionMethods.ToWaveProvider
+  - NAudio.Wave.ISampleProvider.NAudio.Wave.WaveExtensionMethods.ToWaveProvider16
+- uid: NAudio.Wave.ISampleProvider.Read(System.Single[],System.Int32,System.Int32)
+  commentId: M:NAudio.Wave.ISampleProvider.Read(System.Single[],System.Int32,System.Int32)
+  id: Read(System.Single[],System.Int32,System.Int32)
+  parent: NAudio.Wave.ISampleProvider
+  langs:
+  - csharp
+  - vb
+  name: Read(float[], int, int)
+  nameWithType: ISampleProvider.Read(float[], int, int)
+  fullName: NAudio.Wave.ISampleProvider.Read(float[], int, int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: int Read(float[] buffer, int offset, int count)
+    parameters:
+    - id: buffer
+      type: System.Single[]
+    - id: offset
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Function Read(buffer As Single(), offset As Integer, count As Integer) As Integer
+  overload: NAudio.Wave.ISampleProvider.Read*
+  nameWithType.vb: ISampleProvider.Read(Single(), Integer, Integer)
+  fullName.vb: NAudio.Wave.ISampleProvider.Read(Single(), Integer, Integer)
+  name.vb: Read(Single(), Integer, Integer)
+- uid: NAudio.Wave.ISampleProvider.WaveFormat
+  commentId: P:NAudio.Wave.ISampleProvider.WaveFormat
+  id: WaveFormat
+  parent: NAudio.Wave.ISampleProvider
+  langs:
+  - csharp
+  - vb
+  name: WaveFormat
+  nameWithType: ISampleProvider.WaveFormat
+  fullName: NAudio.Wave.ISampleProvider.WaveFormat
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: WaveFormat WaveFormat { get; }
+    parameters: []
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: ReadOnly Property WaveFormat As WaveFormat
+  overload: NAudio.Wave.ISampleProvider.WaveFormat*
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Wave.ISampleProvider.NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider,NAudio.Wave.ISampleProvider)
+  parent: NAudio.Wave.WaveExtensionMethods
+  definition: NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider,NAudio.Wave.ISampleProvider)
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_FollowedBy_NAudio_Wave_ISampleProvider_NAudio_Wave_ISampleProvider_
+  name: FollowedBy(ISampleProvider, ISampleProvider)
+  nameWithType: WaveExtensionMethods.FollowedBy(ISampleProvider, ISampleProvider)
+  fullName: NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider, NAudio.Wave.ISampleProvider)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider,NAudio.Wave.ISampleProvider)
+    name: FollowedBy
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_FollowedBy_NAudio_Wave_ISampleProvider_NAudio_Wave_ISampleProvider_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider,NAudio.Wave.ISampleProvider)
+    name: FollowedBy
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_FollowedBy_NAudio_Wave_ISampleProvider_NAudio_Wave_ISampleProvider_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: )
+- uid: NAudio.Wave.ISampleProvider.NAudio.Wave.WaveExtensionMethods.FollowedBy(System.TimeSpan,NAudio.Wave.ISampleProvider)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider,System.TimeSpan,NAudio.Wave.ISampleProvider)
+  parent: NAudio.Wave.WaveExtensionMethods
+  definition: NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider,System.TimeSpan,NAudio.Wave.ISampleProvider)
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_FollowedBy_NAudio_Wave_ISampleProvider_System_TimeSpan_NAudio_Wave_ISampleProvider_
+  name: FollowedBy(ISampleProvider, TimeSpan, ISampleProvider)
+  nameWithType: WaveExtensionMethods.FollowedBy(ISampleProvider, TimeSpan, ISampleProvider)
+  fullName: NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider, System.TimeSpan, NAudio.Wave.ISampleProvider)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider,System.TimeSpan,NAudio.Wave.ISampleProvider)
+    name: FollowedBy
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_FollowedBy_NAudio_Wave_ISampleProvider_System_TimeSpan_NAudio_Wave_ISampleProvider_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: ','
+  - name: " "
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider,System.TimeSpan,NAudio.Wave.ISampleProvider)
+    name: FollowedBy
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_FollowedBy_NAudio_Wave_ISampleProvider_System_TimeSpan_NAudio_Wave_ISampleProvider_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: ','
+  - name: " "
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: )
+- uid: NAudio.Wave.ISampleProvider.NAudio.Wave.WaveExtensionMethods.Skip(System.TimeSpan)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.Skip(NAudio.Wave.ISampleProvider,System.TimeSpan)
+  parent: NAudio.Wave.WaveExtensionMethods
+  definition: NAudio.Wave.WaveExtensionMethods.Skip(NAudio.Wave.ISampleProvider,System.TimeSpan)
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Skip_NAudio_Wave_ISampleProvider_System_TimeSpan_
+  name: Skip(ISampleProvider, TimeSpan)
+  nameWithType: WaveExtensionMethods.Skip(ISampleProvider, TimeSpan)
+  fullName: NAudio.Wave.WaveExtensionMethods.Skip(NAudio.Wave.ISampleProvider, System.TimeSpan)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.Skip(NAudio.Wave.ISampleProvider,System.TimeSpan)
+    name: Skip
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Skip_NAudio_Wave_ISampleProvider_System_TimeSpan_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.Skip(NAudio.Wave.ISampleProvider,System.TimeSpan)
+    name: Skip
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Skip_NAudio_Wave_ISampleProvider_System_TimeSpan_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+- uid: NAudio.Wave.ISampleProvider.NAudio.Wave.WaveExtensionMethods.Take(System.TimeSpan)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.Take(NAudio.Wave.ISampleProvider,System.TimeSpan)
+  parent: NAudio.Wave.WaveExtensionMethods
+  definition: NAudio.Wave.WaveExtensionMethods.Take(NAudio.Wave.ISampleProvider,System.TimeSpan)
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Take_NAudio_Wave_ISampleProvider_System_TimeSpan_
+  name: Take(ISampleProvider, TimeSpan)
+  nameWithType: WaveExtensionMethods.Take(ISampleProvider, TimeSpan)
+  fullName: NAudio.Wave.WaveExtensionMethods.Take(NAudio.Wave.ISampleProvider, System.TimeSpan)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.Take(NAudio.Wave.ISampleProvider,System.TimeSpan)
+    name: Take
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Take_NAudio_Wave_ISampleProvider_System_TimeSpan_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.Take(NAudio.Wave.ISampleProvider,System.TimeSpan)
+    name: Take
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Take_NAudio_Wave_ISampleProvider_System_TimeSpan_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+- uid: NAudio.Wave.ISampleProvider.NAudio.Wave.WaveExtensionMethods.ToMono(System.Single,System.Single)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.ToMono(NAudio.Wave.ISampleProvider,System.Single,System.Single)
+  parent: NAudio.Wave.WaveExtensionMethods
+  definition: NAudio.Wave.WaveExtensionMethods.ToMono(NAudio.Wave.ISampleProvider,System.Single,System.Single)
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToMono_NAudio_Wave_ISampleProvider_System_Single_System_Single_
+  name: ToMono(ISampleProvider, float, float)
+  nameWithType: WaveExtensionMethods.ToMono(ISampleProvider, float, float)
+  fullName: NAudio.Wave.WaveExtensionMethods.ToMono(NAudio.Wave.ISampleProvider, float, float)
+  nameWithType.vb: WaveExtensionMethods.ToMono(ISampleProvider, Single, Single)
+  fullName.vb: NAudio.Wave.WaveExtensionMethods.ToMono(NAudio.Wave.ISampleProvider, Single, Single)
+  name.vb: ToMono(ISampleProvider, Single, Single)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToMono(NAudio.Wave.ISampleProvider,System.Single,System.Single)
+    name: ToMono
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToMono_NAudio_Wave_ISampleProvider_System_Single_System_Single_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToMono(NAudio.Wave.ISampleProvider,System.Single,System.Single)
+    name: ToMono
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToMono_NAudio_Wave_ISampleProvider_System_Single_System_Single_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: NAudio.Wave.ISampleProvider.NAudio.Wave.WaveExtensionMethods.ToStereo(System.Single,System.Single)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.ToStereo(NAudio.Wave.ISampleProvider,System.Single,System.Single)
+  parent: NAudio.Wave.WaveExtensionMethods
+  definition: NAudio.Wave.WaveExtensionMethods.ToStereo(NAudio.Wave.ISampleProvider,System.Single,System.Single)
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToStereo_NAudio_Wave_ISampleProvider_System_Single_System_Single_
+  name: ToStereo(ISampleProvider, float, float)
+  nameWithType: WaveExtensionMethods.ToStereo(ISampleProvider, float, float)
+  fullName: NAudio.Wave.WaveExtensionMethods.ToStereo(NAudio.Wave.ISampleProvider, float, float)
+  nameWithType.vb: WaveExtensionMethods.ToStereo(ISampleProvider, Single, Single)
+  fullName.vb: NAudio.Wave.WaveExtensionMethods.ToStereo(NAudio.Wave.ISampleProvider, Single, Single)
+  name.vb: ToStereo(ISampleProvider, Single, Single)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToStereo(NAudio.Wave.ISampleProvider,System.Single,System.Single)
+    name: ToStereo
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToStereo_NAudio_Wave_ISampleProvider_System_Single_System_Single_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToStereo(NAudio.Wave.ISampleProvider,System.Single,System.Single)
+    name: ToStereo
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToStereo_NAudio_Wave_ISampleProvider_System_Single_System_Single_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: NAudio.Wave.ISampleProvider.NAudio.Wave.WaveExtensionMethods.ToWaveProvider
+  commentId: M:NAudio.Wave.WaveExtensionMethods.ToWaveProvider(NAudio.Wave.ISampleProvider)
+  parent: NAudio.Wave.WaveExtensionMethods
+  definition: NAudio.Wave.WaveExtensionMethods.ToWaveProvider(NAudio.Wave.ISampleProvider)
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToWaveProvider_NAudio_Wave_ISampleProvider_
+  name: ToWaveProvider(ISampleProvider)
+  nameWithType: WaveExtensionMethods.ToWaveProvider(ISampleProvider)
+  fullName: NAudio.Wave.WaveExtensionMethods.ToWaveProvider(NAudio.Wave.ISampleProvider)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToWaveProvider(NAudio.Wave.ISampleProvider)
+    name: ToWaveProvider
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToWaveProvider_NAudio_Wave_ISampleProvider_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToWaveProvider(NAudio.Wave.ISampleProvider)
+    name: ToWaveProvider
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToWaveProvider_NAudio_Wave_ISampleProvider_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: )
+- uid: NAudio.Wave.ISampleProvider.NAudio.Wave.WaveExtensionMethods.ToWaveProvider16
+  commentId: M:NAudio.Wave.WaveExtensionMethods.ToWaveProvider16(NAudio.Wave.ISampleProvider)
+  parent: NAudio.Wave.WaveExtensionMethods
+  definition: NAudio.Wave.WaveExtensionMethods.ToWaveProvider16(NAudio.Wave.ISampleProvider)
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToWaveProvider16_NAudio_Wave_ISampleProvider_
+  name: ToWaveProvider16(ISampleProvider)
+  nameWithType: WaveExtensionMethods.ToWaveProvider16(ISampleProvider)
+  fullName: NAudio.Wave.WaveExtensionMethods.ToWaveProvider16(NAudio.Wave.ISampleProvider)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToWaveProvider16(NAudio.Wave.ISampleProvider)
+    name: ToWaveProvider16
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToWaveProvider16_NAudio_Wave_ISampleProvider_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToWaveProvider16(NAudio.Wave.ISampleProvider)
+    name: ToWaveProvider16
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToWaveProvider16_NAudio_Wave_ISampleProvider_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: )
+- uid: NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider,NAudio.Wave.ISampleProvider)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider,NAudio.Wave.ISampleProvider)
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_FollowedBy_NAudio_Wave_ISampleProvider_NAudio_Wave_ISampleProvider_
+  name: FollowedBy(ISampleProvider, ISampleProvider)
+  nameWithType: WaveExtensionMethods.FollowedBy(ISampleProvider, ISampleProvider)
+  fullName: NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider, NAudio.Wave.ISampleProvider)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider,NAudio.Wave.ISampleProvider)
+    name: FollowedBy
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_FollowedBy_NAudio_Wave_ISampleProvider_NAudio_Wave_ISampleProvider_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider,NAudio.Wave.ISampleProvider)
+    name: FollowedBy
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_FollowedBy_NAudio_Wave_ISampleProvider_NAudio_Wave_ISampleProvider_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: )
+- uid: NAudio.Wave.WaveExtensionMethods
+  commentId: T:NAudio.Wave.WaveExtensionMethods
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html
+  name: WaveExtensionMethods
+  nameWithType: WaveExtensionMethods
+  fullName: NAudio.Wave.WaveExtensionMethods
+- uid: NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider,System.TimeSpan,NAudio.Wave.ISampleProvider)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider,System.TimeSpan,NAudio.Wave.ISampleProvider)
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_FollowedBy_NAudio_Wave_ISampleProvider_System_TimeSpan_NAudio_Wave_ISampleProvider_
+  name: FollowedBy(ISampleProvider, TimeSpan, ISampleProvider)
+  nameWithType: WaveExtensionMethods.FollowedBy(ISampleProvider, TimeSpan, ISampleProvider)
+  fullName: NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider, System.TimeSpan, NAudio.Wave.ISampleProvider)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider,System.TimeSpan,NAudio.Wave.ISampleProvider)
+    name: FollowedBy
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_FollowedBy_NAudio_Wave_ISampleProvider_System_TimeSpan_NAudio_Wave_ISampleProvider_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: ','
+  - name: " "
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.FollowedBy(NAudio.Wave.ISampleProvider,System.TimeSpan,NAudio.Wave.ISampleProvider)
+    name: FollowedBy
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_FollowedBy_NAudio_Wave_ISampleProvider_System_TimeSpan_NAudio_Wave_ISampleProvider_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: ','
+  - name: " "
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: )
+- uid: NAudio.Wave.WaveExtensionMethods.Skip(NAudio.Wave.ISampleProvider,System.TimeSpan)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.Skip(NAudio.Wave.ISampleProvider,System.TimeSpan)
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Skip_NAudio_Wave_ISampleProvider_System_TimeSpan_
+  name: Skip(ISampleProvider, TimeSpan)
+  nameWithType: WaveExtensionMethods.Skip(ISampleProvider, TimeSpan)
+  fullName: NAudio.Wave.WaveExtensionMethods.Skip(NAudio.Wave.ISampleProvider, System.TimeSpan)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.Skip(NAudio.Wave.ISampleProvider,System.TimeSpan)
+    name: Skip
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Skip_NAudio_Wave_ISampleProvider_System_TimeSpan_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.Skip(NAudio.Wave.ISampleProvider,System.TimeSpan)
+    name: Skip
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Skip_NAudio_Wave_ISampleProvider_System_TimeSpan_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+- uid: NAudio.Wave.WaveExtensionMethods.Take(NAudio.Wave.ISampleProvider,System.TimeSpan)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.Take(NAudio.Wave.ISampleProvider,System.TimeSpan)
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Take_NAudio_Wave_ISampleProvider_System_TimeSpan_
+  name: Take(ISampleProvider, TimeSpan)
+  nameWithType: WaveExtensionMethods.Take(ISampleProvider, TimeSpan)
+  fullName: NAudio.Wave.WaveExtensionMethods.Take(NAudio.Wave.ISampleProvider, System.TimeSpan)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.Take(NAudio.Wave.ISampleProvider,System.TimeSpan)
+    name: Take
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Take_NAudio_Wave_ISampleProvider_System_TimeSpan_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.Take(NAudio.Wave.ISampleProvider,System.TimeSpan)
+    name: Take
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Take_NAudio_Wave_ISampleProvider_System_TimeSpan_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: )
+- uid: NAudio.Wave.WaveExtensionMethods.ToMono(NAudio.Wave.ISampleProvider,System.Single,System.Single)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.ToMono(NAudio.Wave.ISampleProvider,System.Single,System.Single)
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToMono_NAudio_Wave_ISampleProvider_System_Single_System_Single_
+  name: ToMono(ISampleProvider, float, float)
+  nameWithType: WaveExtensionMethods.ToMono(ISampleProvider, float, float)
+  fullName: NAudio.Wave.WaveExtensionMethods.ToMono(NAudio.Wave.ISampleProvider, float, float)
+  nameWithType.vb: WaveExtensionMethods.ToMono(ISampleProvider, Single, Single)
+  fullName.vb: NAudio.Wave.WaveExtensionMethods.ToMono(NAudio.Wave.ISampleProvider, Single, Single)
+  name.vb: ToMono(ISampleProvider, Single, Single)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToMono(NAudio.Wave.ISampleProvider,System.Single,System.Single)
+    name: ToMono
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToMono_NAudio_Wave_ISampleProvider_System_Single_System_Single_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToMono(NAudio.Wave.ISampleProvider,System.Single,System.Single)
+    name: ToMono
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToMono_NAudio_Wave_ISampleProvider_System_Single_System_Single_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: NAudio.Wave.WaveExtensionMethods.ToStereo(NAudio.Wave.ISampleProvider,System.Single,System.Single)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.ToStereo(NAudio.Wave.ISampleProvider,System.Single,System.Single)
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToStereo_NAudio_Wave_ISampleProvider_System_Single_System_Single_
+  name: ToStereo(ISampleProvider, float, float)
+  nameWithType: WaveExtensionMethods.ToStereo(ISampleProvider, float, float)
+  fullName: NAudio.Wave.WaveExtensionMethods.ToStereo(NAudio.Wave.ISampleProvider, float, float)
+  nameWithType.vb: WaveExtensionMethods.ToStereo(ISampleProvider, Single, Single)
+  fullName.vb: NAudio.Wave.WaveExtensionMethods.ToStereo(NAudio.Wave.ISampleProvider, Single, Single)
+  name.vb: ToStereo(ISampleProvider, Single, Single)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToStereo(NAudio.Wave.ISampleProvider,System.Single,System.Single)
+    name: ToStereo
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToStereo_NAudio_Wave_ISampleProvider_System_Single_System_Single_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToStereo(NAudio.Wave.ISampleProvider,System.Single,System.Single)
+    name: ToStereo
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToStereo_NAudio_Wave_ISampleProvider_System_Single_System_Single_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: NAudio.Wave.WaveExtensionMethods.ToWaveProvider(NAudio.Wave.ISampleProvider)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.ToWaveProvider(NAudio.Wave.ISampleProvider)
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToWaveProvider_NAudio_Wave_ISampleProvider_
+  name: ToWaveProvider(ISampleProvider)
+  nameWithType: WaveExtensionMethods.ToWaveProvider(ISampleProvider)
+  fullName: NAudio.Wave.WaveExtensionMethods.ToWaveProvider(NAudio.Wave.ISampleProvider)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToWaveProvider(NAudio.Wave.ISampleProvider)
+    name: ToWaveProvider
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToWaveProvider_NAudio_Wave_ISampleProvider_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToWaveProvider(NAudio.Wave.ISampleProvider)
+    name: ToWaveProvider
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToWaveProvider_NAudio_Wave_ISampleProvider_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: )
+- uid: NAudio.Wave.WaveExtensionMethods.ToWaveProvider16(NAudio.Wave.ISampleProvider)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.ToWaveProvider16(NAudio.Wave.ISampleProvider)
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToWaveProvider16_NAudio_Wave_ISampleProvider_
+  name: ToWaveProvider16(ISampleProvider)
+  nameWithType: WaveExtensionMethods.ToWaveProvider16(ISampleProvider)
+  fullName: NAudio.Wave.WaveExtensionMethods.ToWaveProvider16(NAudio.Wave.ISampleProvider)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToWaveProvider16(NAudio.Wave.ISampleProvider)
+    name: ToWaveProvider16
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToWaveProvider16_NAudio_Wave_ISampleProvider_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToWaveProvider16(NAudio.Wave.ISampleProvider)
+    name: ToWaveProvider16
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToWaveProvider16_NAudio_Wave_ISampleProvider_
+  - name: (
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: )
+- uid: NAudio.Wave.ISampleProvider.Read*
+  commentId: Overload:NAudio.Wave.ISampleProvider.Read
+  isExternal: true
+  href: NAudio.Wave.ISampleProvider.html#NAudio_Wave_ISampleProvider_Read_System_Single___System_Int32_System_Int32_
+  name: Read
+  nameWithType: ISampleProvider.Read
+  fullName: NAudio.Wave.ISampleProvider.Read
+- uid: System.Single[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float[]
+  nameWithType: float[]
+  fullName: float[]
+  nameWithType.vb: Single()
+  fullName.vb: Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.ISampleProvider.WaveFormat*
+  commentId: Overload:NAudio.Wave.ISampleProvider.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.ISampleProvider.html#NAudio_Wave_ISampleProvider_WaveFormat
+  name: WaveFormat
+  nameWithType: ISampleProvider.WaveFormat
+  fullName: NAudio.Wave.ISampleProvider.WaveFormat
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat

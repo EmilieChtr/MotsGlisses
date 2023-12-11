@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.ConnectorType
+  commentId: T:NAudio.CoreAudioApi.ConnectorType
+  id: ConnectorType
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.ConnectorType.Network
+  - NAudio.CoreAudioApi.ConnectorType.PhysicalExternal
+  - NAudio.CoreAudioApi.ConnectorType.PhysicalInternal
+  - NAudio.CoreAudioApi.ConnectorType.SoftwareFixed
+  - NAudio.CoreAudioApi.ConnectorType.SoftwareIo
+  - NAudio.CoreAudioApi.ConnectorType.UnknownConnector
+  langs:
+  - csharp
+  - vb
+  name: ConnectorType
+  nameWithType: ConnectorType
+  fullName: NAudio.CoreAudioApi.ConnectorType
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public enum ConnectorType
+    content.vb: Public Enum ConnectorType
+- uid: NAudio.CoreAudioApi.ConnectorType.UnknownConnector
+  commentId: F:NAudio.CoreAudioApi.ConnectorType.UnknownConnector
+  id: UnknownConnector
+  parent: NAudio.CoreAudioApi.ConnectorType
+  langs:
+  - csharp
+  - vb
+  name: UnknownConnector
+  nameWithType: ConnectorType.UnknownConnector
+  fullName: NAudio.CoreAudioApi.ConnectorType.UnknownConnector
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: UnknownConnector = 0
+    return:
+      type: NAudio.CoreAudioApi.ConnectorType
+- uid: NAudio.CoreAudioApi.ConnectorType.PhysicalInternal
+  commentId: F:NAudio.CoreAudioApi.ConnectorType.PhysicalInternal
+  id: PhysicalInternal
+  parent: NAudio.CoreAudioApi.ConnectorType
+  langs:
+  - csharp
+  - vb
+  name: PhysicalInternal
+  nameWithType: ConnectorType.PhysicalInternal
+  fullName: NAudio.CoreAudioApi.ConnectorType.PhysicalInternal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: PhysicalInternal = 1
+    return:
+      type: NAudio.CoreAudioApi.ConnectorType
+- uid: NAudio.CoreAudioApi.ConnectorType.PhysicalExternal
+  commentId: F:NAudio.CoreAudioApi.ConnectorType.PhysicalExternal
+  id: PhysicalExternal
+  parent: NAudio.CoreAudioApi.ConnectorType
+  langs:
+  - csharp
+  - vb
+  name: PhysicalExternal
+  nameWithType: ConnectorType.PhysicalExternal
+  fullName: NAudio.CoreAudioApi.ConnectorType.PhysicalExternal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: PhysicalExternal = 2
+    return:
+      type: NAudio.CoreAudioApi.ConnectorType
+- uid: NAudio.CoreAudioApi.ConnectorType.SoftwareIo
+  commentId: F:NAudio.CoreAudioApi.ConnectorType.SoftwareIo
+  id: SoftwareIo
+  parent: NAudio.CoreAudioApi.ConnectorType
+  langs:
+  - csharp
+  - vb
+  name: SoftwareIo
+  nameWithType: ConnectorType.SoftwareIo
+  fullName: NAudio.CoreAudioApi.ConnectorType.SoftwareIo
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: SoftwareIo = 3
+    return:
+      type: NAudio.CoreAudioApi.ConnectorType
+- uid: NAudio.CoreAudioApi.ConnectorType.SoftwareFixed
+  commentId: F:NAudio.CoreAudioApi.ConnectorType.SoftwareFixed
+  id: SoftwareFixed
+  parent: NAudio.CoreAudioApi.ConnectorType
+  langs:
+  - csharp
+  - vb
+  name: SoftwareFixed
+  nameWithType: ConnectorType.SoftwareFixed
+  fullName: NAudio.CoreAudioApi.ConnectorType.SoftwareFixed
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: SoftwareFixed = 4
+    return:
+      type: NAudio.CoreAudioApi.ConnectorType
+- uid: NAudio.CoreAudioApi.ConnectorType.Network
+  commentId: F:NAudio.CoreAudioApi.ConnectorType.Network
+  id: Network
+  parent: NAudio.CoreAudioApi.ConnectorType
+  langs:
+  - csharp
+  - vb
+  name: Network
+  nameWithType: ConnectorType.Network
+  fullName: NAudio.CoreAudioApi.ConnectorType.Network
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Network = 5
+    return:
+      type: NAudio.CoreAudioApi.ConnectorType
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: NAudio.CoreAudioApi.ConnectorType
+  commentId: T:NAudio.CoreAudioApi.ConnectorType
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.ConnectorType.html
+  name: ConnectorType
+  nameWithType: ConnectorType
+  fullName: NAudio.CoreAudioApi.ConnectorType

@@ -1,0 +1,481 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dsp.SmbPitchShifter
+  commentId: T:NAudio.Dsp.SmbPitchShifter
+  id: SmbPitchShifter
+  parent: NAudio.Dsp
+  children:
+  - NAudio.Dsp.SmbPitchShifter.#ctor
+  - NAudio.Dsp.SmbPitchShifter.PitchShift(System.Single,System.Int64,System.Int64,System.Int64,System.Single,System.Single[])
+  - NAudio.Dsp.SmbPitchShifter.PitchShift(System.Single,System.Int64,System.Single,System.Single[])
+  - NAudio.Dsp.SmbPitchShifter.ShortTimeFourierTransform(System.Single[],System.Int64,System.Int64)
+  langs:
+  - csharp
+  - vb
+  name: SmbPitchShifter
+  nameWithType: SmbPitchShifter
+  fullName: NAudio.Dsp.SmbPitchShifter
+  type: Class
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public class SmbPitchShifter
+    content.vb: Public Class SmbPitchShifter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Dsp.SmbPitchShifter.PitchShift(System.Single,System.Int64,System.Single,System.Single[])
+  commentId: M:NAudio.Dsp.SmbPitchShifter.PitchShift(System.Single,System.Int64,System.Single,System.Single[])
+  id: PitchShift(System.Single,System.Int64,System.Single,System.Single[])
+  parent: NAudio.Dsp.SmbPitchShifter
+  langs:
+  - csharp
+  - vb
+  name: PitchShift(float, long, float, float[])
+  nameWithType: SmbPitchShifter.PitchShift(float, long, float, float[])
+  fullName: NAudio.Dsp.SmbPitchShifter.PitchShift(float, long, float, float[])
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public void PitchShift(float pitchShift, long numSampsToProcess, float sampleRate, float[] indata)
+    parameters:
+    - id: pitchShift
+      type: System.Single
+    - id: numSampsToProcess
+      type: System.Int64
+    - id: sampleRate
+      type: System.Single
+    - id: indata
+      type: System.Single[]
+    content.vb: Public Sub PitchShift(pitchShift As Single, numSampsToProcess As Long, sampleRate As Single, indata As Single())
+  overload: NAudio.Dsp.SmbPitchShifter.PitchShift*
+  nameWithType.vb: SmbPitchShifter.PitchShift(Single, Long, Single, Single())
+  fullName.vb: NAudio.Dsp.SmbPitchShifter.PitchShift(Single, Long, Single, Single())
+  name.vb: PitchShift(Single, Long, Single, Single())
+- uid: NAudio.Dsp.SmbPitchShifter.PitchShift(System.Single,System.Int64,System.Int64,System.Int64,System.Single,System.Single[])
+  commentId: M:NAudio.Dsp.SmbPitchShifter.PitchShift(System.Single,System.Int64,System.Int64,System.Int64,System.Single,System.Single[])
+  id: PitchShift(System.Single,System.Int64,System.Int64,System.Int64,System.Single,System.Single[])
+  parent: NAudio.Dsp.SmbPitchShifter
+  langs:
+  - csharp
+  - vb
+  name: PitchShift(float, long, long, long, float, float[])
+  nameWithType: SmbPitchShifter.PitchShift(float, long, long, long, float, float[])
+  fullName: NAudio.Dsp.SmbPitchShifter.PitchShift(float, long, long, long, float, float[])
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public void PitchShift(float pitchShift, long numSampsToProcess, long fftFrameSize, long osamp, float sampleRate, float[] indata)
+    parameters:
+    - id: pitchShift
+      type: System.Single
+    - id: numSampsToProcess
+      type: System.Int64
+    - id: fftFrameSize
+      type: System.Int64
+    - id: osamp
+      type: System.Int64
+    - id: sampleRate
+      type: System.Single
+    - id: indata
+      type: System.Single[]
+    content.vb: Public Sub PitchShift(pitchShift As Single, numSampsToProcess As Long, fftFrameSize As Long, osamp As Long, sampleRate As Single, indata As Single())
+  overload: NAudio.Dsp.SmbPitchShifter.PitchShift*
+  nameWithType.vb: SmbPitchShifter.PitchShift(Single, Long, Long, Long, Single, Single())
+  fullName.vb: NAudio.Dsp.SmbPitchShifter.PitchShift(Single, Long, Long, Long, Single, Single())
+  name.vb: PitchShift(Single, Long, Long, Long, Single, Single())
+- uid: NAudio.Dsp.SmbPitchShifter.ShortTimeFourierTransform(System.Single[],System.Int64,System.Int64)
+  commentId: M:NAudio.Dsp.SmbPitchShifter.ShortTimeFourierTransform(System.Single[],System.Int64,System.Int64)
+  id: ShortTimeFourierTransform(System.Single[],System.Int64,System.Int64)
+  parent: NAudio.Dsp.SmbPitchShifter
+  langs:
+  - csharp
+  - vb
+  name: ShortTimeFourierTransform(float[], long, long)
+  nameWithType: SmbPitchShifter.ShortTimeFourierTransform(float[], long, long)
+  fullName: NAudio.Dsp.SmbPitchShifter.ShortTimeFourierTransform(float[], long, long)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public void ShortTimeFourierTransform(float[] fftBuffer, long fftFrameSize, long sign)
+    parameters:
+    - id: fftBuffer
+      type: System.Single[]
+    - id: fftFrameSize
+      type: System.Int64
+    - id: sign
+      type: System.Int64
+    content.vb: Public Sub ShortTimeFourierTransform(fftBuffer As Single(), fftFrameSize As Long, sign As Long)
+  overload: NAudio.Dsp.SmbPitchShifter.ShortTimeFourierTransform*
+  nameWithType.vb: SmbPitchShifter.ShortTimeFourierTransform(Single(), Long, Long)
+  fullName.vb: NAudio.Dsp.SmbPitchShifter.ShortTimeFourierTransform(Single(), Long, Long)
+  name.vb: ShortTimeFourierTransform(Single(), Long, Long)
+- uid: NAudio.Dsp.SmbPitchShifter.#ctor
+  commentId: M:NAudio.Dsp.SmbPitchShifter.#ctor
+  id: '#ctor'
+  parent: NAudio.Dsp.SmbPitchShifter
+  langs:
+  - csharp
+  - vb
+  name: SmbPitchShifter()
+  nameWithType: SmbPitchShifter.SmbPitchShifter()
+  fullName: NAudio.Dsp.SmbPitchShifter.SmbPitchShifter()
+  type: Constructor
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public SmbPitchShifter()
+    content.vb: Public Sub New()
+  overload: NAudio.Dsp.SmbPitchShifter.#ctor*
+  nameWithType.vb: SmbPitchShifter.New()
+  fullName.vb: NAudio.Dsp.SmbPitchShifter.New()
+  name.vb: New()
+references:
+- uid: NAudio.Dsp
+  commentId: N:NAudio.Dsp
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dsp
+  nameWithType: NAudio.Dsp
+  fullName: NAudio.Dsp
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dsp
+    name: Dsp
+    isExternal: true
+    href: NAudio.Dsp.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dsp
+    name: Dsp
+    isExternal: true
+    href: NAudio.Dsp.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Dsp.SmbPitchShifter.PitchShift*
+  commentId: Overload:NAudio.Dsp.SmbPitchShifter.PitchShift
+  isExternal: true
+  href: NAudio.Dsp.SmbPitchShifter.html#NAudio_Dsp_SmbPitchShifter_PitchShift_System_Single_System_Int64_System_Single_System_Single___
+  name: PitchShift
+  nameWithType: SmbPitchShifter.PitchShift
+  fullName: NAudio.Dsp.SmbPitchShifter.PitchShift
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: System.Single[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float[]
+  nameWithType: float[]
+  fullName: float[]
+  nameWithType.vb: Single()
+  fullName.vb: Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: (
+  - name: )
+- uid: NAudio.Dsp.SmbPitchShifter.ShortTimeFourierTransform*
+  commentId: Overload:NAudio.Dsp.SmbPitchShifter.ShortTimeFourierTransform
+  isExternal: true
+  href: NAudio.Dsp.SmbPitchShifter.html#NAudio_Dsp_SmbPitchShifter_ShortTimeFourierTransform_System_Single___System_Int64_System_Int64_
+  name: ShortTimeFourierTransform
+  nameWithType: SmbPitchShifter.ShortTimeFourierTransform
+  fullName: NAudio.Dsp.SmbPitchShifter.ShortTimeFourierTransform
+- uid: NAudio.Dsp.SmbPitchShifter.#ctor*
+  commentId: Overload:NAudio.Dsp.SmbPitchShifter.#ctor
+  isExternal: true
+  href: NAudio.Dsp.SmbPitchShifter.html#NAudio_Dsp_SmbPitchShifter__ctor
+  name: SmbPitchShifter
+  nameWithType: SmbPitchShifter.SmbPitchShifter
+  fullName: NAudio.Dsp.SmbPitchShifter.SmbPitchShifter
+  nameWithType.vb: SmbPitchShifter.New
+  fullName.vb: NAudio.Dsp.SmbPitchShifter.New
+  name.vb: New

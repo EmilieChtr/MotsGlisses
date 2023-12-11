@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.ISampleNotifier
+  commentId: T:NAudio.Wave.ISampleNotifier
+  id: ISampleNotifier
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.ISampleNotifier.Sample
+  langs:
+  - csharp
+  - vb
+  name: ISampleNotifier
+  nameWithType: ISampleNotifier
+  fullName: NAudio.Wave.ISampleNotifier
+  type: Interface
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public interface ISampleNotifier
+    content.vb: Public Interface ISampleNotifier
+- uid: NAudio.Wave.ISampleNotifier.Sample
+  commentId: E:NAudio.Wave.ISampleNotifier.Sample
+  id: Sample
+  parent: NAudio.Wave.ISampleNotifier
+  langs:
+  - csharp
+  - vb
+  name: Sample
+  nameWithType: ISampleNotifier.Sample
+  fullName: NAudio.Wave.ISampleNotifier.Sample
+  type: Event
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: event EventHandler<SampleEventArgs> Sample
+    return:
+      type: System.EventHandler{NAudio.Wave.SampleEventArgs}
+    content.vb: Event Sample As EventHandler(Of SampleEventArgs)
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: System.EventHandler{NAudio.Wave.SampleEventArgs}
+  commentId: T:System.EventHandler{NAudio.Wave.SampleEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<SampleEventArgs>
+  nameWithType: EventHandler<SampleEventArgs>
+  fullName: System.EventHandler<NAudio.Wave.SampleEventArgs>
+  nameWithType.vb: EventHandler(Of SampleEventArgs)
+  fullName.vb: System.EventHandler(Of NAudio.Wave.SampleEventArgs)
+  name.vb: EventHandler(Of SampleEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: NAudio.Wave.SampleEventArgs
+    name: SampleEventArgs
+    isExternal: true
+    href: NAudio.Wave.SampleEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NAudio.Wave.SampleEventArgs
+    name: SampleEventArgs
+    isExternal: true
+    href: NAudio.Wave.SampleEventArgs.html
+  - name: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - name: TEventArgs
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventArgs
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

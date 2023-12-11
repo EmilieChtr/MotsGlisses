@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.MpegVersion
+  commentId: T:NAudio.Wave.MpegVersion
+  id: MpegVersion
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.MpegVersion.Reserved
+  - NAudio.Wave.MpegVersion.Version1
+  - NAudio.Wave.MpegVersion.Version2
+  - NAudio.Wave.MpegVersion.Version25
+  langs:
+  - csharp
+  - vb
+  name: MpegVersion
+  nameWithType: MpegVersion
+  fullName: NAudio.Wave.MpegVersion
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public enum MpegVersion
+    content.vb: Public Enum MpegVersion
+- uid: NAudio.Wave.MpegVersion.Version25
+  commentId: F:NAudio.Wave.MpegVersion.Version25
+  id: Version25
+  parent: NAudio.Wave.MpegVersion
+  langs:
+  - csharp
+  - vb
+  name: Version25
+  nameWithType: MpegVersion.Version25
+  fullName: NAudio.Wave.MpegVersion.Version25
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: Version25 = 0
+    return:
+      type: NAudio.Wave.MpegVersion
+- uid: NAudio.Wave.MpegVersion.Reserved
+  commentId: F:NAudio.Wave.MpegVersion.Reserved
+  id: Reserved
+  parent: NAudio.Wave.MpegVersion
+  langs:
+  - csharp
+  - vb
+  name: Reserved
+  nameWithType: MpegVersion.Reserved
+  fullName: NAudio.Wave.MpegVersion.Reserved
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: Reserved = 1
+    return:
+      type: NAudio.Wave.MpegVersion
+- uid: NAudio.Wave.MpegVersion.Version2
+  commentId: F:NAudio.Wave.MpegVersion.Version2
+  id: Version2
+  parent: NAudio.Wave.MpegVersion
+  langs:
+  - csharp
+  - vb
+  name: Version2
+  nameWithType: MpegVersion.Version2
+  fullName: NAudio.Wave.MpegVersion.Version2
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: Version2 = 2
+    return:
+      type: NAudio.Wave.MpegVersion
+- uid: NAudio.Wave.MpegVersion.Version1
+  commentId: F:NAudio.Wave.MpegVersion.Version1
+  id: Version1
+  parent: NAudio.Wave.MpegVersion
+  langs:
+  - csharp
+  - vb
+  name: Version1
+  nameWithType: MpegVersion.Version1
+  fullName: NAudio.Wave.MpegVersion.Version1
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: Version1 = 3
+    return:
+      type: NAudio.Wave.MpegVersion
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Wave.MpegVersion
+  commentId: T:NAudio.Wave.MpegVersion
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.MpegVersion.html
+  name: MpegVersion
+  nameWithType: MpegVersion
+  fullName: NAudio.Wave.MpegVersion

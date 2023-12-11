@@ -61,6 +61,4196 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Codecs.ALawDecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Codecs.ALawDecoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Codecs.ALawEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Codecs.ALawEncoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Codecs.Band.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Codecs.Band.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Codecs.G722Codec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Codecs.G722Codec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Codecs.G722CodecState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Codecs.G722CodecState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Codecs.G722Flags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Codecs.G722Flags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Codecs.MuLawDecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Codecs.MuLawDecoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Codecs.MuLawEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Codecs.MuLawEncoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Codecs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Codecs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioCaptureClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioCaptureClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioClientBufferFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioClientBufferFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioClientProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioClientProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioClientShareMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioClientShareMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioClientStreamFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioClientStreamFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioClientStreamOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioClientStreamOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioClockClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioClockClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioEndpointVolume.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioEndpointVolume.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioEndpointVolumeChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioEndpointVolumeChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioEndpointVolumeChannels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioEndpointVolumeChannels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioEndpointVolumeNotificationDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioEndpointVolumeNotificationDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioEndpointVolumeStepInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioEndpointVolumeStepInformation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioMeterInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioMeterInformation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioMeterInformationChannels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioMeterInformationChannels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioMute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioMute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioRenderClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioRenderClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioSessionControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioSessionControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioSessionEventsCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioSessionEventsCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioSessionManager.SessionCreatedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioSessionManager.SessionCreatedDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioSessionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioSessionManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioStreamCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioStreamCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioStreamVolume.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioStreamVolume.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.AudioVolumeNotificationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.AudioVolumeNotificationData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.CaptureState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.CaptureState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Connector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Connector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.ConnectorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.ConnectorType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.DataFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.DataFlow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.DeviceState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.DeviceState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.DeviceTopology.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.DeviceTopology.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.EEndpointHardwareSupport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.EEndpointHardwareSupport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.AudioSessionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.AudioSessionState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.Blob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.Blob.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.IAudioClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.IAudioClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.IAudioClient2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.IAudioClient2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.IAudioSessionControl2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.IAudioSessionControl2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.IControlInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.IControlInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.PartTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.PartTypeEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.PropVariant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.PropVariant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.StorageAccessMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.StorageAccessMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.KsJackDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.KsJackDescription.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.MMDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.MMDevice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.MMDeviceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.MMDeviceCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.MMDeviceEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.MMDeviceEnumerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Part.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Part.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.PartsList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.PartsList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.PropertyKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.PropertyKey.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.PropertyKeys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.PropertyKeys.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.PropertyStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.PropertyStore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.PropertyStoreProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.PropertyStoreProperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.Role.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.Role.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.SessionCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.SessionCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.SimpleAudioVolume.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.SimpleAudioVolume.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.WasapiCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.WasapiCapture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.CoreAudioApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.CoreAudioApi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.AudioMediaSubtypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.AudioMediaSubtypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.DmoDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.DmoDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.DmoEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.DmoEnumerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.DmoInPlaceProcessFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.DmoInPlaceProcessFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.DmoInPlaceProcessReturn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.DmoInPlaceProcessReturn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.DmoInputDataBufferFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.DmoInputDataBufferFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.DmoMediaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.DmoMediaType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.DmoOutputDataBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.DmoOutputDataBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.DmoOutputDataBufferFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.DmoOutputDataBufferFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.DmoProcessOutputFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.DmoProcessOutputFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.DmoResampler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.DmoResampler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.ChorusPhase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.ChorusPhase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.ChorusWaveForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.ChorusWaveForm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoChorus.Params.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoChorus.Params.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoChorus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoChorus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoCompressor.Params.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoCompressor.Params.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoCompressor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoCompressor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoDistortion.Params.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoDistortion.Params.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoDistortion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoDistortion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoEcho.Params.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoEcho.Params.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoEcho.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoEcho.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoFlanger.Params.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoFlanger.Params.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoFlanger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoFlanger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoGargle.Params.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoGargle.Params.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoGargle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoGargle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoI3DL2Reverb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoI3DL2Reverb.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoParamEq.Params.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoParamEq.Params.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoParamEq.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoParamEq.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoWavesReverb.Params.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoWavesReverb.Params.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.DmoWavesReverb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.DmoWavesReverb.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.EchoPanDelay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.EchoPanDelay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.FlangerPhase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.FlangerPhase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.FlangerWaveForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.FlangerWaveForm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.GargleWaveShape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.GargleWaveShape.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.I3DL2EnvironmentPreset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.I3DL2EnvironmentPreset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.IDmoEffector-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.IDmoEffector-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.Effect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.Effect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.IMediaBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.IMediaBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.MediaBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.MediaBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.MediaObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.MediaObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.MediaObjectInPlace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.MediaObjectInPlace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.MediaObjectSizeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.MediaObjectSizeInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.WindowsMediaMp3Decoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.WindowsMediaMp3Decoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dmo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dmo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dsp.BiQuadFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dsp.BiQuadFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dsp.Complex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dsp.Complex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dsp.EnvelopeGenerator.EnvelopeState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dsp.EnvelopeGenerator.EnvelopeState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dsp.EnvelopeGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dsp.EnvelopeGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dsp.FastFourierTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dsp.FastFourierTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dsp.ImpulseResponseConvolution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dsp.ImpulseResponseConvolution.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dsp.SmbPitchShifter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dsp.SmbPitchShifter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dsp.WdlResampler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dsp.WdlResampler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Dsp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Dsp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.FileFormats.Mp3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.FileFormats.Mp3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.FileFormats.Wav.WaveFileChunkReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.FileFormats.Wav.WaveFileChunkReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.FileFormats.Wav.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.FileFormats.Wav.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Manufacturers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Manufacturers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.AudioSubtypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.AudioSubtypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.IMFActivate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.IMFActivate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.IMFAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.IMFAttributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.IMFByteStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.IMFByteStream.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.IMFCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.IMFCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.IMFMediaBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.IMFMediaBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.IMFMediaEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.IMFMediaEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.IMFMediaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.IMFMediaType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.IMFReadWriteClassFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.IMFReadWriteClassFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.IMFSample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.IMFSample.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.IMFSinkWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.IMFSinkWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.IMFSourceReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.IMFSourceReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.IMFTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.IMFTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MFReadWriteClassFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MFReadWriteClassFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MFT_MESSAGE_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MFT_MESSAGE_TYPE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MFT_OUTPUT_STREAM_INFO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MFT_OUTPUT_STREAM_INFO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MediaEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MediaEventType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MediaFoundationApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MediaFoundationApi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MediaFoundationAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MediaFoundationAttributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MediaFoundationErrors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MediaFoundationErrors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MediaFoundationInterop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MediaFoundationInterop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MediaFoundationTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MediaFoundationTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MediaFoundationTransformCategories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MediaFoundationTransformCategories.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MediaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MediaType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.MediaTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.MediaTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.TranscodeContainerTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.TranscodeContainerTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation._MFT_ENUM_FLAG.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation._MFT_ENUM_FLAG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation._MFT_INPUT_STATUS_FLAGS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation._MFT_INPUT_STATUS_FLAGS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation._MFT_OUTPUT_STREAM_INFO_FLAGS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation._MFT_OUTPUT_STREAM_INFO_FLAGS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MediaFoundation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MediaFoundation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.ChannelAfterTouchEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.ChannelAfterTouchEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.ControlChangeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.ControlChangeEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.KeySignatureEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.KeySignatureEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.MetaEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.MetaEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.MetaEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.MetaEventType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.MidiCommandCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.MidiCommandCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.MidiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.MidiController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.MidiEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.MidiEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.MidiEventCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.MidiEventCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.MidiEventComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.MidiEventComparer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.MidiFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.MidiFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.MidiIn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.MidiIn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.MidiInCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.MidiInCapabilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.MidiInMessageEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.MidiInMessageEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.MidiInSysexMessageEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.MidiInSysexMessageEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.MidiMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.MidiMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.MidiOut.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.MidiOut.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.MidiOutCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.MidiOutCapabilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.MidiOutTechnology.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.MidiOutTechnology.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.NoteEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.NoteEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.NoteOnEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.NoteOnEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.PatchChangeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.PatchChangeEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.PitchWheelChangeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.PitchWheelChangeEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.RawMetaEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.RawMetaEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.SequencerSpecificEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.SequencerSpecificEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.SmpteOffsetEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.SmpteOffsetEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.SysexEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.SysexEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.TempoEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.TempoEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.TextEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.TextEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.TimeSignatureEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.TimeSignatureEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.TrackSequenceNumberEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.TrackSequenceNumberEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Midi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Midi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Mixer.BooleanMixerControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Mixer.BooleanMixerControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Mixer.CustomMixerControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Mixer.CustomMixerControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Mixer.ListTextMixerControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Mixer.ListTextMixerControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Mixer.Mixer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Mixer.Mixer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Mixer.MixerControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Mixer.MixerControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Mixer.MixerControlType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Mixer.MixerControlType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Mixer.MixerFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Mixer.MixerFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Mixer.MixerLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Mixer.MixerLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Mixer.MixerLineComponentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Mixer.MixerLineComponentType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Mixer.SignedMixerControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Mixer.SignedMixerControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Mixer.UnsignedMixerControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Mixer.UnsignedMixerControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Mixer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Mixer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MmException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MmException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.MmResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.MmResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.ControllerSourceEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.ControllerSourceEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.Generator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.Generator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.GeneratorEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.GeneratorEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.InfoChunk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.InfoChunk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.Instrument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.Instrument.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.Modulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.Modulator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.ModulatorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.ModulatorType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.Preset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.Preset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.PresetsChunk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.PresetsChunk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.SFSampleLink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.SFSampleLink.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.SFVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.SFVersion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.SampleHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.SampleHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.SampleMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.SampleMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.SoundFont.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.SoundFont.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.SourceTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.SourceTypeEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.TransformEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.TransformEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.Zone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.Zone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.SoundFont.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.SoundFont.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Utils.BufferHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Utils.BufferHelpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Utils.ByteArrayExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Utils.ByteArrayExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Utils.ByteEncoding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Utils.ByteEncoding.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Utils.ChunkIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Utils.ChunkIdentifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Utils.CircularBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Utils.CircularBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Utils.Decibels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Utils.Decibels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Utils.FieldDescriptionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Utils.FieldDescriptionAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Utils.FieldDescriptionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Utils.FieldDescriptionHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Utils.HResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Utils.HResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Utils.IEEE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Utils.IEEE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Utils.IgnoreDisposeStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Utils.IgnoreDisposeStream.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Utils.NativeMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Utils.NativeMethods.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Utils.WavePositionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Utils.WavePositionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Utils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wasapi.CoreAudioApi.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wasapi.CoreAudioApi.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wasapi.CoreAudioApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wasapi.CoreAudioApi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.AcmMp3FrameDecompressor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.AcmMp3FrameDecompressor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.AdpcmWaveFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.AdpcmWaveFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.AiffFileReader.AiffChunk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.AiffFileReader.AiffChunk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.AiffFileReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.AiffFileReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.AiffFileWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.AiffFileWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Asio.Asio64Bit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Asio.Asio64Bit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Asio.AsioCallbacks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Asio.AsioCallbacks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Asio.AsioChannelInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Asio.AsioChannelInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Asio.AsioDriver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Asio.AsioDriver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Asio.AsioDriverCapability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Asio.AsioDriverCapability.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Asio.AsioDriverExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Asio.AsioDriverExt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Asio.AsioError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Asio.AsioError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Asio.AsioFillBufferCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Asio.AsioFillBufferCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Asio.AsioMessageSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Asio.AsioMessageSelector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Asio.AsioSampleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Asio.AsioSampleType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Asio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Asio.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.AsioAudioAvailableEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.AsioAudioAvailableEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.AsioOut.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.AsioOut.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.AudioFileReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.AudioFileReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.BextChunkInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.BextChunkInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.BlockAlignReductionStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.BlockAlignReductionStream.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.BufferedWaveProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.BufferedWaveProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.BwfWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.BwfWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.ChannelMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.ChannelMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Compression.AcmDriver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Compression.AcmDriver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Compression.AcmFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Compression.AcmFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Compression.AcmFormatEnumFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Compression.AcmFormatEnumFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Compression.AcmFormatTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Compression.AcmFormatTag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Compression.AcmStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Compression.AcmStream.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Compression.WaveFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Compression.WaveFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Compression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Compression.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Cue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Cue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.CueList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.CueList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.CueWaveFileReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.CueWaveFileReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.CueWaveFileWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.CueWaveFileWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.DirectSoundDeviceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.DirectSoundDeviceInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.DirectSoundOut.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.DirectSoundOut.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.DmoEffectWaveProvider-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.DmoEffectWaveProvider-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Gsm610WaveFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Gsm610WaveFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.IMp3FrameDecompressor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.IMp3FrameDecompressor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.ISampleNotifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.ISampleNotifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.ISampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.ISampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.IWaveBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.IWaveBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.IWaveIn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.IWaveIn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.IWavePlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.IWavePlayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.IWavePosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.IWavePosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.IWaveProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.IWaveProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Id3v2Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Id3v2Tag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.ImaAdpcmWaveFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.ImaAdpcmWaveFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.MediaFoundationEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.MediaFoundationEncoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.MediaFoundationReader.MediaFoundationReaderSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.MediaFoundationReader.MediaFoundationReaderSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.MediaFoundationReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.MediaFoundationReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.MediaFoundationResampler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.MediaFoundationResampler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.MixingWaveProvider32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.MixingWaveProvider32.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.MmTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.MmTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.MonoToStereoProvider16.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.MonoToStereoProvider16.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Mp3FileReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Mp3FileReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Mp3FileReaderBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Mp3FileReaderBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Mp3Frame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Mp3Frame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Mp3WaveFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Mp3WaveFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Mp3WaveFormatFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Mp3WaveFormatFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Mp3WaveFormatId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Mp3WaveFormatId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.MpegLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.MpegLayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.MpegVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.MpegVersion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.MultiplexingWaveProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.MultiplexingWaveProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.PlaybackState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.PlaybackState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.RawSourceWaveStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.RawSourceWaveStream.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.ResamplerDmoStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.ResamplerDmoStream.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.RiffChunk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.RiffChunk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.AdsrSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.AdsrSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.ConcatenatingSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.ConcatenatingSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.FadeInOutSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.FadeInOutSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.IPanStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.IPanStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.LinearPanStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.LinearPanStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.MeteringSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.MeteringSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.MixingSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.MixingSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.MonoToStereoSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.MonoToStereoSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.MultiplexingSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.MultiplexingSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.NotifyingSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.NotifyingSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.OffsetSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.OffsetSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.PanningSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.PanningSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.Pcm16BitToSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.Pcm16BitToSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.Pcm24BitToSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.Pcm24BitToSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.Pcm32BitToSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.Pcm32BitToSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.Pcm8BitToSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.Pcm8BitToSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.SampleChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.SampleChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.SampleProviderConverterBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.SampleProviderConverterBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.SampleProviderEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.SampleProviderEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.SampleToWaveProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.SampleToWaveProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.SampleToWaveProvider16.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.SampleToWaveProvider16.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.SampleToWaveProvider24.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.SampleToWaveProvider24.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.SignalGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.SignalGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.SignalGeneratorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.SignalGeneratorType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.SinPanStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.SinPanStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.SmbPitchShiftingSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.SmbPitchShiftingSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.SquareRootPanStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.SquareRootPanStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.StereoBalanceStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.StereoBalanceStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.StereoSamplePair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.StereoSamplePair.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.StereoToMonoSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.StereoToMonoSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.StreamVolumeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.StreamVolumeEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.VolumeSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.VolumeSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.WaveToSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.WaveToSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.WaveToSampleProvider64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.WaveToSampleProvider64.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.WdlResamplingSampleProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.WdlResamplingSampleProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SampleProviders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SampleProviders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SilenceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SilenceProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SimpleCompressorEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SimpleCompressorEffect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.StereoToMonoProvider16.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.StereoToMonoProvider16.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.StoppedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.StoppedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.StreamMediaFoundationReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.StreamMediaFoundationReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.SupportedWaveFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.SupportedWaveFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.TrueSpeechWaveFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.TrueSpeechWaveFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.VolumeWaveProvider16.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.VolumeWaveProvider16.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WasapiLoopbackCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WasapiLoopbackCapture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WasapiOut.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WasapiOut.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Wave16ToFloatProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Wave16ToFloatProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.Wave32To16Stream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.Wave32To16Stream.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveCallbackStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveCallbackStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveCapabilitiesHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveCapabilitiesHelpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveChannel32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveChannel32.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveExtensionMethods.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveFileReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveFileReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveFileWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveFileWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveFloatTo16Provider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveFloatTo16Provider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveFormatConversionProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveFormatConversionProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveFormatConversionStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveFormatConversionStream.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveFormatCustomMarshaler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveFormatCustomMarshaler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveFormatEncoding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveFormatEncoding.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveFormatExtensible.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveFormatExtensible.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveFormatExtraData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveFormatExtraData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveHeaderFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveHeaderFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveInBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveInBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveInCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveInCapabilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveInEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveInEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveInEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveInEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveInProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveInProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveInterop.WaveCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveInterop.WaveCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveInterop.WaveInOutOpenFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveInterop.WaveInOutOpenFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveInterop.WaveMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveInterop.WaveMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveInterop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveInterop.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveMixerStream32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveMixerStream32.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveOffsetStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveOffsetStream.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveOutBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveOutBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveOutCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveOutCapabilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveOutEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveOutEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveOutUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveOutUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveProvider16.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveProvider16.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveProvider32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveProvider32.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveRecorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveRecorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.WaveStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.WaveStream.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.XingHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.XingHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.Wave.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.Wave.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NAudio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NAudio.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {

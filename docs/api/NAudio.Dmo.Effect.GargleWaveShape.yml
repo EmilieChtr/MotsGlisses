@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect.GargleWaveShape
+  commentId: T:NAudio.Dmo.Effect.GargleWaveShape
+  id: GargleWaveShape
+  parent: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.GargleWaveShape.Square
+  - NAudio.Dmo.Effect.GargleWaveShape.Triangle
+  langs:
+  - csharp
+  - vb
+  name: GargleWaveShape
+  nameWithType: GargleWaveShape
+  fullName: NAudio.Dmo.Effect.GargleWaveShape
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: 'public enum GargleWaveShape : uint'
+    content.vb: Public Enum GargleWaveShape As UInteger
+- uid: NAudio.Dmo.Effect.GargleWaveShape.Triangle
+  commentId: F:NAudio.Dmo.Effect.GargleWaveShape.Triangle
+  id: Triangle
+  parent: NAudio.Dmo.Effect.GargleWaveShape
+  langs:
+  - csharp
+  - vb
+  name: Triangle
+  nameWithType: GargleWaveShape.Triangle
+  fullName: NAudio.Dmo.Effect.GargleWaveShape.Triangle
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Triangle = 0
+    return:
+      type: NAudio.Dmo.Effect.GargleWaveShape
+- uid: NAudio.Dmo.Effect.GargleWaveShape.Square
+  commentId: F:NAudio.Dmo.Effect.GargleWaveShape.Square
+  id: Square
+  parent: NAudio.Dmo.Effect.GargleWaveShape
+  langs:
+  - csharp
+  - vb
+  name: Square
+  nameWithType: GargleWaveShape.Square
+  fullName: NAudio.Dmo.Effect.GargleWaveShape.Square
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Square = 1
+    return:
+      type: NAudio.Dmo.Effect.GargleWaveShape
+references:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+- uid: NAudio.Dmo.Effect.GargleWaveShape
+  commentId: T:NAudio.Dmo.Effect.GargleWaveShape
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.GargleWaveShape.html
+  name: GargleWaveShape
+  nameWithType: GargleWaveShape
+  fullName: NAudio.Dmo.Effect.GargleWaveShape

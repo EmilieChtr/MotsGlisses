@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS
+  commentId: T:NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS
+  id: _MFT_SET_TYPE_FLAGS
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS.MFT_SET_TYPE_TEST_ONLY
+  - NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS.None
+  langs:
+  - csharp
+  - vb
+  name: _MFT_SET_TYPE_FLAGS
+  nameWithType: _MFT_SET_TYPE_FLAGS
+  fullName: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum _MFT_SET_TYPE_FLAGS
+    content.vb: >-
+      <Flags>
+
+      Public Enum _MFT_SET_TYPE_FLAGS
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS.None
+  commentId: F:NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS.None
+  id: None
+  parent: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: _MFT_SET_TYPE_FLAGS.None
+  fullName: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS.None
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: None = 0
+    return:
+      type: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS
+- uid: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS.MFT_SET_TYPE_TEST_ONLY
+  commentId: F:NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS.MFT_SET_TYPE_TEST_ONLY
+  id: MFT_SET_TYPE_TEST_ONLY
+  parent: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: MFT_SET_TYPE_TEST_ONLY
+  nameWithType: _MFT_SET_TYPE_FLAGS.MFT_SET_TYPE_TEST_ONLY
+  fullName: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS.MFT_SET_TYPE_TEST_ONLY
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_SET_TYPE_TEST_ONLY = 1
+    return:
+      type: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS
+  commentId: T:NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS.html
+  name: _MFT_SET_TYPE_FLAGS
+  nameWithType: _MFT_SET_TYPE_FLAGS
+  fullName: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS

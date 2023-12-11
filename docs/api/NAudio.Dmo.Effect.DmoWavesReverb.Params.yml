@@ -1,0 +1,649 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  commentId: T:NAudio.Dmo.Effect.DmoWavesReverb.Params
+  id: DmoWavesReverb.Params
+  parent: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatio
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatioDefault
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatioMax
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatioMin
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params.InGain
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params.InGainDefault
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params.InGainMax
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params.InGainMin
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMix
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMixDefault
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMixMax
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMixMin
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTime
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTimeDefault
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTimeMax
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTimeMin
+  langs:
+  - csharp
+  - vb
+  name: DmoWavesReverb.Params
+  nameWithType: DmoWavesReverb.Params
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  type: Struct
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public struct DmoWavesReverb.Params
+    content.vb: Public Structure DmoWavesReverb.Params
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.InGainMin
+  commentId: F:NAudio.Dmo.Effect.DmoWavesReverb.Params.InGainMin
+  id: InGainMin
+  parent: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  langs:
+  - csharp
+  - vb
+  name: InGainMin
+  nameWithType: DmoWavesReverb.Params.InGainMin
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.InGainMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float InGainMin = -96
+    return:
+      type: System.Single
+    content.vb: Public Const InGainMin As Single = -96
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.InGainMax
+  commentId: F:NAudio.Dmo.Effect.DmoWavesReverb.Params.InGainMax
+  id: InGainMax
+  parent: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  langs:
+  - csharp
+  - vb
+  name: InGainMax
+  nameWithType: DmoWavesReverb.Params.InGainMax
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.InGainMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float InGainMax = 0
+    return:
+      type: System.Single
+    content.vb: Public Const InGainMax As Single = 0
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.InGainDefault
+  commentId: F:NAudio.Dmo.Effect.DmoWavesReverb.Params.InGainDefault
+  id: InGainDefault
+  parent: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  langs:
+  - csharp
+  - vb
+  name: InGainDefault
+  nameWithType: DmoWavesReverb.Params.InGainDefault
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.InGainDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float InGainDefault = 0
+    return:
+      type: System.Single
+    content.vb: Public Const InGainDefault As Single = 0
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMixMin
+  commentId: F:NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMixMin
+  id: ReverbMixMin
+  parent: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReverbMixMin
+  nameWithType: DmoWavesReverb.Params.ReverbMixMin
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMixMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ReverbMixMin = -96
+    return:
+      type: System.Single
+    content.vb: Public Const ReverbMixMin As Single = -96
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMixMax
+  commentId: F:NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMixMax
+  id: ReverbMixMax
+  parent: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReverbMixMax
+  nameWithType: DmoWavesReverb.Params.ReverbMixMax
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMixMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ReverbMixMax = 0
+    return:
+      type: System.Single
+    content.vb: Public Const ReverbMixMax As Single = 0
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMixDefault
+  commentId: F:NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMixDefault
+  id: ReverbMixDefault
+  parent: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReverbMixDefault
+  nameWithType: DmoWavesReverb.Params.ReverbMixDefault
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMixDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ReverbMixDefault = 0
+    return:
+      type: System.Single
+    content.vb: Public Const ReverbMixDefault As Single = 0
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTimeMin
+  commentId: F:NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTimeMin
+  id: ReverbTimeMin
+  parent: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReverbTimeMin
+  nameWithType: DmoWavesReverb.Params.ReverbTimeMin
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTimeMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ReverbTimeMin = 0.001
+    return:
+      type: System.Single
+    content.vb: Public Const ReverbTimeMin As Single = 0.001
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTimeMax
+  commentId: F:NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTimeMax
+  id: ReverbTimeMax
+  parent: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReverbTimeMax
+  nameWithType: DmoWavesReverb.Params.ReverbTimeMax
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTimeMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ReverbTimeMax = 3000
+    return:
+      type: System.Single
+    content.vb: Public Const ReverbTimeMax As Single = 3000
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTimeDefault
+  commentId: F:NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTimeDefault
+  id: ReverbTimeDefault
+  parent: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReverbTimeDefault
+  nameWithType: DmoWavesReverb.Params.ReverbTimeDefault
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTimeDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ReverbTimeDefault = 1000
+    return:
+      type: System.Single
+    content.vb: Public Const ReverbTimeDefault As Single = 1000
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatioMin
+  commentId: F:NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatioMin
+  id: HighFreqRtRatioMin
+  parent: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  langs:
+  - csharp
+  - vb
+  name: HighFreqRtRatioMin
+  nameWithType: DmoWavesReverb.Params.HighFreqRtRatioMin
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatioMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float HighFreqRtRatioMin = 0.001
+    return:
+      type: System.Single
+    content.vb: Public Const HighFreqRtRatioMin As Single = 0.001
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatioMax
+  commentId: F:NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatioMax
+  id: HighFreqRtRatioMax
+  parent: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  langs:
+  - csharp
+  - vb
+  name: HighFreqRtRatioMax
+  nameWithType: DmoWavesReverb.Params.HighFreqRtRatioMax
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatioMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float HighFreqRtRatioMax = 0.999
+    return:
+      type: System.Single
+    content.vb: Public Const HighFreqRtRatioMax As Single = 0.999
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatioDefault
+  commentId: F:NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatioDefault
+  id: HighFreqRtRatioDefault
+  parent: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  langs:
+  - csharp
+  - vb
+  name: HighFreqRtRatioDefault
+  nameWithType: DmoWavesReverb.Params.HighFreqRtRatioDefault
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatioDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float HighFreqRtRatioDefault = 0.001
+    return:
+      type: System.Single
+    content.vb: Public Const HighFreqRtRatioDefault As Single = 0.001
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.InGain
+  commentId: P:NAudio.Dmo.Effect.DmoWavesReverb.Params.InGain
+  id: InGain
+  parent: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  langs:
+  - csharp
+  - vb
+  name: InGain
+  nameWithType: DmoWavesReverb.Params.InGain
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.InGain
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float InGain { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property InGain As Single
+  overload: NAudio.Dmo.Effect.DmoWavesReverb.Params.InGain*
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMix
+  commentId: P:NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMix
+  id: ReverbMix
+  parent: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReverbMix
+  nameWithType: DmoWavesReverb.Params.ReverbMix
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMix
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float ReverbMix { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ReverbMix As Single
+  overload: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMix*
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTime
+  commentId: P:NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTime
+  id: ReverbTime
+  parent: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReverbTime
+  nameWithType: DmoWavesReverb.Params.ReverbTime
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTime
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float ReverbTime { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ReverbTime As Single
+  overload: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTime*
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatio
+  commentId: P:NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatio
+  id: HighFreqRtRatio
+  parent: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  langs:
+  - csharp
+  - vb
+  name: HighFreqRtRatio
+  nameWithType: DmoWavesReverb.Params.HighFreqRtRatio
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatio
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float HighFreqRtRatio { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property HighFreqRtRatio As Single
+  overload: NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatio*
+references:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.InGain*
+  commentId: Overload:NAudio.Dmo.Effect.DmoWavesReverb.Params.InGain
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoWavesReverb.Params.html#NAudio_Dmo_Effect_DmoWavesReverb_Params_InGain
+  name: InGain
+  nameWithType: DmoWavesReverb.Params.InGain
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.InGain
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMix*
+  commentId: Overload:NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMix
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoWavesReverb.Params.html#NAudio_Dmo_Effect_DmoWavesReverb_Params_ReverbMix
+  name: ReverbMix
+  nameWithType: DmoWavesReverb.Params.ReverbMix
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbMix
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTime*
+  commentId: Overload:NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTime
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoWavesReverb.Params.html#NAudio_Dmo_Effect_DmoWavesReverb_Params_ReverbTime
+  name: ReverbTime
+  nameWithType: DmoWavesReverb.Params.ReverbTime
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.ReverbTime
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatio*
+  commentId: Overload:NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatio
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoWavesReverb.Params.html#NAudio_Dmo_Effect_DmoWavesReverb_Params_HighFreqRtRatio
+  name: HighFreqRtRatio
+  nameWithType: DmoWavesReverb.Params.HighFreqRtRatio
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params.HighFreqRtRatio

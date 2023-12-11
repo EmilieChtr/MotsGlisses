@@ -1,0 +1,393 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange
+  commentId: T:NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange
+  id: AudioEndpointVolumeVolumeRange
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.IncrementDecibels
+  - NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.MaxDecibels
+  - NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.MinDecibels
+  langs:
+  - csharp
+  - vb
+  name: AudioEndpointVolumeVolumeRange
+  nameWithType: AudioEndpointVolumeVolumeRange
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange
+  type: Class
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public class AudioEndpointVolumeVolumeRange
+    content.vb: Public Class AudioEndpointVolumeVolumeRange
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.MinDecibels
+  commentId: P:NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.MinDecibels
+  id: MinDecibels
+  parent: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange
+  langs:
+  - csharp
+  - vb
+  name: MinDecibels
+  nameWithType: AudioEndpointVolumeVolumeRange.MinDecibels
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.MinDecibels
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public float MinDecibels { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property MinDecibels As Single
+  overload: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.MinDecibels*
+- uid: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.MaxDecibels
+  commentId: P:NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.MaxDecibels
+  id: MaxDecibels
+  parent: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange
+  langs:
+  - csharp
+  - vb
+  name: MaxDecibels
+  nameWithType: AudioEndpointVolumeVolumeRange.MaxDecibels
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.MaxDecibels
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public float MaxDecibels { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property MaxDecibels As Single
+  overload: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.MaxDecibels*
+- uid: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.IncrementDecibels
+  commentId: P:NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.IncrementDecibels
+  id: IncrementDecibels
+  parent: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange
+  langs:
+  - csharp
+  - vb
+  name: IncrementDecibels
+  nameWithType: AudioEndpointVolumeVolumeRange.IncrementDecibels
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.IncrementDecibels
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public float IncrementDecibels { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property IncrementDecibels As Single
+  overload: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.IncrementDecibels*
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.MinDecibels*
+  commentId: Overload:NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.MinDecibels
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.html#NAudio_CoreAudioApi_AudioEndpointVolumeVolumeRange_MinDecibels
+  name: MinDecibels
+  nameWithType: AudioEndpointVolumeVolumeRange.MinDecibels
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.MinDecibels
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.MaxDecibels*
+  commentId: Overload:NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.MaxDecibels
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.html#NAudio_CoreAudioApi_AudioEndpointVolumeVolumeRange_MaxDecibels
+  name: MaxDecibels
+  nameWithType: AudioEndpointVolumeVolumeRange.MaxDecibels
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.MaxDecibels
+- uid: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.IncrementDecibels*
+  commentId: Overload:NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.IncrementDecibels
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.html#NAudio_CoreAudioApi_AudioEndpointVolumeVolumeRange_IncrementDecibels
+  name: IncrementDecibels
+  nameWithType: AudioEndpointVolumeVolumeRange.IncrementDecibels
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.IncrementDecibels

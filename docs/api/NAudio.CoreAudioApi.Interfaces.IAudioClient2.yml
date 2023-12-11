@@ -1,0 +1,737 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient2
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IAudioClient2
+  id: IAudioClient2
+  parent: NAudio.CoreAudioApi.Interfaces
+  children:
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient2.GetBufferSizeLimits(System.IntPtr,System.Boolean,System.Int64@,System.Int64@)
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient2.IsOffloadCapable(NAudio.CoreAudioApi.AudioStreamCategory,System.Boolean@)
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient2.SetClientProperties(System.IntPtr)
+  langs:
+  - csharp
+  - vb
+  name: IAudioClient2
+  nameWithType: IAudioClient2
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient2
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: >-
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      [Guid("726778CD-F60A-4eda-82DE-E47610CD78AA")]
+
+      public interface IAudioClient2 : IAudioClient
+    content.vb: >-
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      <Guid("726778CD-F60A-4eda-82DE-E47610CD78AA")>
+
+      Public Interface IAudioClient2 Inherits IAudioClient
+  inheritedMembers:
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient.Initialize(NAudio.CoreAudioApi.AudioClientShareMode,NAudio.CoreAudioApi.AudioClientStreamFlags,System.Int64,System.Int64,NAudio.Wave.WaveFormat,System.Guid@)
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient.GetBufferSize(System.UInt32@)
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient.GetStreamLatency
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient.GetCurrentPadding(System.Int32@)
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient.IsFormatSupported(NAudio.CoreAudioApi.AudioClientShareMode,NAudio.Wave.WaveFormat,System.IntPtr)
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient.GetMixFormat(System.IntPtr@)
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient.GetDevicePeriod(System.Int64@,System.Int64@)
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient.Start
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient.Stop
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient.Reset
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient.SetEventHandle(System.IntPtr)
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient.GetService(System.Guid,System.Object@)
+  attributes:
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 726778CD-F60A-4eda-82DE-E47610CD78AA
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient2.IsOffloadCapable(NAudio.CoreAudioApi.AudioStreamCategory,System.Boolean@)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioClient2.IsOffloadCapable(NAudio.CoreAudioApi.AudioStreamCategory,System.Boolean@)
+  id: IsOffloadCapable(NAudio.CoreAudioApi.AudioStreamCategory,System.Boolean@)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioClient2
+  langs:
+  - csharp
+  - vb
+  name: IsOffloadCapable(AudioStreamCategory, out bool)
+  nameWithType: IAudioClient2.IsOffloadCapable(AudioStreamCategory, out bool)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient2.IsOffloadCapable(NAudio.CoreAudioApi.AudioStreamCategory, out bool)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: void IsOffloadCapable(AudioStreamCategory category, out bool pbOffloadCapable)
+    parameters:
+    - id: category
+      type: NAudio.CoreAudioApi.AudioStreamCategory
+    - id: pbOffloadCapable
+      type: System.Boolean
+    content.vb: Sub IsOffloadCapable(category As AudioStreamCategory, pbOffloadCapable As Boolean)
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioClient2.IsOffloadCapable*
+  nameWithType.vb: IAudioClient2.IsOffloadCapable(AudioStreamCategory, Boolean)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioClient2.IsOffloadCapable(NAudio.CoreAudioApi.AudioStreamCategory, Boolean)
+  name.vb: IsOffloadCapable(AudioStreamCategory, Boolean)
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient2.SetClientProperties(System.IntPtr)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioClient2.SetClientProperties(System.IntPtr)
+  id: SetClientProperties(System.IntPtr)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioClient2
+  langs:
+  - csharp
+  - vb
+  name: SetClientProperties(IntPtr)
+  nameWithType: IAudioClient2.SetClientProperties(IntPtr)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient2.SetClientProperties(System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: void SetClientProperties(IntPtr pProperties)
+    parameters:
+    - id: pProperties
+      type: System.IntPtr
+    content.vb: Sub SetClientProperties(pProperties As IntPtr)
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioClient2.SetClientProperties*
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient2.GetBufferSizeLimits(System.IntPtr,System.Boolean,System.Int64@,System.Int64@)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioClient2.GetBufferSizeLimits(System.IntPtr,System.Boolean,System.Int64@,System.Int64@)
+  id: GetBufferSizeLimits(System.IntPtr,System.Boolean,System.Int64@,System.Int64@)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioClient2
+  langs:
+  - csharp
+  - vb
+  name: GetBufferSizeLimits(IntPtr, bool, out long, out long)
+  nameWithType: IAudioClient2.GetBufferSizeLimits(IntPtr, bool, out long, out long)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient2.GetBufferSizeLimits(System.IntPtr, bool, out long, out long)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: void GetBufferSizeLimits(IntPtr pFormat, bool bEventDriven, out long phnsMinBufferDuration, out long phnsMaxBufferDuration)
+    parameters:
+    - id: pFormat
+      type: System.IntPtr
+    - id: bEventDriven
+      type: System.Boolean
+    - id: phnsMinBufferDuration
+      type: System.Int64
+    - id: phnsMaxBufferDuration
+      type: System.Int64
+    content.vb: Sub GetBufferSizeLimits(pFormat As IntPtr, bEventDriven As Boolean, phnsMinBufferDuration As Long, phnsMaxBufferDuration As Long)
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioClient2.GetBufferSizeLimits*
+  nameWithType.vb: IAudioClient2.GetBufferSizeLimits(IntPtr, Boolean, Long, Long)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioClient2.GetBufferSizeLimits(System.IntPtr, Boolean, Long, Long)
+  name.vb: GetBufferSizeLimits(IntPtr, Boolean, Long, Long)
+references:
+- uid: NAudio.CoreAudioApi.Interfaces
+  commentId: N:NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi.Interfaces
+  nameWithType: NAudio.CoreAudioApi.Interfaces
+  fullName: NAudio.CoreAudioApi.Interfaces
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.Initialize(NAudio.CoreAudioApi.AudioClientShareMode,NAudio.CoreAudioApi.AudioClientStreamFlags,System.Int64,System.Int64,NAudio.Wave.WaveFormat,System.Guid@)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioClient.Initialize(NAudio.CoreAudioApi.AudioClientShareMode,NAudio.CoreAudioApi.AudioClientStreamFlags,System.Int64,System.Int64,NAudio.Wave.WaveFormat,System.Guid@)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioClient
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_Initialize_NAudio_CoreAudioApi_AudioClientShareMode_NAudio_CoreAudioApi_AudioClientStreamFlags_System_Int64_System_Int64_NAudio_Wave_WaveFormat_System_Guid__
+  name: Initialize(AudioClientShareMode, AudioClientStreamFlags, long, long, WaveFormat, ref Guid)
+  nameWithType: IAudioClient.Initialize(AudioClientShareMode, AudioClientStreamFlags, long, long, WaveFormat, ref Guid)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient.Initialize(NAudio.CoreAudioApi.AudioClientShareMode, NAudio.CoreAudioApi.AudioClientStreamFlags, long, long, NAudio.Wave.WaveFormat, ref System.Guid)
+  nameWithType.vb: IAudioClient.Initialize(AudioClientShareMode, AudioClientStreamFlags, Long, Long, WaveFormat, Guid)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioClient.Initialize(NAudio.CoreAudioApi.AudioClientShareMode, NAudio.CoreAudioApi.AudioClientStreamFlags, Long, Long, NAudio.Wave.WaveFormat, System.Guid)
+  name.vb: Initialize(AudioClientShareMode, AudioClientStreamFlags, Long, Long, WaveFormat, Guid)
+  spec.csharp:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.Initialize(NAudio.CoreAudioApi.AudioClientShareMode,NAudio.CoreAudioApi.AudioClientStreamFlags,System.Int64,System.Int64,NAudio.Wave.WaveFormat,System.Guid@)
+    name: Initialize
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_Initialize_NAudio_CoreAudioApi_AudioClientShareMode_NAudio_CoreAudioApi_AudioClientStreamFlags_System_Int64_System_Int64_NAudio_Wave_WaveFormat_System_Guid__
+  - name: (
+  - uid: NAudio.CoreAudioApi.AudioClientShareMode
+    name: AudioClientShareMode
+    isExternal: true
+    href: NAudio.CoreAudioApi.AudioClientShareMode.html
+  - name: ','
+  - name: " "
+  - uid: NAudio.CoreAudioApi.AudioClientStreamFlags
+    name: AudioClientStreamFlags
+    isExternal: true
+    href: NAudio.CoreAudioApi.AudioClientStreamFlags.html
+  - name: ','
+  - name: " "
+  - uid: System.Int64
+    name: long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
+  - uid: System.Int64
+    name: long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
+  - uid: NAudio.Wave.WaveFormat
+    name: WaveFormat
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+  spec.vb:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.Initialize(NAudio.CoreAudioApi.AudioClientShareMode,NAudio.CoreAudioApi.AudioClientStreamFlags,System.Int64,System.Int64,NAudio.Wave.WaveFormat,System.Guid@)
+    name: Initialize
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_Initialize_NAudio_CoreAudioApi_AudioClientShareMode_NAudio_CoreAudioApi_AudioClientStreamFlags_System_Int64_System_Int64_NAudio_Wave_WaveFormat_System_Guid__
+  - name: (
+  - uid: NAudio.CoreAudioApi.AudioClientShareMode
+    name: AudioClientShareMode
+    isExternal: true
+    href: NAudio.CoreAudioApi.AudioClientShareMode.html
+  - name: ','
+  - name: " "
+  - uid: NAudio.CoreAudioApi.AudioClientStreamFlags
+    name: AudioClientStreamFlags
+    isExternal: true
+    href: NAudio.CoreAudioApi.AudioClientStreamFlags.html
+  - name: ','
+  - name: " "
+  - uid: System.Int64
+    name: Long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
+  - uid: System.Int64
+    name: Long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
+  - uid: NAudio.Wave.WaveFormat
+    name: WaveFormat
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetBufferSize(System.UInt32@)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioClient.GetBufferSize(System.UInt32@)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioClient
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetBufferSize_System_UInt32__
+  name: GetBufferSize(out uint)
+  nameWithType: IAudioClient.GetBufferSize(out uint)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetBufferSize(out uint)
+  nameWithType.vb: IAudioClient.GetBufferSize(UInteger)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetBufferSize(UInteger)
+  name.vb: GetBufferSize(UInteger)
+  spec.csharp:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetBufferSize(System.UInt32@)
+    name: GetBufferSize
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetBufferSize_System_UInt32__
+  - name: (
+  - name: out
+  - name: " "
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: )
+  spec.vb:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetBufferSize(System.UInt32@)
+    name: GetBufferSize
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetBufferSize_System_UInt32__
+  - name: (
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: )
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetStreamLatency
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioClient.GetStreamLatency
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioClient
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetStreamLatency
+  name: GetStreamLatency()
+  nameWithType: IAudioClient.GetStreamLatency()
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetStreamLatency()
+  spec.csharp:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetStreamLatency
+    name: GetStreamLatency
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetStreamLatency
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetStreamLatency
+    name: GetStreamLatency
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetStreamLatency
+  - name: (
+  - name: )
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetCurrentPadding(System.Int32@)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioClient.GetCurrentPadding(System.Int32@)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioClient
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetCurrentPadding_System_Int32__
+  name: GetCurrentPadding(out int)
+  nameWithType: IAudioClient.GetCurrentPadding(out int)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetCurrentPadding(out int)
+  nameWithType.vb: IAudioClient.GetCurrentPadding(Integer)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetCurrentPadding(Integer)
+  name.vb: GetCurrentPadding(Integer)
+  spec.csharp:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetCurrentPadding(System.Int32@)
+    name: GetCurrentPadding
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetCurrentPadding_System_Int32__
+  - name: (
+  - name: out
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetCurrentPadding(System.Int32@)
+    name: GetCurrentPadding
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetCurrentPadding_System_Int32__
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.IsFormatSupported(NAudio.CoreAudioApi.AudioClientShareMode,NAudio.Wave.WaveFormat,System.IntPtr)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioClient.IsFormatSupported(NAudio.CoreAudioApi.AudioClientShareMode,NAudio.Wave.WaveFormat,System.IntPtr)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioClient
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_IsFormatSupported_NAudio_CoreAudioApi_AudioClientShareMode_NAudio_Wave_WaveFormat_System_IntPtr_
+  name: IsFormatSupported(AudioClientShareMode, WaveFormat, IntPtr)
+  nameWithType: IAudioClient.IsFormatSupported(AudioClientShareMode, WaveFormat, IntPtr)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient.IsFormatSupported(NAudio.CoreAudioApi.AudioClientShareMode, NAudio.Wave.WaveFormat, System.IntPtr)
+  spec.csharp:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.IsFormatSupported(NAudio.CoreAudioApi.AudioClientShareMode,NAudio.Wave.WaveFormat,System.IntPtr)
+    name: IsFormatSupported
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_IsFormatSupported_NAudio_CoreAudioApi_AudioClientShareMode_NAudio_Wave_WaveFormat_System_IntPtr_
+  - name: (
+  - uid: NAudio.CoreAudioApi.AudioClientShareMode
+    name: AudioClientShareMode
+    isExternal: true
+    href: NAudio.CoreAudioApi.AudioClientShareMode.html
+  - name: ','
+  - name: " "
+  - uid: NAudio.Wave.WaveFormat
+    name: WaveFormat
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: )
+  spec.vb:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.IsFormatSupported(NAudio.CoreAudioApi.AudioClientShareMode,NAudio.Wave.WaveFormat,System.IntPtr)
+    name: IsFormatSupported
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_IsFormatSupported_NAudio_CoreAudioApi_AudioClientShareMode_NAudio_Wave_WaveFormat_System_IntPtr_
+  - name: (
+  - uid: NAudio.CoreAudioApi.AudioClientShareMode
+    name: AudioClientShareMode
+    isExternal: true
+    href: NAudio.CoreAudioApi.AudioClientShareMode.html
+  - name: ','
+  - name: " "
+  - uid: NAudio.Wave.WaveFormat
+    name: WaveFormat
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: )
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetMixFormat(System.IntPtr@)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioClient.GetMixFormat(System.IntPtr@)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioClient
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetMixFormat_System_IntPtr__
+  name: GetMixFormat(out IntPtr)
+  nameWithType: IAudioClient.GetMixFormat(out IntPtr)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetMixFormat(out System.IntPtr)
+  nameWithType.vb: IAudioClient.GetMixFormat(IntPtr)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetMixFormat(System.IntPtr)
+  name.vb: GetMixFormat(IntPtr)
+  spec.csharp:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetMixFormat(System.IntPtr@)
+    name: GetMixFormat
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetMixFormat_System_IntPtr__
+  - name: (
+  - name: out
+  - name: " "
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: )
+  spec.vb:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetMixFormat(System.IntPtr@)
+    name: GetMixFormat
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetMixFormat_System_IntPtr__
+  - name: (
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: )
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetDevicePeriod(System.Int64@,System.Int64@)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioClient.GetDevicePeriod(System.Int64@,System.Int64@)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioClient
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetDevicePeriod_System_Int64__System_Int64__
+  name: GetDevicePeriod(out long, out long)
+  nameWithType: IAudioClient.GetDevicePeriod(out long, out long)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetDevicePeriod(out long, out long)
+  nameWithType.vb: IAudioClient.GetDevicePeriod(Long, Long)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetDevicePeriod(Long, Long)
+  name.vb: GetDevicePeriod(Long, Long)
+  spec.csharp:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetDevicePeriod(System.Int64@,System.Int64@)
+    name: GetDevicePeriod
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetDevicePeriod_System_Int64__System_Int64__
+  - name: (
+  - name: out
+  - name: " "
+  - uid: System.Int64
+    name: long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: System.Int64
+    name: long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: )
+  spec.vb:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetDevicePeriod(System.Int64@,System.Int64@)
+    name: GetDevicePeriod
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetDevicePeriod_System_Int64__System_Int64__
+  - name: (
+  - uid: System.Int64
+    name: Long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
+  - uid: System.Int64
+    name: Long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: )
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.Start
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioClient.Start
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioClient
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_Start
+  name: Start()
+  nameWithType: IAudioClient.Start()
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient.Start()
+  spec.csharp:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.Start
+    name: Start
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_Start
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.Start
+    name: Start
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_Start
+  - name: (
+  - name: )
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.Stop
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioClient.Stop
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioClient
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_Stop
+  name: Stop()
+  nameWithType: IAudioClient.Stop()
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient.Stop()
+  spec.csharp:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.Stop
+    name: Stop
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_Stop
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.Stop
+    name: Stop
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_Stop
+  - name: (
+  - name: )
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.Reset
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioClient.Reset
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioClient
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_Reset
+  name: Reset()
+  nameWithType: IAudioClient.Reset()
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient.Reset()
+  spec.csharp:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.Reset
+    name: Reset
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_Reset
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.Reset
+    name: Reset
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_Reset
+  - name: (
+  - name: )
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.SetEventHandle(System.IntPtr)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioClient.SetEventHandle(System.IntPtr)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioClient
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_SetEventHandle_System_IntPtr_
+  name: SetEventHandle(IntPtr)
+  nameWithType: IAudioClient.SetEventHandle(IntPtr)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient.SetEventHandle(System.IntPtr)
+  spec.csharp:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.SetEventHandle(System.IntPtr)
+    name: SetEventHandle
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_SetEventHandle_System_IntPtr_
+  - name: (
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: )
+  spec.vb:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.SetEventHandle(System.IntPtr)
+    name: SetEventHandle
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_SetEventHandle_System_IntPtr_
+  - name: (
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: )
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetService(System.Guid,System.Object@)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioClient.GetService(System.Guid,System.Object@)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioClient
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetService_System_Guid_System_Object__
+  name: GetService(Guid, out object)
+  nameWithType: IAudioClient.GetService(Guid, out object)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetService(System.Guid, out object)
+  nameWithType.vb: IAudioClient.GetService(Guid, Object)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetService(System.Guid, Object)
+  name.vb: GetService(Guid, Object)
+  spec.csharp:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetService(System.Guid,System.Object@)
+    name: GetService
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetService_System_Guid_System_Object__
+  - name: (
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient.GetService(System.Guid,System.Object@)
+    name: GetService
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html#NAudio_CoreAudioApi_Interfaces_IAudioClient_GetService_System_Guid_System_Object__
+  - name: (
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IAudioClient
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html
+  name: IAudioClient
+  nameWithType: IAudioClient
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient2.IsOffloadCapable*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioClient2.IsOffloadCapable
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient2.html#NAudio_CoreAudioApi_Interfaces_IAudioClient2_IsOffloadCapable_NAudio_CoreAudioApi_AudioStreamCategory_System_Boolean__
+  name: IsOffloadCapable
+  nameWithType: IAudioClient2.IsOffloadCapable
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient2.IsOffloadCapable
+- uid: NAudio.CoreAudioApi.AudioStreamCategory
+  commentId: T:NAudio.CoreAudioApi.AudioStreamCategory
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioStreamCategory.html
+  name: AudioStreamCategory
+  nameWithType: AudioStreamCategory
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient2.SetClientProperties*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioClient2.SetClientProperties
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient2.html#NAudio_CoreAudioApi_Interfaces_IAudioClient2_SetClientProperties_System_IntPtr_
+  name: SetClientProperties
+  nameWithType: IAudioClient2.SetClientProperties
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient2.SetClientProperties
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient2.GetBufferSizeLimits*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioClient2.GetBufferSizeLimits
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient2.html#NAudio_CoreAudioApi_Interfaces_IAudioClient2_GetBufferSizeLimits_System_IntPtr_System_Boolean_System_Int64__System_Int64__
+  name: GetBufferSizeLimits
+  nameWithType: IAudioClient2.GetBufferSizeLimits
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient2.GetBufferSizeLimits
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long

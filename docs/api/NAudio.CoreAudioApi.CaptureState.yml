@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.CaptureState
+  commentId: T:NAudio.CoreAudioApi.CaptureState
+  id: CaptureState
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.CaptureState.Capturing
+  - NAudio.CoreAudioApi.CaptureState.Starting
+  - NAudio.CoreAudioApi.CaptureState.Stopped
+  - NAudio.CoreAudioApi.CaptureState.Stopping
+  langs:
+  - csharp
+  - vb
+  name: CaptureState
+  nameWithType: CaptureState
+  fullName: NAudio.CoreAudioApi.CaptureState
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public enum CaptureState
+    content.vb: Public Enum CaptureState
+- uid: NAudio.CoreAudioApi.CaptureState.Stopped
+  commentId: F:NAudio.CoreAudioApi.CaptureState.Stopped
+  id: Stopped
+  parent: NAudio.CoreAudioApi.CaptureState
+  langs:
+  - csharp
+  - vb
+  name: Stopped
+  nameWithType: CaptureState.Stopped
+  fullName: NAudio.CoreAudioApi.CaptureState.Stopped
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Stopped = 0
+    return:
+      type: NAudio.CoreAudioApi.CaptureState
+- uid: NAudio.CoreAudioApi.CaptureState.Starting
+  commentId: F:NAudio.CoreAudioApi.CaptureState.Starting
+  id: Starting
+  parent: NAudio.CoreAudioApi.CaptureState
+  langs:
+  - csharp
+  - vb
+  name: Starting
+  nameWithType: CaptureState.Starting
+  fullName: NAudio.CoreAudioApi.CaptureState.Starting
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Starting = 1
+    return:
+      type: NAudio.CoreAudioApi.CaptureState
+- uid: NAudio.CoreAudioApi.CaptureState.Capturing
+  commentId: F:NAudio.CoreAudioApi.CaptureState.Capturing
+  id: Capturing
+  parent: NAudio.CoreAudioApi.CaptureState
+  langs:
+  - csharp
+  - vb
+  name: Capturing
+  nameWithType: CaptureState.Capturing
+  fullName: NAudio.CoreAudioApi.CaptureState.Capturing
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Capturing = 2
+    return:
+      type: NAudio.CoreAudioApi.CaptureState
+- uid: NAudio.CoreAudioApi.CaptureState.Stopping
+  commentId: F:NAudio.CoreAudioApi.CaptureState.Stopping
+  id: Stopping
+  parent: NAudio.CoreAudioApi.CaptureState
+  langs:
+  - csharp
+  - vb
+  name: Stopping
+  nameWithType: CaptureState.Stopping
+  fullName: NAudio.CoreAudioApi.CaptureState.Stopping
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Stopping = 3
+    return:
+      type: NAudio.CoreAudioApi.CaptureState
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: NAudio.CoreAudioApi.CaptureState
+  commentId: T:NAudio.CoreAudioApi.CaptureState
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.CaptureState.html
+  name: CaptureState
+  nameWithType: CaptureState
+  fullName: NAudio.CoreAudioApi.CaptureState

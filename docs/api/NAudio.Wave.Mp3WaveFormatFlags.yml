@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.Mp3WaveFormatFlags
+  commentId: T:NAudio.Wave.Mp3WaveFormatFlags
+  id: Mp3WaveFormatFlags
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.Mp3WaveFormatFlags.PaddingIso
+  - NAudio.Wave.Mp3WaveFormatFlags.PaddingOff
+  - NAudio.Wave.Mp3WaveFormatFlags.PaddingOn
+  langs:
+  - csharp
+  - vb
+  name: Mp3WaveFormatFlags
+  nameWithType: Mp3WaveFormatFlags
+  fullName: NAudio.Wave.Mp3WaveFormatFlags
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum Mp3WaveFormatFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum Mp3WaveFormatFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.Wave.Mp3WaveFormatFlags.PaddingIso
+  commentId: F:NAudio.Wave.Mp3WaveFormatFlags.PaddingIso
+  id: PaddingIso
+  parent: NAudio.Wave.Mp3WaveFormatFlags
+  langs:
+  - csharp
+  - vb
+  name: PaddingIso
+  nameWithType: Mp3WaveFormatFlags.PaddingIso
+  fullName: NAudio.Wave.Mp3WaveFormatFlags.PaddingIso
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: PaddingIso = 0
+    return:
+      type: NAudio.Wave.Mp3WaveFormatFlags
+- uid: NAudio.Wave.Mp3WaveFormatFlags.PaddingOn
+  commentId: F:NAudio.Wave.Mp3WaveFormatFlags.PaddingOn
+  id: PaddingOn
+  parent: NAudio.Wave.Mp3WaveFormatFlags
+  langs:
+  - csharp
+  - vb
+  name: PaddingOn
+  nameWithType: Mp3WaveFormatFlags.PaddingOn
+  fullName: NAudio.Wave.Mp3WaveFormatFlags.PaddingOn
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: PaddingOn = 1
+    return:
+      type: NAudio.Wave.Mp3WaveFormatFlags
+- uid: NAudio.Wave.Mp3WaveFormatFlags.PaddingOff
+  commentId: F:NAudio.Wave.Mp3WaveFormatFlags.PaddingOff
+  id: PaddingOff
+  parent: NAudio.Wave.Mp3WaveFormatFlags
+  langs:
+  - csharp
+  - vb
+  name: PaddingOff
+  nameWithType: Mp3WaveFormatFlags.PaddingOff
+  fullName: NAudio.Wave.Mp3WaveFormatFlags.PaddingOff
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: PaddingOff = 2
+    return:
+      type: NAudio.Wave.Mp3WaveFormatFlags
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Wave.Mp3WaveFormatFlags
+  commentId: T:NAudio.Wave.Mp3WaveFormatFlags
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.Mp3WaveFormatFlags.html
+  name: Mp3WaveFormatFlags
+  nameWithType: Mp3WaveFormatFlags
+  fullName: NAudio.Wave.Mp3WaveFormatFlags

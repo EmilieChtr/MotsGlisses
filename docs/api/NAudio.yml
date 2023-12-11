@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio
+  commentId: N:NAudio
+  id: NAudio
+  children:
+  - NAudio.Manufacturers
+  - NAudio.MmException
+  - NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: NAudio
+  nameWithType: NAudio
+  fullName: NAudio
+  type: Namespace
+  assemblies:
+  - NAudio.Core
+references:
+- uid: NAudio.Manufacturers
+  commentId: T:NAudio.Manufacturers
+  parent: NAudio
+  isExternal: true
+  href: NAudio.Manufacturers.html
+  name: Manufacturers
+  nameWithType: Manufacturers
+  fullName: NAudio.Manufacturers
+- uid: NAudio.MmException
+  commentId: T:NAudio.MmException
+  isExternal: true
+  href: NAudio.MmException.html
+  name: MmException
+  nameWithType: MmException
+  fullName: NAudio.MmException
+- uid: NAudio.MmResult
+  commentId: T:NAudio.MmResult
+  parent: NAudio
+  isExternal: true
+  href: NAudio.MmResult.html
+  name: MmResult
+  nameWithType: MmResult
+  fullName: NAudio.MmResult
+- uid: NAudio
+  commentId: N:NAudio
+  isExternal: true
+  href: NAudio.html
+  name: NAudio
+  nameWithType: NAudio
+  fullName: NAudio

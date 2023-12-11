@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification
+  id: IAudioSessionNotification
+  parent: NAudio.CoreAudioApi.Interfaces
+  children:
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification.OnSessionCreated(NAudio.CoreAudioApi.Interfaces.IAudioSessionControl)
+  langs:
+  - csharp
+  - vb
+  name: IAudioSessionNotification
+  nameWithType: IAudioSessionNotification
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: >-
+      [Guid("641DD20B-4D41-49CC-ABA3-174B9477BB08")]
+
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      public interface IAudioSessionNotification
+    content.vb: >-
+      <Guid("641DD20B-4D41-49CC-ABA3-174B9477BB08")>
+
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      Public Interface IAudioSessionNotification
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 641DD20B-4D41-49CC-ABA3-174B9477BB08
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification.OnSessionCreated(NAudio.CoreAudioApi.Interfaces.IAudioSessionControl)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification.OnSessionCreated(NAudio.CoreAudioApi.Interfaces.IAudioSessionControl)
+  id: OnSessionCreated(NAudio.CoreAudioApi.Interfaces.IAudioSessionControl)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification
+  langs:
+  - csharp
+  - vb
+  name: OnSessionCreated(IAudioSessionControl)
+  nameWithType: IAudioSessionNotification.OnSessionCreated(IAudioSessionControl)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification.OnSessionCreated(NAudio.CoreAudioApi.Interfaces.IAudioSessionControl)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: int OnSessionCreated(IAudioSessionControl newSession)
+    parameters:
+    - id: newSession
+      type: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+    return:
+      type: System.Int32
+    content.vb: Function OnSessionCreated(newSession As IAudioSessionControl) As Integer
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification.OnSessionCreated*
+references:
+- uid: NAudio.CoreAudioApi.Interfaces
+  commentId: N:NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi.Interfaces
+  nameWithType: NAudio.CoreAudioApi.Interfaces
+  fullName: NAudio.CoreAudioApi.Interfaces
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification.OnSessionCreated*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification.OnSessionCreated
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionNotification_OnSessionCreated_NAudio_CoreAudioApi_Interfaces_IAudioSessionControl_
+  name: OnSessionCreated
+  nameWithType: IAudioSessionNotification.OnSessionCreated
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification.OnSessionCreated
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.html
+  name: IAudioSessionControl
+  nameWithType: IAudioSessionControl
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.Interfaces
+  commentId: N:NAudio.CoreAudioApi.Interfaces
+  id: NAudio.CoreAudioApi.Interfaces
+  children:
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  - NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+  - NAudio.CoreAudioApi.Interfaces.AudioSessionState
+  - NAudio.CoreAudioApi.Interfaces.Blob
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient
+  - NAudio.CoreAudioApi.Interfaces.IAudioClient2
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionControl2
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification
+  - NAudio.CoreAudioApi.Interfaces.IControlInterface
+  - NAudio.CoreAudioApi.Interfaces.IMMNotificationClient
+  - NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  - NAudio.CoreAudioApi.Interfaces.PropVariant
+  - NAudio.CoreAudioApi.Interfaces.StorageAccessMode
+  langs:
+  - csharp
+  - vb
+  name: NAudio.CoreAudioApi.Interfaces
+  nameWithType: NAudio.CoreAudioApi.Interfaces
+  fullName: NAudio.CoreAudioApi.Interfaces
+  type: Namespace
+  assemblies:
+  - NAudio.Wasapi
+references:
+- uid: NAudio.CoreAudioApi.Interfaces.Blob
+  commentId: T:NAudio.CoreAudioApi.Interfaces.Blob
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.Blob.html
+  name: Blob
+  nameWithType: Blob
+  fullName: NAudio.CoreAudioApi.Interfaces.Blob
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  commentId: T:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.html
+  name: AudioClientErrorCode
+  nameWithType: AudioClientErrorCode
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IAudioClient
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient.html
+  name: IAudioClient
+  nameWithType: IAudioClient
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioClient2
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IAudioClient2
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioClient2.html
+  name: IAudioClient2
+  nameWithType: IAudioClient2
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioClient2
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.html
+  name: IAudioSessionControl
+  nameWithType: IAudioSessionControl
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl2
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl2
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl2.html
+  name: IAudioSessionControl2
+  nameWithType: IAudioSessionControl2
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl2
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+  commentId: T:NAudio.CoreAudioApi.Interfaces.AudioSessionState
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.AudioSessionState.html
+  name: AudioSessionState
+  nameWithType: AudioSessionState
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+  commentId: T:NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.html
+  name: AudioSessionDisconnectReason
+  nameWithType: AudioSessionDisconnectReason
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents.html
+  name: IAudioSessionEvents
+  nameWithType: IAudioSessionEvents
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler.html
+  name: IAudioSessionEventsHandler
+  nameWithType: IAudioSessionEventsHandler
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification.html
+  name: IAudioSessionNotification
+  nameWithType: IAudioSessionNotification
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification
+- uid: NAudio.CoreAudioApi.Interfaces.IControlInterface
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IControlInterface
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IControlInterface.html
+  name: IControlInterface
+  nameWithType: IControlInterface
+  fullName: NAudio.CoreAudioApi.Interfaces.IControlInterface
+- uid: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IMMNotificationClient
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.html
+  name: IMMNotificationClient
+  nameWithType: IMMNotificationClient
+  fullName: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient
+- uid: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  commentId: T:NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.html
+  name: PartTypeEnum
+  nameWithType: PartTypeEnum
+  fullName: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+- uid: NAudio.CoreAudioApi.Interfaces.StorageAccessMode
+  commentId: T:NAudio.CoreAudioApi.Interfaces.StorageAccessMode
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.StorageAccessMode.html
+  name: StorageAccessMode
+  nameWithType: StorageAccessMode
+  fullName: NAudio.CoreAudioApi.Interfaces.StorageAccessMode
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant
+  commentId: T:NAudio.CoreAudioApi.Interfaces.PropVariant
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.PropVariant.html
+  name: PropVariant
+  nameWithType: PropVariant
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant
+- uid: NAudio.CoreAudioApi.Interfaces
+  commentId: N:NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi.Interfaces
+  nameWithType: NAudio.CoreAudioApi.Interfaces
+  fullName: NAudio.CoreAudioApi.Interfaces
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html

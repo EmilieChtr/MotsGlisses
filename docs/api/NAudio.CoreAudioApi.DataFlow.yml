@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.DataFlow
+  commentId: T:NAudio.CoreAudioApi.DataFlow
+  id: DataFlow
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.DataFlow.All
+  - NAudio.CoreAudioApi.DataFlow.Capture
+  - NAudio.CoreAudioApi.DataFlow.Render
+  langs:
+  - csharp
+  - vb
+  name: DataFlow
+  nameWithType: DataFlow
+  fullName: NAudio.CoreAudioApi.DataFlow
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public enum DataFlow
+    content.vb: Public Enum DataFlow
+- uid: NAudio.CoreAudioApi.DataFlow.Render
+  commentId: F:NAudio.CoreAudioApi.DataFlow.Render
+  id: Render
+  parent: NAudio.CoreAudioApi.DataFlow
+  langs:
+  - csharp
+  - vb
+  name: Render
+  nameWithType: DataFlow.Render
+  fullName: NAudio.CoreAudioApi.DataFlow.Render
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Render = 0
+    return:
+      type: NAudio.CoreAudioApi.DataFlow
+- uid: NAudio.CoreAudioApi.DataFlow.Capture
+  commentId: F:NAudio.CoreAudioApi.DataFlow.Capture
+  id: Capture
+  parent: NAudio.CoreAudioApi.DataFlow
+  langs:
+  - csharp
+  - vb
+  name: Capture
+  nameWithType: DataFlow.Capture
+  fullName: NAudio.CoreAudioApi.DataFlow.Capture
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Capture = 1
+    return:
+      type: NAudio.CoreAudioApi.DataFlow
+- uid: NAudio.CoreAudioApi.DataFlow.All
+  commentId: F:NAudio.CoreAudioApi.DataFlow.All
+  id: All
+  parent: NAudio.CoreAudioApi.DataFlow
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: DataFlow.All
+  fullName: NAudio.CoreAudioApi.DataFlow.All
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: All = 2
+    return:
+      type: NAudio.CoreAudioApi.DataFlow
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: NAudio.CoreAudioApi.DataFlow
+  commentId: T:NAudio.CoreAudioApi.DataFlow
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.DataFlow.html
+  name: DataFlow
+  nameWithType: DataFlow
+  fullName: NAudio.CoreAudioApi.DataFlow

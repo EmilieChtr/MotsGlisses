@@ -1,0 +1,471 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.SoundFont.Zone
+  commentId: T:NAudio.SoundFont.Zone
+  id: Zone
+  parent: NAudio.SoundFont
+  children:
+  - NAudio.SoundFont.Zone.#ctor
+  - NAudio.SoundFont.Zone.Generators
+  - NAudio.SoundFont.Zone.Modulators
+  - NAudio.SoundFont.Zone.ToString
+  langs:
+  - csharp
+  - vb
+  name: Zone
+  nameWithType: Zone
+  fullName: NAudio.SoundFont.Zone
+  type: Class
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public class Zone
+    content.vb: Public Class Zone
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.SoundFont.Zone.ToString
+  commentId: M:NAudio.SoundFont.Zone.ToString
+  id: ToString
+  parent: NAudio.SoundFont.Zone
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Zone.ToString()
+  fullName: NAudio.SoundFont.Zone.ToString()
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: NAudio.SoundFont.Zone.ToString*
+- uid: NAudio.SoundFont.Zone.#ctor
+  commentId: M:NAudio.SoundFont.Zone.#ctor
+  id: '#ctor'
+  parent: NAudio.SoundFont.Zone
+  langs:
+  - csharp
+  - vb
+  name: Zone()
+  nameWithType: Zone.Zone()
+  fullName: NAudio.SoundFont.Zone.Zone()
+  type: Constructor
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public Zone()
+    content.vb: Public Sub New()
+  overload: NAudio.SoundFont.Zone.#ctor*
+  nameWithType.vb: Zone.New()
+  fullName.vb: NAudio.SoundFont.Zone.New()
+  name.vb: New()
+- uid: NAudio.SoundFont.Zone.Modulators
+  commentId: P:NAudio.SoundFont.Zone.Modulators
+  id: Modulators
+  parent: NAudio.SoundFont.Zone
+  langs:
+  - csharp
+  - vb
+  name: Modulators
+  nameWithType: Zone.Modulators
+  fullName: NAudio.SoundFont.Zone.Modulators
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public Modulator[] Modulators { get; set; }
+    parameters: []
+    return:
+      type: NAudio.SoundFont.Modulator[]
+    content.vb: Public Property Modulators As Modulator()
+  overload: NAudio.SoundFont.Zone.Modulators*
+- uid: NAudio.SoundFont.Zone.Generators
+  commentId: P:NAudio.SoundFont.Zone.Generators
+  id: Generators
+  parent: NAudio.SoundFont.Zone
+  langs:
+  - csharp
+  - vb
+  name: Generators
+  nameWithType: Zone.Generators
+  fullName: NAudio.SoundFont.Zone.Generators
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public Generator[] Generators { get; set; }
+    parameters: []
+    return:
+      type: NAudio.SoundFont.Generator[]
+    content.vb: Public Property Generators As Generator()
+  overload: NAudio.SoundFont.Zone.Generators*
+references:
+- uid: NAudio.SoundFont
+  commentId: N:NAudio.SoundFont
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.SoundFont
+  nameWithType: NAudio.SoundFont
+  fullName: NAudio.SoundFont
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.SoundFont
+    name: SoundFont
+    isExternal: true
+    href: NAudio.SoundFont.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.SoundFont
+    name: SoundFont
+    isExternal: true
+    href: NAudio.SoundFont.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: NAudio.SoundFont.Zone.ToString*
+  commentId: Overload:NAudio.SoundFont.Zone.ToString
+  isExternal: true
+  href: NAudio.SoundFont.Zone.html#NAudio_SoundFont_Zone_ToString
+  name: ToString
+  nameWithType: Zone.ToString
+  fullName: NAudio.SoundFont.Zone.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.SoundFont.Zone.#ctor*
+  commentId: Overload:NAudio.SoundFont.Zone.#ctor
+  isExternal: true
+  href: NAudio.SoundFont.Zone.html#NAudio_SoundFont_Zone__ctor
+  name: Zone
+  nameWithType: Zone.Zone
+  fullName: NAudio.SoundFont.Zone.Zone
+  nameWithType.vb: Zone.New
+  fullName.vb: NAudio.SoundFont.Zone.New
+  name.vb: New
+- uid: NAudio.SoundFont.Zone.Modulators*
+  commentId: Overload:NAudio.SoundFont.Zone.Modulators
+  isExternal: true
+  href: NAudio.SoundFont.Zone.html#NAudio_SoundFont_Zone_Modulators
+  name: Modulators
+  nameWithType: Zone.Modulators
+  fullName: NAudio.SoundFont.Zone.Modulators
+- uid: NAudio.SoundFont.Modulator[]
+  isExternal: true
+  href: NAudio.SoundFont.Modulator.html
+  name: Modulator[]
+  nameWithType: Modulator[]
+  fullName: NAudio.SoundFont.Modulator[]
+  nameWithType.vb: Modulator()
+  fullName.vb: NAudio.SoundFont.Modulator()
+  name.vb: Modulator()
+  spec.csharp:
+  - uid: NAudio.SoundFont.Modulator
+    name: Modulator
+    isExternal: true
+    href: NAudio.SoundFont.Modulator.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NAudio.SoundFont.Modulator
+    name: Modulator
+    isExternal: true
+    href: NAudio.SoundFont.Modulator.html
+  - name: (
+  - name: )
+- uid: NAudio.SoundFont.Zone.Generators*
+  commentId: Overload:NAudio.SoundFont.Zone.Generators
+  isExternal: true
+  href: NAudio.SoundFont.Zone.html#NAudio_SoundFont_Zone_Generators
+  name: Generators
+  nameWithType: Zone.Generators
+  fullName: NAudio.SoundFont.Zone.Generators
+- uid: NAudio.SoundFont.Generator[]
+  isExternal: true
+  href: NAudio.SoundFont.Generator.html
+  name: Generator[]
+  nameWithType: Generator[]
+  fullName: NAudio.SoundFont.Generator[]
+  nameWithType.vb: Generator()
+  fullName.vb: NAudio.SoundFont.Generator()
+  name.vb: Generator()
+  spec.csharp:
+  - uid: NAudio.SoundFont.Generator
+    name: Generator
+    isExternal: true
+    href: NAudio.SoundFont.Generator.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NAudio.SoundFont.Generator
+    name: Generator
+    isExternal: true
+    href: NAudio.SoundFont.Generator.html
+  - name: (
+  - name: )

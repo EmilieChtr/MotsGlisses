@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Utils
+  commentId: N:NAudio.Utils
+  id: NAudio.Utils
+  children:
+  - NAudio.Utils.BufferHelpers
+  - NAudio.Utils.ByteArrayExtensions
+  - NAudio.Utils.ByteEncoding
+  - NAudio.Utils.ChunkIdentifier
+  - NAudio.Utils.CircularBuffer
+  - NAudio.Utils.Decibels
+  - NAudio.Utils.FieldDescriptionAttribute
+  - NAudio.Utils.FieldDescriptionHelper
+  - NAudio.Utils.HResult
+  - NAudio.Utils.IEEE
+  - NAudio.Utils.IgnoreDisposeStream
+  - NAudio.Utils.NativeMethods
+  - NAudio.Utils.WavePositionExtensions
+  langs:
+  - csharp
+  - vb
+  name: NAudio.Utils
+  nameWithType: NAudio.Utils
+  fullName: NAudio.Utils
+  type: Namespace
+  assemblies:
+  - NAudio.Core
+references:
+- uid: NAudio.Utils.BufferHelpers
+  commentId: T:NAudio.Utils.BufferHelpers
+  isExternal: true
+  href: NAudio.Utils.BufferHelpers.html
+  name: BufferHelpers
+  nameWithType: BufferHelpers
+  fullName: NAudio.Utils.BufferHelpers
+- uid: NAudio.Utils.ByteArrayExtensions
+  commentId: T:NAudio.Utils.ByteArrayExtensions
+  isExternal: true
+  href: NAudio.Utils.ByteArrayExtensions.html
+  name: ByteArrayExtensions
+  nameWithType: ByteArrayExtensions
+  fullName: NAudio.Utils.ByteArrayExtensions
+- uid: NAudio.Utils.ByteEncoding
+  commentId: T:NAudio.Utils.ByteEncoding
+  parent: NAudio.Utils
+  isExternal: true
+  href: NAudio.Utils.ByteEncoding.html
+  name: ByteEncoding
+  nameWithType: ByteEncoding
+  fullName: NAudio.Utils.ByteEncoding
+- uid: NAudio.Utils.ChunkIdentifier
+  commentId: T:NAudio.Utils.ChunkIdentifier
+  isExternal: true
+  href: NAudio.Utils.ChunkIdentifier.html
+  name: ChunkIdentifier
+  nameWithType: ChunkIdentifier
+  fullName: NAudio.Utils.ChunkIdentifier
+- uid: NAudio.Utils.CircularBuffer
+  commentId: T:NAudio.Utils.CircularBuffer
+  isExternal: true
+  href: NAudio.Utils.CircularBuffer.html
+  name: CircularBuffer
+  nameWithType: CircularBuffer
+  fullName: NAudio.Utils.CircularBuffer
+- uid: NAudio.Utils.Decibels
+  commentId: T:NAudio.Utils.Decibels
+  isExternal: true
+  href: NAudio.Utils.Decibels.html
+  name: Decibels
+  nameWithType: Decibels
+  fullName: NAudio.Utils.Decibels
+- uid: NAudio.Utils.FieldDescriptionAttribute
+  commentId: T:NAudio.Utils.FieldDescriptionAttribute
+  parent: NAudio.Utils
+  isExternal: true
+  href: NAudio.Utils.FieldDescriptionAttribute.html
+  name: FieldDescriptionAttribute
+  nameWithType: FieldDescriptionAttribute
+  fullName: NAudio.Utils.FieldDescriptionAttribute
+- uid: NAudio.Utils.FieldDescriptionHelper
+  commentId: T:NAudio.Utils.FieldDescriptionHelper
+  isExternal: true
+  href: NAudio.Utils.FieldDescriptionHelper.html
+  name: FieldDescriptionHelper
+  nameWithType: FieldDescriptionHelper
+  fullName: NAudio.Utils.FieldDescriptionHelper
+- uid: NAudio.Utils.HResult
+  commentId: T:NAudio.Utils.HResult
+  isExternal: true
+  href: NAudio.Utils.HResult.html
+  name: HResult
+  nameWithType: HResult
+  fullName: NAudio.Utils.HResult
+- uid: NAudio.Utils.IEEE
+  commentId: T:NAudio.Utils.IEEE
+  isExternal: true
+  href: NAudio.Utils.IEEE.html
+  name: IEEE
+  nameWithType: IEEE
+  fullName: NAudio.Utils.IEEE
+- uid: NAudio.Utils.IgnoreDisposeStream
+  commentId: T:NAudio.Utils.IgnoreDisposeStream
+  isExternal: true
+  href: NAudio.Utils.IgnoreDisposeStream.html
+  name: IgnoreDisposeStream
+  nameWithType: IgnoreDisposeStream
+  fullName: NAudio.Utils.IgnoreDisposeStream
+- uid: NAudio.Utils.NativeMethods
+  commentId: T:NAudio.Utils.NativeMethods
+  isExternal: true
+  href: NAudio.Utils.NativeMethods.html
+  name: NativeMethods
+  nameWithType: NativeMethods
+  fullName: NAudio.Utils.NativeMethods
+- uid: NAudio.Utils.WavePositionExtensions
+  commentId: T:NAudio.Utils.WavePositionExtensions
+  parent: NAudio.Utils
+  isExternal: true
+  href: NAudio.Utils.WavePositionExtensions.html
+  name: WavePositionExtensions
+  nameWithType: WavePositionExtensions
+  fullName: NAudio.Utils.WavePositionExtensions
+- uid: NAudio.Utils
+  commentId: N:NAudio.Utils
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Utils
+  nameWithType: NAudio.Utils
+  fullName: NAudio.Utils
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Utils
+    name: Utils
+    isExternal: true
+    href: NAudio.Utils.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Utils
+    name: Utils
+    isExternal: true
+    href: NAudio.Utils.html

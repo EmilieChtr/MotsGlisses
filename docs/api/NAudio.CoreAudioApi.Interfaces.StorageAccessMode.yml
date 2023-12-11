@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.Interfaces.StorageAccessMode
+  commentId: T:NAudio.CoreAudioApi.Interfaces.StorageAccessMode
+  id: StorageAccessMode
+  parent: NAudio.CoreAudioApi.Interfaces
+  children:
+  - NAudio.CoreAudioApi.Interfaces.StorageAccessMode.Read
+  - NAudio.CoreAudioApi.Interfaces.StorageAccessMode.ReadWrite
+  - NAudio.CoreAudioApi.Interfaces.StorageAccessMode.Write
+  langs:
+  - csharp
+  - vb
+  name: StorageAccessMode
+  nameWithType: StorageAccessMode
+  fullName: NAudio.CoreAudioApi.Interfaces.StorageAccessMode
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public enum StorageAccessMode
+    content.vb: Public Enum StorageAccessMode
+- uid: NAudio.CoreAudioApi.Interfaces.StorageAccessMode.Read
+  commentId: F:NAudio.CoreAudioApi.Interfaces.StorageAccessMode.Read
+  id: Read
+  parent: NAudio.CoreAudioApi.Interfaces.StorageAccessMode
+  langs:
+  - csharp
+  - vb
+  name: Read
+  nameWithType: StorageAccessMode.Read
+  fullName: NAudio.CoreAudioApi.Interfaces.StorageAccessMode.Read
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: Read = 0
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.StorageAccessMode
+- uid: NAudio.CoreAudioApi.Interfaces.StorageAccessMode.Write
+  commentId: F:NAudio.CoreAudioApi.Interfaces.StorageAccessMode.Write
+  id: Write
+  parent: NAudio.CoreAudioApi.Interfaces.StorageAccessMode
+  langs:
+  - csharp
+  - vb
+  name: Write
+  nameWithType: StorageAccessMode.Write
+  fullName: NAudio.CoreAudioApi.Interfaces.StorageAccessMode.Write
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: Write = 1
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.StorageAccessMode
+- uid: NAudio.CoreAudioApi.Interfaces.StorageAccessMode.ReadWrite
+  commentId: F:NAudio.CoreAudioApi.Interfaces.StorageAccessMode.ReadWrite
+  id: ReadWrite
+  parent: NAudio.CoreAudioApi.Interfaces.StorageAccessMode
+  langs:
+  - csharp
+  - vb
+  name: ReadWrite
+  nameWithType: StorageAccessMode.ReadWrite
+  fullName: NAudio.CoreAudioApi.Interfaces.StorageAccessMode.ReadWrite
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: ReadWrite = 2
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.StorageAccessMode
+references:
+- uid: NAudio.CoreAudioApi.Interfaces
+  commentId: N:NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi.Interfaces
+  nameWithType: NAudio.CoreAudioApi.Interfaces
+  fullName: NAudio.CoreAudioApi.Interfaces
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+- uid: NAudio.CoreAudioApi.Interfaces.StorageAccessMode
+  commentId: T:NAudio.CoreAudioApi.Interfaces.StorageAccessMode
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.StorageAccessMode.html
+  name: StorageAccessMode
+  nameWithType: StorageAccessMode
+  fullName: NAudio.CoreAudioApi.Interfaces.StorageAccessMode

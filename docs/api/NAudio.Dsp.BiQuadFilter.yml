@@ -1,0 +1,806 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dsp.BiQuadFilter
+  commentId: T:NAudio.Dsp.BiQuadFilter
+  id: BiQuadFilter
+  parent: NAudio.Dsp
+  children:
+  - NAudio.Dsp.BiQuadFilter.AllPassFilter(System.Single,System.Single,System.Single)
+  - NAudio.Dsp.BiQuadFilter.BandPassFilterConstantPeakGain(System.Single,System.Single,System.Single)
+  - NAudio.Dsp.BiQuadFilter.BandPassFilterConstantSkirtGain(System.Single,System.Single,System.Single)
+  - NAudio.Dsp.BiQuadFilter.HighPassFilter(System.Single,System.Single,System.Single)
+  - NAudio.Dsp.BiQuadFilter.HighShelf(System.Single,System.Single,System.Single,System.Single)
+  - NAudio.Dsp.BiQuadFilter.LowPassFilter(System.Single,System.Single,System.Single)
+  - NAudio.Dsp.BiQuadFilter.LowShelf(System.Single,System.Single,System.Single,System.Single)
+  - NAudio.Dsp.BiQuadFilter.NotchFilter(System.Single,System.Single,System.Single)
+  - NAudio.Dsp.BiQuadFilter.PeakingEQ(System.Single,System.Single,System.Single,System.Single)
+  - NAudio.Dsp.BiQuadFilter.SetHighPassFilter(System.Single,System.Single,System.Single)
+  - NAudio.Dsp.BiQuadFilter.SetLowPassFilter(System.Single,System.Single,System.Single)
+  - NAudio.Dsp.BiQuadFilter.SetPeakingEq(System.Single,System.Single,System.Single,System.Single)
+  - NAudio.Dsp.BiQuadFilter.Transform(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: BiQuadFilter
+  nameWithType: BiQuadFilter
+  fullName: NAudio.Dsp.BiQuadFilter
+  type: Class
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public class BiQuadFilter
+    content.vb: Public Class BiQuadFilter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Dsp.BiQuadFilter.Transform(System.Single)
+  commentId: M:NAudio.Dsp.BiQuadFilter.Transform(System.Single)
+  id: Transform(System.Single)
+  parent: NAudio.Dsp.BiQuadFilter
+  langs:
+  - csharp
+  - vb
+  name: Transform(float)
+  nameWithType: BiQuadFilter.Transform(float)
+  fullName: NAudio.Dsp.BiQuadFilter.Transform(float)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public float Transform(float inSample)
+    parameters:
+    - id: inSample
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Function Transform(inSample As Single) As Single
+  overload: NAudio.Dsp.BiQuadFilter.Transform*
+  nameWithType.vb: BiQuadFilter.Transform(Single)
+  fullName.vb: NAudio.Dsp.BiQuadFilter.Transform(Single)
+  name.vb: Transform(Single)
+- uid: NAudio.Dsp.BiQuadFilter.SetLowPassFilter(System.Single,System.Single,System.Single)
+  commentId: M:NAudio.Dsp.BiQuadFilter.SetLowPassFilter(System.Single,System.Single,System.Single)
+  id: SetLowPassFilter(System.Single,System.Single,System.Single)
+  parent: NAudio.Dsp.BiQuadFilter
+  langs:
+  - csharp
+  - vb
+  name: SetLowPassFilter(float, float, float)
+  nameWithType: BiQuadFilter.SetLowPassFilter(float, float, float)
+  fullName: NAudio.Dsp.BiQuadFilter.SetLowPassFilter(float, float, float)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public void SetLowPassFilter(float sampleRate, float cutoffFrequency, float q)
+    parameters:
+    - id: sampleRate
+      type: System.Single
+    - id: cutoffFrequency
+      type: System.Single
+    - id: q
+      type: System.Single
+    content.vb: Public Sub SetLowPassFilter(sampleRate As Single, cutoffFrequency As Single, q As Single)
+  overload: NAudio.Dsp.BiQuadFilter.SetLowPassFilter*
+  nameWithType.vb: BiQuadFilter.SetLowPassFilter(Single, Single, Single)
+  fullName.vb: NAudio.Dsp.BiQuadFilter.SetLowPassFilter(Single, Single, Single)
+  name.vb: SetLowPassFilter(Single, Single, Single)
+- uid: NAudio.Dsp.BiQuadFilter.SetPeakingEq(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:NAudio.Dsp.BiQuadFilter.SetPeakingEq(System.Single,System.Single,System.Single,System.Single)
+  id: SetPeakingEq(System.Single,System.Single,System.Single,System.Single)
+  parent: NAudio.Dsp.BiQuadFilter
+  langs:
+  - csharp
+  - vb
+  name: SetPeakingEq(float, float, float, float)
+  nameWithType: BiQuadFilter.SetPeakingEq(float, float, float, float)
+  fullName: NAudio.Dsp.BiQuadFilter.SetPeakingEq(float, float, float, float)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public void SetPeakingEq(float sampleRate, float centreFrequency, float q, float dbGain)
+    parameters:
+    - id: sampleRate
+      type: System.Single
+    - id: centreFrequency
+      type: System.Single
+    - id: q
+      type: System.Single
+    - id: dbGain
+      type: System.Single
+    content.vb: Public Sub SetPeakingEq(sampleRate As Single, centreFrequency As Single, q As Single, dbGain As Single)
+  overload: NAudio.Dsp.BiQuadFilter.SetPeakingEq*
+  nameWithType.vb: BiQuadFilter.SetPeakingEq(Single, Single, Single, Single)
+  fullName.vb: NAudio.Dsp.BiQuadFilter.SetPeakingEq(Single, Single, Single, Single)
+  name.vb: SetPeakingEq(Single, Single, Single, Single)
+- uid: NAudio.Dsp.BiQuadFilter.SetHighPassFilter(System.Single,System.Single,System.Single)
+  commentId: M:NAudio.Dsp.BiQuadFilter.SetHighPassFilter(System.Single,System.Single,System.Single)
+  id: SetHighPassFilter(System.Single,System.Single,System.Single)
+  parent: NAudio.Dsp.BiQuadFilter
+  langs:
+  - csharp
+  - vb
+  name: SetHighPassFilter(float, float, float)
+  nameWithType: BiQuadFilter.SetHighPassFilter(float, float, float)
+  fullName: NAudio.Dsp.BiQuadFilter.SetHighPassFilter(float, float, float)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public void SetHighPassFilter(float sampleRate, float cutoffFrequency, float q)
+    parameters:
+    - id: sampleRate
+      type: System.Single
+    - id: cutoffFrequency
+      type: System.Single
+    - id: q
+      type: System.Single
+    content.vb: Public Sub SetHighPassFilter(sampleRate As Single, cutoffFrequency As Single, q As Single)
+  overload: NAudio.Dsp.BiQuadFilter.SetHighPassFilter*
+  nameWithType.vb: BiQuadFilter.SetHighPassFilter(Single, Single, Single)
+  fullName.vb: NAudio.Dsp.BiQuadFilter.SetHighPassFilter(Single, Single, Single)
+  name.vb: SetHighPassFilter(Single, Single, Single)
+- uid: NAudio.Dsp.BiQuadFilter.LowPassFilter(System.Single,System.Single,System.Single)
+  commentId: M:NAudio.Dsp.BiQuadFilter.LowPassFilter(System.Single,System.Single,System.Single)
+  id: LowPassFilter(System.Single,System.Single,System.Single)
+  parent: NAudio.Dsp.BiQuadFilter
+  langs:
+  - csharp
+  - vb
+  name: LowPassFilter(float, float, float)
+  nameWithType: BiQuadFilter.LowPassFilter(float, float, float)
+  fullName: NAudio.Dsp.BiQuadFilter.LowPassFilter(float, float, float)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public static BiQuadFilter LowPassFilter(float sampleRate, float cutoffFrequency, float q)
+    parameters:
+    - id: sampleRate
+      type: System.Single
+    - id: cutoffFrequency
+      type: System.Single
+    - id: q
+      type: System.Single
+    return:
+      type: NAudio.Dsp.BiQuadFilter
+    content.vb: Public Shared Function LowPassFilter(sampleRate As Single, cutoffFrequency As Single, q As Single) As BiQuadFilter
+  overload: NAudio.Dsp.BiQuadFilter.LowPassFilter*
+  nameWithType.vb: BiQuadFilter.LowPassFilter(Single, Single, Single)
+  fullName.vb: NAudio.Dsp.BiQuadFilter.LowPassFilter(Single, Single, Single)
+  name.vb: LowPassFilter(Single, Single, Single)
+- uid: NAudio.Dsp.BiQuadFilter.HighPassFilter(System.Single,System.Single,System.Single)
+  commentId: M:NAudio.Dsp.BiQuadFilter.HighPassFilter(System.Single,System.Single,System.Single)
+  id: HighPassFilter(System.Single,System.Single,System.Single)
+  parent: NAudio.Dsp.BiQuadFilter
+  langs:
+  - csharp
+  - vb
+  name: HighPassFilter(float, float, float)
+  nameWithType: BiQuadFilter.HighPassFilter(float, float, float)
+  fullName: NAudio.Dsp.BiQuadFilter.HighPassFilter(float, float, float)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public static BiQuadFilter HighPassFilter(float sampleRate, float cutoffFrequency, float q)
+    parameters:
+    - id: sampleRate
+      type: System.Single
+    - id: cutoffFrequency
+      type: System.Single
+    - id: q
+      type: System.Single
+    return:
+      type: NAudio.Dsp.BiQuadFilter
+    content.vb: Public Shared Function HighPassFilter(sampleRate As Single, cutoffFrequency As Single, q As Single) As BiQuadFilter
+  overload: NAudio.Dsp.BiQuadFilter.HighPassFilter*
+  nameWithType.vb: BiQuadFilter.HighPassFilter(Single, Single, Single)
+  fullName.vb: NAudio.Dsp.BiQuadFilter.HighPassFilter(Single, Single, Single)
+  name.vb: HighPassFilter(Single, Single, Single)
+- uid: NAudio.Dsp.BiQuadFilter.BandPassFilterConstantSkirtGain(System.Single,System.Single,System.Single)
+  commentId: M:NAudio.Dsp.BiQuadFilter.BandPassFilterConstantSkirtGain(System.Single,System.Single,System.Single)
+  id: BandPassFilterConstantSkirtGain(System.Single,System.Single,System.Single)
+  parent: NAudio.Dsp.BiQuadFilter
+  langs:
+  - csharp
+  - vb
+  name: BandPassFilterConstantSkirtGain(float, float, float)
+  nameWithType: BiQuadFilter.BandPassFilterConstantSkirtGain(float, float, float)
+  fullName: NAudio.Dsp.BiQuadFilter.BandPassFilterConstantSkirtGain(float, float, float)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public static BiQuadFilter BandPassFilterConstantSkirtGain(float sampleRate, float centreFrequency, float q)
+    parameters:
+    - id: sampleRate
+      type: System.Single
+    - id: centreFrequency
+      type: System.Single
+    - id: q
+      type: System.Single
+    return:
+      type: NAudio.Dsp.BiQuadFilter
+    content.vb: Public Shared Function BandPassFilterConstantSkirtGain(sampleRate As Single, centreFrequency As Single, q As Single) As BiQuadFilter
+  overload: NAudio.Dsp.BiQuadFilter.BandPassFilterConstantSkirtGain*
+  nameWithType.vb: BiQuadFilter.BandPassFilterConstantSkirtGain(Single, Single, Single)
+  fullName.vb: NAudio.Dsp.BiQuadFilter.BandPassFilterConstantSkirtGain(Single, Single, Single)
+  name.vb: BandPassFilterConstantSkirtGain(Single, Single, Single)
+- uid: NAudio.Dsp.BiQuadFilter.BandPassFilterConstantPeakGain(System.Single,System.Single,System.Single)
+  commentId: M:NAudio.Dsp.BiQuadFilter.BandPassFilterConstantPeakGain(System.Single,System.Single,System.Single)
+  id: BandPassFilterConstantPeakGain(System.Single,System.Single,System.Single)
+  parent: NAudio.Dsp.BiQuadFilter
+  langs:
+  - csharp
+  - vb
+  name: BandPassFilterConstantPeakGain(float, float, float)
+  nameWithType: BiQuadFilter.BandPassFilterConstantPeakGain(float, float, float)
+  fullName: NAudio.Dsp.BiQuadFilter.BandPassFilterConstantPeakGain(float, float, float)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public static BiQuadFilter BandPassFilterConstantPeakGain(float sampleRate, float centreFrequency, float q)
+    parameters:
+    - id: sampleRate
+      type: System.Single
+    - id: centreFrequency
+      type: System.Single
+    - id: q
+      type: System.Single
+    return:
+      type: NAudio.Dsp.BiQuadFilter
+    content.vb: Public Shared Function BandPassFilterConstantPeakGain(sampleRate As Single, centreFrequency As Single, q As Single) As BiQuadFilter
+  overload: NAudio.Dsp.BiQuadFilter.BandPassFilterConstantPeakGain*
+  nameWithType.vb: BiQuadFilter.BandPassFilterConstantPeakGain(Single, Single, Single)
+  fullName.vb: NAudio.Dsp.BiQuadFilter.BandPassFilterConstantPeakGain(Single, Single, Single)
+  name.vb: BandPassFilterConstantPeakGain(Single, Single, Single)
+- uid: NAudio.Dsp.BiQuadFilter.NotchFilter(System.Single,System.Single,System.Single)
+  commentId: M:NAudio.Dsp.BiQuadFilter.NotchFilter(System.Single,System.Single,System.Single)
+  id: NotchFilter(System.Single,System.Single,System.Single)
+  parent: NAudio.Dsp.BiQuadFilter
+  langs:
+  - csharp
+  - vb
+  name: NotchFilter(float, float, float)
+  nameWithType: BiQuadFilter.NotchFilter(float, float, float)
+  fullName: NAudio.Dsp.BiQuadFilter.NotchFilter(float, float, float)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public static BiQuadFilter NotchFilter(float sampleRate, float centreFrequency, float q)
+    parameters:
+    - id: sampleRate
+      type: System.Single
+    - id: centreFrequency
+      type: System.Single
+    - id: q
+      type: System.Single
+    return:
+      type: NAudio.Dsp.BiQuadFilter
+    content.vb: Public Shared Function NotchFilter(sampleRate As Single, centreFrequency As Single, q As Single) As BiQuadFilter
+  overload: NAudio.Dsp.BiQuadFilter.NotchFilter*
+  nameWithType.vb: BiQuadFilter.NotchFilter(Single, Single, Single)
+  fullName.vb: NAudio.Dsp.BiQuadFilter.NotchFilter(Single, Single, Single)
+  name.vb: NotchFilter(Single, Single, Single)
+- uid: NAudio.Dsp.BiQuadFilter.AllPassFilter(System.Single,System.Single,System.Single)
+  commentId: M:NAudio.Dsp.BiQuadFilter.AllPassFilter(System.Single,System.Single,System.Single)
+  id: AllPassFilter(System.Single,System.Single,System.Single)
+  parent: NAudio.Dsp.BiQuadFilter
+  langs:
+  - csharp
+  - vb
+  name: AllPassFilter(float, float, float)
+  nameWithType: BiQuadFilter.AllPassFilter(float, float, float)
+  fullName: NAudio.Dsp.BiQuadFilter.AllPassFilter(float, float, float)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public static BiQuadFilter AllPassFilter(float sampleRate, float centreFrequency, float q)
+    parameters:
+    - id: sampleRate
+      type: System.Single
+    - id: centreFrequency
+      type: System.Single
+    - id: q
+      type: System.Single
+    return:
+      type: NAudio.Dsp.BiQuadFilter
+    content.vb: Public Shared Function AllPassFilter(sampleRate As Single, centreFrequency As Single, q As Single) As BiQuadFilter
+  overload: NAudio.Dsp.BiQuadFilter.AllPassFilter*
+  nameWithType.vb: BiQuadFilter.AllPassFilter(Single, Single, Single)
+  fullName.vb: NAudio.Dsp.BiQuadFilter.AllPassFilter(Single, Single, Single)
+  name.vb: AllPassFilter(Single, Single, Single)
+- uid: NAudio.Dsp.BiQuadFilter.PeakingEQ(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:NAudio.Dsp.BiQuadFilter.PeakingEQ(System.Single,System.Single,System.Single,System.Single)
+  id: PeakingEQ(System.Single,System.Single,System.Single,System.Single)
+  parent: NAudio.Dsp.BiQuadFilter
+  langs:
+  - csharp
+  - vb
+  name: PeakingEQ(float, float, float, float)
+  nameWithType: BiQuadFilter.PeakingEQ(float, float, float, float)
+  fullName: NAudio.Dsp.BiQuadFilter.PeakingEQ(float, float, float, float)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public static BiQuadFilter PeakingEQ(float sampleRate, float centreFrequency, float q, float dbGain)
+    parameters:
+    - id: sampleRate
+      type: System.Single
+    - id: centreFrequency
+      type: System.Single
+    - id: q
+      type: System.Single
+    - id: dbGain
+      type: System.Single
+    return:
+      type: NAudio.Dsp.BiQuadFilter
+    content.vb: Public Shared Function PeakingEQ(sampleRate As Single, centreFrequency As Single, q As Single, dbGain As Single) As BiQuadFilter
+  overload: NAudio.Dsp.BiQuadFilter.PeakingEQ*
+  nameWithType.vb: BiQuadFilter.PeakingEQ(Single, Single, Single, Single)
+  fullName.vb: NAudio.Dsp.BiQuadFilter.PeakingEQ(Single, Single, Single, Single)
+  name.vb: PeakingEQ(Single, Single, Single, Single)
+- uid: NAudio.Dsp.BiQuadFilter.LowShelf(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:NAudio.Dsp.BiQuadFilter.LowShelf(System.Single,System.Single,System.Single,System.Single)
+  id: LowShelf(System.Single,System.Single,System.Single,System.Single)
+  parent: NAudio.Dsp.BiQuadFilter
+  langs:
+  - csharp
+  - vb
+  name: LowShelf(float, float, float, float)
+  nameWithType: BiQuadFilter.LowShelf(float, float, float, float)
+  fullName: NAudio.Dsp.BiQuadFilter.LowShelf(float, float, float, float)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public static BiQuadFilter LowShelf(float sampleRate, float cutoffFrequency, float shelfSlope, float dbGain)
+    parameters:
+    - id: sampleRate
+      type: System.Single
+    - id: cutoffFrequency
+      type: System.Single
+    - id: shelfSlope
+      type: System.Single
+    - id: dbGain
+      type: System.Single
+    return:
+      type: NAudio.Dsp.BiQuadFilter
+    content.vb: Public Shared Function LowShelf(sampleRate As Single, cutoffFrequency As Single, shelfSlope As Single, dbGain As Single) As BiQuadFilter
+  overload: NAudio.Dsp.BiQuadFilter.LowShelf*
+  nameWithType.vb: BiQuadFilter.LowShelf(Single, Single, Single, Single)
+  fullName.vb: NAudio.Dsp.BiQuadFilter.LowShelf(Single, Single, Single, Single)
+  name.vb: LowShelf(Single, Single, Single, Single)
+- uid: NAudio.Dsp.BiQuadFilter.HighShelf(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:NAudio.Dsp.BiQuadFilter.HighShelf(System.Single,System.Single,System.Single,System.Single)
+  id: HighShelf(System.Single,System.Single,System.Single,System.Single)
+  parent: NAudio.Dsp.BiQuadFilter
+  langs:
+  - csharp
+  - vb
+  name: HighShelf(float, float, float, float)
+  nameWithType: BiQuadFilter.HighShelf(float, float, float, float)
+  fullName: NAudio.Dsp.BiQuadFilter.HighShelf(float, float, float, float)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public static BiQuadFilter HighShelf(float sampleRate, float cutoffFrequency, float shelfSlope, float dbGain)
+    parameters:
+    - id: sampleRate
+      type: System.Single
+    - id: cutoffFrequency
+      type: System.Single
+    - id: shelfSlope
+      type: System.Single
+    - id: dbGain
+      type: System.Single
+    return:
+      type: NAudio.Dsp.BiQuadFilter
+    content.vb: Public Shared Function HighShelf(sampleRate As Single, cutoffFrequency As Single, shelfSlope As Single, dbGain As Single) As BiQuadFilter
+  overload: NAudio.Dsp.BiQuadFilter.HighShelf*
+  nameWithType.vb: BiQuadFilter.HighShelf(Single, Single, Single, Single)
+  fullName.vb: NAudio.Dsp.BiQuadFilter.HighShelf(Single, Single, Single, Single)
+  name.vb: HighShelf(Single, Single, Single, Single)
+references:
+- uid: NAudio.Dsp
+  commentId: N:NAudio.Dsp
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dsp
+  nameWithType: NAudio.Dsp
+  fullName: NAudio.Dsp
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dsp
+    name: Dsp
+    isExternal: true
+    href: NAudio.Dsp.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dsp
+    name: Dsp
+    isExternal: true
+    href: NAudio.Dsp.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Dsp.BiQuadFilter.Transform*
+  commentId: Overload:NAudio.Dsp.BiQuadFilter.Transform
+  isExternal: true
+  href: NAudio.Dsp.BiQuadFilter.html#NAudio_Dsp_BiQuadFilter_Transform_System_Single_
+  name: Transform
+  nameWithType: BiQuadFilter.Transform
+  fullName: NAudio.Dsp.BiQuadFilter.Transform
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NAudio.Dsp.BiQuadFilter.SetLowPassFilter*
+  commentId: Overload:NAudio.Dsp.BiQuadFilter.SetLowPassFilter
+  isExternal: true
+  href: NAudio.Dsp.BiQuadFilter.html#NAudio_Dsp_BiQuadFilter_SetLowPassFilter_System_Single_System_Single_System_Single_
+  name: SetLowPassFilter
+  nameWithType: BiQuadFilter.SetLowPassFilter
+  fullName: NAudio.Dsp.BiQuadFilter.SetLowPassFilter
+- uid: NAudio.Dsp.BiQuadFilter.SetPeakingEq*
+  commentId: Overload:NAudio.Dsp.BiQuadFilter.SetPeakingEq
+  isExternal: true
+  href: NAudio.Dsp.BiQuadFilter.html#NAudio_Dsp_BiQuadFilter_SetPeakingEq_System_Single_System_Single_System_Single_System_Single_
+  name: SetPeakingEq
+  nameWithType: BiQuadFilter.SetPeakingEq
+  fullName: NAudio.Dsp.BiQuadFilter.SetPeakingEq
+- uid: NAudio.Dsp.BiQuadFilter.SetHighPassFilter*
+  commentId: Overload:NAudio.Dsp.BiQuadFilter.SetHighPassFilter
+  isExternal: true
+  href: NAudio.Dsp.BiQuadFilter.html#NAudio_Dsp_BiQuadFilter_SetHighPassFilter_System_Single_System_Single_System_Single_
+  name: SetHighPassFilter
+  nameWithType: BiQuadFilter.SetHighPassFilter
+  fullName: NAudio.Dsp.BiQuadFilter.SetHighPassFilter
+- uid: NAudio.Dsp.BiQuadFilter.LowPassFilter*
+  commentId: Overload:NAudio.Dsp.BiQuadFilter.LowPassFilter
+  isExternal: true
+  href: NAudio.Dsp.BiQuadFilter.html#NAudio_Dsp_BiQuadFilter_LowPassFilter_System_Single_System_Single_System_Single_
+  name: LowPassFilter
+  nameWithType: BiQuadFilter.LowPassFilter
+  fullName: NAudio.Dsp.BiQuadFilter.LowPassFilter
+- uid: NAudio.Dsp.BiQuadFilter
+  commentId: T:NAudio.Dsp.BiQuadFilter
+  parent: NAudio.Dsp
+  isExternal: true
+  href: NAudio.Dsp.BiQuadFilter.html
+  name: BiQuadFilter
+  nameWithType: BiQuadFilter
+  fullName: NAudio.Dsp.BiQuadFilter
+- uid: NAudio.Dsp.BiQuadFilter.HighPassFilter*
+  commentId: Overload:NAudio.Dsp.BiQuadFilter.HighPassFilter
+  isExternal: true
+  href: NAudio.Dsp.BiQuadFilter.html#NAudio_Dsp_BiQuadFilter_HighPassFilter_System_Single_System_Single_System_Single_
+  name: HighPassFilter
+  nameWithType: BiQuadFilter.HighPassFilter
+  fullName: NAudio.Dsp.BiQuadFilter.HighPassFilter
+- uid: NAudio.Dsp.BiQuadFilter.BandPassFilterConstantSkirtGain*
+  commentId: Overload:NAudio.Dsp.BiQuadFilter.BandPassFilterConstantSkirtGain
+  isExternal: true
+  href: NAudio.Dsp.BiQuadFilter.html#NAudio_Dsp_BiQuadFilter_BandPassFilterConstantSkirtGain_System_Single_System_Single_System_Single_
+  name: BandPassFilterConstantSkirtGain
+  nameWithType: BiQuadFilter.BandPassFilterConstantSkirtGain
+  fullName: NAudio.Dsp.BiQuadFilter.BandPassFilterConstantSkirtGain
+- uid: NAudio.Dsp.BiQuadFilter.BandPassFilterConstantPeakGain*
+  commentId: Overload:NAudio.Dsp.BiQuadFilter.BandPassFilterConstantPeakGain
+  isExternal: true
+  href: NAudio.Dsp.BiQuadFilter.html#NAudio_Dsp_BiQuadFilter_BandPassFilterConstantPeakGain_System_Single_System_Single_System_Single_
+  name: BandPassFilterConstantPeakGain
+  nameWithType: BiQuadFilter.BandPassFilterConstantPeakGain
+  fullName: NAudio.Dsp.BiQuadFilter.BandPassFilterConstantPeakGain
+- uid: NAudio.Dsp.BiQuadFilter.NotchFilter*
+  commentId: Overload:NAudio.Dsp.BiQuadFilter.NotchFilter
+  isExternal: true
+  href: NAudio.Dsp.BiQuadFilter.html#NAudio_Dsp_BiQuadFilter_NotchFilter_System_Single_System_Single_System_Single_
+  name: NotchFilter
+  nameWithType: BiQuadFilter.NotchFilter
+  fullName: NAudio.Dsp.BiQuadFilter.NotchFilter
+- uid: NAudio.Dsp.BiQuadFilter.AllPassFilter*
+  commentId: Overload:NAudio.Dsp.BiQuadFilter.AllPassFilter
+  isExternal: true
+  href: NAudio.Dsp.BiQuadFilter.html#NAudio_Dsp_BiQuadFilter_AllPassFilter_System_Single_System_Single_System_Single_
+  name: AllPassFilter
+  nameWithType: BiQuadFilter.AllPassFilter
+  fullName: NAudio.Dsp.BiQuadFilter.AllPassFilter
+- uid: NAudio.Dsp.BiQuadFilter.PeakingEQ*
+  commentId: Overload:NAudio.Dsp.BiQuadFilter.PeakingEQ
+  isExternal: true
+  href: NAudio.Dsp.BiQuadFilter.html#NAudio_Dsp_BiQuadFilter_PeakingEQ_System_Single_System_Single_System_Single_System_Single_
+  name: PeakingEQ
+  nameWithType: BiQuadFilter.PeakingEQ
+  fullName: NAudio.Dsp.BiQuadFilter.PeakingEQ
+- uid: NAudio.Dsp.BiQuadFilter.LowShelf*
+  commentId: Overload:NAudio.Dsp.BiQuadFilter.LowShelf
+  isExternal: true
+  href: NAudio.Dsp.BiQuadFilter.html#NAudio_Dsp_BiQuadFilter_LowShelf_System_Single_System_Single_System_Single_System_Single_
+  name: LowShelf
+  nameWithType: BiQuadFilter.LowShelf
+  fullName: NAudio.Dsp.BiQuadFilter.LowShelf
+- uid: NAudio.Dsp.BiQuadFilter.HighShelf*
+  commentId: Overload:NAudio.Dsp.BiQuadFilter.HighShelf
+  isExternal: true
+  href: NAudio.Dsp.BiQuadFilter.html#NAudio_Dsp_BiQuadFilter_HighShelf_System_Single_System_Single_System_Single_System_Single_
+  name: HighShelf
+  nameWithType: BiQuadFilter.HighShelf
+  fullName: NAudio.Dsp.BiQuadFilter.HighShelf

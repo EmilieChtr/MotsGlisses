@@ -1,0 +1,1918 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation.MediaEventType
+  commentId: T:NAudio.MediaFoundation.MediaEventType
+  id: MediaEventType
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation.MediaEventType.MEAudioSessionDeviceRemoved
+  - NAudio.MediaFoundation.MediaEventType.MEAudioSessionDisconnected
+  - NAudio.MediaFoundation.MediaEventType.MEAudioSessionExclusiveModeOverride
+  - NAudio.MediaFoundation.MediaEventType.MEAudioSessionFormatChanged
+  - NAudio.MediaFoundation.MediaEventType.MEAudioSessionGroupingParamChanged
+  - NAudio.MediaFoundation.MediaEventType.MEAudioSessionIconChanged
+  - NAudio.MediaFoundation.MediaEventType.MEAudioSessionNameChanged
+  - NAudio.MediaFoundation.MediaEventType.MEAudioSessionServerShutdown
+  - NAudio.MediaFoundation.MediaEventType.MEAudioSessionVolumeChanged
+  - NAudio.MediaFoundation.MediaEventType.MEBufferingStarted
+  - NAudio.MediaFoundation.MediaEventType.MEBufferingStopped
+  - NAudio.MediaFoundation.MediaEventType.MEConnectEnd
+  - NAudio.MediaFoundation.MediaEventType.MEConnectStart
+  - NAudio.MediaFoundation.MediaEventType.MEContentProtectionMessage
+  - NAudio.MediaFoundation.MediaEventType.MEEnablerCompleted
+  - NAudio.MediaFoundation.MediaEventType.MEEnablerProgress
+  - NAudio.MediaFoundation.MediaEventType.MEEndOfPresentation
+  - NAudio.MediaFoundation.MediaEventType.MEEndOfPresentationSegment
+  - NAudio.MediaFoundation.MediaEventType.MEEndOfStream
+  - NAudio.MediaFoundation.MediaEventType.MEError
+  - NAudio.MediaFoundation.MediaEventType.MEExtendedType
+  - NAudio.MediaFoundation.MediaEventType.MEIndividualizationCompleted
+  - NAudio.MediaFoundation.MediaEventType.MEIndividualizationStart
+  - NAudio.MediaFoundation.MediaEventType.MELicenseAcquisitionCompleted
+  - NAudio.MediaFoundation.MediaEventType.MELicenseAcquisitionStart
+  - NAudio.MediaFoundation.MediaEventType.MEMediaSample
+  - NAudio.MediaFoundation.MediaEventType.MENewPresentation
+  - NAudio.MediaFoundation.MediaEventType.MENewStream
+  - NAudio.MediaFoundation.MediaEventType.MENonFatalError
+  - NAudio.MediaFoundation.MediaEventType.MEPolicyChanged
+  - NAudio.MediaFoundation.MediaEventType.MEPolicyError
+  - NAudio.MediaFoundation.MediaEventType.MEPolicyReport
+  - NAudio.MediaFoundation.MediaEventType.MEPolicySet
+  - NAudio.MediaFoundation.MediaEventType.MEQualityNotify
+  - NAudio.MediaFoundation.MediaEventType.MEReconnectEnd
+  - NAudio.MediaFoundation.MediaEventType.MEReconnectStart
+  - NAudio.MediaFoundation.MediaEventType.MERendererEvent
+  - NAudio.MediaFoundation.MediaEventType.MESequencerSourceTopologyUpdated
+  - NAudio.MediaFoundation.MediaEventType.MESessionCapabilitiesChanged
+  - NAudio.MediaFoundation.MediaEventType.MESessionClosed
+  - NAudio.MediaFoundation.MediaEventType.MESessionEnded
+  - NAudio.MediaFoundation.MediaEventType.MESessionNotifyPresentationTime
+  - NAudio.MediaFoundation.MediaEventType.MESessionPaused
+  - NAudio.MediaFoundation.MediaEventType.MESessionRateChanged
+  - NAudio.MediaFoundation.MediaEventType.MESessionScrubSampleComplete
+  - NAudio.MediaFoundation.MediaEventType.MESessionStarted
+  - NAudio.MediaFoundation.MediaEventType.MESessionStopped
+  - NAudio.MediaFoundation.MediaEventType.MESessionStreamSinkFormatChanged
+  - NAudio.MediaFoundation.MediaEventType.MESessionTopologiesCleared
+  - NAudio.MediaFoundation.MediaEventType.MESessionTopologySet
+  - NAudio.MediaFoundation.MediaEventType.MESessionTopologyStatus
+  - NAudio.MediaFoundation.MediaEventType.MESessionUnknown
+  - NAudio.MediaFoundation.MediaEventType.MESinkInvalidated
+  - NAudio.MediaFoundation.MediaEventType.MESinkUnknown
+  - NAudio.MediaFoundation.MediaEventType.MESourceCharacteristicsChanged
+  - NAudio.MediaFoundation.MediaEventType.MESourceMetadataChanged
+  - NAudio.MediaFoundation.MediaEventType.MESourcePaused
+  - NAudio.MediaFoundation.MediaEventType.MESourceRateChangeRequested
+  - NAudio.MediaFoundation.MediaEventType.MESourceRateChanged
+  - NAudio.MediaFoundation.MediaEventType.MESourceSeeked
+  - NAudio.MediaFoundation.MediaEventType.MESourceStarted
+  - NAudio.MediaFoundation.MediaEventType.MESourceStopped
+  - NAudio.MediaFoundation.MediaEventType.MESourceUnknown
+  - NAudio.MediaFoundation.MediaEventType.MEStreamFormatChanged
+  - NAudio.MediaFoundation.MediaEventType.MEStreamPaused
+  - NAudio.MediaFoundation.MediaEventType.MEStreamSeeked
+  - NAudio.MediaFoundation.MediaEventType.MEStreamSinkDeviceChanged
+  - NAudio.MediaFoundation.MediaEventType.MEStreamSinkFormatChanged
+  - NAudio.MediaFoundation.MediaEventType.MEStreamSinkMarker
+  - NAudio.MediaFoundation.MediaEventType.MEStreamSinkPaused
+  - NAudio.MediaFoundation.MediaEventType.MEStreamSinkPrerolled
+  - NAudio.MediaFoundation.MediaEventType.MEStreamSinkRateChanged
+  - NAudio.MediaFoundation.MediaEventType.MEStreamSinkRequestSample
+  - NAudio.MediaFoundation.MediaEventType.MEStreamSinkScrubSampleComplete
+  - NAudio.MediaFoundation.MediaEventType.MEStreamSinkStarted
+  - NAudio.MediaFoundation.MediaEventType.MEStreamSinkStopped
+  - NAudio.MediaFoundation.MediaEventType.MEStreamStarted
+  - NAudio.MediaFoundation.MediaEventType.MEStreamStopped
+  - NAudio.MediaFoundation.MediaEventType.MEStreamThinMode
+  - NAudio.MediaFoundation.MediaEventType.MEStreamTick
+  - NAudio.MediaFoundation.MediaEventType.METransformDrainComplete
+  - NAudio.MediaFoundation.MediaEventType.METransformHaveOutput
+  - NAudio.MediaFoundation.MediaEventType.METransformMarker
+  - NAudio.MediaFoundation.MediaEventType.METransformNeedInput
+  - NAudio.MediaFoundation.MediaEventType.METransformUnknown
+  - NAudio.MediaFoundation.MediaEventType.METrustUnknown
+  - NAudio.MediaFoundation.MediaEventType.MEUnknown
+  - NAudio.MediaFoundation.MediaEventType.MEUpdatedStream
+  - NAudio.MediaFoundation.MediaEventType.MEWMDRMIndividualizationCompleted
+  - NAudio.MediaFoundation.MediaEventType.MEWMDRMIndividualizationProgress
+  - NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseAcquisitionCompleted
+  - NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseBackupCompleted
+  - NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseBackupProgress
+  - NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseRestoreCompleted
+  - NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseRestoreProgress
+  - NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseStoreCleaned
+  - NAudio.MediaFoundation.MediaEventType.MEWMDRMProximityCompleted
+  - NAudio.MediaFoundation.MediaEventType.MEWMDRMRevocationDownloadCompleted
+  langs:
+  - csharp
+  - vb
+  name: MediaEventType
+  nameWithType: MediaEventType
+  fullName: NAudio.MediaFoundation.MediaEventType
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public enum MediaEventType
+    content.vb: Public Enum MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEUnknown
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEUnknown
+  id: MEUnknown
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEUnknown
+  nameWithType: MediaEventType.MEUnknown
+  fullName: NAudio.MediaFoundation.MediaEventType.MEUnknown
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEUnknown = 0
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEError
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEError
+  id: MEError
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEError
+  nameWithType: MediaEventType.MEError
+  fullName: NAudio.MediaFoundation.MediaEventType.MEError
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEError = 1
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEExtendedType
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEExtendedType
+  id: MEExtendedType
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEExtendedType
+  nameWithType: MediaEventType.MEExtendedType
+  fullName: NAudio.MediaFoundation.MediaEventType.MEExtendedType
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEExtendedType = 2
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MENonFatalError
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MENonFatalError
+  id: MENonFatalError
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MENonFatalError
+  nameWithType: MediaEventType.MENonFatalError
+  fullName: NAudio.MediaFoundation.MediaEventType.MENonFatalError
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MENonFatalError = 3
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESessionUnknown
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESessionUnknown
+  id: MESessionUnknown
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESessionUnknown
+  nameWithType: MediaEventType.MESessionUnknown
+  fullName: NAudio.MediaFoundation.MediaEventType.MESessionUnknown
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESessionUnknown = 100
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESessionTopologySet
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESessionTopologySet
+  id: MESessionTopologySet
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESessionTopologySet
+  nameWithType: MediaEventType.MESessionTopologySet
+  fullName: NAudio.MediaFoundation.MediaEventType.MESessionTopologySet
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESessionTopologySet = 101
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESessionTopologiesCleared
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESessionTopologiesCleared
+  id: MESessionTopologiesCleared
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESessionTopologiesCleared
+  nameWithType: MediaEventType.MESessionTopologiesCleared
+  fullName: NAudio.MediaFoundation.MediaEventType.MESessionTopologiesCleared
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESessionTopologiesCleared = 102
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESessionStarted
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESessionStarted
+  id: MESessionStarted
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESessionStarted
+  nameWithType: MediaEventType.MESessionStarted
+  fullName: NAudio.MediaFoundation.MediaEventType.MESessionStarted
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESessionStarted = 103
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESessionPaused
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESessionPaused
+  id: MESessionPaused
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESessionPaused
+  nameWithType: MediaEventType.MESessionPaused
+  fullName: NAudio.MediaFoundation.MediaEventType.MESessionPaused
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESessionPaused = 104
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESessionStopped
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESessionStopped
+  id: MESessionStopped
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESessionStopped
+  nameWithType: MediaEventType.MESessionStopped
+  fullName: NAudio.MediaFoundation.MediaEventType.MESessionStopped
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESessionStopped = 105
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESessionClosed
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESessionClosed
+  id: MESessionClosed
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESessionClosed
+  nameWithType: MediaEventType.MESessionClosed
+  fullName: NAudio.MediaFoundation.MediaEventType.MESessionClosed
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESessionClosed = 106
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESessionEnded
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESessionEnded
+  id: MESessionEnded
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESessionEnded
+  nameWithType: MediaEventType.MESessionEnded
+  fullName: NAudio.MediaFoundation.MediaEventType.MESessionEnded
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESessionEnded = 107
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESessionRateChanged
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESessionRateChanged
+  id: MESessionRateChanged
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESessionRateChanged
+  nameWithType: MediaEventType.MESessionRateChanged
+  fullName: NAudio.MediaFoundation.MediaEventType.MESessionRateChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESessionRateChanged = 108
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESessionScrubSampleComplete
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESessionScrubSampleComplete
+  id: MESessionScrubSampleComplete
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESessionScrubSampleComplete
+  nameWithType: MediaEventType.MESessionScrubSampleComplete
+  fullName: NAudio.MediaFoundation.MediaEventType.MESessionScrubSampleComplete
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESessionScrubSampleComplete = 109
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESessionCapabilitiesChanged
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESessionCapabilitiesChanged
+  id: MESessionCapabilitiesChanged
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESessionCapabilitiesChanged
+  nameWithType: MediaEventType.MESessionCapabilitiesChanged
+  fullName: NAudio.MediaFoundation.MediaEventType.MESessionCapabilitiesChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESessionCapabilitiesChanged = 110
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESessionTopologyStatus
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESessionTopologyStatus
+  id: MESessionTopologyStatus
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESessionTopologyStatus
+  nameWithType: MediaEventType.MESessionTopologyStatus
+  fullName: NAudio.MediaFoundation.MediaEventType.MESessionTopologyStatus
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESessionTopologyStatus = 111
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESessionNotifyPresentationTime
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESessionNotifyPresentationTime
+  id: MESessionNotifyPresentationTime
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESessionNotifyPresentationTime
+  nameWithType: MediaEventType.MESessionNotifyPresentationTime
+  fullName: NAudio.MediaFoundation.MediaEventType.MESessionNotifyPresentationTime
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESessionNotifyPresentationTime = 112
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MENewPresentation
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MENewPresentation
+  id: MENewPresentation
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MENewPresentation
+  nameWithType: MediaEventType.MENewPresentation
+  fullName: NAudio.MediaFoundation.MediaEventType.MENewPresentation
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MENewPresentation = 113
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MELicenseAcquisitionStart
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MELicenseAcquisitionStart
+  id: MELicenseAcquisitionStart
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MELicenseAcquisitionStart
+  nameWithType: MediaEventType.MELicenseAcquisitionStart
+  fullName: NAudio.MediaFoundation.MediaEventType.MELicenseAcquisitionStart
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MELicenseAcquisitionStart = 114
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MELicenseAcquisitionCompleted
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MELicenseAcquisitionCompleted
+  id: MELicenseAcquisitionCompleted
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MELicenseAcquisitionCompleted
+  nameWithType: MediaEventType.MELicenseAcquisitionCompleted
+  fullName: NAudio.MediaFoundation.MediaEventType.MELicenseAcquisitionCompleted
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MELicenseAcquisitionCompleted = 115
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEIndividualizationStart
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEIndividualizationStart
+  id: MEIndividualizationStart
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEIndividualizationStart
+  nameWithType: MediaEventType.MEIndividualizationStart
+  fullName: NAudio.MediaFoundation.MediaEventType.MEIndividualizationStart
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEIndividualizationStart = 116
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEIndividualizationCompleted
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEIndividualizationCompleted
+  id: MEIndividualizationCompleted
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEIndividualizationCompleted
+  nameWithType: MediaEventType.MEIndividualizationCompleted
+  fullName: NAudio.MediaFoundation.MediaEventType.MEIndividualizationCompleted
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEIndividualizationCompleted = 117
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEEnablerProgress
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEEnablerProgress
+  id: MEEnablerProgress
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEEnablerProgress
+  nameWithType: MediaEventType.MEEnablerProgress
+  fullName: NAudio.MediaFoundation.MediaEventType.MEEnablerProgress
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEEnablerProgress = 118
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEEnablerCompleted
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEEnablerCompleted
+  id: MEEnablerCompleted
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEEnablerCompleted
+  nameWithType: MediaEventType.MEEnablerCompleted
+  fullName: NAudio.MediaFoundation.MediaEventType.MEEnablerCompleted
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEEnablerCompleted = 119
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEPolicyError
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEPolicyError
+  id: MEPolicyError
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEPolicyError
+  nameWithType: MediaEventType.MEPolicyError
+  fullName: NAudio.MediaFoundation.MediaEventType.MEPolicyError
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEPolicyError = 120
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEPolicyReport
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEPolicyReport
+  id: MEPolicyReport
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEPolicyReport
+  nameWithType: MediaEventType.MEPolicyReport
+  fullName: NAudio.MediaFoundation.MediaEventType.MEPolicyReport
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEPolicyReport = 121
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEBufferingStarted
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEBufferingStarted
+  id: MEBufferingStarted
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEBufferingStarted
+  nameWithType: MediaEventType.MEBufferingStarted
+  fullName: NAudio.MediaFoundation.MediaEventType.MEBufferingStarted
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEBufferingStarted = 122
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEBufferingStopped
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEBufferingStopped
+  id: MEBufferingStopped
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEBufferingStopped
+  nameWithType: MediaEventType.MEBufferingStopped
+  fullName: NAudio.MediaFoundation.MediaEventType.MEBufferingStopped
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEBufferingStopped = 123
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEConnectStart
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEConnectStart
+  id: MEConnectStart
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEConnectStart
+  nameWithType: MediaEventType.MEConnectStart
+  fullName: NAudio.MediaFoundation.MediaEventType.MEConnectStart
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEConnectStart = 124
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEConnectEnd
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEConnectEnd
+  id: MEConnectEnd
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEConnectEnd
+  nameWithType: MediaEventType.MEConnectEnd
+  fullName: NAudio.MediaFoundation.MediaEventType.MEConnectEnd
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEConnectEnd = 125
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEReconnectStart
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEReconnectStart
+  id: MEReconnectStart
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEReconnectStart
+  nameWithType: MediaEventType.MEReconnectStart
+  fullName: NAudio.MediaFoundation.MediaEventType.MEReconnectStart
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEReconnectStart = 126
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEReconnectEnd
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEReconnectEnd
+  id: MEReconnectEnd
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEReconnectEnd
+  nameWithType: MediaEventType.MEReconnectEnd
+  fullName: NAudio.MediaFoundation.MediaEventType.MEReconnectEnd
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEReconnectEnd = 127
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MERendererEvent
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MERendererEvent
+  id: MERendererEvent
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MERendererEvent
+  nameWithType: MediaEventType.MERendererEvent
+  fullName: NAudio.MediaFoundation.MediaEventType.MERendererEvent
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MERendererEvent = 128
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESessionStreamSinkFormatChanged
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESessionStreamSinkFormatChanged
+  id: MESessionStreamSinkFormatChanged
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESessionStreamSinkFormatChanged
+  nameWithType: MediaEventType.MESessionStreamSinkFormatChanged
+  fullName: NAudio.MediaFoundation.MediaEventType.MESessionStreamSinkFormatChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESessionStreamSinkFormatChanged = 129
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESourceUnknown
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESourceUnknown
+  id: MESourceUnknown
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESourceUnknown
+  nameWithType: MediaEventType.MESourceUnknown
+  fullName: NAudio.MediaFoundation.MediaEventType.MESourceUnknown
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESourceUnknown = 200
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESourceStarted
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESourceStarted
+  id: MESourceStarted
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESourceStarted
+  nameWithType: MediaEventType.MESourceStarted
+  fullName: NAudio.MediaFoundation.MediaEventType.MESourceStarted
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESourceStarted = 201
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamStarted
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamStarted
+  id: MEStreamStarted
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamStarted
+  nameWithType: MediaEventType.MEStreamStarted
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamStarted
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamStarted = 202
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESourceSeeked
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESourceSeeked
+  id: MESourceSeeked
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESourceSeeked
+  nameWithType: MediaEventType.MESourceSeeked
+  fullName: NAudio.MediaFoundation.MediaEventType.MESourceSeeked
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESourceSeeked = 203
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamSeeked
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamSeeked
+  id: MEStreamSeeked
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamSeeked
+  nameWithType: MediaEventType.MEStreamSeeked
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamSeeked
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamSeeked = 204
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MENewStream
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MENewStream
+  id: MENewStream
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MENewStream
+  nameWithType: MediaEventType.MENewStream
+  fullName: NAudio.MediaFoundation.MediaEventType.MENewStream
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MENewStream = 205
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEUpdatedStream
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEUpdatedStream
+  id: MEUpdatedStream
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEUpdatedStream
+  nameWithType: MediaEventType.MEUpdatedStream
+  fullName: NAudio.MediaFoundation.MediaEventType.MEUpdatedStream
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEUpdatedStream = 206
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESourceStopped
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESourceStopped
+  id: MESourceStopped
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESourceStopped
+  nameWithType: MediaEventType.MESourceStopped
+  fullName: NAudio.MediaFoundation.MediaEventType.MESourceStopped
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESourceStopped = 207
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamStopped
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamStopped
+  id: MEStreamStopped
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamStopped
+  nameWithType: MediaEventType.MEStreamStopped
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamStopped
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamStopped = 208
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESourcePaused
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESourcePaused
+  id: MESourcePaused
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESourcePaused
+  nameWithType: MediaEventType.MESourcePaused
+  fullName: NAudio.MediaFoundation.MediaEventType.MESourcePaused
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESourcePaused = 209
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamPaused
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamPaused
+  id: MEStreamPaused
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamPaused
+  nameWithType: MediaEventType.MEStreamPaused
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamPaused
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamPaused = 210
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEEndOfPresentation
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEEndOfPresentation
+  id: MEEndOfPresentation
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEEndOfPresentation
+  nameWithType: MediaEventType.MEEndOfPresentation
+  fullName: NAudio.MediaFoundation.MediaEventType.MEEndOfPresentation
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEEndOfPresentation = 211
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEEndOfStream
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEEndOfStream
+  id: MEEndOfStream
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEEndOfStream
+  nameWithType: MediaEventType.MEEndOfStream
+  fullName: NAudio.MediaFoundation.MediaEventType.MEEndOfStream
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEEndOfStream = 212
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEMediaSample
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEMediaSample
+  id: MEMediaSample
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEMediaSample
+  nameWithType: MediaEventType.MEMediaSample
+  fullName: NAudio.MediaFoundation.MediaEventType.MEMediaSample
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEMediaSample = 213
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamTick
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamTick
+  id: MEStreamTick
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamTick
+  nameWithType: MediaEventType.MEStreamTick
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamTick
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamTick = 214
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamThinMode
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamThinMode
+  id: MEStreamThinMode
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamThinMode
+  nameWithType: MediaEventType.MEStreamThinMode
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamThinMode
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamThinMode = 215
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamFormatChanged
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamFormatChanged
+  id: MEStreamFormatChanged
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamFormatChanged
+  nameWithType: MediaEventType.MEStreamFormatChanged
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamFormatChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamFormatChanged = 216
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESourceRateChanged
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESourceRateChanged
+  id: MESourceRateChanged
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESourceRateChanged
+  nameWithType: MediaEventType.MESourceRateChanged
+  fullName: NAudio.MediaFoundation.MediaEventType.MESourceRateChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESourceRateChanged = 217
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEEndOfPresentationSegment
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEEndOfPresentationSegment
+  id: MEEndOfPresentationSegment
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEEndOfPresentationSegment
+  nameWithType: MediaEventType.MEEndOfPresentationSegment
+  fullName: NAudio.MediaFoundation.MediaEventType.MEEndOfPresentationSegment
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEEndOfPresentationSegment = 218
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESourceCharacteristicsChanged
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESourceCharacteristicsChanged
+  id: MESourceCharacteristicsChanged
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESourceCharacteristicsChanged
+  nameWithType: MediaEventType.MESourceCharacteristicsChanged
+  fullName: NAudio.MediaFoundation.MediaEventType.MESourceCharacteristicsChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESourceCharacteristicsChanged = 219
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESourceRateChangeRequested
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESourceRateChangeRequested
+  id: MESourceRateChangeRequested
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESourceRateChangeRequested
+  nameWithType: MediaEventType.MESourceRateChangeRequested
+  fullName: NAudio.MediaFoundation.MediaEventType.MESourceRateChangeRequested
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESourceRateChangeRequested = 220
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESourceMetadataChanged
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESourceMetadataChanged
+  id: MESourceMetadataChanged
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESourceMetadataChanged
+  nameWithType: MediaEventType.MESourceMetadataChanged
+  fullName: NAudio.MediaFoundation.MediaEventType.MESourceMetadataChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESourceMetadataChanged = 221
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESequencerSourceTopologyUpdated
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESequencerSourceTopologyUpdated
+  id: MESequencerSourceTopologyUpdated
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESequencerSourceTopologyUpdated
+  nameWithType: MediaEventType.MESequencerSourceTopologyUpdated
+  fullName: NAudio.MediaFoundation.MediaEventType.MESequencerSourceTopologyUpdated
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESequencerSourceTopologyUpdated = 222
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESinkUnknown
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESinkUnknown
+  id: MESinkUnknown
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESinkUnknown
+  nameWithType: MediaEventType.MESinkUnknown
+  fullName: NAudio.MediaFoundation.MediaEventType.MESinkUnknown
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESinkUnknown = 300
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamSinkStarted
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamSinkStarted
+  id: MEStreamSinkStarted
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamSinkStarted
+  nameWithType: MediaEventType.MEStreamSinkStarted
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamSinkStarted
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamSinkStarted = 301
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamSinkStopped
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamSinkStopped
+  id: MEStreamSinkStopped
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamSinkStopped
+  nameWithType: MediaEventType.MEStreamSinkStopped
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamSinkStopped
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamSinkStopped = 302
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamSinkPaused
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamSinkPaused
+  id: MEStreamSinkPaused
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamSinkPaused
+  nameWithType: MediaEventType.MEStreamSinkPaused
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamSinkPaused
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamSinkPaused = 303
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamSinkRateChanged
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamSinkRateChanged
+  id: MEStreamSinkRateChanged
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamSinkRateChanged
+  nameWithType: MediaEventType.MEStreamSinkRateChanged
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamSinkRateChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamSinkRateChanged = 304
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamSinkRequestSample
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamSinkRequestSample
+  id: MEStreamSinkRequestSample
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamSinkRequestSample
+  nameWithType: MediaEventType.MEStreamSinkRequestSample
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamSinkRequestSample
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamSinkRequestSample = 305
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamSinkMarker
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamSinkMarker
+  id: MEStreamSinkMarker
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamSinkMarker
+  nameWithType: MediaEventType.MEStreamSinkMarker
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamSinkMarker
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamSinkMarker = 306
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamSinkPrerolled
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamSinkPrerolled
+  id: MEStreamSinkPrerolled
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamSinkPrerolled
+  nameWithType: MediaEventType.MEStreamSinkPrerolled
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamSinkPrerolled
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamSinkPrerolled = 307
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamSinkScrubSampleComplete
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamSinkScrubSampleComplete
+  id: MEStreamSinkScrubSampleComplete
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamSinkScrubSampleComplete
+  nameWithType: MediaEventType.MEStreamSinkScrubSampleComplete
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamSinkScrubSampleComplete
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamSinkScrubSampleComplete = 308
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamSinkFormatChanged
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamSinkFormatChanged
+  id: MEStreamSinkFormatChanged
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamSinkFormatChanged
+  nameWithType: MediaEventType.MEStreamSinkFormatChanged
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamSinkFormatChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamSinkFormatChanged = 309
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEStreamSinkDeviceChanged
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEStreamSinkDeviceChanged
+  id: MEStreamSinkDeviceChanged
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEStreamSinkDeviceChanged
+  nameWithType: MediaEventType.MEStreamSinkDeviceChanged
+  fullName: NAudio.MediaFoundation.MediaEventType.MEStreamSinkDeviceChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEStreamSinkDeviceChanged = 310
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEQualityNotify
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEQualityNotify
+  id: MEQualityNotify
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEQualityNotify
+  nameWithType: MediaEventType.MEQualityNotify
+  fullName: NAudio.MediaFoundation.MediaEventType.MEQualityNotify
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEQualityNotify = 311
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MESinkInvalidated
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MESinkInvalidated
+  id: MESinkInvalidated
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MESinkInvalidated
+  nameWithType: MediaEventType.MESinkInvalidated
+  fullName: NAudio.MediaFoundation.MediaEventType.MESinkInvalidated
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MESinkInvalidated = 312
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEAudioSessionNameChanged
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEAudioSessionNameChanged
+  id: MEAudioSessionNameChanged
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEAudioSessionNameChanged
+  nameWithType: MediaEventType.MEAudioSessionNameChanged
+  fullName: NAudio.MediaFoundation.MediaEventType.MEAudioSessionNameChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEAudioSessionNameChanged = 313
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEAudioSessionVolumeChanged
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEAudioSessionVolumeChanged
+  id: MEAudioSessionVolumeChanged
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEAudioSessionVolumeChanged
+  nameWithType: MediaEventType.MEAudioSessionVolumeChanged
+  fullName: NAudio.MediaFoundation.MediaEventType.MEAudioSessionVolumeChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEAudioSessionVolumeChanged = 314
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEAudioSessionDeviceRemoved
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEAudioSessionDeviceRemoved
+  id: MEAudioSessionDeviceRemoved
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEAudioSessionDeviceRemoved
+  nameWithType: MediaEventType.MEAudioSessionDeviceRemoved
+  fullName: NAudio.MediaFoundation.MediaEventType.MEAudioSessionDeviceRemoved
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEAudioSessionDeviceRemoved = 315
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEAudioSessionServerShutdown
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEAudioSessionServerShutdown
+  id: MEAudioSessionServerShutdown
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEAudioSessionServerShutdown
+  nameWithType: MediaEventType.MEAudioSessionServerShutdown
+  fullName: NAudio.MediaFoundation.MediaEventType.MEAudioSessionServerShutdown
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEAudioSessionServerShutdown = 316
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEAudioSessionGroupingParamChanged
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEAudioSessionGroupingParamChanged
+  id: MEAudioSessionGroupingParamChanged
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEAudioSessionGroupingParamChanged
+  nameWithType: MediaEventType.MEAudioSessionGroupingParamChanged
+  fullName: NAudio.MediaFoundation.MediaEventType.MEAudioSessionGroupingParamChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEAudioSessionGroupingParamChanged = 317
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEAudioSessionIconChanged
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEAudioSessionIconChanged
+  id: MEAudioSessionIconChanged
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEAudioSessionIconChanged
+  nameWithType: MediaEventType.MEAudioSessionIconChanged
+  fullName: NAudio.MediaFoundation.MediaEventType.MEAudioSessionIconChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEAudioSessionIconChanged = 318
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEAudioSessionFormatChanged
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEAudioSessionFormatChanged
+  id: MEAudioSessionFormatChanged
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEAudioSessionFormatChanged
+  nameWithType: MediaEventType.MEAudioSessionFormatChanged
+  fullName: NAudio.MediaFoundation.MediaEventType.MEAudioSessionFormatChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEAudioSessionFormatChanged = 319
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEAudioSessionDisconnected
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEAudioSessionDisconnected
+  id: MEAudioSessionDisconnected
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEAudioSessionDisconnected
+  nameWithType: MediaEventType.MEAudioSessionDisconnected
+  fullName: NAudio.MediaFoundation.MediaEventType.MEAudioSessionDisconnected
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEAudioSessionDisconnected = 320
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEAudioSessionExclusiveModeOverride
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEAudioSessionExclusiveModeOverride
+  id: MEAudioSessionExclusiveModeOverride
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEAudioSessionExclusiveModeOverride
+  nameWithType: MediaEventType.MEAudioSessionExclusiveModeOverride
+  fullName: NAudio.MediaFoundation.MediaEventType.MEAudioSessionExclusiveModeOverride
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEAudioSessionExclusiveModeOverride = 321
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.METrustUnknown
+  commentId: F:NAudio.MediaFoundation.MediaEventType.METrustUnknown
+  id: METrustUnknown
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: METrustUnknown
+  nameWithType: MediaEventType.METrustUnknown
+  fullName: NAudio.MediaFoundation.MediaEventType.METrustUnknown
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: METrustUnknown = 400
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEPolicyChanged
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEPolicyChanged
+  id: MEPolicyChanged
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEPolicyChanged
+  nameWithType: MediaEventType.MEPolicyChanged
+  fullName: NAudio.MediaFoundation.MediaEventType.MEPolicyChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEPolicyChanged = 401
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEContentProtectionMessage
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEContentProtectionMessage
+  id: MEContentProtectionMessage
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEContentProtectionMessage
+  nameWithType: MediaEventType.MEContentProtectionMessage
+  fullName: NAudio.MediaFoundation.MediaEventType.MEContentProtectionMessage
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEContentProtectionMessage = 402
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEPolicySet
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEPolicySet
+  id: MEPolicySet
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEPolicySet
+  nameWithType: MediaEventType.MEPolicySet
+  fullName: NAudio.MediaFoundation.MediaEventType.MEPolicySet
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEPolicySet = 403
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseBackupCompleted
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseBackupCompleted
+  id: MEWMDRMLicenseBackupCompleted
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEWMDRMLicenseBackupCompleted
+  nameWithType: MediaEventType.MEWMDRMLicenseBackupCompleted
+  fullName: NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseBackupCompleted
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEWMDRMLicenseBackupCompleted = 500
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseBackupProgress
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseBackupProgress
+  id: MEWMDRMLicenseBackupProgress
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEWMDRMLicenseBackupProgress
+  nameWithType: MediaEventType.MEWMDRMLicenseBackupProgress
+  fullName: NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseBackupProgress
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEWMDRMLicenseBackupProgress = 501
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseRestoreCompleted
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseRestoreCompleted
+  id: MEWMDRMLicenseRestoreCompleted
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEWMDRMLicenseRestoreCompleted
+  nameWithType: MediaEventType.MEWMDRMLicenseRestoreCompleted
+  fullName: NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseRestoreCompleted
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEWMDRMLicenseRestoreCompleted = 502
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseRestoreProgress
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseRestoreProgress
+  id: MEWMDRMLicenseRestoreProgress
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEWMDRMLicenseRestoreProgress
+  nameWithType: MediaEventType.MEWMDRMLicenseRestoreProgress
+  fullName: NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseRestoreProgress
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEWMDRMLicenseRestoreProgress = 503
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseAcquisitionCompleted
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseAcquisitionCompleted
+  id: MEWMDRMLicenseAcquisitionCompleted
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEWMDRMLicenseAcquisitionCompleted
+  nameWithType: MediaEventType.MEWMDRMLicenseAcquisitionCompleted
+  fullName: NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseAcquisitionCompleted
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEWMDRMLicenseAcquisitionCompleted = 506
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEWMDRMIndividualizationCompleted
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEWMDRMIndividualizationCompleted
+  id: MEWMDRMIndividualizationCompleted
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEWMDRMIndividualizationCompleted
+  nameWithType: MediaEventType.MEWMDRMIndividualizationCompleted
+  fullName: NAudio.MediaFoundation.MediaEventType.MEWMDRMIndividualizationCompleted
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEWMDRMIndividualizationCompleted = 508
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEWMDRMIndividualizationProgress
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEWMDRMIndividualizationProgress
+  id: MEWMDRMIndividualizationProgress
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEWMDRMIndividualizationProgress
+  nameWithType: MediaEventType.MEWMDRMIndividualizationProgress
+  fullName: NAudio.MediaFoundation.MediaEventType.MEWMDRMIndividualizationProgress
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEWMDRMIndividualizationProgress = 513
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEWMDRMProximityCompleted
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEWMDRMProximityCompleted
+  id: MEWMDRMProximityCompleted
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEWMDRMProximityCompleted
+  nameWithType: MediaEventType.MEWMDRMProximityCompleted
+  fullName: NAudio.MediaFoundation.MediaEventType.MEWMDRMProximityCompleted
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEWMDRMProximityCompleted = 514
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseStoreCleaned
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseStoreCleaned
+  id: MEWMDRMLicenseStoreCleaned
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEWMDRMLicenseStoreCleaned
+  nameWithType: MediaEventType.MEWMDRMLicenseStoreCleaned
+  fullName: NAudio.MediaFoundation.MediaEventType.MEWMDRMLicenseStoreCleaned
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEWMDRMLicenseStoreCleaned = 515
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.MEWMDRMRevocationDownloadCompleted
+  commentId: F:NAudio.MediaFoundation.MediaEventType.MEWMDRMRevocationDownloadCompleted
+  id: MEWMDRMRevocationDownloadCompleted
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: MEWMDRMRevocationDownloadCompleted
+  nameWithType: MediaEventType.MEWMDRMRevocationDownloadCompleted
+  fullName: NAudio.MediaFoundation.MediaEventType.MEWMDRMRevocationDownloadCompleted
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MEWMDRMRevocationDownloadCompleted = 516
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.METransformUnknown
+  commentId: F:NAudio.MediaFoundation.MediaEventType.METransformUnknown
+  id: METransformUnknown
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: METransformUnknown
+  nameWithType: MediaEventType.METransformUnknown
+  fullName: NAudio.MediaFoundation.MediaEventType.METransformUnknown
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: METransformUnknown = 600
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.METransformNeedInput
+  commentId: F:NAudio.MediaFoundation.MediaEventType.METransformNeedInput
+  id: METransformNeedInput
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: METransformNeedInput
+  nameWithType: MediaEventType.METransformNeedInput
+  fullName: NAudio.MediaFoundation.MediaEventType.METransformNeedInput
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: METransformNeedInput = 601
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.METransformHaveOutput
+  commentId: F:NAudio.MediaFoundation.MediaEventType.METransformHaveOutput
+  id: METransformHaveOutput
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: METransformHaveOutput
+  nameWithType: MediaEventType.METransformHaveOutput
+  fullName: NAudio.MediaFoundation.MediaEventType.METransformHaveOutput
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: METransformHaveOutput = 602
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.METransformDrainComplete
+  commentId: F:NAudio.MediaFoundation.MediaEventType.METransformDrainComplete
+  id: METransformDrainComplete
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: METransformDrainComplete
+  nameWithType: MediaEventType.METransformDrainComplete
+  fullName: NAudio.MediaFoundation.MediaEventType.METransformDrainComplete
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: METransformDrainComplete = 603
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.MediaEventType.METransformMarker
+  commentId: F:NAudio.MediaFoundation.MediaEventType.METransformMarker
+  id: METransformMarker
+  parent: NAudio.MediaFoundation.MediaEventType
+  langs:
+  - csharp
+  - vb
+  name: METransformMarker
+  nameWithType: MediaEventType.METransformMarker
+  fullName: NAudio.MediaFoundation.MediaEventType.METransformMarker
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: METransformMarker = 604
+    return:
+      type: NAudio.MediaFoundation.MediaEventType
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation.MediaEventType
+  commentId: T:NAudio.MediaFoundation.MediaEventType
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.MediaEventType.html
+  name: MediaEventType
+  nameWithType: MediaEventType
+  fullName: NAudio.MediaFoundation.MediaEventType

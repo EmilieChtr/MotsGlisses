@@ -1,0 +1,1354 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation.IMFMediaEvent
+  commentId: T:NAudio.MediaFoundation.IMFMediaEvent
+  id: IMFMediaEvent
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation.IMFMediaEvent.Compare(NAudio.MediaFoundation.IMFAttributes,System.Int32,System.Boolean@)
+  - NAudio.MediaFoundation.IMFMediaEvent.CompareItem(System.Guid,System.IntPtr,System.Boolean@)
+  - NAudio.MediaFoundation.IMFMediaEvent.CopyAllItems(NAudio.MediaFoundation.IMFAttributes)
+  - NAudio.MediaFoundation.IMFMediaEvent.DeleteAllItems
+  - NAudio.MediaFoundation.IMFMediaEvent.DeleteItem(System.Guid)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedBlob(System.Guid,System.IntPtr@,System.Int32@)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedString(System.Guid,System.String@,System.Int32@)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetBlob(System.Guid,System.Byte[],System.Int32,System.Int32@)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetBlobSize(System.Guid,System.Int32@)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetCount(System.Int32@)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetDouble(System.Guid,System.Double@)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetExtendedType(System.Guid@)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetGUID(System.Guid,System.Guid@)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetItem(System.Guid,System.IntPtr)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetItemByIndex(System.Int32,System.Guid@,System.IntPtr)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetItemType(System.Guid,System.Int32@)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetStatus(System.Int32@)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetString(System.Guid,System.Text.StringBuilder,System.Int32,System.Int32@)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetStringLength(System.Guid,System.Int32@)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetType(NAudio.MediaFoundation.MediaEventType@)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetUINT32(System.Guid,System.Int32@)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetUINT64(System.Guid,System.Int64@)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetUnknown(System.Guid,System.Guid,System.Object@)
+  - NAudio.MediaFoundation.IMFMediaEvent.GetValue(System.IntPtr)
+  - NAudio.MediaFoundation.IMFMediaEvent.LockStore
+  - NAudio.MediaFoundation.IMFMediaEvent.SetBlob(System.Guid,System.Byte[],System.Int32)
+  - NAudio.MediaFoundation.IMFMediaEvent.SetDouble(System.Guid,System.Double)
+  - NAudio.MediaFoundation.IMFMediaEvent.SetGUID(System.Guid,System.Guid)
+  - NAudio.MediaFoundation.IMFMediaEvent.SetItem(System.Guid,System.IntPtr)
+  - NAudio.MediaFoundation.IMFMediaEvent.SetString(System.Guid,System.String)
+  - NAudio.MediaFoundation.IMFMediaEvent.SetUINT32(System.Guid,System.Int32)
+  - NAudio.MediaFoundation.IMFMediaEvent.SetUINT64(System.Guid,System.Int64)
+  - NAudio.MediaFoundation.IMFMediaEvent.SetUnknown(System.Guid,System.Object)
+  - NAudio.MediaFoundation.IMFMediaEvent.UnlockStore
+  langs:
+  - csharp
+  - vb
+  name: IMFMediaEvent
+  nameWithType: IMFMediaEvent
+  fullName: NAudio.MediaFoundation.IMFMediaEvent
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      [Guid("DF598932-F10C-4E39-BBA2-C308F101DAA3")]
+
+      public interface IMFMediaEvent : IMFAttributes
+    content.vb: >-
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      <Guid("DF598932-F10C-4E39-BBA2-C308F101DAA3")>
+
+      Public Interface IMFMediaEvent Inherits IMFAttributes
+  attributes:
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DF598932-F10C-4E39-BBA2-C308F101DAA3
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetItem(System.Guid,System.IntPtr)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetItem(System.Guid,System.IntPtr)
+  id: GetItem(System.Guid,System.IntPtr)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetItem(Guid, IntPtr)
+  nameWithType: IMFMediaEvent.GetItem(Guid, IntPtr)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetItem(System.Guid, System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetItem(Guid guidKey, IntPtr pValue)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: pValue
+      type: System.IntPtr
+    content.vb: Sub GetItem(guidKey As Guid, pValue As IntPtr)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetItem*
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetItemType(System.Guid,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetItemType(System.Guid,System.Int32@)
+  id: GetItemType(System.Guid,System.Int32@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetItemType(Guid, out int)
+  nameWithType: IMFMediaEvent.GetItemType(Guid, out int)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetItemType(System.Guid, out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetItemType(Guid guidKey, out int pType)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: pType
+      type: System.Int32
+    content.vb: Sub GetItemType(guidKey As Guid, pType As Integer)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetItemType*
+  nameWithType.vb: IMFMediaEvent.GetItemType(Guid, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetItemType(System.Guid, Integer)
+  name.vb: GetItemType(Guid, Integer)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.CompareItem(System.Guid,System.IntPtr,System.Boolean@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.CompareItem(System.Guid,System.IntPtr,System.Boolean@)
+  id: CompareItem(System.Guid,System.IntPtr,System.Boolean@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: CompareItem(Guid, IntPtr, out bool)
+  nameWithType: IMFMediaEvent.CompareItem(Guid, IntPtr, out bool)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.CompareItem(System.Guid, System.IntPtr, out bool)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void CompareItem(Guid guidKey, IntPtr value, out bool pbResult)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: value
+      type: System.IntPtr
+    - id: pbResult
+      type: System.Boolean
+    content.vb: Sub CompareItem(guidKey As Guid, value As IntPtr, pbResult As Boolean)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.CompareItem*
+  nameWithType.vb: IMFMediaEvent.CompareItem(Guid, IntPtr, Boolean)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.CompareItem(System.Guid, System.IntPtr, Boolean)
+  name.vb: CompareItem(Guid, IntPtr, Boolean)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.Compare(NAudio.MediaFoundation.IMFAttributes,System.Int32,System.Boolean@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.Compare(NAudio.MediaFoundation.IMFAttributes,System.Int32,System.Boolean@)
+  id: Compare(NAudio.MediaFoundation.IMFAttributes,System.Int32,System.Boolean@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: Compare(IMFAttributes, int, out bool)
+  nameWithType: IMFMediaEvent.Compare(IMFAttributes, int, out bool)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.Compare(NAudio.MediaFoundation.IMFAttributes, int, out bool)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void Compare(IMFAttributes pTheirs, int matchType, out bool pbResult)
+    parameters:
+    - id: pTheirs
+      type: NAudio.MediaFoundation.IMFAttributes
+    - id: matchType
+      type: System.Int32
+    - id: pbResult
+      type: System.Boolean
+    content.vb: Sub Compare(pTheirs As IMFAttributes, matchType As Integer, pbResult As Boolean)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.Compare*
+  nameWithType.vb: IMFMediaEvent.Compare(IMFAttributes, Integer, Boolean)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.Compare(NAudio.MediaFoundation.IMFAttributes, Integer, Boolean)
+  name.vb: Compare(IMFAttributes, Integer, Boolean)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetUINT32(System.Guid,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetUINT32(System.Guid,System.Int32@)
+  id: GetUINT32(System.Guid,System.Int32@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetUINT32(Guid, out int)
+  nameWithType: IMFMediaEvent.GetUINT32(Guid, out int)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetUINT32(System.Guid, out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetUINT32(Guid guidKey, out int punValue)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: punValue
+      type: System.Int32
+    content.vb: Sub GetUINT32(guidKey As Guid, punValue As Integer)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetUINT32*
+  nameWithType.vb: IMFMediaEvent.GetUINT32(Guid, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetUINT32(System.Guid, Integer)
+  name.vb: GetUINT32(Guid, Integer)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetUINT64(System.Guid,System.Int64@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetUINT64(System.Guid,System.Int64@)
+  id: GetUINT64(System.Guid,System.Int64@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetUINT64(Guid, out long)
+  nameWithType: IMFMediaEvent.GetUINT64(Guid, out long)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetUINT64(System.Guid, out long)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetUINT64(Guid guidKey, out long punValue)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: punValue
+      type: System.Int64
+    content.vb: Sub GetUINT64(guidKey As Guid, punValue As Long)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetUINT64*
+  nameWithType.vb: IMFMediaEvent.GetUINT64(Guid, Long)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetUINT64(System.Guid, Long)
+  name.vb: GetUINT64(Guid, Long)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetDouble(System.Guid,System.Double@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetDouble(System.Guid,System.Double@)
+  id: GetDouble(System.Guid,System.Double@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetDouble(Guid, out double)
+  nameWithType: IMFMediaEvent.GetDouble(Guid, out double)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetDouble(System.Guid, out double)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetDouble(Guid guidKey, out double pfValue)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: pfValue
+      type: System.Double
+    content.vb: Sub GetDouble(guidKey As Guid, pfValue As Double)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetDouble*
+  nameWithType.vb: IMFMediaEvent.GetDouble(Guid, Double)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetDouble(System.Guid, Double)
+  name.vb: GetDouble(Guid, Double)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetGUID(System.Guid,System.Guid@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetGUID(System.Guid,System.Guid@)
+  id: GetGUID(System.Guid,System.Guid@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetGUID(Guid, out Guid)
+  nameWithType: IMFMediaEvent.GetGUID(Guid, out Guid)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetGUID(System.Guid, out System.Guid)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetGUID(Guid guidKey, out Guid pguidValue)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: pguidValue
+      type: System.Guid
+    content.vb: Sub GetGUID(guidKey As Guid, pguidValue As Guid)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetGUID*
+  nameWithType.vb: IMFMediaEvent.GetGUID(Guid, Guid)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetGUID(System.Guid, System.Guid)
+  name.vb: GetGUID(Guid, Guid)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetStringLength(System.Guid,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetStringLength(System.Guid,System.Int32@)
+  id: GetStringLength(System.Guid,System.Int32@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetStringLength(Guid, out int)
+  nameWithType: IMFMediaEvent.GetStringLength(Guid, out int)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetStringLength(System.Guid, out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetStringLength(Guid guidKey, out int pcchLength)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: pcchLength
+      type: System.Int32
+    content.vb: Sub GetStringLength(guidKey As Guid, pcchLength As Integer)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetStringLength*
+  nameWithType.vb: IMFMediaEvent.GetStringLength(Guid, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetStringLength(System.Guid, Integer)
+  name.vb: GetStringLength(Guid, Integer)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetString(System.Guid,System.Text.StringBuilder,System.Int32,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetString(System.Guid,System.Text.StringBuilder,System.Int32,System.Int32@)
+  id: GetString(System.Guid,System.Text.StringBuilder,System.Int32,System.Int32@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetString(Guid, StringBuilder, int, out int)
+  nameWithType: IMFMediaEvent.GetString(Guid, StringBuilder, int, out int)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetString(System.Guid, System.Text.StringBuilder, int, out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetString(Guid guidKey, StringBuilder pwszValue, int cchBufSize, out int pcchLength)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: pwszValue
+      type: System.Text.StringBuilder
+    - id: cchBufSize
+      type: System.Int32
+    - id: pcchLength
+      type: System.Int32
+    content.vb: Sub GetString(guidKey As Guid, pwszValue As StringBuilder, cchBufSize As Integer, pcchLength As Integer)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetString*
+  nameWithType.vb: IMFMediaEvent.GetString(Guid, StringBuilder, Integer, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetString(System.Guid, System.Text.StringBuilder, Integer, Integer)
+  name.vb: GetString(Guid, StringBuilder, Integer, Integer)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedString(System.Guid,System.String@,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedString(System.Guid,System.String@,System.Int32@)
+  id: GetAllocatedString(System.Guid,System.String@,System.Int32@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetAllocatedString(Guid, out string, out int)
+  nameWithType: IMFMediaEvent.GetAllocatedString(Guid, out string, out int)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedString(System.Guid, out string, out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetAllocatedString(Guid guidKey, out string ppwszValue, out int pcchLength)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: ppwszValue
+      type: System.String
+    - id: pcchLength
+      type: System.Int32
+    content.vb: Sub GetAllocatedString(guidKey As Guid, ppwszValue As String, pcchLength As Integer)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedString*
+  nameWithType.vb: IMFMediaEvent.GetAllocatedString(Guid, String, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedString(System.Guid, String, Integer)
+  name.vb: GetAllocatedString(Guid, String, Integer)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetBlobSize(System.Guid,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetBlobSize(System.Guid,System.Int32@)
+  id: GetBlobSize(System.Guid,System.Int32@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetBlobSize(Guid, out int)
+  nameWithType: IMFMediaEvent.GetBlobSize(Guid, out int)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetBlobSize(System.Guid, out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetBlobSize(Guid guidKey, out int pcbBlobSize)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: pcbBlobSize
+      type: System.Int32
+    content.vb: Sub GetBlobSize(guidKey As Guid, pcbBlobSize As Integer)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetBlobSize*
+  nameWithType.vb: IMFMediaEvent.GetBlobSize(Guid, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetBlobSize(System.Guid, Integer)
+  name.vb: GetBlobSize(Guid, Integer)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetBlob(System.Guid,System.Byte[],System.Int32,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetBlob(System.Guid,System.Byte[],System.Int32,System.Int32@)
+  id: GetBlob(System.Guid,System.Byte[],System.Int32,System.Int32@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetBlob(Guid, byte[], int, out int)
+  nameWithType: IMFMediaEvent.GetBlob(Guid, byte[], int, out int)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetBlob(System.Guid, byte[], int, out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetBlob(Guid guidKey, byte[] pBuf, int cbBufSize, out int pcbBlobSize)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: pBuf
+      type: System.Byte[]
+    - id: cbBufSize
+      type: System.Int32
+    - id: pcbBlobSize
+      type: System.Int32
+    content.vb: Sub GetBlob(guidKey As Guid, pBuf As Byte(), cbBufSize As Integer, pcbBlobSize As Integer)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetBlob*
+  nameWithType.vb: IMFMediaEvent.GetBlob(Guid, Byte(), Integer, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetBlob(System.Guid, Byte(), Integer, Integer)
+  name.vb: GetBlob(Guid, Byte(), Integer, Integer)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedBlob(System.Guid,System.IntPtr@,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedBlob(System.Guid,System.IntPtr@,System.Int32@)
+  id: GetAllocatedBlob(System.Guid,System.IntPtr@,System.Int32@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetAllocatedBlob(Guid, out IntPtr, out int)
+  nameWithType: IMFMediaEvent.GetAllocatedBlob(Guid, out IntPtr, out int)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedBlob(System.Guid, out System.IntPtr, out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetAllocatedBlob(Guid guidKey, out IntPtr ip, out int pcbSize)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: ip
+      type: System.IntPtr
+    - id: pcbSize
+      type: System.Int32
+    content.vb: Sub GetAllocatedBlob(guidKey As Guid, ip As IntPtr, pcbSize As Integer)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedBlob*
+  nameWithType.vb: IMFMediaEvent.GetAllocatedBlob(Guid, IntPtr, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedBlob(System.Guid, System.IntPtr, Integer)
+  name.vb: GetAllocatedBlob(Guid, IntPtr, Integer)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetUnknown(System.Guid,System.Guid,System.Object@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetUnknown(System.Guid,System.Guid,System.Object@)
+  id: GetUnknown(System.Guid,System.Guid,System.Object@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetUnknown(Guid, Guid, out object)
+  nameWithType: IMFMediaEvent.GetUnknown(Guid, Guid, out object)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetUnknown(System.Guid, System.Guid, out object)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetUnknown(Guid guidKey, Guid riid, out object ppv)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: riid
+      type: System.Guid
+    - id: ppv
+      type: System.Object
+    content.vb: Sub GetUnknown(guidKey As Guid, riid As Guid, ppv As Object)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetUnknown*
+  nameWithType.vb: IMFMediaEvent.GetUnknown(Guid, Guid, Object)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetUnknown(System.Guid, System.Guid, Object)
+  name.vb: GetUnknown(Guid, Guid, Object)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.SetItem(System.Guid,System.IntPtr)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.SetItem(System.Guid,System.IntPtr)
+  id: SetItem(System.Guid,System.IntPtr)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: SetItem(Guid, IntPtr)
+  nameWithType: IMFMediaEvent.SetItem(Guid, IntPtr)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.SetItem(System.Guid, System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetItem(Guid guidKey, IntPtr value)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: value
+      type: System.IntPtr
+    content.vb: Sub SetItem(guidKey As Guid, value As IntPtr)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.SetItem*
+- uid: NAudio.MediaFoundation.IMFMediaEvent.DeleteItem(System.Guid)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.DeleteItem(System.Guid)
+  id: DeleteItem(System.Guid)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: DeleteItem(Guid)
+  nameWithType: IMFMediaEvent.DeleteItem(Guid)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.DeleteItem(System.Guid)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void DeleteItem(Guid guidKey)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    content.vb: Sub DeleteItem(guidKey As Guid)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.DeleteItem*
+- uid: NAudio.MediaFoundation.IMFMediaEvent.DeleteAllItems
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.DeleteAllItems
+  id: DeleteAllItems
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: DeleteAllItems()
+  nameWithType: IMFMediaEvent.DeleteAllItems()
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.DeleteAllItems()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void DeleteAllItems()
+    content.vb: Sub DeleteAllItems()
+  overload: NAudio.MediaFoundation.IMFMediaEvent.DeleteAllItems*
+- uid: NAudio.MediaFoundation.IMFMediaEvent.SetUINT32(System.Guid,System.Int32)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.SetUINT32(System.Guid,System.Int32)
+  id: SetUINT32(System.Guid,System.Int32)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: SetUINT32(Guid, int)
+  nameWithType: IMFMediaEvent.SetUINT32(Guid, int)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.SetUINT32(System.Guid, int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetUINT32(Guid guidKey, int unValue)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: unValue
+      type: System.Int32
+    content.vb: Sub SetUINT32(guidKey As Guid, unValue As Integer)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.SetUINT32*
+  nameWithType.vb: IMFMediaEvent.SetUINT32(Guid, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.SetUINT32(System.Guid, Integer)
+  name.vb: SetUINT32(Guid, Integer)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.SetUINT64(System.Guid,System.Int64)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.SetUINT64(System.Guid,System.Int64)
+  id: SetUINT64(System.Guid,System.Int64)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: SetUINT64(Guid, long)
+  nameWithType: IMFMediaEvent.SetUINT64(Guid, long)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.SetUINT64(System.Guid, long)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetUINT64(Guid guidKey, long unValue)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: unValue
+      type: System.Int64
+    content.vb: Sub SetUINT64(guidKey As Guid, unValue As Long)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.SetUINT64*
+  nameWithType.vb: IMFMediaEvent.SetUINT64(Guid, Long)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.SetUINT64(System.Guid, Long)
+  name.vb: SetUINT64(Guid, Long)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.SetDouble(System.Guid,System.Double)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.SetDouble(System.Guid,System.Double)
+  id: SetDouble(System.Guid,System.Double)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: SetDouble(Guid, double)
+  nameWithType: IMFMediaEvent.SetDouble(Guid, double)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.SetDouble(System.Guid, double)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetDouble(Guid guidKey, double fValue)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: fValue
+      type: System.Double
+    content.vb: Sub SetDouble(guidKey As Guid, fValue As Double)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.SetDouble*
+  nameWithType.vb: IMFMediaEvent.SetDouble(Guid, Double)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.SetDouble(System.Guid, Double)
+  name.vb: SetDouble(Guid, Double)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.SetGUID(System.Guid,System.Guid)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.SetGUID(System.Guid,System.Guid)
+  id: SetGUID(System.Guid,System.Guid)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: SetGUID(Guid, Guid)
+  nameWithType: IMFMediaEvent.SetGUID(Guid, Guid)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.SetGUID(System.Guid, System.Guid)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetGUID(Guid guidKey, Guid guidValue)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: guidValue
+      type: System.Guid
+    content.vb: Sub SetGUID(guidKey As Guid, guidValue As Guid)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.SetGUID*
+- uid: NAudio.MediaFoundation.IMFMediaEvent.SetString(System.Guid,System.String)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.SetString(System.Guid,System.String)
+  id: SetString(System.Guid,System.String)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: SetString(Guid, string)
+  nameWithType: IMFMediaEvent.SetString(Guid, string)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.SetString(System.Guid, string)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetString(Guid guidKey, string wszValue)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: wszValue
+      type: System.String
+    content.vb: Sub SetString(guidKey As Guid, wszValue As String)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.SetString*
+  nameWithType.vb: IMFMediaEvent.SetString(Guid, String)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.SetString(System.Guid, String)
+  name.vb: SetString(Guid, String)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.SetBlob(System.Guid,System.Byte[],System.Int32)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.SetBlob(System.Guid,System.Byte[],System.Int32)
+  id: SetBlob(System.Guid,System.Byte[],System.Int32)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: SetBlob(Guid, byte[], int)
+  nameWithType: IMFMediaEvent.SetBlob(Guid, byte[], int)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.SetBlob(System.Guid, byte[], int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetBlob(Guid guidKey, byte[] pBuf, int cbBufSize)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: pBuf
+      type: System.Byte[]
+    - id: cbBufSize
+      type: System.Int32
+    content.vb: Sub SetBlob(guidKey As Guid, pBuf As Byte(), cbBufSize As Integer)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.SetBlob*
+  nameWithType.vb: IMFMediaEvent.SetBlob(Guid, Byte(), Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.SetBlob(System.Guid, Byte(), Integer)
+  name.vb: SetBlob(Guid, Byte(), Integer)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.SetUnknown(System.Guid,System.Object)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.SetUnknown(System.Guid,System.Object)
+  id: SetUnknown(System.Guid,System.Object)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: SetUnknown(Guid, object)
+  nameWithType: IMFMediaEvent.SetUnknown(Guid, object)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.SetUnknown(System.Guid, object)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetUnknown(Guid guidKey, object pUnknown)
+    parameters:
+    - id: guidKey
+      type: System.Guid
+    - id: pUnknown
+      type: System.Object
+    content.vb: Sub SetUnknown(guidKey As Guid, pUnknown As Object)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.SetUnknown*
+  nameWithType.vb: IMFMediaEvent.SetUnknown(Guid, Object)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.SetUnknown(System.Guid, Object)
+  name.vb: SetUnknown(Guid, Object)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.LockStore
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.LockStore
+  id: LockStore
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: LockStore()
+  nameWithType: IMFMediaEvent.LockStore()
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.LockStore()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void LockStore()
+    content.vb: Sub LockStore()
+  overload: NAudio.MediaFoundation.IMFMediaEvent.LockStore*
+- uid: NAudio.MediaFoundation.IMFMediaEvent.UnlockStore
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.UnlockStore
+  id: UnlockStore
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: UnlockStore()
+  nameWithType: IMFMediaEvent.UnlockStore()
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.UnlockStore()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void UnlockStore()
+    content.vb: Sub UnlockStore()
+  overload: NAudio.MediaFoundation.IMFMediaEvent.UnlockStore*
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetCount(System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetCount(System.Int32@)
+  id: GetCount(System.Int32@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetCount(out int)
+  nameWithType: IMFMediaEvent.GetCount(out int)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetCount(out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetCount(out int pcItems)
+    parameters:
+    - id: pcItems
+      type: System.Int32
+    content.vb: Sub GetCount(pcItems As Integer)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetCount*
+  nameWithType.vb: IMFMediaEvent.GetCount(Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetCount(Integer)
+  name.vb: GetCount(Integer)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetItemByIndex(System.Int32,System.Guid@,System.IntPtr)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetItemByIndex(System.Int32,System.Guid@,System.IntPtr)
+  id: GetItemByIndex(System.Int32,System.Guid@,System.IntPtr)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetItemByIndex(int, out Guid, IntPtr)
+  nameWithType: IMFMediaEvent.GetItemByIndex(int, out Guid, IntPtr)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetItemByIndex(int, out System.Guid, System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetItemByIndex(int unIndex, out Guid pGuidKey, IntPtr pValue)
+    parameters:
+    - id: unIndex
+      type: System.Int32
+    - id: pGuidKey
+      type: System.Guid
+    - id: pValue
+      type: System.IntPtr
+    content.vb: Sub GetItemByIndex(unIndex As Integer, pGuidKey As Guid, pValue As IntPtr)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetItemByIndex*
+  nameWithType.vb: IMFMediaEvent.GetItemByIndex(Integer, Guid, IntPtr)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetItemByIndex(Integer, System.Guid, System.IntPtr)
+  name.vb: GetItemByIndex(Integer, Guid, IntPtr)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.CopyAllItems(NAudio.MediaFoundation.IMFAttributes)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.CopyAllItems(NAudio.MediaFoundation.IMFAttributes)
+  id: CopyAllItems(NAudio.MediaFoundation.IMFAttributes)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: CopyAllItems(IMFAttributes)
+  nameWithType: IMFMediaEvent.CopyAllItems(IMFAttributes)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.CopyAllItems(NAudio.MediaFoundation.IMFAttributes)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void CopyAllItems(IMFAttributes pDest)
+    parameters:
+    - id: pDest
+      type: NAudio.MediaFoundation.IMFAttributes
+    content.vb: Sub CopyAllItems(pDest As IMFAttributes)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.CopyAllItems*
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetType(NAudio.MediaFoundation.MediaEventType@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetType(NAudio.MediaFoundation.MediaEventType@)
+  id: GetType(NAudio.MediaFoundation.MediaEventType@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetType(out MediaEventType)
+  nameWithType: IMFMediaEvent.GetType(out MediaEventType)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetType(out NAudio.MediaFoundation.MediaEventType)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetType(out MediaEventType pmet)
+    parameters:
+    - id: pmet
+      type: NAudio.MediaFoundation.MediaEventType
+    content.vb: Sub [GetType](pmet As MediaEventType)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetType*
+  nameWithType.vb: IMFMediaEvent.GetType(MediaEventType)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetType(NAudio.MediaFoundation.MediaEventType)
+  name.vb: GetType(MediaEventType)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetExtendedType(System.Guid@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetExtendedType(System.Guid@)
+  id: GetExtendedType(System.Guid@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetExtendedType(out Guid)
+  nameWithType: IMFMediaEvent.GetExtendedType(out Guid)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetExtendedType(out System.Guid)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetExtendedType(out Guid pguidExtendedType)
+    parameters:
+    - id: pguidExtendedType
+      type: System.Guid
+    content.vb: Sub GetExtendedType(pguidExtendedType As Guid)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetExtendedType*
+  nameWithType.vb: IMFMediaEvent.GetExtendedType(Guid)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetExtendedType(System.Guid)
+  name.vb: GetExtendedType(Guid)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetStatus(System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetStatus(System.Int32@)
+  id: GetStatus(System.Int32@)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetStatus(out int)
+  nameWithType: IMFMediaEvent.GetStatus(out int)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetStatus(out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetStatus(out int phrStatus)
+    parameters:
+    - id: phrStatus
+      type: System.Int32
+    content.vb: Sub GetStatus(phrStatus As Integer)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetStatus*
+  nameWithType.vb: IMFMediaEvent.GetStatus(Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaEvent.GetStatus(Integer)
+  name.vb: GetStatus(Integer)
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetValue(System.IntPtr)
+  commentId: M:NAudio.MediaFoundation.IMFMediaEvent.GetValue(System.IntPtr)
+  id: GetValue(System.IntPtr)
+  parent: NAudio.MediaFoundation.IMFMediaEvent
+  langs:
+  - csharp
+  - vb
+  name: GetValue(IntPtr)
+  nameWithType: IMFMediaEvent.GetValue(IntPtr)
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetValue(System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetValue(IntPtr pvValue)
+    parameters:
+    - id: pvValue
+      type: System.IntPtr
+    content.vb: Sub GetValue(pvValue As IntPtr)
+  overload: NAudio.MediaFoundation.IMFMediaEvent.GetValue*
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetItem*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetItem
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetItem_System_Guid_System_IntPtr_
+  name: GetItem
+  nameWithType: IMFMediaEvent.GetItem
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetItem
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetItemType*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetItemType
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetItemType_System_Guid_System_Int32__
+  name: GetItemType
+  nameWithType: IMFMediaEvent.GetItemType
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetItemType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.MediaFoundation.IMFMediaEvent.CompareItem*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.CompareItem
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_CompareItem_System_Guid_System_IntPtr_System_Boolean__
+  name: CompareItem
+  nameWithType: IMFMediaEvent.CompareItem
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.CompareItem
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NAudio.MediaFoundation.IMFMediaEvent.Compare*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.Compare
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_Compare_NAudio_MediaFoundation_IMFAttributes_System_Int32_System_Boolean__
+  name: Compare
+  nameWithType: IMFMediaEvent.Compare
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.Compare
+- uid: NAudio.MediaFoundation.IMFAttributes
+  commentId: T:NAudio.MediaFoundation.IMFAttributes
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFAttributes.html
+  name: IMFAttributes
+  nameWithType: IMFAttributes
+  fullName: NAudio.MediaFoundation.IMFAttributes
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetUINT32*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetUINT32
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetUINT32_System_Guid_System_Int32__
+  name: GetUINT32
+  nameWithType: IMFMediaEvent.GetUINT32
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetUINT32
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetUINT64*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetUINT64
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetUINT64_System_Guid_System_Int64__
+  name: GetUINT64
+  nameWithType: IMFMediaEvent.GetUINT64
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetUINT64
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetDouble*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetDouble
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetDouble_System_Guid_System_Double__
+  name: GetDouble
+  nameWithType: IMFMediaEvent.GetDouble
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetDouble
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetGUID*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetGUID
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetGUID_System_Guid_System_Guid__
+  name: GetGUID
+  nameWithType: IMFMediaEvent.GetGUID
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetGUID
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetStringLength*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetStringLength
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetStringLength_System_Guid_System_Int32__
+  name: GetStringLength
+  nameWithType: IMFMediaEvent.GetStringLength
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetStringLength
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetString*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetString
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetString_System_Guid_System_Text_StringBuilder_System_Int32_System_Int32__
+  name: GetString
+  nameWithType: IMFMediaEvent.GetString
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetString
+- uid: System.Text.StringBuilder
+  commentId: T:System.Text.StringBuilder
+  parent: System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.stringbuilder
+  name: StringBuilder
+  nameWithType: StringBuilder
+  fullName: System.Text.StringBuilder
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedString*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedString
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetAllocatedString_System_Guid_System_String__System_Int32__
+  name: GetAllocatedString
+  nameWithType: IMFMediaEvent.GetAllocatedString
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetBlobSize*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetBlobSize
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetBlobSize_System_Guid_System_Int32__
+  name: GetBlobSize
+  nameWithType: IMFMediaEvent.GetBlobSize
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetBlobSize
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetBlob*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetBlob
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetBlob_System_Guid_System_Byte___System_Int32_System_Int32__
+  name: GetBlob
+  nameWithType: IMFMediaEvent.GetBlob
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetBlob
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedBlob*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedBlob
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetAllocatedBlob_System_Guid_System_IntPtr__System_Int32__
+  name: GetAllocatedBlob
+  nameWithType: IMFMediaEvent.GetAllocatedBlob
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetAllocatedBlob
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetUnknown*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetUnknown
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetUnknown_System_Guid_System_Guid_System_Object__
+  name: GetUnknown
+  nameWithType: IMFMediaEvent.GetUnknown
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetUnknown
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NAudio.MediaFoundation.IMFMediaEvent.SetItem*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.SetItem
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_SetItem_System_Guid_System_IntPtr_
+  name: SetItem
+  nameWithType: IMFMediaEvent.SetItem
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.SetItem
+- uid: NAudio.MediaFoundation.IMFMediaEvent.DeleteItem*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.DeleteItem
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_DeleteItem_System_Guid_
+  name: DeleteItem
+  nameWithType: IMFMediaEvent.DeleteItem
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.DeleteItem
+- uid: NAudio.MediaFoundation.IMFMediaEvent.DeleteAllItems*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.DeleteAllItems
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_DeleteAllItems
+  name: DeleteAllItems
+  nameWithType: IMFMediaEvent.DeleteAllItems
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.DeleteAllItems
+- uid: NAudio.MediaFoundation.IMFMediaEvent.SetUINT32*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.SetUINT32
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_SetUINT32_System_Guid_System_Int32_
+  name: SetUINT32
+  nameWithType: IMFMediaEvent.SetUINT32
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.SetUINT32
+- uid: NAudio.MediaFoundation.IMFMediaEvent.SetUINT64*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.SetUINT64
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_SetUINT64_System_Guid_System_Int64_
+  name: SetUINT64
+  nameWithType: IMFMediaEvent.SetUINT64
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.SetUINT64
+- uid: NAudio.MediaFoundation.IMFMediaEvent.SetDouble*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.SetDouble
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_SetDouble_System_Guid_System_Double_
+  name: SetDouble
+  nameWithType: IMFMediaEvent.SetDouble
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.SetDouble
+- uid: NAudio.MediaFoundation.IMFMediaEvent.SetGUID*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.SetGUID
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_SetGUID_System_Guid_System_Guid_
+  name: SetGUID
+  nameWithType: IMFMediaEvent.SetGUID
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.SetGUID
+- uid: NAudio.MediaFoundation.IMFMediaEvent.SetString*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.SetString
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_SetString_System_Guid_System_String_
+  name: SetString
+  nameWithType: IMFMediaEvent.SetString
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.SetString
+- uid: NAudio.MediaFoundation.IMFMediaEvent.SetBlob*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.SetBlob
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_SetBlob_System_Guid_System_Byte___System_Int32_
+  name: SetBlob
+  nameWithType: IMFMediaEvent.SetBlob
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.SetBlob
+- uid: NAudio.MediaFoundation.IMFMediaEvent.SetUnknown*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.SetUnknown
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_SetUnknown_System_Guid_System_Object_
+  name: SetUnknown
+  nameWithType: IMFMediaEvent.SetUnknown
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.SetUnknown
+- uid: NAudio.MediaFoundation.IMFMediaEvent.LockStore*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.LockStore
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_LockStore
+  name: LockStore
+  nameWithType: IMFMediaEvent.LockStore
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.LockStore
+- uid: NAudio.MediaFoundation.IMFMediaEvent.UnlockStore*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.UnlockStore
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_UnlockStore
+  name: UnlockStore
+  nameWithType: IMFMediaEvent.UnlockStore
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.UnlockStore
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetCount*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetCount
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetCount_System_Int32__
+  name: GetCount
+  nameWithType: IMFMediaEvent.GetCount
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetCount
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetItemByIndex*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetItemByIndex
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetItemByIndex_System_Int32_System_Guid__System_IntPtr_
+  name: GetItemByIndex
+  nameWithType: IMFMediaEvent.GetItemByIndex
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetItemByIndex
+- uid: NAudio.MediaFoundation.IMFMediaEvent.CopyAllItems*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.CopyAllItems
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_CopyAllItems_NAudio_MediaFoundation_IMFAttributes_
+  name: CopyAllItems
+  nameWithType: IMFMediaEvent.CopyAllItems
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.CopyAllItems
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetType*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetType
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetType_NAudio_MediaFoundation_MediaEventType__
+  name: GetType
+  nameWithType: IMFMediaEvent.GetType
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetType
+- uid: NAudio.MediaFoundation.MediaEventType
+  commentId: T:NAudio.MediaFoundation.MediaEventType
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.MediaEventType.html
+  name: MediaEventType
+  nameWithType: MediaEventType
+  fullName: NAudio.MediaFoundation.MediaEventType
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetExtendedType*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetExtendedType
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetExtendedType_System_Guid__
+  name: GetExtendedType
+  nameWithType: IMFMediaEvent.GetExtendedType
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetExtendedType
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetStatus*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetStatus
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetStatus_System_Int32__
+  name: GetStatus
+  nameWithType: IMFMediaEvent.GetStatus
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetStatus
+- uid: NAudio.MediaFoundation.IMFMediaEvent.GetValue*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaEvent.GetValue
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html#NAudio_MediaFoundation_IMFMediaEvent_GetValue_System_IntPtr_
+  name: GetValue
+  nameWithType: IMFMediaEvent.GetValue
+  fullName: NAudio.MediaFoundation.IMFMediaEvent.GetValue

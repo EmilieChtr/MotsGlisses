@@ -1,0 +1,747 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Mixer.Mixer
+  commentId: T:NAudio.Mixer.Mixer
+  id: Mixer
+  parent: NAudio.Mixer
+  children:
+  - NAudio.Mixer.Mixer.#ctor(System.Int32)
+  - NAudio.Mixer.Mixer.DestinationCount
+  - NAudio.Mixer.Mixer.Destinations
+  - NAudio.Mixer.Mixer.GetDestination(System.Int32)
+  - NAudio.Mixer.Mixer.Manufacturer
+  - NAudio.Mixer.Mixer.Mixers
+  - NAudio.Mixer.Mixer.Name
+  - NAudio.Mixer.Mixer.NumberOfDevices
+  - NAudio.Mixer.Mixer.ProductID
+  langs:
+  - csharp
+  - vb
+  name: Mixer
+  nameWithType: Mixer
+  fullName: NAudio.Mixer.Mixer
+  type: Class
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: public class Mixer
+    content.vb: Public Class Mixer
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Mixer.Mixer.#ctor(System.Int32)
+  commentId: M:NAudio.Mixer.Mixer.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: NAudio.Mixer.Mixer
+  langs:
+  - csharp
+  - vb
+  name: Mixer(int)
+  nameWithType: Mixer.Mixer(int)
+  fullName: NAudio.Mixer.Mixer.Mixer(int)
+  type: Constructor
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: public Mixer(int mixerIndex)
+    parameters:
+    - id: mixerIndex
+      type: System.Int32
+    content.vb: Public Sub New(mixerIndex As Integer)
+  overload: NAudio.Mixer.Mixer.#ctor*
+  nameWithType.vb: Mixer.New(Integer)
+  fullName.vb: NAudio.Mixer.Mixer.New(Integer)
+  name.vb: New(Integer)
+- uid: NAudio.Mixer.Mixer.GetDestination(System.Int32)
+  commentId: M:NAudio.Mixer.Mixer.GetDestination(System.Int32)
+  id: GetDestination(System.Int32)
+  parent: NAudio.Mixer.Mixer
+  langs:
+  - csharp
+  - vb
+  name: GetDestination(int)
+  nameWithType: Mixer.GetDestination(int)
+  fullName: NAudio.Mixer.Mixer.GetDestination(int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: public MixerLine GetDestination(int destinationIndex)
+    parameters:
+    - id: destinationIndex
+      type: System.Int32
+    return:
+      type: NAudio.Mixer.MixerLine
+    content.vb: Public Function GetDestination(destinationIndex As Integer) As MixerLine
+  overload: NAudio.Mixer.Mixer.GetDestination*
+  nameWithType.vb: Mixer.GetDestination(Integer)
+  fullName.vb: NAudio.Mixer.Mixer.GetDestination(Integer)
+  name.vb: GetDestination(Integer)
+- uid: NAudio.Mixer.Mixer.NumberOfDevices
+  commentId: P:NAudio.Mixer.Mixer.NumberOfDevices
+  id: NumberOfDevices
+  parent: NAudio.Mixer.Mixer
+  langs:
+  - csharp
+  - vb
+  name: NumberOfDevices
+  nameWithType: Mixer.NumberOfDevices
+  fullName: NAudio.Mixer.Mixer.NumberOfDevices
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: public static int NumberOfDevices { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property NumberOfDevices As Integer
+  overload: NAudio.Mixer.Mixer.NumberOfDevices*
+- uid: NAudio.Mixer.Mixer.DestinationCount
+  commentId: P:NAudio.Mixer.Mixer.DestinationCount
+  id: DestinationCount
+  parent: NAudio.Mixer.Mixer
+  langs:
+  - csharp
+  - vb
+  name: DestinationCount
+  nameWithType: Mixer.DestinationCount
+  fullName: NAudio.Mixer.Mixer.DestinationCount
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: public int DestinationCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DestinationCount As Integer
+  overload: NAudio.Mixer.Mixer.DestinationCount*
+- uid: NAudio.Mixer.Mixer.Name
+  commentId: P:NAudio.Mixer.Mixer.Name
+  id: Name
+  parent: NAudio.Mixer.Mixer
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Mixer.Name
+  fullName: NAudio.Mixer.Mixer.Name
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: NAudio.Mixer.Mixer.Name*
+- uid: NAudio.Mixer.Mixer.Manufacturer
+  commentId: P:NAudio.Mixer.Mixer.Manufacturer
+  id: Manufacturer
+  parent: NAudio.Mixer.Mixer
+  langs:
+  - csharp
+  - vb
+  name: Manufacturer
+  nameWithType: Mixer.Manufacturer
+  fullName: NAudio.Mixer.Mixer.Manufacturer
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: public Manufacturers Manufacturer { get; }
+    parameters: []
+    return:
+      type: NAudio.Manufacturers
+    content.vb: Public ReadOnly Property Manufacturer As Manufacturers
+  overload: NAudio.Mixer.Mixer.Manufacturer*
+- uid: NAudio.Mixer.Mixer.ProductID
+  commentId: P:NAudio.Mixer.Mixer.ProductID
+  id: ProductID
+  parent: NAudio.Mixer.Mixer
+  langs:
+  - csharp
+  - vb
+  name: ProductID
+  nameWithType: Mixer.ProductID
+  fullName: NAudio.Mixer.Mixer.ProductID
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: public int ProductID { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ProductID As Integer
+  overload: NAudio.Mixer.Mixer.ProductID*
+- uid: NAudio.Mixer.Mixer.Destinations
+  commentId: P:NAudio.Mixer.Mixer.Destinations
+  id: Destinations
+  parent: NAudio.Mixer.Mixer
+  langs:
+  - csharp
+  - vb
+  name: Destinations
+  nameWithType: Mixer.Destinations
+  fullName: NAudio.Mixer.Mixer.Destinations
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: public IEnumerable<MixerLine> Destinations { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{NAudio.Mixer.MixerLine}
+    content.vb: Public ReadOnly Property Destinations As IEnumerable(Of MixerLine)
+  overload: NAudio.Mixer.Mixer.Destinations*
+- uid: NAudio.Mixer.Mixer.Mixers
+  commentId: P:NAudio.Mixer.Mixer.Mixers
+  id: Mixers
+  parent: NAudio.Mixer.Mixer
+  langs:
+  - csharp
+  - vb
+  name: Mixers
+  nameWithType: Mixer.Mixers
+  fullName: NAudio.Mixer.Mixer.Mixers
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: public static IEnumerable<Mixer> Mixers { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{NAudio.Mixer.Mixer}
+    content.vb: Public Shared ReadOnly Property Mixers As IEnumerable(Of Mixer)
+  overload: NAudio.Mixer.Mixer.Mixers*
+references:
+- uid: NAudio.Mixer
+  commentId: N:NAudio.Mixer
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Mixer
+  nameWithType: NAudio.Mixer
+  fullName: NAudio.Mixer
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Mixer
+    name: Mixer
+    isExternal: true
+    href: NAudio.Mixer.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Mixer
+    name: Mixer
+    isExternal: true
+    href: NAudio.Mixer.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Mixer.Mixer.#ctor*
+  commentId: Overload:NAudio.Mixer.Mixer.#ctor
+  isExternal: true
+  href: NAudio.Mixer.Mixer.html#NAudio_Mixer_Mixer__ctor_System_Int32_
+  name: Mixer
+  nameWithType: Mixer.Mixer
+  fullName: NAudio.Mixer.Mixer.Mixer
+  nameWithType.vb: Mixer.New
+  fullName.vb: NAudio.Mixer.Mixer.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.Mixer.Mixer.GetDestination*
+  commentId: Overload:NAudio.Mixer.Mixer.GetDestination
+  isExternal: true
+  href: NAudio.Mixer.Mixer.html#NAudio_Mixer_Mixer_GetDestination_System_Int32_
+  name: GetDestination
+  nameWithType: Mixer.GetDestination
+  fullName: NAudio.Mixer.Mixer.GetDestination
+- uid: NAudio.Mixer.MixerLine
+  commentId: T:NAudio.Mixer.MixerLine
+  parent: NAudio.Mixer
+  isExternal: true
+  href: NAudio.Mixer.MixerLine.html
+  name: MixerLine
+  nameWithType: MixerLine
+  fullName: NAudio.Mixer.MixerLine
+- uid: NAudio.Mixer.Mixer.NumberOfDevices*
+  commentId: Overload:NAudio.Mixer.Mixer.NumberOfDevices
+  isExternal: true
+  href: NAudio.Mixer.Mixer.html#NAudio_Mixer_Mixer_NumberOfDevices
+  name: NumberOfDevices
+  nameWithType: Mixer.NumberOfDevices
+  fullName: NAudio.Mixer.Mixer.NumberOfDevices
+- uid: NAudio.Mixer.Mixer.DestinationCount*
+  commentId: Overload:NAudio.Mixer.Mixer.DestinationCount
+  isExternal: true
+  href: NAudio.Mixer.Mixer.html#NAudio_Mixer_Mixer_DestinationCount
+  name: DestinationCount
+  nameWithType: Mixer.DestinationCount
+  fullName: NAudio.Mixer.Mixer.DestinationCount
+- uid: NAudio.Mixer.Mixer.Name*
+  commentId: Overload:NAudio.Mixer.Mixer.Name
+  isExternal: true
+  href: NAudio.Mixer.Mixer.html#NAudio_Mixer_Mixer_Name
+  name: Name
+  nameWithType: Mixer.Name
+  fullName: NAudio.Mixer.Mixer.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.Mixer.Mixer.Manufacturer*
+  commentId: Overload:NAudio.Mixer.Mixer.Manufacturer
+  isExternal: true
+  href: NAudio.Mixer.Mixer.html#NAudio_Mixer_Mixer_Manufacturer
+  name: Manufacturer
+  nameWithType: Mixer.Manufacturer
+  fullName: NAudio.Mixer.Mixer.Manufacturer
+- uid: NAudio.Manufacturers
+  commentId: T:NAudio.Manufacturers
+  parent: NAudio
+  isExternal: true
+  href: NAudio.Manufacturers.html
+  name: Manufacturers
+  nameWithType: Manufacturers
+  fullName: NAudio.Manufacturers
+- uid: NAudio
+  commentId: N:NAudio
+  isExternal: true
+  href: NAudio.html
+  name: NAudio
+  nameWithType: NAudio
+  fullName: NAudio
+- uid: NAudio.Mixer.Mixer.ProductID*
+  commentId: Overload:NAudio.Mixer.Mixer.ProductID
+  isExternal: true
+  href: NAudio.Mixer.Mixer.html#NAudio_Mixer_Mixer_ProductID
+  name: ProductID
+  nameWithType: Mixer.ProductID
+  fullName: NAudio.Mixer.Mixer.ProductID
+- uid: NAudio.Mixer.Mixer.Destinations*
+  commentId: Overload:NAudio.Mixer.Mixer.Destinations
+  isExternal: true
+  href: NAudio.Mixer.Mixer.html#NAudio_Mixer_Mixer_Destinations
+  name: Destinations
+  nameWithType: Mixer.Destinations
+  fullName: NAudio.Mixer.Mixer.Destinations
+- uid: System.Collections.Generic.IEnumerable{NAudio.Mixer.MixerLine}
+  commentId: T:System.Collections.Generic.IEnumerable{NAudio.Mixer.MixerLine}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<MixerLine>
+  nameWithType: IEnumerable<MixerLine>
+  fullName: System.Collections.Generic.IEnumerable<NAudio.Mixer.MixerLine>
+  nameWithType.vb: IEnumerable(Of MixerLine)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of NAudio.Mixer.MixerLine)
+  name.vb: IEnumerable(Of MixerLine)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: NAudio.Mixer.MixerLine
+    name: MixerLine
+    isExternal: true
+    href: NAudio.Mixer.MixerLine.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NAudio.Mixer.MixerLine
+    name: MixerLine
+    isExternal: true
+    href: NAudio.Mixer.MixerLine.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: NAudio.Mixer.Mixer.Mixers*
+  commentId: Overload:NAudio.Mixer.Mixer.Mixers
+  isExternal: true
+  href: NAudio.Mixer.Mixer.html#NAudio_Mixer_Mixer_Mixers
+  name: Mixers
+  nameWithType: Mixer.Mixers
+  fullName: NAudio.Mixer.Mixer.Mixers
+- uid: System.Collections.Generic.IEnumerable{NAudio.Mixer.Mixer}
+  commentId: T:System.Collections.Generic.IEnumerable{NAudio.Mixer.Mixer}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Mixer>
+  nameWithType: IEnumerable<Mixer>
+  fullName: System.Collections.Generic.IEnumerable<NAudio.Mixer.Mixer>
+  nameWithType.vb: IEnumerable(Of Mixer)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of NAudio.Mixer.Mixer)
+  name.vb: IEnumerable(Of Mixer)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: NAudio.Mixer.Mixer
+    name: Mixer
+    isExternal: true
+    href: NAudio.Mixer.Mixer.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NAudio.Mixer.Mixer
+    name: Mixer
+    isExternal: true
+    href: NAudio.Mixer.Mixer.html
+  - name: )

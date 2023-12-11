@@ -1,0 +1,551 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+  commentId: T:NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+  id: AudioVolumeLevel
+  parent: NAudio.Wasapi.CoreAudioApi
+  children:
+  - NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.ChannelCount
+  - NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevel(System.UInt32)
+  - NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevelRange(System.UInt32,System.Single@,System.Single@,System.Single@)
+  - NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevel(System.UInt32,System.Single)
+  - NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelAllChannel(System.Single[],System.UInt32)
+  - NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelUniform(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: AudioVolumeLevel
+  nameWithType: AudioVolumeLevel
+  fullName: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+  type: Class
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wasapi.CoreAudioApi
+  syntax:
+    content: public class AudioVolumeLevel
+    content.vb: Public Class AudioVolumeLevel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevelRange(System.UInt32,System.Single@,System.Single@,System.Single@)
+  commentId: M:NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevelRange(System.UInt32,System.Single@,System.Single@,System.Single@)
+  id: GetLevelRange(System.UInt32,System.Single@,System.Single@,System.Single@)
+  parent: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+  langs:
+  - csharp
+  - vb
+  name: GetLevelRange(uint, out float, out float, out float)
+  nameWithType: AudioVolumeLevel.GetLevelRange(uint, out float, out float, out float)
+  fullName: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevelRange(uint, out float, out float, out float)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wasapi.CoreAudioApi
+  syntax:
+    content: public void GetLevelRange(uint channel, out float minLevelDb, out float maxLevelDb, out float stepping)
+    parameters:
+    - id: channel
+      type: System.UInt32
+    - id: minLevelDb
+      type: System.Single
+    - id: maxLevelDb
+      type: System.Single
+    - id: stepping
+      type: System.Single
+    content.vb: Public Sub GetLevelRange(channel As UInteger, minLevelDb As Single, maxLevelDb As Single, stepping As Single)
+  overload: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevelRange*
+  nameWithType.vb: AudioVolumeLevel.GetLevelRange(UInteger, Single, Single, Single)
+  fullName.vb: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevelRange(UInteger, Single, Single, Single)
+  name.vb: GetLevelRange(UInteger, Single, Single, Single)
+- uid: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevel(System.UInt32)
+  commentId: M:NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevel(System.UInt32)
+  id: GetLevel(System.UInt32)
+  parent: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+  langs:
+  - csharp
+  - vb
+  name: GetLevel(uint)
+  nameWithType: AudioVolumeLevel.GetLevel(uint)
+  fullName: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevel(uint)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wasapi.CoreAudioApi
+  syntax:
+    content: public float GetLevel(uint channel)
+    parameters:
+    - id: channel
+      type: System.UInt32
+    return:
+      type: System.Single
+    content.vb: Public Function GetLevel(channel As UInteger) As Single
+  overload: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevel*
+  nameWithType.vb: AudioVolumeLevel.GetLevel(UInteger)
+  fullName.vb: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevel(UInteger)
+  name.vb: GetLevel(UInteger)
+- uid: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevel(System.UInt32,System.Single)
+  commentId: M:NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevel(System.UInt32,System.Single)
+  id: SetLevel(System.UInt32,System.Single)
+  parent: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+  langs:
+  - csharp
+  - vb
+  name: SetLevel(uint, float)
+  nameWithType: AudioVolumeLevel.SetLevel(uint, float)
+  fullName: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevel(uint, float)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wasapi.CoreAudioApi
+  syntax:
+    content: public void SetLevel(uint channel, float value)
+    parameters:
+    - id: channel
+      type: System.UInt32
+    - id: value
+      type: System.Single
+    content.vb: Public Sub SetLevel(channel As UInteger, value As Single)
+  overload: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevel*
+  nameWithType.vb: AudioVolumeLevel.SetLevel(UInteger, Single)
+  fullName.vb: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevel(UInteger, Single)
+  name.vb: SetLevel(UInteger, Single)
+- uid: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelUniform(System.Single)
+  commentId: M:NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelUniform(System.Single)
+  id: SetLevelUniform(System.Single)
+  parent: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+  langs:
+  - csharp
+  - vb
+  name: SetLevelUniform(float)
+  nameWithType: AudioVolumeLevel.SetLevelUniform(float)
+  fullName: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelUniform(float)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wasapi.CoreAudioApi
+  syntax:
+    content: public void SetLevelUniform(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    content.vb: Public Sub SetLevelUniform(value As Single)
+  overload: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelUniform*
+  nameWithType.vb: AudioVolumeLevel.SetLevelUniform(Single)
+  fullName.vb: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelUniform(Single)
+  name.vb: SetLevelUniform(Single)
+- uid: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelAllChannel(System.Single[],System.UInt32)
+  commentId: M:NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelAllChannel(System.Single[],System.UInt32)
+  id: SetLevelAllChannel(System.Single[],System.UInt32)
+  parent: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+  langs:
+  - csharp
+  - vb
+  name: SetLevelAllChannel(float[], uint)
+  nameWithType: AudioVolumeLevel.SetLevelAllChannel(float[], uint)
+  fullName: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelAllChannel(float[], uint)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wasapi.CoreAudioApi
+  syntax:
+    content: public void SetLevelAllChannel(float[] values, uint channels)
+    parameters:
+    - id: values
+      type: System.Single[]
+    - id: channels
+      type: System.UInt32
+    content.vb: Public Sub SetLevelAllChannel(values As Single(), channels As UInteger)
+  overload: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelAllChannel*
+  nameWithType.vb: AudioVolumeLevel.SetLevelAllChannel(Single(), UInteger)
+  fullName.vb: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelAllChannel(Single(), UInteger)
+  name.vb: SetLevelAllChannel(Single(), UInteger)
+- uid: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.ChannelCount
+  commentId: P:NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.ChannelCount
+  id: ChannelCount
+  parent: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+  langs:
+  - csharp
+  - vb
+  name: ChannelCount
+  nameWithType: AudioVolumeLevel.ChannelCount
+  fullName: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.ChannelCount
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wasapi.CoreAudioApi
+  syntax:
+    content: public uint ChannelCount { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Property ChannelCount As UInteger
+  overload: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.ChannelCount*
+references:
+- uid: NAudio.Wasapi.CoreAudioApi
+  commentId: N:NAudio.Wasapi.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wasapi.CoreAudioApi
+  nameWithType: NAudio.Wasapi.CoreAudioApi
+  fullName: NAudio.Wasapi.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wasapi
+    name: Wasapi
+    isExternal: true
+    href: NAudio.Wasapi.html
+  - name: .
+  - uid: NAudio.Wasapi.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.Wasapi.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wasapi
+    name: Wasapi
+    isExternal: true
+    href: NAudio.Wasapi.html
+  - name: .
+  - uid: NAudio.Wasapi.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.Wasapi.CoreAudioApi.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevelRange*
+  commentId: Overload:NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevelRange
+  isExternal: true
+  href: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.html#NAudio_Wasapi_CoreAudioApi_AudioVolumeLevel_GetLevelRange_System_UInt32_System_Single__System_Single__System_Single__
+  name: GetLevelRange
+  nameWithType: AudioVolumeLevel.GetLevelRange
+  fullName: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevelRange
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevel*
+  commentId: Overload:NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevel
+  isExternal: true
+  href: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.html#NAudio_Wasapi_CoreAudioApi_AudioVolumeLevel_GetLevel_System_UInt32_
+  name: GetLevel
+  nameWithType: AudioVolumeLevel.GetLevel
+  fullName: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.GetLevel
+- uid: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevel*
+  commentId: Overload:NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevel
+  isExternal: true
+  href: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.html#NAudio_Wasapi_CoreAudioApi_AudioVolumeLevel_SetLevel_System_UInt32_System_Single_
+  name: SetLevel
+  nameWithType: AudioVolumeLevel.SetLevel
+  fullName: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevel
+- uid: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelUniform*
+  commentId: Overload:NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelUniform
+  isExternal: true
+  href: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.html#NAudio_Wasapi_CoreAudioApi_AudioVolumeLevel_SetLevelUniform_System_Single_
+  name: SetLevelUniform
+  nameWithType: AudioVolumeLevel.SetLevelUniform
+  fullName: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelUniform
+- uid: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelAllChannel*
+  commentId: Overload:NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelAllChannel
+  isExternal: true
+  href: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.html#NAudio_Wasapi_CoreAudioApi_AudioVolumeLevel_SetLevelAllChannel_System_Single___System_UInt32_
+  name: SetLevelAllChannel
+  nameWithType: AudioVolumeLevel.SetLevelAllChannel
+  fullName: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.SetLevelAllChannel
+- uid: System.Single[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float[]
+  nameWithType: float[]
+  fullName: float[]
+  nameWithType.vb: Single()
+  fullName.vb: Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: (
+  - name: )
+- uid: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.ChannelCount*
+  commentId: Overload:NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.ChannelCount
+  isExternal: true
+  href: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.html#NAudio_Wasapi_CoreAudioApi_AudioVolumeLevel_ChannelCount
+  name: ChannelCount
+  nameWithType: AudioVolumeLevel.ChannelCount
+  fullName: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.ChannelCount

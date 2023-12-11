@@ -1,0 +1,627 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.SoundFont.Generator
+  commentId: T:NAudio.SoundFont.Generator
+  id: Generator
+  parent: NAudio.SoundFont
+  children:
+  - NAudio.SoundFont.Generator.#ctor
+  - NAudio.SoundFont.Generator.GeneratorType
+  - NAudio.SoundFont.Generator.HighByteAmount
+  - NAudio.SoundFont.Generator.Instrument
+  - NAudio.SoundFont.Generator.Int16Amount
+  - NAudio.SoundFont.Generator.LowByteAmount
+  - NAudio.SoundFont.Generator.SampleHeader
+  - NAudio.SoundFont.Generator.ToString
+  - NAudio.SoundFont.Generator.UInt16Amount
+  langs:
+  - csharp
+  - vb
+  name: Generator
+  nameWithType: Generator
+  fullName: NAudio.SoundFont.Generator
+  type: Class
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public class Generator
+    content.vb: Public Class Generator
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.SoundFont.Generator.ToString
+  commentId: M:NAudio.SoundFont.Generator.ToString
+  id: ToString
+  parent: NAudio.SoundFont.Generator
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Generator.ToString()
+  fullName: NAudio.SoundFont.Generator.ToString()
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: NAudio.SoundFont.Generator.ToString*
+- uid: NAudio.SoundFont.Generator.#ctor
+  commentId: M:NAudio.SoundFont.Generator.#ctor
+  id: '#ctor'
+  parent: NAudio.SoundFont.Generator
+  langs:
+  - csharp
+  - vb
+  name: Generator()
+  nameWithType: Generator.Generator()
+  fullName: NAudio.SoundFont.Generator.Generator()
+  type: Constructor
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public Generator()
+    content.vb: Public Sub New()
+  overload: NAudio.SoundFont.Generator.#ctor*
+  nameWithType.vb: Generator.New()
+  fullName.vb: NAudio.SoundFont.Generator.New()
+  name.vb: New()
+- uid: NAudio.SoundFont.Generator.GeneratorType
+  commentId: P:NAudio.SoundFont.Generator.GeneratorType
+  id: GeneratorType
+  parent: NAudio.SoundFont.Generator
+  langs:
+  - csharp
+  - vb
+  name: GeneratorType
+  nameWithType: Generator.GeneratorType
+  fullName: NAudio.SoundFont.Generator.GeneratorType
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public GeneratorEnum GeneratorType { get; set; }
+    parameters: []
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+    content.vb: Public Property GeneratorType As GeneratorEnum
+  overload: NAudio.SoundFont.Generator.GeneratorType*
+- uid: NAudio.SoundFont.Generator.UInt16Amount
+  commentId: P:NAudio.SoundFont.Generator.UInt16Amount
+  id: UInt16Amount
+  parent: NAudio.SoundFont.Generator
+  langs:
+  - csharp
+  - vb
+  name: UInt16Amount
+  nameWithType: Generator.UInt16Amount
+  fullName: NAudio.SoundFont.Generator.UInt16Amount
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public ushort UInt16Amount { get; set; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public Property UInt16Amount As UShort
+  overload: NAudio.SoundFont.Generator.UInt16Amount*
+- uid: NAudio.SoundFont.Generator.Int16Amount
+  commentId: P:NAudio.SoundFont.Generator.Int16Amount
+  id: Int16Amount
+  parent: NAudio.SoundFont.Generator
+  langs:
+  - csharp
+  - vb
+  name: Int16Amount
+  nameWithType: Generator.Int16Amount
+  fullName: NAudio.SoundFont.Generator.Int16Amount
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public short Int16Amount { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Property Int16Amount As Short
+  overload: NAudio.SoundFont.Generator.Int16Amount*
+- uid: NAudio.SoundFont.Generator.LowByteAmount
+  commentId: P:NAudio.SoundFont.Generator.LowByteAmount
+  id: LowByteAmount
+  parent: NAudio.SoundFont.Generator
+  langs:
+  - csharp
+  - vb
+  name: LowByteAmount
+  nameWithType: Generator.LowByteAmount
+  fullName: NAudio.SoundFont.Generator.LowByteAmount
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public byte LowByteAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property LowByteAmount As Byte
+  overload: NAudio.SoundFont.Generator.LowByteAmount*
+- uid: NAudio.SoundFont.Generator.HighByteAmount
+  commentId: P:NAudio.SoundFont.Generator.HighByteAmount
+  id: HighByteAmount
+  parent: NAudio.SoundFont.Generator
+  langs:
+  - csharp
+  - vb
+  name: HighByteAmount
+  nameWithType: Generator.HighByteAmount
+  fullName: NAudio.SoundFont.Generator.HighByteAmount
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public byte HighByteAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property HighByteAmount As Byte
+  overload: NAudio.SoundFont.Generator.HighByteAmount*
+- uid: NAudio.SoundFont.Generator.Instrument
+  commentId: P:NAudio.SoundFont.Generator.Instrument
+  id: Instrument
+  parent: NAudio.SoundFont.Generator
+  langs:
+  - csharp
+  - vb
+  name: Instrument
+  nameWithType: Generator.Instrument
+  fullName: NAudio.SoundFont.Generator.Instrument
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public Instrument Instrument { get; set; }
+    parameters: []
+    return:
+      type: NAudio.SoundFont.Instrument
+    content.vb: Public Property Instrument As Instrument
+  overload: NAudio.SoundFont.Generator.Instrument*
+- uid: NAudio.SoundFont.Generator.SampleHeader
+  commentId: P:NAudio.SoundFont.Generator.SampleHeader
+  id: SampleHeader
+  parent: NAudio.SoundFont.Generator
+  langs:
+  - csharp
+  - vb
+  name: SampleHeader
+  nameWithType: Generator.SampleHeader
+  fullName: NAudio.SoundFont.Generator.SampleHeader
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public SampleHeader SampleHeader { get; set; }
+    parameters: []
+    return:
+      type: NAudio.SoundFont.SampleHeader
+    content.vb: Public Property SampleHeader As SampleHeader
+  overload: NAudio.SoundFont.Generator.SampleHeader*
+references:
+- uid: NAudio.SoundFont
+  commentId: N:NAudio.SoundFont
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.SoundFont
+  nameWithType: NAudio.SoundFont
+  fullName: NAudio.SoundFont
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.SoundFont
+    name: SoundFont
+    isExternal: true
+    href: NAudio.SoundFont.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.SoundFont
+    name: SoundFont
+    isExternal: true
+    href: NAudio.SoundFont.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: NAudio.SoundFont.Generator.ToString*
+  commentId: Overload:NAudio.SoundFont.Generator.ToString
+  isExternal: true
+  href: NAudio.SoundFont.Generator.html#NAudio_SoundFont_Generator_ToString
+  name: ToString
+  nameWithType: Generator.ToString
+  fullName: NAudio.SoundFont.Generator.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.SoundFont.Generator.#ctor*
+  commentId: Overload:NAudio.SoundFont.Generator.#ctor
+  isExternal: true
+  href: NAudio.SoundFont.Generator.html#NAudio_SoundFont_Generator__ctor
+  name: Generator
+  nameWithType: Generator.Generator
+  fullName: NAudio.SoundFont.Generator.Generator
+  nameWithType.vb: Generator.New
+  fullName.vb: NAudio.SoundFont.Generator.New
+  name.vb: New
+- uid: NAudio.SoundFont.Generator.GeneratorType*
+  commentId: Overload:NAudio.SoundFont.Generator.GeneratorType
+  isExternal: true
+  href: NAudio.SoundFont.Generator.html#NAudio_SoundFont_Generator_GeneratorType
+  name: GeneratorType
+  nameWithType: Generator.GeneratorType
+  fullName: NAudio.SoundFont.Generator.GeneratorType
+- uid: NAudio.SoundFont.GeneratorEnum
+  commentId: T:NAudio.SoundFont.GeneratorEnum
+  parent: NAudio.SoundFont
+  isExternal: true
+  href: NAudio.SoundFont.GeneratorEnum.html
+  name: GeneratorEnum
+  nameWithType: GeneratorEnum
+  fullName: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.Generator.UInt16Amount*
+  commentId: Overload:NAudio.SoundFont.Generator.UInt16Amount
+  isExternal: true
+  href: NAudio.SoundFont.Generator.html#NAudio_SoundFont_Generator_UInt16Amount
+  name: UInt16Amount
+  nameWithType: Generator.UInt16Amount
+  fullName: NAudio.SoundFont.Generator.UInt16Amount
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: NAudio.SoundFont.Generator.Int16Amount*
+  commentId: Overload:NAudio.SoundFont.Generator.Int16Amount
+  isExternal: true
+  href: NAudio.SoundFont.Generator.html#NAudio_SoundFont_Generator_Int16Amount
+  name: Int16Amount
+  nameWithType: Generator.Int16Amount
+  fullName: NAudio.SoundFont.Generator.Int16Amount
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: NAudio.SoundFont.Generator.LowByteAmount*
+  commentId: Overload:NAudio.SoundFont.Generator.LowByteAmount
+  isExternal: true
+  href: NAudio.SoundFont.Generator.html#NAudio_SoundFont_Generator_LowByteAmount
+  name: LowByteAmount
+  nameWithType: Generator.LowByteAmount
+  fullName: NAudio.SoundFont.Generator.LowByteAmount
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: NAudio.SoundFont.Generator.HighByteAmount*
+  commentId: Overload:NAudio.SoundFont.Generator.HighByteAmount
+  isExternal: true
+  href: NAudio.SoundFont.Generator.html#NAudio_SoundFont_Generator_HighByteAmount
+  name: HighByteAmount
+  nameWithType: Generator.HighByteAmount
+  fullName: NAudio.SoundFont.Generator.HighByteAmount
+- uid: NAudio.SoundFont.Generator.Instrument*
+  commentId: Overload:NAudio.SoundFont.Generator.Instrument
+  isExternal: true
+  href: NAudio.SoundFont.Generator.html#NAudio_SoundFont_Generator_Instrument
+  name: Instrument
+  nameWithType: Generator.Instrument
+  fullName: NAudio.SoundFont.Generator.Instrument
+- uid: NAudio.SoundFont.Instrument
+  commentId: T:NAudio.SoundFont.Instrument
+  parent: NAudio.SoundFont
+  isExternal: true
+  href: NAudio.SoundFont.Instrument.html
+  name: Instrument
+  nameWithType: Instrument
+  fullName: NAudio.SoundFont.Instrument
+- uid: NAudio.SoundFont.Generator.SampleHeader*
+  commentId: Overload:NAudio.SoundFont.Generator.SampleHeader
+  isExternal: true
+  href: NAudio.SoundFont.Generator.html#NAudio_SoundFont_Generator_SampleHeader
+  name: SampleHeader
+  nameWithType: Generator.SampleHeader
+  fullName: NAudio.SoundFont.Generator.SampleHeader
+- uid: NAudio.SoundFont.SampleHeader
+  commentId: T:NAudio.SoundFont.SampleHeader
+  parent: NAudio.SoundFont
+  isExternal: true
+  href: NAudio.SoundFont.SampleHeader.html
+  name: SampleHeader
+  nameWithType: SampleHeader
+  fullName: NAudio.SoundFont.SampleHeader

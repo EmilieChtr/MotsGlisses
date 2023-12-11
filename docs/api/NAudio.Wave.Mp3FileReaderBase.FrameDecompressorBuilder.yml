@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder
+  commentId: T:NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder
+  id: Mp3FileReaderBase.FrameDecompressorBuilder
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.#ctor(System.Object,System.IntPtr)
+  - NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.BeginInvoke(NAudio.Wave.WaveFormat,System.AsyncCallback,System.Object)
+  - NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.EndInvoke(System.IAsyncResult)
+  - NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.Invoke(NAudio.Wave.WaveFormat)
+  langs:
+  - csharp
+  - vb
+  name: Mp3FileReaderBase.FrameDecompressorBuilder
+  nameWithType: Mp3FileReaderBase.FrameDecompressorBuilder
+  fullName: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder
+  type: Delegate
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public delegate IMp3FrameDecompressor Mp3FileReaderBase.FrameDecompressorBuilder(WaveFormat mp3Format)
+    parameters:
+    - id: mp3Format
+      type: NAudio.Wave.WaveFormat
+    return:
+      type: NAudio.Wave.IMp3FrameDecompressor
+    content.vb: Public Delegate Function Mp3FileReaderBase.FrameDecompressorBuilder(mp3Format As WaveFormat) As IMp3FrameDecompressor
+- uid: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.#ctor(System.Object,System.IntPtr)
+  commentId: M:NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder
+  langs:
+  - csharp
+  - vb
+  name: FrameDecompressorBuilder(object, IntPtr)
+  nameWithType: Mp3FileReaderBase.FrameDecompressorBuilder.FrameDecompressorBuilder(object, IntPtr)
+  fullName: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.FrameDecompressorBuilder(object, System.IntPtr)
+  type: Constructor
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public FrameDecompressorBuilder(object @object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New([object] As Object, method As IntPtr)
+  overload: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.#ctor*
+  nameWithType.vb: Mp3FileReaderBase.FrameDecompressorBuilder.New(Object, IntPtr)
+  fullName.vb: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.New(Object, System.IntPtr)
+  name.vb: New(Object, IntPtr)
+- uid: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.Invoke(NAudio.Wave.WaveFormat)
+  commentId: M:NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.Invoke(NAudio.Wave.WaveFormat)
+  id: Invoke(NAudio.Wave.WaveFormat)
+  parent: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder
+  langs:
+  - csharp
+  - vb
+  name: Invoke(WaveFormat)
+  nameWithType: Mp3FileReaderBase.FrameDecompressorBuilder.Invoke(WaveFormat)
+  fullName: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.Invoke(NAudio.Wave.WaveFormat)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public virtual IMp3FrameDecompressor Invoke(WaveFormat mp3Format)
+    parameters:
+    - id: mp3Format
+      type: NAudio.Wave.WaveFormat
+    return:
+      type: NAudio.Wave.IMp3FrameDecompressor
+    content.vb: Public Overridable Function Invoke(mp3Format As WaveFormat) As IMp3FrameDecompressor
+  overload: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.Invoke*
+- uid: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.BeginInvoke(NAudio.Wave.WaveFormat,System.AsyncCallback,System.Object)
+  commentId: M:NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.BeginInvoke(NAudio.Wave.WaveFormat,System.AsyncCallback,System.Object)
+  id: BeginInvoke(NAudio.Wave.WaveFormat,System.AsyncCallback,System.Object)
+  parent: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(WaveFormat, AsyncCallback, object)
+  nameWithType: Mp3FileReaderBase.FrameDecompressorBuilder.BeginInvoke(WaveFormat, AsyncCallback, object)
+  fullName: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.BeginInvoke(NAudio.Wave.WaveFormat, System.AsyncCallback, object)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(WaveFormat mp3Format, AsyncCallback callback, object @object)
+    parameters:
+    - id: mp3Format
+      type: NAudio.Wave.WaveFormat
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(mp3Format As WaveFormat, callback As AsyncCallback, [object] As Object) As IAsyncResult
+  overload: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.BeginInvoke*
+  nameWithType.vb: Mp3FileReaderBase.FrameDecompressorBuilder.BeginInvoke(WaveFormat, AsyncCallback, Object)
+  fullName.vb: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.BeginInvoke(NAudio.Wave.WaveFormat, System.AsyncCallback, Object)
+  name.vb: BeginInvoke(WaveFormat, AsyncCallback, Object)
+- uid: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.EndInvoke(System.IAsyncResult)
+  commentId: M:NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: Mp3FileReaderBase.FrameDecompressorBuilder.EndInvoke(IAsyncResult)
+  fullName: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.EndInvoke(System.IAsyncResult)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public virtual IMp3FrameDecompressor EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    return:
+      type: NAudio.Wave.IMp3FrameDecompressor
+    content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As IMp3FrameDecompressor
+  overload: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.EndInvoke*
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat
+- uid: NAudio.Wave.IMp3FrameDecompressor
+  commentId: T:NAudio.Wave.IMp3FrameDecompressor
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.IMp3FrameDecompressor.html
+  name: IMp3FrameDecompressor
+  nameWithType: IMp3FrameDecompressor
+  fullName: NAudio.Wave.IMp3FrameDecompressor
+- uid: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.#ctor*
+  commentId: Overload:NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.#ctor
+  isExternal: true
+  href: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.html#NAudio_Wave_Mp3FileReaderBase_FrameDecompressorBuilder__ctor_System_Object_System_IntPtr_
+  name: FrameDecompressorBuilder
+  nameWithType: Mp3FileReaderBase.FrameDecompressorBuilder.FrameDecompressorBuilder
+  fullName: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.FrameDecompressorBuilder
+  nameWithType.vb: Mp3FileReaderBase.FrameDecompressorBuilder.New
+  fullName.vb: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.New
+  name.vb: New
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.Invoke*
+  commentId: Overload:NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.Invoke
+  isExternal: true
+  href: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.html#NAudio_Wave_Mp3FileReaderBase_FrameDecompressorBuilder_Invoke_NAudio_Wave_WaveFormat_
+  name: Invoke
+  nameWithType: Mp3FileReaderBase.FrameDecompressorBuilder.Invoke
+  fullName: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.Invoke
+- uid: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.BeginInvoke*
+  commentId: Overload:NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.BeginInvoke
+  isExternal: true
+  href: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.html#NAudio_Wave_Mp3FileReaderBase_FrameDecompressorBuilder_BeginInvoke_NAudio_Wave_WaveFormat_System_AsyncCallback_System_Object_
+  name: BeginInvoke
+  nameWithType: Mp3FileReaderBase.FrameDecompressorBuilder.BeginInvoke
+  fullName: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.EndInvoke*
+  commentId: Overload:NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.EndInvoke
+  isExternal: true
+  href: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.html#NAudio_Wave_Mp3FileReaderBase_FrameDecompressorBuilder_EndInvoke_System_IAsyncResult_
+  name: EndInvoke
+  nameWithType: Mp3FileReaderBase.FrameDecompressorBuilder.EndInvoke
+  fullName: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder.EndInvoke

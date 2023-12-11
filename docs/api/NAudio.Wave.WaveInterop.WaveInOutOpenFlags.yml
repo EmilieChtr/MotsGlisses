@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+  commentId: T:NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+  id: WaveInterop.WaveInOutOpenFlags
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackEvent
+  - NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackFunction
+  - NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackNull
+  - NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackThread
+  - NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackWindow
+  langs:
+  - csharp
+  - vb
+  name: WaveInterop.WaveInOutOpenFlags
+  nameWithType: WaveInterop.WaveInOutOpenFlags
+  fullName: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+  type: Enum
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum WaveInterop.WaveInOutOpenFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum WaveInterop.WaveInOutOpenFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackNull
+  commentId: F:NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackNull
+  id: CallbackNull
+  parent: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+  langs:
+  - csharp
+  - vb
+  name: CallbackNull
+  nameWithType: WaveInterop.WaveInOutOpenFlags.CallbackNull
+  fullName: NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackNull
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: CallbackNull = 0
+    return:
+      type: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+- uid: NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackFunction
+  commentId: F:NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackFunction
+  id: CallbackFunction
+  parent: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+  langs:
+  - csharp
+  - vb
+  name: CallbackFunction
+  nameWithType: WaveInterop.WaveInOutOpenFlags.CallbackFunction
+  fullName: NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackFunction
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: CallbackFunction = CallbackWindow | CallbackThread
+    return:
+      type: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+    content.vb: CallbackFunction = CallbackWindow Or CallbackThread
+- uid: NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackEvent
+  commentId: F:NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackEvent
+  id: CallbackEvent
+  parent: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+  langs:
+  - csharp
+  - vb
+  name: CallbackEvent
+  nameWithType: WaveInterop.WaveInOutOpenFlags.CallbackEvent
+  fullName: NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackEvent
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: CallbackEvent = 327680
+    return:
+      type: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+- uid: NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackWindow
+  commentId: F:NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackWindow
+  id: CallbackWindow
+  parent: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+  langs:
+  - csharp
+  - vb
+  name: CallbackWindow
+  nameWithType: WaveInterop.WaveInOutOpenFlags.CallbackWindow
+  fullName: NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackWindow
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: CallbackWindow = 65536
+    return:
+      type: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+- uid: NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackThread
+  commentId: F:NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackThread
+  id: CallbackThread
+  parent: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+  langs:
+  - csharp
+  - vb
+  name: CallbackThread
+  nameWithType: WaveInterop.WaveInOutOpenFlags.CallbackThread
+  fullName: NAudio.Wave.WaveInterop.WaveInOutOpenFlags.CallbackThread
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: CallbackThread = 131072
+    return:
+      type: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+  commentId: T:NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html
+  name: WaveInterop.WaveInOutOpenFlags
+  nameWithType: WaveInterop.WaveInOutOpenFlags
+  fullName: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+  spec.csharp:
+  - uid: NAudio.Wave.WaveInterop
+    name: WaveInterop
+    isExternal: true
+    href: NAudio.Wave.WaveInterop.html
+  - name: .
+  - uid: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+    name: WaveInOutOpenFlags
+    isExternal: true
+    href: NAudio.Wave.WaveInterop.WaveInOutOpenFlags.html
+  spec.vb:
+  - uid: NAudio.Wave.WaveInterop
+    name: WaveInterop
+    isExternal: true
+    href: NAudio.Wave.WaveInterop.html
+  - name: .
+  - uid: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+    name: WaveInOutOpenFlags
+    isExternal: true
+    href: NAudio.Wave.WaveInterop.WaveInOutOpenFlags.html

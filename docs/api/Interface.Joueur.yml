@@ -22,14 +22,6 @@ items:
   nameWithType: Joueur
   fullName: Interface.Joueur
   type: Class
-  source:
-    remote:
-      path: Interface/Joueur.cs
-      branch: main
-      repo: https://github.com/EmilieChtr/MotsGlisses.git
-    id: Joueur
-    path: ../Interface/Joueur.cs
-    startLine: 16
   assemblies:
   - Interface
   namespace: Interface
@@ -39,13 +31,13 @@ items:
   inheritance:
   - System.Object
   inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-  - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
 - uid: Interface.Joueur.#ctor(System.String)
   commentId: M:Interface.Joueur.#ctor(System.String)
   id: '#ctor(System.String)'
@@ -57,14 +49,6 @@ items:
   nameWithType: Joueur.Joueur(string)
   fullName: Interface.Joueur.Joueur(string)
   type: Constructor
-  source:
-    remote:
-      path: Interface/Joueur.cs
-      branch: main
-      repo: https://github.com/EmilieChtr/MotsGlisses.git
-    id: .ctor
-    path: ../Interface/Joueur.cs
-    startLine: 34
   assemblies:
   - Interface
   namespace: Interface
@@ -89,14 +73,6 @@ items:
   nameWithType: Joueur.CreerLettresRegles(string)
   fullName: Interface.Joueur.CreerLettresRegles(string)
   type: Method
-  source:
-    remote:
-      path: Interface/Joueur.cs
-      branch: main
-      repo: https://github.com/EmilieChtr/MotsGlisses.git
-    id: CreerLettresRegles
-    path: ../Interface/Joueur.cs
-    startLine: 48
   assemblies:
   - Interface
   namespace: Interface
@@ -110,93 +86,6 @@ items:
   nameWithType.vb: Joueur.CreerLettresRegles(String)
   fullName.vb: Interface.Joueur.CreerLettresRegles(String)
   name.vb: CreerLettresRegles(String)
-- uid: Interface.Joueur.Nom
-  commentId: P:Interface.Joueur.Nom
-  id: Nom
-  parent: Interface.Joueur
-  langs:
-  - csharp
-  - vb
-  name: Nom
-  nameWithType: Joueur.Nom
-  fullName: Interface.Joueur.Nom
-  type: Property
-  source:
-    remote:
-      path: Interface/Joueur.cs
-      branch: main
-      repo: https://github.com/EmilieChtr/MotsGlisses.git
-    id: Nom
-    path: ../Interface/Joueur.cs
-    startLine: 72
-  assemblies:
-  - Interface
-  namespace: Interface
-  syntax:
-    content: public string Nom { get; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public ReadOnly Property Nom As String
-  overload: Interface.Joueur.Nom*
-- uid: Interface.Joueur.Mots
-  commentId: P:Interface.Joueur.Mots
-  id: Mots
-  parent: Interface.Joueur
-  langs:
-  - csharp
-  - vb
-  name: Mots
-  nameWithType: Joueur.Mots
-  fullName: Interface.Joueur.Mots
-  type: Property
-  source:
-    remote:
-      path: Interface/Joueur.cs
-      branch: main
-      repo: https://github.com/EmilieChtr/MotsGlisses.git
-    id: Mots
-    path: ../Interface/Joueur.cs
-    startLine: 80
-  assemblies:
-  - Interface
-  namespace: Interface
-  syntax:
-    content: public List<string> Mots { get; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.List{System.String}
-    content.vb: Public ReadOnly Property Mots As List(Of String)
-  overload: Interface.Joueur.Mots*
-- uid: Interface.Joueur.Score
-  commentId: P:Interface.Joueur.Score
-  id: Score
-  parent: Interface.Joueur
-  langs:
-  - csharp
-  - vb
-  name: Score
-  nameWithType: Joueur.Score
-  fullName: Interface.Joueur.Score
-  type: Property
-  source:
-    remote:
-      path: Interface/Joueur.cs
-      branch: main
-      repo: https://github.com/EmilieChtr/MotsGlisses.git
-    id: Score
-    path: ../Interface/Joueur.cs
-    startLine: 88
-  assemblies:
-  - Interface
-  namespace: Interface
-  syntax:
-    content: public int Score { get; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public ReadOnly Property Score As Integer
-  overload: Interface.Joueur.Score*
 - uid: Interface.Joueur.Add_Mot(System.String)
   commentId: M:Interface.Joueur.Add_Mot(System.String)
   id: Add_Mot(System.String)
@@ -208,14 +97,6 @@ items:
   nameWithType: Joueur.Add_Mot(string)
   fullName: Interface.Joueur.Add_Mot(string)
   type: Method
-  source:
-    remote:
-      path: Interface/Joueur.cs
-      branch: main
-      repo: https://github.com/EmilieChtr/MotsGlisses.git
-    id: Add_Mot
-    path: ../Interface/Joueur.cs
-    startLine: 106
   assemblies:
   - Interface
   namespace: Interface
@@ -240,14 +121,6 @@ items:
   nameWithType: Joueur.Add_Score(string)
   fullName: Interface.Joueur.Add_Score(string)
   type: Method
-  source:
-    remote:
-      path: Interface/Joueur.cs
-      branch: main
-      repo: https://github.com/EmilieChtr/MotsGlisses.git
-    id: Add_Score
-    path: ../Interface/Joueur.cs
-    startLine: 124
   assemblies:
   - Interface
   namespace: Interface
@@ -272,14 +145,6 @@ items:
   nameWithType: Joueur.Contient(string)
   fullName: Interface.Joueur.Contient(string)
   type: Method
-  source:
-    remote:
-      path: Interface/Joueur.cs
-      branch: main
-      repo: https://github.com/EmilieChtr/MotsGlisses.git
-    id: Contient
-    path: ../Interface/Joueur.cs
-    startLine: 157
   assemblies:
   - Interface
   namespace: Interface
@@ -306,14 +171,6 @@ items:
   nameWithType: Joueur.toString()
   fullName: Interface.Joueur.toString()
   type: Method
-  source:
-    remote:
-      path: Interface/Joueur.cs
-      branch: main
-      repo: https://github.com/EmilieChtr/MotsGlisses.git
-    id: toString
-    path: ../Interface/Joueur.cs
-    startLine: 165
   assemblies:
   - Interface
   namespace: Interface
@@ -334,14 +191,6 @@ items:
   nameWithType: Joueur.toStringListe()
   fullName: Interface.Joueur.toStringListe()
   type: Method
-  source:
-    remote:
-      path: Interface/Joueur.cs
-      branch: main
-      repo: https://github.com/EmilieChtr/MotsGlisses.git
-    id: toStringListe
-    path: ../Interface/Joueur.cs
-    startLine: 173
   assemblies:
   - Interface
   namespace: Interface
@@ -351,9 +200,73 @@ items:
       type: System.String
     content.vb: Public Function toStringListe() As String
   overload: Interface.Joueur.toStringListe*
+- uid: Interface.Joueur.Nom
+  commentId: P:Interface.Joueur.Nom
+  id: Nom
+  parent: Interface.Joueur
+  langs:
+  - csharp
+  - vb
+  name: Nom
+  nameWithType: Joueur.Nom
+  fullName: Interface.Joueur.Nom
+  type: Property
+  assemblies:
+  - Interface
+  namespace: Interface
+  syntax:
+    content: public string Nom { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Nom As String
+  overload: Interface.Joueur.Nom*
+- uid: Interface.Joueur.Mots
+  commentId: P:Interface.Joueur.Mots
+  id: Mots
+  parent: Interface.Joueur
+  langs:
+  - csharp
+  - vb
+  name: Mots
+  nameWithType: Joueur.Mots
+  fullName: Interface.Joueur.Mots
+  type: Property
+  assemblies:
+  - Interface
+  namespace: Interface
+  syntax:
+    content: public List<string> Mots { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public ReadOnly Property Mots As List(Of String)
+  overload: Interface.Joueur.Mots*
+- uid: Interface.Joueur.Score
+  commentId: P:Interface.Joueur.Score
+  id: Score
+  parent: Interface.Joueur
+  langs:
+  - csharp
+  - vb
+  name: Score
+  nameWithType: Joueur.Score
+  fullName: Interface.Joueur.Score
+  type: Property
+  assemblies:
+  - Interface
+  namespace: Interface
+  syntax:
+    content: public int Score { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Score As Integer
+  overload: Interface.Joueur.Score*
 references:
 - uid: Interface
   commentId: N:Interface
+  isExternal: true
   href: Interface.html
   name: Interface
   nameWithType: Interface
@@ -369,6 +282,78 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -447,78 +432,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
@@ -564,28 +477,28 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
   spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
 - uid: System
@@ -597,6 +510,7 @@ references:
   fullName: System
 - uid: Interface.Joueur.#ctor*
   commentId: Overload:Interface.Joueur.#ctor
+  isExternal: true
   href: Interface.Joueur.html#Interface_Joueur__ctor_System_String_
   name: Joueur
   nameWithType: Joueur.Joueur
@@ -617,18 +531,67 @@ references:
   name.vb: String
 - uid: Interface.Joueur.CreerLettresRegles*
   commentId: Overload:Interface.Joueur.CreerLettresRegles
+  isExternal: true
   href: Interface.Joueur.html#Interface_Joueur_CreerLettresRegles_System_String_
   name: CreerLettresRegles
   nameWithType: Joueur.CreerLettresRegles
   fullName: Interface.Joueur.CreerLettresRegles
+- uid: Interface.Joueur.Add_Mot*
+  commentId: Overload:Interface.Joueur.Add_Mot
+  isExternal: true
+  href: Interface.Joueur.html#Interface_Joueur_Add_Mot_System_String_
+  name: Add_Mot
+  nameWithType: Joueur.Add_Mot
+  fullName: Interface.Joueur.Add_Mot
+- uid: Interface.Joueur.Add_Score*
+  commentId: Overload:Interface.Joueur.Add_Score
+  isExternal: true
+  href: Interface.Joueur.html#Interface_Joueur_Add_Score_System_String_
+  name: Add_Score
+  nameWithType: Joueur.Add_Score
+  fullName: Interface.Joueur.Add_Score
+- uid: Interface.Joueur.Contient*
+  commentId: Overload:Interface.Joueur.Contient
+  isExternal: true
+  href: Interface.Joueur.html#Interface_Joueur_Contient_System_String_
+  name: Contient
+  nameWithType: Joueur.Contient
+  fullName: Interface.Joueur.Contient
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Interface.Joueur.toString*
+  commentId: Overload:Interface.Joueur.toString
+  isExternal: true
+  href: Interface.Joueur.html#Interface_Joueur_toString
+  name: toString
+  nameWithType: Joueur.toString
+  fullName: Interface.Joueur.toString
+- uid: Interface.Joueur.toStringListe*
+  commentId: Overload:Interface.Joueur.toStringListe
+  isExternal: true
+  href: Interface.Joueur.html#Interface_Joueur_toStringListe
+  name: toStringListe
+  nameWithType: Joueur.toStringListe
+  fullName: Interface.Joueur.toStringListe
 - uid: Interface.Joueur.Nom*
   commentId: Overload:Interface.Joueur.Nom
+  isExternal: true
   href: Interface.Joueur.html#Interface_Joueur_Nom
   name: Nom
   nameWithType: Joueur.Nom
   fullName: Interface.Joueur.Nom
 - uid: Interface.Joueur.Mots*
   commentId: Overload:Interface.Joueur.Mots
+  isExternal: true
   href: Interface.Joueur.html#Interface_Joueur_Mots
   name: Mots
   nameWithType: Joueur.Mots
@@ -735,6 +698,7 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: Interface.Joueur.Score*
   commentId: Overload:Interface.Joueur.Score
+  isExternal: true
   href: Interface.Joueur.html#Interface_Joueur_Score
   name: Score
   nameWithType: Joueur.Score
@@ -750,44 +714,3 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: Interface.Joueur.Add_Mot*
-  commentId: Overload:Interface.Joueur.Add_Mot
-  href: Interface.Joueur.html#Interface_Joueur_Add_Mot_System_String_
-  name: Add_Mot
-  nameWithType: Joueur.Add_Mot
-  fullName: Interface.Joueur.Add_Mot
-- uid: Interface.Joueur.Add_Score*
-  commentId: Overload:Interface.Joueur.Add_Score
-  href: Interface.Joueur.html#Interface_Joueur_Add_Score_System_String_
-  name: Add_Score
-  nameWithType: Joueur.Add_Score
-  fullName: Interface.Joueur.Add_Score
-- uid: Interface.Joueur.Contient*
-  commentId: Overload:Interface.Joueur.Contient
-  href: Interface.Joueur.html#Interface_Joueur_Contient_System_String_
-  name: Contient
-  nameWithType: Joueur.Contient
-  fullName: Interface.Joueur.Contient
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: Interface.Joueur.toString*
-  commentId: Overload:Interface.Joueur.toString
-  href: Interface.Joueur.html#Interface_Joueur_toString
-  name: toString
-  nameWithType: Joueur.toString
-  fullName: Interface.Joueur.toString
-- uid: Interface.Joueur.toStringListe*
-  commentId: Overload:Interface.Joueur.toStringListe
-  href: Interface.Joueur.html#Interface_Joueur_toStringListe
-  name: toStringListe
-  nameWithType: Joueur.toStringListe
-  fullName: Interface.Joueur.toStringListe

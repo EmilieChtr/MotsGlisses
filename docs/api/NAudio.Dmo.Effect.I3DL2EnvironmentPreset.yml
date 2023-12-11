@@ -1,0 +1,636 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  commentId: T:NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  id: I3DL2EnvironmentPreset
+  parent: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Alley
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Arena
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Auditorium
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Bathroom
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.CarpetedHallway
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Cave
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.City
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.ConcertHall
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Default
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Forest
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Generic
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Hallway
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Hangar
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.LargeHall
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.LargeRoom
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.LivingRoom
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.MediumHall
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.MediumRoom
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Mountains
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.PaddedCell
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.ParkingLot
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Plain
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Plate
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Quarry
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Room
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.SewerPipe
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.SmallRoom
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.StoneCorridor
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.StoneRoom
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset.UnderWater
+  langs:
+  - csharp
+  - vb
+  name: I3DL2EnvironmentPreset
+  nameWithType: I3DL2EnvironmentPreset
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public enum I3DL2EnvironmentPreset
+    content.vb: Public Enum I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Default
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Default
+  id: Default
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: I3DL2EnvironmentPreset.Default
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Default
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Default = 0
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Generic
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Generic
+  id: Generic
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: Generic
+  nameWithType: I3DL2EnvironmentPreset.Generic
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Generic
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Generic = 1
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.PaddedCell
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.PaddedCell
+  id: PaddedCell
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: PaddedCell
+  nameWithType: I3DL2EnvironmentPreset.PaddedCell
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.PaddedCell
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: PaddedCell = 2
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Room
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Room
+  id: Room
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: Room
+  nameWithType: I3DL2EnvironmentPreset.Room
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Room
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Room = 3
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Bathroom
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Bathroom
+  id: Bathroom
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: Bathroom
+  nameWithType: I3DL2EnvironmentPreset.Bathroom
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Bathroom
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Bathroom = 4
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.LivingRoom
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.LivingRoom
+  id: LivingRoom
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: LivingRoom
+  nameWithType: I3DL2EnvironmentPreset.LivingRoom
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.LivingRoom
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: LivingRoom = 5
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.StoneRoom
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.StoneRoom
+  id: StoneRoom
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: StoneRoom
+  nameWithType: I3DL2EnvironmentPreset.StoneRoom
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.StoneRoom
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: StoneRoom = 6
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Auditorium
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Auditorium
+  id: Auditorium
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: Auditorium
+  nameWithType: I3DL2EnvironmentPreset.Auditorium
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Auditorium
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Auditorium = 7
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.ConcertHall
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.ConcertHall
+  id: ConcertHall
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: ConcertHall
+  nameWithType: I3DL2EnvironmentPreset.ConcertHall
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.ConcertHall
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: ConcertHall = 8
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Cave
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Cave
+  id: Cave
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: Cave
+  nameWithType: I3DL2EnvironmentPreset.Cave
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Cave
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Cave = 9
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Arena
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Arena
+  id: Arena
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: Arena
+  nameWithType: I3DL2EnvironmentPreset.Arena
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Arena
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Arena = 10
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Hangar
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Hangar
+  id: Hangar
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: Hangar
+  nameWithType: I3DL2EnvironmentPreset.Hangar
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Hangar
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Hangar = 11
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.CarpetedHallway
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.CarpetedHallway
+  id: CarpetedHallway
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: CarpetedHallway
+  nameWithType: I3DL2EnvironmentPreset.CarpetedHallway
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.CarpetedHallway
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: CarpetedHallway = 12
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Hallway
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Hallway
+  id: Hallway
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: Hallway
+  nameWithType: I3DL2EnvironmentPreset.Hallway
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Hallway
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Hallway = 13
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.StoneCorridor
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.StoneCorridor
+  id: StoneCorridor
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: StoneCorridor
+  nameWithType: I3DL2EnvironmentPreset.StoneCorridor
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.StoneCorridor
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: StoneCorridor = 14
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Alley
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Alley
+  id: Alley
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: Alley
+  nameWithType: I3DL2EnvironmentPreset.Alley
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Alley
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Alley = 15
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Forest
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Forest
+  id: Forest
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: Forest
+  nameWithType: I3DL2EnvironmentPreset.Forest
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Forest
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Forest = 16
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.City
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.City
+  id: City
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: City
+  nameWithType: I3DL2EnvironmentPreset.City
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.City
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: City = 17
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Mountains
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Mountains
+  id: Mountains
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: Mountains
+  nameWithType: I3DL2EnvironmentPreset.Mountains
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Mountains
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Mountains = 18
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Quarry
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Quarry
+  id: Quarry
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: Quarry
+  nameWithType: I3DL2EnvironmentPreset.Quarry
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Quarry
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Quarry = 19
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Plain
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Plain
+  id: Plain
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: Plain
+  nameWithType: I3DL2EnvironmentPreset.Plain
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Plain
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Plain = 20
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.ParkingLot
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.ParkingLot
+  id: ParkingLot
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: ParkingLot
+  nameWithType: I3DL2EnvironmentPreset.ParkingLot
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.ParkingLot
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: ParkingLot = 21
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.SewerPipe
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.SewerPipe
+  id: SewerPipe
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: SewerPipe
+  nameWithType: I3DL2EnvironmentPreset.SewerPipe
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.SewerPipe
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: SewerPipe = 22
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.UnderWater
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.UnderWater
+  id: UnderWater
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: UnderWater
+  nameWithType: I3DL2EnvironmentPreset.UnderWater
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.UnderWater
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: UnderWater = 23
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.SmallRoom
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.SmallRoom
+  id: SmallRoom
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: SmallRoom
+  nameWithType: I3DL2EnvironmentPreset.SmallRoom
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.SmallRoom
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: SmallRoom = 24
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.MediumRoom
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.MediumRoom
+  id: MediumRoom
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: MediumRoom
+  nameWithType: I3DL2EnvironmentPreset.MediumRoom
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.MediumRoom
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: MediumRoom = 25
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.LargeRoom
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.LargeRoom
+  id: LargeRoom
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: LargeRoom
+  nameWithType: I3DL2EnvironmentPreset.LargeRoom
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.LargeRoom
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: LargeRoom = 26
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.MediumHall
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.MediumHall
+  id: MediumHall
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: MediumHall
+  nameWithType: I3DL2EnvironmentPreset.MediumHall
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.MediumHall
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: MediumHall = 27
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.LargeHall
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.LargeHall
+  id: LargeHall
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: LargeHall
+  nameWithType: I3DL2EnvironmentPreset.LargeHall
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.LargeHall
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: LargeHall = 28
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Plate
+  commentId: F:NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Plate
+  id: Plate
+  parent: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  langs:
+  - csharp
+  - vb
+  name: Plate
+  nameWithType: I3DL2EnvironmentPreset.Plate
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.Plate
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Plate = 29
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+references:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  commentId: T:NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.html
+  name: I3DL2EnvironmentPreset
+  nameWithType: I3DL2EnvironmentPreset
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset

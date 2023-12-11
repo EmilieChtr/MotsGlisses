@@ -1,0 +1,419 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.IWaveBuffer
+  commentId: T:NAudio.Wave.IWaveBuffer
+  id: IWaveBuffer
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.IWaveBuffer.ByteBuffer
+  - NAudio.Wave.IWaveBuffer.ByteBufferCount
+  - NAudio.Wave.IWaveBuffer.FloatBuffer
+  - NAudio.Wave.IWaveBuffer.FloatBufferCount
+  - NAudio.Wave.IWaveBuffer.IntBuffer
+  - NAudio.Wave.IWaveBuffer.IntBufferCount
+  - NAudio.Wave.IWaveBuffer.MaxSize
+  - NAudio.Wave.IWaveBuffer.ShortBuffer
+  - NAudio.Wave.IWaveBuffer.ShortBufferCount
+  langs:
+  - csharp
+  - vb
+  name: IWaveBuffer
+  nameWithType: IWaveBuffer
+  fullName: NAudio.Wave.IWaveBuffer
+  type: Interface
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public interface IWaveBuffer
+    content.vb: Public Interface IWaveBuffer
+- uid: NAudio.Wave.IWaveBuffer.ByteBuffer
+  commentId: P:NAudio.Wave.IWaveBuffer.ByteBuffer
+  id: ByteBuffer
+  parent: NAudio.Wave.IWaveBuffer
+  langs:
+  - csharp
+  - vb
+  name: ByteBuffer
+  nameWithType: IWaveBuffer.ByteBuffer
+  fullName: NAudio.Wave.IWaveBuffer.ByteBuffer
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: byte[] ByteBuffer { get; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: ReadOnly Property ByteBuffer As Byte()
+  overload: NAudio.Wave.IWaveBuffer.ByteBuffer*
+- uid: NAudio.Wave.IWaveBuffer.FloatBuffer
+  commentId: P:NAudio.Wave.IWaveBuffer.FloatBuffer
+  id: FloatBuffer
+  parent: NAudio.Wave.IWaveBuffer
+  langs:
+  - csharp
+  - vb
+  name: FloatBuffer
+  nameWithType: IWaveBuffer.FloatBuffer
+  fullName: NAudio.Wave.IWaveBuffer.FloatBuffer
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: float[] FloatBuffer { get; }
+    parameters: []
+    return:
+      type: System.Single[]
+    content.vb: ReadOnly Property FloatBuffer As Single()
+  overload: NAudio.Wave.IWaveBuffer.FloatBuffer*
+- uid: NAudio.Wave.IWaveBuffer.ShortBuffer
+  commentId: P:NAudio.Wave.IWaveBuffer.ShortBuffer
+  id: ShortBuffer
+  parent: NAudio.Wave.IWaveBuffer
+  langs:
+  - csharp
+  - vb
+  name: ShortBuffer
+  nameWithType: IWaveBuffer.ShortBuffer
+  fullName: NAudio.Wave.IWaveBuffer.ShortBuffer
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: short[] ShortBuffer { get; }
+    parameters: []
+    return:
+      type: System.Int16[]
+    content.vb: ReadOnly Property ShortBuffer As Short()
+  overload: NAudio.Wave.IWaveBuffer.ShortBuffer*
+- uid: NAudio.Wave.IWaveBuffer.IntBuffer
+  commentId: P:NAudio.Wave.IWaveBuffer.IntBuffer
+  id: IntBuffer
+  parent: NAudio.Wave.IWaveBuffer
+  langs:
+  - csharp
+  - vb
+  name: IntBuffer
+  nameWithType: IWaveBuffer.IntBuffer
+  fullName: NAudio.Wave.IWaveBuffer.IntBuffer
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: int[] IntBuffer { get; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: ReadOnly Property IntBuffer As Integer()
+  overload: NAudio.Wave.IWaveBuffer.IntBuffer*
+- uid: NAudio.Wave.IWaveBuffer.MaxSize
+  commentId: P:NAudio.Wave.IWaveBuffer.MaxSize
+  id: MaxSize
+  parent: NAudio.Wave.IWaveBuffer
+  langs:
+  - csharp
+  - vb
+  name: MaxSize
+  nameWithType: IWaveBuffer.MaxSize
+  fullName: NAudio.Wave.IWaveBuffer.MaxSize
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: int MaxSize { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property MaxSize As Integer
+  overload: NAudio.Wave.IWaveBuffer.MaxSize*
+- uid: NAudio.Wave.IWaveBuffer.ByteBufferCount
+  commentId: P:NAudio.Wave.IWaveBuffer.ByteBufferCount
+  id: ByteBufferCount
+  parent: NAudio.Wave.IWaveBuffer
+  langs:
+  - csharp
+  - vb
+  name: ByteBufferCount
+  nameWithType: IWaveBuffer.ByteBufferCount
+  fullName: NAudio.Wave.IWaveBuffer.ByteBufferCount
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: int ByteBufferCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property ByteBufferCount As Integer
+  overload: NAudio.Wave.IWaveBuffer.ByteBufferCount*
+- uid: NAudio.Wave.IWaveBuffer.FloatBufferCount
+  commentId: P:NAudio.Wave.IWaveBuffer.FloatBufferCount
+  id: FloatBufferCount
+  parent: NAudio.Wave.IWaveBuffer
+  langs:
+  - csharp
+  - vb
+  name: FloatBufferCount
+  nameWithType: IWaveBuffer.FloatBufferCount
+  fullName: NAudio.Wave.IWaveBuffer.FloatBufferCount
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: int FloatBufferCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property FloatBufferCount As Integer
+  overload: NAudio.Wave.IWaveBuffer.FloatBufferCount*
+- uid: NAudio.Wave.IWaveBuffer.ShortBufferCount
+  commentId: P:NAudio.Wave.IWaveBuffer.ShortBufferCount
+  id: ShortBufferCount
+  parent: NAudio.Wave.IWaveBuffer
+  langs:
+  - csharp
+  - vb
+  name: ShortBufferCount
+  nameWithType: IWaveBuffer.ShortBufferCount
+  fullName: NAudio.Wave.IWaveBuffer.ShortBufferCount
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: int ShortBufferCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property ShortBufferCount As Integer
+  overload: NAudio.Wave.IWaveBuffer.ShortBufferCount*
+- uid: NAudio.Wave.IWaveBuffer.IntBufferCount
+  commentId: P:NAudio.Wave.IWaveBuffer.IntBufferCount
+  id: IntBufferCount
+  parent: NAudio.Wave.IWaveBuffer
+  langs:
+  - csharp
+  - vb
+  name: IntBufferCount
+  nameWithType: IWaveBuffer.IntBufferCount
+  fullName: NAudio.Wave.IWaveBuffer.IntBufferCount
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: int IntBufferCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property IntBufferCount As Integer
+  overload: NAudio.Wave.IWaveBuffer.IntBufferCount*
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Wave.IWaveBuffer.ByteBuffer*
+  commentId: Overload:NAudio.Wave.IWaveBuffer.ByteBuffer
+  isExternal: true
+  href: NAudio.Wave.IWaveBuffer.html#NAudio_Wave_IWaveBuffer_ByteBuffer
+  name: ByteBuffer
+  nameWithType: IWaveBuffer.ByteBuffer
+  fullName: NAudio.Wave.IWaveBuffer.ByteBuffer
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: NAudio.Wave.IWaveBuffer.FloatBuffer*
+  commentId: Overload:NAudio.Wave.IWaveBuffer.FloatBuffer
+  isExternal: true
+  href: NAudio.Wave.IWaveBuffer.html#NAudio_Wave_IWaveBuffer_FloatBuffer
+  name: FloatBuffer
+  nameWithType: IWaveBuffer.FloatBuffer
+  fullName: NAudio.Wave.IWaveBuffer.FloatBuffer
+- uid: System.Single[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float[]
+  nameWithType: float[]
+  fullName: float[]
+  nameWithType.vb: Single()
+  fullName.vb: Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: (
+  - name: )
+- uid: NAudio.Wave.IWaveBuffer.ShortBuffer*
+  commentId: Overload:NAudio.Wave.IWaveBuffer.ShortBuffer
+  isExternal: true
+  href: NAudio.Wave.IWaveBuffer.html#NAudio_Wave_IWaveBuffer_ShortBuffer
+  name: ShortBuffer
+  nameWithType: IWaveBuffer.ShortBuffer
+  fullName: NAudio.Wave.IWaveBuffer.ShortBuffer
+- uid: System.Int16[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short[]
+  nameWithType: short[]
+  fullName: short[]
+  nameWithType.vb: Short()
+  fullName.vb: Short()
+  name.vb: Short()
+  spec.csharp:
+  - uid: System.Int16
+    name: short
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int16
+    name: Short
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
+  - name: (
+  - name: )
+- uid: NAudio.Wave.IWaveBuffer.IntBuffer*
+  commentId: Overload:NAudio.Wave.IWaveBuffer.IntBuffer
+  isExternal: true
+  href: NAudio.Wave.IWaveBuffer.html#NAudio_Wave_IWaveBuffer_IntBuffer
+  name: IntBuffer
+  nameWithType: IWaveBuffer.IntBuffer
+  fullName: NAudio.Wave.IWaveBuffer.IntBuffer
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: NAudio.Wave.IWaveBuffer.MaxSize*
+  commentId: Overload:NAudio.Wave.IWaveBuffer.MaxSize
+  isExternal: true
+  href: NAudio.Wave.IWaveBuffer.html#NAudio_Wave_IWaveBuffer_MaxSize
+  name: MaxSize
+  nameWithType: IWaveBuffer.MaxSize
+  fullName: NAudio.Wave.IWaveBuffer.MaxSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.IWaveBuffer.ByteBufferCount*
+  commentId: Overload:NAudio.Wave.IWaveBuffer.ByteBufferCount
+  isExternal: true
+  href: NAudio.Wave.IWaveBuffer.html#NAudio_Wave_IWaveBuffer_ByteBufferCount
+  name: ByteBufferCount
+  nameWithType: IWaveBuffer.ByteBufferCount
+  fullName: NAudio.Wave.IWaveBuffer.ByteBufferCount
+- uid: NAudio.Wave.IWaveBuffer.FloatBufferCount*
+  commentId: Overload:NAudio.Wave.IWaveBuffer.FloatBufferCount
+  isExternal: true
+  href: NAudio.Wave.IWaveBuffer.html#NAudio_Wave_IWaveBuffer_FloatBufferCount
+  name: FloatBufferCount
+  nameWithType: IWaveBuffer.FloatBufferCount
+  fullName: NAudio.Wave.IWaveBuffer.FloatBufferCount
+- uid: NAudio.Wave.IWaveBuffer.ShortBufferCount*
+  commentId: Overload:NAudio.Wave.IWaveBuffer.ShortBufferCount
+  isExternal: true
+  href: NAudio.Wave.IWaveBuffer.html#NAudio_Wave_IWaveBuffer_ShortBufferCount
+  name: ShortBufferCount
+  nameWithType: IWaveBuffer.ShortBufferCount
+  fullName: NAudio.Wave.IWaveBuffer.ShortBufferCount
+- uid: NAudio.Wave.IWaveBuffer.IntBufferCount*
+  commentId: Overload:NAudio.Wave.IWaveBuffer.IntBufferCount
+  isExternal: true
+  href: NAudio.Wave.IWaveBuffer.html#NAudio_Wave_IWaveBuffer_IntBufferCount
+  name: IntBufferCount
+  nameWithType: IWaveBuffer.IntBufferCount
+  fullName: NAudio.Wave.IWaveBuffer.IntBufferCount

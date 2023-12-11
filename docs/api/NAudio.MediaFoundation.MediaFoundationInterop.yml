@@ -1,0 +1,902 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation.MediaFoundationInterop
+  commentId: T:NAudio.MediaFoundation.MediaFoundationInterop
+  id: MediaFoundationInterop
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStream(System.Runtime.InteropServices.ComTypes.IStream,NAudio.MediaFoundation.IMFByteStream@)
+  - NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStreamEx(System.Object,NAudio.MediaFoundation.IMFByteStream@)
+  - NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSinkWriterFromURL(System.String,NAudio.MediaFoundation.IMFByteStream,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFSinkWriter@)
+  - NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromByteStream(NAudio.MediaFoundation.IMFByteStream,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFSourceReader@)
+  - NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromURL(System.String,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFSourceReader@)
+  - NAudio.MediaFoundation.MediaFoundationInterop.MFShutdown
+  - NAudio.MediaFoundation.MediaFoundationInterop.MFStartup(System.Int32,System.Int32)
+  - NAudio.MediaFoundation.MediaFoundationInterop.MFTEnumEx(System.Guid,NAudio.MediaFoundation._MFT_ENUM_FLAG,NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO,NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO,System.IntPtr@,System.Int32@)
+  - NAudio.MediaFoundation.MediaFoundationInterop.MFTranscodeGetAudioOutputAvailableTypes(System.Guid,NAudio.MediaFoundation._MFT_ENUM_FLAG,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFCollection@)
+  - NAudio.MediaFoundation.MediaFoundationInterop.MF_API_VERSION
+  - NAudio.MediaFoundation.MediaFoundationInterop.MF_SDK_VERSION
+  - NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_ALL_STREAMS
+  - NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_FIRST_AUDIO_STREAM
+  - NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_FIRST_VIDEO_STREAM
+  - NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_MEDIASOURCE
+  - NAudio.MediaFoundation.MediaFoundationInterop.MF_VERSION
+  langs:
+  - csharp
+  - vb
+  name: MediaFoundationInterop
+  nameWithType: MediaFoundationInterop
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop
+  type: Class
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static class MediaFoundationInterop
+    content.vb: Public Module MediaFoundationInterop
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_ALL_STREAMS
+  commentId: F:NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_ALL_STREAMS
+  id: MF_SOURCE_READER_ALL_STREAMS
+  parent: NAudio.MediaFoundation.MediaFoundationInterop
+  langs:
+  - csharp
+  - vb
+  name: MF_SOURCE_READER_ALL_STREAMS
+  nameWithType: MediaFoundationInterop.MF_SOURCE_READER_ALL_STREAMS
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_ALL_STREAMS
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public const int MF_SOURCE_READER_ALL_STREAMS = -2
+    return:
+      type: System.Int32
+    content.vb: Public Const MF_SOURCE_READER_ALL_STREAMS As Integer = -2
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_FIRST_AUDIO_STREAM
+  commentId: F:NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_FIRST_AUDIO_STREAM
+  id: MF_SOURCE_READER_FIRST_AUDIO_STREAM
+  parent: NAudio.MediaFoundation.MediaFoundationInterop
+  langs:
+  - csharp
+  - vb
+  name: MF_SOURCE_READER_FIRST_AUDIO_STREAM
+  nameWithType: MediaFoundationInterop.MF_SOURCE_READER_FIRST_AUDIO_STREAM
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_FIRST_AUDIO_STREAM
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public const int MF_SOURCE_READER_FIRST_AUDIO_STREAM = -3
+    return:
+      type: System.Int32
+    content.vb: Public Const MF_SOURCE_READER_FIRST_AUDIO_STREAM As Integer = -3
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_FIRST_VIDEO_STREAM
+  commentId: F:NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_FIRST_VIDEO_STREAM
+  id: MF_SOURCE_READER_FIRST_VIDEO_STREAM
+  parent: NAudio.MediaFoundation.MediaFoundationInterop
+  langs:
+  - csharp
+  - vb
+  name: MF_SOURCE_READER_FIRST_VIDEO_STREAM
+  nameWithType: MediaFoundationInterop.MF_SOURCE_READER_FIRST_VIDEO_STREAM
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_FIRST_VIDEO_STREAM
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public const int MF_SOURCE_READER_FIRST_VIDEO_STREAM = -4
+    return:
+      type: System.Int32
+    content.vb: Public Const MF_SOURCE_READER_FIRST_VIDEO_STREAM As Integer = -4
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_MEDIASOURCE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_MEDIASOURCE
+  id: MF_SOURCE_READER_MEDIASOURCE
+  parent: NAudio.MediaFoundation.MediaFoundationInterop
+  langs:
+  - csharp
+  - vb
+  name: MF_SOURCE_READER_MEDIASOURCE
+  nameWithType: MediaFoundationInterop.MF_SOURCE_READER_MEDIASOURCE
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_MEDIASOURCE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public const int MF_SOURCE_READER_MEDIASOURCE = -1
+    return:
+      type: System.Int32
+    content.vb: Public Const MF_SOURCE_READER_MEDIASOURCE As Integer = -1
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MF_SDK_VERSION
+  commentId: F:NAudio.MediaFoundation.MediaFoundationInterop.MF_SDK_VERSION
+  id: MF_SDK_VERSION
+  parent: NAudio.MediaFoundation.MediaFoundationInterop
+  langs:
+  - csharp
+  - vb
+  name: MF_SDK_VERSION
+  nameWithType: MediaFoundationInterop.MF_SDK_VERSION
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MF_SDK_VERSION
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public const int MF_SDK_VERSION = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const MF_SDK_VERSION As Integer = 2
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MF_API_VERSION
+  commentId: F:NAudio.MediaFoundation.MediaFoundationInterop.MF_API_VERSION
+  id: MF_API_VERSION
+  parent: NAudio.MediaFoundation.MediaFoundationInterop
+  langs:
+  - csharp
+  - vb
+  name: MF_API_VERSION
+  nameWithType: MediaFoundationInterop.MF_API_VERSION
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MF_API_VERSION
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public const int MF_API_VERSION = 112
+    return:
+      type: System.Int32
+    content.vb: Public Const MF_API_VERSION As Integer = 112
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MF_VERSION
+  commentId: F:NAudio.MediaFoundation.MediaFoundationInterop.MF_VERSION
+  id: MF_VERSION
+  parent: NAudio.MediaFoundation.MediaFoundationInterop
+  langs:
+  - csharp
+  - vb
+  name: MF_VERSION
+  nameWithType: MediaFoundationInterop.MF_VERSION
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MF_VERSION
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public const int MF_VERSION = 131184
+    return:
+      type: System.Int32
+    content.vb: Public Const MF_VERSION As Integer = 131184
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFStartup(System.Int32,System.Int32)
+  commentId: M:NAudio.MediaFoundation.MediaFoundationInterop.MFStartup(System.Int32,System.Int32)
+  id: MFStartup(System.Int32,System.Int32)
+  parent: NAudio.MediaFoundation.MediaFoundationInterop
+  langs:
+  - csharp
+  - vb
+  name: MFStartup(int, int)
+  nameWithType: MediaFoundationInterop.MFStartup(int, int)
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFStartup(int, int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static extern void MFStartup(int version, int dwFlags = 0)
+    parameters:
+    - id: version
+      type: System.Int32
+    - id: dwFlags
+      type: System.Int32
+    content.vb: Public Shared Sub MFStartup(version As Integer, dwFlags As Integer = 0)
+  overload: NAudio.MediaFoundation.MediaFoundationInterop.MFStartup*
+  nameWithType.vb: MediaFoundationInterop.MFStartup(Integer, Integer)
+  fullName.vb: NAudio.MediaFoundation.MediaFoundationInterop.MFStartup(Integer, Integer)
+  name.vb: MFStartup(Integer, Integer)
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFShutdown
+  commentId: M:NAudio.MediaFoundation.MediaFoundationInterop.MFShutdown
+  id: MFShutdown
+  parent: NAudio.MediaFoundation.MediaFoundationInterop
+  langs:
+  - csharp
+  - vb
+  name: MFShutdown()
+  nameWithType: MediaFoundationInterop.MFShutdown()
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFShutdown()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static extern void MFShutdown()
+    content.vb: Public Shared Sub MFShutdown()
+  overload: NAudio.MediaFoundation.MediaFoundationInterop.MFShutdown*
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromURL(System.String,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFSourceReader@)
+  commentId: M:NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromURL(System.String,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFSourceReader@)
+  id: MFCreateSourceReaderFromURL(System.String,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFSourceReader@)
+  parent: NAudio.MediaFoundation.MediaFoundationInterop
+  langs:
+  - csharp
+  - vb
+  name: MFCreateSourceReaderFromURL(string, IMFAttributes, out IMFSourceReader)
+  nameWithType: MediaFoundationInterop.MFCreateSourceReaderFromURL(string, IMFAttributes, out IMFSourceReader)
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromURL(string, NAudio.MediaFoundation.IMFAttributes, out NAudio.MediaFoundation.IMFSourceReader)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static extern void MFCreateSourceReaderFromURL(string pwszURL, IMFAttributes pAttributes, out IMFSourceReader ppSourceReader)
+    parameters:
+    - id: pwszURL
+      type: System.String
+    - id: pAttributes
+      type: NAudio.MediaFoundation.IMFAttributes
+    - id: ppSourceReader
+      type: NAudio.MediaFoundation.IMFSourceReader
+    content.vb: Public Shared Sub MFCreateSourceReaderFromURL(pwszURL As String, pAttributes As IMFAttributes, ppSourceReader As IMFSourceReader)
+  overload: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromURL*
+  nameWithType.vb: MediaFoundationInterop.MFCreateSourceReaderFromURL(String, IMFAttributes, IMFSourceReader)
+  fullName.vb: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromURL(String, NAudio.MediaFoundation.IMFAttributes, NAudio.MediaFoundation.IMFSourceReader)
+  name.vb: MFCreateSourceReaderFromURL(String, IMFAttributes, IMFSourceReader)
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromByteStream(NAudio.MediaFoundation.IMFByteStream,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFSourceReader@)
+  commentId: M:NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromByteStream(NAudio.MediaFoundation.IMFByteStream,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFSourceReader@)
+  id: MFCreateSourceReaderFromByteStream(NAudio.MediaFoundation.IMFByteStream,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFSourceReader@)
+  parent: NAudio.MediaFoundation.MediaFoundationInterop
+  langs:
+  - csharp
+  - vb
+  name: MFCreateSourceReaderFromByteStream(IMFByteStream, IMFAttributes, out IMFSourceReader)
+  nameWithType: MediaFoundationInterop.MFCreateSourceReaderFromByteStream(IMFByteStream, IMFAttributes, out IMFSourceReader)
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromByteStream(NAudio.MediaFoundation.IMFByteStream, NAudio.MediaFoundation.IMFAttributes, out NAudio.MediaFoundation.IMFSourceReader)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static extern void MFCreateSourceReaderFromByteStream(IMFByteStream pByteStream, IMFAttributes pAttributes, out IMFSourceReader ppSourceReader)
+    parameters:
+    - id: pByteStream
+      type: NAudio.MediaFoundation.IMFByteStream
+    - id: pAttributes
+      type: NAudio.MediaFoundation.IMFAttributes
+    - id: ppSourceReader
+      type: NAudio.MediaFoundation.IMFSourceReader
+    content.vb: Public Shared Sub MFCreateSourceReaderFromByteStream(pByteStream As IMFByteStream, pAttributes As IMFAttributes, ppSourceReader As IMFSourceReader)
+  overload: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromByteStream*
+  nameWithType.vb: MediaFoundationInterop.MFCreateSourceReaderFromByteStream(IMFByteStream, IMFAttributes, IMFSourceReader)
+  fullName.vb: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromByteStream(NAudio.MediaFoundation.IMFByteStream, NAudio.MediaFoundation.IMFAttributes, NAudio.MediaFoundation.IMFSourceReader)
+  name.vb: MFCreateSourceReaderFromByteStream(IMFByteStream, IMFAttributes, IMFSourceReader)
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSinkWriterFromURL(System.String,NAudio.MediaFoundation.IMFByteStream,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFSinkWriter@)
+  commentId: M:NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSinkWriterFromURL(System.String,NAudio.MediaFoundation.IMFByteStream,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFSinkWriter@)
+  id: MFCreateSinkWriterFromURL(System.String,NAudio.MediaFoundation.IMFByteStream,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFSinkWriter@)
+  parent: NAudio.MediaFoundation.MediaFoundationInterop
+  langs:
+  - csharp
+  - vb
+  name: MFCreateSinkWriterFromURL(string, IMFByteStream, IMFAttributes, out IMFSinkWriter)
+  nameWithType: MediaFoundationInterop.MFCreateSinkWriterFromURL(string, IMFByteStream, IMFAttributes, out IMFSinkWriter)
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSinkWriterFromURL(string, NAudio.MediaFoundation.IMFByteStream, NAudio.MediaFoundation.IMFAttributes, out NAudio.MediaFoundation.IMFSinkWriter)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static extern void MFCreateSinkWriterFromURL(string pwszOutputURL, IMFByteStream pByteStream, IMFAttributes pAttributes, out IMFSinkWriter ppSinkWriter)
+    parameters:
+    - id: pwszOutputURL
+      type: System.String
+    - id: pByteStream
+      type: NAudio.MediaFoundation.IMFByteStream
+    - id: pAttributes
+      type: NAudio.MediaFoundation.IMFAttributes
+    - id: ppSinkWriter
+      type: NAudio.MediaFoundation.IMFSinkWriter
+    content.vb: Public Shared Sub MFCreateSinkWriterFromURL(pwszOutputURL As String, pByteStream As IMFByteStream, pAttributes As IMFAttributes, ppSinkWriter As IMFSinkWriter)
+  overload: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSinkWriterFromURL*
+  nameWithType.vb: MediaFoundationInterop.MFCreateSinkWriterFromURL(String, IMFByteStream, IMFAttributes, IMFSinkWriter)
+  fullName.vb: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSinkWriterFromURL(String, NAudio.MediaFoundation.IMFByteStream, NAudio.MediaFoundation.IMFAttributes, NAudio.MediaFoundation.IMFSinkWriter)
+  name.vb: MFCreateSinkWriterFromURL(String, IMFByteStream, IMFAttributes, IMFSinkWriter)
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStreamEx(System.Object,NAudio.MediaFoundation.IMFByteStream@)
+  commentId: M:NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStreamEx(System.Object,NAudio.MediaFoundation.IMFByteStream@)
+  id: MFCreateMFByteStreamOnStreamEx(System.Object,NAudio.MediaFoundation.IMFByteStream@)
+  parent: NAudio.MediaFoundation.MediaFoundationInterop
+  langs:
+  - csharp
+  - vb
+  name: MFCreateMFByteStreamOnStreamEx(object, out IMFByteStream)
+  nameWithType: MediaFoundationInterop.MFCreateMFByteStreamOnStreamEx(object, out IMFByteStream)
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStreamEx(object, out NAudio.MediaFoundation.IMFByteStream)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static extern void MFCreateMFByteStreamOnStreamEx(object punkStream, out IMFByteStream ppByteStream)
+    parameters:
+    - id: punkStream
+      type: System.Object
+    - id: ppByteStream
+      type: NAudio.MediaFoundation.IMFByteStream
+    content.vb: Public Shared Sub MFCreateMFByteStreamOnStreamEx(punkStream As Object, ppByteStream As IMFByteStream)
+  overload: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStreamEx*
+  nameWithType.vb: MediaFoundationInterop.MFCreateMFByteStreamOnStreamEx(Object, IMFByteStream)
+  fullName.vb: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStreamEx(Object, NAudio.MediaFoundation.IMFByteStream)
+  name.vb: MFCreateMFByteStreamOnStreamEx(Object, IMFByteStream)
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStream(System.Runtime.InteropServices.ComTypes.IStream,NAudio.MediaFoundation.IMFByteStream@)
+  commentId: M:NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStream(System.Runtime.InteropServices.ComTypes.IStream,NAudio.MediaFoundation.IMFByteStream@)
+  id: MFCreateMFByteStreamOnStream(System.Runtime.InteropServices.ComTypes.IStream,NAudio.MediaFoundation.IMFByteStream@)
+  parent: NAudio.MediaFoundation.MediaFoundationInterop
+  langs:
+  - csharp
+  - vb
+  name: MFCreateMFByteStreamOnStream(IStream, out IMFByteStream)
+  nameWithType: MediaFoundationInterop.MFCreateMFByteStreamOnStream(IStream, out IMFByteStream)
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStream(System.Runtime.InteropServices.ComTypes.IStream, out NAudio.MediaFoundation.IMFByteStream)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static extern void MFCreateMFByteStreamOnStream(IStream punkStream, out IMFByteStream ppByteStream)
+    parameters:
+    - id: punkStream
+      type: System.Runtime.InteropServices.ComTypes.IStream
+    - id: ppByteStream
+      type: NAudio.MediaFoundation.IMFByteStream
+    content.vb: Public Shared Sub MFCreateMFByteStreamOnStream(punkStream As IStream, ppByteStream As IMFByteStream)
+  overload: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStream*
+  nameWithType.vb: MediaFoundationInterop.MFCreateMFByteStreamOnStream(IStream, IMFByteStream)
+  fullName.vb: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStream(System.Runtime.InteropServices.ComTypes.IStream, NAudio.MediaFoundation.IMFByteStream)
+  name.vb: MFCreateMFByteStreamOnStream(IStream, IMFByteStream)
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFTEnumEx(System.Guid,NAudio.MediaFoundation._MFT_ENUM_FLAG,NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO,NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO,System.IntPtr@,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.MediaFoundationInterop.MFTEnumEx(System.Guid,NAudio.MediaFoundation._MFT_ENUM_FLAG,NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO,NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO,System.IntPtr@,System.Int32@)
+  id: MFTEnumEx(System.Guid,NAudio.MediaFoundation._MFT_ENUM_FLAG,NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO,NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO,System.IntPtr@,System.Int32@)
+  parent: NAudio.MediaFoundation.MediaFoundationInterop
+  langs:
+  - csharp
+  - vb
+  name: MFTEnumEx(Guid, _MFT_ENUM_FLAG, MFT_REGISTER_TYPE_INFO, MFT_REGISTER_TYPE_INFO, out IntPtr, out int)
+  nameWithType: MediaFoundationInterop.MFTEnumEx(Guid, _MFT_ENUM_FLAG, MFT_REGISTER_TYPE_INFO, MFT_REGISTER_TYPE_INFO, out IntPtr, out int)
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFTEnumEx(System.Guid, NAudio.MediaFoundation._MFT_ENUM_FLAG, NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO, NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO, out System.IntPtr, out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static extern void MFTEnumEx(Guid guidCategory, _MFT_ENUM_FLAG flags, MFT_REGISTER_TYPE_INFO pInputType, MFT_REGISTER_TYPE_INFO pOutputType, out IntPtr pppMFTActivate, out int pcMFTActivate)
+    parameters:
+    - id: guidCategory
+      type: System.Guid
+    - id: flags
+      type: NAudio.MediaFoundation._MFT_ENUM_FLAG
+    - id: pInputType
+      type: NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO
+    - id: pOutputType
+      type: NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO
+    - id: pppMFTActivate
+      type: System.IntPtr
+    - id: pcMFTActivate
+      type: System.Int32
+    content.vb: Public Shared Sub MFTEnumEx(guidCategory As Guid, flags As _MFT_ENUM_FLAG, pInputType As MFT_REGISTER_TYPE_INFO, pOutputType As MFT_REGISTER_TYPE_INFO, pppMFTActivate As IntPtr, pcMFTActivate As Integer)
+  overload: NAudio.MediaFoundation.MediaFoundationInterop.MFTEnumEx*
+  nameWithType.vb: MediaFoundationInterop.MFTEnumEx(Guid, _MFT_ENUM_FLAG, MFT_REGISTER_TYPE_INFO, MFT_REGISTER_TYPE_INFO, IntPtr, Integer)
+  fullName.vb: NAudio.MediaFoundation.MediaFoundationInterop.MFTEnumEx(System.Guid, NAudio.MediaFoundation._MFT_ENUM_FLAG, NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO, NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO, System.IntPtr, Integer)
+  name.vb: MFTEnumEx(Guid, _MFT_ENUM_FLAG, MFT_REGISTER_TYPE_INFO, MFT_REGISTER_TYPE_INFO, IntPtr, Integer)
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFTranscodeGetAudioOutputAvailableTypes(System.Guid,NAudio.MediaFoundation._MFT_ENUM_FLAG,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFCollection@)
+  commentId: M:NAudio.MediaFoundation.MediaFoundationInterop.MFTranscodeGetAudioOutputAvailableTypes(System.Guid,NAudio.MediaFoundation._MFT_ENUM_FLAG,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFCollection@)
+  id: MFTranscodeGetAudioOutputAvailableTypes(System.Guid,NAudio.MediaFoundation._MFT_ENUM_FLAG,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFCollection@)
+  parent: NAudio.MediaFoundation.MediaFoundationInterop
+  langs:
+  - csharp
+  - vb
+  name: MFTranscodeGetAudioOutputAvailableTypes(Guid, _MFT_ENUM_FLAG, IMFAttributes, out IMFCollection)
+  nameWithType: MediaFoundationInterop.MFTranscodeGetAudioOutputAvailableTypes(Guid, _MFT_ENUM_FLAG, IMFAttributes, out IMFCollection)
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFTranscodeGetAudioOutputAvailableTypes(System.Guid, NAudio.MediaFoundation._MFT_ENUM_FLAG, NAudio.MediaFoundation.IMFAttributes, out NAudio.MediaFoundation.IMFCollection)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static extern void MFTranscodeGetAudioOutputAvailableTypes(Guid guidSubType, _MFT_ENUM_FLAG dwMFTFlags, IMFAttributes pCodecConfig, out IMFCollection ppAvailableTypes)
+    parameters:
+    - id: guidSubType
+      type: System.Guid
+    - id: dwMFTFlags
+      type: NAudio.MediaFoundation._MFT_ENUM_FLAG
+    - id: pCodecConfig
+      type: NAudio.MediaFoundation.IMFAttributes
+    - id: ppAvailableTypes
+      type: NAudio.MediaFoundation.IMFCollection
+    content.vb: Public Shared Sub MFTranscodeGetAudioOutputAvailableTypes(guidSubType As Guid, dwMFTFlags As _MFT_ENUM_FLAG, pCodecConfig As IMFAttributes, ppAvailableTypes As IMFCollection)
+  overload: NAudio.MediaFoundation.MediaFoundationInterop.MFTranscodeGetAudioOutputAvailableTypes*
+  nameWithType.vb: MediaFoundationInterop.MFTranscodeGetAudioOutputAvailableTypes(Guid, _MFT_ENUM_FLAG, IMFAttributes, IMFCollection)
+  fullName.vb: NAudio.MediaFoundation.MediaFoundationInterop.MFTranscodeGetAudioOutputAvailableTypes(System.Guid, NAudio.MediaFoundation._MFT_ENUM_FLAG, NAudio.MediaFoundation.IMFAttributes, NAudio.MediaFoundation.IMFCollection)
+  name.vb: MFTranscodeGetAudioOutputAvailableTypes(Guid, _MFT_ENUM_FLAG, IMFAttributes, IMFCollection)
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFStartup*
+  commentId: Overload:NAudio.MediaFoundation.MediaFoundationInterop.MFStartup
+  isExternal: true
+  href: NAudio.MediaFoundation.MediaFoundationInterop.html#NAudio_MediaFoundation_MediaFoundationInterop_MFStartup_System_Int32_System_Int32_
+  name: MFStartup
+  nameWithType: MediaFoundationInterop.MFStartup
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFStartup
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFShutdown*
+  commentId: Overload:NAudio.MediaFoundation.MediaFoundationInterop.MFShutdown
+  isExternal: true
+  href: NAudio.MediaFoundation.MediaFoundationInterop.html#NAudio_MediaFoundation_MediaFoundationInterop_MFShutdown
+  name: MFShutdown
+  nameWithType: MediaFoundationInterop.MFShutdown
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFShutdown
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromURL*
+  commentId: Overload:NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromURL
+  isExternal: true
+  href: NAudio.MediaFoundation.MediaFoundationInterop.html#NAudio_MediaFoundation_MediaFoundationInterop_MFCreateSourceReaderFromURL_System_String_NAudio_MediaFoundation_IMFAttributes_NAudio_MediaFoundation_IMFSourceReader__
+  name: MFCreateSourceReaderFromURL
+  nameWithType: MediaFoundationInterop.MFCreateSourceReaderFromURL
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromURL
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.MediaFoundation.IMFAttributes
+  commentId: T:NAudio.MediaFoundation.IMFAttributes
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFAttributes.html
+  name: IMFAttributes
+  nameWithType: IMFAttributes
+  fullName: NAudio.MediaFoundation.IMFAttributes
+- uid: NAudio.MediaFoundation.IMFSourceReader
+  commentId: T:NAudio.MediaFoundation.IMFSourceReader
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSourceReader.html
+  name: IMFSourceReader
+  nameWithType: IMFSourceReader
+  fullName: NAudio.MediaFoundation.IMFSourceReader
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromByteStream*
+  commentId: Overload:NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromByteStream
+  isExternal: true
+  href: NAudio.MediaFoundation.MediaFoundationInterop.html#NAudio_MediaFoundation_MediaFoundationInterop_MFCreateSourceReaderFromByteStream_NAudio_MediaFoundation_IMFByteStream_NAudio_MediaFoundation_IMFAttributes_NAudio_MediaFoundation_IMFSourceReader__
+  name: MFCreateSourceReaderFromByteStream
+  nameWithType: MediaFoundationInterop.MFCreateSourceReaderFromByteStream
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromByteStream
+- uid: NAudio.MediaFoundation.IMFByteStream
+  commentId: T:NAudio.MediaFoundation.IMFByteStream
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFByteStream.html
+  name: IMFByteStream
+  nameWithType: IMFByteStream
+  fullName: NAudio.MediaFoundation.IMFByteStream
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSinkWriterFromURL*
+  commentId: Overload:NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSinkWriterFromURL
+  isExternal: true
+  href: NAudio.MediaFoundation.MediaFoundationInterop.html#NAudio_MediaFoundation_MediaFoundationInterop_MFCreateSinkWriterFromURL_System_String_NAudio_MediaFoundation_IMFByteStream_NAudio_MediaFoundation_IMFAttributes_NAudio_MediaFoundation_IMFSinkWriter__
+  name: MFCreateSinkWriterFromURL
+  nameWithType: MediaFoundationInterop.MFCreateSinkWriterFromURL
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSinkWriterFromURL
+- uid: NAudio.MediaFoundation.IMFSinkWriter
+  commentId: T:NAudio.MediaFoundation.IMFSinkWriter
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSinkWriter.html
+  name: IMFSinkWriter
+  nameWithType: IMFSinkWriter
+  fullName: NAudio.MediaFoundation.IMFSinkWriter
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStreamEx*
+  commentId: Overload:NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStreamEx
+  isExternal: true
+  href: NAudio.MediaFoundation.MediaFoundationInterop.html#NAudio_MediaFoundation_MediaFoundationInterop_MFCreateMFByteStreamOnStreamEx_System_Object_NAudio_MediaFoundation_IMFByteStream__
+  name: MFCreateMFByteStreamOnStreamEx
+  nameWithType: MediaFoundationInterop.MFCreateMFByteStreamOnStreamEx
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStreamEx
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStream*
+  commentId: Overload:NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStream
+  isExternal: true
+  href: NAudio.MediaFoundation.MediaFoundationInterop.html#NAudio_MediaFoundation_MediaFoundationInterop_MFCreateMFByteStreamOnStream_System_Runtime_InteropServices_ComTypes_IStream_NAudio_MediaFoundation_IMFByteStream__
+  name: MFCreateMFByteStreamOnStream
+  nameWithType: MediaFoundationInterop.MFCreateMFByteStreamOnStream
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStream
+- uid: System.Runtime.InteropServices.ComTypes.IStream
+  commentId: T:System.Runtime.InteropServices.ComTypes.IStream
+  parent: System.Runtime.InteropServices.ComTypes
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.comtypes.istream
+  name: IStream
+  nameWithType: IStream
+  fullName: System.Runtime.InteropServices.ComTypes.IStream
+- uid: System.Runtime.InteropServices.ComTypes
+  commentId: N:System.Runtime.InteropServices.ComTypes
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Runtime.InteropServices.ComTypes
+  nameWithType: System.Runtime.InteropServices.ComTypes
+  fullName: System.Runtime.InteropServices.ComTypes
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices
+  - name: .
+  - uid: System.Runtime.InteropServices.ComTypes
+    name: ComTypes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.comtypes
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices
+  - name: .
+  - uid: System.Runtime.InteropServices.ComTypes
+    name: ComTypes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.comtypes
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFTEnumEx*
+  commentId: Overload:NAudio.MediaFoundation.MediaFoundationInterop.MFTEnumEx
+  isExternal: true
+  href: NAudio.MediaFoundation.MediaFoundationInterop.html#NAudio_MediaFoundation_MediaFoundationInterop_MFTEnumEx_System_Guid_NAudio_MediaFoundation__MFT_ENUM_FLAG_NAudio_MediaFoundation_MFT_REGISTER_TYPE_INFO_NAudio_MediaFoundation_MFT_REGISTER_TYPE_INFO_System_IntPtr__System_Int32__
+  name: MFTEnumEx
+  nameWithType: MediaFoundationInterop.MFTEnumEx
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFTEnumEx
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: NAudio.MediaFoundation._MFT_ENUM_FLAG
+  commentId: T:NAudio.MediaFoundation._MFT_ENUM_FLAG
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation._MFT_ENUM_FLAG.html
+  name: _MFT_ENUM_FLAG
+  nameWithType: _MFT_ENUM_FLAG
+  fullName: NAudio.MediaFoundation._MFT_ENUM_FLAG
+- uid: NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO
+  commentId: T:NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO.html
+  name: MFT_REGISTER_TYPE_INFO
+  nameWithType: MFT_REGISTER_TYPE_INFO
+  fullName: NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: NAudio.MediaFoundation.MediaFoundationInterop.MFTranscodeGetAudioOutputAvailableTypes*
+  commentId: Overload:NAudio.MediaFoundation.MediaFoundationInterop.MFTranscodeGetAudioOutputAvailableTypes
+  isExternal: true
+  href: NAudio.MediaFoundation.MediaFoundationInterop.html#NAudio_MediaFoundation_MediaFoundationInterop_MFTranscodeGetAudioOutputAvailableTypes_System_Guid_NAudio_MediaFoundation__MFT_ENUM_FLAG_NAudio_MediaFoundation_IMFAttributes_NAudio_MediaFoundation_IMFCollection__
+  name: MFTranscodeGetAudioOutputAvailableTypes
+  nameWithType: MediaFoundationInterop.MFTranscodeGetAudioOutputAvailableTypes
+  fullName: NAudio.MediaFoundation.MediaFoundationInterop.MFTranscodeGetAudioOutputAvailableTypes
+- uid: NAudio.MediaFoundation.IMFCollection
+  commentId: T:NAudio.MediaFoundation.IMFCollection
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFCollection.html
+  name: IMFCollection
+  nameWithType: IMFCollection
+  fullName: NAudio.MediaFoundation.IMFCollection

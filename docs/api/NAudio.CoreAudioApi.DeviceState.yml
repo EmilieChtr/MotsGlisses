@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.DeviceState
+  commentId: T:NAudio.CoreAudioApi.DeviceState
+  id: DeviceState
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.DeviceState.Active
+  - NAudio.CoreAudioApi.DeviceState.All
+  - NAudio.CoreAudioApi.DeviceState.Disabled
+  - NAudio.CoreAudioApi.DeviceState.NotPresent
+  - NAudio.CoreAudioApi.DeviceState.Unplugged
+  langs:
+  - csharp
+  - vb
+  name: DeviceState
+  nameWithType: DeviceState
+  fullName: NAudio.CoreAudioApi.DeviceState
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum DeviceState
+    content.vb: >-
+      <Flags>
+
+      Public Enum DeviceState
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.CoreAudioApi.DeviceState.Active
+  commentId: F:NAudio.CoreAudioApi.DeviceState.Active
+  id: Active
+  parent: NAudio.CoreAudioApi.DeviceState
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: DeviceState.Active
+  fullName: NAudio.CoreAudioApi.DeviceState.Active
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Active = 1
+    return:
+      type: NAudio.CoreAudioApi.DeviceState
+- uid: NAudio.CoreAudioApi.DeviceState.Disabled
+  commentId: F:NAudio.CoreAudioApi.DeviceState.Disabled
+  id: Disabled
+  parent: NAudio.CoreAudioApi.DeviceState
+  langs:
+  - csharp
+  - vb
+  name: Disabled
+  nameWithType: DeviceState.Disabled
+  fullName: NAudio.CoreAudioApi.DeviceState.Disabled
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Disabled = 2
+    return:
+      type: NAudio.CoreAudioApi.DeviceState
+- uid: NAudio.CoreAudioApi.DeviceState.NotPresent
+  commentId: F:NAudio.CoreAudioApi.DeviceState.NotPresent
+  id: NotPresent
+  parent: NAudio.CoreAudioApi.DeviceState
+  langs:
+  - csharp
+  - vb
+  name: NotPresent
+  nameWithType: DeviceState.NotPresent
+  fullName: NAudio.CoreAudioApi.DeviceState.NotPresent
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: NotPresent = 4
+    return:
+      type: NAudio.CoreAudioApi.DeviceState
+- uid: NAudio.CoreAudioApi.DeviceState.Unplugged
+  commentId: F:NAudio.CoreAudioApi.DeviceState.Unplugged
+  id: Unplugged
+  parent: NAudio.CoreAudioApi.DeviceState
+  langs:
+  - csharp
+  - vb
+  name: Unplugged
+  nameWithType: DeviceState.Unplugged
+  fullName: NAudio.CoreAudioApi.DeviceState.Unplugged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Unplugged = 8
+    return:
+      type: NAudio.CoreAudioApi.DeviceState
+- uid: NAudio.CoreAudioApi.DeviceState.All
+  commentId: F:NAudio.CoreAudioApi.DeviceState.All
+  id: All
+  parent: NAudio.CoreAudioApi.DeviceState
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: DeviceState.All
+  fullName: NAudio.CoreAudioApi.DeviceState.All
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: All = Active | Disabled | NotPresent | Unplugged
+    return:
+      type: NAudio.CoreAudioApi.DeviceState
+    content.vb: All = Active Or Disabled Or NotPresent Or Unplugged
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: NAudio.CoreAudioApi.DeviceState
+  commentId: T:NAudio.CoreAudioApi.DeviceState
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.DeviceState.html
+  name: DeviceState
+  nameWithType: DeviceState
+  fullName: NAudio.CoreAudioApi.DeviceState

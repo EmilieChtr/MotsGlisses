@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  commentId: T:NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  id: EnvelopeGenerator.EnvelopeState
+  parent: NAudio.Dsp
+  children:
+  - NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Attack
+  - NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Decay
+  - NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Idle
+  - NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Release
+  - NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Sustain
+  langs:
+  - csharp
+  - vb
+  name: EnvelopeGenerator.EnvelopeState
+  nameWithType: EnvelopeGenerator.EnvelopeState
+  fullName: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public enum EnvelopeGenerator.EnvelopeState
+    content.vb: Public Enum EnvelopeGenerator.EnvelopeState
+- uid: NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Idle
+  commentId: F:NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Idle
+  id: Idle
+  parent: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  langs:
+  - csharp
+  - vb
+  name: Idle
+  nameWithType: EnvelopeGenerator.EnvelopeState.Idle
+  fullName: NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Idle
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: Idle = 0
+    return:
+      type: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+- uid: NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Attack
+  commentId: F:NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Attack
+  id: Attack
+  parent: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  langs:
+  - csharp
+  - vb
+  name: Attack
+  nameWithType: EnvelopeGenerator.EnvelopeState.Attack
+  fullName: NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Attack
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: Attack = 1
+    return:
+      type: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+- uid: NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Decay
+  commentId: F:NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Decay
+  id: Decay
+  parent: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  langs:
+  - csharp
+  - vb
+  name: Decay
+  nameWithType: EnvelopeGenerator.EnvelopeState.Decay
+  fullName: NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Decay
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: Decay = 2
+    return:
+      type: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+- uid: NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Sustain
+  commentId: F:NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Sustain
+  id: Sustain
+  parent: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  langs:
+  - csharp
+  - vb
+  name: Sustain
+  nameWithType: EnvelopeGenerator.EnvelopeState.Sustain
+  fullName: NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Sustain
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: Sustain = 3
+    return:
+      type: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+- uid: NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Release
+  commentId: F:NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Release
+  id: Release
+  parent: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  langs:
+  - csharp
+  - vb
+  name: Release
+  nameWithType: EnvelopeGenerator.EnvelopeState.Release
+  fullName: NAudio.Dsp.EnvelopeGenerator.EnvelopeState.Release
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: Release = 4
+    return:
+      type: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+references:
+- uid: NAudio.Dsp
+  commentId: N:NAudio.Dsp
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dsp
+  nameWithType: NAudio.Dsp
+  fullName: NAudio.Dsp
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dsp
+    name: Dsp
+    isExternal: true
+    href: NAudio.Dsp.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dsp
+    name: Dsp
+    isExternal: true
+    href: NAudio.Dsp.html
+- uid: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  commentId: T:NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  parent: NAudio.Dsp
+  isExternal: true
+  href: NAudio.Dsp.EnvelopeGenerator.html
+  name: EnvelopeGenerator.EnvelopeState
+  nameWithType: EnvelopeGenerator.EnvelopeState
+  fullName: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  spec.csharp:
+  - uid: NAudio.Dsp.EnvelopeGenerator
+    name: EnvelopeGenerator
+    isExternal: true
+    href: NAudio.Dsp.EnvelopeGenerator.html
+  - name: .
+  - uid: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+    name: EnvelopeState
+    isExternal: true
+    href: NAudio.Dsp.EnvelopeGenerator.EnvelopeState.html
+  spec.vb:
+  - uid: NAudio.Dsp.EnvelopeGenerator
+    name: EnvelopeGenerator
+    isExternal: true
+    href: NAudio.Dsp.EnvelopeGenerator.html
+  - name: .
+  - uid: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+    name: EnvelopeState
+    isExternal: true
+    href: NAudio.Dsp.EnvelopeGenerator.EnvelopeState.html

@@ -1,0 +1,246 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  commentId: T:NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  id: MFT_MESSAGE_TYPE
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_DRAIN
+  - NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_FLUSH
+  - NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_MARKER
+  - NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_TICK
+  - NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_DROP_SAMPLES
+  - NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_BEGIN_STREAMING
+  - NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_END_OF_STREAM
+  - NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_END_STREAMING
+  - NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_START_OF_STREAM
+  - NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_SET_D3D_MANAGER
+  langs:
+  - csharp
+  - vb
+  name: MFT_MESSAGE_TYPE
+  nameWithType: MFT_MESSAGE_TYPE
+  fullName: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public enum MFT_MESSAGE_TYPE
+    content.vb: Public Enum MFT_MESSAGE_TYPE
+- uid: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_FLUSH
+  commentId: F:NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_FLUSH
+  id: MFT_MESSAGE_COMMAND_FLUSH
+  parent: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: MFT_MESSAGE_COMMAND_FLUSH
+  nameWithType: MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_FLUSH
+  fullName: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_FLUSH
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_MESSAGE_COMMAND_FLUSH = 0
+    return:
+      type: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+- uid: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_DRAIN
+  commentId: F:NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_DRAIN
+  id: MFT_MESSAGE_COMMAND_DRAIN
+  parent: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: MFT_MESSAGE_COMMAND_DRAIN
+  nameWithType: MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_DRAIN
+  fullName: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_DRAIN
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_MESSAGE_COMMAND_DRAIN = 1
+    return:
+      type: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+- uid: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_SET_D3D_MANAGER
+  commentId: F:NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_SET_D3D_MANAGER
+  id: MFT_MESSAGE_SET_D3D_MANAGER
+  parent: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: MFT_MESSAGE_SET_D3D_MANAGER
+  nameWithType: MFT_MESSAGE_TYPE.MFT_MESSAGE_SET_D3D_MANAGER
+  fullName: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_SET_D3D_MANAGER
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_MESSAGE_SET_D3D_MANAGER = 2
+    return:
+      type: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+- uid: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_DROP_SAMPLES
+  commentId: F:NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_DROP_SAMPLES
+  id: MFT_MESSAGE_DROP_SAMPLES
+  parent: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: MFT_MESSAGE_DROP_SAMPLES
+  nameWithType: MFT_MESSAGE_TYPE.MFT_MESSAGE_DROP_SAMPLES
+  fullName: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_DROP_SAMPLES
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_MESSAGE_DROP_SAMPLES = 3
+    return:
+      type: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+- uid: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_TICK
+  commentId: F:NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_TICK
+  id: MFT_MESSAGE_COMMAND_TICK
+  parent: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: MFT_MESSAGE_COMMAND_TICK
+  nameWithType: MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_TICK
+  fullName: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_TICK
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_MESSAGE_COMMAND_TICK = 4
+    return:
+      type: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+- uid: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_BEGIN_STREAMING
+  commentId: F:NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_BEGIN_STREAMING
+  id: MFT_MESSAGE_NOTIFY_BEGIN_STREAMING
+  parent: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: MFT_MESSAGE_NOTIFY_BEGIN_STREAMING
+  nameWithType: MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_BEGIN_STREAMING
+  fullName: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_BEGIN_STREAMING
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_MESSAGE_NOTIFY_BEGIN_STREAMING = 268435456
+    return:
+      type: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+- uid: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_END_STREAMING
+  commentId: F:NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_END_STREAMING
+  id: MFT_MESSAGE_NOTIFY_END_STREAMING
+  parent: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: MFT_MESSAGE_NOTIFY_END_STREAMING
+  nameWithType: MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_END_STREAMING
+  fullName: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_END_STREAMING
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_MESSAGE_NOTIFY_END_STREAMING = 268435457
+    return:
+      type: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+- uid: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_END_OF_STREAM
+  commentId: F:NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_END_OF_STREAM
+  id: MFT_MESSAGE_NOTIFY_END_OF_STREAM
+  parent: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: MFT_MESSAGE_NOTIFY_END_OF_STREAM
+  nameWithType: MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_END_OF_STREAM
+  fullName: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_END_OF_STREAM
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_MESSAGE_NOTIFY_END_OF_STREAM = 268435458
+    return:
+      type: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+- uid: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_START_OF_STREAM
+  commentId: F:NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_START_OF_STREAM
+  id: MFT_MESSAGE_NOTIFY_START_OF_STREAM
+  parent: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: MFT_MESSAGE_NOTIFY_START_OF_STREAM
+  nameWithType: MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_START_OF_STREAM
+  fullName: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_NOTIFY_START_OF_STREAM
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_MESSAGE_NOTIFY_START_OF_STREAM = 268435459
+    return:
+      type: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+- uid: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_MARKER
+  commentId: F:NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_MARKER
+  id: MFT_MESSAGE_COMMAND_MARKER
+  parent: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  langs:
+  - csharp
+  - vb
+  name: MFT_MESSAGE_COMMAND_MARKER
+  nameWithType: MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_MARKER
+  fullName: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.MFT_MESSAGE_COMMAND_MARKER
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_MESSAGE_COMMAND_MARKER = 536870912
+    return:
+      type: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  commentId: T:NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.html
+  name: MFT_MESSAGE_TYPE
+  nameWithType: MFT_MESSAGE_TYPE
+  fullName: NAudio.MediaFoundation.MFT_MESSAGE_TYPE

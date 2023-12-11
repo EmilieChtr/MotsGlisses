@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dsp
+  commentId: N:NAudio.Dsp
+  id: NAudio.Dsp
+  children:
+  - NAudio.Dsp.BiQuadFilter
+  - NAudio.Dsp.Complex
+  - NAudio.Dsp.EnvelopeGenerator
+  - NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  - NAudio.Dsp.FastFourierTransform
+  - NAudio.Dsp.ImpulseResponseConvolution
+  - NAudio.Dsp.SmbPitchShifter
+  - NAudio.Dsp.WdlResampler
+  langs:
+  - csharp
+  - vb
+  name: NAudio.Dsp
+  nameWithType: NAudio.Dsp
+  fullName: NAudio.Dsp
+  type: Namespace
+  assemblies:
+  - NAudio.Core
+references:
+- uid: NAudio.Dsp.BiQuadFilter
+  commentId: T:NAudio.Dsp.BiQuadFilter
+  parent: NAudio.Dsp
+  isExternal: true
+  href: NAudio.Dsp.BiQuadFilter.html
+  name: BiQuadFilter
+  nameWithType: BiQuadFilter
+  fullName: NAudio.Dsp.BiQuadFilter
+- uid: NAudio.Dsp.Complex
+  commentId: T:NAudio.Dsp.Complex
+  isExternal: true
+  href: NAudio.Dsp.Complex.html
+  name: Complex
+  nameWithType: Complex
+  fullName: NAudio.Dsp.Complex
+- uid: NAudio.Dsp.EnvelopeGenerator
+  commentId: T:NAudio.Dsp.EnvelopeGenerator
+  isExternal: true
+  href: NAudio.Dsp.EnvelopeGenerator.html
+  name: EnvelopeGenerator
+  nameWithType: EnvelopeGenerator
+  fullName: NAudio.Dsp.EnvelopeGenerator
+- uid: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  commentId: T:NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  parent: NAudio.Dsp
+  isExternal: true
+  href: NAudio.Dsp.EnvelopeGenerator.html
+  name: EnvelopeGenerator.EnvelopeState
+  nameWithType: EnvelopeGenerator.EnvelopeState
+  fullName: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  spec.csharp:
+  - uid: NAudio.Dsp.EnvelopeGenerator
+    name: EnvelopeGenerator
+    isExternal: true
+    href: NAudio.Dsp.EnvelopeGenerator.html
+  - name: .
+  - uid: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+    name: EnvelopeState
+    isExternal: true
+    href: NAudio.Dsp.EnvelopeGenerator.EnvelopeState.html
+  spec.vb:
+  - uid: NAudio.Dsp.EnvelopeGenerator
+    name: EnvelopeGenerator
+    isExternal: true
+    href: NAudio.Dsp.EnvelopeGenerator.html
+  - name: .
+  - uid: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+    name: EnvelopeState
+    isExternal: true
+    href: NAudio.Dsp.EnvelopeGenerator.EnvelopeState.html
+- uid: NAudio.Dsp.FastFourierTransform
+  commentId: T:NAudio.Dsp.FastFourierTransform
+  isExternal: true
+  href: NAudio.Dsp.FastFourierTransform.html
+  name: FastFourierTransform
+  nameWithType: FastFourierTransform
+  fullName: NAudio.Dsp.FastFourierTransform
+- uid: NAudio.Dsp.ImpulseResponseConvolution
+  commentId: T:NAudio.Dsp.ImpulseResponseConvolution
+  isExternal: true
+  href: NAudio.Dsp.ImpulseResponseConvolution.html
+  name: ImpulseResponseConvolution
+  nameWithType: ImpulseResponseConvolution
+  fullName: NAudio.Dsp.ImpulseResponseConvolution
+- uid: NAudio.Dsp.SmbPitchShifter
+  commentId: T:NAudio.Dsp.SmbPitchShifter
+  isExternal: true
+  href: NAudio.Dsp.SmbPitchShifter.html
+  name: SmbPitchShifter
+  nameWithType: SmbPitchShifter
+  fullName: NAudio.Dsp.SmbPitchShifter
+- uid: NAudio.Dsp.WdlResampler
+  commentId: T:NAudio.Dsp.WdlResampler
+  isExternal: true
+  href: NAudio.Dsp.WdlResampler.html
+  name: WdlResampler
+  nameWithType: WdlResampler
+  fullName: NAudio.Dsp.WdlResampler
+- uid: NAudio.Dsp
+  commentId: N:NAudio.Dsp
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dsp
+  nameWithType: NAudio.Dsp
+  fullName: NAudio.Dsp
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dsp
+    name: Dsp
+    isExternal: true
+    href: NAudio.Dsp.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dsp
+    name: Dsp
+    isExternal: true
+    href: NAudio.Dsp.html

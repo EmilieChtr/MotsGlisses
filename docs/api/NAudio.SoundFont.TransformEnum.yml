@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.SoundFont.TransformEnum
+  commentId: T:NAudio.SoundFont.TransformEnum
+  id: TransformEnum
+  parent: NAudio.SoundFont
+  children:
+  - NAudio.SoundFont.TransformEnum.Linear
+  langs:
+  - csharp
+  - vb
+  name: TransformEnum
+  nameWithType: TransformEnum
+  fullName: NAudio.SoundFont.TransformEnum
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public enum TransformEnum
+    content.vb: Public Enum TransformEnum
+- uid: NAudio.SoundFont.TransformEnum.Linear
+  commentId: F:NAudio.SoundFont.TransformEnum.Linear
+  id: Linear
+  parent: NAudio.SoundFont.TransformEnum
+  langs:
+  - csharp
+  - vb
+  name: Linear
+  nameWithType: TransformEnum.Linear
+  fullName: NAudio.SoundFont.TransformEnum.Linear
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: Linear = 0
+    return:
+      type: NAudio.SoundFont.TransformEnum
+references:
+- uid: NAudio.SoundFont
+  commentId: N:NAudio.SoundFont
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.SoundFont
+  nameWithType: NAudio.SoundFont
+  fullName: NAudio.SoundFont
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.SoundFont
+    name: SoundFont
+    isExternal: true
+    href: NAudio.SoundFont.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.SoundFont
+    name: SoundFont
+    isExternal: true
+    href: NAudio.SoundFont.html
+- uid: NAudio.SoundFont.TransformEnum
+  commentId: T:NAudio.SoundFont.TransformEnum
+  parent: NAudio.SoundFont
+  isExternal: true
+  href: NAudio.SoundFont.TransformEnum.html
+  name: TransformEnum
+  nameWithType: TransformEnum
+  fullName: NAudio.SoundFont.TransformEnum

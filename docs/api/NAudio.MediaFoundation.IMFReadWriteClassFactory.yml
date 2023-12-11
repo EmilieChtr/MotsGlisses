@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation.IMFReadWriteClassFactory
+  commentId: T:NAudio.MediaFoundation.IMFReadWriteClassFactory
+  id: IMFReadWriteClassFactory
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromObject(System.Guid,System.Object,NAudio.MediaFoundation.IMFAttributes,System.Guid,System.Object@)
+  - NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromURL(System.Guid,System.String,NAudio.MediaFoundation.IMFAttributes,System.Guid,System.Object@)
+  langs:
+  - csharp
+  - vb
+  name: IMFReadWriteClassFactory
+  nameWithType: IMFReadWriteClassFactory
+  fullName: NAudio.MediaFoundation.IMFReadWriteClassFactory
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [Guid("E7FE2E12-661C-40DA-92F9-4F002AB67627")]
+
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      public interface IMFReadWriteClassFactory
+    content.vb: >-
+      <Guid("E7FE2E12-661C-40DA-92F9-4F002AB67627")>
+
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      Public Interface IMFReadWriteClassFactory
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: E7FE2E12-661C-40DA-92F9-4F002AB67627
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+- uid: NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromURL(System.Guid,System.String,NAudio.MediaFoundation.IMFAttributes,System.Guid,System.Object@)
+  commentId: M:NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromURL(System.Guid,System.String,NAudio.MediaFoundation.IMFAttributes,System.Guid,System.Object@)
+  id: CreateInstanceFromURL(System.Guid,System.String,NAudio.MediaFoundation.IMFAttributes,System.Guid,System.Object@)
+  parent: NAudio.MediaFoundation.IMFReadWriteClassFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateInstanceFromURL(Guid, string, IMFAttributes, Guid, out object)
+  nameWithType: IMFReadWriteClassFactory.CreateInstanceFromURL(Guid, string, IMFAttributes, Guid, out object)
+  fullName: NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromURL(System.Guid, string, NAudio.MediaFoundation.IMFAttributes, System.Guid, out object)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void CreateInstanceFromURL(Guid clsid, string pwszURL, IMFAttributes pAttributes, Guid riid, out object ppvObject)
+    parameters:
+    - id: clsid
+      type: System.Guid
+    - id: pwszURL
+      type: System.String
+    - id: pAttributes
+      type: NAudio.MediaFoundation.IMFAttributes
+    - id: riid
+      type: System.Guid
+    - id: ppvObject
+      type: System.Object
+    content.vb: Sub CreateInstanceFromURL(clsid As Guid, pwszURL As String, pAttributes As IMFAttributes, riid As Guid, ppvObject As Object)
+  overload: NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromURL*
+  nameWithType.vb: IMFReadWriteClassFactory.CreateInstanceFromURL(Guid, String, IMFAttributes, Guid, Object)
+  fullName.vb: NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromURL(System.Guid, String, NAudio.MediaFoundation.IMFAttributes, System.Guid, Object)
+  name.vb: CreateInstanceFromURL(Guid, String, IMFAttributes, Guid, Object)
+- uid: NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromObject(System.Guid,System.Object,NAudio.MediaFoundation.IMFAttributes,System.Guid,System.Object@)
+  commentId: M:NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromObject(System.Guid,System.Object,NAudio.MediaFoundation.IMFAttributes,System.Guid,System.Object@)
+  id: CreateInstanceFromObject(System.Guid,System.Object,NAudio.MediaFoundation.IMFAttributes,System.Guid,System.Object@)
+  parent: NAudio.MediaFoundation.IMFReadWriteClassFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateInstanceFromObject(Guid, object, IMFAttributes, Guid, out object)
+  nameWithType: IMFReadWriteClassFactory.CreateInstanceFromObject(Guid, object, IMFAttributes, Guid, out object)
+  fullName: NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromObject(System.Guid, object, NAudio.MediaFoundation.IMFAttributes, System.Guid, out object)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void CreateInstanceFromObject(Guid clsid, object punkObject, IMFAttributes pAttributes, Guid riid, out object ppvObject)
+    parameters:
+    - id: clsid
+      type: System.Guid
+    - id: punkObject
+      type: System.Object
+    - id: pAttributes
+      type: NAudio.MediaFoundation.IMFAttributes
+    - id: riid
+      type: System.Guid
+    - id: ppvObject
+      type: System.Object
+    content.vb: Sub CreateInstanceFromObject(clsid As Guid, punkObject As Object, pAttributes As IMFAttributes, riid As Guid, ppvObject As Object)
+  overload: NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromObject*
+  nameWithType.vb: IMFReadWriteClassFactory.CreateInstanceFromObject(Guid, Object, IMFAttributes, Guid, Object)
+  fullName.vb: NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromObject(System.Guid, Object, NAudio.MediaFoundation.IMFAttributes, System.Guid, Object)
+  name.vb: CreateInstanceFromObject(Guid, Object, IMFAttributes, Guid, Object)
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromURL*
+  commentId: Overload:NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromURL
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFReadWriteClassFactory.html#NAudio_MediaFoundation_IMFReadWriteClassFactory_CreateInstanceFromURL_System_Guid_System_String_NAudio_MediaFoundation_IMFAttributes_System_Guid_System_Object__
+  name: CreateInstanceFromURL
+  nameWithType: IMFReadWriteClassFactory.CreateInstanceFromURL
+  fullName: NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromURL
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.MediaFoundation.IMFAttributes
+  commentId: T:NAudio.MediaFoundation.IMFAttributes
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFAttributes.html
+  name: IMFAttributes
+  nameWithType: IMFAttributes
+  fullName: NAudio.MediaFoundation.IMFAttributes
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromObject*
+  commentId: Overload:NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromObject
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFReadWriteClassFactory.html#NAudio_MediaFoundation_IMFReadWriteClassFactory_CreateInstanceFromObject_System_Guid_System_Object_NAudio_MediaFoundation_IMFAttributes_System_Guid_System_Object__
+  name: CreateInstanceFromObject
+  nameWithType: IMFReadWriteClassFactory.CreateInstanceFromObject
+  fullName: NAudio.MediaFoundation.IMFReadWriteClassFactory.CreateInstanceFromObject

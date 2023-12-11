@@ -1,0 +1,341 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Midi.MidiController
+  commentId: T:NAudio.Midi.MidiController
+  id: MidiController
+  parent: NAudio.Midi
+  children:
+  - NAudio.Midi.MidiController.AllNotesOff
+  - NAudio.Midi.MidiController.BankSelect
+  - NAudio.Midi.MidiController.BankSelectLsb
+  - NAudio.Midi.MidiController.BreathController
+  - NAudio.Midi.MidiController.Expression
+  - NAudio.Midi.MidiController.FootController
+  - NAudio.Midi.MidiController.LegatoFootswitch
+  - NAudio.Midi.MidiController.MainVolume
+  - NAudio.Midi.MidiController.Modulation
+  - NAudio.Midi.MidiController.Pan
+  - NAudio.Midi.MidiController.Portamento
+  - NAudio.Midi.MidiController.ResetAllControllers
+  - NAudio.Midi.MidiController.SoftPedal
+  - NAudio.Midi.MidiController.Sostenuto
+  - NAudio.Midi.MidiController.Sustain
+  langs:
+  - csharp
+  - vb
+  name: MidiController
+  nameWithType: MidiController
+  fullName: NAudio.Midi.MidiController
+  type: Enum
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: 'public enum MidiController : byte'
+    content.vb: Public Enum MidiController As Byte
+- uid: NAudio.Midi.MidiController.BankSelect
+  commentId: F:NAudio.Midi.MidiController.BankSelect
+  id: BankSelect
+  parent: NAudio.Midi.MidiController
+  langs:
+  - csharp
+  - vb
+  name: BankSelect
+  nameWithType: MidiController.BankSelect
+  fullName: NAudio.Midi.MidiController.BankSelect
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: BankSelect = 0
+    return:
+      type: NAudio.Midi.MidiController
+- uid: NAudio.Midi.MidiController.Modulation
+  commentId: F:NAudio.Midi.MidiController.Modulation
+  id: Modulation
+  parent: NAudio.Midi.MidiController
+  langs:
+  - csharp
+  - vb
+  name: Modulation
+  nameWithType: MidiController.Modulation
+  fullName: NAudio.Midi.MidiController.Modulation
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: Modulation = 1
+    return:
+      type: NAudio.Midi.MidiController
+- uid: NAudio.Midi.MidiController.BreathController
+  commentId: F:NAudio.Midi.MidiController.BreathController
+  id: BreathController
+  parent: NAudio.Midi.MidiController
+  langs:
+  - csharp
+  - vb
+  name: BreathController
+  nameWithType: MidiController.BreathController
+  fullName: NAudio.Midi.MidiController.BreathController
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: BreathController = 2
+    return:
+      type: NAudio.Midi.MidiController
+- uid: NAudio.Midi.MidiController.FootController
+  commentId: F:NAudio.Midi.MidiController.FootController
+  id: FootController
+  parent: NAudio.Midi.MidiController
+  langs:
+  - csharp
+  - vb
+  name: FootController
+  nameWithType: MidiController.FootController
+  fullName: NAudio.Midi.MidiController.FootController
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: FootController = 4
+    return:
+      type: NAudio.Midi.MidiController
+- uid: NAudio.Midi.MidiController.MainVolume
+  commentId: F:NAudio.Midi.MidiController.MainVolume
+  id: MainVolume
+  parent: NAudio.Midi.MidiController
+  langs:
+  - csharp
+  - vb
+  name: MainVolume
+  nameWithType: MidiController.MainVolume
+  fullName: NAudio.Midi.MidiController.MainVolume
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: MainVolume = 7
+    return:
+      type: NAudio.Midi.MidiController
+- uid: NAudio.Midi.MidiController.Pan
+  commentId: F:NAudio.Midi.MidiController.Pan
+  id: Pan
+  parent: NAudio.Midi.MidiController
+  langs:
+  - csharp
+  - vb
+  name: Pan
+  nameWithType: MidiController.Pan
+  fullName: NAudio.Midi.MidiController.Pan
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: Pan = 10
+    return:
+      type: NAudio.Midi.MidiController
+- uid: NAudio.Midi.MidiController.Expression
+  commentId: F:NAudio.Midi.MidiController.Expression
+  id: Expression
+  parent: NAudio.Midi.MidiController
+  langs:
+  - csharp
+  - vb
+  name: Expression
+  nameWithType: MidiController.Expression
+  fullName: NAudio.Midi.MidiController.Expression
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: Expression = 11
+    return:
+      type: NAudio.Midi.MidiController
+- uid: NAudio.Midi.MidiController.BankSelectLsb
+  commentId: F:NAudio.Midi.MidiController.BankSelectLsb
+  id: BankSelectLsb
+  parent: NAudio.Midi.MidiController
+  langs:
+  - csharp
+  - vb
+  name: BankSelectLsb
+  nameWithType: MidiController.BankSelectLsb
+  fullName: NAudio.Midi.MidiController.BankSelectLsb
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: BankSelectLsb = 32
+    return:
+      type: NAudio.Midi.MidiController
+- uid: NAudio.Midi.MidiController.Sustain
+  commentId: F:NAudio.Midi.MidiController.Sustain
+  id: Sustain
+  parent: NAudio.Midi.MidiController
+  langs:
+  - csharp
+  - vb
+  name: Sustain
+  nameWithType: MidiController.Sustain
+  fullName: NAudio.Midi.MidiController.Sustain
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: Sustain = 64
+    return:
+      type: NAudio.Midi.MidiController
+- uid: NAudio.Midi.MidiController.Portamento
+  commentId: F:NAudio.Midi.MidiController.Portamento
+  id: Portamento
+  parent: NAudio.Midi.MidiController
+  langs:
+  - csharp
+  - vb
+  name: Portamento
+  nameWithType: MidiController.Portamento
+  fullName: NAudio.Midi.MidiController.Portamento
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: Portamento = 65
+    return:
+      type: NAudio.Midi.MidiController
+- uid: NAudio.Midi.MidiController.Sostenuto
+  commentId: F:NAudio.Midi.MidiController.Sostenuto
+  id: Sostenuto
+  parent: NAudio.Midi.MidiController
+  langs:
+  - csharp
+  - vb
+  name: Sostenuto
+  nameWithType: MidiController.Sostenuto
+  fullName: NAudio.Midi.MidiController.Sostenuto
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: Sostenuto = 66
+    return:
+      type: NAudio.Midi.MidiController
+- uid: NAudio.Midi.MidiController.SoftPedal
+  commentId: F:NAudio.Midi.MidiController.SoftPedal
+  id: SoftPedal
+  parent: NAudio.Midi.MidiController
+  langs:
+  - csharp
+  - vb
+  name: SoftPedal
+  nameWithType: MidiController.SoftPedal
+  fullName: NAudio.Midi.MidiController.SoftPedal
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: SoftPedal = 67
+    return:
+      type: NAudio.Midi.MidiController
+- uid: NAudio.Midi.MidiController.LegatoFootswitch
+  commentId: F:NAudio.Midi.MidiController.LegatoFootswitch
+  id: LegatoFootswitch
+  parent: NAudio.Midi.MidiController
+  langs:
+  - csharp
+  - vb
+  name: LegatoFootswitch
+  nameWithType: MidiController.LegatoFootswitch
+  fullName: NAudio.Midi.MidiController.LegatoFootswitch
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: LegatoFootswitch = 68
+    return:
+      type: NAudio.Midi.MidiController
+- uid: NAudio.Midi.MidiController.ResetAllControllers
+  commentId: F:NAudio.Midi.MidiController.ResetAllControllers
+  id: ResetAllControllers
+  parent: NAudio.Midi.MidiController
+  langs:
+  - csharp
+  - vb
+  name: ResetAllControllers
+  nameWithType: MidiController.ResetAllControllers
+  fullName: NAudio.Midi.MidiController.ResetAllControllers
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: ResetAllControllers = 121
+    return:
+      type: NAudio.Midi.MidiController
+- uid: NAudio.Midi.MidiController.AllNotesOff
+  commentId: F:NAudio.Midi.MidiController.AllNotesOff
+  id: AllNotesOff
+  parent: NAudio.Midi.MidiController
+  langs:
+  - csharp
+  - vb
+  name: AllNotesOff
+  nameWithType: MidiController.AllNotesOff
+  fullName: NAudio.Midi.MidiController.AllNotesOff
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: AllNotesOff = 123
+    return:
+      type: NAudio.Midi.MidiController
+references:
+- uid: NAudio.Midi
+  commentId: N:NAudio.Midi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Midi
+  nameWithType: NAudio.Midi
+  fullName: NAudio.Midi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+- uid: NAudio.Midi.MidiController
+  commentId: T:NAudio.Midi.MidiController
+  parent: NAudio.Midi
+  isExternal: true
+  href: NAudio.Midi.MidiController.html
+  name: MidiController
+  nameWithType: MidiController
+  fullName: NAudio.Midi.MidiController

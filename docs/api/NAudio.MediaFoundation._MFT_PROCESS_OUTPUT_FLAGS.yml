@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS
+  commentId: T:NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS
+  id: _MFT_PROCESS_OUTPUT_FLAGS
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.MFT_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER
+  - NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT
+  - NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.None
+  langs:
+  - csharp
+  - vb
+  name: _MFT_PROCESS_OUTPUT_FLAGS
+  nameWithType: _MFT_PROCESS_OUTPUT_FLAGS
+  fullName: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum _MFT_PROCESS_OUTPUT_FLAGS
+    content.vb: >-
+      <Flags>
+
+      Public Enum _MFT_PROCESS_OUTPUT_FLAGS
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.None
+  commentId: F:NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.None
+  id: None
+  parent: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: _MFT_PROCESS_OUTPUT_FLAGS.None
+  fullName: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.None
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: None = 0
+    return:
+      type: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS
+- uid: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.MFT_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER
+  commentId: F:NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.MFT_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER
+  id: MFT_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER
+  parent: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: MFT_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER
+  nameWithType: _MFT_PROCESS_OUTPUT_FLAGS.MFT_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER
+  fullName: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.MFT_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER = 1
+    return:
+      type: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS
+- uid: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT
+  commentId: F:NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT
+  id: MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT
+  parent: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT
+  nameWithType: _MFT_PROCESS_OUTPUT_FLAGS.MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT
+  fullName: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT = 2
+    return:
+      type: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS
+  commentId: T:NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.html
+  name: _MFT_PROCESS_OUTPUT_FLAGS
+  nameWithType: _MFT_PROCESS_OUTPUT_FLAGS
+  fullName: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS

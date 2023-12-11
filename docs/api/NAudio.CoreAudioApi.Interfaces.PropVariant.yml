@@ -1,0 +1,1095 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant
+  commentId: T:NAudio.CoreAudioApi.Interfaces.PropVariant
+  id: PropVariant
+  parent: NAudio.CoreAudioApi.Interfaces
+  children:
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.Clear(System.IntPtr)
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.DataType
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.FromLong(System.Int64)
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.GetBlobAsArrayOf``1
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.Value
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.bVal
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.blobVal
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.boolVal
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.cVal
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.dblVal
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.filetime
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.fltVal
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.hVal
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.iVal
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.intVal
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.lVal
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.pointerValue
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.scode
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.uhVal
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.uiVal
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.uintVal
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.ulVal
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.vt
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.wReserved1
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.wReserved2
+  - NAudio.CoreAudioApi.Interfaces.PropVariant.wReserved3
+  langs:
+  - csharp
+  - vb
+  name: PropVariant
+  nameWithType: PropVariant
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant
+  type: Struct
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public struct PropVariant
+    content.vb: Public Structure PropVariant
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.vt
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.vt
+  id: vt
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: vt
+  nameWithType: PropVariant.vt
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.vt
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public short vt
+    return:
+      type: System.Int16
+    content.vb: Public vt As Short
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.wReserved1
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.wReserved1
+  id: wReserved1
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: wReserved1
+  nameWithType: PropVariant.wReserved1
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.wReserved1
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public short wReserved1
+    return:
+      type: System.Int16
+    content.vb: Public wReserved1 As Short
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.wReserved2
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.wReserved2
+  id: wReserved2
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: wReserved2
+  nameWithType: PropVariant.wReserved2
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.wReserved2
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public short wReserved2
+    return:
+      type: System.Int16
+    content.vb: Public wReserved2 As Short
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.wReserved3
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.wReserved3
+  id: wReserved3
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: wReserved3
+  nameWithType: PropVariant.wReserved3
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.wReserved3
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public short wReserved3
+    return:
+      type: System.Int16
+    content.vb: Public wReserved3 As Short
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.cVal
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.cVal
+  id: cVal
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: cVal
+  nameWithType: PropVariant.cVal
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.cVal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public sbyte cVal
+    return:
+      type: System.SByte
+    content.vb: Public cVal As SByte
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.bVal
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.bVal
+  id: bVal
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: bVal
+  nameWithType: PropVariant.bVal
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.bVal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public byte bVal
+    return:
+      type: System.Byte
+    content.vb: Public bVal As Byte
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.iVal
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.iVal
+  id: iVal
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: iVal
+  nameWithType: PropVariant.iVal
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.iVal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public short iVal
+    return:
+      type: System.Int16
+    content.vb: Public iVal As Short
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.uiVal
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.uiVal
+  id: uiVal
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: uiVal
+  nameWithType: PropVariant.uiVal
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.uiVal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public ushort uiVal
+    return:
+      type: System.UInt16
+    content.vb: Public uiVal As UShort
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.lVal
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.lVal
+  id: lVal
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: lVal
+  nameWithType: PropVariant.lVal
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.lVal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public int lVal
+    return:
+      type: System.Int32
+    content.vb: Public lVal As Integer
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.ulVal
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.ulVal
+  id: ulVal
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: ulVal
+  nameWithType: PropVariant.ulVal
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.ulVal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public uint ulVal
+    return:
+      type: System.UInt32
+    content.vb: Public ulVal As UInteger
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.intVal
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.intVal
+  id: intVal
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: intVal
+  nameWithType: PropVariant.intVal
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.intVal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public int intVal
+    return:
+      type: System.Int32
+    content.vb: Public intVal As Integer
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.uintVal
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.uintVal
+  id: uintVal
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: uintVal
+  nameWithType: PropVariant.uintVal
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.uintVal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public uint uintVal
+    return:
+      type: System.UInt32
+    content.vb: Public uintVal As UInteger
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.hVal
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.hVal
+  id: hVal
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: hVal
+  nameWithType: PropVariant.hVal
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.hVal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public long hVal
+    return:
+      type: System.Int64
+    content.vb: Public hVal As Long
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.uhVal
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.uhVal
+  id: uhVal
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: uhVal
+  nameWithType: PropVariant.uhVal
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.uhVal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public long uhVal
+    return:
+      type: System.Int64
+    content.vb: Public uhVal As Long
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.fltVal
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.fltVal
+  id: fltVal
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: fltVal
+  nameWithType: PropVariant.fltVal
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.fltVal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public float fltVal
+    return:
+      type: System.Single
+    content.vb: Public fltVal As Single
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.dblVal
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.dblVal
+  id: dblVal
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: dblVal
+  nameWithType: PropVariant.dblVal
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.dblVal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public double dblVal
+    return:
+      type: System.Double
+    content.vb: Public dblVal As Double
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.boolVal
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.boolVal
+  id: boolVal
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: boolVal
+  nameWithType: PropVariant.boolVal
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.boolVal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public short boolVal
+    return:
+      type: System.Int16
+    content.vb: Public boolVal As Short
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.scode
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.scode
+  id: scode
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: scode
+  nameWithType: PropVariant.scode
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.scode
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public int scode
+    return:
+      type: System.Int32
+    content.vb: Public scode As Integer
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.filetime
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.filetime
+  id: filetime
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: filetime
+  nameWithType: PropVariant.filetime
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.filetime
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public FILETIME filetime
+    return:
+      type: System.Runtime.InteropServices.ComTypes.FILETIME
+    content.vb: Public filetime As FILETIME
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.blobVal
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.blobVal
+  id: blobVal
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: blobVal
+  nameWithType: PropVariant.blobVal
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.blobVal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public Blob blobVal
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.Blob
+    content.vb: Public blobVal As Blob
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.pointerValue
+  commentId: F:NAudio.CoreAudioApi.Interfaces.PropVariant.pointerValue
+  id: pointerValue
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: pointerValue
+  nameWithType: PropVariant.pointerValue
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.pointerValue
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public IntPtr pointerValue
+    return:
+      type: System.IntPtr
+    content.vb: Public pointerValue As IntPtr
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.FromLong(System.Int64)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.PropVariant.FromLong(System.Int64)
+  id: FromLong(System.Int64)
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: FromLong(long)
+  nameWithType: PropVariant.FromLong(long)
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.FromLong(long)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public static PropVariant FromLong(long value)
+    parameters:
+    - id: value
+      type: System.Int64
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.PropVariant
+    content.vb: Public Shared Function FromLong(value As Long) As PropVariant
+  overload: NAudio.CoreAudioApi.Interfaces.PropVariant.FromLong*
+  nameWithType.vb: PropVariant.FromLong(Long)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.PropVariant.FromLong(Long)
+  name.vb: FromLong(Long)
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.GetBlobAsArrayOf``1
+  commentId: M:NAudio.CoreAudioApi.Interfaces.PropVariant.GetBlobAsArrayOf``1
+  id: GetBlobAsArrayOf``1
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: GetBlobAsArrayOf<T>()
+  nameWithType: PropVariant.GetBlobAsArrayOf<T>()
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.GetBlobAsArrayOf<T>()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public T[] GetBlobAsArrayOf<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}[]'
+    content.vb: Public Function GetBlobAsArrayOf(Of T)() As T()
+  overload: NAudio.CoreAudioApi.Interfaces.PropVariant.GetBlobAsArrayOf*
+  nameWithType.vb: PropVariant.GetBlobAsArrayOf(Of T)()
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.PropVariant.GetBlobAsArrayOf(Of T)()
+  name.vb: GetBlobAsArrayOf(Of T)()
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.Clear(System.IntPtr)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.PropVariant.Clear(System.IntPtr)
+  id: Clear(System.IntPtr)
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: Clear(IntPtr)
+  nameWithType: PropVariant.Clear(IntPtr)
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.Clear(System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public static void Clear(IntPtr ptr)
+    parameters:
+    - id: ptr
+      type: System.IntPtr
+    content.vb: Public Shared Sub Clear(ptr As IntPtr)
+  overload: NAudio.CoreAudioApi.Interfaces.PropVariant.Clear*
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.DataType
+  commentId: P:NAudio.CoreAudioApi.Interfaces.PropVariant.DataType
+  id: DataType
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: DataType
+  nameWithType: PropVariant.DataType
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.DataType
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public VarEnum DataType { get; }
+    parameters: []
+    return:
+      type: System.Runtime.InteropServices.VarEnum
+    content.vb: Public ReadOnly Property DataType As VarEnum
+  overload: NAudio.CoreAudioApi.Interfaces.PropVariant.DataType*
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.Value
+  commentId: P:NAudio.CoreAudioApi.Interfaces.PropVariant.Value
+  id: Value
+  parent: NAudio.CoreAudioApi.Interfaces.PropVariant
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: PropVariant.Value
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.Value
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public object Value { get; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public ReadOnly Property Value As Object
+  overload: NAudio.CoreAudioApi.Interfaces.PropVariant.Value*
+references:
+- uid: NAudio.CoreAudioApi.Interfaces
+  commentId: N:NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi.Interfaces
+  nameWithType: NAudio.CoreAudioApi.Interfaces
+  fullName: NAudio.CoreAudioApi.Interfaces
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: System.SByte
+  commentId: T:System.SByte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.sbyte
+  name: sbyte
+  nameWithType: sbyte
+  fullName: sbyte
+  nameWithType.vb: SByte
+  fullName.vb: SByte
+  name.vb: SByte
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Runtime.InteropServices.ComTypes.FILETIME
+  commentId: T:System.Runtime.InteropServices.ComTypes.FILETIME
+  parent: System.Runtime.InteropServices.ComTypes
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.comtypes.filetime
+  name: FILETIME
+  nameWithType: FILETIME
+  fullName: System.Runtime.InteropServices.ComTypes.FILETIME
+- uid: System.Runtime.InteropServices.ComTypes
+  commentId: N:System.Runtime.InteropServices.ComTypes
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Runtime.InteropServices.ComTypes
+  nameWithType: System.Runtime.InteropServices.ComTypes
+  fullName: System.Runtime.InteropServices.ComTypes
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices
+  - name: .
+  - uid: System.Runtime.InteropServices.ComTypes
+    name: ComTypes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.comtypes
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices
+  - name: .
+  - uid: System.Runtime.InteropServices.ComTypes
+    name: ComTypes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.comtypes
+- uid: NAudio.CoreAudioApi.Interfaces.Blob
+  commentId: T:NAudio.CoreAudioApi.Interfaces.Blob
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.Blob.html
+  name: Blob
+  nameWithType: Blob
+  fullName: NAudio.CoreAudioApi.Interfaces.Blob
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.FromLong*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.PropVariant.FromLong
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.PropVariant.html#NAudio_CoreAudioApi_Interfaces_PropVariant_FromLong_System_Int64_
+  name: FromLong
+  nameWithType: PropVariant.FromLong
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.FromLong
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant
+  commentId: T:NAudio.CoreAudioApi.Interfaces.PropVariant
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.PropVariant.html
+  name: PropVariant
+  nameWithType: PropVariant
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.GetBlobAsArrayOf*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.PropVariant.GetBlobAsArrayOf
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.PropVariant.html#NAudio_CoreAudioApi_Interfaces_PropVariant_GetBlobAsArrayOf__1
+  name: GetBlobAsArrayOf
+  nameWithType: PropVariant.GetBlobAsArrayOf
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.GetBlobAsArrayOf
+- uid: '{T}[]'
+  isExternal: true
+  name: T[]
+  nameWithType: T[]
+  fullName: T[]
+  nameWithType.vb: T()
+  fullName.vb: T()
+  name.vb: T()
+  spec.csharp:
+  - name: T
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - name: T
+  - name: (
+  - name: )
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.Clear*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.PropVariant.Clear
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.PropVariant.html#NAudio_CoreAudioApi_Interfaces_PropVariant_Clear_System_IntPtr_
+  name: Clear
+  nameWithType: PropVariant.Clear
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.Clear
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.DataType*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.PropVariant.DataType
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.PropVariant.html#NAudio_CoreAudioApi_Interfaces_PropVariant_DataType
+  name: DataType
+  nameWithType: PropVariant.DataType
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.DataType
+- uid: System.Runtime.InteropServices.VarEnum
+  commentId: T:System.Runtime.InteropServices.VarEnum
+  parent: System.Runtime.InteropServices
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.varenum
+  name: VarEnum
+  nameWithType: VarEnum
+  fullName: System.Runtime.InteropServices.VarEnum
+- uid: System.Runtime.InteropServices
+  commentId: N:System.Runtime.InteropServices
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Runtime.InteropServices
+  nameWithType: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices
+- uid: NAudio.CoreAudioApi.Interfaces.PropVariant.Value*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.PropVariant.Value
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.PropVariant.html#NAudio_CoreAudioApi_Interfaces_PropVariant_Value
+  name: Value
+  nameWithType: PropVariant.Value
+  fullName: NAudio.CoreAudioApi.Interfaces.PropVariant.Value

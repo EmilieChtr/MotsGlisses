@@ -1,0 +1,79 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.Interfaces.IControlInterface
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IControlInterface
+  id: IControlInterface
+  parent: NAudio.CoreAudioApi.Interfaces
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IControlInterface
+  nameWithType: IControlInterface
+  fullName: NAudio.CoreAudioApi.Interfaces.IControlInterface
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: >-
+      [Guid("45d37c3f-5140-444a-ae24-400789f3cbf3")]
+
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      public interface IControlInterface
+    content.vb: >-
+      <Guid("45d37c3f-5140-444a-ae24-400789f3cbf3")>
+
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      Public Interface IControlInterface
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 45d37c3f-5140-444a-ae24-400789f3cbf3
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+references:
+- uid: NAudio.CoreAudioApi.Interfaces
+  commentId: N:NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi.Interfaces
+  nameWithType: NAudio.CoreAudioApi.Interfaces
+  fullName: NAudio.CoreAudioApi.Interfaces
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html

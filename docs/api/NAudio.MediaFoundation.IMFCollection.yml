@@ -1,0 +1,290 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation.IMFCollection
+  commentId: T:NAudio.MediaFoundation.IMFCollection
+  id: IMFCollection
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation.IMFCollection.AddElement(System.Object)
+  - NAudio.MediaFoundation.IMFCollection.GetElement(System.Int32,System.Object@)
+  - NAudio.MediaFoundation.IMFCollection.GetElementCount(System.Int32@)
+  - NAudio.MediaFoundation.IMFCollection.InsertElementAt(System.Int32,System.Object)
+  - NAudio.MediaFoundation.IMFCollection.RemoveAllElements
+  - NAudio.MediaFoundation.IMFCollection.RemoveElement(System.Int32,System.Object@)
+  langs:
+  - csharp
+  - vb
+  name: IMFCollection
+  nameWithType: IMFCollection
+  fullName: NAudio.MediaFoundation.IMFCollection
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      [Guid("5BC8A76B-869A-46A3-9B03-FA218A66AEBE")]
+
+      public interface IMFCollection
+    content.vb: >-
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      <Guid("5BC8A76B-869A-46A3-9B03-FA218A66AEBE")>
+
+      Public Interface IMFCollection
+  attributes:
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 5BC8A76B-869A-46A3-9B03-FA218A66AEBE
+- uid: NAudio.MediaFoundation.IMFCollection.GetElementCount(System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFCollection.GetElementCount(System.Int32@)
+  id: GetElementCount(System.Int32@)
+  parent: NAudio.MediaFoundation.IMFCollection
+  langs:
+  - csharp
+  - vb
+  name: GetElementCount(out int)
+  nameWithType: IMFCollection.GetElementCount(out int)
+  fullName: NAudio.MediaFoundation.IMFCollection.GetElementCount(out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetElementCount(out int pcElements)
+    parameters:
+    - id: pcElements
+      type: System.Int32
+    content.vb: Sub GetElementCount(pcElements As Integer)
+  overload: NAudio.MediaFoundation.IMFCollection.GetElementCount*
+  nameWithType.vb: IMFCollection.GetElementCount(Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFCollection.GetElementCount(Integer)
+  name.vb: GetElementCount(Integer)
+- uid: NAudio.MediaFoundation.IMFCollection.GetElement(System.Int32,System.Object@)
+  commentId: M:NAudio.MediaFoundation.IMFCollection.GetElement(System.Int32,System.Object@)
+  id: GetElement(System.Int32,System.Object@)
+  parent: NAudio.MediaFoundation.IMFCollection
+  langs:
+  - csharp
+  - vb
+  name: GetElement(int, out object)
+  nameWithType: IMFCollection.GetElement(int, out object)
+  fullName: NAudio.MediaFoundation.IMFCollection.GetElement(int, out object)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetElement(int dwElementIndex, out object ppUnkElement)
+    parameters:
+    - id: dwElementIndex
+      type: System.Int32
+    - id: ppUnkElement
+      type: System.Object
+    content.vb: Sub GetElement(dwElementIndex As Integer, ppUnkElement As Object)
+  overload: NAudio.MediaFoundation.IMFCollection.GetElement*
+  nameWithType.vb: IMFCollection.GetElement(Integer, Object)
+  fullName.vb: NAudio.MediaFoundation.IMFCollection.GetElement(Integer, Object)
+  name.vb: GetElement(Integer, Object)
+- uid: NAudio.MediaFoundation.IMFCollection.AddElement(System.Object)
+  commentId: M:NAudio.MediaFoundation.IMFCollection.AddElement(System.Object)
+  id: AddElement(System.Object)
+  parent: NAudio.MediaFoundation.IMFCollection
+  langs:
+  - csharp
+  - vb
+  name: AddElement(object)
+  nameWithType: IMFCollection.AddElement(object)
+  fullName: NAudio.MediaFoundation.IMFCollection.AddElement(object)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void AddElement(object pUnkElement)
+    parameters:
+    - id: pUnkElement
+      type: System.Object
+    content.vb: Sub AddElement(pUnkElement As Object)
+  overload: NAudio.MediaFoundation.IMFCollection.AddElement*
+  nameWithType.vb: IMFCollection.AddElement(Object)
+  fullName.vb: NAudio.MediaFoundation.IMFCollection.AddElement(Object)
+  name.vb: AddElement(Object)
+- uid: NAudio.MediaFoundation.IMFCollection.RemoveElement(System.Int32,System.Object@)
+  commentId: M:NAudio.MediaFoundation.IMFCollection.RemoveElement(System.Int32,System.Object@)
+  id: RemoveElement(System.Int32,System.Object@)
+  parent: NAudio.MediaFoundation.IMFCollection
+  langs:
+  - csharp
+  - vb
+  name: RemoveElement(int, out object)
+  nameWithType: IMFCollection.RemoveElement(int, out object)
+  fullName: NAudio.MediaFoundation.IMFCollection.RemoveElement(int, out object)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void RemoveElement(int dwElementIndex, out object ppUnkElement)
+    parameters:
+    - id: dwElementIndex
+      type: System.Int32
+    - id: ppUnkElement
+      type: System.Object
+    content.vb: Sub RemoveElement(dwElementIndex As Integer, ppUnkElement As Object)
+  overload: NAudio.MediaFoundation.IMFCollection.RemoveElement*
+  nameWithType.vb: IMFCollection.RemoveElement(Integer, Object)
+  fullName.vb: NAudio.MediaFoundation.IMFCollection.RemoveElement(Integer, Object)
+  name.vb: RemoveElement(Integer, Object)
+- uid: NAudio.MediaFoundation.IMFCollection.InsertElementAt(System.Int32,System.Object)
+  commentId: M:NAudio.MediaFoundation.IMFCollection.InsertElementAt(System.Int32,System.Object)
+  id: InsertElementAt(System.Int32,System.Object)
+  parent: NAudio.MediaFoundation.IMFCollection
+  langs:
+  - csharp
+  - vb
+  name: InsertElementAt(int, object)
+  nameWithType: IMFCollection.InsertElementAt(int, object)
+  fullName: NAudio.MediaFoundation.IMFCollection.InsertElementAt(int, object)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void InsertElementAt(int dwIndex, object pUnknown)
+    parameters:
+    - id: dwIndex
+      type: System.Int32
+    - id: pUnknown
+      type: System.Object
+    content.vb: Sub InsertElementAt(dwIndex As Integer, pUnknown As Object)
+  overload: NAudio.MediaFoundation.IMFCollection.InsertElementAt*
+  nameWithType.vb: IMFCollection.InsertElementAt(Integer, Object)
+  fullName.vb: NAudio.MediaFoundation.IMFCollection.InsertElementAt(Integer, Object)
+  name.vb: InsertElementAt(Integer, Object)
+- uid: NAudio.MediaFoundation.IMFCollection.RemoveAllElements
+  commentId: M:NAudio.MediaFoundation.IMFCollection.RemoveAllElements
+  id: RemoveAllElements
+  parent: NAudio.MediaFoundation.IMFCollection
+  langs:
+  - csharp
+  - vb
+  name: RemoveAllElements()
+  nameWithType: IMFCollection.RemoveAllElements()
+  fullName: NAudio.MediaFoundation.IMFCollection.RemoveAllElements()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void RemoveAllElements()
+    content.vb: Sub RemoveAllElements()
+  overload: NAudio.MediaFoundation.IMFCollection.RemoveAllElements*
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation.IMFCollection.GetElementCount*
+  commentId: Overload:NAudio.MediaFoundation.IMFCollection.GetElementCount
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFCollection.html#NAudio_MediaFoundation_IMFCollection_GetElementCount_System_Int32__
+  name: GetElementCount
+  nameWithType: IMFCollection.GetElementCount
+  fullName: NAudio.MediaFoundation.IMFCollection.GetElementCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.MediaFoundation.IMFCollection.GetElement*
+  commentId: Overload:NAudio.MediaFoundation.IMFCollection.GetElement
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFCollection.html#NAudio_MediaFoundation_IMFCollection_GetElement_System_Int32_System_Object__
+  name: GetElement
+  nameWithType: IMFCollection.GetElement
+  fullName: NAudio.MediaFoundation.IMFCollection.GetElement
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NAudio.MediaFoundation.IMFCollection.AddElement*
+  commentId: Overload:NAudio.MediaFoundation.IMFCollection.AddElement
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFCollection.html#NAudio_MediaFoundation_IMFCollection_AddElement_System_Object_
+  name: AddElement
+  nameWithType: IMFCollection.AddElement
+  fullName: NAudio.MediaFoundation.IMFCollection.AddElement
+- uid: NAudio.MediaFoundation.IMFCollection.RemoveElement*
+  commentId: Overload:NAudio.MediaFoundation.IMFCollection.RemoveElement
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFCollection.html#NAudio_MediaFoundation_IMFCollection_RemoveElement_System_Int32_System_Object__
+  name: RemoveElement
+  nameWithType: IMFCollection.RemoveElement
+  fullName: NAudio.MediaFoundation.IMFCollection.RemoveElement
+- uid: NAudio.MediaFoundation.IMFCollection.InsertElementAt*
+  commentId: Overload:NAudio.MediaFoundation.IMFCollection.InsertElementAt
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFCollection.html#NAudio_MediaFoundation_IMFCollection_InsertElementAt_System_Int32_System_Object_
+  name: InsertElementAt
+  nameWithType: IMFCollection.InsertElementAt
+  fullName: NAudio.MediaFoundation.IMFCollection.InsertElementAt
+- uid: NAudio.MediaFoundation.IMFCollection.RemoveAllElements*
+  commentId: Overload:NAudio.MediaFoundation.IMFCollection.RemoveAllElements
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFCollection.html#NAudio_MediaFoundation_IMFCollection_RemoveAllElements
+  name: RemoveAllElements
+  nameWithType: IMFCollection.RemoveAllElements
+  fullName: NAudio.MediaFoundation.IMFCollection.RemoveAllElements

@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.SoundFont.ControllerSourceEnum
+  commentId: T:NAudio.SoundFont.ControllerSourceEnum
+  id: ControllerSourceEnum
+  parent: NAudio.SoundFont
+  children:
+  - NAudio.SoundFont.ControllerSourceEnum.ChannelPressure
+  - NAudio.SoundFont.ControllerSourceEnum.NoController
+  - NAudio.SoundFont.ControllerSourceEnum.NoteOnKeyNumber
+  - NAudio.SoundFont.ControllerSourceEnum.NoteOnVelocity
+  - NAudio.SoundFont.ControllerSourceEnum.PitchWheel
+  - NAudio.SoundFont.ControllerSourceEnum.PitchWheelSensitivity
+  - NAudio.SoundFont.ControllerSourceEnum.PolyPressure
+  langs:
+  - csharp
+  - vb
+  name: ControllerSourceEnum
+  nameWithType: ControllerSourceEnum
+  fullName: NAudio.SoundFont.ControllerSourceEnum
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public enum ControllerSourceEnum
+    content.vb: Public Enum ControllerSourceEnum
+- uid: NAudio.SoundFont.ControllerSourceEnum.NoController
+  commentId: F:NAudio.SoundFont.ControllerSourceEnum.NoController
+  id: NoController
+  parent: NAudio.SoundFont.ControllerSourceEnum
+  langs:
+  - csharp
+  - vb
+  name: NoController
+  nameWithType: ControllerSourceEnum.NoController
+  fullName: NAudio.SoundFont.ControllerSourceEnum.NoController
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: NoController = 0
+    return:
+      type: NAudio.SoundFont.ControllerSourceEnum
+- uid: NAudio.SoundFont.ControllerSourceEnum.NoteOnVelocity
+  commentId: F:NAudio.SoundFont.ControllerSourceEnum.NoteOnVelocity
+  id: NoteOnVelocity
+  parent: NAudio.SoundFont.ControllerSourceEnum
+  langs:
+  - csharp
+  - vb
+  name: NoteOnVelocity
+  nameWithType: ControllerSourceEnum.NoteOnVelocity
+  fullName: NAudio.SoundFont.ControllerSourceEnum.NoteOnVelocity
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: NoteOnVelocity = 2
+    return:
+      type: NAudio.SoundFont.ControllerSourceEnum
+- uid: NAudio.SoundFont.ControllerSourceEnum.NoteOnKeyNumber
+  commentId: F:NAudio.SoundFont.ControllerSourceEnum.NoteOnKeyNumber
+  id: NoteOnKeyNumber
+  parent: NAudio.SoundFont.ControllerSourceEnum
+  langs:
+  - csharp
+  - vb
+  name: NoteOnKeyNumber
+  nameWithType: ControllerSourceEnum.NoteOnKeyNumber
+  fullName: NAudio.SoundFont.ControllerSourceEnum.NoteOnKeyNumber
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: NoteOnKeyNumber = 3
+    return:
+      type: NAudio.SoundFont.ControllerSourceEnum
+- uid: NAudio.SoundFont.ControllerSourceEnum.PolyPressure
+  commentId: F:NAudio.SoundFont.ControllerSourceEnum.PolyPressure
+  id: PolyPressure
+  parent: NAudio.SoundFont.ControllerSourceEnum
+  langs:
+  - csharp
+  - vb
+  name: PolyPressure
+  nameWithType: ControllerSourceEnum.PolyPressure
+  fullName: NAudio.SoundFont.ControllerSourceEnum.PolyPressure
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: PolyPressure = 10
+    return:
+      type: NAudio.SoundFont.ControllerSourceEnum
+- uid: NAudio.SoundFont.ControllerSourceEnum.ChannelPressure
+  commentId: F:NAudio.SoundFont.ControllerSourceEnum.ChannelPressure
+  id: ChannelPressure
+  parent: NAudio.SoundFont.ControllerSourceEnum
+  langs:
+  - csharp
+  - vb
+  name: ChannelPressure
+  nameWithType: ControllerSourceEnum.ChannelPressure
+  fullName: NAudio.SoundFont.ControllerSourceEnum.ChannelPressure
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: ChannelPressure = 13
+    return:
+      type: NAudio.SoundFont.ControllerSourceEnum
+- uid: NAudio.SoundFont.ControllerSourceEnum.PitchWheel
+  commentId: F:NAudio.SoundFont.ControllerSourceEnum.PitchWheel
+  id: PitchWheel
+  parent: NAudio.SoundFont.ControllerSourceEnum
+  langs:
+  - csharp
+  - vb
+  name: PitchWheel
+  nameWithType: ControllerSourceEnum.PitchWheel
+  fullName: NAudio.SoundFont.ControllerSourceEnum.PitchWheel
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: PitchWheel = 14
+    return:
+      type: NAudio.SoundFont.ControllerSourceEnum
+- uid: NAudio.SoundFont.ControllerSourceEnum.PitchWheelSensitivity
+  commentId: F:NAudio.SoundFont.ControllerSourceEnum.PitchWheelSensitivity
+  id: PitchWheelSensitivity
+  parent: NAudio.SoundFont.ControllerSourceEnum
+  langs:
+  - csharp
+  - vb
+  name: PitchWheelSensitivity
+  nameWithType: ControllerSourceEnum.PitchWheelSensitivity
+  fullName: NAudio.SoundFont.ControllerSourceEnum.PitchWheelSensitivity
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: PitchWheelSensitivity = 16
+    return:
+      type: NAudio.SoundFont.ControllerSourceEnum
+references:
+- uid: NAudio.SoundFont
+  commentId: N:NAudio.SoundFont
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.SoundFont
+  nameWithType: NAudio.SoundFont
+  fullName: NAudio.SoundFont
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.SoundFont
+    name: SoundFont
+    isExternal: true
+    href: NAudio.SoundFont.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.SoundFont
+    name: SoundFont
+    isExternal: true
+    href: NAudio.SoundFont.html
+- uid: NAudio.SoundFont.ControllerSourceEnum
+  commentId: T:NAudio.SoundFont.ControllerSourceEnum
+  parent: NAudio.SoundFont
+  isExternal: true
+  href: NAudio.SoundFont.ControllerSourceEnum.html
+  name: ControllerSourceEnum
+  nameWithType: ControllerSourceEnum
+  fullName: NAudio.SoundFont.ControllerSourceEnum

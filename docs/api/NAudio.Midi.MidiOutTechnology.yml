@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Midi.MidiOutTechnology
+  commentId: T:NAudio.Midi.MidiOutTechnology
+  id: MidiOutTechnology
+  parent: NAudio.Midi
+  children:
+  - NAudio.Midi.MidiOutTechnology.FMSynth
+  - NAudio.Midi.MidiOutTechnology.MidiMapper
+  - NAudio.Midi.MidiOutTechnology.MidiPort
+  - NAudio.Midi.MidiOutTechnology.SoftwareSynth
+  - NAudio.Midi.MidiOutTechnology.SquareWaveSynth
+  - NAudio.Midi.MidiOutTechnology.Synth
+  - NAudio.Midi.MidiOutTechnology.WaveTableSynth
+  langs:
+  - csharp
+  - vb
+  name: MidiOutTechnology
+  nameWithType: MidiOutTechnology
+  fullName: NAudio.Midi.MidiOutTechnology
+  type: Enum
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public enum MidiOutTechnology
+    content.vb: Public Enum MidiOutTechnology
+- uid: NAudio.Midi.MidiOutTechnology.MidiPort
+  commentId: F:NAudio.Midi.MidiOutTechnology.MidiPort
+  id: MidiPort
+  parent: NAudio.Midi.MidiOutTechnology
+  langs:
+  - csharp
+  - vb
+  name: MidiPort
+  nameWithType: MidiOutTechnology.MidiPort
+  fullName: NAudio.Midi.MidiOutTechnology.MidiPort
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: MidiPort = 1
+    return:
+      type: NAudio.Midi.MidiOutTechnology
+- uid: NAudio.Midi.MidiOutTechnology.Synth
+  commentId: F:NAudio.Midi.MidiOutTechnology.Synth
+  id: Synth
+  parent: NAudio.Midi.MidiOutTechnology
+  langs:
+  - csharp
+  - vb
+  name: Synth
+  nameWithType: MidiOutTechnology.Synth
+  fullName: NAudio.Midi.MidiOutTechnology.Synth
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: Synth = 2
+    return:
+      type: NAudio.Midi.MidiOutTechnology
+- uid: NAudio.Midi.MidiOutTechnology.SquareWaveSynth
+  commentId: F:NAudio.Midi.MidiOutTechnology.SquareWaveSynth
+  id: SquareWaveSynth
+  parent: NAudio.Midi.MidiOutTechnology
+  langs:
+  - csharp
+  - vb
+  name: SquareWaveSynth
+  nameWithType: MidiOutTechnology.SquareWaveSynth
+  fullName: NAudio.Midi.MidiOutTechnology.SquareWaveSynth
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: SquareWaveSynth = 3
+    return:
+      type: NAudio.Midi.MidiOutTechnology
+- uid: NAudio.Midi.MidiOutTechnology.FMSynth
+  commentId: F:NAudio.Midi.MidiOutTechnology.FMSynth
+  id: FMSynth
+  parent: NAudio.Midi.MidiOutTechnology
+  langs:
+  - csharp
+  - vb
+  name: FMSynth
+  nameWithType: MidiOutTechnology.FMSynth
+  fullName: NAudio.Midi.MidiOutTechnology.FMSynth
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: FMSynth = 4
+    return:
+      type: NAudio.Midi.MidiOutTechnology
+- uid: NAudio.Midi.MidiOutTechnology.MidiMapper
+  commentId: F:NAudio.Midi.MidiOutTechnology.MidiMapper
+  id: MidiMapper
+  parent: NAudio.Midi.MidiOutTechnology
+  langs:
+  - csharp
+  - vb
+  name: MidiMapper
+  nameWithType: MidiOutTechnology.MidiMapper
+  fullName: NAudio.Midi.MidiOutTechnology.MidiMapper
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: MidiMapper = 5
+    return:
+      type: NAudio.Midi.MidiOutTechnology
+- uid: NAudio.Midi.MidiOutTechnology.WaveTableSynth
+  commentId: F:NAudio.Midi.MidiOutTechnology.WaveTableSynth
+  id: WaveTableSynth
+  parent: NAudio.Midi.MidiOutTechnology
+  langs:
+  - csharp
+  - vb
+  name: WaveTableSynth
+  nameWithType: MidiOutTechnology.WaveTableSynth
+  fullName: NAudio.Midi.MidiOutTechnology.WaveTableSynth
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: WaveTableSynth = 6
+    return:
+      type: NAudio.Midi.MidiOutTechnology
+- uid: NAudio.Midi.MidiOutTechnology.SoftwareSynth
+  commentId: F:NAudio.Midi.MidiOutTechnology.SoftwareSynth
+  id: SoftwareSynth
+  parent: NAudio.Midi.MidiOutTechnology
+  langs:
+  - csharp
+  - vb
+  name: SoftwareSynth
+  nameWithType: MidiOutTechnology.SoftwareSynth
+  fullName: NAudio.Midi.MidiOutTechnology.SoftwareSynth
+  type: Field
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: SoftwareSynth = 7
+    return:
+      type: NAudio.Midi.MidiOutTechnology
+references:
+- uid: NAudio.Midi
+  commentId: N:NAudio.Midi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Midi
+  nameWithType: NAudio.Midi
+  fullName: NAudio.Midi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+- uid: NAudio.Midi.MidiOutTechnology
+  commentId: T:NAudio.Midi.MidiOutTechnology
+  parent: NAudio.Midi
+  isExternal: true
+  href: NAudio.Midi.MidiOutTechnology.html
+  name: MidiOutTechnology
+  nameWithType: MidiOutTechnology
+  fullName: NAudio.Midi.MidiOutTechnology

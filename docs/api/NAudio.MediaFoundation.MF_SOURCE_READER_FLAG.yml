@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+  commentId: T:NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+  id: MF_SOURCE_READER_FLAG
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_ALLEFFECTSREMOVED
+  - NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED
+  - NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_ENDOFSTREAM
+  - NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_ERROR
+  - NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED
+  - NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_NEWSTREAM
+  - NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_STREAMTICK
+  - NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.None
+  langs:
+  - csharp
+  - vb
+  name: MF_SOURCE_READER_FLAG
+  nameWithType: MF_SOURCE_READER_FLAG
+  fullName: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum MF_SOURCE_READER_FLAG
+    content.vb: >-
+      <Flags>
+
+      Public Enum MF_SOURCE_READER_FLAG
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.None
+  commentId: F:NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.None
+  id: None
+  parent: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: MF_SOURCE_READER_FLAG.None
+  fullName: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.None
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: None = 0
+    return:
+      type: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+- uid: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_ERROR
+  commentId: F:NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_ERROR
+  id: MF_SOURCE_READERF_ERROR
+  parent: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+  langs:
+  - csharp
+  - vb
+  name: MF_SOURCE_READERF_ERROR
+  nameWithType: MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_ERROR
+  fullName: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_ERROR
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MF_SOURCE_READERF_ERROR = 1
+    return:
+      type: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+- uid: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_ENDOFSTREAM
+  commentId: F:NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_ENDOFSTREAM
+  id: MF_SOURCE_READERF_ENDOFSTREAM
+  parent: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+  langs:
+  - csharp
+  - vb
+  name: MF_SOURCE_READERF_ENDOFSTREAM
+  nameWithType: MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_ENDOFSTREAM
+  fullName: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_ENDOFSTREAM
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MF_SOURCE_READERF_ENDOFSTREAM = 2
+    return:
+      type: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+- uid: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_NEWSTREAM
+  commentId: F:NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_NEWSTREAM
+  id: MF_SOURCE_READERF_NEWSTREAM
+  parent: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+  langs:
+  - csharp
+  - vb
+  name: MF_SOURCE_READERF_NEWSTREAM
+  nameWithType: MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_NEWSTREAM
+  fullName: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_NEWSTREAM
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MF_SOURCE_READERF_NEWSTREAM = 4
+    return:
+      type: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+- uid: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED
+  commentId: F:NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED
+  id: MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED
+  parent: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+  langs:
+  - csharp
+  - vb
+  name: MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED
+  nameWithType: MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED
+  fullName: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED = 16
+    return:
+      type: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+- uid: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED
+  commentId: F:NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED
+  id: MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED
+  parent: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+  langs:
+  - csharp
+  - vb
+  name: MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED
+  nameWithType: MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED
+  fullName: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED = 32
+    return:
+      type: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+- uid: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_STREAMTICK
+  commentId: F:NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_STREAMTICK
+  id: MF_SOURCE_READERF_STREAMTICK
+  parent: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+  langs:
+  - csharp
+  - vb
+  name: MF_SOURCE_READERF_STREAMTICK
+  nameWithType: MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_STREAMTICK
+  fullName: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_STREAMTICK
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MF_SOURCE_READERF_STREAMTICK = 256
+    return:
+      type: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+- uid: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_ALLEFFECTSREMOVED
+  commentId: F:NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_ALLEFFECTSREMOVED
+  id: MF_SOURCE_READERF_ALLEFFECTSREMOVED
+  parent: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+  langs:
+  - csharp
+  - vb
+  name: MF_SOURCE_READERF_ALLEFFECTSREMOVED
+  nameWithType: MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_ALLEFFECTSREMOVED
+  fullName: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.MF_SOURCE_READERF_ALLEFFECTSREMOVED
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MF_SOURCE_READERF_ALLEFFECTSREMOVED = 512
+    return:
+      type: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+  commentId: T:NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.html
+  name: MF_SOURCE_READER_FLAG
+  nameWithType: MF_SOURCE_READER_FLAG
+  fullName: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG

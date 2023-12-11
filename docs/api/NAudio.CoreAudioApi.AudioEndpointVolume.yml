@@ -1,0 +1,765 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume
+  commentId: T:NAudio.CoreAudioApi.AudioEndpointVolume
+  id: AudioEndpointVolume
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.AudioEndpointVolume.Channels
+  - NAudio.CoreAudioApi.AudioEndpointVolume.Dispose
+  - NAudio.CoreAudioApi.AudioEndpointVolume.Finalize
+  - NAudio.CoreAudioApi.AudioEndpointVolume.HardwareSupport
+  - NAudio.CoreAudioApi.AudioEndpointVolume.MasterVolumeLevel
+  - NAudio.CoreAudioApi.AudioEndpointVolume.MasterVolumeLevelScalar
+  - NAudio.CoreAudioApi.AudioEndpointVolume.Mute
+  - NAudio.CoreAudioApi.AudioEndpointVolume.NotificationGuid
+  - NAudio.CoreAudioApi.AudioEndpointVolume.OnVolumeNotification
+  - NAudio.CoreAudioApi.AudioEndpointVolume.StepInformation
+  - NAudio.CoreAudioApi.AudioEndpointVolume.VolumeRange
+  - NAudio.CoreAudioApi.AudioEndpointVolume.VolumeStepDown
+  - NAudio.CoreAudioApi.AudioEndpointVolume.VolumeStepUp
+  langs:
+  - csharp
+  - vb
+  name: AudioEndpointVolume
+  nameWithType: AudioEndpointVolume
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume
+  type: Class
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: 'public class AudioEndpointVolume : IDisposable'
+    content.vb: Public Class AudioEndpointVolume Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.VolumeStepUp
+  commentId: M:NAudio.CoreAudioApi.AudioEndpointVolume.VolumeStepUp
+  id: VolumeStepUp
+  parent: NAudio.CoreAudioApi.AudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: VolumeStepUp()
+  nameWithType: AudioEndpointVolume.VolumeStepUp()
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.VolumeStepUp()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public void VolumeStepUp()
+    content.vb: Public Sub VolumeStepUp()
+  overload: NAudio.CoreAudioApi.AudioEndpointVolume.VolumeStepUp*
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.VolumeStepDown
+  commentId: M:NAudio.CoreAudioApi.AudioEndpointVolume.VolumeStepDown
+  id: VolumeStepDown
+  parent: NAudio.CoreAudioApi.AudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: VolumeStepDown()
+  nameWithType: AudioEndpointVolume.VolumeStepDown()
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.VolumeStepDown()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public void VolumeStepDown()
+    content.vb: Public Sub VolumeStepDown()
+  overload: NAudio.CoreAudioApi.AudioEndpointVolume.VolumeStepDown*
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.Dispose
+  commentId: M:NAudio.CoreAudioApi.AudioEndpointVolume.Dispose
+  id: Dispose
+  parent: NAudio.CoreAudioApi.AudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: AudioEndpointVolume.Dispose()
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.Dispose()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: NAudio.CoreAudioApi.AudioEndpointVolume.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.Finalize
+  commentId: M:NAudio.CoreAudioApi.AudioEndpointVolume.Finalize
+  id: Finalize
+  parent: NAudio.CoreAudioApi.AudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: ~AudioEndpointVolume()
+  nameWithType: AudioEndpointVolume.~AudioEndpointVolume()
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.~AudioEndpointVolume()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: protected ~AudioEndpointVolume()
+    content.vb: 'Protected '
+  overload: NAudio.CoreAudioApi.AudioEndpointVolume.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.NotificationGuid
+  commentId: P:NAudio.CoreAudioApi.AudioEndpointVolume.NotificationGuid
+  id: NotificationGuid
+  parent: NAudio.CoreAudioApi.AudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: NotificationGuid
+  nameWithType: AudioEndpointVolume.NotificationGuid
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.NotificationGuid
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public Guid NotificationGuid { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property NotificationGuid As Guid
+  overload: NAudio.CoreAudioApi.AudioEndpointVolume.NotificationGuid*
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.VolumeRange
+  commentId: P:NAudio.CoreAudioApi.AudioEndpointVolume.VolumeRange
+  id: VolumeRange
+  parent: NAudio.CoreAudioApi.AudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: VolumeRange
+  nameWithType: AudioEndpointVolume.VolumeRange
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.VolumeRange
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public AudioEndpointVolumeVolumeRange VolumeRange { get; }
+    parameters: []
+    return:
+      type: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange
+    content.vb: Public ReadOnly Property VolumeRange As AudioEndpointVolumeVolumeRange
+  overload: NAudio.CoreAudioApi.AudioEndpointVolume.VolumeRange*
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.HardwareSupport
+  commentId: P:NAudio.CoreAudioApi.AudioEndpointVolume.HardwareSupport
+  id: HardwareSupport
+  parent: NAudio.CoreAudioApi.AudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: HardwareSupport
+  nameWithType: AudioEndpointVolume.HardwareSupport
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.HardwareSupport
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public EEndpointHardwareSupport HardwareSupport { get; }
+    parameters: []
+    return:
+      type: NAudio.CoreAudioApi.EEndpointHardwareSupport
+    content.vb: Public ReadOnly Property HardwareSupport As EEndpointHardwareSupport
+  overload: NAudio.CoreAudioApi.AudioEndpointVolume.HardwareSupport*
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.StepInformation
+  commentId: P:NAudio.CoreAudioApi.AudioEndpointVolume.StepInformation
+  id: StepInformation
+  parent: NAudio.CoreAudioApi.AudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: StepInformation
+  nameWithType: AudioEndpointVolume.StepInformation
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.StepInformation
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public AudioEndpointVolumeStepInformation StepInformation { get; }
+    parameters: []
+    return:
+      type: NAudio.CoreAudioApi.AudioEndpointVolumeStepInformation
+    content.vb: Public ReadOnly Property StepInformation As AudioEndpointVolumeStepInformation
+  overload: NAudio.CoreAudioApi.AudioEndpointVolume.StepInformation*
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.Channels
+  commentId: P:NAudio.CoreAudioApi.AudioEndpointVolume.Channels
+  id: Channels
+  parent: NAudio.CoreAudioApi.AudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: Channels
+  nameWithType: AudioEndpointVolume.Channels
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.Channels
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public AudioEndpointVolumeChannels Channels { get; }
+    parameters: []
+    return:
+      type: NAudio.CoreAudioApi.AudioEndpointVolumeChannels
+    content.vb: Public ReadOnly Property Channels As AudioEndpointVolumeChannels
+  overload: NAudio.CoreAudioApi.AudioEndpointVolume.Channels*
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.MasterVolumeLevel
+  commentId: P:NAudio.CoreAudioApi.AudioEndpointVolume.MasterVolumeLevel
+  id: MasterVolumeLevel
+  parent: NAudio.CoreAudioApi.AudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: MasterVolumeLevel
+  nameWithType: AudioEndpointVolume.MasterVolumeLevel
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.MasterVolumeLevel
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public float MasterVolumeLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property MasterVolumeLevel As Single
+  overload: NAudio.CoreAudioApi.AudioEndpointVolume.MasterVolumeLevel*
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.MasterVolumeLevelScalar
+  commentId: P:NAudio.CoreAudioApi.AudioEndpointVolume.MasterVolumeLevelScalar
+  id: MasterVolumeLevelScalar
+  parent: NAudio.CoreAudioApi.AudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: MasterVolumeLevelScalar
+  nameWithType: AudioEndpointVolume.MasterVolumeLevelScalar
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.MasterVolumeLevelScalar
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public float MasterVolumeLevelScalar { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property MasterVolumeLevelScalar As Single
+  overload: NAudio.CoreAudioApi.AudioEndpointVolume.MasterVolumeLevelScalar*
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.Mute
+  commentId: P:NAudio.CoreAudioApi.AudioEndpointVolume.Mute
+  id: Mute
+  parent: NAudio.CoreAudioApi.AudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: Mute
+  nameWithType: AudioEndpointVolume.Mute
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.Mute
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public bool Mute { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Mute As Boolean
+  overload: NAudio.CoreAudioApi.AudioEndpointVolume.Mute*
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.OnVolumeNotification
+  commentId: E:NAudio.CoreAudioApi.AudioEndpointVolume.OnVolumeNotification
+  id: OnVolumeNotification
+  parent: NAudio.CoreAudioApi.AudioEndpointVolume
+  langs:
+  - csharp
+  - vb
+  name: OnVolumeNotification
+  nameWithType: AudioEndpointVolume.OnVolumeNotification
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.OnVolumeNotification
+  type: Event
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public event AudioEndpointVolumeNotificationDelegate OnVolumeNotification
+    return:
+      type: NAudio.CoreAudioApi.AudioEndpointVolumeNotificationDelegate
+    content.vb: Public Event OnVolumeNotification As AudioEndpointVolumeNotificationDelegate
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.VolumeStepUp*
+  commentId: Overload:NAudio.CoreAudioApi.AudioEndpointVolume.VolumeStepUp
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolume.html#NAudio_CoreAudioApi_AudioEndpointVolume_VolumeStepUp
+  name: VolumeStepUp
+  nameWithType: AudioEndpointVolume.VolumeStepUp
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.VolumeStepUp
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.VolumeStepDown*
+  commentId: Overload:NAudio.CoreAudioApi.AudioEndpointVolume.VolumeStepDown
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolume.html#NAudio_CoreAudioApi_AudioEndpointVolume_VolumeStepDown
+  name: VolumeStepDown
+  nameWithType: AudioEndpointVolume.VolumeStepDown
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.VolumeStepDown
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.Dispose*
+  commentId: Overload:NAudio.CoreAudioApi.AudioEndpointVolume.Dispose
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolume.html#NAudio_CoreAudioApi_AudioEndpointVolume_Dispose
+  name: Dispose
+  nameWithType: AudioEndpointVolume.Dispose
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.Finalize*
+  commentId: Overload:NAudio.CoreAudioApi.AudioEndpointVolume.Finalize
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolume.html#NAudio_CoreAudioApi_AudioEndpointVolume_Finalize
+  name: ~AudioEndpointVolume
+  nameWithType: AudioEndpointVolume.~AudioEndpointVolume
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.~AudioEndpointVolume
+  spec.csharp:
+  - name: "~"
+  - uid: NAudio.CoreAudioApi.AudioEndpointVolume.Finalize*
+    name: AudioEndpointVolume
+    isExternal: true
+    href: NAudio.CoreAudioApi.AudioEndpointVolume.html#NAudio_CoreAudioApi_AudioEndpointVolume_Finalize
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.NotificationGuid*
+  commentId: Overload:NAudio.CoreAudioApi.AudioEndpointVolume.NotificationGuid
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolume.html#NAudio_CoreAudioApi_AudioEndpointVolume_NotificationGuid
+  name: NotificationGuid
+  nameWithType: AudioEndpointVolume.NotificationGuid
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.NotificationGuid
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.VolumeRange*
+  commentId: Overload:NAudio.CoreAudioApi.AudioEndpointVolume.VolumeRange
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolume.html#NAudio_CoreAudioApi_AudioEndpointVolume_VolumeRange
+  name: VolumeRange
+  nameWithType: AudioEndpointVolume.VolumeRange
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.VolumeRange
+- uid: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange
+  commentId: T:NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange.html
+  name: AudioEndpointVolumeVolumeRange
+  nameWithType: AudioEndpointVolumeVolumeRange
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.HardwareSupport*
+  commentId: Overload:NAudio.CoreAudioApi.AudioEndpointVolume.HardwareSupport
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolume.html#NAudio_CoreAudioApi_AudioEndpointVolume_HardwareSupport
+  name: HardwareSupport
+  nameWithType: AudioEndpointVolume.HardwareSupport
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.HardwareSupport
+- uid: NAudio.CoreAudioApi.EEndpointHardwareSupport
+  commentId: T:NAudio.CoreAudioApi.EEndpointHardwareSupport
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.EEndpointHardwareSupport.html
+  name: EEndpointHardwareSupport
+  nameWithType: EEndpointHardwareSupport
+  fullName: NAudio.CoreAudioApi.EEndpointHardwareSupport
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.StepInformation*
+  commentId: Overload:NAudio.CoreAudioApi.AudioEndpointVolume.StepInformation
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolume.html#NAudio_CoreAudioApi_AudioEndpointVolume_StepInformation
+  name: StepInformation
+  nameWithType: AudioEndpointVolume.StepInformation
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.StepInformation
+- uid: NAudio.CoreAudioApi.AudioEndpointVolumeStepInformation
+  commentId: T:NAudio.CoreAudioApi.AudioEndpointVolumeStepInformation
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolumeStepInformation.html
+  name: AudioEndpointVolumeStepInformation
+  nameWithType: AudioEndpointVolumeStepInformation
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolumeStepInformation
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.Channels*
+  commentId: Overload:NAudio.CoreAudioApi.AudioEndpointVolume.Channels
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolume.html#NAudio_CoreAudioApi_AudioEndpointVolume_Channels
+  name: Channels
+  nameWithType: AudioEndpointVolume.Channels
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.Channels
+- uid: NAudio.CoreAudioApi.AudioEndpointVolumeChannels
+  commentId: T:NAudio.CoreAudioApi.AudioEndpointVolumeChannels
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolumeChannels.html
+  name: AudioEndpointVolumeChannels
+  nameWithType: AudioEndpointVolumeChannels
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolumeChannels
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.MasterVolumeLevel*
+  commentId: Overload:NAudio.CoreAudioApi.AudioEndpointVolume.MasterVolumeLevel
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolume.html#NAudio_CoreAudioApi_AudioEndpointVolume_MasterVolumeLevel
+  name: MasterVolumeLevel
+  nameWithType: AudioEndpointVolume.MasterVolumeLevel
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.MasterVolumeLevel
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.MasterVolumeLevelScalar*
+  commentId: Overload:NAudio.CoreAudioApi.AudioEndpointVolume.MasterVolumeLevelScalar
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolume.html#NAudio_CoreAudioApi_AudioEndpointVolume_MasterVolumeLevelScalar
+  name: MasterVolumeLevelScalar
+  nameWithType: AudioEndpointVolume.MasterVolumeLevelScalar
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.MasterVolumeLevelScalar
+- uid: NAudio.CoreAudioApi.AudioEndpointVolume.Mute*
+  commentId: Overload:NAudio.CoreAudioApi.AudioEndpointVolume.Mute
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolume.html#NAudio_CoreAudioApi_AudioEndpointVolume_Mute
+  name: Mute
+  nameWithType: AudioEndpointVolume.Mute
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolume.Mute
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NAudio.CoreAudioApi.AudioEndpointVolumeNotificationDelegate
+  commentId: T:NAudio.CoreAudioApi.AudioEndpointVolumeNotificationDelegate
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioEndpointVolumeNotificationDelegate.html
+  name: AudioEndpointVolumeNotificationDelegate
+  nameWithType: AudioEndpointVolumeNotificationDelegate
+  fullName: NAudio.CoreAudioApi.AudioEndpointVolumeNotificationDelegate

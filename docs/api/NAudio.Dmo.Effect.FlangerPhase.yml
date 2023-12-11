@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect.FlangerPhase
+  commentId: T:NAudio.Dmo.Effect.FlangerPhase
+  id: FlangerPhase
+  parent: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.FlangerPhase.Neg180
+  - NAudio.Dmo.Effect.FlangerPhase.Neg90
+  - NAudio.Dmo.Effect.FlangerPhase.Pos180
+  - NAudio.Dmo.Effect.FlangerPhase.Pos90
+  - NAudio.Dmo.Effect.FlangerPhase.Zero
+  langs:
+  - csharp
+  - vb
+  name: FlangerPhase
+  nameWithType: FlangerPhase
+  fullName: NAudio.Dmo.Effect.FlangerPhase
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public enum FlangerPhase
+    content.vb: Public Enum FlangerPhase
+- uid: NAudio.Dmo.Effect.FlangerPhase.Neg180
+  commentId: F:NAudio.Dmo.Effect.FlangerPhase.Neg180
+  id: Neg180
+  parent: NAudio.Dmo.Effect.FlangerPhase
+  langs:
+  - csharp
+  - vb
+  name: Neg180
+  nameWithType: FlangerPhase.Neg180
+  fullName: NAudio.Dmo.Effect.FlangerPhase.Neg180
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Neg180 = 0
+    return:
+      type: NAudio.Dmo.Effect.FlangerPhase
+- uid: NAudio.Dmo.Effect.FlangerPhase.Neg90
+  commentId: F:NAudio.Dmo.Effect.FlangerPhase.Neg90
+  id: Neg90
+  parent: NAudio.Dmo.Effect.FlangerPhase
+  langs:
+  - csharp
+  - vb
+  name: Neg90
+  nameWithType: FlangerPhase.Neg90
+  fullName: NAudio.Dmo.Effect.FlangerPhase.Neg90
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Neg90 = 1
+    return:
+      type: NAudio.Dmo.Effect.FlangerPhase
+- uid: NAudio.Dmo.Effect.FlangerPhase.Zero
+  commentId: F:NAudio.Dmo.Effect.FlangerPhase.Zero
+  id: Zero
+  parent: NAudio.Dmo.Effect.FlangerPhase
+  langs:
+  - csharp
+  - vb
+  name: Zero
+  nameWithType: FlangerPhase.Zero
+  fullName: NAudio.Dmo.Effect.FlangerPhase.Zero
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Zero = 2
+    return:
+      type: NAudio.Dmo.Effect.FlangerPhase
+- uid: NAudio.Dmo.Effect.FlangerPhase.Pos90
+  commentId: F:NAudio.Dmo.Effect.FlangerPhase.Pos90
+  id: Pos90
+  parent: NAudio.Dmo.Effect.FlangerPhase
+  langs:
+  - csharp
+  - vb
+  name: Pos90
+  nameWithType: FlangerPhase.Pos90
+  fullName: NAudio.Dmo.Effect.FlangerPhase.Pos90
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Pos90 = 3
+    return:
+      type: NAudio.Dmo.Effect.FlangerPhase
+- uid: NAudio.Dmo.Effect.FlangerPhase.Pos180
+  commentId: F:NAudio.Dmo.Effect.FlangerPhase.Pos180
+  id: Pos180
+  parent: NAudio.Dmo.Effect.FlangerPhase
+  langs:
+  - csharp
+  - vb
+  name: Pos180
+  nameWithType: FlangerPhase.Pos180
+  fullName: NAudio.Dmo.Effect.FlangerPhase.Pos180
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Pos180 = 4
+    return:
+      type: NAudio.Dmo.Effect.FlangerPhase
+references:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+- uid: NAudio.Dmo.Effect.FlangerPhase
+  commentId: T:NAudio.Dmo.Effect.FlangerPhase
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.FlangerPhase.html
+  name: FlangerPhase
+  nameWithType: FlangerPhase
+  fullName: NAudio.Dmo.Effect.FlangerPhase

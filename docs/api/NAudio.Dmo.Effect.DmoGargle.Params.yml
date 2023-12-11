@@ -1,0 +1,439 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect.DmoGargle.Params
+  commentId: T:NAudio.Dmo.Effect.DmoGargle.Params
+  id: DmoGargle.Params
+  parent: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.DmoGargle.Params.RateHz
+  - NAudio.Dmo.Effect.DmoGargle.Params.RateHzDefault
+  - NAudio.Dmo.Effect.DmoGargle.Params.RateHzMax
+  - NAudio.Dmo.Effect.DmoGargle.Params.RateHzMin
+  - NAudio.Dmo.Effect.DmoGargle.Params.WaveShape
+  - NAudio.Dmo.Effect.DmoGargle.Params.WaveShapeDefault
+  langs:
+  - csharp
+  - vb
+  name: DmoGargle.Params
+  nameWithType: DmoGargle.Params
+  fullName: NAudio.Dmo.Effect.DmoGargle.Params
+  type: Struct
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public struct DmoGargle.Params
+    content.vb: Public Structure DmoGargle.Params
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NAudio.Dmo.Effect.DmoGargle.Params.RateHzMin
+  commentId: F:NAudio.Dmo.Effect.DmoGargle.Params.RateHzMin
+  id: RateHzMin
+  parent: NAudio.Dmo.Effect.DmoGargle.Params
+  langs:
+  - csharp
+  - vb
+  name: RateHzMin
+  nameWithType: DmoGargle.Params.RateHzMin
+  fullName: NAudio.Dmo.Effect.DmoGargle.Params.RateHzMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const uint RateHzMin = 1
+    return:
+      type: System.UInt32
+    content.vb: Public Const RateHzMin As UInteger = 1
+- uid: NAudio.Dmo.Effect.DmoGargle.Params.RateHzMax
+  commentId: F:NAudio.Dmo.Effect.DmoGargle.Params.RateHzMax
+  id: RateHzMax
+  parent: NAudio.Dmo.Effect.DmoGargle.Params
+  langs:
+  - csharp
+  - vb
+  name: RateHzMax
+  nameWithType: DmoGargle.Params.RateHzMax
+  fullName: NAudio.Dmo.Effect.DmoGargle.Params.RateHzMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const uint RateHzMax = 1000
+    return:
+      type: System.UInt32
+    content.vb: Public Const RateHzMax As UInteger = 1000
+- uid: NAudio.Dmo.Effect.DmoGargle.Params.RateHzDefault
+  commentId: F:NAudio.Dmo.Effect.DmoGargle.Params.RateHzDefault
+  id: RateHzDefault
+  parent: NAudio.Dmo.Effect.DmoGargle.Params
+  langs:
+  - csharp
+  - vb
+  name: RateHzDefault
+  nameWithType: DmoGargle.Params.RateHzDefault
+  fullName: NAudio.Dmo.Effect.DmoGargle.Params.RateHzDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const uint RateHzDefault = 20
+    return:
+      type: System.UInt32
+    content.vb: Public Const RateHzDefault As UInteger = 20
+- uid: NAudio.Dmo.Effect.DmoGargle.Params.WaveShapeDefault
+  commentId: F:NAudio.Dmo.Effect.DmoGargle.Params.WaveShapeDefault
+  id: WaveShapeDefault
+  parent: NAudio.Dmo.Effect.DmoGargle.Params
+  langs:
+  - csharp
+  - vb
+  name: WaveShapeDefault
+  nameWithType: DmoGargle.Params.WaveShapeDefault
+  fullName: NAudio.Dmo.Effect.DmoGargle.Params.WaveShapeDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const GargleWaveShape WaveShapeDefault = Triangle
+    return:
+      type: NAudio.Dmo.Effect.GargleWaveShape
+    content.vb: Public Const WaveShapeDefault As GargleWaveShape = Triangle
+- uid: NAudio.Dmo.Effect.DmoGargle.Params.RateHz
+  commentId: P:NAudio.Dmo.Effect.DmoGargle.Params.RateHz
+  id: RateHz
+  parent: NAudio.Dmo.Effect.DmoGargle.Params
+  langs:
+  - csharp
+  - vb
+  name: RateHz
+  nameWithType: DmoGargle.Params.RateHz
+  fullName: NAudio.Dmo.Effect.DmoGargle.Params.RateHz
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public uint RateHz { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property RateHz As UInteger
+  overload: NAudio.Dmo.Effect.DmoGargle.Params.RateHz*
+- uid: NAudio.Dmo.Effect.DmoGargle.Params.WaveShape
+  commentId: P:NAudio.Dmo.Effect.DmoGargle.Params.WaveShape
+  id: WaveShape
+  parent: NAudio.Dmo.Effect.DmoGargle.Params
+  langs:
+  - csharp
+  - vb
+  name: WaveShape
+  nameWithType: DmoGargle.Params.WaveShape
+  fullName: NAudio.Dmo.Effect.DmoGargle.Params.WaveShape
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public GargleWaveShape WaveShape { get; set; }
+    parameters: []
+    return:
+      type: NAudio.Dmo.Effect.GargleWaveShape
+    content.vb: Public Property WaveShape As GargleWaveShape
+  overload: NAudio.Dmo.Effect.DmoGargle.Params.WaveShape*
+references:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NAudio.Dmo.Effect.GargleWaveShape
+  commentId: T:NAudio.Dmo.Effect.GargleWaveShape
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.GargleWaveShape.html
+  name: GargleWaveShape
+  nameWithType: GargleWaveShape
+  fullName: NAudio.Dmo.Effect.GargleWaveShape
+- uid: NAudio.Dmo.Effect.DmoGargle.Params.RateHz*
+  commentId: Overload:NAudio.Dmo.Effect.DmoGargle.Params.RateHz
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoGargle.Params.html#NAudio_Dmo_Effect_DmoGargle_Params_RateHz
+  name: RateHz
+  nameWithType: DmoGargle.Params.RateHz
+  fullName: NAudio.Dmo.Effect.DmoGargle.Params.RateHz
+- uid: NAudio.Dmo.Effect.DmoGargle.Params.WaveShape*
+  commentId: Overload:NAudio.Dmo.Effect.DmoGargle.Params.WaveShape
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoGargle.Params.html#NAudio_Dmo_Effect_DmoGargle_Params_WaveShape
+  name: WaveShape
+  nameWithType: DmoGargle.Params.WaveShape
+  fullName: NAudio.Dmo.Effect.DmoGargle.Params.WaveShape

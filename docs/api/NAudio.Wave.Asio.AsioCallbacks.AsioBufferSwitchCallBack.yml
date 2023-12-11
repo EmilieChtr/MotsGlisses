@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+  commentId: T:NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+  id: AsioCallbacks.AsioBufferSwitchCallBack
+  parent: NAudio.Wave.Asio
+  children:
+  - NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.#ctor(System.Object,System.IntPtr)
+  - NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.BeginInvoke(System.Int32,System.Boolean,System.AsyncCallback,System.Object)
+  - NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.EndInvoke(System.IAsyncResult)
+  - NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.Invoke(System.Int32,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: AsioCallbacks.AsioBufferSwitchCallBack
+  nameWithType: AsioCallbacks.AsioBufferSwitchCallBack
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+  type: Delegate
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public delegate void AsioCallbacks.AsioBufferSwitchCallBack(int doubleBufferIndex, bool directProcess)
+    parameters:
+    - id: doubleBufferIndex
+      type: System.Int32
+    - id: directProcess
+      type: System.Boolean
+    content.vb: Public Delegate Sub AsioCallbacks.AsioBufferSwitchCallBack(doubleBufferIndex As Integer, directProcess As Boolean)
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.#ctor(System.Object,System.IntPtr)
+  commentId: M:NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+  langs:
+  - csharp
+  - vb
+  name: AsioBufferSwitchCallBack(object, IntPtr)
+  nameWithType: AsioCallbacks.AsioBufferSwitchCallBack.AsioBufferSwitchCallBack(object, IntPtr)
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.AsioBufferSwitchCallBack(object, System.IntPtr)
+  type: Constructor
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public AsioBufferSwitchCallBack(object @object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New([object] As Object, method As IntPtr)
+  overload: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.#ctor*
+  nameWithType.vb: AsioCallbacks.AsioBufferSwitchCallBack.New(Object, IntPtr)
+  fullName.vb: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.New(Object, System.IntPtr)
+  name.vb: New(Object, IntPtr)
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.Invoke(System.Int32,System.Boolean)
+  commentId: M:NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.Invoke(System.Int32,System.Boolean)
+  id: Invoke(System.Int32,System.Boolean)
+  parent: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+  langs:
+  - csharp
+  - vb
+  name: Invoke(int, bool)
+  nameWithType: AsioCallbacks.AsioBufferSwitchCallBack.Invoke(int, bool)
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.Invoke(int, bool)
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public virtual void Invoke(int doubleBufferIndex, bool directProcess)
+    parameters:
+    - id: doubleBufferIndex
+      type: System.Int32
+    - id: directProcess
+      type: System.Boolean
+    content.vb: Public Overridable Sub Invoke(doubleBufferIndex As Integer, directProcess As Boolean)
+  overload: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.Invoke*
+  nameWithType.vb: AsioCallbacks.AsioBufferSwitchCallBack.Invoke(Integer, Boolean)
+  fullName.vb: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.Invoke(Integer, Boolean)
+  name.vb: Invoke(Integer, Boolean)
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.BeginInvoke(System.Int32,System.Boolean,System.AsyncCallback,System.Object)
+  commentId: M:NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.BeginInvoke(System.Int32,System.Boolean,System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.Int32,System.Boolean,System.AsyncCallback,System.Object)
+  parent: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(int, bool, AsyncCallback, object)
+  nameWithType: AsioCallbacks.AsioBufferSwitchCallBack.BeginInvoke(int, bool, AsyncCallback, object)
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.BeginInvoke(int, bool, System.AsyncCallback, object)
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(int doubleBufferIndex, bool directProcess, AsyncCallback callback, object @object)
+    parameters:
+    - id: doubleBufferIndex
+      type: System.Int32
+    - id: directProcess
+      type: System.Boolean
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(doubleBufferIndex As Integer, directProcess As Boolean, callback As AsyncCallback, [object] As Object) As IAsyncResult
+  overload: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.BeginInvoke*
+  nameWithType.vb: AsioCallbacks.AsioBufferSwitchCallBack.BeginInvoke(Integer, Boolean, AsyncCallback, Object)
+  fullName.vb: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.BeginInvoke(Integer, Boolean, System.AsyncCallback, Object)
+  name.vb: BeginInvoke(Integer, Boolean, AsyncCallback, Object)
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.EndInvoke(System.IAsyncResult)
+  commentId: M:NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: AsioCallbacks.AsioBufferSwitchCallBack.EndInvoke(IAsyncResult)
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.EndInvoke(System.IAsyncResult)
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.EndInvoke*
+references:
+- uid: NAudio.Wave.Asio
+  commentId: N:NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave.Asio
+  nameWithType: NAudio.Wave.Asio
+  fullName: NAudio.Wave.Asio
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Asio
+    name: Asio
+    isExternal: true
+    href: NAudio.Wave.Asio.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Asio
+    name: Asio
+    isExternal: true
+    href: NAudio.Wave.Asio.html
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.#ctor*
+  commentId: Overload:NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.#ctor
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.html#NAudio_Wave_Asio_AsioCallbacks_AsioBufferSwitchCallBack__ctor_System_Object_System_IntPtr_
+  name: AsioBufferSwitchCallBack
+  nameWithType: AsioCallbacks.AsioBufferSwitchCallBack.AsioBufferSwitchCallBack
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.AsioBufferSwitchCallBack
+  nameWithType.vb: AsioCallbacks.AsioBufferSwitchCallBack.New
+  fullName.vb: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.New
+  name.vb: New
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.Invoke*
+  commentId: Overload:NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.Invoke
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.html#NAudio_Wave_Asio_AsioCallbacks_AsioBufferSwitchCallBack_Invoke_System_Int32_System_Boolean_
+  name: Invoke
+  nameWithType: AsioCallbacks.AsioBufferSwitchCallBack.Invoke
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.Invoke
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.BeginInvoke*
+  commentId: Overload:NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.BeginInvoke
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.html#NAudio_Wave_Asio_AsioCallbacks_AsioBufferSwitchCallBack_BeginInvoke_System_Int32_System_Boolean_System_AsyncCallback_System_Object_
+  name: BeginInvoke
+  nameWithType: AsioCallbacks.AsioBufferSwitchCallBack.BeginInvoke
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.EndInvoke*
+  commentId: Overload:NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.EndInvoke
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.html#NAudio_Wave_Asio_AsioCallbacks_AsioBufferSwitchCallBack_EndInvoke_System_IAsyncResult_
+  name: EndInvoke
+  nameWithType: AsioCallbacks.AsioBufferSwitchCallBack.EndInvoke
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.EndInvoke

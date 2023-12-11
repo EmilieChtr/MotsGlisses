@@ -1,0 +1,3069 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Utils.ByteEncoding
+  commentId: T:NAudio.Utils.ByteEncoding
+  id: ByteEncoding
+  parent: NAudio.Utils
+  children:
+  - NAudio.Utils.ByteEncoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+  - NAudio.Utils.ByteEncoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  - NAudio.Utils.ByteEncoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  - NAudio.Utils.ByteEncoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  - NAudio.Utils.ByteEncoding.GetMaxByteCount(System.Int32)
+  - NAudio.Utils.ByteEncoding.GetMaxCharCount(System.Int32)
+  - NAudio.Utils.ByteEncoding.Instance
+  langs:
+  - csharp
+  - vb
+  name: ByteEncoding
+  nameWithType: ByteEncoding
+  fullName: NAudio.Utils.ByteEncoding
+  type: Class
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Utils
+  syntax:
+    content: 'public class ByteEncoding : Encoding, ICloneable'
+    content.vb: Public Class ByteEncoding Inherits Encoding Implements ICloneable
+  inheritance:
+  - System.Object
+  - System.Text.Encoding
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[])
+  - System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[],System.Int32,System.Int32)
+  - System.Text.Encoding.RegisterProvider(System.Text.EncodingProvider)
+  - System.Text.Encoding.GetEncoding(System.Int32)
+  - System.Text.Encoding.GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  - System.Text.Encoding.GetEncoding(System.String)
+  - System.Text.Encoding.GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  - System.Text.Encoding.GetEncodings
+  - System.Text.Encoding.GetPreamble
+  - System.Text.Encoding.Clone
+  - System.Text.Encoding.GetByteCount(System.Char[])
+  - System.Text.Encoding.GetByteCount(System.String)
+  - System.Text.Encoding.GetByteCount(System.String,System.Int32,System.Int32)
+  - System.Text.Encoding.GetByteCount(System.Char*,System.Int32)
+  - System.Text.Encoding.GetByteCount(System.ReadOnlySpan{System.Char})
+  - System.Text.Encoding.GetBytes(System.Char[])
+  - System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32)
+  - System.Text.Encoding.GetBytes(System.String)
+  - System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32)
+  - System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
+  - System.Text.Encoding.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
+  - System.Text.Encoding.GetBytes(System.ReadOnlySpan{System.Char},System.Span{System.Byte})
+  - System.Text.Encoding.GetCharCount(System.Byte[])
+  - System.Text.Encoding.GetCharCount(System.Byte*,System.Int32)
+  - System.Text.Encoding.GetCharCount(System.ReadOnlySpan{System.Byte})
+  - System.Text.Encoding.GetChars(System.Byte[])
+  - System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32)
+  - System.Text.Encoding.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
+  - System.Text.Encoding.GetChars(System.ReadOnlySpan{System.Byte},System.Span{System.Char})
+  - System.Text.Encoding.GetString(System.Byte*,System.Int32)
+  - System.Text.Encoding.GetString(System.ReadOnlySpan{System.Byte})
+  - System.Text.Encoding.IsAlwaysNormalized
+  - System.Text.Encoding.IsAlwaysNormalized(System.Text.NormalizationForm)
+  - System.Text.Encoding.GetDecoder
+  - System.Text.Encoding.GetEncoder
+  - System.Text.Encoding.GetString(System.Byte[])
+  - System.Text.Encoding.GetString(System.Byte[],System.Int32,System.Int32)
+  - System.Text.Encoding.Equals(System.Object)
+  - System.Text.Encoding.GetHashCode
+  - System.Text.Encoding.CreateTranscodingStream(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,System.Boolean)
+  - System.Text.Encoding.Default
+  - System.Text.Encoding.Preamble
+  - System.Text.Encoding.BodyName
+  - System.Text.Encoding.EncodingName
+  - System.Text.Encoding.HeaderName
+  - System.Text.Encoding.WebName
+  - System.Text.Encoding.WindowsCodePage
+  - System.Text.Encoding.IsBrowserDisplay
+  - System.Text.Encoding.IsBrowserSave
+  - System.Text.Encoding.IsMailNewsDisplay
+  - System.Text.Encoding.IsMailNewsSave
+  - System.Text.Encoding.IsSingleByte
+  - System.Text.Encoding.EncoderFallback
+  - System.Text.Encoding.DecoderFallback
+  - System.Text.Encoding.IsReadOnly
+  - System.Text.Encoding.ASCII
+  - System.Text.Encoding.Latin1
+  - System.Text.Encoding.CodePage
+  - System.Text.Encoding.Unicode
+  - System.Text.Encoding.BigEndianUnicode
+  - System.Text.Encoding.UTF7
+  - System.Text.Encoding.UTF8
+  - System.Text.Encoding.UTF32
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NAudio.Utils.ByteEncoding.Instance
+  commentId: F:NAudio.Utils.ByteEncoding.Instance
+  id: Instance
+  parent: NAudio.Utils.ByteEncoding
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: ByteEncoding.Instance
+  fullName: NAudio.Utils.ByteEncoding.Instance
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Utils
+  syntax:
+    content: public static readonly ByteEncoding Instance
+    return:
+      type: NAudio.Utils.ByteEncoding
+    content.vb: Public Shared ReadOnly Instance As ByteEncoding
+- uid: NAudio.Utils.ByteEncoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+  commentId: M:NAudio.Utils.ByteEncoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+  id: GetByteCount(System.Char[],System.Int32,System.Int32)
+  parent: NAudio.Utils.ByteEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetByteCount(char[], int, int)
+  nameWithType: ByteEncoding.GetByteCount(char[], int, int)
+  fullName: NAudio.Utils.ByteEncoding.GetByteCount(char[], int, int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Utils
+  example: []
+  syntax:
+    content: public override int GetByteCount(char[] chars, int index, int count)
+    parameters:
+    - id: chars
+      type: System.Char[]
+    - id: index
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetByteCount(chars As Char(), index As Integer, count As Integer) As Integer
+  overridden: System.Text.Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+  overload: NAudio.Utils.ByteEncoding.GetByteCount*
+  nameWithType.vb: ByteEncoding.GetByteCount(Char(), Integer, Integer)
+  fullName.vb: NAudio.Utils.ByteEncoding.GetByteCount(Char(), Integer, Integer)
+  name.vb: GetByteCount(Char(), Integer, Integer)
+- uid: NAudio.Utils.ByteEncoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  commentId: M:NAudio.Utils.ByteEncoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  id: GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  parent: NAudio.Utils.ByteEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetBytes(char[], int, int, byte[], int)
+  nameWithType: ByteEncoding.GetBytes(char[], int, int, byte[], int)
+  fullName: NAudio.Utils.ByteEncoding.GetBytes(char[], int, int, byte[], int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Utils
+  example: []
+  syntax:
+    content: public override int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex)
+    parameters:
+    - id: chars
+      type: System.Char[]
+    - id: charIndex
+      type: System.Int32
+    - id: charCount
+      type: System.Int32
+    - id: bytes
+      type: System.Byte[]
+    - id: byteIndex
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetBytes(chars As Char(), charIndex As Integer, charCount As Integer, bytes As Byte(), byteIndex As Integer) As Integer
+  overridden: System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  overload: NAudio.Utils.ByteEncoding.GetBytes*
+  nameWithType.vb: ByteEncoding.GetBytes(Char(), Integer, Integer, Byte(), Integer)
+  fullName.vb: NAudio.Utils.ByteEncoding.GetBytes(Char(), Integer, Integer, Byte(), Integer)
+  name.vb: GetBytes(Char(), Integer, Integer, Byte(), Integer)
+- uid: NAudio.Utils.ByteEncoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  commentId: M:NAudio.Utils.ByteEncoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  id: GetCharCount(System.Byte[],System.Int32,System.Int32)
+  parent: NAudio.Utils.ByteEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetCharCount(byte[], int, int)
+  nameWithType: ByteEncoding.GetCharCount(byte[], int, int)
+  fullName: NAudio.Utils.ByteEncoding.GetCharCount(byte[], int, int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Utils
+  example: []
+  syntax:
+    content: public override int GetCharCount(byte[] bytes, int index, int count)
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    - id: index
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetCharCount(bytes As Byte(), index As Integer, count As Integer) As Integer
+  overridden: System.Text.Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  overload: NAudio.Utils.ByteEncoding.GetCharCount*
+  nameWithType.vb: ByteEncoding.GetCharCount(Byte(), Integer, Integer)
+  fullName.vb: NAudio.Utils.ByteEncoding.GetCharCount(Byte(), Integer, Integer)
+  name.vb: GetCharCount(Byte(), Integer, Integer)
+- uid: NAudio.Utils.ByteEncoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  commentId: M:NAudio.Utils.ByteEncoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  id: GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  parent: NAudio.Utils.ByteEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetChars(byte[], int, int, char[], int)
+  nameWithType: ByteEncoding.GetChars(byte[], int, int, char[], int)
+  fullName: NAudio.Utils.ByteEncoding.GetChars(byte[], int, int, char[], int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Utils
+  example: []
+  syntax:
+    content: public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex)
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    - id: byteIndex
+      type: System.Int32
+    - id: byteCount
+      type: System.Int32
+    - id: chars
+      type: System.Char[]
+    - id: charIndex
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetChars(bytes As Byte(), byteIndex As Integer, byteCount As Integer, chars As Char(), charIndex As Integer) As Integer
+  overridden: System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  overload: NAudio.Utils.ByteEncoding.GetChars*
+  nameWithType.vb: ByteEncoding.GetChars(Byte(), Integer, Integer, Char(), Integer)
+  fullName.vb: NAudio.Utils.ByteEncoding.GetChars(Byte(), Integer, Integer, Char(), Integer)
+  name.vb: GetChars(Byte(), Integer, Integer, Char(), Integer)
+- uid: NAudio.Utils.ByteEncoding.GetMaxCharCount(System.Int32)
+  commentId: M:NAudio.Utils.ByteEncoding.GetMaxCharCount(System.Int32)
+  id: GetMaxCharCount(System.Int32)
+  parent: NAudio.Utils.ByteEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetMaxCharCount(int)
+  nameWithType: ByteEncoding.GetMaxCharCount(int)
+  fullName: NAudio.Utils.ByteEncoding.GetMaxCharCount(int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Utils
+  example: []
+  syntax:
+    content: public override int GetMaxCharCount(int byteCount)
+    parameters:
+    - id: byteCount
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetMaxCharCount(byteCount As Integer) As Integer
+  overridden: System.Text.Encoding.GetMaxCharCount(System.Int32)
+  overload: NAudio.Utils.ByteEncoding.GetMaxCharCount*
+  nameWithType.vb: ByteEncoding.GetMaxCharCount(Integer)
+  fullName.vb: NAudio.Utils.ByteEncoding.GetMaxCharCount(Integer)
+  name.vb: GetMaxCharCount(Integer)
+- uid: NAudio.Utils.ByteEncoding.GetMaxByteCount(System.Int32)
+  commentId: M:NAudio.Utils.ByteEncoding.GetMaxByteCount(System.Int32)
+  id: GetMaxByteCount(System.Int32)
+  parent: NAudio.Utils.ByteEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetMaxByteCount(int)
+  nameWithType: ByteEncoding.GetMaxByteCount(int)
+  fullName: NAudio.Utils.ByteEncoding.GetMaxByteCount(int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Utils
+  example: []
+  syntax:
+    content: public override int GetMaxByteCount(int charCount)
+    parameters:
+    - id: charCount
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetMaxByteCount(charCount As Integer) As Integer
+  overridden: System.Text.Encoding.GetMaxByteCount(System.Int32)
+  overload: NAudio.Utils.ByteEncoding.GetMaxByteCount*
+  nameWithType.vb: ByteEncoding.GetMaxByteCount(Integer)
+  fullName.vb: NAudio.Utils.ByteEncoding.GetMaxByteCount(Integer)
+  name.vb: GetMaxByteCount(Integer)
+references:
+- uid: NAudio.Utils
+  commentId: N:NAudio.Utils
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Utils
+  nameWithType: NAudio.Utils
+  fullName: NAudio.Utils
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Utils
+    name: Utils
+    isExternal: true
+    href: NAudio.Utils.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Utils
+    name: Utils
+    isExternal: true
+    href: NAudio.Utils.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Text.Encoding
+  commentId: T:System.Text.Encoding
+  parent: System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding
+  name: Encoding
+  nameWithType: Encoding
+  fullName: System.Text.Encoding
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[])
+  commentId: M:System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[])
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.convert#system-text-encoding-convert(system-text-encoding-system-text-encoding-system-byte())
+  name: Convert(Encoding, Encoding, byte[])
+  nameWithType: Encoding.Convert(Encoding, Encoding, byte[])
+  fullName: System.Text.Encoding.Convert(System.Text.Encoding, System.Text.Encoding, byte[])
+  nameWithType.vb: Encoding.Convert(Encoding, Encoding, Byte())
+  fullName.vb: System.Text.Encoding.Convert(System.Text.Encoding, System.Text.Encoding, Byte())
+  name.vb: Convert(Encoding, Encoding, Byte())
+  spec.csharp:
+  - uid: System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[])
+    name: Convert
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.convert#system-text-encoding-convert(system-text-encoding-system-text-encoding-system-byte())
+  - name: (
+  - uid: System.Text.Encoding
+    name: Encoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding
+  - name: ','
+  - name: " "
+  - uid: System.Text.Encoding
+    name: Encoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[])
+    name: Convert
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.convert#system-text-encoding-convert(system-text-encoding-system-text-encoding-system-byte())
+  - name: (
+  - uid: System.Text.Encoding
+    name: Encoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding
+  - name: ','
+  - name: " "
+  - uid: System.Text.Encoding
+    name: Encoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[],System.Int32,System.Int32)
+  commentId: M:System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[],System.Int32,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.convert#system-text-encoding-convert(system-text-encoding-system-text-encoding-system-byte()-system-int32-system-int32)
+  name: Convert(Encoding, Encoding, byte[], int, int)
+  nameWithType: Encoding.Convert(Encoding, Encoding, byte[], int, int)
+  fullName: System.Text.Encoding.Convert(System.Text.Encoding, System.Text.Encoding, byte[], int, int)
+  nameWithType.vb: Encoding.Convert(Encoding, Encoding, Byte(), Integer, Integer)
+  fullName.vb: System.Text.Encoding.Convert(System.Text.Encoding, System.Text.Encoding, Byte(), Integer, Integer)
+  name.vb: Convert(Encoding, Encoding, Byte(), Integer, Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[],System.Int32,System.Int32)
+    name: Convert
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.convert#system-text-encoding-convert(system-text-encoding-system-text-encoding-system-byte()-system-int32-system-int32)
+  - name: (
+  - uid: System.Text.Encoding
+    name: Encoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding
+  - name: ','
+  - name: " "
+  - uid: System.Text.Encoding
+    name: Encoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[],System.Int32,System.Int32)
+    name: Convert
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.convert#system-text-encoding-convert(system-text-encoding-system-text-encoding-system-byte()-system-int32-system-int32)
+  - name: (
+  - uid: System.Text.Encoding
+    name: Encoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding
+  - name: ','
+  - name: " "
+  - uid: System.Text.Encoding
+    name: Encoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Text.Encoding.RegisterProvider(System.Text.EncodingProvider)
+  commentId: M:System.Text.Encoding.RegisterProvider(System.Text.EncodingProvider)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.registerprovider
+  name: RegisterProvider(EncodingProvider)
+  nameWithType: Encoding.RegisterProvider(EncodingProvider)
+  fullName: System.Text.Encoding.RegisterProvider(System.Text.EncodingProvider)
+  spec.csharp:
+  - uid: System.Text.Encoding.RegisterProvider(System.Text.EncodingProvider)
+    name: RegisterProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.registerprovider
+  - name: (
+  - uid: System.Text.EncodingProvider
+    name: EncodingProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encodingprovider
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.RegisterProvider(System.Text.EncodingProvider)
+    name: RegisterProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.registerprovider
+  - name: (
+  - uid: System.Text.EncodingProvider
+    name: EncodingProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encodingprovider
+  - name: )
+- uid: System.Text.Encoding.GetEncoding(System.Int32)
+  commentId: M:System.Text.Encoding.GetEncoding(System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencoding#system-text-encoding-getencoding(system-int32)
+  name: GetEncoding(int)
+  nameWithType: Encoding.GetEncoding(int)
+  fullName: System.Text.Encoding.GetEncoding(int)
+  nameWithType.vb: Encoding.GetEncoding(Integer)
+  fullName.vb: System.Text.Encoding.GetEncoding(Integer)
+  name.vb: GetEncoding(Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetEncoding(System.Int32)
+    name: GetEncoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencoding#system-text-encoding-getencoding(system-int32)
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetEncoding(System.Int32)
+    name: GetEncoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencoding#system-text-encoding-getencoding(system-int32)
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Text.Encoding.GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  commentId: M:System.Text.Encoding.GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencoding#system-text-encoding-getencoding(system-int32-system-text-encoderfallback-system-text-decoderfallback)
+  name: GetEncoding(int, EncoderFallback, DecoderFallback)
+  nameWithType: Encoding.GetEncoding(int, EncoderFallback, DecoderFallback)
+  fullName: System.Text.Encoding.GetEncoding(int, System.Text.EncoderFallback, System.Text.DecoderFallback)
+  nameWithType.vb: Encoding.GetEncoding(Integer, EncoderFallback, DecoderFallback)
+  fullName.vb: System.Text.Encoding.GetEncoding(Integer, System.Text.EncoderFallback, System.Text.DecoderFallback)
+  name.vb: GetEncoding(Integer, EncoderFallback, DecoderFallback)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback)
+    name: GetEncoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencoding#system-text-encoding-getencoding(system-int32-system-text-encoderfallback-system-text-decoderfallback)
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Text.EncoderFallback
+    name: EncoderFallback
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoderfallback
+  - name: ','
+  - name: " "
+  - uid: System.Text.DecoderFallback
+    name: DecoderFallback
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.decoderfallback
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback)
+    name: GetEncoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencoding#system-text-encoding-getencoding(system-int32-system-text-encoderfallback-system-text-decoderfallback)
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Text.EncoderFallback
+    name: EncoderFallback
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoderfallback
+  - name: ','
+  - name: " "
+  - uid: System.Text.DecoderFallback
+    name: DecoderFallback
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.decoderfallback
+  - name: )
+- uid: System.Text.Encoding.GetEncoding(System.String)
+  commentId: M:System.Text.Encoding.GetEncoding(System.String)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencoding#system-text-encoding-getencoding(system-string)
+  name: GetEncoding(string)
+  nameWithType: Encoding.GetEncoding(string)
+  fullName: System.Text.Encoding.GetEncoding(string)
+  nameWithType.vb: Encoding.GetEncoding(String)
+  fullName.vb: System.Text.Encoding.GetEncoding(String)
+  name.vb: GetEncoding(String)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetEncoding(System.String)
+    name: GetEncoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencoding#system-text-encoding-getencoding(system-string)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetEncoding(System.String)
+    name: GetEncoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencoding#system-text-encoding-getencoding(system-string)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Text.Encoding.GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  commentId: M:System.Text.Encoding.GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencoding#system-text-encoding-getencoding(system-string-system-text-encoderfallback-system-text-decoderfallback)
+  name: GetEncoding(string, EncoderFallback, DecoderFallback)
+  nameWithType: Encoding.GetEncoding(string, EncoderFallback, DecoderFallback)
+  fullName: System.Text.Encoding.GetEncoding(string, System.Text.EncoderFallback, System.Text.DecoderFallback)
+  nameWithType.vb: Encoding.GetEncoding(String, EncoderFallback, DecoderFallback)
+  fullName.vb: System.Text.Encoding.GetEncoding(String, System.Text.EncoderFallback, System.Text.DecoderFallback)
+  name.vb: GetEncoding(String, EncoderFallback, DecoderFallback)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback)
+    name: GetEncoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencoding#system-text-encoding-getencoding(system-string-system-text-encoderfallback-system-text-decoderfallback)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Text.EncoderFallback
+    name: EncoderFallback
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoderfallback
+  - name: ','
+  - name: " "
+  - uid: System.Text.DecoderFallback
+    name: DecoderFallback
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.decoderfallback
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback)
+    name: GetEncoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencoding#system-text-encoding-getencoding(system-string-system-text-encoderfallback-system-text-decoderfallback)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Text.EncoderFallback
+    name: EncoderFallback
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoderfallback
+  - name: ','
+  - name: " "
+  - uid: System.Text.DecoderFallback
+    name: DecoderFallback
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.decoderfallback
+  - name: )
+- uid: System.Text.Encoding.GetEncodings
+  commentId: M:System.Text.Encoding.GetEncodings
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencodings
+  name: GetEncodings()
+  nameWithType: Encoding.GetEncodings()
+  fullName: System.Text.Encoding.GetEncodings()
+  spec.csharp:
+  - uid: System.Text.Encoding.GetEncodings
+    name: GetEncodings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencodings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetEncodings
+    name: GetEncodings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencodings
+  - name: (
+  - name: )
+- uid: System.Text.Encoding.GetPreamble
+  commentId: M:System.Text.Encoding.GetPreamble
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getpreamble
+  name: GetPreamble()
+  nameWithType: Encoding.GetPreamble()
+  fullName: System.Text.Encoding.GetPreamble()
+  spec.csharp:
+  - uid: System.Text.Encoding.GetPreamble
+    name: GetPreamble
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getpreamble
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetPreamble
+    name: GetPreamble
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getpreamble
+  - name: (
+  - name: )
+- uid: System.Text.Encoding.Clone
+  commentId: M:System.Text.Encoding.Clone
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.clone
+  name: Clone()
+  nameWithType: Encoding.Clone()
+  fullName: System.Text.Encoding.Clone()
+  spec.csharp:
+  - uid: System.Text.Encoding.Clone
+    name: Clone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.clone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.Clone
+    name: Clone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.clone
+  - name: (
+  - name: )
+- uid: System.Text.Encoding.GetByteCount(System.Char[])
+  commentId: M:System.Text.Encoding.GetByteCount(System.Char[])
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-char())
+  name: GetByteCount(char[])
+  nameWithType: Encoding.GetByteCount(char[])
+  fullName: System.Text.Encoding.GetByteCount(char[])
+  nameWithType.vb: Encoding.GetByteCount(Char())
+  fullName.vb: System.Text.Encoding.GetByteCount(Char())
+  name.vb: GetByteCount(Char())
+  spec.csharp:
+  - uid: System.Text.Encoding.GetByteCount(System.Char[])
+    name: GetByteCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-char())
+  - name: (
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetByteCount(System.Char[])
+    name: GetByteCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-char())
+  - name: (
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Text.Encoding.GetByteCount(System.String)
+  commentId: M:System.Text.Encoding.GetByteCount(System.String)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-string)
+  name: GetByteCount(string)
+  nameWithType: Encoding.GetByteCount(string)
+  fullName: System.Text.Encoding.GetByteCount(string)
+  nameWithType.vb: Encoding.GetByteCount(String)
+  fullName.vb: System.Text.Encoding.GetByteCount(String)
+  name.vb: GetByteCount(String)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetByteCount(System.String)
+    name: GetByteCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-string)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetByteCount(System.String)
+    name: GetByteCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-string)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Text.Encoding.GetByteCount(System.String,System.Int32,System.Int32)
+  commentId: M:System.Text.Encoding.GetByteCount(System.String,System.Int32,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-string-system-int32-system-int32)
+  name: GetByteCount(string, int, int)
+  nameWithType: Encoding.GetByteCount(string, int, int)
+  fullName: System.Text.Encoding.GetByteCount(string, int, int)
+  nameWithType.vb: Encoding.GetByteCount(String, Integer, Integer)
+  fullName.vb: System.Text.Encoding.GetByteCount(String, Integer, Integer)
+  name.vb: GetByteCount(String, Integer, Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetByteCount(System.String,System.Int32,System.Int32)
+    name: GetByteCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-string-system-int32-system-int32)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetByteCount(System.String,System.Int32,System.Int32)
+    name: GetByteCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-string-system-int32-system-int32)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Text.Encoding.GetByteCount(System.Char*,System.Int32)
+  commentId: M:System.Text.Encoding.GetByteCount(System.Char*,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-char*-system-int32)
+  name: GetByteCount(char*, int)
+  nameWithType: Encoding.GetByteCount(char*, int)
+  fullName: System.Text.Encoding.GetByteCount(char*, int)
+  nameWithType.vb: Encoding.GetByteCount(Char*, Integer)
+  fullName.vb: System.Text.Encoding.GetByteCount(Char*, Integer)
+  name.vb: GetByteCount(Char*, Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetByteCount(System.Char*,System.Int32)
+    name: GetByteCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-char*-system-int32)
+  - name: (
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetByteCount(System.Char*,System.Int32)
+    name: GetByteCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-char*-system-int32)
+  - name: (
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Text.Encoding.GetByteCount(System.ReadOnlySpan{System.Char})
+  commentId: M:System.Text.Encoding.GetByteCount(System.ReadOnlySpan{System.Char})
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-readonlyspan((system-char)))
+  name: GetByteCount(ReadOnlySpan<char>)
+  nameWithType: Encoding.GetByteCount(ReadOnlySpan<char>)
+  fullName: System.Text.Encoding.GetByteCount(System.ReadOnlySpan<char>)
+  nameWithType.vb: Encoding.GetByteCount(ReadOnlySpan(Of Char))
+  fullName.vb: System.Text.Encoding.GetByteCount(System.ReadOnlySpan(Of Char))
+  name.vb: GetByteCount(ReadOnlySpan(Of Char))
+  spec.csharp:
+  - uid: System.Text.Encoding.GetByteCount(System.ReadOnlySpan{System.Char})
+    name: GetByteCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-readonlyspan((system-char)))
+  - name: (
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetByteCount(System.ReadOnlySpan{System.Char})
+    name: GetByteCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-readonlyspan((system-char)))
+  - name: (
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+  - name: )
+- uid: System.Text.Encoding.GetBytes(System.Char[])
+  commentId: M:System.Text.Encoding.GetBytes(System.Char[])
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-char())
+  name: GetBytes(char[])
+  nameWithType: Encoding.GetBytes(char[])
+  fullName: System.Text.Encoding.GetBytes(char[])
+  nameWithType.vb: Encoding.GetBytes(Char())
+  fullName.vb: System.Text.Encoding.GetBytes(Char())
+  name.vb: GetBytes(Char())
+  spec.csharp:
+  - uid: System.Text.Encoding.GetBytes(System.Char[])
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-char())
+  - name: (
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetBytes(System.Char[])
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-char())
+  - name: (
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32)
+  commentId: M:System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-char()-system-int32-system-int32)
+  name: GetBytes(char[], int, int)
+  nameWithType: Encoding.GetBytes(char[], int, int)
+  fullName: System.Text.Encoding.GetBytes(char[], int, int)
+  nameWithType.vb: Encoding.GetBytes(Char(), Integer, Integer)
+  fullName.vb: System.Text.Encoding.GetBytes(Char(), Integer, Integer)
+  name.vb: GetBytes(Char(), Integer, Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32)
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-char()-system-int32-system-int32)
+  - name: (
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32)
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-char()-system-int32-system-int32)
+  - name: (
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Text.Encoding.GetBytes(System.String)
+  commentId: M:System.Text.Encoding.GetBytes(System.String)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-string)
+  name: GetBytes(string)
+  nameWithType: Encoding.GetBytes(string)
+  fullName: System.Text.Encoding.GetBytes(string)
+  nameWithType.vb: Encoding.GetBytes(String)
+  fullName.vb: System.Text.Encoding.GetBytes(String)
+  name.vb: GetBytes(String)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetBytes(System.String)
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-string)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetBytes(System.String)
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-string)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32)
+  commentId: M:System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-string-system-int32-system-int32)
+  name: GetBytes(string, int, int)
+  nameWithType: Encoding.GetBytes(string, int, int)
+  fullName: System.Text.Encoding.GetBytes(string, int, int)
+  nameWithType.vb: Encoding.GetBytes(String, Integer, Integer)
+  fullName.vb: System.Text.Encoding.GetBytes(String, Integer, Integer)
+  name.vb: GetBytes(String, Integer, Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32)
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-string-system-int32-system-int32)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32)
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-string-system-int32-system-int32)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
+  commentId: M:System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-string-system-int32-system-int32-system-byte()-system-int32)
+  name: GetBytes(string, int, int, byte[], int)
+  nameWithType: Encoding.GetBytes(string, int, int, byte[], int)
+  fullName: System.Text.Encoding.GetBytes(string, int, int, byte[], int)
+  nameWithType.vb: Encoding.GetBytes(String, Integer, Integer, Byte(), Integer)
+  fullName.vb: System.Text.Encoding.GetBytes(String, Integer, Integer, Byte(), Integer)
+  name.vb: GetBytes(String, Integer, Integer, Byte(), Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-string-system-int32-system-int32-system-byte()-system-int32)
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-string-system-int32-system-int32-system-byte()-system-int32)
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Text.Encoding.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
+  commentId: M:System.Text.Encoding.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-char*-system-int32-system-byte*-system-int32)
+  name: GetBytes(char*, int, byte*, int)
+  nameWithType: Encoding.GetBytes(char*, int, byte*, int)
+  fullName: System.Text.Encoding.GetBytes(char*, int, byte*, int)
+  nameWithType.vb: Encoding.GetBytes(Char*, Integer, Byte*, Integer)
+  fullName.vb: System.Text.Encoding.GetBytes(Char*, Integer, Byte*, Integer)
+  name.vb: GetBytes(Char*, Integer, Byte*, Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-char*-system-int32-system-byte*-system-int32)
+  - name: (
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-char*-system-int32-system-byte*-system-int32)
+  - name: (
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Text.Encoding.GetBytes(System.ReadOnlySpan{System.Char},System.Span{System.Byte})
+  commentId: M:System.Text.Encoding.GetBytes(System.ReadOnlySpan{System.Char},System.Span{System.Byte})
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-readonlyspan((system-char))-system-span((system-byte)))
+  name: GetBytes(ReadOnlySpan<char>, Span<byte>)
+  nameWithType: Encoding.GetBytes(ReadOnlySpan<char>, Span<byte>)
+  fullName: System.Text.Encoding.GetBytes(System.ReadOnlySpan<char>, System.Span<byte>)
+  nameWithType.vb: Encoding.GetBytes(ReadOnlySpan(Of Char), Span(Of Byte))
+  fullName.vb: System.Text.Encoding.GetBytes(System.ReadOnlySpan(Of Char), System.Span(Of Byte))
+  name.vb: GetBytes(ReadOnlySpan(Of Char), Span(Of Byte))
+  spec.csharp:
+  - uid: System.Text.Encoding.GetBytes(System.ReadOnlySpan{System.Char},System.Span{System.Byte})
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-readonlyspan((system-char))-system-span((system-byte)))
+  - name: (
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetBytes(System.ReadOnlySpan{System.Char},System.Span{System.Byte})
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-readonlyspan((system-char))-system-span((system-byte)))
+  - name: (
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+  - name: )
+- uid: System.Text.Encoding.GetCharCount(System.Byte[])
+  commentId: M:System.Text.Encoding.GetCharCount(System.Byte[])
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getcharcount#system-text-encoding-getcharcount(system-byte())
+  name: GetCharCount(byte[])
+  nameWithType: Encoding.GetCharCount(byte[])
+  fullName: System.Text.Encoding.GetCharCount(byte[])
+  nameWithType.vb: Encoding.GetCharCount(Byte())
+  fullName.vb: System.Text.Encoding.GetCharCount(Byte())
+  name.vb: GetCharCount(Byte())
+  spec.csharp:
+  - uid: System.Text.Encoding.GetCharCount(System.Byte[])
+    name: GetCharCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getcharcount#system-text-encoding-getcharcount(system-byte())
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetCharCount(System.Byte[])
+    name: GetCharCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getcharcount#system-text-encoding-getcharcount(system-byte())
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Text.Encoding.GetCharCount(System.Byte*,System.Int32)
+  commentId: M:System.Text.Encoding.GetCharCount(System.Byte*,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getcharcount#system-text-encoding-getcharcount(system-byte*-system-int32)
+  name: GetCharCount(byte*, int)
+  nameWithType: Encoding.GetCharCount(byte*, int)
+  fullName: System.Text.Encoding.GetCharCount(byte*, int)
+  nameWithType.vb: Encoding.GetCharCount(Byte*, Integer)
+  fullName.vb: System.Text.Encoding.GetCharCount(Byte*, Integer)
+  name.vb: GetCharCount(Byte*, Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetCharCount(System.Byte*,System.Int32)
+    name: GetCharCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getcharcount#system-text-encoding-getcharcount(system-byte*-system-int32)
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetCharCount(System.Byte*,System.Int32)
+    name: GetCharCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getcharcount#system-text-encoding-getcharcount(system-byte*-system-int32)
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Text.Encoding.GetCharCount(System.ReadOnlySpan{System.Byte})
+  commentId: M:System.Text.Encoding.GetCharCount(System.ReadOnlySpan{System.Byte})
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getcharcount#system-text-encoding-getcharcount(system-readonlyspan((system-byte)))
+  name: GetCharCount(ReadOnlySpan<byte>)
+  nameWithType: Encoding.GetCharCount(ReadOnlySpan<byte>)
+  fullName: System.Text.Encoding.GetCharCount(System.ReadOnlySpan<byte>)
+  nameWithType.vb: Encoding.GetCharCount(ReadOnlySpan(Of Byte))
+  fullName.vb: System.Text.Encoding.GetCharCount(System.ReadOnlySpan(Of Byte))
+  name.vb: GetCharCount(ReadOnlySpan(Of Byte))
+  spec.csharp:
+  - uid: System.Text.Encoding.GetCharCount(System.ReadOnlySpan{System.Byte})
+    name: GetCharCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getcharcount#system-text-encoding-getcharcount(system-readonlyspan((system-byte)))
+  - name: (
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetCharCount(System.ReadOnlySpan{System.Byte})
+    name: GetCharCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getcharcount#system-text-encoding-getcharcount(system-readonlyspan((system-byte)))
+  - name: (
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+  - name: )
+- uid: System.Text.Encoding.GetChars(System.Byte[])
+  commentId: M:System.Text.Encoding.GetChars(System.Byte[])
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getchars#system-text-encoding-getchars(system-byte())
+  name: GetChars(byte[])
+  nameWithType: Encoding.GetChars(byte[])
+  fullName: System.Text.Encoding.GetChars(byte[])
+  nameWithType.vb: Encoding.GetChars(Byte())
+  fullName.vb: System.Text.Encoding.GetChars(Byte())
+  name.vb: GetChars(Byte())
+  spec.csharp:
+  - uid: System.Text.Encoding.GetChars(System.Byte[])
+    name: GetChars
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getchars#system-text-encoding-getchars(system-byte())
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetChars(System.Byte[])
+    name: GetChars
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getchars#system-text-encoding-getchars(system-byte())
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32)
+  commentId: M:System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getchars#system-text-encoding-getchars(system-byte()-system-int32-system-int32)
+  name: GetChars(byte[], int, int)
+  nameWithType: Encoding.GetChars(byte[], int, int)
+  fullName: System.Text.Encoding.GetChars(byte[], int, int)
+  nameWithType.vb: Encoding.GetChars(Byte(), Integer, Integer)
+  fullName.vb: System.Text.Encoding.GetChars(Byte(), Integer, Integer)
+  name.vb: GetChars(Byte(), Integer, Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32)
+    name: GetChars
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getchars#system-text-encoding-getchars(system-byte()-system-int32-system-int32)
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32)
+    name: GetChars
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getchars#system-text-encoding-getchars(system-byte()-system-int32-system-int32)
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Text.Encoding.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
+  commentId: M:System.Text.Encoding.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getchars#system-text-encoding-getchars(system-byte*-system-int32-system-char*-system-int32)
+  name: GetChars(byte*, int, char*, int)
+  nameWithType: Encoding.GetChars(byte*, int, char*, int)
+  fullName: System.Text.Encoding.GetChars(byte*, int, char*, int)
+  nameWithType.vb: Encoding.GetChars(Byte*, Integer, Char*, Integer)
+  fullName.vb: System.Text.Encoding.GetChars(Byte*, Integer, Char*, Integer)
+  name.vb: GetChars(Byte*, Integer, Char*, Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
+    name: GetChars
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getchars#system-text-encoding-getchars(system-byte*-system-int32-system-char*-system-int32)
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
+    name: GetChars
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getchars#system-text-encoding-getchars(system-byte*-system-int32-system-char*-system-int32)
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Text.Encoding.GetChars(System.ReadOnlySpan{System.Byte},System.Span{System.Char})
+  commentId: M:System.Text.Encoding.GetChars(System.ReadOnlySpan{System.Byte},System.Span{System.Char})
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getchars#system-text-encoding-getchars(system-readonlyspan((system-byte))-system-span((system-char)))
+  name: GetChars(ReadOnlySpan<byte>, Span<char>)
+  nameWithType: Encoding.GetChars(ReadOnlySpan<byte>, Span<char>)
+  fullName: System.Text.Encoding.GetChars(System.ReadOnlySpan<byte>, System.Span<char>)
+  nameWithType.vb: Encoding.GetChars(ReadOnlySpan(Of Byte), Span(Of Char))
+  fullName.vb: System.Text.Encoding.GetChars(System.ReadOnlySpan(Of Byte), System.Span(Of Char))
+  name.vb: GetChars(ReadOnlySpan(Of Byte), Span(Of Char))
+  spec.csharp:
+  - uid: System.Text.Encoding.GetChars(System.ReadOnlySpan{System.Byte},System.Span{System.Char})
+    name: GetChars
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getchars#system-text-encoding-getchars(system-readonlyspan((system-byte))-system-span((system-char)))
+  - name: (
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: <
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetChars(System.ReadOnlySpan{System.Byte},System.Span{System.Char})
+    name: GetChars
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getchars#system-text-encoding-getchars(system-readonlyspan((system-byte))-system-span((system-char)))
+  - name: (
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+  - name: )
+- uid: System.Text.Encoding.GetString(System.Byte*,System.Int32)
+  commentId: M:System.Text.Encoding.GetString(System.Byte*,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getstring#system-text-encoding-getstring(system-byte*-system-int32)
+  name: GetString(byte*, int)
+  nameWithType: Encoding.GetString(byte*, int)
+  fullName: System.Text.Encoding.GetString(byte*, int)
+  nameWithType.vb: Encoding.GetString(Byte*, Integer)
+  fullName.vb: System.Text.Encoding.GetString(Byte*, Integer)
+  name.vb: GetString(Byte*, Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetString(System.Byte*,System.Int32)
+    name: GetString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getstring#system-text-encoding-getstring(system-byte*-system-int32)
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetString(System.Byte*,System.Int32)
+    name: GetString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getstring#system-text-encoding-getstring(system-byte*-system-int32)
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Text.Encoding.GetString(System.ReadOnlySpan{System.Byte})
+  commentId: M:System.Text.Encoding.GetString(System.ReadOnlySpan{System.Byte})
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getstring#system-text-encoding-getstring(system-readonlyspan((system-byte)))
+  name: GetString(ReadOnlySpan<byte>)
+  nameWithType: Encoding.GetString(ReadOnlySpan<byte>)
+  fullName: System.Text.Encoding.GetString(System.ReadOnlySpan<byte>)
+  nameWithType.vb: Encoding.GetString(ReadOnlySpan(Of Byte))
+  fullName.vb: System.Text.Encoding.GetString(System.ReadOnlySpan(Of Byte))
+  name.vb: GetString(ReadOnlySpan(Of Byte))
+  spec.csharp:
+  - uid: System.Text.Encoding.GetString(System.ReadOnlySpan{System.Byte})
+    name: GetString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getstring#system-text-encoding-getstring(system-readonlyspan((system-byte)))
+  - name: (
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetString(System.ReadOnlySpan{System.Byte})
+    name: GetString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getstring#system-text-encoding-getstring(system-readonlyspan((system-byte)))
+  - name: (
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+  - name: )
+- uid: System.Text.Encoding.IsAlwaysNormalized
+  commentId: M:System.Text.Encoding.IsAlwaysNormalized
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.isalwaysnormalized#system-text-encoding-isalwaysnormalized
+  name: IsAlwaysNormalized()
+  nameWithType: Encoding.IsAlwaysNormalized()
+  fullName: System.Text.Encoding.IsAlwaysNormalized()
+  spec.csharp:
+  - uid: System.Text.Encoding.IsAlwaysNormalized
+    name: IsAlwaysNormalized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.isalwaysnormalized#system-text-encoding-isalwaysnormalized
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.IsAlwaysNormalized
+    name: IsAlwaysNormalized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.isalwaysnormalized#system-text-encoding-isalwaysnormalized
+  - name: (
+  - name: )
+- uid: System.Text.Encoding.IsAlwaysNormalized(System.Text.NormalizationForm)
+  commentId: M:System.Text.Encoding.IsAlwaysNormalized(System.Text.NormalizationForm)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.isalwaysnormalized#system-text-encoding-isalwaysnormalized(system-text-normalizationform)
+  name: IsAlwaysNormalized(NormalizationForm)
+  nameWithType: Encoding.IsAlwaysNormalized(NormalizationForm)
+  fullName: System.Text.Encoding.IsAlwaysNormalized(System.Text.NormalizationForm)
+  spec.csharp:
+  - uid: System.Text.Encoding.IsAlwaysNormalized(System.Text.NormalizationForm)
+    name: IsAlwaysNormalized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.isalwaysnormalized#system-text-encoding-isalwaysnormalized(system-text-normalizationform)
+  - name: (
+  - uid: System.Text.NormalizationForm
+    name: NormalizationForm
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.normalizationform
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.IsAlwaysNormalized(System.Text.NormalizationForm)
+    name: IsAlwaysNormalized
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.isalwaysnormalized#system-text-encoding-isalwaysnormalized(system-text-normalizationform)
+  - name: (
+  - uid: System.Text.NormalizationForm
+    name: NormalizationForm
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.normalizationform
+  - name: )
+- uid: System.Text.Encoding.GetDecoder
+  commentId: M:System.Text.Encoding.GetDecoder
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getdecoder
+  name: GetDecoder()
+  nameWithType: Encoding.GetDecoder()
+  fullName: System.Text.Encoding.GetDecoder()
+  spec.csharp:
+  - uid: System.Text.Encoding.GetDecoder
+    name: GetDecoder
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getdecoder
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetDecoder
+    name: GetDecoder
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getdecoder
+  - name: (
+  - name: )
+- uid: System.Text.Encoding.GetEncoder
+  commentId: M:System.Text.Encoding.GetEncoder
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencoder
+  name: GetEncoder()
+  nameWithType: Encoding.GetEncoder()
+  fullName: System.Text.Encoding.GetEncoder()
+  spec.csharp:
+  - uid: System.Text.Encoding.GetEncoder
+    name: GetEncoder
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencoder
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetEncoder
+    name: GetEncoder
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getencoder
+  - name: (
+  - name: )
+- uid: System.Text.Encoding.GetString(System.Byte[])
+  commentId: M:System.Text.Encoding.GetString(System.Byte[])
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getstring#system-text-encoding-getstring(system-byte())
+  name: GetString(byte[])
+  nameWithType: Encoding.GetString(byte[])
+  fullName: System.Text.Encoding.GetString(byte[])
+  nameWithType.vb: Encoding.GetString(Byte())
+  fullName.vb: System.Text.Encoding.GetString(Byte())
+  name.vb: GetString(Byte())
+  spec.csharp:
+  - uid: System.Text.Encoding.GetString(System.Byte[])
+    name: GetString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getstring#system-text-encoding-getstring(system-byte())
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetString(System.Byte[])
+    name: GetString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getstring#system-text-encoding-getstring(system-byte())
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Text.Encoding.GetString(System.Byte[],System.Int32,System.Int32)
+  commentId: M:System.Text.Encoding.GetString(System.Byte[],System.Int32,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getstring#system-text-encoding-getstring(system-byte()-system-int32-system-int32)
+  name: GetString(byte[], int, int)
+  nameWithType: Encoding.GetString(byte[], int, int)
+  fullName: System.Text.Encoding.GetString(byte[], int, int)
+  nameWithType.vb: Encoding.GetString(Byte(), Integer, Integer)
+  fullName.vb: System.Text.Encoding.GetString(Byte(), Integer, Integer)
+  name.vb: GetString(Byte(), Integer, Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetString(System.Byte[],System.Int32,System.Int32)
+    name: GetString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getstring#system-text-encoding-getstring(system-byte()-system-int32-system-int32)
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetString(System.Byte[],System.Int32,System.Int32)
+    name: GetString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getstring#system-text-encoding-getstring(system-byte()-system-int32-system-int32)
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Text.Encoding.Equals(System.Object)
+  commentId: M:System.Text.Encoding.Equals(System.Object)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.equals
+  name: Equals(object)
+  nameWithType: Encoding.Equals(object)
+  fullName: System.Text.Encoding.Equals(object)
+  nameWithType.vb: Encoding.Equals(Object)
+  fullName.vb: System.Text.Encoding.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Text.Encoding.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Text.Encoding.GetHashCode
+  commentId: M:System.Text.Encoding.GetHashCode
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.gethashcode
+  name: GetHashCode()
+  nameWithType: Encoding.GetHashCode()
+  fullName: System.Text.Encoding.GetHashCode()
+  spec.csharp:
+  - uid: System.Text.Encoding.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.gethashcode
+  - name: (
+  - name: )
+- uid: System.Text.Encoding.CreateTranscodingStream(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,System.Boolean)
+  commentId: M:System.Text.Encoding.CreateTranscodingStream(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,System.Boolean)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.createtranscodingstream
+  name: CreateTranscodingStream(Stream, Encoding, Encoding, bool)
+  nameWithType: Encoding.CreateTranscodingStream(Stream, Encoding, Encoding, bool)
+  fullName: System.Text.Encoding.CreateTranscodingStream(System.IO.Stream, System.Text.Encoding, System.Text.Encoding, bool)
+  nameWithType.vb: Encoding.CreateTranscodingStream(Stream, Encoding, Encoding, Boolean)
+  fullName.vb: System.Text.Encoding.CreateTranscodingStream(System.IO.Stream, System.Text.Encoding, System.Text.Encoding, Boolean)
+  name.vb: CreateTranscodingStream(Stream, Encoding, Encoding, Boolean)
+  spec.csharp:
+  - uid: System.Text.Encoding.CreateTranscodingStream(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,System.Boolean)
+    name: CreateTranscodingStream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.createtranscodingstream
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Text.Encoding
+    name: Encoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding
+  - name: ','
+  - name: " "
+  - uid: System.Text.Encoding
+    name: Encoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.CreateTranscodingStream(System.IO.Stream,System.Text.Encoding,System.Text.Encoding,System.Boolean)
+    name: CreateTranscodingStream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.createtranscodingstream
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Text.Encoding
+    name: Encoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding
+  - name: ','
+  - name: " "
+  - uid: System.Text.Encoding
+    name: Encoding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Text.Encoding.Default
+  commentId: P:System.Text.Encoding.Default
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.default
+  name: Default
+  nameWithType: Encoding.Default
+  fullName: System.Text.Encoding.Default
+- uid: System.Text.Encoding.Preamble
+  commentId: P:System.Text.Encoding.Preamble
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.preamble
+  name: Preamble
+  nameWithType: Encoding.Preamble
+  fullName: System.Text.Encoding.Preamble
+- uid: System.Text.Encoding.BodyName
+  commentId: P:System.Text.Encoding.BodyName
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.bodyname
+  name: BodyName
+  nameWithType: Encoding.BodyName
+  fullName: System.Text.Encoding.BodyName
+- uid: System.Text.Encoding.EncodingName
+  commentId: P:System.Text.Encoding.EncodingName
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.encodingname
+  name: EncodingName
+  nameWithType: Encoding.EncodingName
+  fullName: System.Text.Encoding.EncodingName
+- uid: System.Text.Encoding.HeaderName
+  commentId: P:System.Text.Encoding.HeaderName
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.headername
+  name: HeaderName
+  nameWithType: Encoding.HeaderName
+  fullName: System.Text.Encoding.HeaderName
+- uid: System.Text.Encoding.WebName
+  commentId: P:System.Text.Encoding.WebName
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.webname
+  name: WebName
+  nameWithType: Encoding.WebName
+  fullName: System.Text.Encoding.WebName
+- uid: System.Text.Encoding.WindowsCodePage
+  commentId: P:System.Text.Encoding.WindowsCodePage
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.windowscodepage
+  name: WindowsCodePage
+  nameWithType: Encoding.WindowsCodePage
+  fullName: System.Text.Encoding.WindowsCodePage
+- uid: System.Text.Encoding.IsBrowserDisplay
+  commentId: P:System.Text.Encoding.IsBrowserDisplay
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.isbrowserdisplay
+  name: IsBrowserDisplay
+  nameWithType: Encoding.IsBrowserDisplay
+  fullName: System.Text.Encoding.IsBrowserDisplay
+- uid: System.Text.Encoding.IsBrowserSave
+  commentId: P:System.Text.Encoding.IsBrowserSave
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.isbrowsersave
+  name: IsBrowserSave
+  nameWithType: Encoding.IsBrowserSave
+  fullName: System.Text.Encoding.IsBrowserSave
+- uid: System.Text.Encoding.IsMailNewsDisplay
+  commentId: P:System.Text.Encoding.IsMailNewsDisplay
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.ismailnewsdisplay
+  name: IsMailNewsDisplay
+  nameWithType: Encoding.IsMailNewsDisplay
+  fullName: System.Text.Encoding.IsMailNewsDisplay
+- uid: System.Text.Encoding.IsMailNewsSave
+  commentId: P:System.Text.Encoding.IsMailNewsSave
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.ismailnewssave
+  name: IsMailNewsSave
+  nameWithType: Encoding.IsMailNewsSave
+  fullName: System.Text.Encoding.IsMailNewsSave
+- uid: System.Text.Encoding.IsSingleByte
+  commentId: P:System.Text.Encoding.IsSingleByte
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.issinglebyte
+  name: IsSingleByte
+  nameWithType: Encoding.IsSingleByte
+  fullName: System.Text.Encoding.IsSingleByte
+- uid: System.Text.Encoding.EncoderFallback
+  commentId: P:System.Text.Encoding.EncoderFallback
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.encoderfallback
+  name: EncoderFallback
+  nameWithType: Encoding.EncoderFallback
+  fullName: System.Text.Encoding.EncoderFallback
+- uid: System.Text.Encoding.DecoderFallback
+  commentId: P:System.Text.Encoding.DecoderFallback
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.decoderfallback
+  name: DecoderFallback
+  nameWithType: Encoding.DecoderFallback
+  fullName: System.Text.Encoding.DecoderFallback
+- uid: System.Text.Encoding.IsReadOnly
+  commentId: P:System.Text.Encoding.IsReadOnly
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.isreadonly
+  name: IsReadOnly
+  nameWithType: Encoding.IsReadOnly
+  fullName: System.Text.Encoding.IsReadOnly
+- uid: System.Text.Encoding.ASCII
+  commentId: P:System.Text.Encoding.ASCII
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.ascii
+  name: ASCII
+  nameWithType: Encoding.ASCII
+  fullName: System.Text.Encoding.ASCII
+- uid: System.Text.Encoding.Latin1
+  commentId: P:System.Text.Encoding.Latin1
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.latin1
+  name: Latin1
+  nameWithType: Encoding.Latin1
+  fullName: System.Text.Encoding.Latin1
+- uid: System.Text.Encoding.CodePage
+  commentId: P:System.Text.Encoding.CodePage
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.codepage
+  name: CodePage
+  nameWithType: Encoding.CodePage
+  fullName: System.Text.Encoding.CodePage
+- uid: System.Text.Encoding.Unicode
+  commentId: P:System.Text.Encoding.Unicode
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.unicode
+  name: Unicode
+  nameWithType: Encoding.Unicode
+  fullName: System.Text.Encoding.Unicode
+- uid: System.Text.Encoding.BigEndianUnicode
+  commentId: P:System.Text.Encoding.BigEndianUnicode
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.bigendianunicode
+  name: BigEndianUnicode
+  nameWithType: Encoding.BigEndianUnicode
+  fullName: System.Text.Encoding.BigEndianUnicode
+- uid: System.Text.Encoding.UTF7
+  commentId: P:System.Text.Encoding.UTF7
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.utf7
+  name: UTF7
+  nameWithType: Encoding.UTF7
+  fullName: System.Text.Encoding.UTF7
+- uid: System.Text.Encoding.UTF8
+  commentId: P:System.Text.Encoding.UTF8
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.utf8
+  name: UTF8
+  nameWithType: Encoding.UTF8
+  fullName: System.Text.Encoding.UTF8
+- uid: System.Text.Encoding.UTF32
+  commentId: P:System.Text.Encoding.UTF32
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.utf32
+  name: UTF32
+  nameWithType: Encoding.UTF32
+  fullName: System.Text.Encoding.UTF32
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+- uid: NAudio.Utils.ByteEncoding
+  commentId: T:NAudio.Utils.ByteEncoding
+  parent: NAudio.Utils
+  isExternal: true
+  href: NAudio.Utils.ByteEncoding.html
+  name: ByteEncoding
+  nameWithType: ByteEncoding
+  fullName: NAudio.Utils.ByteEncoding
+- uid: System.Text.Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+  commentId: M:System.Text.Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-char()-system-int32-system-int32)
+  name: GetByteCount(char[], int, int)
+  nameWithType: Encoding.GetByteCount(char[], int, int)
+  fullName: System.Text.Encoding.GetByteCount(char[], int, int)
+  nameWithType.vb: Encoding.GetByteCount(Char(), Integer, Integer)
+  fullName.vb: System.Text.Encoding.GetByteCount(Char(), Integer, Integer)
+  name.vb: GetByteCount(Char(), Integer, Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+    name: GetByteCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-char()-system-int32-system-int32)
+  - name: (
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+    name: GetByteCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytecount#system-text-encoding-getbytecount(system-char()-system-int32-system-int32)
+  - name: (
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: NAudio.Utils.ByteEncoding.GetByteCount*
+  commentId: Overload:NAudio.Utils.ByteEncoding.GetByteCount
+  isExternal: true
+  href: NAudio.Utils.ByteEncoding.html#NAudio_Utils_ByteEncoding_GetByteCount_System_Char___System_Int32_System_Int32_
+  name: GetByteCount
+  nameWithType: ByteEncoding.GetByteCount
+  fullName: NAudio.Utils.ByteEncoding.GetByteCount
+- uid: System.Char[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char[]
+  nameWithType: char[]
+  fullName: char[]
+  nameWithType.vb: Char()
+  fullName.vb: Char()
+  name.vb: Char()
+  spec.csharp:
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  commentId: M:System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-char()-system-int32-system-int32-system-byte()-system-int32)
+  name: GetBytes(char[], int, int, byte[], int)
+  nameWithType: Encoding.GetBytes(char[], int, int, byte[], int)
+  fullName: System.Text.Encoding.GetBytes(char[], int, int, byte[], int)
+  nameWithType.vb: Encoding.GetBytes(Char(), Integer, Integer, Byte(), Integer)
+  fullName.vb: System.Text.Encoding.GetBytes(Char(), Integer, Integer, Byte(), Integer)
+  name.vb: GetBytes(Char(), Integer, Integer, Byte(), Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-char()-system-int32-system-int32-system-byte()-system-int32)
+  - name: (
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+    name: GetBytes
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getbytes#system-text-encoding-getbytes(system-char()-system-int32-system-int32-system-byte()-system-int32)
+  - name: (
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: NAudio.Utils.ByteEncoding.GetBytes*
+  commentId: Overload:NAudio.Utils.ByteEncoding.GetBytes
+  isExternal: true
+  href: NAudio.Utils.ByteEncoding.html#NAudio_Utils_ByteEncoding_GetBytes_System_Char___System_Int32_System_Int32_System_Byte___System_Int32_
+  name: GetBytes
+  nameWithType: ByteEncoding.GetBytes
+  fullName: NAudio.Utils.ByteEncoding.GetBytes
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: System.Text.Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  commentId: M:System.Text.Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getcharcount#system-text-encoding-getcharcount(system-byte()-system-int32-system-int32)
+  name: GetCharCount(byte[], int, int)
+  nameWithType: Encoding.GetCharCount(byte[], int, int)
+  fullName: System.Text.Encoding.GetCharCount(byte[], int, int)
+  nameWithType.vb: Encoding.GetCharCount(Byte(), Integer, Integer)
+  fullName.vb: System.Text.Encoding.GetCharCount(Byte(), Integer, Integer)
+  name.vb: GetCharCount(Byte(), Integer, Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+    name: GetCharCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getcharcount#system-text-encoding-getcharcount(system-byte()-system-int32-system-int32)
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+    name: GetCharCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getcharcount#system-text-encoding-getcharcount(system-byte()-system-int32-system-int32)
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: NAudio.Utils.ByteEncoding.GetCharCount*
+  commentId: Overload:NAudio.Utils.ByteEncoding.GetCharCount
+  isExternal: true
+  href: NAudio.Utils.ByteEncoding.html#NAudio_Utils_ByteEncoding_GetCharCount_System_Byte___System_Int32_System_Int32_
+  name: GetCharCount
+  nameWithType: ByteEncoding.GetCharCount
+  fullName: NAudio.Utils.ByteEncoding.GetCharCount
+- uid: System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  commentId: M:System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getchars#system-text-encoding-getchars(system-byte()-system-int32-system-int32-system-char()-system-int32)
+  name: GetChars(byte[], int, int, char[], int)
+  nameWithType: Encoding.GetChars(byte[], int, int, char[], int)
+  fullName: System.Text.Encoding.GetChars(byte[], int, int, char[], int)
+  nameWithType.vb: Encoding.GetChars(Byte(), Integer, Integer, Char(), Integer)
+  fullName.vb: System.Text.Encoding.GetChars(Byte(), Integer, Integer, Char(), Integer)
+  name.vb: GetChars(Byte(), Integer, Integer, Char(), Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+    name: GetChars
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getchars#system-text-encoding-getchars(system-byte()-system-int32-system-int32-system-char()-system-int32)
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+    name: GetChars
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getchars#system-text-encoding-getchars(system-byte()-system-int32-system-int32-system-char()-system-int32)
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: NAudio.Utils.ByteEncoding.GetChars*
+  commentId: Overload:NAudio.Utils.ByteEncoding.GetChars
+  isExternal: true
+  href: NAudio.Utils.ByteEncoding.html#NAudio_Utils_ByteEncoding_GetChars_System_Byte___System_Int32_System_Int32_System_Char___System_Int32_
+  name: GetChars
+  nameWithType: ByteEncoding.GetChars
+  fullName: NAudio.Utils.ByteEncoding.GetChars
+- uid: System.Text.Encoding.GetMaxCharCount(System.Int32)
+  commentId: M:System.Text.Encoding.GetMaxCharCount(System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getmaxcharcount
+  name: GetMaxCharCount(int)
+  nameWithType: Encoding.GetMaxCharCount(int)
+  fullName: System.Text.Encoding.GetMaxCharCount(int)
+  nameWithType.vb: Encoding.GetMaxCharCount(Integer)
+  fullName.vb: System.Text.Encoding.GetMaxCharCount(Integer)
+  name.vb: GetMaxCharCount(Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetMaxCharCount(System.Int32)
+    name: GetMaxCharCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getmaxcharcount
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetMaxCharCount(System.Int32)
+    name: GetMaxCharCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getmaxcharcount
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: NAudio.Utils.ByteEncoding.GetMaxCharCount*
+  commentId: Overload:NAudio.Utils.ByteEncoding.GetMaxCharCount
+  isExternal: true
+  href: NAudio.Utils.ByteEncoding.html#NAudio_Utils_ByteEncoding_GetMaxCharCount_System_Int32_
+  name: GetMaxCharCount
+  nameWithType: ByteEncoding.GetMaxCharCount
+  fullName: NAudio.Utils.ByteEncoding.GetMaxCharCount
+- uid: System.Text.Encoding.GetMaxByteCount(System.Int32)
+  commentId: M:System.Text.Encoding.GetMaxByteCount(System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getmaxbytecount
+  name: GetMaxByteCount(int)
+  nameWithType: Encoding.GetMaxByteCount(int)
+  fullName: System.Text.Encoding.GetMaxByteCount(int)
+  nameWithType.vb: Encoding.GetMaxByteCount(Integer)
+  fullName.vb: System.Text.Encoding.GetMaxByteCount(Integer)
+  name.vb: GetMaxByteCount(Integer)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetMaxByteCount(System.Int32)
+    name: GetMaxByteCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getmaxbytecount
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetMaxByteCount(System.Int32)
+    name: GetMaxByteCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text.encoding.getmaxbytecount
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: NAudio.Utils.ByteEncoding.GetMaxByteCount*
+  commentId: Overload:NAudio.Utils.ByteEncoding.GetMaxByteCount
+  isExternal: true
+  href: NAudio.Utils.ByteEncoding.html#NAudio_Utils_ByteEncoding_GetMaxByteCount_System_Int32_
+  name: GetMaxByteCount
+  nameWithType: ByteEncoding.GetMaxByteCount
+  fullName: NAudio.Utils.ByteEncoding.GetMaxByteCount

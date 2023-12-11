@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.DmoInPlaceProcessReturn
+  commentId: T:NAudio.Dmo.DmoInPlaceProcessReturn
+  id: DmoInPlaceProcessReturn
+  parent: NAudio.Dmo
+  children:
+  - NAudio.Dmo.DmoInPlaceProcessReturn.HasEffectTail
+  - NAudio.Dmo.DmoInPlaceProcessReturn.Normal
+  langs:
+  - csharp
+  - vb
+  name: DmoInPlaceProcessReturn
+  nameWithType: DmoInPlaceProcessReturn
+  fullName: NAudio.Dmo.DmoInPlaceProcessReturn
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public enum DmoInPlaceProcessReturn
+    content.vb: Public Enum DmoInPlaceProcessReturn
+- uid: NAudio.Dmo.DmoInPlaceProcessReturn.Normal
+  commentId: F:NAudio.Dmo.DmoInPlaceProcessReturn.Normal
+  id: Normal
+  parent: NAudio.Dmo.DmoInPlaceProcessReturn
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: DmoInPlaceProcessReturn.Normal
+  fullName: NAudio.Dmo.DmoInPlaceProcessReturn.Normal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: Normal = 0
+    return:
+      type: NAudio.Dmo.DmoInPlaceProcessReturn
+- uid: NAudio.Dmo.DmoInPlaceProcessReturn.HasEffectTail
+  commentId: F:NAudio.Dmo.DmoInPlaceProcessReturn.HasEffectTail
+  id: HasEffectTail
+  parent: NAudio.Dmo.DmoInPlaceProcessReturn
+  langs:
+  - csharp
+  - vb
+  name: HasEffectTail
+  nameWithType: DmoInPlaceProcessReturn.HasEffectTail
+  fullName: NAudio.Dmo.DmoInPlaceProcessReturn.HasEffectTail
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: HasEffectTail = 1
+    return:
+      type: NAudio.Dmo.DmoInPlaceProcessReturn
+references:
+- uid: NAudio.Dmo
+  commentId: N:NAudio.Dmo
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo
+  nameWithType: NAudio.Dmo
+  fullName: NAudio.Dmo
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+- uid: NAudio.Dmo.DmoInPlaceProcessReturn
+  commentId: T:NAudio.Dmo.DmoInPlaceProcessReturn
+  parent: NAudio.Dmo
+  isExternal: true
+  href: NAudio.Dmo.DmoInPlaceProcessReturn.html
+  name: DmoInPlaceProcessReturn
+  nameWithType: DmoInPlaceProcessReturn
+  fullName: NAudio.Dmo.DmoInPlaceProcessReturn

@@ -1,0 +1,1215 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.SoundFont.GeneratorEnum
+  commentId: T:NAudio.SoundFont.GeneratorEnum
+  id: GeneratorEnum
+  parent: NAudio.SoundFont
+  children:
+  - NAudio.SoundFont.GeneratorEnum.AttackModulationEnvelope
+  - NAudio.SoundFont.GeneratorEnum.AttackVolumeEnvelope
+  - NAudio.SoundFont.GeneratorEnum.ChorusEffectsSend
+  - NAudio.SoundFont.GeneratorEnum.CoarseTune
+  - NAudio.SoundFont.GeneratorEnum.DecayModulationEnvelope
+  - NAudio.SoundFont.GeneratorEnum.DecayVolumeEnvelope
+  - NAudio.SoundFont.GeneratorEnum.DelayModulationEnvelope
+  - NAudio.SoundFont.GeneratorEnum.DelayModulationLFO
+  - NAudio.SoundFont.GeneratorEnum.DelayVibratoLFO
+  - NAudio.SoundFont.GeneratorEnum.DelayVolumeEnvelope
+  - NAudio.SoundFont.GeneratorEnum.EndAddressCoarseOffset
+  - NAudio.SoundFont.GeneratorEnum.EndAddressOffset
+  - NAudio.SoundFont.GeneratorEnum.EndLoopAddressCoarseOffset
+  - NAudio.SoundFont.GeneratorEnum.EndLoopAddressOffset
+  - NAudio.SoundFont.GeneratorEnum.ExclusiveClass
+  - NAudio.SoundFont.GeneratorEnum.FineTune
+  - NAudio.SoundFont.GeneratorEnum.FrequencyModulationLFO
+  - NAudio.SoundFont.GeneratorEnum.FrequencyVibratoLFO
+  - NAudio.SoundFont.GeneratorEnum.HoldModulationEnvelope
+  - NAudio.SoundFont.GeneratorEnum.HoldVolumeEnvelope
+  - NAudio.SoundFont.GeneratorEnum.InitialAttenuation
+  - NAudio.SoundFont.GeneratorEnum.InitialFilterCutoffFrequency
+  - NAudio.SoundFont.GeneratorEnum.InitialFilterQ
+  - NAudio.SoundFont.GeneratorEnum.Instrument
+  - NAudio.SoundFont.GeneratorEnum.KeyNumber
+  - NAudio.SoundFont.GeneratorEnum.KeyNumberToModulationEnvelopeDecay
+  - NAudio.SoundFont.GeneratorEnum.KeyNumberToModulationEnvelopeHold
+  - NAudio.SoundFont.GeneratorEnum.KeyNumberToVolumeEnvelopeDecay
+  - NAudio.SoundFont.GeneratorEnum.KeyNumberToVolumeEnvelopeHold
+  - NAudio.SoundFont.GeneratorEnum.KeyRange
+  - NAudio.SoundFont.GeneratorEnum.ModulationEnvelopeToFilterCutoffFrequency
+  - NAudio.SoundFont.GeneratorEnum.ModulationEnvelopeToPitch
+  - NAudio.SoundFont.GeneratorEnum.ModulationLFOToFilterCutoffFrequency
+  - NAudio.SoundFont.GeneratorEnum.ModulationLFOToPitch
+  - NAudio.SoundFont.GeneratorEnum.ModulationLFOToVolume
+  - NAudio.SoundFont.GeneratorEnum.OverridingRootKey
+  - NAudio.SoundFont.GeneratorEnum.Pan
+  - NAudio.SoundFont.GeneratorEnum.ReleaseModulationEnvelope
+  - NAudio.SoundFont.GeneratorEnum.ReleaseVolumeEnvelope
+  - NAudio.SoundFont.GeneratorEnum.Reserved1
+  - NAudio.SoundFont.GeneratorEnum.Reserved2
+  - NAudio.SoundFont.GeneratorEnum.Reserved3
+  - NAudio.SoundFont.GeneratorEnum.ReverbEffectsSend
+  - NAudio.SoundFont.GeneratorEnum.SampleID
+  - NAudio.SoundFont.GeneratorEnum.SampleModes
+  - NAudio.SoundFont.GeneratorEnum.ScaleTuning
+  - NAudio.SoundFont.GeneratorEnum.StartAddressCoarseOffset
+  - NAudio.SoundFont.GeneratorEnum.StartAddressOffset
+  - NAudio.SoundFont.GeneratorEnum.StartLoopAddressCoarseOffset
+  - NAudio.SoundFont.GeneratorEnum.StartLoopAddressOffset
+  - NAudio.SoundFont.GeneratorEnum.SustainModulationEnvelope
+  - NAudio.SoundFont.GeneratorEnum.SustainVolumeEnvelope
+  - NAudio.SoundFont.GeneratorEnum.Unused1
+  - NAudio.SoundFont.GeneratorEnum.Unused2
+  - NAudio.SoundFont.GeneratorEnum.Unused3
+  - NAudio.SoundFont.GeneratorEnum.Unused4
+  - NAudio.SoundFont.GeneratorEnum.Unused5
+  - NAudio.SoundFont.GeneratorEnum.UnusedEnd
+  - NAudio.SoundFont.GeneratorEnum.Velocity
+  - NAudio.SoundFont.GeneratorEnum.VelocityRange
+  - NAudio.SoundFont.GeneratorEnum.VibratoLFOToPitch
+  langs:
+  - csharp
+  - vb
+  name: GeneratorEnum
+  nameWithType: GeneratorEnum
+  fullName: NAudio.SoundFont.GeneratorEnum
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public enum GeneratorEnum
+    content.vb: Public Enum GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.StartAddressOffset
+  commentId: F:NAudio.SoundFont.GeneratorEnum.StartAddressOffset
+  id: StartAddressOffset
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: StartAddressOffset
+  nameWithType: GeneratorEnum.StartAddressOffset
+  fullName: NAudio.SoundFont.GeneratorEnum.StartAddressOffset
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: StartAddressOffset = 0
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.EndAddressOffset
+  commentId: F:NAudio.SoundFont.GeneratorEnum.EndAddressOffset
+  id: EndAddressOffset
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: EndAddressOffset
+  nameWithType: GeneratorEnum.EndAddressOffset
+  fullName: NAudio.SoundFont.GeneratorEnum.EndAddressOffset
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: EndAddressOffset = 1
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.StartLoopAddressOffset
+  commentId: F:NAudio.SoundFont.GeneratorEnum.StartLoopAddressOffset
+  id: StartLoopAddressOffset
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: StartLoopAddressOffset
+  nameWithType: GeneratorEnum.StartLoopAddressOffset
+  fullName: NAudio.SoundFont.GeneratorEnum.StartLoopAddressOffset
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: StartLoopAddressOffset = 2
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.EndLoopAddressOffset
+  commentId: F:NAudio.SoundFont.GeneratorEnum.EndLoopAddressOffset
+  id: EndLoopAddressOffset
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: EndLoopAddressOffset
+  nameWithType: GeneratorEnum.EndLoopAddressOffset
+  fullName: NAudio.SoundFont.GeneratorEnum.EndLoopAddressOffset
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: EndLoopAddressOffset = 3
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.StartAddressCoarseOffset
+  commentId: F:NAudio.SoundFont.GeneratorEnum.StartAddressCoarseOffset
+  id: StartAddressCoarseOffset
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: StartAddressCoarseOffset
+  nameWithType: GeneratorEnum.StartAddressCoarseOffset
+  fullName: NAudio.SoundFont.GeneratorEnum.StartAddressCoarseOffset
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: StartAddressCoarseOffset = 4
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.ModulationLFOToPitch
+  commentId: F:NAudio.SoundFont.GeneratorEnum.ModulationLFOToPitch
+  id: ModulationLFOToPitch
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: ModulationLFOToPitch
+  nameWithType: GeneratorEnum.ModulationLFOToPitch
+  fullName: NAudio.SoundFont.GeneratorEnum.ModulationLFOToPitch
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: ModulationLFOToPitch = 5
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.VibratoLFOToPitch
+  commentId: F:NAudio.SoundFont.GeneratorEnum.VibratoLFOToPitch
+  id: VibratoLFOToPitch
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: VibratoLFOToPitch
+  nameWithType: GeneratorEnum.VibratoLFOToPitch
+  fullName: NAudio.SoundFont.GeneratorEnum.VibratoLFOToPitch
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: VibratoLFOToPitch = 6
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.ModulationEnvelopeToPitch
+  commentId: F:NAudio.SoundFont.GeneratorEnum.ModulationEnvelopeToPitch
+  id: ModulationEnvelopeToPitch
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: ModulationEnvelopeToPitch
+  nameWithType: GeneratorEnum.ModulationEnvelopeToPitch
+  fullName: NAudio.SoundFont.GeneratorEnum.ModulationEnvelopeToPitch
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: ModulationEnvelopeToPitch = 7
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.InitialFilterCutoffFrequency
+  commentId: F:NAudio.SoundFont.GeneratorEnum.InitialFilterCutoffFrequency
+  id: InitialFilterCutoffFrequency
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: InitialFilterCutoffFrequency
+  nameWithType: GeneratorEnum.InitialFilterCutoffFrequency
+  fullName: NAudio.SoundFont.GeneratorEnum.InitialFilterCutoffFrequency
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: InitialFilterCutoffFrequency = 8
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.InitialFilterQ
+  commentId: F:NAudio.SoundFont.GeneratorEnum.InitialFilterQ
+  id: InitialFilterQ
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: InitialFilterQ
+  nameWithType: GeneratorEnum.InitialFilterQ
+  fullName: NAudio.SoundFont.GeneratorEnum.InitialFilterQ
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: InitialFilterQ = 9
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.ModulationLFOToFilterCutoffFrequency
+  commentId: F:NAudio.SoundFont.GeneratorEnum.ModulationLFOToFilterCutoffFrequency
+  id: ModulationLFOToFilterCutoffFrequency
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: ModulationLFOToFilterCutoffFrequency
+  nameWithType: GeneratorEnum.ModulationLFOToFilterCutoffFrequency
+  fullName: NAudio.SoundFont.GeneratorEnum.ModulationLFOToFilterCutoffFrequency
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: ModulationLFOToFilterCutoffFrequency = 10
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.ModulationEnvelopeToFilterCutoffFrequency
+  commentId: F:NAudio.SoundFont.GeneratorEnum.ModulationEnvelopeToFilterCutoffFrequency
+  id: ModulationEnvelopeToFilterCutoffFrequency
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: ModulationEnvelopeToFilterCutoffFrequency
+  nameWithType: GeneratorEnum.ModulationEnvelopeToFilterCutoffFrequency
+  fullName: NAudio.SoundFont.GeneratorEnum.ModulationEnvelopeToFilterCutoffFrequency
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: ModulationEnvelopeToFilterCutoffFrequency = 11
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.EndAddressCoarseOffset
+  commentId: F:NAudio.SoundFont.GeneratorEnum.EndAddressCoarseOffset
+  id: EndAddressCoarseOffset
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: EndAddressCoarseOffset
+  nameWithType: GeneratorEnum.EndAddressCoarseOffset
+  fullName: NAudio.SoundFont.GeneratorEnum.EndAddressCoarseOffset
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: EndAddressCoarseOffset = 12
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.ModulationLFOToVolume
+  commentId: F:NAudio.SoundFont.GeneratorEnum.ModulationLFOToVolume
+  id: ModulationLFOToVolume
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: ModulationLFOToVolume
+  nameWithType: GeneratorEnum.ModulationLFOToVolume
+  fullName: NAudio.SoundFont.GeneratorEnum.ModulationLFOToVolume
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: ModulationLFOToVolume = 13
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.Unused1
+  commentId: F:NAudio.SoundFont.GeneratorEnum.Unused1
+  id: Unused1
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: Unused1
+  nameWithType: GeneratorEnum.Unused1
+  fullName: NAudio.SoundFont.GeneratorEnum.Unused1
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: Unused1 = 14
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.ChorusEffectsSend
+  commentId: F:NAudio.SoundFont.GeneratorEnum.ChorusEffectsSend
+  id: ChorusEffectsSend
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: ChorusEffectsSend
+  nameWithType: GeneratorEnum.ChorusEffectsSend
+  fullName: NAudio.SoundFont.GeneratorEnum.ChorusEffectsSend
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: ChorusEffectsSend = 15
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.ReverbEffectsSend
+  commentId: F:NAudio.SoundFont.GeneratorEnum.ReverbEffectsSend
+  id: ReverbEffectsSend
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: ReverbEffectsSend
+  nameWithType: GeneratorEnum.ReverbEffectsSend
+  fullName: NAudio.SoundFont.GeneratorEnum.ReverbEffectsSend
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: ReverbEffectsSend = 16
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.Pan
+  commentId: F:NAudio.SoundFont.GeneratorEnum.Pan
+  id: Pan
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: Pan
+  nameWithType: GeneratorEnum.Pan
+  fullName: NAudio.SoundFont.GeneratorEnum.Pan
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: Pan = 17
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.Unused2
+  commentId: F:NAudio.SoundFont.GeneratorEnum.Unused2
+  id: Unused2
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: Unused2
+  nameWithType: GeneratorEnum.Unused2
+  fullName: NAudio.SoundFont.GeneratorEnum.Unused2
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: Unused2 = 18
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.Unused3
+  commentId: F:NAudio.SoundFont.GeneratorEnum.Unused3
+  id: Unused3
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: Unused3
+  nameWithType: GeneratorEnum.Unused3
+  fullName: NAudio.SoundFont.GeneratorEnum.Unused3
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: Unused3 = 19
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.Unused4
+  commentId: F:NAudio.SoundFont.GeneratorEnum.Unused4
+  id: Unused4
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: Unused4
+  nameWithType: GeneratorEnum.Unused4
+  fullName: NAudio.SoundFont.GeneratorEnum.Unused4
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: Unused4 = 20
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.DelayModulationLFO
+  commentId: F:NAudio.SoundFont.GeneratorEnum.DelayModulationLFO
+  id: DelayModulationLFO
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: DelayModulationLFO
+  nameWithType: GeneratorEnum.DelayModulationLFO
+  fullName: NAudio.SoundFont.GeneratorEnum.DelayModulationLFO
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: DelayModulationLFO = 21
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.FrequencyModulationLFO
+  commentId: F:NAudio.SoundFont.GeneratorEnum.FrequencyModulationLFO
+  id: FrequencyModulationLFO
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: FrequencyModulationLFO
+  nameWithType: GeneratorEnum.FrequencyModulationLFO
+  fullName: NAudio.SoundFont.GeneratorEnum.FrequencyModulationLFO
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: FrequencyModulationLFO = 22
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.DelayVibratoLFO
+  commentId: F:NAudio.SoundFont.GeneratorEnum.DelayVibratoLFO
+  id: DelayVibratoLFO
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: DelayVibratoLFO
+  nameWithType: GeneratorEnum.DelayVibratoLFO
+  fullName: NAudio.SoundFont.GeneratorEnum.DelayVibratoLFO
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: DelayVibratoLFO = 23
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.FrequencyVibratoLFO
+  commentId: F:NAudio.SoundFont.GeneratorEnum.FrequencyVibratoLFO
+  id: FrequencyVibratoLFO
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: FrequencyVibratoLFO
+  nameWithType: GeneratorEnum.FrequencyVibratoLFO
+  fullName: NAudio.SoundFont.GeneratorEnum.FrequencyVibratoLFO
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: FrequencyVibratoLFO = 24
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.DelayModulationEnvelope
+  commentId: F:NAudio.SoundFont.GeneratorEnum.DelayModulationEnvelope
+  id: DelayModulationEnvelope
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: DelayModulationEnvelope
+  nameWithType: GeneratorEnum.DelayModulationEnvelope
+  fullName: NAudio.SoundFont.GeneratorEnum.DelayModulationEnvelope
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: DelayModulationEnvelope = 25
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.AttackModulationEnvelope
+  commentId: F:NAudio.SoundFont.GeneratorEnum.AttackModulationEnvelope
+  id: AttackModulationEnvelope
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: AttackModulationEnvelope
+  nameWithType: GeneratorEnum.AttackModulationEnvelope
+  fullName: NAudio.SoundFont.GeneratorEnum.AttackModulationEnvelope
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: AttackModulationEnvelope = 26
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.HoldModulationEnvelope
+  commentId: F:NAudio.SoundFont.GeneratorEnum.HoldModulationEnvelope
+  id: HoldModulationEnvelope
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: HoldModulationEnvelope
+  nameWithType: GeneratorEnum.HoldModulationEnvelope
+  fullName: NAudio.SoundFont.GeneratorEnum.HoldModulationEnvelope
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: HoldModulationEnvelope = 27
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.DecayModulationEnvelope
+  commentId: F:NAudio.SoundFont.GeneratorEnum.DecayModulationEnvelope
+  id: DecayModulationEnvelope
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: DecayModulationEnvelope
+  nameWithType: GeneratorEnum.DecayModulationEnvelope
+  fullName: NAudio.SoundFont.GeneratorEnum.DecayModulationEnvelope
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: DecayModulationEnvelope = 28
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.SustainModulationEnvelope
+  commentId: F:NAudio.SoundFont.GeneratorEnum.SustainModulationEnvelope
+  id: SustainModulationEnvelope
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: SustainModulationEnvelope
+  nameWithType: GeneratorEnum.SustainModulationEnvelope
+  fullName: NAudio.SoundFont.GeneratorEnum.SustainModulationEnvelope
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: SustainModulationEnvelope = 29
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.ReleaseModulationEnvelope
+  commentId: F:NAudio.SoundFont.GeneratorEnum.ReleaseModulationEnvelope
+  id: ReleaseModulationEnvelope
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: ReleaseModulationEnvelope
+  nameWithType: GeneratorEnum.ReleaseModulationEnvelope
+  fullName: NAudio.SoundFont.GeneratorEnum.ReleaseModulationEnvelope
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: ReleaseModulationEnvelope = 30
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.KeyNumberToModulationEnvelopeHold
+  commentId: F:NAudio.SoundFont.GeneratorEnum.KeyNumberToModulationEnvelopeHold
+  id: KeyNumberToModulationEnvelopeHold
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: KeyNumberToModulationEnvelopeHold
+  nameWithType: GeneratorEnum.KeyNumberToModulationEnvelopeHold
+  fullName: NAudio.SoundFont.GeneratorEnum.KeyNumberToModulationEnvelopeHold
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: KeyNumberToModulationEnvelopeHold = 31
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.KeyNumberToModulationEnvelopeDecay
+  commentId: F:NAudio.SoundFont.GeneratorEnum.KeyNumberToModulationEnvelopeDecay
+  id: KeyNumberToModulationEnvelopeDecay
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: KeyNumberToModulationEnvelopeDecay
+  nameWithType: GeneratorEnum.KeyNumberToModulationEnvelopeDecay
+  fullName: NAudio.SoundFont.GeneratorEnum.KeyNumberToModulationEnvelopeDecay
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: KeyNumberToModulationEnvelopeDecay = 32
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.DelayVolumeEnvelope
+  commentId: F:NAudio.SoundFont.GeneratorEnum.DelayVolumeEnvelope
+  id: DelayVolumeEnvelope
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: DelayVolumeEnvelope
+  nameWithType: GeneratorEnum.DelayVolumeEnvelope
+  fullName: NAudio.SoundFont.GeneratorEnum.DelayVolumeEnvelope
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: DelayVolumeEnvelope = 33
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.AttackVolumeEnvelope
+  commentId: F:NAudio.SoundFont.GeneratorEnum.AttackVolumeEnvelope
+  id: AttackVolumeEnvelope
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: AttackVolumeEnvelope
+  nameWithType: GeneratorEnum.AttackVolumeEnvelope
+  fullName: NAudio.SoundFont.GeneratorEnum.AttackVolumeEnvelope
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: AttackVolumeEnvelope = 34
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.HoldVolumeEnvelope
+  commentId: F:NAudio.SoundFont.GeneratorEnum.HoldVolumeEnvelope
+  id: HoldVolumeEnvelope
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: HoldVolumeEnvelope
+  nameWithType: GeneratorEnum.HoldVolumeEnvelope
+  fullName: NAudio.SoundFont.GeneratorEnum.HoldVolumeEnvelope
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: HoldVolumeEnvelope = 35
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.DecayVolumeEnvelope
+  commentId: F:NAudio.SoundFont.GeneratorEnum.DecayVolumeEnvelope
+  id: DecayVolumeEnvelope
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: DecayVolumeEnvelope
+  nameWithType: GeneratorEnum.DecayVolumeEnvelope
+  fullName: NAudio.SoundFont.GeneratorEnum.DecayVolumeEnvelope
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: DecayVolumeEnvelope = 36
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.SustainVolumeEnvelope
+  commentId: F:NAudio.SoundFont.GeneratorEnum.SustainVolumeEnvelope
+  id: SustainVolumeEnvelope
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: SustainVolumeEnvelope
+  nameWithType: GeneratorEnum.SustainVolumeEnvelope
+  fullName: NAudio.SoundFont.GeneratorEnum.SustainVolumeEnvelope
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: SustainVolumeEnvelope = 37
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.ReleaseVolumeEnvelope
+  commentId: F:NAudio.SoundFont.GeneratorEnum.ReleaseVolumeEnvelope
+  id: ReleaseVolumeEnvelope
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: ReleaseVolumeEnvelope
+  nameWithType: GeneratorEnum.ReleaseVolumeEnvelope
+  fullName: NAudio.SoundFont.GeneratorEnum.ReleaseVolumeEnvelope
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: ReleaseVolumeEnvelope = 38
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.KeyNumberToVolumeEnvelopeHold
+  commentId: F:NAudio.SoundFont.GeneratorEnum.KeyNumberToVolumeEnvelopeHold
+  id: KeyNumberToVolumeEnvelopeHold
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: KeyNumberToVolumeEnvelopeHold
+  nameWithType: GeneratorEnum.KeyNumberToVolumeEnvelopeHold
+  fullName: NAudio.SoundFont.GeneratorEnum.KeyNumberToVolumeEnvelopeHold
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: KeyNumberToVolumeEnvelopeHold = 39
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.KeyNumberToVolumeEnvelopeDecay
+  commentId: F:NAudio.SoundFont.GeneratorEnum.KeyNumberToVolumeEnvelopeDecay
+  id: KeyNumberToVolumeEnvelopeDecay
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: KeyNumberToVolumeEnvelopeDecay
+  nameWithType: GeneratorEnum.KeyNumberToVolumeEnvelopeDecay
+  fullName: NAudio.SoundFont.GeneratorEnum.KeyNumberToVolumeEnvelopeDecay
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: KeyNumberToVolumeEnvelopeDecay = 40
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.Instrument
+  commentId: F:NAudio.SoundFont.GeneratorEnum.Instrument
+  id: Instrument
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: Instrument
+  nameWithType: GeneratorEnum.Instrument
+  fullName: NAudio.SoundFont.GeneratorEnum.Instrument
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: Instrument = 41
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.Reserved1
+  commentId: F:NAudio.SoundFont.GeneratorEnum.Reserved1
+  id: Reserved1
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: Reserved1
+  nameWithType: GeneratorEnum.Reserved1
+  fullName: NAudio.SoundFont.GeneratorEnum.Reserved1
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: Reserved1 = 42
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.KeyRange
+  commentId: F:NAudio.SoundFont.GeneratorEnum.KeyRange
+  id: KeyRange
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: KeyRange
+  nameWithType: GeneratorEnum.KeyRange
+  fullName: NAudio.SoundFont.GeneratorEnum.KeyRange
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: KeyRange = 43
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.VelocityRange
+  commentId: F:NAudio.SoundFont.GeneratorEnum.VelocityRange
+  id: VelocityRange
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: VelocityRange
+  nameWithType: GeneratorEnum.VelocityRange
+  fullName: NAudio.SoundFont.GeneratorEnum.VelocityRange
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: VelocityRange = 44
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.StartLoopAddressCoarseOffset
+  commentId: F:NAudio.SoundFont.GeneratorEnum.StartLoopAddressCoarseOffset
+  id: StartLoopAddressCoarseOffset
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: StartLoopAddressCoarseOffset
+  nameWithType: GeneratorEnum.StartLoopAddressCoarseOffset
+  fullName: NAudio.SoundFont.GeneratorEnum.StartLoopAddressCoarseOffset
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: StartLoopAddressCoarseOffset = 45
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.KeyNumber
+  commentId: F:NAudio.SoundFont.GeneratorEnum.KeyNumber
+  id: KeyNumber
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: KeyNumber
+  nameWithType: GeneratorEnum.KeyNumber
+  fullName: NAudio.SoundFont.GeneratorEnum.KeyNumber
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: KeyNumber = 46
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.Velocity
+  commentId: F:NAudio.SoundFont.GeneratorEnum.Velocity
+  id: Velocity
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: Velocity
+  nameWithType: GeneratorEnum.Velocity
+  fullName: NAudio.SoundFont.GeneratorEnum.Velocity
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: Velocity = 47
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.InitialAttenuation
+  commentId: F:NAudio.SoundFont.GeneratorEnum.InitialAttenuation
+  id: InitialAttenuation
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: InitialAttenuation
+  nameWithType: GeneratorEnum.InitialAttenuation
+  fullName: NAudio.SoundFont.GeneratorEnum.InitialAttenuation
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: InitialAttenuation = 48
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.Reserved2
+  commentId: F:NAudio.SoundFont.GeneratorEnum.Reserved2
+  id: Reserved2
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: Reserved2
+  nameWithType: GeneratorEnum.Reserved2
+  fullName: NAudio.SoundFont.GeneratorEnum.Reserved2
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: Reserved2 = 49
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.EndLoopAddressCoarseOffset
+  commentId: F:NAudio.SoundFont.GeneratorEnum.EndLoopAddressCoarseOffset
+  id: EndLoopAddressCoarseOffset
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: EndLoopAddressCoarseOffset
+  nameWithType: GeneratorEnum.EndLoopAddressCoarseOffset
+  fullName: NAudio.SoundFont.GeneratorEnum.EndLoopAddressCoarseOffset
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: EndLoopAddressCoarseOffset = 50
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.CoarseTune
+  commentId: F:NAudio.SoundFont.GeneratorEnum.CoarseTune
+  id: CoarseTune
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: CoarseTune
+  nameWithType: GeneratorEnum.CoarseTune
+  fullName: NAudio.SoundFont.GeneratorEnum.CoarseTune
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: CoarseTune = 51
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.FineTune
+  commentId: F:NAudio.SoundFont.GeneratorEnum.FineTune
+  id: FineTune
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: FineTune
+  nameWithType: GeneratorEnum.FineTune
+  fullName: NAudio.SoundFont.GeneratorEnum.FineTune
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: FineTune = 52
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.SampleID
+  commentId: F:NAudio.SoundFont.GeneratorEnum.SampleID
+  id: SampleID
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: SampleID
+  nameWithType: GeneratorEnum.SampleID
+  fullName: NAudio.SoundFont.GeneratorEnum.SampleID
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: SampleID = 53
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.SampleModes
+  commentId: F:NAudio.SoundFont.GeneratorEnum.SampleModes
+  id: SampleModes
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: SampleModes
+  nameWithType: GeneratorEnum.SampleModes
+  fullName: NAudio.SoundFont.GeneratorEnum.SampleModes
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: SampleModes = 54
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.Reserved3
+  commentId: F:NAudio.SoundFont.GeneratorEnum.Reserved3
+  id: Reserved3
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: Reserved3
+  nameWithType: GeneratorEnum.Reserved3
+  fullName: NAudio.SoundFont.GeneratorEnum.Reserved3
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: Reserved3 = 55
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.ScaleTuning
+  commentId: F:NAudio.SoundFont.GeneratorEnum.ScaleTuning
+  id: ScaleTuning
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: ScaleTuning
+  nameWithType: GeneratorEnum.ScaleTuning
+  fullName: NAudio.SoundFont.GeneratorEnum.ScaleTuning
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: ScaleTuning = 56
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.ExclusiveClass
+  commentId: F:NAudio.SoundFont.GeneratorEnum.ExclusiveClass
+  id: ExclusiveClass
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: ExclusiveClass
+  nameWithType: GeneratorEnum.ExclusiveClass
+  fullName: NAudio.SoundFont.GeneratorEnum.ExclusiveClass
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: ExclusiveClass = 57
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.OverridingRootKey
+  commentId: F:NAudio.SoundFont.GeneratorEnum.OverridingRootKey
+  id: OverridingRootKey
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: OverridingRootKey
+  nameWithType: GeneratorEnum.OverridingRootKey
+  fullName: NAudio.SoundFont.GeneratorEnum.OverridingRootKey
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: OverridingRootKey = 58
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.Unused5
+  commentId: F:NAudio.SoundFont.GeneratorEnum.Unused5
+  id: Unused5
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: Unused5
+  nameWithType: GeneratorEnum.Unused5
+  fullName: NAudio.SoundFont.GeneratorEnum.Unused5
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: Unused5 = 59
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+- uid: NAudio.SoundFont.GeneratorEnum.UnusedEnd
+  commentId: F:NAudio.SoundFont.GeneratorEnum.UnusedEnd
+  id: UnusedEnd
+  parent: NAudio.SoundFont.GeneratorEnum
+  langs:
+  - csharp
+  - vb
+  name: UnusedEnd
+  nameWithType: GeneratorEnum.UnusedEnd
+  fullName: NAudio.SoundFont.GeneratorEnum.UnusedEnd
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: UnusedEnd = 60
+    return:
+      type: NAudio.SoundFont.GeneratorEnum
+references:
+- uid: NAudio.SoundFont
+  commentId: N:NAudio.SoundFont
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.SoundFont
+  nameWithType: NAudio.SoundFont
+  fullName: NAudio.SoundFont
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.SoundFont
+    name: SoundFont
+    isExternal: true
+    href: NAudio.SoundFont.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.SoundFont
+    name: SoundFont
+    isExternal: true
+    href: NAudio.SoundFont.html
+- uid: NAudio.SoundFont.GeneratorEnum
+  commentId: T:NAudio.SoundFont.GeneratorEnum
+  parent: NAudio.SoundFont
+  isExternal: true
+  href: NAudio.SoundFont.GeneratorEnum.html
+  name: GeneratorEnum
+  nameWithType: GeneratorEnum
+  fullName: NAudio.SoundFont.GeneratorEnum

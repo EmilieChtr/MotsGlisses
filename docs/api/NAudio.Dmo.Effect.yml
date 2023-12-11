@@ -1,0 +1,478 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  id: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.ChorusPhase
+  - NAudio.Dmo.Effect.ChorusWaveForm
+  - NAudio.Dmo.Effect.DmoChorus
+  - NAudio.Dmo.Effect.DmoChorus.Params
+  - NAudio.Dmo.Effect.DmoCompressor
+  - NAudio.Dmo.Effect.DmoCompressor.Params
+  - NAudio.Dmo.Effect.DmoDistortion
+  - NAudio.Dmo.Effect.DmoDistortion.Params
+  - NAudio.Dmo.Effect.DmoEcho
+  - NAudio.Dmo.Effect.DmoEcho.Params
+  - NAudio.Dmo.Effect.DmoFlanger
+  - NAudio.Dmo.Effect.DmoFlanger.Params
+  - NAudio.Dmo.Effect.DmoGargle
+  - NAudio.Dmo.Effect.DmoGargle.Params
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  - NAudio.Dmo.Effect.DmoParamEq
+  - NAudio.Dmo.Effect.DmoParamEq.Params
+  - NAudio.Dmo.Effect.DmoWavesReverb
+  - NAudio.Dmo.Effect.DmoWavesReverb.Params
+  - NAudio.Dmo.Effect.EchoPanDelay
+  - NAudio.Dmo.Effect.FlangerPhase
+  - NAudio.Dmo.Effect.FlangerWaveForm
+  - NAudio.Dmo.Effect.GargleWaveShape
+  - NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  - NAudio.Dmo.Effect.IDmoEffector`1
+  langs:
+  - csharp
+  - vb
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  type: Namespace
+  assemblies:
+  - NAudio.Wasapi
+references:
+- uid: NAudio.Dmo.Effect.ChorusPhase
+  commentId: T:NAudio.Dmo.Effect.ChorusPhase
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.ChorusPhase.html
+  name: ChorusPhase
+  nameWithType: ChorusPhase
+  fullName: NAudio.Dmo.Effect.ChorusPhase
+- uid: NAudio.Dmo.Effect.ChorusWaveForm
+  commentId: T:NAudio.Dmo.Effect.ChorusWaveForm
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.ChorusWaveForm.html
+  name: ChorusWaveForm
+  nameWithType: ChorusWaveForm
+  fullName: NAudio.Dmo.Effect.ChorusWaveForm
+- uid: NAudio.Dmo.Effect.DmoChorus
+  commentId: T:NAudio.Dmo.Effect.DmoChorus
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoChorus.html
+  name: DmoChorus
+  nameWithType: DmoChorus
+  fullName: NAudio.Dmo.Effect.DmoChorus
+- uid: NAudio.Dmo.Effect.DmoChorus.Params
+  commentId: T:NAudio.Dmo.Effect.DmoChorus.Params
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoChorus.html
+  name: DmoChorus.Params
+  nameWithType: DmoChorus.Params
+  fullName: NAudio.Dmo.Effect.DmoChorus.Params
+  spec.csharp:
+  - uid: NAudio.Dmo.Effect.DmoChorus
+    name: DmoChorus
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoChorus.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoChorus.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoChorus.Params.html
+  spec.vb:
+  - uid: NAudio.Dmo.Effect.DmoChorus
+    name: DmoChorus
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoChorus.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoChorus.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoChorus.Params.html
+- uid: NAudio.Dmo.Effect.DmoCompressor
+  commentId: T:NAudio.Dmo.Effect.DmoCompressor
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoCompressor.html
+  name: DmoCompressor
+  nameWithType: DmoCompressor
+  fullName: NAudio.Dmo.Effect.DmoCompressor
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params
+  commentId: T:NAudio.Dmo.Effect.DmoCompressor.Params
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoCompressor.html
+  name: DmoCompressor.Params
+  nameWithType: DmoCompressor.Params
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params
+  spec.csharp:
+  - uid: NAudio.Dmo.Effect.DmoCompressor
+    name: DmoCompressor
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoCompressor.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoCompressor.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoCompressor.Params.html
+  spec.vb:
+  - uid: NAudio.Dmo.Effect.DmoCompressor
+    name: DmoCompressor
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoCompressor.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoCompressor.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoCompressor.Params.html
+- uid: NAudio.Dmo.Effect.DmoDistortion
+  commentId: T:NAudio.Dmo.Effect.DmoDistortion
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoDistortion.html
+  name: DmoDistortion
+  nameWithType: DmoDistortion
+  fullName: NAudio.Dmo.Effect.DmoDistortion
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params
+  commentId: T:NAudio.Dmo.Effect.DmoDistortion.Params
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoDistortion.html
+  name: DmoDistortion.Params
+  nameWithType: DmoDistortion.Params
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params
+  spec.csharp:
+  - uid: NAudio.Dmo.Effect.DmoDistortion
+    name: DmoDistortion
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoDistortion.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoDistortion.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoDistortion.Params.html
+  spec.vb:
+  - uid: NAudio.Dmo.Effect.DmoDistortion
+    name: DmoDistortion
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoDistortion.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoDistortion.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoDistortion.Params.html
+- uid: NAudio.Dmo.Effect.DmoEcho
+  commentId: T:NAudio.Dmo.Effect.DmoEcho
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoEcho.html
+  name: DmoEcho
+  nameWithType: DmoEcho
+  fullName: NAudio.Dmo.Effect.DmoEcho
+- uid: NAudio.Dmo.Effect.DmoEcho.Params
+  commentId: T:NAudio.Dmo.Effect.DmoEcho.Params
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoEcho.html
+  name: DmoEcho.Params
+  nameWithType: DmoEcho.Params
+  fullName: NAudio.Dmo.Effect.DmoEcho.Params
+  spec.csharp:
+  - uid: NAudio.Dmo.Effect.DmoEcho
+    name: DmoEcho
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoEcho.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoEcho.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoEcho.Params.html
+  spec.vb:
+  - uid: NAudio.Dmo.Effect.DmoEcho
+    name: DmoEcho
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoEcho.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoEcho.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoEcho.Params.html
+- uid: NAudio.Dmo.Effect.DmoFlanger
+  commentId: T:NAudio.Dmo.Effect.DmoFlanger
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoFlanger.html
+  name: DmoFlanger
+  nameWithType: DmoFlanger
+  fullName: NAudio.Dmo.Effect.DmoFlanger
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params
+  commentId: T:NAudio.Dmo.Effect.DmoFlanger.Params
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoFlanger.html
+  name: DmoFlanger.Params
+  nameWithType: DmoFlanger.Params
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params
+  spec.csharp:
+  - uid: NAudio.Dmo.Effect.DmoFlanger
+    name: DmoFlanger
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoFlanger.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoFlanger.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoFlanger.Params.html
+  spec.vb:
+  - uid: NAudio.Dmo.Effect.DmoFlanger
+    name: DmoFlanger
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoFlanger.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoFlanger.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoFlanger.Params.html
+- uid: NAudio.Dmo.Effect.DmoGargle
+  commentId: T:NAudio.Dmo.Effect.DmoGargle
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoGargle.html
+  name: DmoGargle
+  nameWithType: DmoGargle
+  fullName: NAudio.Dmo.Effect.DmoGargle
+- uid: NAudio.Dmo.Effect.DmoGargle.Params
+  commentId: T:NAudio.Dmo.Effect.DmoGargle.Params
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoGargle.html
+  name: DmoGargle.Params
+  nameWithType: DmoGargle.Params
+  fullName: NAudio.Dmo.Effect.DmoGargle.Params
+  spec.csharp:
+  - uid: NAudio.Dmo.Effect.DmoGargle
+    name: DmoGargle
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoGargle.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoGargle.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoGargle.Params.html
+  spec.vb:
+  - uid: NAudio.Dmo.Effect.DmoGargle
+    name: DmoGargle
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoGargle.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoGargle.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoGargle.Params.html
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb
+  commentId: T:NAudio.Dmo.Effect.DmoI3DL2Reverb
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.html
+  name: DmoI3DL2Reverb
+  nameWithType: DmoI3DL2Reverb
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  commentId: T:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.html
+  name: DmoI3DL2Reverb.Params
+  nameWithType: DmoI3DL2Reverb.Params
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  spec.csharp:
+  - uid: NAudio.Dmo.Effect.DmoI3DL2Reverb
+    name: DmoI3DL2Reverb
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoI3DL2Reverb.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html
+  spec.vb:
+  - uid: NAudio.Dmo.Effect.DmoI3DL2Reverb
+    name: DmoI3DL2Reverb
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoI3DL2Reverb.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html
+- uid: NAudio.Dmo.Effect.DmoParamEq
+  commentId: T:NAudio.Dmo.Effect.DmoParamEq
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoParamEq.html
+  name: DmoParamEq
+  nameWithType: DmoParamEq
+  fullName: NAudio.Dmo.Effect.DmoParamEq
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params
+  commentId: T:NAudio.Dmo.Effect.DmoParamEq.Params
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoParamEq.html
+  name: DmoParamEq.Params
+  nameWithType: DmoParamEq.Params
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params
+  spec.csharp:
+  - uid: NAudio.Dmo.Effect.DmoParamEq
+    name: DmoParamEq
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoParamEq.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoParamEq.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoParamEq.Params.html
+  spec.vb:
+  - uid: NAudio.Dmo.Effect.DmoParamEq
+    name: DmoParamEq
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoParamEq.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoParamEq.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoParamEq.Params.html
+- uid: NAudio.Dmo.Effect.DmoWavesReverb
+  commentId: T:NAudio.Dmo.Effect.DmoWavesReverb
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoWavesReverb.html
+  name: DmoWavesReverb
+  nameWithType: DmoWavesReverb
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb
+- uid: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  commentId: T:NAudio.Dmo.Effect.DmoWavesReverb.Params
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoWavesReverb.html
+  name: DmoWavesReverb.Params
+  nameWithType: DmoWavesReverb.Params
+  fullName: NAudio.Dmo.Effect.DmoWavesReverb.Params
+  spec.csharp:
+  - uid: NAudio.Dmo.Effect.DmoWavesReverb
+    name: DmoWavesReverb
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoWavesReverb.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoWavesReverb.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoWavesReverb.Params.html
+  spec.vb:
+  - uid: NAudio.Dmo.Effect.DmoWavesReverb
+    name: DmoWavesReverb
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoWavesReverb.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoWavesReverb.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoWavesReverb.Params.html
+- uid: NAudio.Dmo.Effect.EchoPanDelay
+  commentId: T:NAudio.Dmo.Effect.EchoPanDelay
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.EchoPanDelay.html
+  name: EchoPanDelay
+  nameWithType: EchoPanDelay
+  fullName: NAudio.Dmo.Effect.EchoPanDelay
+- uid: NAudio.Dmo.Effect.FlangerPhase
+  commentId: T:NAudio.Dmo.Effect.FlangerPhase
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.FlangerPhase.html
+  name: FlangerPhase
+  nameWithType: FlangerPhase
+  fullName: NAudio.Dmo.Effect.FlangerPhase
+- uid: NAudio.Dmo.Effect.FlangerWaveForm
+  commentId: T:NAudio.Dmo.Effect.FlangerWaveForm
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.FlangerWaveForm.html
+  name: FlangerWaveForm
+  nameWithType: FlangerWaveForm
+  fullName: NAudio.Dmo.Effect.FlangerWaveForm
+- uid: NAudio.Dmo.Effect.GargleWaveShape
+  commentId: T:NAudio.Dmo.Effect.GargleWaveShape
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.GargleWaveShape.html
+  name: GargleWaveShape
+  nameWithType: GargleWaveShape
+  fullName: NAudio.Dmo.Effect.GargleWaveShape
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  commentId: T:NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.html
+  name: I3DL2EnvironmentPreset
+  nameWithType: I3DL2EnvironmentPreset
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.IDmoEffector`1
+  commentId: T:NAudio.Dmo.Effect.IDmoEffector`1
+  isExternal: true
+  href: NAudio.Dmo.Effect.IDmoEffector-1.html
+  name: IDmoEffector<TParameters>
+  nameWithType: IDmoEffector<TParameters>
+  fullName: NAudio.Dmo.Effect.IDmoEffector<TParameters>
+  nameWithType.vb: IDmoEffector(Of TParameters)
+  fullName.vb: NAudio.Dmo.Effect.IDmoEffector(Of TParameters)
+  name.vb: IDmoEffector(Of TParameters)
+  spec.csharp:
+  - uid: NAudio.Dmo.Effect.IDmoEffector`1
+    name: IDmoEffector
+    isExternal: true
+    href: NAudio.Dmo.Effect.IDmoEffector-1.html
+  - name: <
+  - name: TParameters
+  - name: '>'
+  spec.vb:
+  - uid: NAudio.Dmo.Effect.IDmoEffector`1
+    name: IDmoEffector
+    isExternal: true
+    href: NAudio.Dmo.Effect.IDmoEffector-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TParameters
+  - name: )
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html

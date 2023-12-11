@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect.EchoPanDelay
+  commentId: T:NAudio.Dmo.Effect.EchoPanDelay
+  id: EchoPanDelay
+  parent: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.EchoPanDelay.Off
+  - NAudio.Dmo.Effect.EchoPanDelay.On
+  langs:
+  - csharp
+  - vb
+  name: EchoPanDelay
+  nameWithType: EchoPanDelay
+  fullName: NAudio.Dmo.Effect.EchoPanDelay
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public enum EchoPanDelay
+    content.vb: Public Enum EchoPanDelay
+- uid: NAudio.Dmo.Effect.EchoPanDelay.Off
+  commentId: F:NAudio.Dmo.Effect.EchoPanDelay.Off
+  id: Off
+  parent: NAudio.Dmo.Effect.EchoPanDelay
+  langs:
+  - csharp
+  - vb
+  name: Off
+  nameWithType: EchoPanDelay.Off
+  fullName: NAudio.Dmo.Effect.EchoPanDelay.Off
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Off = 0
+    return:
+      type: NAudio.Dmo.Effect.EchoPanDelay
+- uid: NAudio.Dmo.Effect.EchoPanDelay.On
+  commentId: F:NAudio.Dmo.Effect.EchoPanDelay.On
+  id: On
+  parent: NAudio.Dmo.Effect.EchoPanDelay
+  langs:
+  - csharp
+  - vb
+  name: On
+  nameWithType: EchoPanDelay.On
+  fullName: NAudio.Dmo.Effect.EchoPanDelay.On
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: On = 1
+    return:
+      type: NAudio.Dmo.Effect.EchoPanDelay
+references:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+- uid: NAudio.Dmo.Effect.EchoPanDelay
+  commentId: T:NAudio.Dmo.Effect.EchoPanDelay
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.EchoPanDelay.html
+  name: EchoPanDelay
+  nameWithType: EchoPanDelay
+  fullName: NAudio.Dmo.Effect.EchoPanDelay

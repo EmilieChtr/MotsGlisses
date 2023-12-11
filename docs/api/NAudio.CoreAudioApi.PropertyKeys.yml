@@ -1,0 +1,663 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.PropertyKeys
+  commentId: T:NAudio.CoreAudioApi.PropertyKeys
+  id: PropertyKeys
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_Association
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_ControlPanelPageProvider
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_Disable_SysFx
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_FormFactor
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_FullRangeSpeakers
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_GUID
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_JackSubType
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_PhysicalSpeakers
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_Supports_EventDriven_Mode
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEngine_DeviceFormat
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEngine_OEMFormat
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_DeviceInterface_FriendlyName
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_ControllerDeviceId
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_DeviceDesc
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_FriendlyName
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_IconPath
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_InstanceId
+  - NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_InterfaceKey
+  langs:
+  - csharp
+  - vb
+  name: PropertyKeys
+  nameWithType: PropertyKeys
+  fullName: NAudio.CoreAudioApi.PropertyKeys
+  type: Class
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static class PropertyKeys
+    content.vb: Public Module PropertyKeys
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_DeviceInterface_FriendlyName
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_DeviceInterface_FriendlyName
+  id: PKEY_DeviceInterface_FriendlyName
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_DeviceInterface_FriendlyName
+  nameWithType: PropertyKeys.PKEY_DeviceInterface_FriendlyName
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_DeviceInterface_FriendlyName
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_DeviceInterface_FriendlyName
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_DeviceInterface_FriendlyName As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_FormFactor
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_FormFactor
+  id: PKEY_AudioEndpoint_FormFactor
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_AudioEndpoint_FormFactor
+  nameWithType: PropertyKeys.PKEY_AudioEndpoint_FormFactor
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_FormFactor
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_AudioEndpoint_FormFactor
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_AudioEndpoint_FormFactor As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_ControlPanelPageProvider
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_ControlPanelPageProvider
+  id: PKEY_AudioEndpoint_ControlPanelPageProvider
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_AudioEndpoint_ControlPanelPageProvider
+  nameWithType: PropertyKeys.PKEY_AudioEndpoint_ControlPanelPageProvider
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_ControlPanelPageProvider
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_AudioEndpoint_ControlPanelPageProvider
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_AudioEndpoint_ControlPanelPageProvider As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_Association
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_Association
+  id: PKEY_AudioEndpoint_Association
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_AudioEndpoint_Association
+  nameWithType: PropertyKeys.PKEY_AudioEndpoint_Association
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_Association
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_AudioEndpoint_Association
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_AudioEndpoint_Association As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_PhysicalSpeakers
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_PhysicalSpeakers
+  id: PKEY_AudioEndpoint_PhysicalSpeakers
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_AudioEndpoint_PhysicalSpeakers
+  nameWithType: PropertyKeys.PKEY_AudioEndpoint_PhysicalSpeakers
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_PhysicalSpeakers
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_AudioEndpoint_PhysicalSpeakers
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_AudioEndpoint_PhysicalSpeakers As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_GUID
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_GUID
+  id: PKEY_AudioEndpoint_GUID
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_AudioEndpoint_GUID
+  nameWithType: PropertyKeys.PKEY_AudioEndpoint_GUID
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_GUID
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_AudioEndpoint_GUID
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_AudioEndpoint_GUID As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_Disable_SysFx
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_Disable_SysFx
+  id: PKEY_AudioEndpoint_Disable_SysFx
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_AudioEndpoint_Disable_SysFx
+  nameWithType: PropertyKeys.PKEY_AudioEndpoint_Disable_SysFx
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_Disable_SysFx
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_AudioEndpoint_Disable_SysFx
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_AudioEndpoint_Disable_SysFx As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_FullRangeSpeakers
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_FullRangeSpeakers
+  id: PKEY_AudioEndpoint_FullRangeSpeakers
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_AudioEndpoint_FullRangeSpeakers
+  nameWithType: PropertyKeys.PKEY_AudioEndpoint_FullRangeSpeakers
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_FullRangeSpeakers
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_AudioEndpoint_FullRangeSpeakers
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_AudioEndpoint_FullRangeSpeakers As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_Supports_EventDriven_Mode
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_Supports_EventDriven_Mode
+  id: PKEY_AudioEndpoint_Supports_EventDriven_Mode
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_AudioEndpoint_Supports_EventDriven_Mode
+  nameWithType: PropertyKeys.PKEY_AudioEndpoint_Supports_EventDriven_Mode
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_Supports_EventDriven_Mode
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_AudioEndpoint_Supports_EventDriven_Mode
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_AudioEndpoint_Supports_EventDriven_Mode As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_JackSubType
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_JackSubType
+  id: PKEY_AudioEndpoint_JackSubType
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_AudioEndpoint_JackSubType
+  nameWithType: PropertyKeys.PKEY_AudioEndpoint_JackSubType
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEndpoint_JackSubType
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_AudioEndpoint_JackSubType
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_AudioEndpoint_JackSubType As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEngine_DeviceFormat
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEngine_DeviceFormat
+  id: PKEY_AudioEngine_DeviceFormat
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_AudioEngine_DeviceFormat
+  nameWithType: PropertyKeys.PKEY_AudioEngine_DeviceFormat
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEngine_DeviceFormat
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_AudioEngine_DeviceFormat
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_AudioEngine_DeviceFormat As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEngine_OEMFormat
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEngine_OEMFormat
+  id: PKEY_AudioEngine_OEMFormat
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_AudioEngine_OEMFormat
+  nameWithType: PropertyKeys.PKEY_AudioEngine_OEMFormat
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_AudioEngine_OEMFormat
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_AudioEngine_OEMFormat
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_AudioEngine_OEMFormat As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_FriendlyName
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_FriendlyName
+  id: PKEY_Device_FriendlyName
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_Device_FriendlyName
+  nameWithType: PropertyKeys.PKEY_Device_FriendlyName
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_FriendlyName
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_Device_FriendlyName
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_Device_FriendlyName As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_IconPath
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_IconPath
+  id: PKEY_Device_IconPath
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_Device_IconPath
+  nameWithType: PropertyKeys.PKEY_Device_IconPath
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_IconPath
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_Device_IconPath
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_Device_IconPath As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_DeviceDesc
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_DeviceDesc
+  id: PKEY_Device_DeviceDesc
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_Device_DeviceDesc
+  nameWithType: PropertyKeys.PKEY_Device_DeviceDesc
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_DeviceDesc
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_Device_DeviceDesc
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_Device_DeviceDesc As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_ControllerDeviceId
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_ControllerDeviceId
+  id: PKEY_Device_ControllerDeviceId
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_Device_ControllerDeviceId
+  nameWithType: PropertyKeys.PKEY_Device_ControllerDeviceId
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_ControllerDeviceId
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_Device_ControllerDeviceId
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_Device_ControllerDeviceId As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_InterfaceKey
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_InterfaceKey
+  id: PKEY_Device_InterfaceKey
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_Device_InterfaceKey
+  nameWithType: PropertyKeys.PKEY_Device_InterfaceKey
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_InterfaceKey
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_Device_InterfaceKey
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_Device_InterfaceKey As PropertyKey
+- uid: NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_InstanceId
+  commentId: F:NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_InstanceId
+  id: PKEY_Device_InstanceId
+  parent: NAudio.CoreAudioApi.PropertyKeys
+  langs:
+  - csharp
+  - vb
+  name: PKEY_Device_InstanceId
+  nameWithType: PropertyKeys.PKEY_Device_InstanceId
+  fullName: NAudio.CoreAudioApi.PropertyKeys.PKEY_Device_InstanceId
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public static readonly PropertyKey PKEY_Device_InstanceId
+    return:
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Public Shared ReadOnly PKEY_Device_InstanceId As PropertyKey
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.CoreAudioApi.PropertyKey
+  commentId: T:NAudio.CoreAudioApi.PropertyKey
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.PropertyKey.html
+  name: PropertyKey
+  nameWithType: PropertyKey
+  fullName: NAudio.CoreAudioApi.PropertyKey

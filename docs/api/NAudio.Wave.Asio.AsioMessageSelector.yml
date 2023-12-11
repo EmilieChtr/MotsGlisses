@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.Asio.AsioMessageSelector
+  commentId: T:NAudio.Wave.Asio.AsioMessageSelector
+  id: AsioMessageSelector
+  parent: NAudio.Wave.Asio
+  children:
+  - NAudio.Wave.Asio.AsioMessageSelector.kAsioBufferSizeChange
+  - NAudio.Wave.Asio.AsioMessageSelector.kAsioEngineVersion
+  - NAudio.Wave.Asio.AsioMessageSelector.kAsioLatenciesChanged
+  - NAudio.Wave.Asio.AsioMessageSelector.kAsioMMCCommand
+  - NAudio.Wave.Asio.AsioMessageSelector.kAsioOverload
+  - NAudio.Wave.Asio.AsioMessageSelector.kAsioResetRequest
+  - NAudio.Wave.Asio.AsioMessageSelector.kAsioResyncRequest
+  - NAudio.Wave.Asio.AsioMessageSelector.kAsioSelectorSupported
+  - NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsInputGain
+  - NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsInputMeter
+  - NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsInputMonitor
+  - NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsOutputGain
+  - NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsOutputMeter
+  - NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsTimeCode
+  - NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: AsioMessageSelector
+  nameWithType: AsioMessageSelector
+  fullName: NAudio.Wave.Asio.AsioMessageSelector
+  type: Enum
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public enum AsioMessageSelector
+    content.vb: Public Enum AsioMessageSelector
+- uid: NAudio.Wave.Asio.AsioMessageSelector.kAsioSelectorSupported
+  commentId: F:NAudio.Wave.Asio.AsioMessageSelector.kAsioSelectorSupported
+  id: kAsioSelectorSupported
+  parent: NAudio.Wave.Asio.AsioMessageSelector
+  langs:
+  - csharp
+  - vb
+  name: kAsioSelectorSupported
+  nameWithType: AsioMessageSelector.kAsioSelectorSupported
+  fullName: NAudio.Wave.Asio.AsioMessageSelector.kAsioSelectorSupported
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: kAsioSelectorSupported = 1
+    return:
+      type: NAudio.Wave.Asio.AsioMessageSelector
+- uid: NAudio.Wave.Asio.AsioMessageSelector.kAsioEngineVersion
+  commentId: F:NAudio.Wave.Asio.AsioMessageSelector.kAsioEngineVersion
+  id: kAsioEngineVersion
+  parent: NAudio.Wave.Asio.AsioMessageSelector
+  langs:
+  - csharp
+  - vb
+  name: kAsioEngineVersion
+  nameWithType: AsioMessageSelector.kAsioEngineVersion
+  fullName: NAudio.Wave.Asio.AsioMessageSelector.kAsioEngineVersion
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: kAsioEngineVersion = 2
+    return:
+      type: NAudio.Wave.Asio.AsioMessageSelector
+- uid: NAudio.Wave.Asio.AsioMessageSelector.kAsioResetRequest
+  commentId: F:NAudio.Wave.Asio.AsioMessageSelector.kAsioResetRequest
+  id: kAsioResetRequest
+  parent: NAudio.Wave.Asio.AsioMessageSelector
+  langs:
+  - csharp
+  - vb
+  name: kAsioResetRequest
+  nameWithType: AsioMessageSelector.kAsioResetRequest
+  fullName: NAudio.Wave.Asio.AsioMessageSelector.kAsioResetRequest
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: kAsioResetRequest = 3
+    return:
+      type: NAudio.Wave.Asio.AsioMessageSelector
+- uid: NAudio.Wave.Asio.AsioMessageSelector.kAsioBufferSizeChange
+  commentId: F:NAudio.Wave.Asio.AsioMessageSelector.kAsioBufferSizeChange
+  id: kAsioBufferSizeChange
+  parent: NAudio.Wave.Asio.AsioMessageSelector
+  langs:
+  - csharp
+  - vb
+  name: kAsioBufferSizeChange
+  nameWithType: AsioMessageSelector.kAsioBufferSizeChange
+  fullName: NAudio.Wave.Asio.AsioMessageSelector.kAsioBufferSizeChange
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: kAsioBufferSizeChange = 4
+    return:
+      type: NAudio.Wave.Asio.AsioMessageSelector
+- uid: NAudio.Wave.Asio.AsioMessageSelector.kAsioResyncRequest
+  commentId: F:NAudio.Wave.Asio.AsioMessageSelector.kAsioResyncRequest
+  id: kAsioResyncRequest
+  parent: NAudio.Wave.Asio.AsioMessageSelector
+  langs:
+  - csharp
+  - vb
+  name: kAsioResyncRequest
+  nameWithType: AsioMessageSelector.kAsioResyncRequest
+  fullName: NAudio.Wave.Asio.AsioMessageSelector.kAsioResyncRequest
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: kAsioResyncRequest = 5
+    return:
+      type: NAudio.Wave.Asio.AsioMessageSelector
+- uid: NAudio.Wave.Asio.AsioMessageSelector.kAsioLatenciesChanged
+  commentId: F:NAudio.Wave.Asio.AsioMessageSelector.kAsioLatenciesChanged
+  id: kAsioLatenciesChanged
+  parent: NAudio.Wave.Asio.AsioMessageSelector
+  langs:
+  - csharp
+  - vb
+  name: kAsioLatenciesChanged
+  nameWithType: AsioMessageSelector.kAsioLatenciesChanged
+  fullName: NAudio.Wave.Asio.AsioMessageSelector.kAsioLatenciesChanged
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: kAsioLatenciesChanged = 6
+    return:
+      type: NAudio.Wave.Asio.AsioMessageSelector
+- uid: NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsTimeInfo
+  commentId: F:NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsTimeInfo
+  id: kAsioSupportsTimeInfo
+  parent: NAudio.Wave.Asio.AsioMessageSelector
+  langs:
+  - csharp
+  - vb
+  name: kAsioSupportsTimeInfo
+  nameWithType: AsioMessageSelector.kAsioSupportsTimeInfo
+  fullName: NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsTimeInfo
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: kAsioSupportsTimeInfo = 7
+    return:
+      type: NAudio.Wave.Asio.AsioMessageSelector
+- uid: NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsTimeCode
+  commentId: F:NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsTimeCode
+  id: kAsioSupportsTimeCode
+  parent: NAudio.Wave.Asio.AsioMessageSelector
+  langs:
+  - csharp
+  - vb
+  name: kAsioSupportsTimeCode
+  nameWithType: AsioMessageSelector.kAsioSupportsTimeCode
+  fullName: NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsTimeCode
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: kAsioSupportsTimeCode = 8
+    return:
+      type: NAudio.Wave.Asio.AsioMessageSelector
+- uid: NAudio.Wave.Asio.AsioMessageSelector.kAsioMMCCommand
+  commentId: F:NAudio.Wave.Asio.AsioMessageSelector.kAsioMMCCommand
+  id: kAsioMMCCommand
+  parent: NAudio.Wave.Asio.AsioMessageSelector
+  langs:
+  - csharp
+  - vb
+  name: kAsioMMCCommand
+  nameWithType: AsioMessageSelector.kAsioMMCCommand
+  fullName: NAudio.Wave.Asio.AsioMessageSelector.kAsioMMCCommand
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: kAsioMMCCommand = 9
+    return:
+      type: NAudio.Wave.Asio.AsioMessageSelector
+- uid: NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsInputMonitor
+  commentId: F:NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsInputMonitor
+  id: kAsioSupportsInputMonitor
+  parent: NAudio.Wave.Asio.AsioMessageSelector
+  langs:
+  - csharp
+  - vb
+  name: kAsioSupportsInputMonitor
+  nameWithType: AsioMessageSelector.kAsioSupportsInputMonitor
+  fullName: NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsInputMonitor
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: kAsioSupportsInputMonitor = 10
+    return:
+      type: NAudio.Wave.Asio.AsioMessageSelector
+- uid: NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsInputGain
+  commentId: F:NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsInputGain
+  id: kAsioSupportsInputGain
+  parent: NAudio.Wave.Asio.AsioMessageSelector
+  langs:
+  - csharp
+  - vb
+  name: kAsioSupportsInputGain
+  nameWithType: AsioMessageSelector.kAsioSupportsInputGain
+  fullName: NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsInputGain
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: kAsioSupportsInputGain = 11
+    return:
+      type: NAudio.Wave.Asio.AsioMessageSelector
+- uid: NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsInputMeter
+  commentId: F:NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsInputMeter
+  id: kAsioSupportsInputMeter
+  parent: NAudio.Wave.Asio.AsioMessageSelector
+  langs:
+  - csharp
+  - vb
+  name: kAsioSupportsInputMeter
+  nameWithType: AsioMessageSelector.kAsioSupportsInputMeter
+  fullName: NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsInputMeter
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: kAsioSupportsInputMeter = 12
+    return:
+      type: NAudio.Wave.Asio.AsioMessageSelector
+- uid: NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsOutputGain
+  commentId: F:NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsOutputGain
+  id: kAsioSupportsOutputGain
+  parent: NAudio.Wave.Asio.AsioMessageSelector
+  langs:
+  - csharp
+  - vb
+  name: kAsioSupportsOutputGain
+  nameWithType: AsioMessageSelector.kAsioSupportsOutputGain
+  fullName: NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsOutputGain
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: kAsioSupportsOutputGain = 13
+    return:
+      type: NAudio.Wave.Asio.AsioMessageSelector
+- uid: NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsOutputMeter
+  commentId: F:NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsOutputMeter
+  id: kAsioSupportsOutputMeter
+  parent: NAudio.Wave.Asio.AsioMessageSelector
+  langs:
+  - csharp
+  - vb
+  name: kAsioSupportsOutputMeter
+  nameWithType: AsioMessageSelector.kAsioSupportsOutputMeter
+  fullName: NAudio.Wave.Asio.AsioMessageSelector.kAsioSupportsOutputMeter
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: kAsioSupportsOutputMeter = 14
+    return:
+      type: NAudio.Wave.Asio.AsioMessageSelector
+- uid: NAudio.Wave.Asio.AsioMessageSelector.kAsioOverload
+  commentId: F:NAudio.Wave.Asio.AsioMessageSelector.kAsioOverload
+  id: kAsioOverload
+  parent: NAudio.Wave.Asio.AsioMessageSelector
+  langs:
+  - csharp
+  - vb
+  name: kAsioOverload
+  nameWithType: AsioMessageSelector.kAsioOverload
+  fullName: NAudio.Wave.Asio.AsioMessageSelector.kAsioOverload
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: kAsioOverload = 15
+    return:
+      type: NAudio.Wave.Asio.AsioMessageSelector
+references:
+- uid: NAudio.Wave.Asio
+  commentId: N:NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave.Asio
+  nameWithType: NAudio.Wave.Asio
+  fullName: NAudio.Wave.Asio
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Asio
+    name: Asio
+    isExternal: true
+    href: NAudio.Wave.Asio.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Asio
+    name: Asio
+    isExternal: true
+    href: NAudio.Wave.Asio.html
+- uid: NAudio.Wave.Asio.AsioMessageSelector
+  commentId: T:NAudio.Wave.Asio.AsioMessageSelector
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioMessageSelector.html
+  name: AsioMessageSelector
+  nameWithType: AsioMessageSelector
+  fullName: NAudio.Wave.Asio.AsioMessageSelector

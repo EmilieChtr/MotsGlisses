@@ -1,0 +1,987 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Midi.RawMetaEvent
+  commentId: T:NAudio.Midi.RawMetaEvent
+  id: RawMetaEvent
+  parent: NAudio.Midi
+  children:
+  - NAudio.Midi.RawMetaEvent.#ctor(NAudio.Midi.MetaEventType,System.Int64,System.Byte[])
+  - NAudio.Midi.RawMetaEvent.Clone
+  - NAudio.Midi.RawMetaEvent.Data
+  - NAudio.Midi.RawMetaEvent.Export(System.Int64@,System.IO.BinaryWriter)
+  - NAudio.Midi.RawMetaEvent.ToString
+  langs:
+  - csharp
+  - vb
+  name: RawMetaEvent
+  nameWithType: RawMetaEvent
+  fullName: NAudio.Midi.RawMetaEvent
+  type: Class
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: 'public class RawMetaEvent : MetaEvent, ICloneable'
+    content.vb: Public Class RawMetaEvent Inherits MetaEvent Implements ICloneable
+  inheritance:
+  - System.Object
+  - NAudio.Midi.MidiEvent
+  - NAudio.Midi.MetaEvent
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - NAudio.Midi.MetaEvent.ReadMetaEvent(System.IO.BinaryReader)
+  - NAudio.Midi.MetaEvent.MetaEventType
+  - NAudio.Midi.MidiEvent.FromRawMessage(System.Int32)
+  - NAudio.Midi.MidiEvent.ReadNextEvent(System.IO.BinaryReader,NAudio.Midi.MidiEvent)
+  - NAudio.Midi.MidiEvent.GetAsShortMessage
+  - NAudio.Midi.MidiEvent.IsNoteOff(NAudio.Midi.MidiEvent)
+  - NAudio.Midi.MidiEvent.IsNoteOn(NAudio.Midi.MidiEvent)
+  - NAudio.Midi.MidiEvent.IsEndTrack(NAudio.Midi.MidiEvent)
+  - NAudio.Midi.MidiEvent.ReadVarInt(System.IO.BinaryReader)
+  - NAudio.Midi.MidiEvent.WriteVarInt(System.IO.BinaryWriter,System.Int32)
+  - NAudio.Midi.MidiEvent.Channel
+  - NAudio.Midi.MidiEvent.DeltaTime
+  - NAudio.Midi.MidiEvent.AbsoluteTime
+  - NAudio.Midi.MidiEvent.CommandCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Midi.RawMetaEvent.#ctor(NAudio.Midi.MetaEventType,System.Int64,System.Byte[])
+  commentId: M:NAudio.Midi.RawMetaEvent.#ctor(NAudio.Midi.MetaEventType,System.Int64,System.Byte[])
+  id: '#ctor(NAudio.Midi.MetaEventType,System.Int64,System.Byte[])'
+  parent: NAudio.Midi.RawMetaEvent
+  langs:
+  - csharp
+  - vb
+  name: RawMetaEvent(MetaEventType, long, byte[])
+  nameWithType: RawMetaEvent.RawMetaEvent(MetaEventType, long, byte[])
+  fullName: NAudio.Midi.RawMetaEvent.RawMetaEvent(NAudio.Midi.MetaEventType, long, byte[])
+  type: Constructor
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public RawMetaEvent(MetaEventType metaEventType, long absoluteTime, byte[] data)
+    parameters:
+    - id: metaEventType
+      type: NAudio.Midi.MetaEventType
+    - id: absoluteTime
+      type: System.Int64
+    - id: data
+      type: System.Byte[]
+    content.vb: Public Sub New(metaEventType As MetaEventType, absoluteTime As Long, data As Byte())
+  overload: NAudio.Midi.RawMetaEvent.#ctor*
+  nameWithType.vb: RawMetaEvent.New(MetaEventType, Long, Byte())
+  fullName.vb: NAudio.Midi.RawMetaEvent.New(NAudio.Midi.MetaEventType, Long, Byte())
+  name.vb: New(MetaEventType, Long, Byte())
+- uid: NAudio.Midi.RawMetaEvent.Clone
+  commentId: M:NAudio.Midi.RawMetaEvent.Clone
+  id: Clone
+  parent: NAudio.Midi.RawMetaEvent
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: RawMetaEvent.Clone()
+  fullName: NAudio.Midi.RawMetaEvent.Clone()
+  type: Method
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  example: []
+  syntax:
+    content: public override MidiEvent Clone()
+    return:
+      type: NAudio.Midi.MidiEvent
+    content.vb: Public Overrides Function Clone() As MidiEvent
+  overridden: NAudio.Midi.MetaEvent.Clone
+  overload: NAudio.Midi.RawMetaEvent.Clone*
+- uid: NAudio.Midi.RawMetaEvent.ToString
+  commentId: M:NAudio.Midi.RawMetaEvent.ToString
+  id: ToString
+  parent: NAudio.Midi.RawMetaEvent
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: RawMetaEvent.ToString()
+  fullName: NAudio.Midi.RawMetaEvent.ToString()
+  type: Method
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: NAudio.Midi.MetaEvent.ToString
+  overload: NAudio.Midi.RawMetaEvent.ToString*
+- uid: NAudio.Midi.RawMetaEvent.Export(System.Int64@,System.IO.BinaryWriter)
+  commentId: M:NAudio.Midi.RawMetaEvent.Export(System.Int64@,System.IO.BinaryWriter)
+  id: Export(System.Int64@,System.IO.BinaryWriter)
+  parent: NAudio.Midi.RawMetaEvent
+  langs:
+  - csharp
+  - vb
+  name: Export(ref long, BinaryWriter)
+  nameWithType: RawMetaEvent.Export(ref long, BinaryWriter)
+  fullName: NAudio.Midi.RawMetaEvent.Export(ref long, System.IO.BinaryWriter)
+  type: Method
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  example: []
+  syntax:
+    content: public override void Export(ref long absoluteTime, BinaryWriter writer)
+    parameters:
+    - id: absoluteTime
+      type: System.Int64
+    - id: writer
+      type: System.IO.BinaryWriter
+    content.vb: Public Overrides Sub Export(absoluteTime As Long, writer As BinaryWriter)
+  overridden: NAudio.Midi.MetaEvent.Export(System.Int64@,System.IO.BinaryWriter)
+  overload: NAudio.Midi.RawMetaEvent.Export*
+  nameWithType.vb: RawMetaEvent.Export(Long, BinaryWriter)
+  fullName.vb: NAudio.Midi.RawMetaEvent.Export(Long, System.IO.BinaryWriter)
+  name.vb: Export(Long, BinaryWriter)
+- uid: NAudio.Midi.RawMetaEvent.Data
+  commentId: P:NAudio.Midi.RawMetaEvent.Data
+  id: Data
+  parent: NAudio.Midi.RawMetaEvent
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: RawMetaEvent.Data
+  fullName: NAudio.Midi.RawMetaEvent.Data
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public byte[] Data { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Data As Byte()
+  overload: NAudio.Midi.RawMetaEvent.Data*
+references:
+- uid: NAudio.Midi
+  commentId: N:NAudio.Midi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Midi
+  nameWithType: NAudio.Midi
+  fullName: NAudio.Midi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NAudio.Midi.MidiEvent
+  commentId: T:NAudio.Midi.MidiEvent
+  parent: NAudio.Midi
+  isExternal: true
+  href: NAudio.Midi.MidiEvent.html
+  name: MidiEvent
+  nameWithType: MidiEvent
+  fullName: NAudio.Midi.MidiEvent
+- uid: NAudio.Midi.MetaEvent
+  commentId: T:NAudio.Midi.MetaEvent
+  parent: NAudio.Midi
+  isExternal: true
+  href: NAudio.Midi.MetaEvent.html
+  name: MetaEvent
+  nameWithType: MetaEvent
+  fullName: NAudio.Midi.MetaEvent
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: NAudio.Midi.MetaEvent.ReadMetaEvent(System.IO.BinaryReader)
+  commentId: M:NAudio.Midi.MetaEvent.ReadMetaEvent(System.IO.BinaryReader)
+  parent: NAudio.Midi.MetaEvent
+  isExternal: true
+  href: NAudio.Midi.MetaEvent.html#NAudio_Midi_MetaEvent_ReadMetaEvent_System_IO_BinaryReader_
+  name: ReadMetaEvent(BinaryReader)
+  nameWithType: MetaEvent.ReadMetaEvent(BinaryReader)
+  fullName: NAudio.Midi.MetaEvent.ReadMetaEvent(System.IO.BinaryReader)
+  spec.csharp:
+  - uid: NAudio.Midi.MetaEvent.ReadMetaEvent(System.IO.BinaryReader)
+    name: ReadMetaEvent
+    isExternal: true
+    href: NAudio.Midi.MetaEvent.html#NAudio_Midi_MetaEvent_ReadMetaEvent_System_IO_BinaryReader_
+  - name: (
+  - uid: System.IO.BinaryReader
+    name: BinaryReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.binaryreader
+  - name: )
+  spec.vb:
+  - uid: NAudio.Midi.MetaEvent.ReadMetaEvent(System.IO.BinaryReader)
+    name: ReadMetaEvent
+    isExternal: true
+    href: NAudio.Midi.MetaEvent.html#NAudio_Midi_MetaEvent_ReadMetaEvent_System_IO_BinaryReader_
+  - name: (
+  - uid: System.IO.BinaryReader
+    name: BinaryReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.binaryreader
+  - name: )
+- uid: NAudio.Midi.MetaEvent.MetaEventType
+  commentId: P:NAudio.Midi.MetaEvent.MetaEventType
+  parent: NAudio.Midi.MetaEvent
+  isExternal: true
+  href: NAudio.Midi.MetaEvent.html#NAudio_Midi_MetaEvent_MetaEventType
+  name: MetaEventType
+  nameWithType: MetaEvent.MetaEventType
+  fullName: NAudio.Midi.MetaEvent.MetaEventType
+- uid: NAudio.Midi.MidiEvent.FromRawMessage(System.Int32)
+  commentId: M:NAudio.Midi.MidiEvent.FromRawMessage(System.Int32)
+  parent: NAudio.Midi.MidiEvent
+  isExternal: true
+  href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_FromRawMessage_System_Int32_
+  name: FromRawMessage(int)
+  nameWithType: MidiEvent.FromRawMessage(int)
+  fullName: NAudio.Midi.MidiEvent.FromRawMessage(int)
+  nameWithType.vb: MidiEvent.FromRawMessage(Integer)
+  fullName.vb: NAudio.Midi.MidiEvent.FromRawMessage(Integer)
+  name.vb: FromRawMessage(Integer)
+  spec.csharp:
+  - uid: NAudio.Midi.MidiEvent.FromRawMessage(System.Int32)
+    name: FromRawMessage
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_FromRawMessage_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: NAudio.Midi.MidiEvent.FromRawMessage(System.Int32)
+    name: FromRawMessage
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_FromRawMessage_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: NAudio.Midi.MidiEvent.ReadNextEvent(System.IO.BinaryReader,NAudio.Midi.MidiEvent)
+  commentId: M:NAudio.Midi.MidiEvent.ReadNextEvent(System.IO.BinaryReader,NAudio.Midi.MidiEvent)
+  parent: NAudio.Midi.MidiEvent
+  isExternal: true
+  href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_ReadNextEvent_System_IO_BinaryReader_NAudio_Midi_MidiEvent_
+  name: ReadNextEvent(BinaryReader, MidiEvent)
+  nameWithType: MidiEvent.ReadNextEvent(BinaryReader, MidiEvent)
+  fullName: NAudio.Midi.MidiEvent.ReadNextEvent(System.IO.BinaryReader, NAudio.Midi.MidiEvent)
+  spec.csharp:
+  - uid: NAudio.Midi.MidiEvent.ReadNextEvent(System.IO.BinaryReader,NAudio.Midi.MidiEvent)
+    name: ReadNextEvent
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_ReadNextEvent_System_IO_BinaryReader_NAudio_Midi_MidiEvent_
+  - name: (
+  - uid: System.IO.BinaryReader
+    name: BinaryReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.binaryreader
+  - name: ','
+  - name: " "
+  - uid: NAudio.Midi.MidiEvent
+    name: MidiEvent
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Midi.MidiEvent.ReadNextEvent(System.IO.BinaryReader,NAudio.Midi.MidiEvent)
+    name: ReadNextEvent
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_ReadNextEvent_System_IO_BinaryReader_NAudio_Midi_MidiEvent_
+  - name: (
+  - uid: System.IO.BinaryReader
+    name: BinaryReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.binaryreader
+  - name: ','
+  - name: " "
+  - uid: NAudio.Midi.MidiEvent
+    name: MidiEvent
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html
+  - name: )
+- uid: NAudio.Midi.MidiEvent.GetAsShortMessage
+  commentId: M:NAudio.Midi.MidiEvent.GetAsShortMessage
+  parent: NAudio.Midi.MidiEvent
+  isExternal: true
+  href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_GetAsShortMessage
+  name: GetAsShortMessage()
+  nameWithType: MidiEvent.GetAsShortMessage()
+  fullName: NAudio.Midi.MidiEvent.GetAsShortMessage()
+  spec.csharp:
+  - uid: NAudio.Midi.MidiEvent.GetAsShortMessage
+    name: GetAsShortMessage
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_GetAsShortMessage
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.Midi.MidiEvent.GetAsShortMessage
+    name: GetAsShortMessage
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_GetAsShortMessage
+  - name: (
+  - name: )
+- uid: NAudio.Midi.MidiEvent.IsNoteOff(NAudio.Midi.MidiEvent)
+  commentId: M:NAudio.Midi.MidiEvent.IsNoteOff(NAudio.Midi.MidiEvent)
+  parent: NAudio.Midi.MidiEvent
+  isExternal: true
+  href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_IsNoteOff_NAudio_Midi_MidiEvent_
+  name: IsNoteOff(MidiEvent)
+  nameWithType: MidiEvent.IsNoteOff(MidiEvent)
+  fullName: NAudio.Midi.MidiEvent.IsNoteOff(NAudio.Midi.MidiEvent)
+  spec.csharp:
+  - uid: NAudio.Midi.MidiEvent.IsNoteOff(NAudio.Midi.MidiEvent)
+    name: IsNoteOff
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_IsNoteOff_NAudio_Midi_MidiEvent_
+  - name: (
+  - uid: NAudio.Midi.MidiEvent
+    name: MidiEvent
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Midi.MidiEvent.IsNoteOff(NAudio.Midi.MidiEvent)
+    name: IsNoteOff
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_IsNoteOff_NAudio_Midi_MidiEvent_
+  - name: (
+  - uid: NAudio.Midi.MidiEvent
+    name: MidiEvent
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html
+  - name: )
+- uid: NAudio.Midi.MidiEvent.IsNoteOn(NAudio.Midi.MidiEvent)
+  commentId: M:NAudio.Midi.MidiEvent.IsNoteOn(NAudio.Midi.MidiEvent)
+  parent: NAudio.Midi.MidiEvent
+  isExternal: true
+  href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_IsNoteOn_NAudio_Midi_MidiEvent_
+  name: IsNoteOn(MidiEvent)
+  nameWithType: MidiEvent.IsNoteOn(MidiEvent)
+  fullName: NAudio.Midi.MidiEvent.IsNoteOn(NAudio.Midi.MidiEvent)
+  spec.csharp:
+  - uid: NAudio.Midi.MidiEvent.IsNoteOn(NAudio.Midi.MidiEvent)
+    name: IsNoteOn
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_IsNoteOn_NAudio_Midi_MidiEvent_
+  - name: (
+  - uid: NAudio.Midi.MidiEvent
+    name: MidiEvent
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Midi.MidiEvent.IsNoteOn(NAudio.Midi.MidiEvent)
+    name: IsNoteOn
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_IsNoteOn_NAudio_Midi_MidiEvent_
+  - name: (
+  - uid: NAudio.Midi.MidiEvent
+    name: MidiEvent
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html
+  - name: )
+- uid: NAudio.Midi.MidiEvent.IsEndTrack(NAudio.Midi.MidiEvent)
+  commentId: M:NAudio.Midi.MidiEvent.IsEndTrack(NAudio.Midi.MidiEvent)
+  parent: NAudio.Midi.MidiEvent
+  isExternal: true
+  href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_IsEndTrack_NAudio_Midi_MidiEvent_
+  name: IsEndTrack(MidiEvent)
+  nameWithType: MidiEvent.IsEndTrack(MidiEvent)
+  fullName: NAudio.Midi.MidiEvent.IsEndTrack(NAudio.Midi.MidiEvent)
+  spec.csharp:
+  - uid: NAudio.Midi.MidiEvent.IsEndTrack(NAudio.Midi.MidiEvent)
+    name: IsEndTrack
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_IsEndTrack_NAudio_Midi_MidiEvent_
+  - name: (
+  - uid: NAudio.Midi.MidiEvent
+    name: MidiEvent
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Midi.MidiEvent.IsEndTrack(NAudio.Midi.MidiEvent)
+    name: IsEndTrack
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_IsEndTrack_NAudio_Midi_MidiEvent_
+  - name: (
+  - uid: NAudio.Midi.MidiEvent
+    name: MidiEvent
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html
+  - name: )
+- uid: NAudio.Midi.MidiEvent.ReadVarInt(System.IO.BinaryReader)
+  commentId: M:NAudio.Midi.MidiEvent.ReadVarInt(System.IO.BinaryReader)
+  parent: NAudio.Midi.MidiEvent
+  isExternal: true
+  href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_ReadVarInt_System_IO_BinaryReader_
+  name: ReadVarInt(BinaryReader)
+  nameWithType: MidiEvent.ReadVarInt(BinaryReader)
+  fullName: NAudio.Midi.MidiEvent.ReadVarInt(System.IO.BinaryReader)
+  spec.csharp:
+  - uid: NAudio.Midi.MidiEvent.ReadVarInt(System.IO.BinaryReader)
+    name: ReadVarInt
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_ReadVarInt_System_IO_BinaryReader_
+  - name: (
+  - uid: System.IO.BinaryReader
+    name: BinaryReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.binaryreader
+  - name: )
+  spec.vb:
+  - uid: NAudio.Midi.MidiEvent.ReadVarInt(System.IO.BinaryReader)
+    name: ReadVarInt
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_ReadVarInt_System_IO_BinaryReader_
+  - name: (
+  - uid: System.IO.BinaryReader
+    name: BinaryReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.binaryreader
+  - name: )
+- uid: NAudio.Midi.MidiEvent.WriteVarInt(System.IO.BinaryWriter,System.Int32)
+  commentId: M:NAudio.Midi.MidiEvent.WriteVarInt(System.IO.BinaryWriter,System.Int32)
+  parent: NAudio.Midi.MidiEvent
+  isExternal: true
+  href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_WriteVarInt_System_IO_BinaryWriter_System_Int32_
+  name: WriteVarInt(BinaryWriter, int)
+  nameWithType: MidiEvent.WriteVarInt(BinaryWriter, int)
+  fullName: NAudio.Midi.MidiEvent.WriteVarInt(System.IO.BinaryWriter, int)
+  nameWithType.vb: MidiEvent.WriteVarInt(BinaryWriter, Integer)
+  fullName.vb: NAudio.Midi.MidiEvent.WriteVarInt(System.IO.BinaryWriter, Integer)
+  name.vb: WriteVarInt(BinaryWriter, Integer)
+  spec.csharp:
+  - uid: NAudio.Midi.MidiEvent.WriteVarInt(System.IO.BinaryWriter,System.Int32)
+    name: WriteVarInt
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_WriteVarInt_System_IO_BinaryWriter_System_Int32_
+  - name: (
+  - uid: System.IO.BinaryWriter
+    name: BinaryWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.binarywriter
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: NAudio.Midi.MidiEvent.WriteVarInt(System.IO.BinaryWriter,System.Int32)
+    name: WriteVarInt
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_WriteVarInt_System_IO_BinaryWriter_System_Int32_
+  - name: (
+  - uid: System.IO.BinaryWriter
+    name: BinaryWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.binarywriter
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: NAudio.Midi.MidiEvent.Channel
+  commentId: P:NAudio.Midi.MidiEvent.Channel
+  parent: NAudio.Midi.MidiEvent
+  isExternal: true
+  href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_Channel
+  name: Channel
+  nameWithType: MidiEvent.Channel
+  fullName: NAudio.Midi.MidiEvent.Channel
+- uid: NAudio.Midi.MidiEvent.DeltaTime
+  commentId: P:NAudio.Midi.MidiEvent.DeltaTime
+  parent: NAudio.Midi.MidiEvent
+  isExternal: true
+  href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_DeltaTime
+  name: DeltaTime
+  nameWithType: MidiEvent.DeltaTime
+  fullName: NAudio.Midi.MidiEvent.DeltaTime
+- uid: NAudio.Midi.MidiEvent.AbsoluteTime
+  commentId: P:NAudio.Midi.MidiEvent.AbsoluteTime
+  parent: NAudio.Midi.MidiEvent
+  isExternal: true
+  href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_AbsoluteTime
+  name: AbsoluteTime
+  nameWithType: MidiEvent.AbsoluteTime
+  fullName: NAudio.Midi.MidiEvent.AbsoluteTime
+- uid: NAudio.Midi.MidiEvent.CommandCode
+  commentId: P:NAudio.Midi.MidiEvent.CommandCode
+  parent: NAudio.Midi.MidiEvent
+  isExternal: true
+  href: NAudio.Midi.MidiEvent.html#NAudio_Midi_MidiEvent_CommandCode
+  name: CommandCode
+  nameWithType: MidiEvent.CommandCode
+  fullName: NAudio.Midi.MidiEvent.CommandCode
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Midi.RawMetaEvent.#ctor*
+  commentId: Overload:NAudio.Midi.RawMetaEvent.#ctor
+  isExternal: true
+  href: NAudio.Midi.RawMetaEvent.html#NAudio_Midi_RawMetaEvent__ctor_NAudio_Midi_MetaEventType_System_Int64_System_Byte___
+  name: RawMetaEvent
+  nameWithType: RawMetaEvent.RawMetaEvent
+  fullName: NAudio.Midi.RawMetaEvent.RawMetaEvent
+  nameWithType.vb: RawMetaEvent.New
+  fullName.vb: NAudio.Midi.RawMetaEvent.New
+  name.vb: New
+- uid: NAudio.Midi.MetaEventType
+  commentId: T:NAudio.Midi.MetaEventType
+  parent: NAudio.Midi
+  isExternal: true
+  href: NAudio.Midi.MetaEventType.html
+  name: MetaEventType
+  nameWithType: MetaEventType
+  fullName: NAudio.Midi.MetaEventType
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: NAudio.Midi.MetaEvent.Clone
+  commentId: M:NAudio.Midi.MetaEvent.Clone
+  parent: NAudio.Midi.MetaEvent
+  isExternal: true
+  href: NAudio.Midi.MetaEvent.html#NAudio_Midi_MetaEvent_Clone
+  name: Clone()
+  nameWithType: MetaEvent.Clone()
+  fullName: NAudio.Midi.MetaEvent.Clone()
+  spec.csharp:
+  - uid: NAudio.Midi.MetaEvent.Clone
+    name: Clone
+    isExternal: true
+    href: NAudio.Midi.MetaEvent.html#NAudio_Midi_MetaEvent_Clone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.Midi.MetaEvent.Clone
+    name: Clone
+    isExternal: true
+    href: NAudio.Midi.MetaEvent.html#NAudio_Midi_MetaEvent_Clone
+  - name: (
+  - name: )
+- uid: NAudio.Midi.RawMetaEvent.Clone*
+  commentId: Overload:NAudio.Midi.RawMetaEvent.Clone
+  isExternal: true
+  href: NAudio.Midi.RawMetaEvent.html#NAudio_Midi_RawMetaEvent_Clone
+  name: Clone
+  nameWithType: RawMetaEvent.Clone
+  fullName: NAudio.Midi.RawMetaEvent.Clone
+- uid: NAudio.Midi.MetaEvent.ToString
+  commentId: M:NAudio.Midi.MetaEvent.ToString
+  parent: NAudio.Midi.MetaEvent
+  isExternal: true
+  href: NAudio.Midi.MetaEvent.html#NAudio_Midi_MetaEvent_ToString
+  name: ToString()
+  nameWithType: MetaEvent.ToString()
+  fullName: NAudio.Midi.MetaEvent.ToString()
+  spec.csharp:
+  - uid: NAudio.Midi.MetaEvent.ToString
+    name: ToString
+    isExternal: true
+    href: NAudio.Midi.MetaEvent.html#NAudio_Midi_MetaEvent_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.Midi.MetaEvent.ToString
+    name: ToString
+    isExternal: true
+    href: NAudio.Midi.MetaEvent.html#NAudio_Midi_MetaEvent_ToString
+  - name: (
+  - name: )
+- uid: NAudio.Midi.RawMetaEvent.ToString*
+  commentId: Overload:NAudio.Midi.RawMetaEvent.ToString
+  isExternal: true
+  href: NAudio.Midi.RawMetaEvent.html#NAudio_Midi_RawMetaEvent_ToString
+  name: ToString
+  nameWithType: RawMetaEvent.ToString
+  fullName: NAudio.Midi.RawMetaEvent.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.Midi.MetaEvent.Export(System.Int64@,System.IO.BinaryWriter)
+  commentId: M:NAudio.Midi.MetaEvent.Export(System.Int64@,System.IO.BinaryWriter)
+  parent: NAudio.Midi.MetaEvent
+  isExternal: true
+  href: NAudio.Midi.MetaEvent.html#NAudio_Midi_MetaEvent_Export_System_Int64__System_IO_BinaryWriter_
+  name: Export(ref long, BinaryWriter)
+  nameWithType: MetaEvent.Export(ref long, BinaryWriter)
+  fullName: NAudio.Midi.MetaEvent.Export(ref long, System.IO.BinaryWriter)
+  nameWithType.vb: MetaEvent.Export(Long, BinaryWriter)
+  fullName.vb: NAudio.Midi.MetaEvent.Export(Long, System.IO.BinaryWriter)
+  name.vb: Export(Long, BinaryWriter)
+  spec.csharp:
+  - uid: NAudio.Midi.MetaEvent.Export(System.Int64@,System.IO.BinaryWriter)
+    name: Export
+    isExternal: true
+    href: NAudio.Midi.MetaEvent.html#NAudio_Midi_MetaEvent_Export_System_Int64__System_IO_BinaryWriter_
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: System.Int64
+    name: long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
+  - uid: System.IO.BinaryWriter
+    name: BinaryWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.binarywriter
+  - name: )
+  spec.vb:
+  - uid: NAudio.Midi.MetaEvent.Export(System.Int64@,System.IO.BinaryWriter)
+    name: Export
+    isExternal: true
+    href: NAudio.Midi.MetaEvent.html#NAudio_Midi_MetaEvent_Export_System_Int64__System_IO_BinaryWriter_
+  - name: (
+  - uid: System.Int64
+    name: Long
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int64
+  - name: ','
+  - name: " "
+  - uid: System.IO.BinaryWriter
+    name: BinaryWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.binarywriter
+  - name: )
+- uid: NAudio.Midi.RawMetaEvent.Export*
+  commentId: Overload:NAudio.Midi.RawMetaEvent.Export
+  isExternal: true
+  href: NAudio.Midi.RawMetaEvent.html#NAudio_Midi_RawMetaEvent_Export_System_Int64__System_IO_BinaryWriter_
+  name: Export
+  nameWithType: RawMetaEvent.Export
+  fullName: NAudio.Midi.RawMetaEvent.Export
+- uid: System.IO.BinaryWriter
+  commentId: T:System.IO.BinaryWriter
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.binarywriter
+  name: BinaryWriter
+  nameWithType: BinaryWriter
+  fullName: System.IO.BinaryWriter
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: NAudio.Midi.RawMetaEvent.Data*
+  commentId: Overload:NAudio.Midi.RawMetaEvent.Data
+  isExternal: true
+  href: NAudio.Midi.RawMetaEvent.html#NAudio_Midi_RawMetaEvent_Data
+  name: Data
+  nameWithType: RawMetaEvent.Data
+  fullName: NAudio.Midi.RawMetaEvent.Data

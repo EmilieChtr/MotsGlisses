@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect.ChorusWaveForm
+  commentId: T:NAudio.Dmo.Effect.ChorusWaveForm
+  id: ChorusWaveForm
+  parent: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.ChorusWaveForm.Sin
+  - NAudio.Dmo.Effect.ChorusWaveForm.Triangle
+  langs:
+  - csharp
+  - vb
+  name: ChorusWaveForm
+  nameWithType: ChorusWaveForm
+  fullName: NAudio.Dmo.Effect.ChorusWaveForm
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public enum ChorusWaveForm
+    content.vb: Public Enum ChorusWaveForm
+- uid: NAudio.Dmo.Effect.ChorusWaveForm.Triangle
+  commentId: F:NAudio.Dmo.Effect.ChorusWaveForm.Triangle
+  id: Triangle
+  parent: NAudio.Dmo.Effect.ChorusWaveForm
+  langs:
+  - csharp
+  - vb
+  name: Triangle
+  nameWithType: ChorusWaveForm.Triangle
+  fullName: NAudio.Dmo.Effect.ChorusWaveForm.Triangle
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Triangle = 0
+    return:
+      type: NAudio.Dmo.Effect.ChorusWaveForm
+- uid: NAudio.Dmo.Effect.ChorusWaveForm.Sin
+  commentId: F:NAudio.Dmo.Effect.ChorusWaveForm.Sin
+  id: Sin
+  parent: NAudio.Dmo.Effect.ChorusWaveForm
+  langs:
+  - csharp
+  - vb
+  name: Sin
+  nameWithType: ChorusWaveForm.Sin
+  fullName: NAudio.Dmo.Effect.ChorusWaveForm.Sin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Sin = 1
+    return:
+      type: NAudio.Dmo.Effect.ChorusWaveForm
+references:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+- uid: NAudio.Dmo.Effect.ChorusWaveForm
+  commentId: T:NAudio.Dmo.Effect.ChorusWaveForm
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.ChorusWaveForm.html
+  name: ChorusWaveForm
+  nameWithType: ChorusWaveForm
+  fullName: NAudio.Dmo.Effect.ChorusWaveForm

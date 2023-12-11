@@ -1,0 +1,663 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.FileFormats.Wav.WaveFileChunkReader
+  commentId: T:NAudio.FileFormats.Wav.WaveFileChunkReader
+  id: WaveFileChunkReader
+  parent: NAudio.FileFormats.Wav
+  children:
+  - NAudio.FileFormats.Wav.WaveFileChunkReader.#ctor
+  - NAudio.FileFormats.Wav.WaveFileChunkReader.DataChunkLength
+  - NAudio.FileFormats.Wav.WaveFileChunkReader.DataChunkPosition
+  - NAudio.FileFormats.Wav.WaveFileChunkReader.ReadWaveHeader(System.IO.Stream)
+  - NAudio.FileFormats.Wav.WaveFileChunkReader.RiffChunks
+  - NAudio.FileFormats.Wav.WaveFileChunkReader.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WaveFileChunkReader
+  nameWithType: WaveFileChunkReader
+  fullName: NAudio.FileFormats.Wav.WaveFileChunkReader
+  type: Class
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.FileFormats.Wav
+  syntax:
+    content: public class WaveFileChunkReader
+    content.vb: Public Class WaveFileChunkReader
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.FileFormats.Wav.WaveFileChunkReader.#ctor
+  commentId: M:NAudio.FileFormats.Wav.WaveFileChunkReader.#ctor
+  id: '#ctor'
+  parent: NAudio.FileFormats.Wav.WaveFileChunkReader
+  langs:
+  - csharp
+  - vb
+  name: WaveFileChunkReader()
+  nameWithType: WaveFileChunkReader.WaveFileChunkReader()
+  fullName: NAudio.FileFormats.Wav.WaveFileChunkReader.WaveFileChunkReader()
+  type: Constructor
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.FileFormats.Wav
+  syntax:
+    content: public WaveFileChunkReader()
+    content.vb: Public Sub New()
+  overload: NAudio.FileFormats.Wav.WaveFileChunkReader.#ctor*
+  nameWithType.vb: WaveFileChunkReader.New()
+  fullName.vb: NAudio.FileFormats.Wav.WaveFileChunkReader.New()
+  name.vb: New()
+- uid: NAudio.FileFormats.Wav.WaveFileChunkReader.ReadWaveHeader(System.IO.Stream)
+  commentId: M:NAudio.FileFormats.Wav.WaveFileChunkReader.ReadWaveHeader(System.IO.Stream)
+  id: ReadWaveHeader(System.IO.Stream)
+  parent: NAudio.FileFormats.Wav.WaveFileChunkReader
+  langs:
+  - csharp
+  - vb
+  name: ReadWaveHeader(Stream)
+  nameWithType: WaveFileChunkReader.ReadWaveHeader(Stream)
+  fullName: NAudio.FileFormats.Wav.WaveFileChunkReader.ReadWaveHeader(System.IO.Stream)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.FileFormats.Wav
+  syntax:
+    content: public void ReadWaveHeader(Stream stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    content.vb: Public Sub ReadWaveHeader(stream As Stream)
+  overload: NAudio.FileFormats.Wav.WaveFileChunkReader.ReadWaveHeader*
+- uid: NAudio.FileFormats.Wav.WaveFileChunkReader.WaveFormat
+  commentId: P:NAudio.FileFormats.Wav.WaveFileChunkReader.WaveFormat
+  id: WaveFormat
+  parent: NAudio.FileFormats.Wav.WaveFileChunkReader
+  langs:
+  - csharp
+  - vb
+  name: WaveFormat
+  nameWithType: WaveFileChunkReader.WaveFormat
+  fullName: NAudio.FileFormats.Wav.WaveFileChunkReader.WaveFormat
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.FileFormats.Wav
+  syntax:
+    content: public WaveFormat WaveFormat { get; }
+    parameters: []
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public ReadOnly Property WaveFormat As WaveFormat
+  overload: NAudio.FileFormats.Wav.WaveFileChunkReader.WaveFormat*
+- uid: NAudio.FileFormats.Wav.WaveFileChunkReader.DataChunkPosition
+  commentId: P:NAudio.FileFormats.Wav.WaveFileChunkReader.DataChunkPosition
+  id: DataChunkPosition
+  parent: NAudio.FileFormats.Wav.WaveFileChunkReader
+  langs:
+  - csharp
+  - vb
+  name: DataChunkPosition
+  nameWithType: WaveFileChunkReader.DataChunkPosition
+  fullName: NAudio.FileFormats.Wav.WaveFileChunkReader.DataChunkPosition
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.FileFormats.Wav
+  syntax:
+    content: public long DataChunkPosition { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property DataChunkPosition As Long
+  overload: NAudio.FileFormats.Wav.WaveFileChunkReader.DataChunkPosition*
+- uid: NAudio.FileFormats.Wav.WaveFileChunkReader.DataChunkLength
+  commentId: P:NAudio.FileFormats.Wav.WaveFileChunkReader.DataChunkLength
+  id: DataChunkLength
+  parent: NAudio.FileFormats.Wav.WaveFileChunkReader
+  langs:
+  - csharp
+  - vb
+  name: DataChunkLength
+  nameWithType: WaveFileChunkReader.DataChunkLength
+  fullName: NAudio.FileFormats.Wav.WaveFileChunkReader.DataChunkLength
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.FileFormats.Wav
+  syntax:
+    content: public long DataChunkLength { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property DataChunkLength As Long
+  overload: NAudio.FileFormats.Wav.WaveFileChunkReader.DataChunkLength*
+- uid: NAudio.FileFormats.Wav.WaveFileChunkReader.RiffChunks
+  commentId: P:NAudio.FileFormats.Wav.WaveFileChunkReader.RiffChunks
+  id: RiffChunks
+  parent: NAudio.FileFormats.Wav.WaveFileChunkReader
+  langs:
+  - csharp
+  - vb
+  name: RiffChunks
+  nameWithType: WaveFileChunkReader.RiffChunks
+  fullName: NAudio.FileFormats.Wav.WaveFileChunkReader.RiffChunks
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.FileFormats.Wav
+  syntax:
+    content: public List<RiffChunk> RiffChunks { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NAudio.Wave.RiffChunk}
+    content.vb: Public ReadOnly Property RiffChunks As List(Of RiffChunk)
+  overload: NAudio.FileFormats.Wav.WaveFileChunkReader.RiffChunks*
+references:
+- uid: NAudio.FileFormats.Wav
+  commentId: N:NAudio.FileFormats.Wav
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.FileFormats.Wav
+  nameWithType: NAudio.FileFormats.Wav
+  fullName: NAudio.FileFormats.Wav
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.FileFormats
+    name: FileFormats
+    isExternal: true
+    href: NAudio.FileFormats.html
+  - name: .
+  - uid: NAudio.FileFormats.Wav
+    name: Wav
+    isExternal: true
+    href: NAudio.FileFormats.Wav.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.FileFormats
+    name: FileFormats
+    isExternal: true
+    href: NAudio.FileFormats.html
+  - name: .
+  - uid: NAudio.FileFormats.Wav
+    name: Wav
+    isExternal: true
+    href: NAudio.FileFormats.Wav.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.FileFormats.Wav.WaveFileChunkReader.#ctor*
+  commentId: Overload:NAudio.FileFormats.Wav.WaveFileChunkReader.#ctor
+  isExternal: true
+  href: NAudio.FileFormats.Wav.WaveFileChunkReader.html#NAudio_FileFormats_Wav_WaveFileChunkReader__ctor
+  name: WaveFileChunkReader
+  nameWithType: WaveFileChunkReader.WaveFileChunkReader
+  fullName: NAudio.FileFormats.Wav.WaveFileChunkReader.WaveFileChunkReader
+  nameWithType.vb: WaveFileChunkReader.New
+  fullName.vb: NAudio.FileFormats.Wav.WaveFileChunkReader.New
+  name.vb: New
+- uid: NAudio.FileFormats.Wav.WaveFileChunkReader.ReadWaveHeader*
+  commentId: Overload:NAudio.FileFormats.Wav.WaveFileChunkReader.ReadWaveHeader
+  isExternal: true
+  href: NAudio.FileFormats.Wav.WaveFileChunkReader.html#NAudio_FileFormats_Wav_WaveFileChunkReader_ReadWaveHeader_System_IO_Stream_
+  name: ReadWaveHeader
+  nameWithType: WaveFileChunkReader.ReadWaveHeader
+  fullName: NAudio.FileFormats.Wav.WaveFileChunkReader.ReadWaveHeader
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: NAudio.FileFormats.Wav.WaveFileChunkReader.WaveFormat*
+  commentId: Overload:NAudio.FileFormats.Wav.WaveFileChunkReader.WaveFormat
+  isExternal: true
+  href: NAudio.FileFormats.Wav.WaveFileChunkReader.html#NAudio_FileFormats_Wav_WaveFileChunkReader_WaveFormat
+  name: WaveFormat
+  nameWithType: WaveFileChunkReader.WaveFormat
+  fullName: NAudio.FileFormats.Wav.WaveFileChunkReader.WaveFormat
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.FileFormats.Wav.WaveFileChunkReader.DataChunkPosition*
+  commentId: Overload:NAudio.FileFormats.Wav.WaveFileChunkReader.DataChunkPosition
+  isExternal: true
+  href: NAudio.FileFormats.Wav.WaveFileChunkReader.html#NAudio_FileFormats_Wav_WaveFileChunkReader_DataChunkPosition
+  name: DataChunkPosition
+  nameWithType: WaveFileChunkReader.DataChunkPosition
+  fullName: NAudio.FileFormats.Wav.WaveFileChunkReader.DataChunkPosition
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: NAudio.FileFormats.Wav.WaveFileChunkReader.DataChunkLength*
+  commentId: Overload:NAudio.FileFormats.Wav.WaveFileChunkReader.DataChunkLength
+  isExternal: true
+  href: NAudio.FileFormats.Wav.WaveFileChunkReader.html#NAudio_FileFormats_Wav_WaveFileChunkReader_DataChunkLength
+  name: DataChunkLength
+  nameWithType: WaveFileChunkReader.DataChunkLength
+  fullName: NAudio.FileFormats.Wav.WaveFileChunkReader.DataChunkLength
+- uid: NAudio.FileFormats.Wav.WaveFileChunkReader.RiffChunks*
+  commentId: Overload:NAudio.FileFormats.Wav.WaveFileChunkReader.RiffChunks
+  isExternal: true
+  href: NAudio.FileFormats.Wav.WaveFileChunkReader.html#NAudio_FileFormats_Wav_WaveFileChunkReader_RiffChunks
+  name: RiffChunks
+  nameWithType: WaveFileChunkReader.RiffChunks
+  fullName: NAudio.FileFormats.Wav.WaveFileChunkReader.RiffChunks
+- uid: System.Collections.Generic.List{NAudio.Wave.RiffChunk}
+  commentId: T:System.Collections.Generic.List{NAudio.Wave.RiffChunk}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<RiffChunk>
+  nameWithType: List<RiffChunk>
+  fullName: System.Collections.Generic.List<NAudio.Wave.RiffChunk>
+  nameWithType.vb: List(Of RiffChunk)
+  fullName.vb: System.Collections.Generic.List(Of NAudio.Wave.RiffChunk)
+  name.vb: List(Of RiffChunk)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NAudio.Wave.RiffChunk
+    name: RiffChunk
+    isExternal: true
+    href: NAudio.Wave.RiffChunk.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NAudio.Wave.RiffChunk
+    name: RiffChunk
+    isExternal: true
+    href: NAudio.Wave.RiffChunk.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

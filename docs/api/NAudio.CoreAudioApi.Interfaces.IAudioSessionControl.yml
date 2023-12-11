@@ -1,0 +1,435 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  id: IAudioSessionControl
+  parent: NAudio.CoreAudioApi.Interfaces
+  children:
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetDisplayName(System.String@)
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetGroupingParam(System.Guid@)
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetIconPath(System.String@)
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetState(NAudio.CoreAudioApi.Interfaces.AudioSessionState@)
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.RegisterAudioSessionNotification(NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents)
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetDisplayName(System.String,System.Guid)
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetGroupingParam(System.Guid,System.Guid)
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetIconPath(System.String,System.Guid)
+  - NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.UnregisterAudioSessionNotification(NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents)
+  langs:
+  - csharp
+  - vb
+  name: IAudioSessionControl
+  nameWithType: IAudioSessionControl
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: >-
+      [Guid("F4B1A599-7266-4319-A8CA-E70ACB11E8CD")]
+
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      public interface IAudioSessionControl
+    content.vb: >-
+      <Guid("F4B1A599-7266-4319-A8CA-E70ACB11E8CD")>
+
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      Public Interface IAudioSessionControl
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: F4B1A599-7266-4319-A8CA-E70ACB11E8CD
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetState(NAudio.CoreAudioApi.Interfaces.AudioSessionState@)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetState(NAudio.CoreAudioApi.Interfaces.AudioSessionState@)
+  id: GetState(NAudio.CoreAudioApi.Interfaces.AudioSessionState@)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  langs:
+  - csharp
+  - vb
+  name: GetState(out AudioSessionState)
+  nameWithType: IAudioSessionControl.GetState(out AudioSessionState)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetState(out NAudio.CoreAudioApi.Interfaces.AudioSessionState)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: int GetState(out AudioSessionState state)
+    parameters:
+    - id: state
+      type: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+    return:
+      type: System.Int32
+    content.vb: Function GetState(state As AudioSessionState) As Integer
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetState*
+  nameWithType.vb: IAudioSessionControl.GetState(AudioSessionState)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetState(NAudio.CoreAudioApi.Interfaces.AudioSessionState)
+  name.vb: GetState(AudioSessionState)
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetDisplayName(System.String@)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetDisplayName(System.String@)
+  id: GetDisplayName(System.String@)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  langs:
+  - csharp
+  - vb
+  name: GetDisplayName(out string)
+  nameWithType: IAudioSessionControl.GetDisplayName(out string)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetDisplayName(out string)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: int GetDisplayName(out string displayName)
+    parameters:
+    - id: displayName
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Function GetDisplayName(displayName As String) As Integer
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetDisplayName*
+  nameWithType.vb: IAudioSessionControl.GetDisplayName(String)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetDisplayName(String)
+  name.vb: GetDisplayName(String)
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetDisplayName(System.String,System.Guid)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetDisplayName(System.String,System.Guid)
+  id: SetDisplayName(System.String,System.Guid)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  langs:
+  - csharp
+  - vb
+  name: SetDisplayName(string, Guid)
+  nameWithType: IAudioSessionControl.SetDisplayName(string, Guid)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetDisplayName(string, System.Guid)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: int SetDisplayName(string displayName, Guid eventContext)
+    parameters:
+    - id: displayName
+      type: System.String
+    - id: eventContext
+      type: System.Guid
+    return:
+      type: System.Int32
+    content.vb: Function SetDisplayName(displayName As String, eventContext As Guid) As Integer
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetDisplayName*
+  nameWithType.vb: IAudioSessionControl.SetDisplayName(String, Guid)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetDisplayName(String, System.Guid)
+  name.vb: SetDisplayName(String, Guid)
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetIconPath(System.String@)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetIconPath(System.String@)
+  id: GetIconPath(System.String@)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  langs:
+  - csharp
+  - vb
+  name: GetIconPath(out string)
+  nameWithType: IAudioSessionControl.GetIconPath(out string)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetIconPath(out string)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: int GetIconPath(out string iconPath)
+    parameters:
+    - id: iconPath
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Function GetIconPath(iconPath As String) As Integer
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetIconPath*
+  nameWithType.vb: IAudioSessionControl.GetIconPath(String)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetIconPath(String)
+  name.vb: GetIconPath(String)
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetIconPath(System.String,System.Guid)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetIconPath(System.String,System.Guid)
+  id: SetIconPath(System.String,System.Guid)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  langs:
+  - csharp
+  - vb
+  name: SetIconPath(string, Guid)
+  nameWithType: IAudioSessionControl.SetIconPath(string, Guid)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetIconPath(string, System.Guid)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: int SetIconPath(string iconPath, Guid eventContext)
+    parameters:
+    - id: iconPath
+      type: System.String
+    - id: eventContext
+      type: System.Guid
+    return:
+      type: System.Int32
+    content.vb: Function SetIconPath(iconPath As String, eventContext As Guid) As Integer
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetIconPath*
+  nameWithType.vb: IAudioSessionControl.SetIconPath(String, Guid)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetIconPath(String, System.Guid)
+  name.vb: SetIconPath(String, Guid)
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetGroupingParam(System.Guid@)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetGroupingParam(System.Guid@)
+  id: GetGroupingParam(System.Guid@)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  langs:
+  - csharp
+  - vb
+  name: GetGroupingParam(out Guid)
+  nameWithType: IAudioSessionControl.GetGroupingParam(out Guid)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetGroupingParam(out System.Guid)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: int GetGroupingParam(out Guid groupingId)
+    parameters:
+    - id: groupingId
+      type: System.Guid
+    return:
+      type: System.Int32
+    content.vb: Function GetGroupingParam(groupingId As Guid) As Integer
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetGroupingParam*
+  nameWithType.vb: IAudioSessionControl.GetGroupingParam(Guid)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetGroupingParam(System.Guid)
+  name.vb: GetGroupingParam(Guid)
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetGroupingParam(System.Guid,System.Guid)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetGroupingParam(System.Guid,System.Guid)
+  id: SetGroupingParam(System.Guid,System.Guid)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  langs:
+  - csharp
+  - vb
+  name: SetGroupingParam(Guid, Guid)
+  nameWithType: IAudioSessionControl.SetGroupingParam(Guid, Guid)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetGroupingParam(System.Guid, System.Guid)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: int SetGroupingParam(Guid groupingId, Guid eventContext)
+    parameters:
+    - id: groupingId
+      type: System.Guid
+    - id: eventContext
+      type: System.Guid
+    return:
+      type: System.Int32
+    content.vb: Function SetGroupingParam(groupingId As Guid, eventContext As Guid) As Integer
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetGroupingParam*
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.RegisterAudioSessionNotification(NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.RegisterAudioSessionNotification(NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents)
+  id: RegisterAudioSessionNotification(NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  langs:
+  - csharp
+  - vb
+  name: RegisterAudioSessionNotification(IAudioSessionEvents)
+  nameWithType: IAudioSessionControl.RegisterAudioSessionNotification(IAudioSessionEvents)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.RegisterAudioSessionNotification(NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: int RegisterAudioSessionNotification(IAudioSessionEvents client)
+    parameters:
+    - id: client
+      type: NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents
+    return:
+      type: System.Int32
+    content.vb: Function RegisterAudioSessionNotification(client As IAudioSessionEvents) As Integer
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.RegisterAudioSessionNotification*
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.UnregisterAudioSessionNotification(NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.UnregisterAudioSessionNotification(NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents)
+  id: UnregisterAudioSessionNotification(NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents)
+  parent: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+  langs:
+  - csharp
+  - vb
+  name: UnregisterAudioSessionNotification(IAudioSessionEvents)
+  nameWithType: IAudioSessionControl.UnregisterAudioSessionNotification(IAudioSessionEvents)
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.UnregisterAudioSessionNotification(NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: int UnregisterAudioSessionNotification(IAudioSessionEvents client)
+    parameters:
+    - id: client
+      type: NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents
+    return:
+      type: System.Int32
+    content.vb: Function UnregisterAudioSessionNotification(client As IAudioSessionEvents) As Integer
+  overload: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.UnregisterAudioSessionNotification*
+references:
+- uid: NAudio.CoreAudioApi.Interfaces
+  commentId: N:NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi.Interfaces
+  nameWithType: NAudio.CoreAudioApi.Interfaces
+  fullName: NAudio.CoreAudioApi.Interfaces
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetState*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetState
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionControl_GetState_NAudio_CoreAudioApi_Interfaces_AudioSessionState__
+  name: GetState
+  nameWithType: IAudioSessionControl.GetState
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetState
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+  commentId: T:NAudio.CoreAudioApi.Interfaces.AudioSessionState
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.AudioSessionState.html
+  name: AudioSessionState
+  nameWithType: AudioSessionState
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetDisplayName*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetDisplayName
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionControl_GetDisplayName_System_String__
+  name: GetDisplayName
+  nameWithType: IAudioSessionControl.GetDisplayName
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetDisplayName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetDisplayName*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetDisplayName
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionControl_SetDisplayName_System_String_System_Guid_
+  name: SetDisplayName
+  nameWithType: IAudioSessionControl.SetDisplayName
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetDisplayName
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetIconPath*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetIconPath
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionControl_GetIconPath_System_String__
+  name: GetIconPath
+  nameWithType: IAudioSessionControl.GetIconPath
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetIconPath
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetIconPath*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetIconPath
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionControl_SetIconPath_System_String_System_Guid_
+  name: SetIconPath
+  nameWithType: IAudioSessionControl.SetIconPath
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetIconPath
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetGroupingParam*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetGroupingParam
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionControl_GetGroupingParam_System_Guid__
+  name: GetGroupingParam
+  nameWithType: IAudioSessionControl.GetGroupingParam
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.GetGroupingParam
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetGroupingParam*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetGroupingParam
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionControl_SetGroupingParam_System_Guid_System_Guid_
+  name: SetGroupingParam
+  nameWithType: IAudioSessionControl.SetGroupingParam
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.SetGroupingParam
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.RegisterAudioSessionNotification*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.RegisterAudioSessionNotification
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionControl_RegisterAudioSessionNotification_NAudio_CoreAudioApi_Interfaces_IAudioSessionEvents_
+  name: RegisterAudioSessionNotification
+  nameWithType: IAudioSessionControl.RegisterAudioSessionNotification
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.RegisterAudioSessionNotification
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents.html
+  name: IAudioSessionEvents
+  nameWithType: IAudioSessionEvents
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents
+- uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.UnregisterAudioSessionNotification*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.UnregisterAudioSessionNotification
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.html#NAudio_CoreAudioApi_Interfaces_IAudioSessionControl_UnregisterAudioSessionNotification_NAudio_CoreAudioApi_Interfaces_IAudioSessionEvents_
+  name: UnregisterAudioSessionNotification
+  nameWithType: IAudioSessionControl.UnregisterAudioSessionNotification
+  fullName: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl.UnregisterAudioSessionNotification

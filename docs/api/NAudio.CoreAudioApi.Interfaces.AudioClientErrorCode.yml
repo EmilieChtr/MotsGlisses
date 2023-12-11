@@ -1,0 +1,1056 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  commentId: T:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  id: AudioClientErrorCode
+  parent: NAudio.CoreAudioApi.Interfaces
+  children:
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.AlreadyInitialized
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferDurationPeriodNotEqual
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferError
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferOperationPending
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferSizeError
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferSizeNotAligned
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferTooLarge
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.CpuUsageExceeded
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.DeviceInUse
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.DeviceInvalidated
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EndpointCreateFailed
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EndpointOffloadNotCapable
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EngineFormatLocked
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EnginePeriodicityLocked
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EventHandleNotExpected
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EventHandleNotSet
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ExclusiveModeNotAllowed
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ExclusiveModeOnly
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.HeadTrackingEnabled
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.HeadTrackingUnsupported
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.IncorrectBufferSize
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.InvalidDevicePeriod
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.InvalidSize
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.InvalidStreamFlag
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.NoSingleProcess
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.NonOffloadModeOnly
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.NotInitialized
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.NotStopped
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.OffloadModeOnly
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.OutOfOffloadResources
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.OutOfOrder
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.RawModeUnsupported
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ResourcesInvalidated
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ServiceNotRunning
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ThreadNotRegistered
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.UnsupportedFormat
+  - NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.WrongEndpointType
+  langs:
+  - csharp
+  - vb
+  name: AudioClientErrorCode
+  nameWithType: AudioClientErrorCode
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  type: Class
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public static class AudioClientErrorCode
+    content.vb: Public Module AudioClientErrorCode
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.NotInitialized
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.NotInitialized
+  id: NotInitialized
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: NotInitialized
+  nameWithType: AudioClientErrorCode.NotInitialized
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.NotInitialized
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int NotInitialized = -2004287487
+    return:
+      type: System.Int32
+    content.vb: Public Const NotInitialized As Integer = -2004287487
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.AlreadyInitialized
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.AlreadyInitialized
+  id: AlreadyInitialized
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: AlreadyInitialized
+  nameWithType: AudioClientErrorCode.AlreadyInitialized
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.AlreadyInitialized
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int AlreadyInitialized = -2004287486
+    return:
+      type: System.Int32
+    content.vb: Public Const AlreadyInitialized As Integer = -2004287486
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.WrongEndpointType
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.WrongEndpointType
+  id: WrongEndpointType
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: WrongEndpointType
+  nameWithType: AudioClientErrorCode.WrongEndpointType
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.WrongEndpointType
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int WrongEndpointType = -2004287485
+    return:
+      type: System.Int32
+    content.vb: Public Const WrongEndpointType As Integer = -2004287485
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.DeviceInvalidated
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.DeviceInvalidated
+  id: DeviceInvalidated
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: DeviceInvalidated
+  nameWithType: AudioClientErrorCode.DeviceInvalidated
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.DeviceInvalidated
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int DeviceInvalidated = -2004287484
+    return:
+      type: System.Int32
+    content.vb: Public Const DeviceInvalidated As Integer = -2004287484
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.NotStopped
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.NotStopped
+  id: NotStopped
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: NotStopped
+  nameWithType: AudioClientErrorCode.NotStopped
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.NotStopped
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int NotStopped = -2004287483
+    return:
+      type: System.Int32
+    content.vb: Public Const NotStopped As Integer = -2004287483
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferTooLarge
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferTooLarge
+  id: BufferTooLarge
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: BufferTooLarge
+  nameWithType: AudioClientErrorCode.BufferTooLarge
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferTooLarge
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int BufferTooLarge = -2004287482
+    return:
+      type: System.Int32
+    content.vb: Public Const BufferTooLarge As Integer = -2004287482
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.OutOfOrder
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.OutOfOrder
+  id: OutOfOrder
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: OutOfOrder
+  nameWithType: AudioClientErrorCode.OutOfOrder
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.OutOfOrder
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int OutOfOrder = -2004287481
+    return:
+      type: System.Int32
+    content.vb: Public Const OutOfOrder As Integer = -2004287481
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.UnsupportedFormat
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.UnsupportedFormat
+  id: UnsupportedFormat
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: UnsupportedFormat
+  nameWithType: AudioClientErrorCode.UnsupportedFormat
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.UnsupportedFormat
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int UnsupportedFormat = -2004287480
+    return:
+      type: System.Int32
+    content.vb: Public Const UnsupportedFormat As Integer = -2004287480
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.InvalidSize
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.InvalidSize
+  id: InvalidSize
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: InvalidSize
+  nameWithType: AudioClientErrorCode.InvalidSize
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.InvalidSize
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int InvalidSize = -2004287479
+    return:
+      type: System.Int32
+    content.vb: Public Const InvalidSize As Integer = -2004287479
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.DeviceInUse
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.DeviceInUse
+  id: DeviceInUse
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: DeviceInUse
+  nameWithType: AudioClientErrorCode.DeviceInUse
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.DeviceInUse
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int DeviceInUse = -2004287478
+    return:
+      type: System.Int32
+    content.vb: Public Const DeviceInUse As Integer = -2004287478
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferOperationPending
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferOperationPending
+  id: BufferOperationPending
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: BufferOperationPending
+  nameWithType: AudioClientErrorCode.BufferOperationPending
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferOperationPending
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int BufferOperationPending = -2004287477
+    return:
+      type: System.Int32
+    content.vb: Public Const BufferOperationPending As Integer = -2004287477
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ThreadNotRegistered
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ThreadNotRegistered
+  id: ThreadNotRegistered
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: ThreadNotRegistered
+  nameWithType: AudioClientErrorCode.ThreadNotRegistered
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ThreadNotRegistered
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int ThreadNotRegistered = -2004287476
+    return:
+      type: System.Int32
+    content.vb: Public Const ThreadNotRegistered As Integer = -2004287476
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.NoSingleProcess
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.NoSingleProcess
+  id: NoSingleProcess
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: NoSingleProcess
+  nameWithType: AudioClientErrorCode.NoSingleProcess
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.NoSingleProcess
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int NoSingleProcess = -2004287475
+    return:
+      type: System.Int32
+    content.vb: Public Const NoSingleProcess As Integer = -2004287475
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ExclusiveModeNotAllowed
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ExclusiveModeNotAllowed
+  id: ExclusiveModeNotAllowed
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: ExclusiveModeNotAllowed
+  nameWithType: AudioClientErrorCode.ExclusiveModeNotAllowed
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ExclusiveModeNotAllowed
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int ExclusiveModeNotAllowed = -2004287474
+    return:
+      type: System.Int32
+    content.vb: Public Const ExclusiveModeNotAllowed As Integer = -2004287474
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EndpointCreateFailed
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EndpointCreateFailed
+  id: EndpointCreateFailed
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: EndpointCreateFailed
+  nameWithType: AudioClientErrorCode.EndpointCreateFailed
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EndpointCreateFailed
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int EndpointCreateFailed = -2004287473
+    return:
+      type: System.Int32
+    content.vb: Public Const EndpointCreateFailed As Integer = -2004287473
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ServiceNotRunning
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ServiceNotRunning
+  id: ServiceNotRunning
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: ServiceNotRunning
+  nameWithType: AudioClientErrorCode.ServiceNotRunning
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ServiceNotRunning
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int ServiceNotRunning = -2004287472
+    return:
+      type: System.Int32
+    content.vb: Public Const ServiceNotRunning As Integer = -2004287472
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EventHandleNotExpected
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EventHandleNotExpected
+  id: EventHandleNotExpected
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: EventHandleNotExpected
+  nameWithType: AudioClientErrorCode.EventHandleNotExpected
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EventHandleNotExpected
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int EventHandleNotExpected = -2004287471
+    return:
+      type: System.Int32
+    content.vb: Public Const EventHandleNotExpected As Integer = -2004287471
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ExclusiveModeOnly
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ExclusiveModeOnly
+  id: ExclusiveModeOnly
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: ExclusiveModeOnly
+  nameWithType: AudioClientErrorCode.ExclusiveModeOnly
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ExclusiveModeOnly
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int ExclusiveModeOnly = -2004287470
+    return:
+      type: System.Int32
+    content.vb: Public Const ExclusiveModeOnly As Integer = -2004287470
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferDurationPeriodNotEqual
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferDurationPeriodNotEqual
+  id: BufferDurationPeriodNotEqual
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: BufferDurationPeriodNotEqual
+  nameWithType: AudioClientErrorCode.BufferDurationPeriodNotEqual
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferDurationPeriodNotEqual
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int BufferDurationPeriodNotEqual = -2004287469
+    return:
+      type: System.Int32
+    content.vb: Public Const BufferDurationPeriodNotEqual As Integer = -2004287469
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EventHandleNotSet
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EventHandleNotSet
+  id: EventHandleNotSet
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: EventHandleNotSet
+  nameWithType: AudioClientErrorCode.EventHandleNotSet
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EventHandleNotSet
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int EventHandleNotSet = -2004287468
+    return:
+      type: System.Int32
+    content.vb: Public Const EventHandleNotSet As Integer = -2004287468
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.IncorrectBufferSize
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.IncorrectBufferSize
+  id: IncorrectBufferSize
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: IncorrectBufferSize
+  nameWithType: AudioClientErrorCode.IncorrectBufferSize
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.IncorrectBufferSize
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int IncorrectBufferSize = -2004287467
+    return:
+      type: System.Int32
+    content.vb: Public Const IncorrectBufferSize As Integer = -2004287467
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferSizeError
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferSizeError
+  id: BufferSizeError
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: BufferSizeError
+  nameWithType: AudioClientErrorCode.BufferSizeError
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferSizeError
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int BufferSizeError = -2004287466
+    return:
+      type: System.Int32
+    content.vb: Public Const BufferSizeError As Integer = -2004287466
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.CpuUsageExceeded
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.CpuUsageExceeded
+  id: CpuUsageExceeded
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: CpuUsageExceeded
+  nameWithType: AudioClientErrorCode.CpuUsageExceeded
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.CpuUsageExceeded
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int CpuUsageExceeded = -2004287465
+    return:
+      type: System.Int32
+    content.vb: Public Const CpuUsageExceeded As Integer = -2004287465
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferError
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferError
+  id: BufferError
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: BufferError
+  nameWithType: AudioClientErrorCode.BufferError
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferError
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int BufferError = -2004287464
+    return:
+      type: System.Int32
+    content.vb: Public Const BufferError As Integer = -2004287464
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferSizeNotAligned
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferSizeNotAligned
+  id: BufferSizeNotAligned
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: BufferSizeNotAligned
+  nameWithType: AudioClientErrorCode.BufferSizeNotAligned
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.BufferSizeNotAligned
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int BufferSizeNotAligned = -2004287463
+    return:
+      type: System.Int32
+    content.vb: Public Const BufferSizeNotAligned As Integer = -2004287463
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.InvalidDevicePeriod
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.InvalidDevicePeriod
+  id: InvalidDevicePeriod
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: InvalidDevicePeriod
+  nameWithType: AudioClientErrorCode.InvalidDevicePeriod
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.InvalidDevicePeriod
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int InvalidDevicePeriod = -2004287456
+    return:
+      type: System.Int32
+    content.vb: Public Const InvalidDevicePeriod As Integer = -2004287456
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.InvalidStreamFlag
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.InvalidStreamFlag
+  id: InvalidStreamFlag
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: InvalidStreamFlag
+  nameWithType: AudioClientErrorCode.InvalidStreamFlag
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.InvalidStreamFlag
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int InvalidStreamFlag = -2004287455
+    return:
+      type: System.Int32
+    content.vb: Public Const InvalidStreamFlag As Integer = -2004287455
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EndpointOffloadNotCapable
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EndpointOffloadNotCapable
+  id: EndpointOffloadNotCapable
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: EndpointOffloadNotCapable
+  nameWithType: AudioClientErrorCode.EndpointOffloadNotCapable
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EndpointOffloadNotCapable
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int EndpointOffloadNotCapable = -2004287454
+    return:
+      type: System.Int32
+    content.vb: Public Const EndpointOffloadNotCapable As Integer = -2004287454
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.OutOfOffloadResources
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.OutOfOffloadResources
+  id: OutOfOffloadResources
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: OutOfOffloadResources
+  nameWithType: AudioClientErrorCode.OutOfOffloadResources
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.OutOfOffloadResources
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int OutOfOffloadResources = -2004287453
+    return:
+      type: System.Int32
+    content.vb: Public Const OutOfOffloadResources As Integer = -2004287453
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.OffloadModeOnly
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.OffloadModeOnly
+  id: OffloadModeOnly
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: OffloadModeOnly
+  nameWithType: AudioClientErrorCode.OffloadModeOnly
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.OffloadModeOnly
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int OffloadModeOnly = -2004287452
+    return:
+      type: System.Int32
+    content.vb: Public Const OffloadModeOnly As Integer = -2004287452
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.NonOffloadModeOnly
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.NonOffloadModeOnly
+  id: NonOffloadModeOnly
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: NonOffloadModeOnly
+  nameWithType: AudioClientErrorCode.NonOffloadModeOnly
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.NonOffloadModeOnly
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int NonOffloadModeOnly = -2004287451
+    return:
+      type: System.Int32
+    content.vb: Public Const NonOffloadModeOnly As Integer = -2004287451
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ResourcesInvalidated
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ResourcesInvalidated
+  id: ResourcesInvalidated
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: ResourcesInvalidated
+  nameWithType: AudioClientErrorCode.ResourcesInvalidated
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.ResourcesInvalidated
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int ResourcesInvalidated = -2004287450
+    return:
+      type: System.Int32
+    content.vb: Public Const ResourcesInvalidated As Integer = -2004287450
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.RawModeUnsupported
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.RawModeUnsupported
+  id: RawModeUnsupported
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: RawModeUnsupported
+  nameWithType: AudioClientErrorCode.RawModeUnsupported
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.RawModeUnsupported
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int RawModeUnsupported = -2004287449
+    return:
+      type: System.Int32
+    content.vb: Public Const RawModeUnsupported As Integer = -2004287449
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EnginePeriodicityLocked
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EnginePeriodicityLocked
+  id: EnginePeriodicityLocked
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: EnginePeriodicityLocked
+  nameWithType: AudioClientErrorCode.EnginePeriodicityLocked
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EnginePeriodicityLocked
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int EnginePeriodicityLocked = -2004287448
+    return:
+      type: System.Int32
+    content.vb: Public Const EnginePeriodicityLocked As Integer = -2004287448
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EngineFormatLocked
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EngineFormatLocked
+  id: EngineFormatLocked
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: EngineFormatLocked
+  nameWithType: AudioClientErrorCode.EngineFormatLocked
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.EngineFormatLocked
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int EngineFormatLocked = -2004287447
+    return:
+      type: System.Int32
+    content.vb: Public Const EngineFormatLocked As Integer = -2004287447
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.HeadTrackingEnabled
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.HeadTrackingEnabled
+  id: HeadTrackingEnabled
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: HeadTrackingEnabled
+  nameWithType: AudioClientErrorCode.HeadTrackingEnabled
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.HeadTrackingEnabled
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int HeadTrackingEnabled = -2004287440
+    return:
+      type: System.Int32
+    content.vb: Public Const HeadTrackingEnabled As Integer = -2004287440
+- uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.HeadTrackingUnsupported
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.HeadTrackingUnsupported
+  id: HeadTrackingUnsupported
+  parent: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+  langs:
+  - csharp
+  - vb
+  name: HeadTrackingUnsupported
+  nameWithType: AudioClientErrorCode.HeadTrackingUnsupported
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode.HeadTrackingUnsupported
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public const int HeadTrackingUnsupported = -2004287424
+    return:
+      type: System.Int32
+    content.vb: Public Const HeadTrackingUnsupported As Integer = -2004287424
+references:
+- uid: NAudio.CoreAudioApi.Interfaces
+  commentId: N:NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi.Interfaces
+  nameWithType: NAudio.CoreAudioApi.Interfaces
+  fullName: NAudio.CoreAudioApi.Interfaces
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

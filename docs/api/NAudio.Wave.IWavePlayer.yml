@@ -1,0 +1,522 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.IWavePlayer
+  commentId: T:NAudio.Wave.IWavePlayer
+  id: IWavePlayer
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.IWavePlayer.Init(NAudio.Wave.IWaveProvider)
+  - NAudio.Wave.IWavePlayer.OutputWaveFormat
+  - NAudio.Wave.IWavePlayer.Pause
+  - NAudio.Wave.IWavePlayer.Play
+  - NAudio.Wave.IWavePlayer.PlaybackState
+  - NAudio.Wave.IWavePlayer.PlaybackStopped
+  - NAudio.Wave.IWavePlayer.Stop
+  - NAudio.Wave.IWavePlayer.Volume
+  langs:
+  - csharp
+  - vb
+  name: IWavePlayer
+  nameWithType: IWavePlayer
+  fullName: NAudio.Wave.IWavePlayer
+  type: Interface
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: 'public interface IWavePlayer : IDisposable'
+    content.vb: Public Interface IWavePlayer Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+  extensionMethods:
+  - NAudio.Wave.IWavePlayer.NAudio.Wave.WaveExtensionMethods.Init(NAudio.Wave.ISampleProvider,System.Boolean)
+- uid: NAudio.Wave.IWavePlayer.Play
+  commentId: M:NAudio.Wave.IWavePlayer.Play
+  id: Play
+  parent: NAudio.Wave.IWavePlayer
+  langs:
+  - csharp
+  - vb
+  name: Play()
+  nameWithType: IWavePlayer.Play()
+  fullName: NAudio.Wave.IWavePlayer.Play()
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: void Play()
+    content.vb: Sub Play()
+  overload: NAudio.Wave.IWavePlayer.Play*
+- uid: NAudio.Wave.IWavePlayer.Stop
+  commentId: M:NAudio.Wave.IWavePlayer.Stop
+  id: Stop
+  parent: NAudio.Wave.IWavePlayer
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: IWavePlayer.Stop()
+  fullName: NAudio.Wave.IWavePlayer.Stop()
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: void Stop()
+    content.vb: Sub [Stop]()
+  overload: NAudio.Wave.IWavePlayer.Stop*
+- uid: NAudio.Wave.IWavePlayer.Pause
+  commentId: M:NAudio.Wave.IWavePlayer.Pause
+  id: Pause
+  parent: NAudio.Wave.IWavePlayer
+  langs:
+  - csharp
+  - vb
+  name: Pause()
+  nameWithType: IWavePlayer.Pause()
+  fullName: NAudio.Wave.IWavePlayer.Pause()
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: void Pause()
+    content.vb: Sub Pause()
+  overload: NAudio.Wave.IWavePlayer.Pause*
+- uid: NAudio.Wave.IWavePlayer.Init(NAudio.Wave.IWaveProvider)
+  commentId: M:NAudio.Wave.IWavePlayer.Init(NAudio.Wave.IWaveProvider)
+  id: Init(NAudio.Wave.IWaveProvider)
+  parent: NAudio.Wave.IWavePlayer
+  langs:
+  - csharp
+  - vb
+  name: Init(IWaveProvider)
+  nameWithType: IWavePlayer.Init(IWaveProvider)
+  fullName: NAudio.Wave.IWavePlayer.Init(NAudio.Wave.IWaveProvider)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: void Init(IWaveProvider waveProvider)
+    parameters:
+    - id: waveProvider
+      type: NAudio.Wave.IWaveProvider
+    content.vb: Sub Init(waveProvider As IWaveProvider)
+  overload: NAudio.Wave.IWavePlayer.Init*
+- uid: NAudio.Wave.IWavePlayer.Volume
+  commentId: P:NAudio.Wave.IWavePlayer.Volume
+  id: Volume
+  parent: NAudio.Wave.IWavePlayer
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: IWavePlayer.Volume
+  fullName: NAudio.Wave.IWavePlayer.Volume
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: float Volume { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property Volume As Single
+  overload: NAudio.Wave.IWavePlayer.Volume*
+- uid: NAudio.Wave.IWavePlayer.PlaybackState
+  commentId: P:NAudio.Wave.IWavePlayer.PlaybackState
+  id: PlaybackState
+  parent: NAudio.Wave.IWavePlayer
+  langs:
+  - csharp
+  - vb
+  name: PlaybackState
+  nameWithType: IWavePlayer.PlaybackState
+  fullName: NAudio.Wave.IWavePlayer.PlaybackState
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: PlaybackState PlaybackState { get; }
+    parameters: []
+    return:
+      type: NAudio.Wave.PlaybackState
+    content.vb: ReadOnly Property PlaybackState As PlaybackState
+  overload: NAudio.Wave.IWavePlayer.PlaybackState*
+- uid: NAudio.Wave.IWavePlayer.OutputWaveFormat
+  commentId: P:NAudio.Wave.IWavePlayer.OutputWaveFormat
+  id: OutputWaveFormat
+  parent: NAudio.Wave.IWavePlayer
+  langs:
+  - csharp
+  - vb
+  name: OutputWaveFormat
+  nameWithType: IWavePlayer.OutputWaveFormat
+  fullName: NAudio.Wave.IWavePlayer.OutputWaveFormat
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: WaveFormat OutputWaveFormat { get; }
+    parameters: []
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: ReadOnly Property OutputWaveFormat As WaveFormat
+  overload: NAudio.Wave.IWavePlayer.OutputWaveFormat*
+- uid: NAudio.Wave.IWavePlayer.PlaybackStopped
+  commentId: E:NAudio.Wave.IWavePlayer.PlaybackStopped
+  id: PlaybackStopped
+  parent: NAudio.Wave.IWavePlayer
+  langs:
+  - csharp
+  - vb
+  name: PlaybackStopped
+  nameWithType: IWavePlayer.PlaybackStopped
+  fullName: NAudio.Wave.IWavePlayer.PlaybackStopped
+  type: Event
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: event EventHandler<StoppedEventArgs> PlaybackStopped
+    return:
+      type: System.EventHandler{NAudio.Wave.StoppedEventArgs}
+    content.vb: Event PlaybackStopped As EventHandler(Of StoppedEventArgs)
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: NAudio.Wave.IWavePlayer.NAudio.Wave.WaveExtensionMethods.Init(NAudio.Wave.ISampleProvider,System.Boolean)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.Init(NAudio.Wave.IWavePlayer,NAudio.Wave.ISampleProvider,System.Boolean)
+  parent: NAudio.Wave.WaveExtensionMethods
+  definition: NAudio.Wave.WaveExtensionMethods.Init(NAudio.Wave.IWavePlayer,NAudio.Wave.ISampleProvider,System.Boolean)
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Init_NAudio_Wave_IWavePlayer_NAudio_Wave_ISampleProvider_System_Boolean_
+  name: Init(IWavePlayer, ISampleProvider, bool)
+  nameWithType: WaveExtensionMethods.Init(IWavePlayer, ISampleProvider, bool)
+  fullName: NAudio.Wave.WaveExtensionMethods.Init(NAudio.Wave.IWavePlayer, NAudio.Wave.ISampleProvider, bool)
+  nameWithType.vb: WaveExtensionMethods.Init(IWavePlayer, ISampleProvider, Boolean)
+  fullName.vb: NAudio.Wave.WaveExtensionMethods.Init(NAudio.Wave.IWavePlayer, NAudio.Wave.ISampleProvider, Boolean)
+  name.vb: Init(IWavePlayer, ISampleProvider, Boolean)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.Init(NAudio.Wave.IWavePlayer,NAudio.Wave.ISampleProvider,System.Boolean)
+    name: Init
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Init_NAudio_Wave_IWavePlayer_NAudio_Wave_ISampleProvider_System_Boolean_
+  - name: (
+  - uid: NAudio.Wave.IWavePlayer
+    name: IWavePlayer
+    isExternal: true
+    href: NAudio.Wave.IWavePlayer.html
+  - name: ','
+  - name: " "
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.Init(NAudio.Wave.IWavePlayer,NAudio.Wave.ISampleProvider,System.Boolean)
+    name: Init
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Init_NAudio_Wave_IWavePlayer_NAudio_Wave_ISampleProvider_System_Boolean_
+  - name: (
+  - uid: NAudio.Wave.IWavePlayer
+    name: IWavePlayer
+    isExternal: true
+    href: NAudio.Wave.IWavePlayer.html
+  - name: ','
+  - name: " "
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: NAudio.Wave.WaveExtensionMethods.Init(NAudio.Wave.IWavePlayer,NAudio.Wave.ISampleProvider,System.Boolean)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.Init(NAudio.Wave.IWavePlayer,NAudio.Wave.ISampleProvider,System.Boolean)
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Init_NAudio_Wave_IWavePlayer_NAudio_Wave_ISampleProvider_System_Boolean_
+  name: Init(IWavePlayer, ISampleProvider, bool)
+  nameWithType: WaveExtensionMethods.Init(IWavePlayer, ISampleProvider, bool)
+  fullName: NAudio.Wave.WaveExtensionMethods.Init(NAudio.Wave.IWavePlayer, NAudio.Wave.ISampleProvider, bool)
+  nameWithType.vb: WaveExtensionMethods.Init(IWavePlayer, ISampleProvider, Boolean)
+  fullName.vb: NAudio.Wave.WaveExtensionMethods.Init(NAudio.Wave.IWavePlayer, NAudio.Wave.ISampleProvider, Boolean)
+  name.vb: Init(IWavePlayer, ISampleProvider, Boolean)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.Init(NAudio.Wave.IWavePlayer,NAudio.Wave.ISampleProvider,System.Boolean)
+    name: Init
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Init_NAudio_Wave_IWavePlayer_NAudio_Wave_ISampleProvider_System_Boolean_
+  - name: (
+  - uid: NAudio.Wave.IWavePlayer
+    name: IWavePlayer
+    isExternal: true
+    href: NAudio.Wave.IWavePlayer.html
+  - name: ','
+  - name: " "
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.Init(NAudio.Wave.IWavePlayer,NAudio.Wave.ISampleProvider,System.Boolean)
+    name: Init
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_Init_NAudio_Wave_IWavePlayer_NAudio_Wave_ISampleProvider_System_Boolean_
+  - name: (
+  - uid: NAudio.Wave.IWavePlayer
+    name: IWavePlayer
+    isExternal: true
+    href: NAudio.Wave.IWavePlayer.html
+  - name: ','
+  - name: " "
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+    isExternal: true
+    href: NAudio.Wave.ISampleProvider.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: NAudio.Wave.WaveExtensionMethods
+  commentId: T:NAudio.Wave.WaveExtensionMethods
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html
+  name: WaveExtensionMethods
+  nameWithType: WaveExtensionMethods
+  fullName: NAudio.Wave.WaveExtensionMethods
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.IWavePlayer.Play*
+  commentId: Overload:NAudio.Wave.IWavePlayer.Play
+  isExternal: true
+  href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Play
+  name: Play
+  nameWithType: IWavePlayer.Play
+  fullName: NAudio.Wave.IWavePlayer.Play
+- uid: NAudio.Wave.IWavePlayer.Stop*
+  commentId: Overload:NAudio.Wave.IWavePlayer.Stop
+  isExternal: true
+  href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Stop
+  name: Stop
+  nameWithType: IWavePlayer.Stop
+  fullName: NAudio.Wave.IWavePlayer.Stop
+- uid: NAudio.Wave.IWavePlayer.Pause*
+  commentId: Overload:NAudio.Wave.IWavePlayer.Pause
+  isExternal: true
+  href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Pause
+  name: Pause
+  nameWithType: IWavePlayer.Pause
+  fullName: NAudio.Wave.IWavePlayer.Pause
+- uid: NAudio.Wave.IWavePlayer.Init*
+  commentId: Overload:NAudio.Wave.IWavePlayer.Init
+  isExternal: true
+  href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Init_NAudio_Wave_IWaveProvider_
+  name: Init
+  nameWithType: IWavePlayer.Init
+  fullName: NAudio.Wave.IWavePlayer.Init
+- uid: NAudio.Wave.IWaveProvider
+  commentId: T:NAudio.Wave.IWaveProvider
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.IWaveProvider.html
+  name: IWaveProvider
+  nameWithType: IWaveProvider
+  fullName: NAudio.Wave.IWaveProvider
+- uid: NAudio.Wave.IWavePlayer.Volume*
+  commentId: Overload:NAudio.Wave.IWavePlayer.Volume
+  isExternal: true
+  href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Volume
+  name: Volume
+  nameWithType: IWavePlayer.Volume
+  fullName: NAudio.Wave.IWavePlayer.Volume
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NAudio.Wave.IWavePlayer.PlaybackState*
+  commentId: Overload:NAudio.Wave.IWavePlayer.PlaybackState
+  isExternal: true
+  href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_PlaybackState
+  name: PlaybackState
+  nameWithType: IWavePlayer.PlaybackState
+  fullName: NAudio.Wave.IWavePlayer.PlaybackState
+- uid: NAudio.Wave.PlaybackState
+  commentId: T:NAudio.Wave.PlaybackState
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.PlaybackState.html
+  name: PlaybackState
+  nameWithType: PlaybackState
+  fullName: NAudio.Wave.PlaybackState
+- uid: NAudio.Wave.IWavePlayer.OutputWaveFormat*
+  commentId: Overload:NAudio.Wave.IWavePlayer.OutputWaveFormat
+  isExternal: true
+  href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_OutputWaveFormat
+  name: OutputWaveFormat
+  nameWithType: IWavePlayer.OutputWaveFormat
+  fullName: NAudio.Wave.IWavePlayer.OutputWaveFormat
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat
+- uid: System.EventHandler{NAudio.Wave.StoppedEventArgs}
+  commentId: T:System.EventHandler{NAudio.Wave.StoppedEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<StoppedEventArgs>
+  nameWithType: EventHandler<StoppedEventArgs>
+  fullName: System.EventHandler<NAudio.Wave.StoppedEventArgs>
+  nameWithType.vb: EventHandler(Of StoppedEventArgs)
+  fullName.vb: System.EventHandler(Of NAudio.Wave.StoppedEventArgs)
+  name.vb: EventHandler(Of StoppedEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: NAudio.Wave.StoppedEventArgs
+    name: StoppedEventArgs
+    isExternal: true
+    href: NAudio.Wave.StoppedEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NAudio.Wave.StoppedEventArgs
+    name: StoppedEventArgs
+    isExternal: true
+    href: NAudio.Wave.StoppedEventArgs.html
+  - name: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - name: TEventArgs
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventArgs
+  - name: )

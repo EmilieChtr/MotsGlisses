@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+  commentId: T:NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+  id: AcmDriverDetailsSupportFlags
+  parent: NAudio.Wave.Compression
+  children:
+  - NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Async
+  - NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Codec
+  - NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Converter
+  - NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Disabled
+  - NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Filter
+  - NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Hardware
+  - NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Local
+  langs:
+  - csharp
+  - vb
+  name: AcmDriverDetailsSupportFlags
+  nameWithType: AcmDriverDetailsSupportFlags
+  fullName: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+  type: Enum
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum AcmDriverDetailsSupportFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum AcmDriverDetailsSupportFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Codec
+  commentId: F:NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Codec
+  id: Codec
+  parent: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+  langs:
+  - csharp
+  - vb
+  name: Codec
+  nameWithType: AcmDriverDetailsSupportFlags.Codec
+  fullName: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Codec
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: Codec = 1
+    return:
+      type: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+- uid: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Converter
+  commentId: F:NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Converter
+  id: Converter
+  parent: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+  langs:
+  - csharp
+  - vb
+  name: Converter
+  nameWithType: AcmDriverDetailsSupportFlags.Converter
+  fullName: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Converter
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: Converter = 2
+    return:
+      type: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+- uid: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Filter
+  commentId: F:NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Filter
+  id: Filter
+  parent: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+  langs:
+  - csharp
+  - vb
+  name: Filter
+  nameWithType: AcmDriverDetailsSupportFlags.Filter
+  fullName: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Filter
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: Filter = 4
+    return:
+      type: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+- uid: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Hardware
+  commentId: F:NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Hardware
+  id: Hardware
+  parent: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+  langs:
+  - csharp
+  - vb
+  name: Hardware
+  nameWithType: AcmDriverDetailsSupportFlags.Hardware
+  fullName: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Hardware
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: Hardware = 8
+    return:
+      type: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+- uid: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Async
+  commentId: F:NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Async
+  id: Async
+  parent: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+  langs:
+  - csharp
+  - vb
+  name: Async
+  nameWithType: AcmDriverDetailsSupportFlags.Async
+  fullName: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Async
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: Async = 16
+    return:
+      type: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+- uid: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Local
+  commentId: F:NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Local
+  id: Local
+  parent: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+  langs:
+  - csharp
+  - vb
+  name: Local
+  nameWithType: AcmDriverDetailsSupportFlags.Local
+  fullName: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Local
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: Local = 1073741824
+    return:
+      type: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+- uid: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Disabled
+  commentId: F:NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Disabled
+  id: Disabled
+  parent: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+  langs:
+  - csharp
+  - vb
+  name: Disabled
+  nameWithType: AcmDriverDetailsSupportFlags.Disabled
+  fullName: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.Disabled
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: Disabled = -2147483648
+    return:
+      type: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+references:
+- uid: NAudio.Wave.Compression
+  commentId: N:NAudio.Wave.Compression
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave.Compression
+  nameWithType: NAudio.Wave.Compression
+  fullName: NAudio.Wave.Compression
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Compression
+    name: Compression
+    isExternal: true
+    href: NAudio.Wave.Compression.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Compression
+    name: Compression
+    isExternal: true
+    href: NAudio.Wave.Compression.html
+- uid: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+  commentId: T:NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+  parent: NAudio.Wave.Compression
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.html
+  name: AcmDriverDetailsSupportFlags
+  nameWithType: AcmDriverDetailsSupportFlags
+  fullName: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags

@@ -1,0 +1,341 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.AudioStreamCategory
+  commentId: T:NAudio.CoreAudioApi.AudioStreamCategory
+  id: AudioStreamCategory
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.AudioStreamCategory.Alerts
+  - NAudio.CoreAudioApi.AudioStreamCategory.BackgroundCapableMedia
+  - NAudio.CoreAudioApi.AudioStreamCategory.Communications
+  - NAudio.CoreAudioApi.AudioStreamCategory.FarFieldSpeech
+  - NAudio.CoreAudioApi.AudioStreamCategory.ForegroundOnlyMedia
+  - NAudio.CoreAudioApi.AudioStreamCategory.GameChat
+  - NAudio.CoreAudioApi.AudioStreamCategory.GameEffects
+  - NAudio.CoreAudioApi.AudioStreamCategory.GameMedia
+  - NAudio.CoreAudioApi.AudioStreamCategory.Media
+  - NAudio.CoreAudioApi.AudioStreamCategory.Movie
+  - NAudio.CoreAudioApi.AudioStreamCategory.Other
+  - NAudio.CoreAudioApi.AudioStreamCategory.SoundEffects
+  - NAudio.CoreAudioApi.AudioStreamCategory.Speech
+  - NAudio.CoreAudioApi.AudioStreamCategory.UniformSpeech
+  - NAudio.CoreAudioApi.AudioStreamCategory.VoiceTyping
+  langs:
+  - csharp
+  - vb
+  name: AudioStreamCategory
+  nameWithType: AudioStreamCategory
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public enum AudioStreamCategory
+    content.vb: Public Enum AudioStreamCategory
+- uid: NAudio.CoreAudioApi.AudioStreamCategory.Other
+  commentId: F:NAudio.CoreAudioApi.AudioStreamCategory.Other
+  id: Other
+  parent: NAudio.CoreAudioApi.AudioStreamCategory
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: AudioStreamCategory.Other
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory.Other
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Other = 0
+    return:
+      type: NAudio.CoreAudioApi.AudioStreamCategory
+- uid: NAudio.CoreAudioApi.AudioStreamCategory.ForegroundOnlyMedia
+  commentId: F:NAudio.CoreAudioApi.AudioStreamCategory.ForegroundOnlyMedia
+  id: ForegroundOnlyMedia
+  parent: NAudio.CoreAudioApi.AudioStreamCategory
+  langs:
+  - csharp
+  - vb
+  name: ForegroundOnlyMedia
+  nameWithType: AudioStreamCategory.ForegroundOnlyMedia
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory.ForegroundOnlyMedia
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: ForegroundOnlyMedia = 1
+    return:
+      type: NAudio.CoreAudioApi.AudioStreamCategory
+- uid: NAudio.CoreAudioApi.AudioStreamCategory.BackgroundCapableMedia
+  commentId: F:NAudio.CoreAudioApi.AudioStreamCategory.BackgroundCapableMedia
+  id: BackgroundCapableMedia
+  parent: NAudio.CoreAudioApi.AudioStreamCategory
+  langs:
+  - csharp
+  - vb
+  name: BackgroundCapableMedia
+  nameWithType: AudioStreamCategory.BackgroundCapableMedia
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory.BackgroundCapableMedia
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: BackgroundCapableMedia = 2
+    return:
+      type: NAudio.CoreAudioApi.AudioStreamCategory
+- uid: NAudio.CoreAudioApi.AudioStreamCategory.Communications
+  commentId: F:NAudio.CoreAudioApi.AudioStreamCategory.Communications
+  id: Communications
+  parent: NAudio.CoreAudioApi.AudioStreamCategory
+  langs:
+  - csharp
+  - vb
+  name: Communications
+  nameWithType: AudioStreamCategory.Communications
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory.Communications
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Communications = 3
+    return:
+      type: NAudio.CoreAudioApi.AudioStreamCategory
+- uid: NAudio.CoreAudioApi.AudioStreamCategory.Alerts
+  commentId: F:NAudio.CoreAudioApi.AudioStreamCategory.Alerts
+  id: Alerts
+  parent: NAudio.CoreAudioApi.AudioStreamCategory
+  langs:
+  - csharp
+  - vb
+  name: Alerts
+  nameWithType: AudioStreamCategory.Alerts
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory.Alerts
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Alerts = 4
+    return:
+      type: NAudio.CoreAudioApi.AudioStreamCategory
+- uid: NAudio.CoreAudioApi.AudioStreamCategory.SoundEffects
+  commentId: F:NAudio.CoreAudioApi.AudioStreamCategory.SoundEffects
+  id: SoundEffects
+  parent: NAudio.CoreAudioApi.AudioStreamCategory
+  langs:
+  - csharp
+  - vb
+  name: SoundEffects
+  nameWithType: AudioStreamCategory.SoundEffects
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory.SoundEffects
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: SoundEffects = 5
+    return:
+      type: NAudio.CoreAudioApi.AudioStreamCategory
+- uid: NAudio.CoreAudioApi.AudioStreamCategory.GameEffects
+  commentId: F:NAudio.CoreAudioApi.AudioStreamCategory.GameEffects
+  id: GameEffects
+  parent: NAudio.CoreAudioApi.AudioStreamCategory
+  langs:
+  - csharp
+  - vb
+  name: GameEffects
+  nameWithType: AudioStreamCategory.GameEffects
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory.GameEffects
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: GameEffects = 6
+    return:
+      type: NAudio.CoreAudioApi.AudioStreamCategory
+- uid: NAudio.CoreAudioApi.AudioStreamCategory.GameMedia
+  commentId: F:NAudio.CoreAudioApi.AudioStreamCategory.GameMedia
+  id: GameMedia
+  parent: NAudio.CoreAudioApi.AudioStreamCategory
+  langs:
+  - csharp
+  - vb
+  name: GameMedia
+  nameWithType: AudioStreamCategory.GameMedia
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory.GameMedia
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: GameMedia = 7
+    return:
+      type: NAudio.CoreAudioApi.AudioStreamCategory
+- uid: NAudio.CoreAudioApi.AudioStreamCategory.GameChat
+  commentId: F:NAudio.CoreAudioApi.AudioStreamCategory.GameChat
+  id: GameChat
+  parent: NAudio.CoreAudioApi.AudioStreamCategory
+  langs:
+  - csharp
+  - vb
+  name: GameChat
+  nameWithType: AudioStreamCategory.GameChat
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory.GameChat
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: GameChat = 8
+    return:
+      type: NAudio.CoreAudioApi.AudioStreamCategory
+- uid: NAudio.CoreAudioApi.AudioStreamCategory.Speech
+  commentId: F:NAudio.CoreAudioApi.AudioStreamCategory.Speech
+  id: Speech
+  parent: NAudio.CoreAudioApi.AudioStreamCategory
+  langs:
+  - csharp
+  - vb
+  name: Speech
+  nameWithType: AudioStreamCategory.Speech
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory.Speech
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Speech = 9
+    return:
+      type: NAudio.CoreAudioApi.AudioStreamCategory
+- uid: NAudio.CoreAudioApi.AudioStreamCategory.Movie
+  commentId: F:NAudio.CoreAudioApi.AudioStreamCategory.Movie
+  id: Movie
+  parent: NAudio.CoreAudioApi.AudioStreamCategory
+  langs:
+  - csharp
+  - vb
+  name: Movie
+  nameWithType: AudioStreamCategory.Movie
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory.Movie
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Movie = 10
+    return:
+      type: NAudio.CoreAudioApi.AudioStreamCategory
+- uid: NAudio.CoreAudioApi.AudioStreamCategory.Media
+  commentId: F:NAudio.CoreAudioApi.AudioStreamCategory.Media
+  id: Media
+  parent: NAudio.CoreAudioApi.AudioStreamCategory
+  langs:
+  - csharp
+  - vb
+  name: Media
+  nameWithType: AudioStreamCategory.Media
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory.Media
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Media = 11
+    return:
+      type: NAudio.CoreAudioApi.AudioStreamCategory
+- uid: NAudio.CoreAudioApi.AudioStreamCategory.FarFieldSpeech
+  commentId: F:NAudio.CoreAudioApi.AudioStreamCategory.FarFieldSpeech
+  id: FarFieldSpeech
+  parent: NAudio.CoreAudioApi.AudioStreamCategory
+  langs:
+  - csharp
+  - vb
+  name: FarFieldSpeech
+  nameWithType: AudioStreamCategory.FarFieldSpeech
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory.FarFieldSpeech
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: FarFieldSpeech = 12
+    return:
+      type: NAudio.CoreAudioApi.AudioStreamCategory
+- uid: NAudio.CoreAudioApi.AudioStreamCategory.UniformSpeech
+  commentId: F:NAudio.CoreAudioApi.AudioStreamCategory.UniformSpeech
+  id: UniformSpeech
+  parent: NAudio.CoreAudioApi.AudioStreamCategory
+  langs:
+  - csharp
+  - vb
+  name: UniformSpeech
+  nameWithType: AudioStreamCategory.UniformSpeech
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory.UniformSpeech
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: UniformSpeech = 13
+    return:
+      type: NAudio.CoreAudioApi.AudioStreamCategory
+- uid: NAudio.CoreAudioApi.AudioStreamCategory.VoiceTyping
+  commentId: F:NAudio.CoreAudioApi.AudioStreamCategory.VoiceTyping
+  id: VoiceTyping
+  parent: NAudio.CoreAudioApi.AudioStreamCategory
+  langs:
+  - csharp
+  - vb
+  name: VoiceTyping
+  nameWithType: AudioStreamCategory.VoiceTyping
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory.VoiceTyping
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: VoiceTyping = 14
+    return:
+      type: NAudio.CoreAudioApi.AudioStreamCategory
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: NAudio.CoreAudioApi.AudioStreamCategory
+  commentId: T:NAudio.CoreAudioApi.AudioStreamCategory
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioStreamCategory.html
+  name: AudioStreamCategory
+  nameWithType: AudioStreamCategory
+  fullName: NAudio.CoreAudioApi.AudioStreamCategory

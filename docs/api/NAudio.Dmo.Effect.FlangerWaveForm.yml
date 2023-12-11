@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect.FlangerWaveForm
+  commentId: T:NAudio.Dmo.Effect.FlangerWaveForm
+  id: FlangerWaveForm
+  parent: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.FlangerWaveForm.Sin
+  - NAudio.Dmo.Effect.FlangerWaveForm.Triangle
+  langs:
+  - csharp
+  - vb
+  name: FlangerWaveForm
+  nameWithType: FlangerWaveForm
+  fullName: NAudio.Dmo.Effect.FlangerWaveForm
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public enum FlangerWaveForm
+    content.vb: Public Enum FlangerWaveForm
+- uid: NAudio.Dmo.Effect.FlangerWaveForm.Triangle
+  commentId: F:NAudio.Dmo.Effect.FlangerWaveForm.Triangle
+  id: Triangle
+  parent: NAudio.Dmo.Effect.FlangerWaveForm
+  langs:
+  - csharp
+  - vb
+  name: Triangle
+  nameWithType: FlangerWaveForm.Triangle
+  fullName: NAudio.Dmo.Effect.FlangerWaveForm.Triangle
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Triangle = 0
+    return:
+      type: NAudio.Dmo.Effect.FlangerWaveForm
+- uid: NAudio.Dmo.Effect.FlangerWaveForm.Sin
+  commentId: F:NAudio.Dmo.Effect.FlangerWaveForm.Sin
+  id: Sin
+  parent: NAudio.Dmo.Effect.FlangerWaveForm
+  langs:
+  - csharp
+  - vb
+  name: Sin
+  nameWithType: FlangerWaveForm.Sin
+  fullName: NAudio.Dmo.Effect.FlangerWaveForm.Sin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: Sin = 1
+    return:
+      type: NAudio.Dmo.Effect.FlangerWaveForm
+references:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+- uid: NAudio.Dmo.Effect.FlangerWaveForm
+  commentId: T:NAudio.Dmo.Effect.FlangerWaveForm
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.FlangerWaveForm.html
+  name: FlangerWaveForm
+  nameWithType: FlangerWaveForm
+  fullName: NAudio.Dmo.Effect.FlangerWaveForm

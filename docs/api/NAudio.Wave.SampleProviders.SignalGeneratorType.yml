@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.SampleProviders.SignalGeneratorType
+  commentId: T:NAudio.Wave.SampleProviders.SignalGeneratorType
+  id: SignalGeneratorType
+  parent: NAudio.Wave.SampleProviders
+  children:
+  - NAudio.Wave.SampleProviders.SignalGeneratorType.Pink
+  - NAudio.Wave.SampleProviders.SignalGeneratorType.SawTooth
+  - NAudio.Wave.SampleProviders.SignalGeneratorType.Sin
+  - NAudio.Wave.SampleProviders.SignalGeneratorType.Square
+  - NAudio.Wave.SampleProviders.SignalGeneratorType.Sweep
+  - NAudio.Wave.SampleProviders.SignalGeneratorType.Triangle
+  - NAudio.Wave.SampleProviders.SignalGeneratorType.White
+  langs:
+  - csharp
+  - vb
+  name: SignalGeneratorType
+  nameWithType: SignalGeneratorType
+  fullName: NAudio.Wave.SampleProviders.SignalGeneratorType
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave.SampleProviders
+  syntax:
+    content: public enum SignalGeneratorType
+    content.vb: Public Enum SignalGeneratorType
+- uid: NAudio.Wave.SampleProviders.SignalGeneratorType.Pink
+  commentId: F:NAudio.Wave.SampleProviders.SignalGeneratorType.Pink
+  id: Pink
+  parent: NAudio.Wave.SampleProviders.SignalGeneratorType
+  langs:
+  - csharp
+  - vb
+  name: Pink
+  nameWithType: SignalGeneratorType.Pink
+  fullName: NAudio.Wave.SampleProviders.SignalGeneratorType.Pink
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave.SampleProviders
+  syntax:
+    content: Pink = 0
+    return:
+      type: NAudio.Wave.SampleProviders.SignalGeneratorType
+- uid: NAudio.Wave.SampleProviders.SignalGeneratorType.White
+  commentId: F:NAudio.Wave.SampleProviders.SignalGeneratorType.White
+  id: White
+  parent: NAudio.Wave.SampleProviders.SignalGeneratorType
+  langs:
+  - csharp
+  - vb
+  name: White
+  nameWithType: SignalGeneratorType.White
+  fullName: NAudio.Wave.SampleProviders.SignalGeneratorType.White
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave.SampleProviders
+  syntax:
+    content: White = 1
+    return:
+      type: NAudio.Wave.SampleProviders.SignalGeneratorType
+- uid: NAudio.Wave.SampleProviders.SignalGeneratorType.Sweep
+  commentId: F:NAudio.Wave.SampleProviders.SignalGeneratorType.Sweep
+  id: Sweep
+  parent: NAudio.Wave.SampleProviders.SignalGeneratorType
+  langs:
+  - csharp
+  - vb
+  name: Sweep
+  nameWithType: SignalGeneratorType.Sweep
+  fullName: NAudio.Wave.SampleProviders.SignalGeneratorType.Sweep
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave.SampleProviders
+  syntax:
+    content: Sweep = 2
+    return:
+      type: NAudio.Wave.SampleProviders.SignalGeneratorType
+- uid: NAudio.Wave.SampleProviders.SignalGeneratorType.Sin
+  commentId: F:NAudio.Wave.SampleProviders.SignalGeneratorType.Sin
+  id: Sin
+  parent: NAudio.Wave.SampleProviders.SignalGeneratorType
+  langs:
+  - csharp
+  - vb
+  name: Sin
+  nameWithType: SignalGeneratorType.Sin
+  fullName: NAudio.Wave.SampleProviders.SignalGeneratorType.Sin
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave.SampleProviders
+  syntax:
+    content: Sin = 3
+    return:
+      type: NAudio.Wave.SampleProviders.SignalGeneratorType
+- uid: NAudio.Wave.SampleProviders.SignalGeneratorType.Square
+  commentId: F:NAudio.Wave.SampleProviders.SignalGeneratorType.Square
+  id: Square
+  parent: NAudio.Wave.SampleProviders.SignalGeneratorType
+  langs:
+  - csharp
+  - vb
+  name: Square
+  nameWithType: SignalGeneratorType.Square
+  fullName: NAudio.Wave.SampleProviders.SignalGeneratorType.Square
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave.SampleProviders
+  syntax:
+    content: Square = 4
+    return:
+      type: NAudio.Wave.SampleProviders.SignalGeneratorType
+- uid: NAudio.Wave.SampleProviders.SignalGeneratorType.Triangle
+  commentId: F:NAudio.Wave.SampleProviders.SignalGeneratorType.Triangle
+  id: Triangle
+  parent: NAudio.Wave.SampleProviders.SignalGeneratorType
+  langs:
+  - csharp
+  - vb
+  name: Triangle
+  nameWithType: SignalGeneratorType.Triangle
+  fullName: NAudio.Wave.SampleProviders.SignalGeneratorType.Triangle
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave.SampleProviders
+  syntax:
+    content: Triangle = 5
+    return:
+      type: NAudio.Wave.SampleProviders.SignalGeneratorType
+- uid: NAudio.Wave.SampleProviders.SignalGeneratorType.SawTooth
+  commentId: F:NAudio.Wave.SampleProviders.SignalGeneratorType.SawTooth
+  id: SawTooth
+  parent: NAudio.Wave.SampleProviders.SignalGeneratorType
+  langs:
+  - csharp
+  - vb
+  name: SawTooth
+  nameWithType: SignalGeneratorType.SawTooth
+  fullName: NAudio.Wave.SampleProviders.SignalGeneratorType.SawTooth
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave.SampleProviders
+  syntax:
+    content: SawTooth = 6
+    return:
+      type: NAudio.Wave.SampleProviders.SignalGeneratorType
+references:
+- uid: NAudio.Wave.SampleProviders
+  commentId: N:NAudio.Wave.SampleProviders
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave.SampleProviders
+  nameWithType: NAudio.Wave.SampleProviders
+  fullName: NAudio.Wave.SampleProviders
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.SampleProviders
+    name: SampleProviders
+    isExternal: true
+    href: NAudio.Wave.SampleProviders.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.SampleProviders
+    name: SampleProviders
+    isExternal: true
+    href: NAudio.Wave.SampleProviders.html
+- uid: NAudio.Wave.SampleProviders.SignalGeneratorType
+  commentId: T:NAudio.Wave.SampleProviders.SignalGeneratorType
+  parent: NAudio.Wave.SampleProviders
+  isExternal: true
+  href: NAudio.Wave.SampleProviders.SignalGeneratorType.html
+  name: SignalGeneratorType
+  nameWithType: SignalGeneratorType
+  fullName: NAudio.Wave.SampleProviders.SignalGeneratorType

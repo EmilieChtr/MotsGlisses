@@ -1,0 +1,1526 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  commentId: T:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  id: DmoI3DL2Reverb.Params
+  parent: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatio
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatioDefault
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatioMax
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatioMin
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTime
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTimeDefault
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTimeMax
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTimeMin
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Density
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DensityDefault
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DensityMax
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DensityMin
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Diffusion
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DiffusionDefault
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DiffusionMax
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DiffusionMin
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.GetPreset
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReference
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReferenceDefault
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReferenceMax
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReferenceMin
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Quality
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.QualityDefault
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.QualityMax
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.QualityMin
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Reflections
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDefault
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelay
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelayDefault
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelayMax
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelayMin
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsMax
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsMin
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Reverb
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDefault
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelay
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelayDefault
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelayMax
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelayMin
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbMax
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbMin
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Room
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomDefault
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHf
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHfDefault
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHfMax
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHfMin
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomMax
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomMin
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactor
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactorDefault
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactorMax
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactorMin
+  - NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.SetPreset(NAudio.Dmo.Effect.I3DL2EnvironmentPreset)
+  langs:
+  - csharp
+  - vb
+  name: DmoI3DL2Reverb.Params
+  nameWithType: DmoI3DL2Reverb.Params
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  type: Struct
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public struct DmoI3DL2Reverb.Params
+    content.vb: Public Structure DmoI3DL2Reverb.Params
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomMin
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomMin
+  id: RoomMin
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: RoomMin
+  nameWithType: DmoI3DL2Reverb.Params.RoomMin
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const int RoomMin = -10000
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomMin As Integer = -10000
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomMax
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomMax
+  id: RoomMax
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: RoomMax
+  nameWithType: DmoI3DL2Reverb.Params.RoomMax
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const int RoomMax = 0
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomMax As Integer = 0
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomDefault
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomDefault
+  id: RoomDefault
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: RoomDefault
+  nameWithType: DmoI3DL2Reverb.Params.RoomDefault
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const int RoomDefault = -1000
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomDefault As Integer = -1000
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHfMin
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHfMin
+  id: RoomHfMin
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: RoomHfMin
+  nameWithType: DmoI3DL2Reverb.Params.RoomHfMin
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHfMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const int RoomHfMin = -10000
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomHfMin As Integer = -10000
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHfMax
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHfMax
+  id: RoomHfMax
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: RoomHfMax
+  nameWithType: DmoI3DL2Reverb.Params.RoomHfMax
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHfMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const int RoomHfMax = 0
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomHfMax As Integer = 0
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHfDefault
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHfDefault
+  id: RoomHfDefault
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: RoomHfDefault
+  nameWithType: DmoI3DL2Reverb.Params.RoomHfDefault
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHfDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const int RoomHfDefault = -100
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomHfDefault As Integer = -100
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactorMin
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactorMin
+  id: RoomRollOffFactorMin
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: RoomRollOffFactorMin
+  nameWithType: DmoI3DL2Reverb.Params.RoomRollOffFactorMin
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactorMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float RoomRollOffFactorMin = 0
+    return:
+      type: System.Single
+    content.vb: Public Const RoomRollOffFactorMin As Single = 0
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactorMax
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactorMax
+  id: RoomRollOffFactorMax
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: RoomRollOffFactorMax
+  nameWithType: DmoI3DL2Reverb.Params.RoomRollOffFactorMax
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactorMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float RoomRollOffFactorMax = 10
+    return:
+      type: System.Single
+    content.vb: Public Const RoomRollOffFactorMax As Single = 10
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactorDefault
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactorDefault
+  id: RoomRollOffFactorDefault
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: RoomRollOffFactorDefault
+  nameWithType: DmoI3DL2Reverb.Params.RoomRollOffFactorDefault
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactorDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float RoomRollOffFactorDefault = 0
+    return:
+      type: System.Single
+    content.vb: Public Const RoomRollOffFactorDefault As Single = 0
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTimeMin
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTimeMin
+  id: DecayTimeMin
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: DecayTimeMin
+  nameWithType: DmoI3DL2Reverb.Params.DecayTimeMin
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTimeMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DecayTimeMin = 0.1
+    return:
+      type: System.Single
+    content.vb: Public Const DecayTimeMin As Single = 0.1
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTimeMax
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTimeMax
+  id: DecayTimeMax
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: DecayTimeMax
+  nameWithType: DmoI3DL2Reverb.Params.DecayTimeMax
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTimeMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DecayTimeMax = 20
+    return:
+      type: System.Single
+    content.vb: Public Const DecayTimeMax As Single = 20
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTimeDefault
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTimeDefault
+  id: DecayTimeDefault
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: DecayTimeDefault
+  nameWithType: DmoI3DL2Reverb.Params.DecayTimeDefault
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTimeDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DecayTimeDefault = 1.49
+    return:
+      type: System.Single
+    content.vb: Public Const DecayTimeDefault As Single = 1.49
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatioMin
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatioMin
+  id: DecayHfRatioMin
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: DecayHfRatioMin
+  nameWithType: DmoI3DL2Reverb.Params.DecayHfRatioMin
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatioMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DecayHfRatioMin = 0.1
+    return:
+      type: System.Single
+    content.vb: Public Const DecayHfRatioMin As Single = 0.1
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatioMax
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatioMax
+  id: DecayHfRatioMax
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: DecayHfRatioMax
+  nameWithType: DmoI3DL2Reverb.Params.DecayHfRatioMax
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatioMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DecayHfRatioMax = 2
+    return:
+      type: System.Single
+    content.vb: Public Const DecayHfRatioMax As Single = 2
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatioDefault
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatioDefault
+  id: DecayHfRatioDefault
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: DecayHfRatioDefault
+  nameWithType: DmoI3DL2Reverb.Params.DecayHfRatioDefault
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatioDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DecayHfRatioDefault = 0.83
+    return:
+      type: System.Single
+    content.vb: Public Const DecayHfRatioDefault As Single = 0.83
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsMin
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsMin
+  id: ReflectionsMin
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReflectionsMin
+  nameWithType: DmoI3DL2Reverb.Params.ReflectionsMin
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const int ReflectionsMin = -10000
+    return:
+      type: System.Int32
+    content.vb: Public Const ReflectionsMin As Integer = -10000
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsMax
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsMax
+  id: ReflectionsMax
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReflectionsMax
+  nameWithType: DmoI3DL2Reverb.Params.ReflectionsMax
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const int ReflectionsMax = 1000
+    return:
+      type: System.Int32
+    content.vb: Public Const ReflectionsMax As Integer = 1000
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDefault
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDefault
+  id: ReflectionsDefault
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReflectionsDefault
+  nameWithType: DmoI3DL2Reverb.Params.ReflectionsDefault
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const int ReflectionsDefault = -2602
+    return:
+      type: System.Int32
+    content.vb: Public Const ReflectionsDefault As Integer = -2602
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelayMin
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelayMin
+  id: ReflectionsDelayMin
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReflectionsDelayMin
+  nameWithType: DmoI3DL2Reverb.Params.ReflectionsDelayMin
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelayMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ReflectionsDelayMin = 0
+    return:
+      type: System.Single
+    content.vb: Public Const ReflectionsDelayMin As Single = 0
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelayMax
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelayMax
+  id: ReflectionsDelayMax
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReflectionsDelayMax
+  nameWithType: DmoI3DL2Reverb.Params.ReflectionsDelayMax
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelayMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ReflectionsDelayMax = 0.3
+    return:
+      type: System.Single
+    content.vb: Public Const ReflectionsDelayMax As Single = 0.3
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelayDefault
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelayDefault
+  id: ReflectionsDelayDefault
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReflectionsDelayDefault
+  nameWithType: DmoI3DL2Reverb.Params.ReflectionsDelayDefault
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelayDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ReflectionsDelayDefault = 0.007
+    return:
+      type: System.Single
+    content.vb: Public Const ReflectionsDelayDefault As Single = 0.007
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbMin
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbMin
+  id: ReverbMin
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReverbMin
+  nameWithType: DmoI3DL2Reverb.Params.ReverbMin
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const int ReverbMin = -10000
+    return:
+      type: System.Int32
+    content.vb: Public Const ReverbMin As Integer = -10000
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbMax
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbMax
+  id: ReverbMax
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReverbMax
+  nameWithType: DmoI3DL2Reverb.Params.ReverbMax
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const int ReverbMax = 2000
+    return:
+      type: System.Int32
+    content.vb: Public Const ReverbMax As Integer = 2000
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDefault
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDefault
+  id: ReverbDefault
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReverbDefault
+  nameWithType: DmoI3DL2Reverb.Params.ReverbDefault
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const int ReverbDefault = 200
+    return:
+      type: System.Int32
+    content.vb: Public Const ReverbDefault As Integer = 200
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelayMin
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelayMin
+  id: ReverbDelayMin
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReverbDelayMin
+  nameWithType: DmoI3DL2Reverb.Params.ReverbDelayMin
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelayMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ReverbDelayMin = 0
+    return:
+      type: System.Single
+    content.vb: Public Const ReverbDelayMin As Single = 0
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelayMax
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelayMax
+  id: ReverbDelayMax
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReverbDelayMax
+  nameWithType: DmoI3DL2Reverb.Params.ReverbDelayMax
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelayMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ReverbDelayMax = 0.1
+    return:
+      type: System.Single
+    content.vb: Public Const ReverbDelayMax As Single = 0.1
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelayDefault
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelayDefault
+  id: ReverbDelayDefault
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReverbDelayDefault
+  nameWithType: DmoI3DL2Reverb.Params.ReverbDelayDefault
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelayDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ReverbDelayDefault = 0.011
+    return:
+      type: System.Single
+    content.vb: Public Const ReverbDelayDefault As Single = 0.011
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DiffusionMin
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DiffusionMin
+  id: DiffusionMin
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: DiffusionMin
+  nameWithType: DmoI3DL2Reverb.Params.DiffusionMin
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DiffusionMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DiffusionMin = 0
+    return:
+      type: System.Single
+    content.vb: Public Const DiffusionMin As Single = 0
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DiffusionMax
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DiffusionMax
+  id: DiffusionMax
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: DiffusionMax
+  nameWithType: DmoI3DL2Reverb.Params.DiffusionMax
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DiffusionMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DiffusionMax = 100
+    return:
+      type: System.Single
+    content.vb: Public Const DiffusionMax As Single = 100
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DiffusionDefault
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DiffusionDefault
+  id: DiffusionDefault
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: DiffusionDefault
+  nameWithType: DmoI3DL2Reverb.Params.DiffusionDefault
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DiffusionDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DiffusionDefault = 100
+    return:
+      type: System.Single
+    content.vb: Public Const DiffusionDefault As Single = 100
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DensityMin
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DensityMin
+  id: DensityMin
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: DensityMin
+  nameWithType: DmoI3DL2Reverb.Params.DensityMin
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DensityMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DensityMin = 0
+    return:
+      type: System.Single
+    content.vb: Public Const DensityMin As Single = 0
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DensityMax
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DensityMax
+  id: DensityMax
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: DensityMax
+  nameWithType: DmoI3DL2Reverb.Params.DensityMax
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DensityMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DensityMax = 100
+    return:
+      type: System.Single
+    content.vb: Public Const DensityMax As Single = 100
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DensityDefault
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DensityDefault
+  id: DensityDefault
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: DensityDefault
+  nameWithType: DmoI3DL2Reverb.Params.DensityDefault
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DensityDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DensityDefault = 100
+    return:
+      type: System.Single
+    content.vb: Public Const DensityDefault As Single = 100
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReferenceMin
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReferenceMin
+  id: HfReferenceMin
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: HfReferenceMin
+  nameWithType: DmoI3DL2Reverb.Params.HfReferenceMin
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReferenceMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float HfReferenceMin = 20
+    return:
+      type: System.Single
+    content.vb: Public Const HfReferenceMin As Single = 20
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReferenceMax
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReferenceMax
+  id: HfReferenceMax
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: HfReferenceMax
+  nameWithType: DmoI3DL2Reverb.Params.HfReferenceMax
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReferenceMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float HfReferenceMax = 20000
+    return:
+      type: System.Single
+    content.vb: Public Const HfReferenceMax As Single = 20000
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReferenceDefault
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReferenceDefault
+  id: HfReferenceDefault
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: HfReferenceDefault
+  nameWithType: DmoI3DL2Reverb.Params.HfReferenceDefault
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReferenceDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float HfReferenceDefault = 5000
+    return:
+      type: System.Single
+    content.vb: Public Const HfReferenceDefault As Single = 5000
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.QualityMin
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.QualityMin
+  id: QualityMin
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: QualityMin
+  nameWithType: DmoI3DL2Reverb.Params.QualityMin
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.QualityMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const int QualityMin = 0
+    return:
+      type: System.Int32
+    content.vb: Public Const QualityMin As Integer = 0
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.QualityMax
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.QualityMax
+  id: QualityMax
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: QualityMax
+  nameWithType: DmoI3DL2Reverb.Params.QualityMax
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.QualityMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const int QualityMax = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const QualityMax As Integer = 3
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.QualityDefault
+  commentId: F:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.QualityDefault
+  id: QualityDefault
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: QualityDefault
+  nameWithType: DmoI3DL2Reverb.Params.QualityDefault
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.QualityDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const int QualityDefault = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const QualityDefault As Integer = 2
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.SetPreset(NAudio.Dmo.Effect.I3DL2EnvironmentPreset)
+  commentId: M:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.SetPreset(NAudio.Dmo.Effect.I3DL2EnvironmentPreset)
+  id: SetPreset(NAudio.Dmo.Effect.I3DL2EnvironmentPreset)
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: SetPreset(I3DL2EnvironmentPreset)
+  nameWithType: DmoI3DL2Reverb.Params.SetPreset(I3DL2EnvironmentPreset)
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.SetPreset(NAudio.Dmo.Effect.I3DL2EnvironmentPreset)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public void SetPreset(I3DL2EnvironmentPreset preset)
+    parameters:
+    - id: preset
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+    content.vb: Public Sub SetPreset(preset As I3DL2EnvironmentPreset)
+  overload: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.SetPreset*
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.GetPreset
+  commentId: M:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.GetPreset
+  id: GetPreset
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: GetPreset()
+  nameWithType: DmoI3DL2Reverb.Params.GetPreset()
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.GetPreset()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public I3DL2EnvironmentPreset GetPreset()
+    return:
+      type: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+    content.vb: Public Function GetPreset() As I3DL2EnvironmentPreset
+  overload: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.GetPreset*
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Room
+  commentId: P:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Room
+  id: Room
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: Room
+  nameWithType: DmoI3DL2Reverb.Params.Room
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Room
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public int Room { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Room As Integer
+  overload: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Room*
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHf
+  commentId: P:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHf
+  id: RoomHf
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: RoomHf
+  nameWithType: DmoI3DL2Reverb.Params.RoomHf
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHf
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public int RoomHf { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RoomHf As Integer
+  overload: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHf*
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactor
+  commentId: P:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactor
+  id: RoomRollOffFactor
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: RoomRollOffFactor
+  nameWithType: DmoI3DL2Reverb.Params.RoomRollOffFactor
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactor
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float RoomRollOffFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property RoomRollOffFactor As Single
+  overload: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactor*
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTime
+  commentId: P:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTime
+  id: DecayTime
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: DecayTime
+  nameWithType: DmoI3DL2Reverb.Params.DecayTime
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTime
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float DecayTime { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property DecayTime As Single
+  overload: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTime*
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatio
+  commentId: P:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatio
+  id: DecayHfRatio
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: DecayHfRatio
+  nameWithType: DmoI3DL2Reverb.Params.DecayHfRatio
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatio
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float DecayHfRatio { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property DecayHfRatio As Single
+  overload: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatio*
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Reflections
+  commentId: P:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Reflections
+  id: Reflections
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: Reflections
+  nameWithType: DmoI3DL2Reverb.Params.Reflections
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Reflections
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public int Reflections { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Reflections As Integer
+  overload: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Reflections*
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelay
+  commentId: P:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelay
+  id: ReflectionsDelay
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReflectionsDelay
+  nameWithType: DmoI3DL2Reverb.Params.ReflectionsDelay
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelay
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float ReflectionsDelay { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ReflectionsDelay As Single
+  overload: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelay*
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Reverb
+  commentId: P:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Reverb
+  id: Reverb
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: Reverb
+  nameWithType: DmoI3DL2Reverb.Params.Reverb
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Reverb
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public int Reverb { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Reverb As Integer
+  overload: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Reverb*
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelay
+  commentId: P:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelay
+  id: ReverbDelay
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: ReverbDelay
+  nameWithType: DmoI3DL2Reverb.Params.ReverbDelay
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelay
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float ReverbDelay { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ReverbDelay As Single
+  overload: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelay*
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Diffusion
+  commentId: P:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Diffusion
+  id: Diffusion
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: Diffusion
+  nameWithType: DmoI3DL2Reverb.Params.Diffusion
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Diffusion
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float Diffusion { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Diffusion As Single
+  overload: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Diffusion*
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Density
+  commentId: P:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Density
+  id: Density
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: Density
+  nameWithType: DmoI3DL2Reverb.Params.Density
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Density
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float Density { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Density As Single
+  overload: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Density*
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReference
+  commentId: P:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReference
+  id: HfReference
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: HfReference
+  nameWithType: DmoI3DL2Reverb.Params.HfReference
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReference
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float HfReference { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property HfReference As Single
+  overload: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReference*
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Quality
+  commentId: P:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Quality
+  id: Quality
+  parent: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+  langs:
+  - csharp
+  - vb
+  name: Quality
+  nameWithType: DmoI3DL2Reverb.Params.Quality
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Quality
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public int Quality { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Quality As Integer
+  overload: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Quality*
+references:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.SetPreset*
+  commentId: Overload:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.SetPreset
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html#NAudio_Dmo_Effect_DmoI3DL2Reverb_Params_SetPreset_NAudio_Dmo_Effect_I3DL2EnvironmentPreset_
+  name: SetPreset
+  nameWithType: DmoI3DL2Reverb.Params.SetPreset
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.SetPreset
+- uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  commentId: T:NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.I3DL2EnvironmentPreset.html
+  name: I3DL2EnvironmentPreset
+  nameWithType: I3DL2EnvironmentPreset
+  fullName: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.GetPreset*
+  commentId: Overload:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.GetPreset
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html#NAudio_Dmo_Effect_DmoI3DL2Reverb_Params_GetPreset
+  name: GetPreset
+  nameWithType: DmoI3DL2Reverb.Params.GetPreset
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.GetPreset
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Room*
+  commentId: Overload:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Room
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html#NAudio_Dmo_Effect_DmoI3DL2Reverb_Params_Room
+  name: Room
+  nameWithType: DmoI3DL2Reverb.Params.Room
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Room
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHf*
+  commentId: Overload:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHf
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html#NAudio_Dmo_Effect_DmoI3DL2Reverb_Params_RoomHf
+  name: RoomHf
+  nameWithType: DmoI3DL2Reverb.Params.RoomHf
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomHf
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactor*
+  commentId: Overload:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactor
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html#NAudio_Dmo_Effect_DmoI3DL2Reverb_Params_RoomRollOffFactor
+  name: RoomRollOffFactor
+  nameWithType: DmoI3DL2Reverb.Params.RoomRollOffFactor
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.RoomRollOffFactor
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTime*
+  commentId: Overload:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTime
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html#NAudio_Dmo_Effect_DmoI3DL2Reverb_Params_DecayTime
+  name: DecayTime
+  nameWithType: DmoI3DL2Reverb.Params.DecayTime
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayTime
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatio*
+  commentId: Overload:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatio
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html#NAudio_Dmo_Effect_DmoI3DL2Reverb_Params_DecayHfRatio
+  name: DecayHfRatio
+  nameWithType: DmoI3DL2Reverb.Params.DecayHfRatio
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.DecayHfRatio
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Reflections*
+  commentId: Overload:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Reflections
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html#NAudio_Dmo_Effect_DmoI3DL2Reverb_Params_Reflections
+  name: Reflections
+  nameWithType: DmoI3DL2Reverb.Params.Reflections
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Reflections
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelay*
+  commentId: Overload:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelay
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html#NAudio_Dmo_Effect_DmoI3DL2Reverb_Params_ReflectionsDelay
+  name: ReflectionsDelay
+  nameWithType: DmoI3DL2Reverb.Params.ReflectionsDelay
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReflectionsDelay
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Reverb*
+  commentId: Overload:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Reverb
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html#NAudio_Dmo_Effect_DmoI3DL2Reverb_Params_Reverb
+  name: Reverb
+  nameWithType: DmoI3DL2Reverb.Params.Reverb
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Reverb
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelay*
+  commentId: Overload:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelay
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html#NAudio_Dmo_Effect_DmoI3DL2Reverb_Params_ReverbDelay
+  name: ReverbDelay
+  nameWithType: DmoI3DL2Reverb.Params.ReverbDelay
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.ReverbDelay
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Diffusion*
+  commentId: Overload:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Diffusion
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html#NAudio_Dmo_Effect_DmoI3DL2Reverb_Params_Diffusion
+  name: Diffusion
+  nameWithType: DmoI3DL2Reverb.Params.Diffusion
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Diffusion
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Density*
+  commentId: Overload:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Density
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html#NAudio_Dmo_Effect_DmoI3DL2Reverb_Params_Density
+  name: Density
+  nameWithType: DmoI3DL2Reverb.Params.Density
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Density
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReference*
+  commentId: Overload:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReference
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html#NAudio_Dmo_Effect_DmoI3DL2Reverb_Params_HfReference
+  name: HfReference
+  nameWithType: DmoI3DL2Reverb.Params.HfReference
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.HfReference
+- uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Quality*
+  commentId: Overload:NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Quality
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.html#NAudio_Dmo_Effect_DmoI3DL2Reverb_Params_Quality
+  name: Quality
+  nameWithType: DmoI3DL2Reverb.Params.Quality
+  fullName: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params.Quality

@@ -1,0 +1,738 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params
+  commentId: T:NAudio.Dmo.Effect.DmoDistortion.Params
+  id: DmoDistortion.Params
+  parent: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.DmoDistortion.Params.Edge
+  - NAudio.Dmo.Effect.DmoDistortion.Params.EdgeDefault
+  - NAudio.Dmo.Effect.DmoDistortion.Params.EdgeMax
+  - NAudio.Dmo.Effect.DmoDistortion.Params.EdgeMin
+  - NAudio.Dmo.Effect.DmoDistortion.Params.Gain
+  - NAudio.Dmo.Effect.DmoDistortion.Params.GainDefault
+  - NAudio.Dmo.Effect.DmoDistortion.Params.GainMax
+  - NAudio.Dmo.Effect.DmoDistortion.Params.GainMin
+  - NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidth
+  - NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidthDefault
+  - NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidthMax
+  - NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidthMin
+  - NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequency
+  - NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequencyDefault
+  - NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequencyMax
+  - NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequencyMin
+  - NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoff
+  - NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoffDefault
+  - NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoffMax
+  - NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoffMin
+  langs:
+  - csharp
+  - vb
+  name: DmoDistortion.Params
+  nameWithType: DmoDistortion.Params
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params
+  type: Struct
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public struct DmoDistortion.Params
+    content.vb: Public Structure DmoDistortion.Params
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.GainMin
+  commentId: F:NAudio.Dmo.Effect.DmoDistortion.Params.GainMin
+  id: GainMin
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: GainMin
+  nameWithType: DmoDistortion.Params.GainMin
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.GainMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float GainMin = -60
+    return:
+      type: System.Single
+    content.vb: Public Const GainMin As Single = -60
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.GainMax
+  commentId: F:NAudio.Dmo.Effect.DmoDistortion.Params.GainMax
+  id: GainMax
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: GainMax
+  nameWithType: DmoDistortion.Params.GainMax
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.GainMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float GainMax = 0
+    return:
+      type: System.Single
+    content.vb: Public Const GainMax As Single = 0
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.GainDefault
+  commentId: F:NAudio.Dmo.Effect.DmoDistortion.Params.GainDefault
+  id: GainDefault
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: GainDefault
+  nameWithType: DmoDistortion.Params.GainDefault
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.GainDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float GainDefault = -18
+    return:
+      type: System.Single
+    content.vb: Public Const GainDefault As Single = -18
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.EdgeMin
+  commentId: F:NAudio.Dmo.Effect.DmoDistortion.Params.EdgeMin
+  id: EdgeMin
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: EdgeMin
+  nameWithType: DmoDistortion.Params.EdgeMin
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.EdgeMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float EdgeMin = 0
+    return:
+      type: System.Single
+    content.vb: Public Const EdgeMin As Single = 0
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.EdgeMax
+  commentId: F:NAudio.Dmo.Effect.DmoDistortion.Params.EdgeMax
+  id: EdgeMax
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: EdgeMax
+  nameWithType: DmoDistortion.Params.EdgeMax
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.EdgeMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float EdgeMax = 100
+    return:
+      type: System.Single
+    content.vb: Public Const EdgeMax As Single = 100
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.EdgeDefault
+  commentId: F:NAudio.Dmo.Effect.DmoDistortion.Params.EdgeDefault
+  id: EdgeDefault
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: EdgeDefault
+  nameWithType: DmoDistortion.Params.EdgeDefault
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.EdgeDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float EdgeDefault = 15
+    return:
+      type: System.Single
+    content.vb: Public Const EdgeDefault As Single = 15
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequencyMin
+  commentId: F:NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequencyMin
+  id: PostEqCenterFrequencyMin
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: PostEqCenterFrequencyMin
+  nameWithType: DmoDistortion.Params.PostEqCenterFrequencyMin
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequencyMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float PostEqCenterFrequencyMin = 100
+    return:
+      type: System.Single
+    content.vb: Public Const PostEqCenterFrequencyMin As Single = 100
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequencyMax
+  commentId: F:NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequencyMax
+  id: PostEqCenterFrequencyMax
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: PostEqCenterFrequencyMax
+  nameWithType: DmoDistortion.Params.PostEqCenterFrequencyMax
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequencyMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float PostEqCenterFrequencyMax = 8000
+    return:
+      type: System.Single
+    content.vb: Public Const PostEqCenterFrequencyMax As Single = 8000
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequencyDefault
+  commentId: F:NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequencyDefault
+  id: PostEqCenterFrequencyDefault
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: PostEqCenterFrequencyDefault
+  nameWithType: DmoDistortion.Params.PostEqCenterFrequencyDefault
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequencyDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float PostEqCenterFrequencyDefault = 2400
+    return:
+      type: System.Single
+    content.vb: Public Const PostEqCenterFrequencyDefault As Single = 2400
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidthMin
+  commentId: F:NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidthMin
+  id: PostEqBandWidthMin
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: PostEqBandWidthMin
+  nameWithType: DmoDistortion.Params.PostEqBandWidthMin
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidthMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float PostEqBandWidthMin = 100
+    return:
+      type: System.Single
+    content.vb: Public Const PostEqBandWidthMin As Single = 100
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidthMax
+  commentId: F:NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidthMax
+  id: PostEqBandWidthMax
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: PostEqBandWidthMax
+  nameWithType: DmoDistortion.Params.PostEqBandWidthMax
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidthMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float PostEqBandWidthMax = 8000
+    return:
+      type: System.Single
+    content.vb: Public Const PostEqBandWidthMax As Single = 8000
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidthDefault
+  commentId: F:NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidthDefault
+  id: PostEqBandWidthDefault
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: PostEqBandWidthDefault
+  nameWithType: DmoDistortion.Params.PostEqBandWidthDefault
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidthDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float PostEqBandWidthDefault = 2400
+    return:
+      type: System.Single
+    content.vb: Public Const PostEqBandWidthDefault As Single = 2400
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoffMin
+  commentId: F:NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoffMin
+  id: PreLowPassCutoffMin
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: PreLowPassCutoffMin
+  nameWithType: DmoDistortion.Params.PreLowPassCutoffMin
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoffMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float PreLowPassCutoffMin = 100
+    return:
+      type: System.Single
+    content.vb: Public Const PreLowPassCutoffMin As Single = 100
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoffMax
+  commentId: F:NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoffMax
+  id: PreLowPassCutoffMax
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: PreLowPassCutoffMax
+  nameWithType: DmoDistortion.Params.PreLowPassCutoffMax
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoffMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float PreLowPassCutoffMax = 8000
+    return:
+      type: System.Single
+    content.vb: Public Const PreLowPassCutoffMax As Single = 8000
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoffDefault
+  commentId: F:NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoffDefault
+  id: PreLowPassCutoffDefault
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: PreLowPassCutoffDefault
+  nameWithType: DmoDistortion.Params.PreLowPassCutoffDefault
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoffDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float PreLowPassCutoffDefault = 8000
+    return:
+      type: System.Single
+    content.vb: Public Const PreLowPassCutoffDefault As Single = 8000
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.Gain
+  commentId: P:NAudio.Dmo.Effect.DmoDistortion.Params.Gain
+  id: Gain
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: Gain
+  nameWithType: DmoDistortion.Params.Gain
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.Gain
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float Gain { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Gain As Single
+  overload: NAudio.Dmo.Effect.DmoDistortion.Params.Gain*
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.Edge
+  commentId: P:NAudio.Dmo.Effect.DmoDistortion.Params.Edge
+  id: Edge
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: Edge
+  nameWithType: DmoDistortion.Params.Edge
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.Edge
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float Edge { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Edge As Single
+  overload: NAudio.Dmo.Effect.DmoDistortion.Params.Edge*
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequency
+  commentId: P:NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequency
+  id: PostEqCenterFrequency
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: PostEqCenterFrequency
+  nameWithType: DmoDistortion.Params.PostEqCenterFrequency
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequency
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float PostEqCenterFrequency { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property PostEqCenterFrequency As Single
+  overload: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequency*
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidth
+  commentId: P:NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidth
+  id: PostEqBandWidth
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: PostEqBandWidth
+  nameWithType: DmoDistortion.Params.PostEqBandWidth
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidth
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float PostEqBandWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property PostEqBandWidth As Single
+  overload: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidth*
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoff
+  commentId: P:NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoff
+  id: PreLowPassCutoff
+  parent: NAudio.Dmo.Effect.DmoDistortion.Params
+  langs:
+  - csharp
+  - vb
+  name: PreLowPassCutoff
+  nameWithType: DmoDistortion.Params.PreLowPassCutoff
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoff
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float PreLowPassCutoff { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property PreLowPassCutoff As Single
+  overload: NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoff*
+references:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.Gain*
+  commentId: Overload:NAudio.Dmo.Effect.DmoDistortion.Params.Gain
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoDistortion.Params.html#NAudio_Dmo_Effect_DmoDistortion_Params_Gain
+  name: Gain
+  nameWithType: DmoDistortion.Params.Gain
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.Gain
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.Edge*
+  commentId: Overload:NAudio.Dmo.Effect.DmoDistortion.Params.Edge
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoDistortion.Params.html#NAudio_Dmo_Effect_DmoDistortion_Params_Edge
+  name: Edge
+  nameWithType: DmoDistortion.Params.Edge
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.Edge
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequency*
+  commentId: Overload:NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequency
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoDistortion.Params.html#NAudio_Dmo_Effect_DmoDistortion_Params_PostEqCenterFrequency
+  name: PostEqCenterFrequency
+  nameWithType: DmoDistortion.Params.PostEqCenterFrequency
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqCenterFrequency
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidth*
+  commentId: Overload:NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidth
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoDistortion.Params.html#NAudio_Dmo_Effect_DmoDistortion_Params_PostEqBandWidth
+  name: PostEqBandWidth
+  nameWithType: DmoDistortion.Params.PostEqBandWidth
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.PostEqBandWidth
+- uid: NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoff*
+  commentId: Overload:NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoff
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoDistortion.Params.html#NAudio_Dmo_Effect_DmoDistortion_Params_PreLowPassCutoff
+  name: PreLowPassCutoff
+  nameWithType: DmoDistortion.Params.PreLowPassCutoff
+  fullName: NAudio.Dmo.Effect.DmoDistortion.Params.PreLowPassCutoff

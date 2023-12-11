@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.SoundFont.SourceTypeEnum
+  commentId: T:NAudio.SoundFont.SourceTypeEnum
+  id: SourceTypeEnum
+  parent: NAudio.SoundFont
+  children:
+  - NAudio.SoundFont.SourceTypeEnum.Concave
+  - NAudio.SoundFont.SourceTypeEnum.Convex
+  - NAudio.SoundFont.SourceTypeEnum.Linear
+  - NAudio.SoundFont.SourceTypeEnum.Switch
+  langs:
+  - csharp
+  - vb
+  name: SourceTypeEnum
+  nameWithType: SourceTypeEnum
+  fullName: NAudio.SoundFont.SourceTypeEnum
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public enum SourceTypeEnum
+    content.vb: Public Enum SourceTypeEnum
+- uid: NAudio.SoundFont.SourceTypeEnum.Linear
+  commentId: F:NAudio.SoundFont.SourceTypeEnum.Linear
+  id: Linear
+  parent: NAudio.SoundFont.SourceTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Linear
+  nameWithType: SourceTypeEnum.Linear
+  fullName: NAudio.SoundFont.SourceTypeEnum.Linear
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: Linear = 0
+    return:
+      type: NAudio.SoundFont.SourceTypeEnum
+- uid: NAudio.SoundFont.SourceTypeEnum.Concave
+  commentId: F:NAudio.SoundFont.SourceTypeEnum.Concave
+  id: Concave
+  parent: NAudio.SoundFont.SourceTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Concave
+  nameWithType: SourceTypeEnum.Concave
+  fullName: NAudio.SoundFont.SourceTypeEnum.Concave
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: Concave = 1
+    return:
+      type: NAudio.SoundFont.SourceTypeEnum
+- uid: NAudio.SoundFont.SourceTypeEnum.Convex
+  commentId: F:NAudio.SoundFont.SourceTypeEnum.Convex
+  id: Convex
+  parent: NAudio.SoundFont.SourceTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Convex
+  nameWithType: SourceTypeEnum.Convex
+  fullName: NAudio.SoundFont.SourceTypeEnum.Convex
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: Convex = 2
+    return:
+      type: NAudio.SoundFont.SourceTypeEnum
+- uid: NAudio.SoundFont.SourceTypeEnum.Switch
+  commentId: F:NAudio.SoundFont.SourceTypeEnum.Switch
+  id: Switch
+  parent: NAudio.SoundFont.SourceTypeEnum
+  langs:
+  - csharp
+  - vb
+  name: Switch
+  nameWithType: SourceTypeEnum.Switch
+  fullName: NAudio.SoundFont.SourceTypeEnum.Switch
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: Switch = 3
+    return:
+      type: NAudio.SoundFont.SourceTypeEnum
+references:
+- uid: NAudio.SoundFont
+  commentId: N:NAudio.SoundFont
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.SoundFont
+  nameWithType: NAudio.SoundFont
+  fullName: NAudio.SoundFont
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.SoundFont
+    name: SoundFont
+    isExternal: true
+    href: NAudio.SoundFont.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.SoundFont
+    name: SoundFont
+    isExternal: true
+    href: NAudio.SoundFont.html
+- uid: NAudio.SoundFont.SourceTypeEnum
+  commentId: T:NAudio.SoundFont.SourceTypeEnum
+  parent: NAudio.SoundFont
+  isExternal: true
+  href: NAudio.SoundFont.SourceTypeEnum.html
+  name: SourceTypeEnum
+  nameWithType: SourceTypeEnum
+  fullName: NAudio.SoundFont.SourceTypeEnum

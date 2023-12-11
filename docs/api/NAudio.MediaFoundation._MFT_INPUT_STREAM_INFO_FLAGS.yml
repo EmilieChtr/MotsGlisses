@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+  commentId: T:NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+  id: _MFT_INPUT_STREAM_INFO_FLAGS
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_DOES_NOT_ADDREF
+  - NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_FIXED_SAMPLE_SIZE
+  - NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_HOLDS_BUFFERS
+  - NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_OPTIONAL
+  - NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_PROCESSES_IN_PLACE
+  - NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_REMOVABLE
+  - NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_SINGLE_SAMPLE_PER_BUFFER
+  - NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_WHOLE_SAMPLES
+  - NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.None
+  langs:
+  - csharp
+  - vb
+  name: _MFT_INPUT_STREAM_INFO_FLAGS
+  nameWithType: _MFT_INPUT_STREAM_INFO_FLAGS
+  fullName: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum _MFT_INPUT_STREAM_INFO_FLAGS
+    content.vb: >-
+      <Flags>
+
+      Public Enum _MFT_INPUT_STREAM_INFO_FLAGS
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.None
+  commentId: F:NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.None
+  id: None
+  parent: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: _MFT_INPUT_STREAM_INFO_FLAGS.None
+  fullName: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.None
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: None = 0
+    return:
+      type: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+- uid: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_WHOLE_SAMPLES
+  commentId: F:NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_WHOLE_SAMPLES
+  id: MFT_INPUT_STREAM_WHOLE_SAMPLES
+  parent: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: MFT_INPUT_STREAM_WHOLE_SAMPLES
+  nameWithType: _MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_WHOLE_SAMPLES
+  fullName: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_WHOLE_SAMPLES
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_INPUT_STREAM_WHOLE_SAMPLES = 1
+    return:
+      type: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+- uid: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_SINGLE_SAMPLE_PER_BUFFER
+  commentId: F:NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_SINGLE_SAMPLE_PER_BUFFER
+  id: MFT_INPUT_STREAM_SINGLE_SAMPLE_PER_BUFFER
+  parent: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: MFT_INPUT_STREAM_SINGLE_SAMPLE_PER_BUFFER
+  nameWithType: _MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_SINGLE_SAMPLE_PER_BUFFER
+  fullName: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_SINGLE_SAMPLE_PER_BUFFER
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_INPUT_STREAM_SINGLE_SAMPLE_PER_BUFFER = 2
+    return:
+      type: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+- uid: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_FIXED_SAMPLE_SIZE
+  commentId: F:NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_FIXED_SAMPLE_SIZE
+  id: MFT_INPUT_STREAM_FIXED_SAMPLE_SIZE
+  parent: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: MFT_INPUT_STREAM_FIXED_SAMPLE_SIZE
+  nameWithType: _MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_FIXED_SAMPLE_SIZE
+  fullName: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_FIXED_SAMPLE_SIZE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_INPUT_STREAM_FIXED_SAMPLE_SIZE = 4
+    return:
+      type: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+- uid: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_HOLDS_BUFFERS
+  commentId: F:NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_HOLDS_BUFFERS
+  id: MFT_INPUT_STREAM_HOLDS_BUFFERS
+  parent: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: MFT_INPUT_STREAM_HOLDS_BUFFERS
+  nameWithType: _MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_HOLDS_BUFFERS
+  fullName: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_HOLDS_BUFFERS
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_INPUT_STREAM_HOLDS_BUFFERS = 8
+    return:
+      type: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+- uid: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_DOES_NOT_ADDREF
+  commentId: F:NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_DOES_NOT_ADDREF
+  id: MFT_INPUT_STREAM_DOES_NOT_ADDREF
+  parent: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: MFT_INPUT_STREAM_DOES_NOT_ADDREF
+  nameWithType: _MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_DOES_NOT_ADDREF
+  fullName: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_DOES_NOT_ADDREF
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_INPUT_STREAM_DOES_NOT_ADDREF = 256
+    return:
+      type: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+- uid: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_REMOVABLE
+  commentId: F:NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_REMOVABLE
+  id: MFT_INPUT_STREAM_REMOVABLE
+  parent: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: MFT_INPUT_STREAM_REMOVABLE
+  nameWithType: _MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_REMOVABLE
+  fullName: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_REMOVABLE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_INPUT_STREAM_REMOVABLE = 512
+    return:
+      type: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+- uid: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_OPTIONAL
+  commentId: F:NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_OPTIONAL
+  id: MFT_INPUT_STREAM_OPTIONAL
+  parent: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: MFT_INPUT_STREAM_OPTIONAL
+  nameWithType: _MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_OPTIONAL
+  fullName: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_OPTIONAL
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_INPUT_STREAM_OPTIONAL = 1024
+    return:
+      type: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+- uid: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_PROCESSES_IN_PLACE
+  commentId: F:NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_PROCESSES_IN_PLACE
+  id: MFT_INPUT_STREAM_PROCESSES_IN_PLACE
+  parent: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: MFT_INPUT_STREAM_PROCESSES_IN_PLACE
+  nameWithType: _MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_PROCESSES_IN_PLACE
+  fullName: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.MFT_INPUT_STREAM_PROCESSES_IN_PLACE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_INPUT_STREAM_PROCESSES_IN_PLACE = 2048
+    return:
+      type: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+  commentId: T:NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.html
+  name: _MFT_INPUT_STREAM_INFO_FLAGS
+  nameWithType: _MFT_INPUT_STREAM_INFO_FLAGS
+  fullName: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS

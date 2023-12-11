@@ -1,0 +1,663 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MmResult
+  commentId: T:NAudio.MmResult
+  id: MmResult
+  parent: NAudio
+  children:
+  - NAudio.MmResult.AcmBusy
+  - NAudio.MmResult.AcmCancelled
+  - NAudio.MmResult.AcmHeaderUnprepared
+  - NAudio.MmResult.AcmNotPossible
+  - NAudio.MmResult.AlreadyAllocated
+  - NAudio.MmResult.BadDeviceId
+  - NAudio.MmResult.BadErrorNumber
+  - NAudio.MmResult.BadRegistryDatabase
+  - NAudio.MmResult.HandleBusy
+  - NAudio.MmResult.InvalidAlias
+  - NAudio.MmResult.InvalidFlag
+  - NAudio.MmResult.InvalidHandle
+  - NAudio.MmResult.InvalidParameter
+  - NAudio.MmResult.MemoryAllocationError
+  - NAudio.MmResult.MixerInvalidControl
+  - NAudio.MmResult.MixerInvalidLine
+  - NAudio.MmResult.MixerInvalidValue
+  - NAudio.MmResult.MoreData
+  - NAudio.MmResult.NoDriver
+  - NAudio.MmResult.NoDriverCallback
+  - NAudio.MmResult.NoError
+  - NAudio.MmResult.NotEnabled
+  - NAudio.MmResult.NotSupported
+  - NAudio.MmResult.RegistryDeleteError
+  - NAudio.MmResult.RegistryKeyNotFound
+  - NAudio.MmResult.RegistryReadError
+  - NAudio.MmResult.RegistryValueNotFound
+  - NAudio.MmResult.RegistryWriteError
+  - NAudio.MmResult.UnspecifiedError
+  - NAudio.MmResult.WaveBadFormat
+  - NAudio.MmResult.WaveHeaderUnprepared
+  - NAudio.MmResult.WaveStillPlaying
+  - NAudio.MmResult.WaveSync
+  langs:
+  - csharp
+  - vb
+  name: MmResult
+  nameWithType: MmResult
+  fullName: NAudio.MmResult
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: public enum MmResult
+    content.vb: Public Enum MmResult
+- uid: NAudio.MmResult.NoError
+  commentId: F:NAudio.MmResult.NoError
+  id: NoError
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: NoError
+  nameWithType: MmResult.NoError
+  fullName: NAudio.MmResult.NoError
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: NoError = 0
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.UnspecifiedError
+  commentId: F:NAudio.MmResult.UnspecifiedError
+  id: UnspecifiedError
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: UnspecifiedError
+  nameWithType: MmResult.UnspecifiedError
+  fullName: NAudio.MmResult.UnspecifiedError
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: UnspecifiedError = 1
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.BadDeviceId
+  commentId: F:NAudio.MmResult.BadDeviceId
+  id: BadDeviceId
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: BadDeviceId
+  nameWithType: MmResult.BadDeviceId
+  fullName: NAudio.MmResult.BadDeviceId
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: BadDeviceId = 2
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.NotEnabled
+  commentId: F:NAudio.MmResult.NotEnabled
+  id: NotEnabled
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: NotEnabled
+  nameWithType: MmResult.NotEnabled
+  fullName: NAudio.MmResult.NotEnabled
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: NotEnabled = 3
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.AlreadyAllocated
+  commentId: F:NAudio.MmResult.AlreadyAllocated
+  id: AlreadyAllocated
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: AlreadyAllocated
+  nameWithType: MmResult.AlreadyAllocated
+  fullName: NAudio.MmResult.AlreadyAllocated
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: AlreadyAllocated = 4
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.InvalidHandle
+  commentId: F:NAudio.MmResult.InvalidHandle
+  id: InvalidHandle
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: InvalidHandle
+  nameWithType: MmResult.InvalidHandle
+  fullName: NAudio.MmResult.InvalidHandle
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: InvalidHandle = 5
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.NoDriver
+  commentId: F:NAudio.MmResult.NoDriver
+  id: NoDriver
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: NoDriver
+  nameWithType: MmResult.NoDriver
+  fullName: NAudio.MmResult.NoDriver
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: NoDriver = 6
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.MemoryAllocationError
+  commentId: F:NAudio.MmResult.MemoryAllocationError
+  id: MemoryAllocationError
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: MemoryAllocationError
+  nameWithType: MmResult.MemoryAllocationError
+  fullName: NAudio.MmResult.MemoryAllocationError
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: MemoryAllocationError = 7
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.NotSupported
+  commentId: F:NAudio.MmResult.NotSupported
+  id: NotSupported
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: NotSupported
+  nameWithType: MmResult.NotSupported
+  fullName: NAudio.MmResult.NotSupported
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: NotSupported = 8
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.BadErrorNumber
+  commentId: F:NAudio.MmResult.BadErrorNumber
+  id: BadErrorNumber
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: BadErrorNumber
+  nameWithType: MmResult.BadErrorNumber
+  fullName: NAudio.MmResult.BadErrorNumber
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: BadErrorNumber = 9
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.InvalidFlag
+  commentId: F:NAudio.MmResult.InvalidFlag
+  id: InvalidFlag
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: InvalidFlag
+  nameWithType: MmResult.InvalidFlag
+  fullName: NAudio.MmResult.InvalidFlag
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: InvalidFlag = 10
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.InvalidParameter
+  commentId: F:NAudio.MmResult.InvalidParameter
+  id: InvalidParameter
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: InvalidParameter
+  nameWithType: MmResult.InvalidParameter
+  fullName: NAudio.MmResult.InvalidParameter
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: InvalidParameter = 11
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.HandleBusy
+  commentId: F:NAudio.MmResult.HandleBusy
+  id: HandleBusy
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: HandleBusy
+  nameWithType: MmResult.HandleBusy
+  fullName: NAudio.MmResult.HandleBusy
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: HandleBusy = 12
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.InvalidAlias
+  commentId: F:NAudio.MmResult.InvalidAlias
+  id: InvalidAlias
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: InvalidAlias
+  nameWithType: MmResult.InvalidAlias
+  fullName: NAudio.MmResult.InvalidAlias
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: InvalidAlias = 13
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.BadRegistryDatabase
+  commentId: F:NAudio.MmResult.BadRegistryDatabase
+  id: BadRegistryDatabase
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: BadRegistryDatabase
+  nameWithType: MmResult.BadRegistryDatabase
+  fullName: NAudio.MmResult.BadRegistryDatabase
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: BadRegistryDatabase = 14
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.RegistryKeyNotFound
+  commentId: F:NAudio.MmResult.RegistryKeyNotFound
+  id: RegistryKeyNotFound
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: RegistryKeyNotFound
+  nameWithType: MmResult.RegistryKeyNotFound
+  fullName: NAudio.MmResult.RegistryKeyNotFound
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: RegistryKeyNotFound = 15
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.RegistryReadError
+  commentId: F:NAudio.MmResult.RegistryReadError
+  id: RegistryReadError
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: RegistryReadError
+  nameWithType: MmResult.RegistryReadError
+  fullName: NAudio.MmResult.RegistryReadError
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: RegistryReadError = 16
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.RegistryWriteError
+  commentId: F:NAudio.MmResult.RegistryWriteError
+  id: RegistryWriteError
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: RegistryWriteError
+  nameWithType: MmResult.RegistryWriteError
+  fullName: NAudio.MmResult.RegistryWriteError
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: RegistryWriteError = 17
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.RegistryDeleteError
+  commentId: F:NAudio.MmResult.RegistryDeleteError
+  id: RegistryDeleteError
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: RegistryDeleteError
+  nameWithType: MmResult.RegistryDeleteError
+  fullName: NAudio.MmResult.RegistryDeleteError
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: RegistryDeleteError = 18
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.RegistryValueNotFound
+  commentId: F:NAudio.MmResult.RegistryValueNotFound
+  id: RegistryValueNotFound
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: RegistryValueNotFound
+  nameWithType: MmResult.RegistryValueNotFound
+  fullName: NAudio.MmResult.RegistryValueNotFound
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: RegistryValueNotFound = 19
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.NoDriverCallback
+  commentId: F:NAudio.MmResult.NoDriverCallback
+  id: NoDriverCallback
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: NoDriverCallback
+  nameWithType: MmResult.NoDriverCallback
+  fullName: NAudio.MmResult.NoDriverCallback
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: NoDriverCallback = 20
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.MoreData
+  commentId: F:NAudio.MmResult.MoreData
+  id: MoreData
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: MoreData
+  nameWithType: MmResult.MoreData
+  fullName: NAudio.MmResult.MoreData
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: MoreData = 21
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.WaveBadFormat
+  commentId: F:NAudio.MmResult.WaveBadFormat
+  id: WaveBadFormat
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: WaveBadFormat
+  nameWithType: MmResult.WaveBadFormat
+  fullName: NAudio.MmResult.WaveBadFormat
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: WaveBadFormat = 32
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.WaveStillPlaying
+  commentId: F:NAudio.MmResult.WaveStillPlaying
+  id: WaveStillPlaying
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: WaveStillPlaying
+  nameWithType: MmResult.WaveStillPlaying
+  fullName: NAudio.MmResult.WaveStillPlaying
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: WaveStillPlaying = 33
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.WaveHeaderUnprepared
+  commentId: F:NAudio.MmResult.WaveHeaderUnprepared
+  id: WaveHeaderUnprepared
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: WaveHeaderUnprepared
+  nameWithType: MmResult.WaveHeaderUnprepared
+  fullName: NAudio.MmResult.WaveHeaderUnprepared
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: WaveHeaderUnprepared = 34
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.WaveSync
+  commentId: F:NAudio.MmResult.WaveSync
+  id: WaveSync
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: WaveSync
+  nameWithType: MmResult.WaveSync
+  fullName: NAudio.MmResult.WaveSync
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: WaveSync = 35
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.AcmNotPossible
+  commentId: F:NAudio.MmResult.AcmNotPossible
+  id: AcmNotPossible
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: AcmNotPossible
+  nameWithType: MmResult.AcmNotPossible
+  fullName: NAudio.MmResult.AcmNotPossible
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: AcmNotPossible = 512
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.AcmBusy
+  commentId: F:NAudio.MmResult.AcmBusy
+  id: AcmBusy
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: AcmBusy
+  nameWithType: MmResult.AcmBusy
+  fullName: NAudio.MmResult.AcmBusy
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: AcmBusy = 513
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.AcmHeaderUnprepared
+  commentId: F:NAudio.MmResult.AcmHeaderUnprepared
+  id: AcmHeaderUnprepared
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: AcmHeaderUnprepared
+  nameWithType: MmResult.AcmHeaderUnprepared
+  fullName: NAudio.MmResult.AcmHeaderUnprepared
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: AcmHeaderUnprepared = 514
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.AcmCancelled
+  commentId: F:NAudio.MmResult.AcmCancelled
+  id: AcmCancelled
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: AcmCancelled
+  nameWithType: MmResult.AcmCancelled
+  fullName: NAudio.MmResult.AcmCancelled
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: AcmCancelled = 515
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.MixerInvalidLine
+  commentId: F:NAudio.MmResult.MixerInvalidLine
+  id: MixerInvalidLine
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: MixerInvalidLine
+  nameWithType: MmResult.MixerInvalidLine
+  fullName: NAudio.MmResult.MixerInvalidLine
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: MixerInvalidLine = 1024
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.MixerInvalidControl
+  commentId: F:NAudio.MmResult.MixerInvalidControl
+  id: MixerInvalidControl
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: MixerInvalidControl
+  nameWithType: MmResult.MixerInvalidControl
+  fullName: NAudio.MmResult.MixerInvalidControl
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: MixerInvalidControl = 1025
+    return:
+      type: NAudio.MmResult
+- uid: NAudio.MmResult.MixerInvalidValue
+  commentId: F:NAudio.MmResult.MixerInvalidValue
+  id: MixerInvalidValue
+  parent: NAudio.MmResult
+  langs:
+  - csharp
+  - vb
+  name: MixerInvalidValue
+  nameWithType: MmResult.MixerInvalidValue
+  fullName: NAudio.MmResult.MixerInvalidValue
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: MixerInvalidValue = 1026
+    return:
+      type: NAudio.MmResult
+references:
+- uid: NAudio
+  commentId: N:NAudio
+  isExternal: true
+  href: NAudio.html
+  name: NAudio
+  nameWithType: NAudio
+  fullName: NAudio
+- uid: NAudio.MmResult
+  commentId: T:NAudio.MmResult
+  parent: NAudio
+  isExternal: true
+  href: NAudio.MmResult.html
+  name: MmResult
+  nameWithType: MmResult
+  fullName: NAudio.MmResult

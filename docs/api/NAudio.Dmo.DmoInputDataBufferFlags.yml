@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.DmoInputDataBufferFlags
+  commentId: T:NAudio.Dmo.DmoInputDataBufferFlags
+  id: DmoInputDataBufferFlags
+  parent: NAudio.Dmo
+  children:
+  - NAudio.Dmo.DmoInputDataBufferFlags.None
+  - NAudio.Dmo.DmoInputDataBufferFlags.SyncPoint
+  - NAudio.Dmo.DmoInputDataBufferFlags.Time
+  - NAudio.Dmo.DmoInputDataBufferFlags.TimeLength
+  langs:
+  - csharp
+  - vb
+  name: DmoInputDataBufferFlags
+  nameWithType: DmoInputDataBufferFlags
+  fullName: NAudio.Dmo.DmoInputDataBufferFlags
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum DmoInputDataBufferFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum DmoInputDataBufferFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.Dmo.DmoInputDataBufferFlags.None
+  commentId: F:NAudio.Dmo.DmoInputDataBufferFlags.None
+  id: None
+  parent: NAudio.Dmo.DmoInputDataBufferFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DmoInputDataBufferFlags.None
+  fullName: NAudio.Dmo.DmoInputDataBufferFlags.None
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: None = 0
+    return:
+      type: NAudio.Dmo.DmoInputDataBufferFlags
+- uid: NAudio.Dmo.DmoInputDataBufferFlags.SyncPoint
+  commentId: F:NAudio.Dmo.DmoInputDataBufferFlags.SyncPoint
+  id: SyncPoint
+  parent: NAudio.Dmo.DmoInputDataBufferFlags
+  langs:
+  - csharp
+  - vb
+  name: SyncPoint
+  nameWithType: DmoInputDataBufferFlags.SyncPoint
+  fullName: NAudio.Dmo.DmoInputDataBufferFlags.SyncPoint
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: SyncPoint = 1
+    return:
+      type: NAudio.Dmo.DmoInputDataBufferFlags
+- uid: NAudio.Dmo.DmoInputDataBufferFlags.Time
+  commentId: F:NAudio.Dmo.DmoInputDataBufferFlags.Time
+  id: Time
+  parent: NAudio.Dmo.DmoInputDataBufferFlags
+  langs:
+  - csharp
+  - vb
+  name: Time
+  nameWithType: DmoInputDataBufferFlags.Time
+  fullName: NAudio.Dmo.DmoInputDataBufferFlags.Time
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: Time = 2
+    return:
+      type: NAudio.Dmo.DmoInputDataBufferFlags
+- uid: NAudio.Dmo.DmoInputDataBufferFlags.TimeLength
+  commentId: F:NAudio.Dmo.DmoInputDataBufferFlags.TimeLength
+  id: TimeLength
+  parent: NAudio.Dmo.DmoInputDataBufferFlags
+  langs:
+  - csharp
+  - vb
+  name: TimeLength
+  nameWithType: DmoInputDataBufferFlags.TimeLength
+  fullName: NAudio.Dmo.DmoInputDataBufferFlags.TimeLength
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: TimeLength = 4
+    return:
+      type: NAudio.Dmo.DmoInputDataBufferFlags
+references:
+- uid: NAudio.Dmo
+  commentId: N:NAudio.Dmo
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo
+  nameWithType: NAudio.Dmo
+  fullName: NAudio.Dmo
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+- uid: NAudio.Dmo.DmoInputDataBufferFlags
+  commentId: T:NAudio.Dmo.DmoInputDataBufferFlags
+  parent: NAudio.Dmo
+  isExternal: true
+  href: NAudio.Dmo.DmoInputDataBufferFlags.html
+  name: DmoInputDataBufferFlags
+  nameWithType: DmoInputDataBufferFlags
+  fullName: NAudio.Dmo.DmoInputDataBufferFlags

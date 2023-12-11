@@ -1,0 +1,324 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IMMNotificationClient
+  id: IMMNotificationClient
+  parent: NAudio.CoreAudioApi.Interfaces
+  children:
+  - NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDefaultDeviceChanged(NAudio.CoreAudioApi.DataFlow,NAudio.CoreAudioApi.Role,System.String)
+  - NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceAdded(System.String)
+  - NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceRemoved(System.String)
+  - NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceStateChanged(System.String,NAudio.CoreAudioApi.DeviceState)
+  - NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnPropertyValueChanged(System.String,NAudio.CoreAudioApi.PropertyKey)
+  langs:
+  - csharp
+  - vb
+  name: IMMNotificationClient
+  nameWithType: IMMNotificationClient
+  fullName: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: >-
+      [Guid("7991EEC9-7E89-4D85-8390-6C703CEC60C0")]
+
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      public interface IMMNotificationClient
+    content.vb: >-
+      <Guid("7991EEC9-7E89-4D85-8390-6C703CEC60C0")>
+
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      Public Interface IMMNotificationClient
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 7991EEC9-7E89-4D85-8390-6C703CEC60C0
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+- uid: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceStateChanged(System.String,NAudio.CoreAudioApi.DeviceState)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceStateChanged(System.String,NAudio.CoreAudioApi.DeviceState)
+  id: OnDeviceStateChanged(System.String,NAudio.CoreAudioApi.DeviceState)
+  parent: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient
+  langs:
+  - csharp
+  - vb
+  name: OnDeviceStateChanged(string, DeviceState)
+  nameWithType: IMMNotificationClient.OnDeviceStateChanged(string, DeviceState)
+  fullName: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceStateChanged(string, NAudio.CoreAudioApi.DeviceState)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: void OnDeviceStateChanged(string deviceId, DeviceState newState)
+    parameters:
+    - id: deviceId
+      type: System.String
+    - id: newState
+      type: NAudio.CoreAudioApi.DeviceState
+    content.vb: Sub OnDeviceStateChanged(deviceId As String, newState As DeviceState)
+  overload: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceStateChanged*
+  nameWithType.vb: IMMNotificationClient.OnDeviceStateChanged(String, DeviceState)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceStateChanged(String, NAudio.CoreAudioApi.DeviceState)
+  name.vb: OnDeviceStateChanged(String, DeviceState)
+- uid: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceAdded(System.String)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceAdded(System.String)
+  id: OnDeviceAdded(System.String)
+  parent: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient
+  langs:
+  - csharp
+  - vb
+  name: OnDeviceAdded(string)
+  nameWithType: IMMNotificationClient.OnDeviceAdded(string)
+  fullName: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceAdded(string)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: void OnDeviceAdded(string pwstrDeviceId)
+    parameters:
+    - id: pwstrDeviceId
+      type: System.String
+    content.vb: Sub OnDeviceAdded(pwstrDeviceId As String)
+  overload: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceAdded*
+  nameWithType.vb: IMMNotificationClient.OnDeviceAdded(String)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceAdded(String)
+  name.vb: OnDeviceAdded(String)
+- uid: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceRemoved(System.String)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceRemoved(System.String)
+  id: OnDeviceRemoved(System.String)
+  parent: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient
+  langs:
+  - csharp
+  - vb
+  name: OnDeviceRemoved(string)
+  nameWithType: IMMNotificationClient.OnDeviceRemoved(string)
+  fullName: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceRemoved(string)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: void OnDeviceRemoved(string deviceId)
+    parameters:
+    - id: deviceId
+      type: System.String
+    content.vb: Sub OnDeviceRemoved(deviceId As String)
+  overload: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceRemoved*
+  nameWithType.vb: IMMNotificationClient.OnDeviceRemoved(String)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceRemoved(String)
+  name.vb: OnDeviceRemoved(String)
+- uid: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDefaultDeviceChanged(NAudio.CoreAudioApi.DataFlow,NAudio.CoreAudioApi.Role,System.String)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDefaultDeviceChanged(NAudio.CoreAudioApi.DataFlow,NAudio.CoreAudioApi.Role,System.String)
+  id: OnDefaultDeviceChanged(NAudio.CoreAudioApi.DataFlow,NAudio.CoreAudioApi.Role,System.String)
+  parent: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient
+  langs:
+  - csharp
+  - vb
+  name: OnDefaultDeviceChanged(DataFlow, Role, string)
+  nameWithType: IMMNotificationClient.OnDefaultDeviceChanged(DataFlow, Role, string)
+  fullName: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDefaultDeviceChanged(NAudio.CoreAudioApi.DataFlow, NAudio.CoreAudioApi.Role, string)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: void OnDefaultDeviceChanged(DataFlow flow, Role role, string defaultDeviceId)
+    parameters:
+    - id: flow
+      type: NAudio.CoreAudioApi.DataFlow
+    - id: role
+      type: NAudio.CoreAudioApi.Role
+    - id: defaultDeviceId
+      type: System.String
+    content.vb: Sub OnDefaultDeviceChanged(flow As DataFlow, role As Role, defaultDeviceId As String)
+  overload: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDefaultDeviceChanged*
+  nameWithType.vb: IMMNotificationClient.OnDefaultDeviceChanged(DataFlow, Role, String)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDefaultDeviceChanged(NAudio.CoreAudioApi.DataFlow, NAudio.CoreAudioApi.Role, String)
+  name.vb: OnDefaultDeviceChanged(DataFlow, Role, String)
+- uid: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnPropertyValueChanged(System.String,NAudio.CoreAudioApi.PropertyKey)
+  commentId: M:NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnPropertyValueChanged(System.String,NAudio.CoreAudioApi.PropertyKey)
+  id: OnPropertyValueChanged(System.String,NAudio.CoreAudioApi.PropertyKey)
+  parent: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient
+  langs:
+  - csharp
+  - vb
+  name: OnPropertyValueChanged(string, PropertyKey)
+  nameWithType: IMMNotificationClient.OnPropertyValueChanged(string, PropertyKey)
+  fullName: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnPropertyValueChanged(string, NAudio.CoreAudioApi.PropertyKey)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: void OnPropertyValueChanged(string pwstrDeviceId, PropertyKey key)
+    parameters:
+    - id: pwstrDeviceId
+      type: System.String
+    - id: key
+      type: NAudio.CoreAudioApi.PropertyKey
+    content.vb: Sub OnPropertyValueChanged(pwstrDeviceId As String, key As PropertyKey)
+  overload: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnPropertyValueChanged*
+  nameWithType.vb: IMMNotificationClient.OnPropertyValueChanged(String, PropertyKey)
+  fullName.vb: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnPropertyValueChanged(String, NAudio.CoreAudioApi.PropertyKey)
+  name.vb: OnPropertyValueChanged(String, PropertyKey)
+references:
+- uid: NAudio.CoreAudioApi.Interfaces
+  commentId: N:NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi.Interfaces
+  nameWithType: NAudio.CoreAudioApi.Interfaces
+  fullName: NAudio.CoreAudioApi.Interfaces
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+- uid: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceStateChanged*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceStateChanged
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.html#NAudio_CoreAudioApi_Interfaces_IMMNotificationClient_OnDeviceStateChanged_System_String_NAudio_CoreAudioApi_DeviceState_
+  name: OnDeviceStateChanged
+  nameWithType: IMMNotificationClient.OnDeviceStateChanged
+  fullName: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceStateChanged
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.CoreAudioApi.DeviceState
+  commentId: T:NAudio.CoreAudioApi.DeviceState
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.DeviceState.html
+  name: DeviceState
+  nameWithType: DeviceState
+  fullName: NAudio.CoreAudioApi.DeviceState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceAdded*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceAdded
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.html#NAudio_CoreAudioApi_Interfaces_IMMNotificationClient_OnDeviceAdded_System_String_
+  name: OnDeviceAdded
+  nameWithType: IMMNotificationClient.OnDeviceAdded
+  fullName: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceAdded
+- uid: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceRemoved*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceRemoved
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.html#NAudio_CoreAudioApi_Interfaces_IMMNotificationClient_OnDeviceRemoved_System_String_
+  name: OnDeviceRemoved
+  nameWithType: IMMNotificationClient.OnDeviceRemoved
+  fullName: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDeviceRemoved
+- uid: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDefaultDeviceChanged*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDefaultDeviceChanged
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.html#NAudio_CoreAudioApi_Interfaces_IMMNotificationClient_OnDefaultDeviceChanged_NAudio_CoreAudioApi_DataFlow_NAudio_CoreAudioApi_Role_System_String_
+  name: OnDefaultDeviceChanged
+  nameWithType: IMMNotificationClient.OnDefaultDeviceChanged
+  fullName: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnDefaultDeviceChanged
+- uid: NAudio.CoreAudioApi.DataFlow
+  commentId: T:NAudio.CoreAudioApi.DataFlow
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.DataFlow.html
+  name: DataFlow
+  nameWithType: DataFlow
+  fullName: NAudio.CoreAudioApi.DataFlow
+- uid: NAudio.CoreAudioApi.Role
+  commentId: T:NAudio.CoreAudioApi.Role
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.Role.html
+  name: Role
+  nameWithType: Role
+  fullName: NAudio.CoreAudioApi.Role
+- uid: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnPropertyValueChanged*
+  commentId: Overload:NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnPropertyValueChanged
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.html#NAudio_CoreAudioApi_Interfaces_IMMNotificationClient_OnPropertyValueChanged_System_String_NAudio_CoreAudioApi_PropertyKey_
+  name: OnPropertyValueChanged
+  nameWithType: IMMNotificationClient.OnPropertyValueChanged
+  fullName: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient.OnPropertyValueChanged
+- uid: NAudio.CoreAudioApi.PropertyKey
+  commentId: T:NAudio.CoreAudioApi.PropertyKey
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.PropertyKey.html
+  name: PropertyKey
+  nameWithType: PropertyKey
+  fullName: NAudio.CoreAudioApi.PropertyKey

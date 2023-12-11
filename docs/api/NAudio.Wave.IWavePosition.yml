@@ -1,0 +1,227 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.IWavePosition
+  commentId: T:NAudio.Wave.IWavePosition
+  id: IWavePosition
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.IWavePosition.GetPosition
+  - NAudio.Wave.IWavePosition.OutputWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: IWavePosition
+  nameWithType: IWavePosition
+  fullName: NAudio.Wave.IWavePosition
+  type: Interface
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public interface IWavePosition
+    content.vb: Public Interface IWavePosition
+  extensionMethods:
+  - NAudio.Wave.IWavePosition.NAudio.Utils.WavePositionExtensions.GetPositionTimeSpan
+- uid: NAudio.Wave.IWavePosition.GetPosition
+  commentId: M:NAudio.Wave.IWavePosition.GetPosition
+  id: GetPosition
+  parent: NAudio.Wave.IWavePosition
+  langs:
+  - csharp
+  - vb
+  name: GetPosition()
+  nameWithType: IWavePosition.GetPosition()
+  fullName: NAudio.Wave.IWavePosition.GetPosition()
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: long GetPosition()
+    return:
+      type: System.Int64
+    content.vb: Function GetPosition() As Long
+  overload: NAudio.Wave.IWavePosition.GetPosition*
+- uid: NAudio.Wave.IWavePosition.OutputWaveFormat
+  commentId: P:NAudio.Wave.IWavePosition.OutputWaveFormat
+  id: OutputWaveFormat
+  parent: NAudio.Wave.IWavePosition
+  langs:
+  - csharp
+  - vb
+  name: OutputWaveFormat
+  nameWithType: IWavePosition.OutputWaveFormat
+  fullName: NAudio.Wave.IWavePosition.OutputWaveFormat
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: WaveFormat OutputWaveFormat { get; }
+    parameters: []
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: ReadOnly Property OutputWaveFormat As WaveFormat
+  overload: NAudio.Wave.IWavePosition.OutputWaveFormat*
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Wave.IWavePosition.NAudio.Utils.WavePositionExtensions.GetPositionTimeSpan
+  commentId: M:NAudio.Utils.WavePositionExtensions.GetPositionTimeSpan(NAudio.Wave.IWavePosition)
+  parent: NAudio.Utils.WavePositionExtensions
+  definition: NAudio.Utils.WavePositionExtensions.GetPositionTimeSpan(NAudio.Wave.IWavePosition)
+  href: NAudio.Utils.WavePositionExtensions.html#NAudio_Utils_WavePositionExtensions_GetPositionTimeSpan_NAudio_Wave_IWavePosition_
+  name: GetPositionTimeSpan(IWavePosition)
+  nameWithType: WavePositionExtensions.GetPositionTimeSpan(IWavePosition)
+  fullName: NAudio.Utils.WavePositionExtensions.GetPositionTimeSpan(NAudio.Wave.IWavePosition)
+  spec.csharp:
+  - uid: NAudio.Utils.WavePositionExtensions.GetPositionTimeSpan(NAudio.Wave.IWavePosition)
+    name: GetPositionTimeSpan
+    isExternal: true
+    href: NAudio.Utils.WavePositionExtensions.html#NAudio_Utils_WavePositionExtensions_GetPositionTimeSpan_NAudio_Wave_IWavePosition_
+  - name: (
+  - uid: NAudio.Wave.IWavePosition
+    name: IWavePosition
+    isExternal: true
+    href: NAudio.Wave.IWavePosition.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Utils.WavePositionExtensions.GetPositionTimeSpan(NAudio.Wave.IWavePosition)
+    name: GetPositionTimeSpan
+    isExternal: true
+    href: NAudio.Utils.WavePositionExtensions.html#NAudio_Utils_WavePositionExtensions_GetPositionTimeSpan_NAudio_Wave_IWavePosition_
+  - name: (
+  - uid: NAudio.Wave.IWavePosition
+    name: IWavePosition
+    isExternal: true
+    href: NAudio.Wave.IWavePosition.html
+  - name: )
+- uid: NAudio.Utils.WavePositionExtensions.GetPositionTimeSpan(NAudio.Wave.IWavePosition)
+  commentId: M:NAudio.Utils.WavePositionExtensions.GetPositionTimeSpan(NAudio.Wave.IWavePosition)
+  isExternal: true
+  href: NAudio.Utils.WavePositionExtensions.html#NAudio_Utils_WavePositionExtensions_GetPositionTimeSpan_NAudio_Wave_IWavePosition_
+  name: GetPositionTimeSpan(IWavePosition)
+  nameWithType: WavePositionExtensions.GetPositionTimeSpan(IWavePosition)
+  fullName: NAudio.Utils.WavePositionExtensions.GetPositionTimeSpan(NAudio.Wave.IWavePosition)
+  spec.csharp:
+  - uid: NAudio.Utils.WavePositionExtensions.GetPositionTimeSpan(NAudio.Wave.IWavePosition)
+    name: GetPositionTimeSpan
+    isExternal: true
+    href: NAudio.Utils.WavePositionExtensions.html#NAudio_Utils_WavePositionExtensions_GetPositionTimeSpan_NAudio_Wave_IWavePosition_
+  - name: (
+  - uid: NAudio.Wave.IWavePosition
+    name: IWavePosition
+    isExternal: true
+    href: NAudio.Wave.IWavePosition.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Utils.WavePositionExtensions.GetPositionTimeSpan(NAudio.Wave.IWavePosition)
+    name: GetPositionTimeSpan
+    isExternal: true
+    href: NAudio.Utils.WavePositionExtensions.html#NAudio_Utils_WavePositionExtensions_GetPositionTimeSpan_NAudio_Wave_IWavePosition_
+  - name: (
+  - uid: NAudio.Wave.IWavePosition
+    name: IWavePosition
+    isExternal: true
+    href: NAudio.Wave.IWavePosition.html
+  - name: )
+- uid: NAudio.Utils.WavePositionExtensions
+  commentId: T:NAudio.Utils.WavePositionExtensions
+  parent: NAudio.Utils
+  isExternal: true
+  href: NAudio.Utils.WavePositionExtensions.html
+  name: WavePositionExtensions
+  nameWithType: WavePositionExtensions
+  fullName: NAudio.Utils.WavePositionExtensions
+- uid: NAudio.Utils
+  commentId: N:NAudio.Utils
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Utils
+  nameWithType: NAudio.Utils
+  fullName: NAudio.Utils
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Utils
+    name: Utils
+    isExternal: true
+    href: NAudio.Utils.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Utils
+    name: Utils
+    isExternal: true
+    href: NAudio.Utils.html
+- uid: NAudio.Wave.IWavePosition.GetPosition*
+  commentId: Overload:NAudio.Wave.IWavePosition.GetPosition
+  isExternal: true
+  href: NAudio.Wave.IWavePosition.html#NAudio_Wave_IWavePosition_GetPosition
+  name: GetPosition
+  nameWithType: IWavePosition.GetPosition
+  fullName: NAudio.Wave.IWavePosition.GetPosition
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.IWavePosition.OutputWaveFormat*
+  commentId: Overload:NAudio.Wave.IWavePosition.OutputWaveFormat
+  isExternal: true
+  href: NAudio.Wave.IWavePosition.html#NAudio_Wave_IWavePosition_OutputWaveFormat
+  name: OutputWaveFormat
+  nameWithType: IWavePosition.OutputWaveFormat
+  fullName: NAudio.Wave.IWavePosition.OutputWaveFormat
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat

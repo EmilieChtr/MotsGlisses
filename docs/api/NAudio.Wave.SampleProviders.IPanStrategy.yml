@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.SampleProviders.IPanStrategy
+  commentId: T:NAudio.Wave.SampleProviders.IPanStrategy
+  id: IPanStrategy
+  parent: NAudio.Wave.SampleProviders
+  children:
+  - NAudio.Wave.SampleProviders.IPanStrategy.GetMultipliers(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: IPanStrategy
+  nameWithType: IPanStrategy
+  fullName: NAudio.Wave.SampleProviders.IPanStrategy
+  type: Interface
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave.SampleProviders
+  syntax:
+    content: public interface IPanStrategy
+    content.vb: Public Interface IPanStrategy
+- uid: NAudio.Wave.SampleProviders.IPanStrategy.GetMultipliers(System.Single)
+  commentId: M:NAudio.Wave.SampleProviders.IPanStrategy.GetMultipliers(System.Single)
+  id: GetMultipliers(System.Single)
+  parent: NAudio.Wave.SampleProviders.IPanStrategy
+  langs:
+  - csharp
+  - vb
+  name: GetMultipliers(float)
+  nameWithType: IPanStrategy.GetMultipliers(float)
+  fullName: NAudio.Wave.SampleProviders.IPanStrategy.GetMultipliers(float)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave.SampleProviders
+  syntax:
+    content: StereoSamplePair GetMultipliers(float pan)
+    parameters:
+    - id: pan
+      type: System.Single
+    return:
+      type: NAudio.Wave.SampleProviders.StereoSamplePair
+    content.vb: Function GetMultipliers(pan As Single) As StereoSamplePair
+  overload: NAudio.Wave.SampleProviders.IPanStrategy.GetMultipliers*
+  nameWithType.vb: IPanStrategy.GetMultipliers(Single)
+  fullName.vb: NAudio.Wave.SampleProviders.IPanStrategy.GetMultipliers(Single)
+  name.vb: GetMultipliers(Single)
+references:
+- uid: NAudio.Wave.SampleProviders
+  commentId: N:NAudio.Wave.SampleProviders
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave.SampleProviders
+  nameWithType: NAudio.Wave.SampleProviders
+  fullName: NAudio.Wave.SampleProviders
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.SampleProviders
+    name: SampleProviders
+    isExternal: true
+    href: NAudio.Wave.SampleProviders.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.SampleProviders
+    name: SampleProviders
+    isExternal: true
+    href: NAudio.Wave.SampleProviders.html
+- uid: NAudio.Wave.SampleProviders.IPanStrategy.GetMultipliers*
+  commentId: Overload:NAudio.Wave.SampleProviders.IPanStrategy.GetMultipliers
+  isExternal: true
+  href: NAudio.Wave.SampleProviders.IPanStrategy.html#NAudio_Wave_SampleProviders_IPanStrategy_GetMultipliers_System_Single_
+  name: GetMultipliers
+  nameWithType: IPanStrategy.GetMultipliers
+  fullName: NAudio.Wave.SampleProviders.IPanStrategy.GetMultipliers
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NAudio.Wave.SampleProviders.StereoSamplePair
+  commentId: T:NAudio.Wave.SampleProviders.StereoSamplePair
+  parent: NAudio.Wave.SampleProviders
+  isExternal: true
+  href: NAudio.Wave.SampleProviders.StereoSamplePair.html
+  name: StereoSamplePair
+  nameWithType: StereoSamplePair
+  fullName: NAudio.Wave.SampleProviders.StereoSamplePair
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

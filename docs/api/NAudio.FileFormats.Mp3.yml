@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.FileFormats.Mp3
+  commentId: N:NAudio.FileFormats.Mp3
+  id: NAudio.FileFormats.Mp3
+  children:
+  - NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor
+  langs:
+  - csharp
+  - vb
+  name: NAudio.FileFormats.Mp3
+  nameWithType: NAudio.FileFormats.Mp3
+  fullName: NAudio.FileFormats.Mp3
+  type: Namespace
+  assemblies:
+  - NAudio.Wasapi
+references:
+- uid: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor
+  commentId: T:NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor
+  isExternal: true
+  href: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor.html
+  name: DmoMp3FrameDecompressor
+  nameWithType: DmoMp3FrameDecompressor
+  fullName: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor

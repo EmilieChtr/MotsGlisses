@@ -1,0 +1,827 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params
+  commentId: T:NAudio.Dmo.Effect.DmoCompressor.Params
+  id: DmoCompressor.Params
+  parent: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.DmoCompressor.Params.Attack
+  - NAudio.Dmo.Effect.DmoCompressor.Params.AttackDefault
+  - NAudio.Dmo.Effect.DmoCompressor.Params.AttackMax
+  - NAudio.Dmo.Effect.DmoCompressor.Params.AttackMin
+  - NAudio.Dmo.Effect.DmoCompressor.Params.Gain
+  - NAudio.Dmo.Effect.DmoCompressor.Params.GainDefault
+  - NAudio.Dmo.Effect.DmoCompressor.Params.GainMax
+  - NAudio.Dmo.Effect.DmoCompressor.Params.GainMin
+  - NAudio.Dmo.Effect.DmoCompressor.Params.PreDelay
+  - NAudio.Dmo.Effect.DmoCompressor.Params.PreDelayDefault
+  - NAudio.Dmo.Effect.DmoCompressor.Params.PreDelayMax
+  - NAudio.Dmo.Effect.DmoCompressor.Params.PreDelayMin
+  - NAudio.Dmo.Effect.DmoCompressor.Params.Ratio
+  - NAudio.Dmo.Effect.DmoCompressor.Params.RatioDefault
+  - NAudio.Dmo.Effect.DmoCompressor.Params.RatioMax
+  - NAudio.Dmo.Effect.DmoCompressor.Params.RatioMin
+  - NAudio.Dmo.Effect.DmoCompressor.Params.Release
+  - NAudio.Dmo.Effect.DmoCompressor.Params.ReleaseDefault
+  - NAudio.Dmo.Effect.DmoCompressor.Params.ReleaseMax
+  - NAudio.Dmo.Effect.DmoCompressor.Params.ReleaseMin
+  - NAudio.Dmo.Effect.DmoCompressor.Params.Threshold
+  - NAudio.Dmo.Effect.DmoCompressor.Params.ThresholdMax
+  - NAudio.Dmo.Effect.DmoCompressor.Params.ThresholdMin
+  - NAudio.Dmo.Effect.DmoCompressor.Params.TjresholdDefault
+  langs:
+  - csharp
+  - vb
+  name: DmoCompressor.Params
+  nameWithType: DmoCompressor.Params
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params
+  type: Struct
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public struct DmoCompressor.Params
+    content.vb: Public Structure DmoCompressor.Params
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.GainMin
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.GainMin
+  id: GainMin
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: GainMin
+  nameWithType: DmoCompressor.Params.GainMin
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.GainMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float GainMin = -60
+    return:
+      type: System.Single
+    content.vb: Public Const GainMin As Single = -60
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.GainMax
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.GainMax
+  id: GainMax
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: GainMax
+  nameWithType: DmoCompressor.Params.GainMax
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.GainMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float GainMax = 60
+    return:
+      type: System.Single
+    content.vb: Public Const GainMax As Single = 60
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.GainDefault
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.GainDefault
+  id: GainDefault
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: GainDefault
+  nameWithType: DmoCompressor.Params.GainDefault
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.GainDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float GainDefault = 0
+    return:
+      type: System.Single
+    content.vb: Public Const GainDefault As Single = 0
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.AttackMin
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.AttackMin
+  id: AttackMin
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: AttackMin
+  nameWithType: DmoCompressor.Params.AttackMin
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.AttackMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float AttackMin = 0.01
+    return:
+      type: System.Single
+    content.vb: Public Const AttackMin As Single = 0.01
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.AttackMax
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.AttackMax
+  id: AttackMax
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: AttackMax
+  nameWithType: DmoCompressor.Params.AttackMax
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.AttackMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float AttackMax = 500
+    return:
+      type: System.Single
+    content.vb: Public Const AttackMax As Single = 500
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.AttackDefault
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.AttackDefault
+  id: AttackDefault
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: AttackDefault
+  nameWithType: DmoCompressor.Params.AttackDefault
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.AttackDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float AttackDefault = 10
+    return:
+      type: System.Single
+    content.vb: Public Const AttackDefault As Single = 10
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.ReleaseMin
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.ReleaseMin
+  id: ReleaseMin
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: ReleaseMin
+  nameWithType: DmoCompressor.Params.ReleaseMin
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.ReleaseMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ReleaseMin = 50
+    return:
+      type: System.Single
+    content.vb: Public Const ReleaseMin As Single = 50
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.ReleaseMax
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.ReleaseMax
+  id: ReleaseMax
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: ReleaseMax
+  nameWithType: DmoCompressor.Params.ReleaseMax
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.ReleaseMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ReleaseMax = 3000
+    return:
+      type: System.Single
+    content.vb: Public Const ReleaseMax As Single = 3000
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.ReleaseDefault
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.ReleaseDefault
+  id: ReleaseDefault
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: ReleaseDefault
+  nameWithType: DmoCompressor.Params.ReleaseDefault
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.ReleaseDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ReleaseDefault = 200
+    return:
+      type: System.Single
+    content.vb: Public Const ReleaseDefault As Single = 200
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.ThresholdMin
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.ThresholdMin
+  id: ThresholdMin
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: ThresholdMin
+  nameWithType: DmoCompressor.Params.ThresholdMin
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.ThresholdMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ThresholdMin = -60
+    return:
+      type: System.Single
+    content.vb: Public Const ThresholdMin As Single = -60
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.ThresholdMax
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.ThresholdMax
+  id: ThresholdMax
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: ThresholdMax
+  nameWithType: DmoCompressor.Params.ThresholdMax
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.ThresholdMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float ThresholdMax = 0
+    return:
+      type: System.Single
+    content.vb: Public Const ThresholdMax As Single = 0
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.TjresholdDefault
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.TjresholdDefault
+  id: TjresholdDefault
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: TjresholdDefault
+  nameWithType: DmoCompressor.Params.TjresholdDefault
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.TjresholdDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float TjresholdDefault = -20
+    return:
+      type: System.Single
+    content.vb: Public Const TjresholdDefault As Single = -20
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.RatioMin
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.RatioMin
+  id: RatioMin
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: RatioMin
+  nameWithType: DmoCompressor.Params.RatioMin
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.RatioMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float RatioMin = 1
+    return:
+      type: System.Single
+    content.vb: Public Const RatioMin As Single = 1
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.RatioMax
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.RatioMax
+  id: RatioMax
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: RatioMax
+  nameWithType: DmoCompressor.Params.RatioMax
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.RatioMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float RatioMax = 100
+    return:
+      type: System.Single
+    content.vb: Public Const RatioMax As Single = 100
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.RatioDefault
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.RatioDefault
+  id: RatioDefault
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: RatioDefault
+  nameWithType: DmoCompressor.Params.RatioDefault
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.RatioDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float RatioDefault = 3
+    return:
+      type: System.Single
+    content.vb: Public Const RatioDefault As Single = 3
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.PreDelayMin
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.PreDelayMin
+  id: PreDelayMin
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: PreDelayMin
+  nameWithType: DmoCompressor.Params.PreDelayMin
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.PreDelayMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float PreDelayMin = 0
+    return:
+      type: System.Single
+    content.vb: Public Const PreDelayMin As Single = 0
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.PreDelayMax
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.PreDelayMax
+  id: PreDelayMax
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: PreDelayMax
+  nameWithType: DmoCompressor.Params.PreDelayMax
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.PreDelayMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float PreDelayMax = 4
+    return:
+      type: System.Single
+    content.vb: Public Const PreDelayMax As Single = 4
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.PreDelayDefault
+  commentId: F:NAudio.Dmo.Effect.DmoCompressor.Params.PreDelayDefault
+  id: PreDelayDefault
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: PreDelayDefault
+  nameWithType: DmoCompressor.Params.PreDelayDefault
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.PreDelayDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float PreDelayDefault = 4
+    return:
+      type: System.Single
+    content.vb: Public Const PreDelayDefault As Single = 4
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.Gain
+  commentId: P:NAudio.Dmo.Effect.DmoCompressor.Params.Gain
+  id: Gain
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: Gain
+  nameWithType: DmoCompressor.Params.Gain
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.Gain
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float Gain { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Gain As Single
+  overload: NAudio.Dmo.Effect.DmoCompressor.Params.Gain*
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.Attack
+  commentId: P:NAudio.Dmo.Effect.DmoCompressor.Params.Attack
+  id: Attack
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: Attack
+  nameWithType: DmoCompressor.Params.Attack
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.Attack
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float Attack { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Attack As Single
+  overload: NAudio.Dmo.Effect.DmoCompressor.Params.Attack*
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.Release
+  commentId: P:NAudio.Dmo.Effect.DmoCompressor.Params.Release
+  id: Release
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: Release
+  nameWithType: DmoCompressor.Params.Release
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.Release
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float Release { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Release As Single
+  overload: NAudio.Dmo.Effect.DmoCompressor.Params.Release*
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.Threshold
+  commentId: P:NAudio.Dmo.Effect.DmoCompressor.Params.Threshold
+  id: Threshold
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: Threshold
+  nameWithType: DmoCompressor.Params.Threshold
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.Threshold
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float Threshold { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Threshold As Single
+  overload: NAudio.Dmo.Effect.DmoCompressor.Params.Threshold*
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.Ratio
+  commentId: P:NAudio.Dmo.Effect.DmoCompressor.Params.Ratio
+  id: Ratio
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: Ratio
+  nameWithType: DmoCompressor.Params.Ratio
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.Ratio
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float Ratio { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Ratio As Single
+  overload: NAudio.Dmo.Effect.DmoCompressor.Params.Ratio*
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.PreDelay
+  commentId: P:NAudio.Dmo.Effect.DmoCompressor.Params.PreDelay
+  id: PreDelay
+  parent: NAudio.Dmo.Effect.DmoCompressor.Params
+  langs:
+  - csharp
+  - vb
+  name: PreDelay
+  nameWithType: DmoCompressor.Params.PreDelay
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.PreDelay
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float PreDelay { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property PreDelay As Single
+  overload: NAudio.Dmo.Effect.DmoCompressor.Params.PreDelay*
+references:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.Gain*
+  commentId: Overload:NAudio.Dmo.Effect.DmoCompressor.Params.Gain
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoCompressor.Params.html#NAudio_Dmo_Effect_DmoCompressor_Params_Gain
+  name: Gain
+  nameWithType: DmoCompressor.Params.Gain
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.Gain
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.Attack*
+  commentId: Overload:NAudio.Dmo.Effect.DmoCompressor.Params.Attack
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoCompressor.Params.html#NAudio_Dmo_Effect_DmoCompressor_Params_Attack
+  name: Attack
+  nameWithType: DmoCompressor.Params.Attack
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.Attack
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.Release*
+  commentId: Overload:NAudio.Dmo.Effect.DmoCompressor.Params.Release
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoCompressor.Params.html#NAudio_Dmo_Effect_DmoCompressor_Params_Release
+  name: Release
+  nameWithType: DmoCompressor.Params.Release
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.Release
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.Threshold*
+  commentId: Overload:NAudio.Dmo.Effect.DmoCompressor.Params.Threshold
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoCompressor.Params.html#NAudio_Dmo_Effect_DmoCompressor_Params_Threshold
+  name: Threshold
+  nameWithType: DmoCompressor.Params.Threshold
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.Threshold
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.Ratio*
+  commentId: Overload:NAudio.Dmo.Effect.DmoCompressor.Params.Ratio
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoCompressor.Params.html#NAudio_Dmo_Effect_DmoCompressor_Params_Ratio
+  name: Ratio
+  nameWithType: DmoCompressor.Params.Ratio
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.Ratio
+- uid: NAudio.Dmo.Effect.DmoCompressor.Params.PreDelay*
+  commentId: Overload:NAudio.Dmo.Effect.DmoCompressor.Params.PreDelay
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoCompressor.Params.html#NAudio_Dmo_Effect_DmoCompressor_Params_PreDelay
+  name: PreDelay
+  nameWithType: DmoCompressor.Params.PreDelay
+  fullName: NAudio.Dmo.Effect.DmoCompressor.Params.PreDelay

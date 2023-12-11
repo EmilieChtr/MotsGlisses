@@ -1,0 +1,442 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Midi.MidiInSysexMessageEventArgs
+  commentId: T:NAudio.Midi.MidiInSysexMessageEventArgs
+  id: MidiInSysexMessageEventArgs
+  parent: NAudio.Midi
+  children:
+  - NAudio.Midi.MidiInSysexMessageEventArgs.#ctor(System.Byte[],System.Int32)
+  - NAudio.Midi.MidiInSysexMessageEventArgs.SysexBytes
+  - NAudio.Midi.MidiInSysexMessageEventArgs.Timestamp
+  langs:
+  - csharp
+  - vb
+  name: MidiInSysexMessageEventArgs
+  nameWithType: MidiInSysexMessageEventArgs
+  fullName: NAudio.Midi.MidiInSysexMessageEventArgs
+  type: Class
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: 'public class MidiInSysexMessageEventArgs : EventArgs'
+    content.vb: Public Class MidiInSysexMessageEventArgs Inherits EventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  inheritedMembers:
+  - System.EventArgs.Empty
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Midi.MidiInSysexMessageEventArgs.#ctor(System.Byte[],System.Int32)
+  commentId: M:NAudio.Midi.MidiInSysexMessageEventArgs.#ctor(System.Byte[],System.Int32)
+  id: '#ctor(System.Byte[],System.Int32)'
+  parent: NAudio.Midi.MidiInSysexMessageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: MidiInSysexMessageEventArgs(byte[], int)
+  nameWithType: MidiInSysexMessageEventArgs.MidiInSysexMessageEventArgs(byte[], int)
+  fullName: NAudio.Midi.MidiInSysexMessageEventArgs.MidiInSysexMessageEventArgs(byte[], int)
+  type: Constructor
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public MidiInSysexMessageEventArgs(byte[] sysexBytes, int timestamp)
+    parameters:
+    - id: sysexBytes
+      type: System.Byte[]
+    - id: timestamp
+      type: System.Int32
+    content.vb: Public Sub New(sysexBytes As Byte(), timestamp As Integer)
+  overload: NAudio.Midi.MidiInSysexMessageEventArgs.#ctor*
+  nameWithType.vb: MidiInSysexMessageEventArgs.New(Byte(), Integer)
+  fullName.vb: NAudio.Midi.MidiInSysexMessageEventArgs.New(Byte(), Integer)
+  name.vb: New(Byte(), Integer)
+- uid: NAudio.Midi.MidiInSysexMessageEventArgs.SysexBytes
+  commentId: P:NAudio.Midi.MidiInSysexMessageEventArgs.SysexBytes
+  id: SysexBytes
+  parent: NAudio.Midi.MidiInSysexMessageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: SysexBytes
+  nameWithType: MidiInSysexMessageEventArgs.SysexBytes
+  fullName: NAudio.Midi.MidiInSysexMessageEventArgs.SysexBytes
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public byte[] SysexBytes { get; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public ReadOnly Property SysexBytes As Byte()
+  overload: NAudio.Midi.MidiInSysexMessageEventArgs.SysexBytes*
+- uid: NAudio.Midi.MidiInSysexMessageEventArgs.Timestamp
+  commentId: P:NAudio.Midi.MidiInSysexMessageEventArgs.Timestamp
+  id: Timestamp
+  parent: NAudio.Midi.MidiInSysexMessageEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Timestamp
+  nameWithType: MidiInSysexMessageEventArgs.Timestamp
+  fullName: NAudio.Midi.MidiInSysexMessageEventArgs.Timestamp
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public int Timestamp { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Timestamp As Integer
+  overload: NAudio.Midi.MidiInSysexMessageEventArgs.Timestamp*
+references:
+- uid: NAudio.Midi
+  commentId: N:NAudio.Midi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Midi
+  nameWithType: NAudio.Midi
+  fullName: NAudio.Midi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventargs.empty
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Midi.MidiInSysexMessageEventArgs.#ctor*
+  commentId: Overload:NAudio.Midi.MidiInSysexMessageEventArgs.#ctor
+  isExternal: true
+  href: NAudio.Midi.MidiInSysexMessageEventArgs.html#NAudio_Midi_MidiInSysexMessageEventArgs__ctor_System_Byte___System_Int32_
+  name: MidiInSysexMessageEventArgs
+  nameWithType: MidiInSysexMessageEventArgs.MidiInSysexMessageEventArgs
+  fullName: NAudio.Midi.MidiInSysexMessageEventArgs.MidiInSysexMessageEventArgs
+  nameWithType.vb: MidiInSysexMessageEventArgs.New
+  fullName.vb: NAudio.Midi.MidiInSysexMessageEventArgs.New
+  name.vb: New
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.Midi.MidiInSysexMessageEventArgs.SysexBytes*
+  commentId: Overload:NAudio.Midi.MidiInSysexMessageEventArgs.SysexBytes
+  isExternal: true
+  href: NAudio.Midi.MidiInSysexMessageEventArgs.html#NAudio_Midi_MidiInSysexMessageEventArgs_SysexBytes
+  name: SysexBytes
+  nameWithType: MidiInSysexMessageEventArgs.SysexBytes
+  fullName: NAudio.Midi.MidiInSysexMessageEventArgs.SysexBytes
+- uid: NAudio.Midi.MidiInSysexMessageEventArgs.Timestamp*
+  commentId: Overload:NAudio.Midi.MidiInSysexMessageEventArgs.Timestamp
+  isExternal: true
+  href: NAudio.Midi.MidiInSysexMessageEventArgs.html#NAudio_Midi_MidiInSysexMessageEventArgs_Timestamp
+  name: Timestamp
+  nameWithType: MidiInSysexMessageEventArgs.Timestamp
+  fullName: NAudio.Midi.MidiInSysexMessageEventArgs.Timestamp

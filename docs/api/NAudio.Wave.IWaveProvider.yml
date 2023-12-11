@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.IWaveProvider
+  commentId: T:NAudio.Wave.IWaveProvider
+  id: IWaveProvider
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.IWaveProvider.Read(System.Byte[],System.Int32,System.Int32)
+  - NAudio.Wave.IWaveProvider.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: IWaveProvider
+  nameWithType: IWaveProvider
+  fullName: NAudio.Wave.IWaveProvider
+  type: Interface
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public interface IWaveProvider
+    content.vb: Public Interface IWaveProvider
+  extensionMethods:
+  - NAudio.Wave.IWaveProvider.NAudio.Wave.WaveExtensionMethods.ToSampleProvider
+- uid: NAudio.Wave.IWaveProvider.Read(System.Byte[],System.Int32,System.Int32)
+  commentId: M:NAudio.Wave.IWaveProvider.Read(System.Byte[],System.Int32,System.Int32)
+  id: Read(System.Byte[],System.Int32,System.Int32)
+  parent: NAudio.Wave.IWaveProvider
+  langs:
+  - csharp
+  - vb
+  name: Read(byte[], int, int)
+  nameWithType: IWaveProvider.Read(byte[], int, int)
+  fullName: NAudio.Wave.IWaveProvider.Read(byte[], int, int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: int Read(byte[] buffer, int offset, int count)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+    - id: offset
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Function Read(buffer As Byte(), offset As Integer, count As Integer) As Integer
+  overload: NAudio.Wave.IWaveProvider.Read*
+  nameWithType.vb: IWaveProvider.Read(Byte(), Integer, Integer)
+  fullName.vb: NAudio.Wave.IWaveProvider.Read(Byte(), Integer, Integer)
+  name.vb: Read(Byte(), Integer, Integer)
+- uid: NAudio.Wave.IWaveProvider.WaveFormat
+  commentId: P:NAudio.Wave.IWaveProvider.WaveFormat
+  id: WaveFormat
+  parent: NAudio.Wave.IWaveProvider
+  langs:
+  - csharp
+  - vb
+  name: WaveFormat
+  nameWithType: IWaveProvider.WaveFormat
+  fullName: NAudio.Wave.IWaveProvider.WaveFormat
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: WaveFormat WaveFormat { get; }
+    parameters: []
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: ReadOnly Property WaveFormat As WaveFormat
+  overload: NAudio.Wave.IWaveProvider.WaveFormat*
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Wave.IWaveProvider.NAudio.Wave.WaveExtensionMethods.ToSampleProvider
+  commentId: M:NAudio.Wave.WaveExtensionMethods.ToSampleProvider(NAudio.Wave.IWaveProvider)
+  parent: NAudio.Wave.WaveExtensionMethods
+  definition: NAudio.Wave.WaveExtensionMethods.ToSampleProvider(NAudio.Wave.IWaveProvider)
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToSampleProvider_NAudio_Wave_IWaveProvider_
+  name: ToSampleProvider(IWaveProvider)
+  nameWithType: WaveExtensionMethods.ToSampleProvider(IWaveProvider)
+  fullName: NAudio.Wave.WaveExtensionMethods.ToSampleProvider(NAudio.Wave.IWaveProvider)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToSampleProvider(NAudio.Wave.IWaveProvider)
+    name: ToSampleProvider
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToSampleProvider_NAudio_Wave_IWaveProvider_
+  - name: (
+  - uid: NAudio.Wave.IWaveProvider
+    name: IWaveProvider
+    isExternal: true
+    href: NAudio.Wave.IWaveProvider.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToSampleProvider(NAudio.Wave.IWaveProvider)
+    name: ToSampleProvider
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToSampleProvider_NAudio_Wave_IWaveProvider_
+  - name: (
+  - uid: NAudio.Wave.IWaveProvider
+    name: IWaveProvider
+    isExternal: true
+    href: NAudio.Wave.IWaveProvider.html
+  - name: )
+- uid: NAudio.Wave.WaveExtensionMethods.ToSampleProvider(NAudio.Wave.IWaveProvider)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.ToSampleProvider(NAudio.Wave.IWaveProvider)
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToSampleProvider_NAudio_Wave_IWaveProvider_
+  name: ToSampleProvider(IWaveProvider)
+  nameWithType: WaveExtensionMethods.ToSampleProvider(IWaveProvider)
+  fullName: NAudio.Wave.WaveExtensionMethods.ToSampleProvider(NAudio.Wave.IWaveProvider)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToSampleProvider(NAudio.Wave.IWaveProvider)
+    name: ToSampleProvider
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToSampleProvider_NAudio_Wave_IWaveProvider_
+  - name: (
+  - uid: NAudio.Wave.IWaveProvider
+    name: IWaveProvider
+    isExternal: true
+    href: NAudio.Wave.IWaveProvider.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.ToSampleProvider(NAudio.Wave.IWaveProvider)
+    name: ToSampleProvider
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_ToSampleProvider_NAudio_Wave_IWaveProvider_
+  - name: (
+  - uid: NAudio.Wave.IWaveProvider
+    name: IWaveProvider
+    isExternal: true
+    href: NAudio.Wave.IWaveProvider.html
+  - name: )
+- uid: NAudio.Wave.WaveExtensionMethods
+  commentId: T:NAudio.Wave.WaveExtensionMethods
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html
+  name: WaveExtensionMethods
+  nameWithType: WaveExtensionMethods
+  fullName: NAudio.Wave.WaveExtensionMethods
+- uid: NAudio.Wave.IWaveProvider.Read*
+  commentId: Overload:NAudio.Wave.IWaveProvider.Read
+  isExternal: true
+  href: NAudio.Wave.IWaveProvider.html#NAudio_Wave_IWaveProvider_Read_System_Byte___System_Int32_System_Int32_
+  name: Read
+  nameWithType: IWaveProvider.Read
+  fullName: NAudio.Wave.IWaveProvider.Read
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.IWaveProvider.WaveFormat*
+  commentId: Overload:NAudio.Wave.IWaveProvider.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.IWaveProvider.html#NAudio_Wave_IWaveProvider_WaveFormat
+  name: WaveFormat
+  nameWithType: IWaveProvider.WaveFormat
+  fullName: NAudio.Wave.IWaveProvider.WaveFormat
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat

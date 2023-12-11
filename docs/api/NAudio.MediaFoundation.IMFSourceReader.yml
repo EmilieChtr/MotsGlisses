@@ -1,0 +1,504 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation.IMFSourceReader
+  commentId: T:NAudio.MediaFoundation.IMFSourceReader
+  id: IMFSourceReader
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation.IMFSourceReader.Flush(System.Int32)
+  - NAudio.MediaFoundation.IMFSourceReader.GetCurrentMediaType(System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  - NAudio.MediaFoundation.IMFSourceReader.GetNativeMediaType(System.Int32,System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  - NAudio.MediaFoundation.IMFSourceReader.GetPresentationAttribute(System.Int32,System.Guid,System.IntPtr)
+  - NAudio.MediaFoundation.IMFSourceReader.GetServiceForStream(System.Int32,System.Guid,System.Guid,System.IntPtr@)
+  - NAudio.MediaFoundation.IMFSourceReader.GetStreamSelection(System.Int32,System.Boolean@)
+  - NAudio.MediaFoundation.IMFSourceReader.ReadSample(System.Int32,System.Int32,System.Int32@,NAudio.MediaFoundation.MF_SOURCE_READER_FLAG@,System.UInt64@,NAudio.MediaFoundation.IMFSample@)
+  - NAudio.MediaFoundation.IMFSourceReader.SetCurrentMediaType(System.Int32,System.IntPtr,NAudio.MediaFoundation.IMFMediaType)
+  - NAudio.MediaFoundation.IMFSourceReader.SetCurrentPosition(System.Guid,System.IntPtr)
+  - NAudio.MediaFoundation.IMFSourceReader.SetStreamSelection(System.Int32,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: IMFSourceReader
+  nameWithType: IMFSourceReader
+  fullName: NAudio.MediaFoundation.IMFSourceReader
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      [Guid("70ae66f2-c809-4e4f-8915-bdcb406b7993")]
+
+      public interface IMFSourceReader
+    content.vb: >-
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      <Guid("70ae66f2-c809-4e4f-8915-bdcb406b7993")>
+
+      Public Interface IMFSourceReader
+  attributes:
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 70ae66f2-c809-4e4f-8915-bdcb406b7993
+- uid: NAudio.MediaFoundation.IMFSourceReader.GetStreamSelection(System.Int32,System.Boolean@)
+  commentId: M:NAudio.MediaFoundation.IMFSourceReader.GetStreamSelection(System.Int32,System.Boolean@)
+  id: GetStreamSelection(System.Int32,System.Boolean@)
+  parent: NAudio.MediaFoundation.IMFSourceReader
+  langs:
+  - csharp
+  - vb
+  name: GetStreamSelection(int, out bool)
+  nameWithType: IMFSourceReader.GetStreamSelection(int, out bool)
+  fullName: NAudio.MediaFoundation.IMFSourceReader.GetStreamSelection(int, out bool)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetStreamSelection(int dwStreamIndex, out bool pSelected)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    - id: pSelected
+      type: System.Boolean
+    content.vb: Sub GetStreamSelection(dwStreamIndex As Integer, pSelected As Boolean)
+  overload: NAudio.MediaFoundation.IMFSourceReader.GetStreamSelection*
+  nameWithType.vb: IMFSourceReader.GetStreamSelection(Integer, Boolean)
+  fullName.vb: NAudio.MediaFoundation.IMFSourceReader.GetStreamSelection(Integer, Boolean)
+  name.vb: GetStreamSelection(Integer, Boolean)
+- uid: NAudio.MediaFoundation.IMFSourceReader.SetStreamSelection(System.Int32,System.Boolean)
+  commentId: M:NAudio.MediaFoundation.IMFSourceReader.SetStreamSelection(System.Int32,System.Boolean)
+  id: SetStreamSelection(System.Int32,System.Boolean)
+  parent: NAudio.MediaFoundation.IMFSourceReader
+  langs:
+  - csharp
+  - vb
+  name: SetStreamSelection(int, bool)
+  nameWithType: IMFSourceReader.SetStreamSelection(int, bool)
+  fullName: NAudio.MediaFoundation.IMFSourceReader.SetStreamSelection(int, bool)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetStreamSelection(int dwStreamIndex, bool pSelected)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    - id: pSelected
+      type: System.Boolean
+    content.vb: Sub SetStreamSelection(dwStreamIndex As Integer, pSelected As Boolean)
+  overload: NAudio.MediaFoundation.IMFSourceReader.SetStreamSelection*
+  nameWithType.vb: IMFSourceReader.SetStreamSelection(Integer, Boolean)
+  fullName.vb: NAudio.MediaFoundation.IMFSourceReader.SetStreamSelection(Integer, Boolean)
+  name.vb: SetStreamSelection(Integer, Boolean)
+- uid: NAudio.MediaFoundation.IMFSourceReader.GetNativeMediaType(System.Int32,System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  commentId: M:NAudio.MediaFoundation.IMFSourceReader.GetNativeMediaType(System.Int32,System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  id: GetNativeMediaType(System.Int32,System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  parent: NAudio.MediaFoundation.IMFSourceReader
+  langs:
+  - csharp
+  - vb
+  name: GetNativeMediaType(int, int, out IMFMediaType)
+  nameWithType: IMFSourceReader.GetNativeMediaType(int, int, out IMFMediaType)
+  fullName: NAudio.MediaFoundation.IMFSourceReader.GetNativeMediaType(int, int, out NAudio.MediaFoundation.IMFMediaType)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetNativeMediaType(int dwStreamIndex, int dwMediaTypeIndex, out IMFMediaType ppMediaType)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    - id: dwMediaTypeIndex
+      type: System.Int32
+    - id: ppMediaType
+      type: NAudio.MediaFoundation.IMFMediaType
+    content.vb: Sub GetNativeMediaType(dwStreamIndex As Integer, dwMediaTypeIndex As Integer, ppMediaType As IMFMediaType)
+  overload: NAudio.MediaFoundation.IMFSourceReader.GetNativeMediaType*
+  nameWithType.vb: IMFSourceReader.GetNativeMediaType(Integer, Integer, IMFMediaType)
+  fullName.vb: NAudio.MediaFoundation.IMFSourceReader.GetNativeMediaType(Integer, Integer, NAudio.MediaFoundation.IMFMediaType)
+  name.vb: GetNativeMediaType(Integer, Integer, IMFMediaType)
+- uid: NAudio.MediaFoundation.IMFSourceReader.GetCurrentMediaType(System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  commentId: M:NAudio.MediaFoundation.IMFSourceReader.GetCurrentMediaType(System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  id: GetCurrentMediaType(System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  parent: NAudio.MediaFoundation.IMFSourceReader
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentMediaType(int, out IMFMediaType)
+  nameWithType: IMFSourceReader.GetCurrentMediaType(int, out IMFMediaType)
+  fullName: NAudio.MediaFoundation.IMFSourceReader.GetCurrentMediaType(int, out NAudio.MediaFoundation.IMFMediaType)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetCurrentMediaType(int dwStreamIndex, out IMFMediaType ppMediaType)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    - id: ppMediaType
+      type: NAudio.MediaFoundation.IMFMediaType
+    content.vb: Sub GetCurrentMediaType(dwStreamIndex As Integer, ppMediaType As IMFMediaType)
+  overload: NAudio.MediaFoundation.IMFSourceReader.GetCurrentMediaType*
+  nameWithType.vb: IMFSourceReader.GetCurrentMediaType(Integer, IMFMediaType)
+  fullName.vb: NAudio.MediaFoundation.IMFSourceReader.GetCurrentMediaType(Integer, NAudio.MediaFoundation.IMFMediaType)
+  name.vb: GetCurrentMediaType(Integer, IMFMediaType)
+- uid: NAudio.MediaFoundation.IMFSourceReader.SetCurrentMediaType(System.Int32,System.IntPtr,NAudio.MediaFoundation.IMFMediaType)
+  commentId: M:NAudio.MediaFoundation.IMFSourceReader.SetCurrentMediaType(System.Int32,System.IntPtr,NAudio.MediaFoundation.IMFMediaType)
+  id: SetCurrentMediaType(System.Int32,System.IntPtr,NAudio.MediaFoundation.IMFMediaType)
+  parent: NAudio.MediaFoundation.IMFSourceReader
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentMediaType(int, IntPtr, IMFMediaType)
+  nameWithType: IMFSourceReader.SetCurrentMediaType(int, IntPtr, IMFMediaType)
+  fullName: NAudio.MediaFoundation.IMFSourceReader.SetCurrentMediaType(int, System.IntPtr, NAudio.MediaFoundation.IMFMediaType)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetCurrentMediaType(int dwStreamIndex, IntPtr pdwReserved, IMFMediaType pMediaType)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    - id: pdwReserved
+      type: System.IntPtr
+    - id: pMediaType
+      type: NAudio.MediaFoundation.IMFMediaType
+    content.vb: Sub SetCurrentMediaType(dwStreamIndex As Integer, pdwReserved As IntPtr, pMediaType As IMFMediaType)
+  overload: NAudio.MediaFoundation.IMFSourceReader.SetCurrentMediaType*
+  nameWithType.vb: IMFSourceReader.SetCurrentMediaType(Integer, IntPtr, IMFMediaType)
+  fullName.vb: NAudio.MediaFoundation.IMFSourceReader.SetCurrentMediaType(Integer, System.IntPtr, NAudio.MediaFoundation.IMFMediaType)
+  name.vb: SetCurrentMediaType(Integer, IntPtr, IMFMediaType)
+- uid: NAudio.MediaFoundation.IMFSourceReader.SetCurrentPosition(System.Guid,System.IntPtr)
+  commentId: M:NAudio.MediaFoundation.IMFSourceReader.SetCurrentPosition(System.Guid,System.IntPtr)
+  id: SetCurrentPosition(System.Guid,System.IntPtr)
+  parent: NAudio.MediaFoundation.IMFSourceReader
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentPosition(Guid, IntPtr)
+  nameWithType: IMFSourceReader.SetCurrentPosition(Guid, IntPtr)
+  fullName: NAudio.MediaFoundation.IMFSourceReader.SetCurrentPosition(System.Guid, System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetCurrentPosition(Guid guidTimeFormat, IntPtr varPosition)
+    parameters:
+    - id: guidTimeFormat
+      type: System.Guid
+    - id: varPosition
+      type: System.IntPtr
+    content.vb: Sub SetCurrentPosition(guidTimeFormat As Guid, varPosition As IntPtr)
+  overload: NAudio.MediaFoundation.IMFSourceReader.SetCurrentPosition*
+- uid: NAudio.MediaFoundation.IMFSourceReader.ReadSample(System.Int32,System.Int32,System.Int32@,NAudio.MediaFoundation.MF_SOURCE_READER_FLAG@,System.UInt64@,NAudio.MediaFoundation.IMFSample@)
+  commentId: M:NAudio.MediaFoundation.IMFSourceReader.ReadSample(System.Int32,System.Int32,System.Int32@,NAudio.MediaFoundation.MF_SOURCE_READER_FLAG@,System.UInt64@,NAudio.MediaFoundation.IMFSample@)
+  id: ReadSample(System.Int32,System.Int32,System.Int32@,NAudio.MediaFoundation.MF_SOURCE_READER_FLAG@,System.UInt64@,NAudio.MediaFoundation.IMFSample@)
+  parent: NAudio.MediaFoundation.IMFSourceReader
+  langs:
+  - csharp
+  - vb
+  name: ReadSample(int, int, out int, out MF_SOURCE_READER_FLAG, out ulong, out IMFSample)
+  nameWithType: IMFSourceReader.ReadSample(int, int, out int, out MF_SOURCE_READER_FLAG, out ulong, out IMFSample)
+  fullName: NAudio.MediaFoundation.IMFSourceReader.ReadSample(int, int, out int, out NAudio.MediaFoundation.MF_SOURCE_READER_FLAG, out ulong, out NAudio.MediaFoundation.IMFSample)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void ReadSample(int dwStreamIndex, int dwControlFlags, out int pdwActualStreamIndex, out MF_SOURCE_READER_FLAG pdwStreamFlags, out ulong pllTimestamp, out IMFSample ppSample)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    - id: dwControlFlags
+      type: System.Int32
+    - id: pdwActualStreamIndex
+      type: System.Int32
+    - id: pdwStreamFlags
+      type: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+    - id: pllTimestamp
+      type: System.UInt64
+    - id: ppSample
+      type: NAudio.MediaFoundation.IMFSample
+    content.vb: Sub ReadSample(dwStreamIndex As Integer, dwControlFlags As Integer, pdwActualStreamIndex As Integer, pdwStreamFlags As MF_SOURCE_READER_FLAG, pllTimestamp As ULong, ppSample As IMFSample)
+  overload: NAudio.MediaFoundation.IMFSourceReader.ReadSample*
+  nameWithType.vb: IMFSourceReader.ReadSample(Integer, Integer, Integer, MF_SOURCE_READER_FLAG, ULong, IMFSample)
+  fullName.vb: NAudio.MediaFoundation.IMFSourceReader.ReadSample(Integer, Integer, Integer, NAudio.MediaFoundation.MF_SOURCE_READER_FLAG, ULong, NAudio.MediaFoundation.IMFSample)
+  name.vb: ReadSample(Integer, Integer, Integer, MF_SOURCE_READER_FLAG, ULong, IMFSample)
+- uid: NAudio.MediaFoundation.IMFSourceReader.Flush(System.Int32)
+  commentId: M:NAudio.MediaFoundation.IMFSourceReader.Flush(System.Int32)
+  id: Flush(System.Int32)
+  parent: NAudio.MediaFoundation.IMFSourceReader
+  langs:
+  - csharp
+  - vb
+  name: Flush(int)
+  nameWithType: IMFSourceReader.Flush(int)
+  fullName: NAudio.MediaFoundation.IMFSourceReader.Flush(int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void Flush(int dwStreamIndex)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    content.vb: Sub Flush(dwStreamIndex As Integer)
+  overload: NAudio.MediaFoundation.IMFSourceReader.Flush*
+  nameWithType.vb: IMFSourceReader.Flush(Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFSourceReader.Flush(Integer)
+  name.vb: Flush(Integer)
+- uid: NAudio.MediaFoundation.IMFSourceReader.GetServiceForStream(System.Int32,System.Guid,System.Guid,System.IntPtr@)
+  commentId: M:NAudio.MediaFoundation.IMFSourceReader.GetServiceForStream(System.Int32,System.Guid,System.Guid,System.IntPtr@)
+  id: GetServiceForStream(System.Int32,System.Guid,System.Guid,System.IntPtr@)
+  parent: NAudio.MediaFoundation.IMFSourceReader
+  langs:
+  - csharp
+  - vb
+  name: GetServiceForStream(int, Guid, Guid, out IntPtr)
+  nameWithType: IMFSourceReader.GetServiceForStream(int, Guid, Guid, out IntPtr)
+  fullName: NAudio.MediaFoundation.IMFSourceReader.GetServiceForStream(int, System.Guid, System.Guid, out System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetServiceForStream(int dwStreamIndex, Guid guidService, Guid riid, out IntPtr ppvObject)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    - id: guidService
+      type: System.Guid
+    - id: riid
+      type: System.Guid
+    - id: ppvObject
+      type: System.IntPtr
+    content.vb: Sub GetServiceForStream(dwStreamIndex As Integer, guidService As Guid, riid As Guid, ppvObject As IntPtr)
+  overload: NAudio.MediaFoundation.IMFSourceReader.GetServiceForStream*
+  nameWithType.vb: IMFSourceReader.GetServiceForStream(Integer, Guid, Guid, IntPtr)
+  fullName.vb: NAudio.MediaFoundation.IMFSourceReader.GetServiceForStream(Integer, System.Guid, System.Guid, System.IntPtr)
+  name.vb: GetServiceForStream(Integer, Guid, Guid, IntPtr)
+- uid: NAudio.MediaFoundation.IMFSourceReader.GetPresentationAttribute(System.Int32,System.Guid,System.IntPtr)
+  commentId: M:NAudio.MediaFoundation.IMFSourceReader.GetPresentationAttribute(System.Int32,System.Guid,System.IntPtr)
+  id: GetPresentationAttribute(System.Int32,System.Guid,System.IntPtr)
+  parent: NAudio.MediaFoundation.IMFSourceReader
+  langs:
+  - csharp
+  - vb
+  name: GetPresentationAttribute(int, Guid, IntPtr)
+  nameWithType: IMFSourceReader.GetPresentationAttribute(int, Guid, IntPtr)
+  fullName: NAudio.MediaFoundation.IMFSourceReader.GetPresentationAttribute(int, System.Guid, System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: int GetPresentationAttribute(int dwStreamIndex, Guid guidAttribute, IntPtr pvarAttribute)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    - id: guidAttribute
+      type: System.Guid
+    - id: pvarAttribute
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Function GetPresentationAttribute(dwStreamIndex As Integer, guidAttribute As Guid, pvarAttribute As IntPtr) As Integer
+  overload: NAudio.MediaFoundation.IMFSourceReader.GetPresentationAttribute*
+  nameWithType.vb: IMFSourceReader.GetPresentationAttribute(Integer, Guid, IntPtr)
+  fullName.vb: NAudio.MediaFoundation.IMFSourceReader.GetPresentationAttribute(Integer, System.Guid, System.IntPtr)
+  name.vb: GetPresentationAttribute(Integer, Guid, IntPtr)
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation.IMFSourceReader.GetStreamSelection*
+  commentId: Overload:NAudio.MediaFoundation.IMFSourceReader.GetStreamSelection
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSourceReader.html#NAudio_MediaFoundation_IMFSourceReader_GetStreamSelection_System_Int32_System_Boolean__
+  name: GetStreamSelection
+  nameWithType: IMFSourceReader.GetStreamSelection
+  fullName: NAudio.MediaFoundation.IMFSourceReader.GetStreamSelection
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.MediaFoundation.IMFSourceReader.SetStreamSelection*
+  commentId: Overload:NAudio.MediaFoundation.IMFSourceReader.SetStreamSelection
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSourceReader.html#NAudio_MediaFoundation_IMFSourceReader_SetStreamSelection_System_Int32_System_Boolean_
+  name: SetStreamSelection
+  nameWithType: IMFSourceReader.SetStreamSelection
+  fullName: NAudio.MediaFoundation.IMFSourceReader.SetStreamSelection
+- uid: NAudio.MediaFoundation.IMFSourceReader.GetNativeMediaType*
+  commentId: Overload:NAudio.MediaFoundation.IMFSourceReader.GetNativeMediaType
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSourceReader.html#NAudio_MediaFoundation_IMFSourceReader_GetNativeMediaType_System_Int32_System_Int32_NAudio_MediaFoundation_IMFMediaType__
+  name: GetNativeMediaType
+  nameWithType: IMFSourceReader.GetNativeMediaType
+  fullName: NAudio.MediaFoundation.IMFSourceReader.GetNativeMediaType
+- uid: NAudio.MediaFoundation.IMFMediaType
+  commentId: T:NAudio.MediaFoundation.IMFMediaType
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaType.html
+  name: IMFMediaType
+  nameWithType: IMFMediaType
+  fullName: NAudio.MediaFoundation.IMFMediaType
+- uid: NAudio.MediaFoundation.IMFSourceReader.GetCurrentMediaType*
+  commentId: Overload:NAudio.MediaFoundation.IMFSourceReader.GetCurrentMediaType
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSourceReader.html#NAudio_MediaFoundation_IMFSourceReader_GetCurrentMediaType_System_Int32_NAudio_MediaFoundation_IMFMediaType__
+  name: GetCurrentMediaType
+  nameWithType: IMFSourceReader.GetCurrentMediaType
+  fullName: NAudio.MediaFoundation.IMFSourceReader.GetCurrentMediaType
+- uid: NAudio.MediaFoundation.IMFSourceReader.SetCurrentMediaType*
+  commentId: Overload:NAudio.MediaFoundation.IMFSourceReader.SetCurrentMediaType
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSourceReader.html#NAudio_MediaFoundation_IMFSourceReader_SetCurrentMediaType_System_Int32_System_IntPtr_NAudio_MediaFoundation_IMFMediaType_
+  name: SetCurrentMediaType
+  nameWithType: IMFSourceReader.SetCurrentMediaType
+  fullName: NAudio.MediaFoundation.IMFSourceReader.SetCurrentMediaType
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: NAudio.MediaFoundation.IMFSourceReader.SetCurrentPosition*
+  commentId: Overload:NAudio.MediaFoundation.IMFSourceReader.SetCurrentPosition
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSourceReader.html#NAudio_MediaFoundation_IMFSourceReader_SetCurrentPosition_System_Guid_System_IntPtr_
+  name: SetCurrentPosition
+  nameWithType: IMFSourceReader.SetCurrentPosition
+  fullName: NAudio.MediaFoundation.IMFSourceReader.SetCurrentPosition
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: NAudio.MediaFoundation.IMFSourceReader.ReadSample*
+  commentId: Overload:NAudio.MediaFoundation.IMFSourceReader.ReadSample
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSourceReader.html#NAudio_MediaFoundation_IMFSourceReader_ReadSample_System_Int32_System_Int32_System_Int32__NAudio_MediaFoundation_MF_SOURCE_READER_FLAG__System_UInt64__NAudio_MediaFoundation_IMFSample__
+  name: ReadSample
+  nameWithType: IMFSourceReader.ReadSample
+  fullName: NAudio.MediaFoundation.IMFSourceReader.ReadSample
+- uid: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+  commentId: T:NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.html
+  name: MF_SOURCE_READER_FLAG
+  nameWithType: MF_SOURCE_READER_FLAG
+  fullName: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: NAudio.MediaFoundation.IMFSample
+  commentId: T:NAudio.MediaFoundation.IMFSample
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSample.html
+  name: IMFSample
+  nameWithType: IMFSample
+  fullName: NAudio.MediaFoundation.IMFSample
+- uid: NAudio.MediaFoundation.IMFSourceReader.Flush*
+  commentId: Overload:NAudio.MediaFoundation.IMFSourceReader.Flush
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSourceReader.html#NAudio_MediaFoundation_IMFSourceReader_Flush_System_Int32_
+  name: Flush
+  nameWithType: IMFSourceReader.Flush
+  fullName: NAudio.MediaFoundation.IMFSourceReader.Flush
+- uid: NAudio.MediaFoundation.IMFSourceReader.GetServiceForStream*
+  commentId: Overload:NAudio.MediaFoundation.IMFSourceReader.GetServiceForStream
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSourceReader.html#NAudio_MediaFoundation_IMFSourceReader_GetServiceForStream_System_Int32_System_Guid_System_Guid_System_IntPtr__
+  name: GetServiceForStream
+  nameWithType: IMFSourceReader.GetServiceForStream
+  fullName: NAudio.MediaFoundation.IMFSourceReader.GetServiceForStream
+- uid: NAudio.MediaFoundation.IMFSourceReader.GetPresentationAttribute*
+  commentId: Overload:NAudio.MediaFoundation.IMFSourceReader.GetPresentationAttribute
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSourceReader.html#NAudio_MediaFoundation_IMFSourceReader_GetPresentationAttribute_System_Int32_System_Guid_System_IntPtr_
+  name: GetPresentationAttribute
+  nameWithType: IMFSourceReader.GetPresentationAttribute
+  fullName: NAudio.MediaFoundation.IMFSourceReader.GetPresentationAttribute

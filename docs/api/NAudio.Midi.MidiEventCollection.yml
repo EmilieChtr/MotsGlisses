@@ -1,0 +1,1092 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Midi.MidiEventCollection
+  commentId: T:NAudio.Midi.MidiEventCollection
+  id: MidiEventCollection
+  parent: NAudio.Midi
+  children:
+  - NAudio.Midi.MidiEventCollection.#ctor(System.Int32,System.Int32)
+  - NAudio.Midi.MidiEventCollection.AddEvent(NAudio.Midi.MidiEvent,System.Int32)
+  - NAudio.Midi.MidiEventCollection.AddTrack
+  - NAudio.Midi.MidiEventCollection.AddTrack(System.Collections.Generic.IList{NAudio.Midi.MidiEvent})
+  - NAudio.Midi.MidiEventCollection.Clear
+  - NAudio.Midi.MidiEventCollection.DeltaTicksPerQuarterNote
+  - NAudio.Midi.MidiEventCollection.GetEnumerator
+  - NAudio.Midi.MidiEventCollection.GetTrackEvents(System.Int32)
+  - NAudio.Midi.MidiEventCollection.Item(System.Int32)
+  - NAudio.Midi.MidiEventCollection.MidiFileType
+  - NAudio.Midi.MidiEventCollection.PrepareForExport
+  - NAudio.Midi.MidiEventCollection.RemoveTrack(System.Int32)
+  - NAudio.Midi.MidiEventCollection.StartAbsoluteTime
+  - NAudio.Midi.MidiEventCollection.Tracks
+  langs:
+  - csharp
+  - vb
+  name: MidiEventCollection
+  nameWithType: MidiEventCollection
+  fullName: NAudio.Midi.MidiEventCollection
+  type: Class
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: 'public class MidiEventCollection : IEnumerable<IList<MidiEvent>>, IEnumerable'
+    content.vb: Public Class MidiEventCollection Implements IEnumerable(Of IList(Of MidiEvent)), IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.IList{NAudio.Midi.MidiEvent}}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Midi.MidiEventCollection.#ctor(System.Int32,System.Int32)
+  commentId: M:NAudio.Midi.MidiEventCollection.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: NAudio.Midi.MidiEventCollection
+  langs:
+  - csharp
+  - vb
+  name: MidiEventCollection(int, int)
+  nameWithType: MidiEventCollection.MidiEventCollection(int, int)
+  fullName: NAudio.Midi.MidiEventCollection.MidiEventCollection(int, int)
+  type: Constructor
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public MidiEventCollection(int midiFileType, int deltaTicksPerQuarterNote)
+    parameters:
+    - id: midiFileType
+      type: System.Int32
+    - id: deltaTicksPerQuarterNote
+      type: System.Int32
+    content.vb: Public Sub New(midiFileType As Integer, deltaTicksPerQuarterNote As Integer)
+  overload: NAudio.Midi.MidiEventCollection.#ctor*
+  nameWithType.vb: MidiEventCollection.New(Integer, Integer)
+  fullName.vb: NAudio.Midi.MidiEventCollection.New(Integer, Integer)
+  name.vb: New(Integer, Integer)
+- uid: NAudio.Midi.MidiEventCollection.GetTrackEvents(System.Int32)
+  commentId: M:NAudio.Midi.MidiEventCollection.GetTrackEvents(System.Int32)
+  id: GetTrackEvents(System.Int32)
+  parent: NAudio.Midi.MidiEventCollection
+  langs:
+  - csharp
+  - vb
+  name: GetTrackEvents(int)
+  nameWithType: MidiEventCollection.GetTrackEvents(int)
+  fullName: NAudio.Midi.MidiEventCollection.GetTrackEvents(int)
+  type: Method
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public IList<MidiEvent> GetTrackEvents(int trackNumber)
+    parameters:
+    - id: trackNumber
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.IList{NAudio.Midi.MidiEvent}
+    content.vb: Public Function GetTrackEvents(trackNumber As Integer) As IList(Of MidiEvent)
+  overload: NAudio.Midi.MidiEventCollection.GetTrackEvents*
+  nameWithType.vb: MidiEventCollection.GetTrackEvents(Integer)
+  fullName.vb: NAudio.Midi.MidiEventCollection.GetTrackEvents(Integer)
+  name.vb: GetTrackEvents(Integer)
+- uid: NAudio.Midi.MidiEventCollection.AddTrack
+  commentId: M:NAudio.Midi.MidiEventCollection.AddTrack
+  id: AddTrack
+  parent: NAudio.Midi.MidiEventCollection
+  langs:
+  - csharp
+  - vb
+  name: AddTrack()
+  nameWithType: MidiEventCollection.AddTrack()
+  fullName: NAudio.Midi.MidiEventCollection.AddTrack()
+  type: Method
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public IList<MidiEvent> AddTrack()
+    return:
+      type: System.Collections.Generic.IList{NAudio.Midi.MidiEvent}
+    content.vb: Public Function AddTrack() As IList(Of MidiEvent)
+  overload: NAudio.Midi.MidiEventCollection.AddTrack*
+- uid: NAudio.Midi.MidiEventCollection.AddTrack(System.Collections.Generic.IList{NAudio.Midi.MidiEvent})
+  commentId: M:NAudio.Midi.MidiEventCollection.AddTrack(System.Collections.Generic.IList{NAudio.Midi.MidiEvent})
+  id: AddTrack(System.Collections.Generic.IList{NAudio.Midi.MidiEvent})
+  parent: NAudio.Midi.MidiEventCollection
+  langs:
+  - csharp
+  - vb
+  name: AddTrack(IList<MidiEvent>)
+  nameWithType: MidiEventCollection.AddTrack(IList<MidiEvent>)
+  fullName: NAudio.Midi.MidiEventCollection.AddTrack(System.Collections.Generic.IList<NAudio.Midi.MidiEvent>)
+  type: Method
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public IList<MidiEvent> AddTrack(IList<MidiEvent> initialEvents)
+    parameters:
+    - id: initialEvents
+      type: System.Collections.Generic.IList{NAudio.Midi.MidiEvent}
+    return:
+      type: System.Collections.Generic.IList{NAudio.Midi.MidiEvent}
+    content.vb: Public Function AddTrack(initialEvents As IList(Of MidiEvent)) As IList(Of MidiEvent)
+  overload: NAudio.Midi.MidiEventCollection.AddTrack*
+  nameWithType.vb: MidiEventCollection.AddTrack(IList(Of MidiEvent))
+  fullName.vb: NAudio.Midi.MidiEventCollection.AddTrack(System.Collections.Generic.IList(Of NAudio.Midi.MidiEvent))
+  name.vb: AddTrack(IList(Of MidiEvent))
+- uid: NAudio.Midi.MidiEventCollection.RemoveTrack(System.Int32)
+  commentId: M:NAudio.Midi.MidiEventCollection.RemoveTrack(System.Int32)
+  id: RemoveTrack(System.Int32)
+  parent: NAudio.Midi.MidiEventCollection
+  langs:
+  - csharp
+  - vb
+  name: RemoveTrack(int)
+  nameWithType: MidiEventCollection.RemoveTrack(int)
+  fullName: NAudio.Midi.MidiEventCollection.RemoveTrack(int)
+  type: Method
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public void RemoveTrack(int track)
+    parameters:
+    - id: track
+      type: System.Int32
+    content.vb: Public Sub RemoveTrack(track As Integer)
+  overload: NAudio.Midi.MidiEventCollection.RemoveTrack*
+  nameWithType.vb: MidiEventCollection.RemoveTrack(Integer)
+  fullName.vb: NAudio.Midi.MidiEventCollection.RemoveTrack(Integer)
+  name.vb: RemoveTrack(Integer)
+- uid: NAudio.Midi.MidiEventCollection.Clear
+  commentId: M:NAudio.Midi.MidiEventCollection.Clear
+  id: Clear
+  parent: NAudio.Midi.MidiEventCollection
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: MidiEventCollection.Clear()
+  fullName: NAudio.Midi.MidiEventCollection.Clear()
+  type: Method
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: NAudio.Midi.MidiEventCollection.Clear*
+- uid: NAudio.Midi.MidiEventCollection.AddEvent(NAudio.Midi.MidiEvent,System.Int32)
+  commentId: M:NAudio.Midi.MidiEventCollection.AddEvent(NAudio.Midi.MidiEvent,System.Int32)
+  id: AddEvent(NAudio.Midi.MidiEvent,System.Int32)
+  parent: NAudio.Midi.MidiEventCollection
+  langs:
+  - csharp
+  - vb
+  name: AddEvent(MidiEvent, int)
+  nameWithType: MidiEventCollection.AddEvent(MidiEvent, int)
+  fullName: NAudio.Midi.MidiEventCollection.AddEvent(NAudio.Midi.MidiEvent, int)
+  type: Method
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public void AddEvent(MidiEvent midiEvent, int originalTrack)
+    parameters:
+    - id: midiEvent
+      type: NAudio.Midi.MidiEvent
+    - id: originalTrack
+      type: System.Int32
+    content.vb: Public Sub AddEvent(midiEvent As MidiEvent, originalTrack As Integer)
+  overload: NAudio.Midi.MidiEventCollection.AddEvent*
+  nameWithType.vb: MidiEventCollection.AddEvent(MidiEvent, Integer)
+  fullName.vb: NAudio.Midi.MidiEventCollection.AddEvent(NAudio.Midi.MidiEvent, Integer)
+  name.vb: AddEvent(MidiEvent, Integer)
+- uid: NAudio.Midi.MidiEventCollection.PrepareForExport
+  commentId: M:NAudio.Midi.MidiEventCollection.PrepareForExport
+  id: PrepareForExport
+  parent: NAudio.Midi.MidiEventCollection
+  langs:
+  - csharp
+  - vb
+  name: PrepareForExport()
+  nameWithType: MidiEventCollection.PrepareForExport()
+  fullName: NAudio.Midi.MidiEventCollection.PrepareForExport()
+  type: Method
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public void PrepareForExport()
+    content.vb: Public Sub PrepareForExport()
+  overload: NAudio.Midi.MidiEventCollection.PrepareForExport*
+- uid: NAudio.Midi.MidiEventCollection.GetEnumerator
+  commentId: M:NAudio.Midi.MidiEventCollection.GetEnumerator
+  id: GetEnumerator
+  parent: NAudio.Midi.MidiEventCollection
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: MidiEventCollection.GetEnumerator()
+  fullName: NAudio.Midi.MidiEventCollection.GetEnumerator()
+  type: Method
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  example: []
+  syntax:
+    content: public IEnumerator<IList<MidiEvent>> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{System.Collections.Generic.IList{NAudio.Midi.MidiEvent}}
+    content.vb: Public Function GetEnumerator() As IEnumerator(Of IList(Of MidiEvent))
+  overload: NAudio.Midi.MidiEventCollection.GetEnumerator*
+  implements:
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.IList{NAudio.Midi.MidiEvent}}.GetEnumerator
+- uid: NAudio.Midi.MidiEventCollection.Tracks
+  commentId: P:NAudio.Midi.MidiEventCollection.Tracks
+  id: Tracks
+  parent: NAudio.Midi.MidiEventCollection
+  langs:
+  - csharp
+  - vb
+  name: Tracks
+  nameWithType: MidiEventCollection.Tracks
+  fullName: NAudio.Midi.MidiEventCollection.Tracks
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public int Tracks { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Tracks As Integer
+  overload: NAudio.Midi.MidiEventCollection.Tracks*
+- uid: NAudio.Midi.MidiEventCollection.StartAbsoluteTime
+  commentId: P:NAudio.Midi.MidiEventCollection.StartAbsoluteTime
+  id: StartAbsoluteTime
+  parent: NAudio.Midi.MidiEventCollection
+  langs:
+  - csharp
+  - vb
+  name: StartAbsoluteTime
+  nameWithType: MidiEventCollection.StartAbsoluteTime
+  fullName: NAudio.Midi.MidiEventCollection.StartAbsoluteTime
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public long StartAbsoluteTime { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property StartAbsoluteTime As Long
+  overload: NAudio.Midi.MidiEventCollection.StartAbsoluteTime*
+- uid: NAudio.Midi.MidiEventCollection.DeltaTicksPerQuarterNote
+  commentId: P:NAudio.Midi.MidiEventCollection.DeltaTicksPerQuarterNote
+  id: DeltaTicksPerQuarterNote
+  parent: NAudio.Midi.MidiEventCollection
+  langs:
+  - csharp
+  - vb
+  name: DeltaTicksPerQuarterNote
+  nameWithType: MidiEventCollection.DeltaTicksPerQuarterNote
+  fullName: NAudio.Midi.MidiEventCollection.DeltaTicksPerQuarterNote
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public int DeltaTicksPerQuarterNote { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DeltaTicksPerQuarterNote As Integer
+  overload: NAudio.Midi.MidiEventCollection.DeltaTicksPerQuarterNote*
+- uid: NAudio.Midi.MidiEventCollection.Item(System.Int32)
+  commentId: P:NAudio.Midi.MidiEventCollection.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: NAudio.Midi.MidiEventCollection
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: MidiEventCollection.this[int]
+  fullName: NAudio.Midi.MidiEventCollection.this[int]
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public IList<MidiEvent> this[int trackNumber] { get; }
+    parameters:
+    - id: trackNumber
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.IList{NAudio.Midi.MidiEvent}
+    content.vb: Public ReadOnly Default Property this[](trackNumber As Integer) As IList(Of MidiEvent)
+  overload: NAudio.Midi.MidiEventCollection.Item*
+  nameWithType.vb: MidiEventCollection.this[](Integer)
+  fullName.vb: NAudio.Midi.MidiEventCollection.this[](Integer)
+  name.vb: this[](Integer)
+- uid: NAudio.Midi.MidiEventCollection.MidiFileType
+  commentId: P:NAudio.Midi.MidiEventCollection.MidiFileType
+  id: MidiFileType
+  parent: NAudio.Midi.MidiEventCollection
+  langs:
+  - csharp
+  - vb
+  name: MidiFileType
+  nameWithType: MidiEventCollection.MidiFileType
+  fullName: NAudio.Midi.MidiEventCollection.MidiFileType
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public int MidiFileType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MidiFileType As Integer
+  overload: NAudio.Midi.MidiEventCollection.MidiFileType*
+references:
+- uid: NAudio.Midi
+  commentId: N:NAudio.Midi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Midi
+  nameWithType: NAudio.Midi
+  fullName: NAudio.Midi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.IList{NAudio.Midi.MidiEvent}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.IList{NAudio.Midi.MidiEvent}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IList<MidiEvent>>
+  nameWithType: IEnumerable<IList<MidiEvent>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.IList<NAudio.Midi.MidiEvent>>
+  nameWithType.vb: IEnumerable(Of IList(Of MidiEvent))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IList(Of NAudio.Midi.MidiEvent))
+  name.vb: IEnumerable(Of IList(Of MidiEvent))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: NAudio.Midi.MidiEvent
+    name: MidiEvent
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NAudio.Midi.MidiEvent
+    name: MidiEvent
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html
+  - name: )
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: NAudio.Midi.MidiEventCollection.#ctor*
+  commentId: Overload:NAudio.Midi.MidiEventCollection.#ctor
+  isExternal: true
+  href: NAudio.Midi.MidiEventCollection.html#NAudio_Midi_MidiEventCollection__ctor_System_Int32_System_Int32_
+  name: MidiEventCollection
+  nameWithType: MidiEventCollection.MidiEventCollection
+  fullName: NAudio.Midi.MidiEventCollection.MidiEventCollection
+  nameWithType.vb: MidiEventCollection.New
+  fullName.vb: NAudio.Midi.MidiEventCollection.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.Midi.MidiEventCollection.GetTrackEvents*
+  commentId: Overload:NAudio.Midi.MidiEventCollection.GetTrackEvents
+  isExternal: true
+  href: NAudio.Midi.MidiEventCollection.html#NAudio_Midi_MidiEventCollection_GetTrackEvents_System_Int32_
+  name: GetTrackEvents
+  nameWithType: MidiEventCollection.GetTrackEvents
+  fullName: NAudio.Midi.MidiEventCollection.GetTrackEvents
+- uid: System.Collections.Generic.IList{NAudio.Midi.MidiEvent}
+  commentId: T:System.Collections.Generic.IList{NAudio.Midi.MidiEvent}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<MidiEvent>
+  nameWithType: IList<MidiEvent>
+  fullName: System.Collections.Generic.IList<NAudio.Midi.MidiEvent>
+  nameWithType.vb: IList(Of MidiEvent)
+  fullName.vb: System.Collections.Generic.IList(Of NAudio.Midi.MidiEvent)
+  name.vb: IList(Of MidiEvent)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: NAudio.Midi.MidiEvent
+    name: MidiEvent
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NAudio.Midi.MidiEvent
+    name: MidiEvent
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html
+  - name: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NAudio.Midi.MidiEventCollection.AddTrack*
+  commentId: Overload:NAudio.Midi.MidiEventCollection.AddTrack
+  isExternal: true
+  href: NAudio.Midi.MidiEventCollection.html#NAudio_Midi_MidiEventCollection_AddTrack
+  name: AddTrack
+  nameWithType: MidiEventCollection.AddTrack
+  fullName: NAudio.Midi.MidiEventCollection.AddTrack
+- uid: NAudio.Midi.MidiEventCollection.RemoveTrack*
+  commentId: Overload:NAudio.Midi.MidiEventCollection.RemoveTrack
+  isExternal: true
+  href: NAudio.Midi.MidiEventCollection.html#NAudio_Midi_MidiEventCollection_RemoveTrack_System_Int32_
+  name: RemoveTrack
+  nameWithType: MidiEventCollection.RemoveTrack
+  fullName: NAudio.Midi.MidiEventCollection.RemoveTrack
+- uid: NAudio.Midi.MidiEventCollection.Clear*
+  commentId: Overload:NAudio.Midi.MidiEventCollection.Clear
+  isExternal: true
+  href: NAudio.Midi.MidiEventCollection.html#NAudio_Midi_MidiEventCollection_Clear
+  name: Clear
+  nameWithType: MidiEventCollection.Clear
+  fullName: NAudio.Midi.MidiEventCollection.Clear
+- uid: NAudio.Midi.MidiEventCollection.AddEvent*
+  commentId: Overload:NAudio.Midi.MidiEventCollection.AddEvent
+  isExternal: true
+  href: NAudio.Midi.MidiEventCollection.html#NAudio_Midi_MidiEventCollection_AddEvent_NAudio_Midi_MidiEvent_System_Int32_
+  name: AddEvent
+  nameWithType: MidiEventCollection.AddEvent
+  fullName: NAudio.Midi.MidiEventCollection.AddEvent
+- uid: NAudio.Midi.MidiEvent
+  commentId: T:NAudio.Midi.MidiEvent
+  parent: NAudio.Midi
+  isExternal: true
+  href: NAudio.Midi.MidiEvent.html
+  name: MidiEvent
+  nameWithType: MidiEvent
+  fullName: NAudio.Midi.MidiEvent
+- uid: NAudio.Midi.MidiEventCollection.PrepareForExport*
+  commentId: Overload:NAudio.Midi.MidiEventCollection.PrepareForExport
+  isExternal: true
+  href: NAudio.Midi.MidiEventCollection.html#NAudio_Midi_MidiEventCollection_PrepareForExport
+  name: PrepareForExport
+  nameWithType: MidiEventCollection.PrepareForExport
+  fullName: NAudio.Midi.MidiEventCollection.PrepareForExport
+- uid: NAudio.Midi.MidiEventCollection.GetEnumerator*
+  commentId: Overload:NAudio.Midi.MidiEventCollection.GetEnumerator
+  isExternal: true
+  href: NAudio.Midi.MidiEventCollection.html#NAudio_Midi_MidiEventCollection_GetEnumerator
+  name: GetEnumerator
+  nameWithType: MidiEventCollection.GetEnumerator
+  fullName: NAudio.Midi.MidiEventCollection.GetEnumerator
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.IList{NAudio.Midi.MidiEvent}}.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable{System.Collections.Generic.IList{NAudio.Midi.MidiEvent}}.GetEnumerator
+  parent: System.Collections.Generic.IEnumerable{System.Collections.Generic.IList{NAudio.Midi.MidiEvent}}
+  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<IList<MidiEvent>>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.IList<NAudio.Midi.MidiEvent>>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of IList(Of MidiEvent)).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IList(Of NAudio.Midi.MidiEvent)).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.IList{NAudio.Midi.MidiEvent}}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.IList{NAudio.Midi.MidiEvent}}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator{System.Collections.Generic.IList{NAudio.Midi.MidiEvent}}
+  commentId: T:System.Collections.Generic.IEnumerator{System.Collections.Generic.IList{NAudio.Midi.MidiEvent}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<IList<MidiEvent>>
+  nameWithType: IEnumerator<IList<MidiEvent>>
+  fullName: System.Collections.Generic.IEnumerator<System.Collections.Generic.IList<NAudio.Midi.MidiEvent>>
+  nameWithType.vb: IEnumerator(Of IList(Of MidiEvent))
+  fullName.vb: System.Collections.Generic.IEnumerator(Of System.Collections.Generic.IList(Of NAudio.Midi.MidiEvent))
+  name.vb: IEnumerator(Of IList(Of MidiEvent))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: NAudio.Midi.MidiEvent
+    name: MidiEvent
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NAudio.Midi.MidiEvent
+    name: MidiEvent
+    isExternal: true
+    href: NAudio.Midi.MidiEvent.html
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NAudio.Midi.MidiEventCollection.Tracks*
+  commentId: Overload:NAudio.Midi.MidiEventCollection.Tracks
+  isExternal: true
+  href: NAudio.Midi.MidiEventCollection.html#NAudio_Midi_MidiEventCollection_Tracks
+  name: Tracks
+  nameWithType: MidiEventCollection.Tracks
+  fullName: NAudio.Midi.MidiEventCollection.Tracks
+- uid: NAudio.Midi.MidiEventCollection.StartAbsoluteTime*
+  commentId: Overload:NAudio.Midi.MidiEventCollection.StartAbsoluteTime
+  isExternal: true
+  href: NAudio.Midi.MidiEventCollection.html#NAudio_Midi_MidiEventCollection_StartAbsoluteTime
+  name: StartAbsoluteTime
+  nameWithType: MidiEventCollection.StartAbsoluteTime
+  fullName: NAudio.Midi.MidiEventCollection.StartAbsoluteTime
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: NAudio.Midi.MidiEventCollection.DeltaTicksPerQuarterNote*
+  commentId: Overload:NAudio.Midi.MidiEventCollection.DeltaTicksPerQuarterNote
+  isExternal: true
+  href: NAudio.Midi.MidiEventCollection.html#NAudio_Midi_MidiEventCollection_DeltaTicksPerQuarterNote
+  name: DeltaTicksPerQuarterNote
+  nameWithType: MidiEventCollection.DeltaTicksPerQuarterNote
+  fullName: NAudio.Midi.MidiEventCollection.DeltaTicksPerQuarterNote
+- uid: NAudio.Midi.MidiEventCollection.Item*
+  commentId: Overload:NAudio.Midi.MidiEventCollection.Item
+  isExternal: true
+  href: NAudio.Midi.MidiEventCollection.html#NAudio_Midi_MidiEventCollection_Item_System_Int32_
+  name: this
+  nameWithType: MidiEventCollection.this
+  fullName: NAudio.Midi.MidiEventCollection.this
+  nameWithType.vb: MidiEventCollection.this[]
+  fullName.vb: NAudio.Midi.MidiEventCollection.this[]
+  name.vb: this[]
+- uid: NAudio.Midi.MidiEventCollection.MidiFileType*
+  commentId: Overload:NAudio.Midi.MidiEventCollection.MidiFileType
+  isExternal: true
+  href: NAudio.Midi.MidiEventCollection.html#NAudio_Midi_MidiEventCollection_MidiFileType
+  name: MidiFileType
+  nameWithType: MidiEventCollection.MidiFileType
+  fullName: NAudio.Midi.MidiEventCollection.MidiFileType

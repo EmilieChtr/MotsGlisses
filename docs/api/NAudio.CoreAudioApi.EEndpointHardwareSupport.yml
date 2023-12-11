@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.EEndpointHardwareSupport
+  commentId: T:NAudio.CoreAudioApi.EEndpointHardwareSupport
+  id: EEndpointHardwareSupport
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.EEndpointHardwareSupport.Meter
+  - NAudio.CoreAudioApi.EEndpointHardwareSupport.Mute
+  - NAudio.CoreAudioApi.EEndpointHardwareSupport.Volume
+  langs:
+  - csharp
+  - vb
+  name: EEndpointHardwareSupport
+  nameWithType: EEndpointHardwareSupport
+  fullName: NAudio.CoreAudioApi.EEndpointHardwareSupport
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum EEndpointHardwareSupport
+    content.vb: >-
+      <Flags>
+
+      Public Enum EEndpointHardwareSupport
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.CoreAudioApi.EEndpointHardwareSupport.Volume
+  commentId: F:NAudio.CoreAudioApi.EEndpointHardwareSupport.Volume
+  id: Volume
+  parent: NAudio.CoreAudioApi.EEndpointHardwareSupport
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: EEndpointHardwareSupport.Volume
+  fullName: NAudio.CoreAudioApi.EEndpointHardwareSupport.Volume
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Volume = 1
+    return:
+      type: NAudio.CoreAudioApi.EEndpointHardwareSupport
+- uid: NAudio.CoreAudioApi.EEndpointHardwareSupport.Mute
+  commentId: F:NAudio.CoreAudioApi.EEndpointHardwareSupport.Mute
+  id: Mute
+  parent: NAudio.CoreAudioApi.EEndpointHardwareSupport
+  langs:
+  - csharp
+  - vb
+  name: Mute
+  nameWithType: EEndpointHardwareSupport.Mute
+  fullName: NAudio.CoreAudioApi.EEndpointHardwareSupport.Mute
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Mute = 2
+    return:
+      type: NAudio.CoreAudioApi.EEndpointHardwareSupport
+- uid: NAudio.CoreAudioApi.EEndpointHardwareSupport.Meter
+  commentId: F:NAudio.CoreAudioApi.EEndpointHardwareSupport.Meter
+  id: Meter
+  parent: NAudio.CoreAudioApi.EEndpointHardwareSupport
+  langs:
+  - csharp
+  - vb
+  name: Meter
+  nameWithType: EEndpointHardwareSupport.Meter
+  fullName: NAudio.CoreAudioApi.EEndpointHardwareSupport.Meter
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Meter = 4
+    return:
+      type: NAudio.CoreAudioApi.EEndpointHardwareSupport
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: NAudio.CoreAudioApi.EEndpointHardwareSupport
+  commentId: T:NAudio.CoreAudioApi.EEndpointHardwareSupport
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.EEndpointHardwareSupport.html
+  name: EEndpointHardwareSupport
+  nameWithType: EEndpointHardwareSupport
+  fullName: NAudio.CoreAudioApi.EEndpointHardwareSupport

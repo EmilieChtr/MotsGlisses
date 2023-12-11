@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.MpegLayer
+  commentId: T:NAudio.Wave.MpegLayer
+  id: MpegLayer
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.MpegLayer.Layer1
+  - NAudio.Wave.MpegLayer.Layer2
+  - NAudio.Wave.MpegLayer.Layer3
+  - NAudio.Wave.MpegLayer.Reserved
+  langs:
+  - csharp
+  - vb
+  name: MpegLayer
+  nameWithType: MpegLayer
+  fullName: NAudio.Wave.MpegLayer
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public enum MpegLayer
+    content.vb: Public Enum MpegLayer
+- uid: NAudio.Wave.MpegLayer.Reserved
+  commentId: F:NAudio.Wave.MpegLayer.Reserved
+  id: Reserved
+  parent: NAudio.Wave.MpegLayer
+  langs:
+  - csharp
+  - vb
+  name: Reserved
+  nameWithType: MpegLayer.Reserved
+  fullName: NAudio.Wave.MpegLayer.Reserved
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: Reserved = 0
+    return:
+      type: NAudio.Wave.MpegLayer
+- uid: NAudio.Wave.MpegLayer.Layer3
+  commentId: F:NAudio.Wave.MpegLayer.Layer3
+  id: Layer3
+  parent: NAudio.Wave.MpegLayer
+  langs:
+  - csharp
+  - vb
+  name: Layer3
+  nameWithType: MpegLayer.Layer3
+  fullName: NAudio.Wave.MpegLayer.Layer3
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: Layer3 = 1
+    return:
+      type: NAudio.Wave.MpegLayer
+- uid: NAudio.Wave.MpegLayer.Layer2
+  commentId: F:NAudio.Wave.MpegLayer.Layer2
+  id: Layer2
+  parent: NAudio.Wave.MpegLayer
+  langs:
+  - csharp
+  - vb
+  name: Layer2
+  nameWithType: MpegLayer.Layer2
+  fullName: NAudio.Wave.MpegLayer.Layer2
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: Layer2 = 2
+    return:
+      type: NAudio.Wave.MpegLayer
+- uid: NAudio.Wave.MpegLayer.Layer1
+  commentId: F:NAudio.Wave.MpegLayer.Layer1
+  id: Layer1
+  parent: NAudio.Wave.MpegLayer
+  langs:
+  - csharp
+  - vb
+  name: Layer1
+  nameWithType: MpegLayer.Layer1
+  fullName: NAudio.Wave.MpegLayer.Layer1
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: Layer1 = 3
+    return:
+      type: NAudio.Wave.MpegLayer
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Wave.MpegLayer
+  commentId: T:NAudio.Wave.MpegLayer
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.MpegLayer.html
+  name: MpegLayer
+  nameWithType: MpegLayer
+  fullName: NAudio.Wave.MpegLayer

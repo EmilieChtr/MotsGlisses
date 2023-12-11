@@ -1,0 +1,1436 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.WaveInterop
+  commentId: T:NAudio.Wave.WaveInterop
+  id: WaveInterop
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.WaveInterop.#ctor
+  - NAudio.Wave.WaveInterop.mmioStringToFOURCC(System.String,System.Int32)
+  - NAudio.Wave.WaveInterop.waveInAddBuffer(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  - NAudio.Wave.WaveInterop.waveInClose(System.IntPtr)
+  - NAudio.Wave.WaveInterop.waveInGetDevCaps(System.IntPtr,NAudio.Wave.WaveInCapabilities@,System.Int32)
+  - NAudio.Wave.WaveInterop.waveInGetNumDevs
+  - NAudio.Wave.WaveInterop.waveInGetPosition(System.IntPtr,NAudio.Wave.MmTime@,System.Int32)
+  - NAudio.Wave.WaveInterop.waveInOpen(System.IntPtr@,System.IntPtr,NAudio.Wave.WaveFormat,NAudio.Wave.WaveInterop.WaveCallback,System.IntPtr,NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  - NAudio.Wave.WaveInterop.waveInOpenWindow(System.IntPtr@,System.IntPtr,NAudio.Wave.WaveFormat,System.IntPtr,System.IntPtr,NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  - NAudio.Wave.WaveInterop.waveInPrepareHeader(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  - NAudio.Wave.WaveInterop.waveInReset(System.IntPtr)
+  - NAudio.Wave.WaveInterop.waveInStart(System.IntPtr)
+  - NAudio.Wave.WaveInterop.waveInStop(System.IntPtr)
+  - NAudio.Wave.WaveInterop.waveInUnprepareHeader(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  - NAudio.Wave.WaveInterop.waveOutClose(System.IntPtr)
+  - NAudio.Wave.WaveInterop.waveOutGetDevCaps(System.IntPtr,NAudio.Wave.WaveOutCapabilities@,System.Int32)
+  - NAudio.Wave.WaveInterop.waveOutGetNumDevs
+  - NAudio.Wave.WaveInterop.waveOutGetPosition(System.IntPtr,NAudio.Wave.MmTime@,System.Int32)
+  - NAudio.Wave.WaveInterop.waveOutGetVolume(System.IntPtr,System.Int32@)
+  - NAudio.Wave.WaveInterop.waveOutOpen(System.IntPtr@,System.IntPtr,NAudio.Wave.WaveFormat,NAudio.Wave.WaveInterop.WaveCallback,System.IntPtr,NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  - NAudio.Wave.WaveInterop.waveOutOpenWindow(System.IntPtr@,System.IntPtr,NAudio.Wave.WaveFormat,System.IntPtr,System.IntPtr,NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  - NAudio.Wave.WaveInterop.waveOutPause(System.IntPtr)
+  - NAudio.Wave.WaveInterop.waveOutPrepareHeader(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  - NAudio.Wave.WaveInterop.waveOutReset(System.IntPtr)
+  - NAudio.Wave.WaveInterop.waveOutRestart(System.IntPtr)
+  - NAudio.Wave.WaveInterop.waveOutSetVolume(System.IntPtr,System.Int32)
+  - NAudio.Wave.WaveInterop.waveOutUnprepareHeader(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  - NAudio.Wave.WaveInterop.waveOutWrite(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: WaveInterop
+  nameWithType: WaveInterop
+  fullName: NAudio.Wave.WaveInterop
+  type: Class
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public class WaveInterop
+    content.vb: Public Class WaveInterop
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Wave.WaveInterop.mmioStringToFOURCC(System.String,System.Int32)
+  commentId: M:NAudio.Wave.WaveInterop.mmioStringToFOURCC(System.String,System.Int32)
+  id: mmioStringToFOURCC(System.String,System.Int32)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: mmioStringToFOURCC(string, int)
+  nameWithType: WaveInterop.mmioStringToFOURCC(string, int)
+  fullName: NAudio.Wave.WaveInterop.mmioStringToFOURCC(string, int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern int mmioStringToFOURCC(string s, int flags)
+    parameters:
+    - id: s
+      type: System.String
+    - id: flags
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function mmioStringToFOURCC(s As String, flags As Integer) As Integer
+  overload: NAudio.Wave.WaveInterop.mmioStringToFOURCC*
+  nameWithType.vb: WaveInterop.mmioStringToFOURCC(String, Integer)
+  fullName.vb: NAudio.Wave.WaveInterop.mmioStringToFOURCC(String, Integer)
+  name.vb: mmioStringToFOURCC(String, Integer)
+- uid: NAudio.Wave.WaveInterop.waveOutGetNumDevs
+  commentId: M:NAudio.Wave.WaveInterop.waveOutGetNumDevs
+  id: waveOutGetNumDevs
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveOutGetNumDevs()
+  nameWithType: WaveInterop.waveOutGetNumDevs()
+  fullName: NAudio.Wave.WaveInterop.waveOutGetNumDevs()
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern int waveOutGetNumDevs()
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function waveOutGetNumDevs() As Integer
+  overload: NAudio.Wave.WaveInterop.waveOutGetNumDevs*
+- uid: NAudio.Wave.WaveInterop.waveOutPrepareHeader(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  commentId: M:NAudio.Wave.WaveInterop.waveOutPrepareHeader(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  id: waveOutPrepareHeader(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveOutPrepareHeader(IntPtr, WaveHeader, int)
+  nameWithType: WaveInterop.waveOutPrepareHeader(IntPtr, WaveHeader, int)
+  fullName: NAudio.Wave.WaveInterop.waveOutPrepareHeader(System.IntPtr, NAudio.Wave.WaveHeader, int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveOutPrepareHeader(IntPtr hWaveOut, WaveHeader lpWaveOutHdr, int uSize)
+    parameters:
+    - id: hWaveOut
+      type: System.IntPtr
+    - id: lpWaveOutHdr
+      type: NAudio.Wave.WaveHeader
+    - id: uSize
+      type: System.Int32
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveOutPrepareHeader(hWaveOut As IntPtr, lpWaveOutHdr As WaveHeader, uSize As Integer) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveOutPrepareHeader*
+  nameWithType.vb: WaveInterop.waveOutPrepareHeader(IntPtr, WaveHeader, Integer)
+  fullName.vb: NAudio.Wave.WaveInterop.waveOutPrepareHeader(System.IntPtr, NAudio.Wave.WaveHeader, Integer)
+  name.vb: waveOutPrepareHeader(IntPtr, WaveHeader, Integer)
+- uid: NAudio.Wave.WaveInterop.waveOutUnprepareHeader(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  commentId: M:NAudio.Wave.WaveInterop.waveOutUnprepareHeader(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  id: waveOutUnprepareHeader(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveOutUnprepareHeader(IntPtr, WaveHeader, int)
+  nameWithType: WaveInterop.waveOutUnprepareHeader(IntPtr, WaveHeader, int)
+  fullName: NAudio.Wave.WaveInterop.waveOutUnprepareHeader(System.IntPtr, NAudio.Wave.WaveHeader, int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveOutUnprepareHeader(IntPtr hWaveOut, WaveHeader lpWaveOutHdr, int uSize)
+    parameters:
+    - id: hWaveOut
+      type: System.IntPtr
+    - id: lpWaveOutHdr
+      type: NAudio.Wave.WaveHeader
+    - id: uSize
+      type: System.Int32
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveOutUnprepareHeader(hWaveOut As IntPtr, lpWaveOutHdr As WaveHeader, uSize As Integer) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveOutUnprepareHeader*
+  nameWithType.vb: WaveInterop.waveOutUnprepareHeader(IntPtr, WaveHeader, Integer)
+  fullName.vb: NAudio.Wave.WaveInterop.waveOutUnprepareHeader(System.IntPtr, NAudio.Wave.WaveHeader, Integer)
+  name.vb: waveOutUnprepareHeader(IntPtr, WaveHeader, Integer)
+- uid: NAudio.Wave.WaveInterop.waveOutWrite(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  commentId: M:NAudio.Wave.WaveInterop.waveOutWrite(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  id: waveOutWrite(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveOutWrite(IntPtr, WaveHeader, int)
+  nameWithType: WaveInterop.waveOutWrite(IntPtr, WaveHeader, int)
+  fullName: NAudio.Wave.WaveInterop.waveOutWrite(System.IntPtr, NAudio.Wave.WaveHeader, int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveOutWrite(IntPtr hWaveOut, WaveHeader lpWaveOutHdr, int uSize)
+    parameters:
+    - id: hWaveOut
+      type: System.IntPtr
+    - id: lpWaveOutHdr
+      type: NAudio.Wave.WaveHeader
+    - id: uSize
+      type: System.Int32
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveOutWrite(hWaveOut As IntPtr, lpWaveOutHdr As WaveHeader, uSize As Integer) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveOutWrite*
+  nameWithType.vb: WaveInterop.waveOutWrite(IntPtr, WaveHeader, Integer)
+  fullName.vb: NAudio.Wave.WaveInterop.waveOutWrite(System.IntPtr, NAudio.Wave.WaveHeader, Integer)
+  name.vb: waveOutWrite(IntPtr, WaveHeader, Integer)
+- uid: NAudio.Wave.WaveInterop.waveOutOpen(System.IntPtr@,System.IntPtr,NAudio.Wave.WaveFormat,NAudio.Wave.WaveInterop.WaveCallback,System.IntPtr,NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  commentId: M:NAudio.Wave.WaveInterop.waveOutOpen(System.IntPtr@,System.IntPtr,NAudio.Wave.WaveFormat,NAudio.Wave.WaveInterop.WaveCallback,System.IntPtr,NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  id: waveOutOpen(System.IntPtr@,System.IntPtr,NAudio.Wave.WaveFormat,NAudio.Wave.WaveInterop.WaveCallback,System.IntPtr,NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveOutOpen(out IntPtr, IntPtr, WaveFormat, WaveCallback, IntPtr, WaveInOutOpenFlags)
+  nameWithType: WaveInterop.waveOutOpen(out IntPtr, IntPtr, WaveFormat, WaveInterop.WaveCallback, IntPtr, WaveInterop.WaveInOutOpenFlags)
+  fullName: NAudio.Wave.WaveInterop.waveOutOpen(out System.IntPtr, System.IntPtr, NAudio.Wave.WaveFormat, NAudio.Wave.WaveInterop.WaveCallback, System.IntPtr, NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveOutOpen(out IntPtr hWaveOut, IntPtr uDeviceID, WaveFormat lpFormat, WaveInterop.WaveCallback dwCallback, IntPtr dwInstance, WaveInterop.WaveInOutOpenFlags dwFlags)
+    parameters:
+    - id: hWaveOut
+      type: System.IntPtr
+    - id: uDeviceID
+      type: System.IntPtr
+    - id: lpFormat
+      type: NAudio.Wave.WaveFormat
+    - id: dwCallback
+      type: NAudio.Wave.WaveInterop.WaveCallback
+    - id: dwInstance
+      type: System.IntPtr
+    - id: dwFlags
+      type: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveOutOpen(hWaveOut As IntPtr, uDeviceID As IntPtr, lpFormat As WaveFormat, dwCallback As WaveInterop.WaveCallback, dwInstance As IntPtr, dwFlags As WaveInterop.WaveInOutOpenFlags) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveOutOpen*
+  nameWithType.vb: WaveInterop.waveOutOpen(IntPtr, IntPtr, WaveFormat, WaveInterop.WaveCallback, IntPtr, WaveInterop.WaveInOutOpenFlags)
+  fullName.vb: NAudio.Wave.WaveInterop.waveOutOpen(System.IntPtr, System.IntPtr, NAudio.Wave.WaveFormat, NAudio.Wave.WaveInterop.WaveCallback, System.IntPtr, NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  name.vb: waveOutOpen(IntPtr, IntPtr, WaveFormat, WaveCallback, IntPtr, WaveInOutOpenFlags)
+- uid: NAudio.Wave.WaveInterop.waveOutOpenWindow(System.IntPtr@,System.IntPtr,NAudio.Wave.WaveFormat,System.IntPtr,System.IntPtr,NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  commentId: M:NAudio.Wave.WaveInterop.waveOutOpenWindow(System.IntPtr@,System.IntPtr,NAudio.Wave.WaveFormat,System.IntPtr,System.IntPtr,NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  id: waveOutOpenWindow(System.IntPtr@,System.IntPtr,NAudio.Wave.WaveFormat,System.IntPtr,System.IntPtr,NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveOutOpenWindow(out IntPtr, IntPtr, WaveFormat, IntPtr, IntPtr, WaveInOutOpenFlags)
+  nameWithType: WaveInterop.waveOutOpenWindow(out IntPtr, IntPtr, WaveFormat, IntPtr, IntPtr, WaveInterop.WaveInOutOpenFlags)
+  fullName: NAudio.Wave.WaveInterop.waveOutOpenWindow(out System.IntPtr, System.IntPtr, NAudio.Wave.WaveFormat, System.IntPtr, System.IntPtr, NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveOutOpenWindow(out IntPtr hWaveOut, IntPtr uDeviceID, WaveFormat lpFormat, IntPtr callbackWindowHandle, IntPtr dwInstance, WaveInterop.WaveInOutOpenFlags dwFlags)
+    parameters:
+    - id: hWaveOut
+      type: System.IntPtr
+    - id: uDeviceID
+      type: System.IntPtr
+    - id: lpFormat
+      type: NAudio.Wave.WaveFormat
+    - id: callbackWindowHandle
+      type: System.IntPtr
+    - id: dwInstance
+      type: System.IntPtr
+    - id: dwFlags
+      type: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveOutOpenWindow(hWaveOut As IntPtr, uDeviceID As IntPtr, lpFormat As WaveFormat, callbackWindowHandle As IntPtr, dwInstance As IntPtr, dwFlags As WaveInterop.WaveInOutOpenFlags) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveOutOpenWindow*
+  nameWithType.vb: WaveInterop.waveOutOpenWindow(IntPtr, IntPtr, WaveFormat, IntPtr, IntPtr, WaveInterop.WaveInOutOpenFlags)
+  fullName.vb: NAudio.Wave.WaveInterop.waveOutOpenWindow(System.IntPtr, System.IntPtr, NAudio.Wave.WaveFormat, System.IntPtr, System.IntPtr, NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  name.vb: waveOutOpenWindow(IntPtr, IntPtr, WaveFormat, IntPtr, IntPtr, WaveInOutOpenFlags)
+- uid: NAudio.Wave.WaveInterop.waveOutReset(System.IntPtr)
+  commentId: M:NAudio.Wave.WaveInterop.waveOutReset(System.IntPtr)
+  id: waveOutReset(System.IntPtr)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveOutReset(IntPtr)
+  nameWithType: WaveInterop.waveOutReset(IntPtr)
+  fullName: NAudio.Wave.WaveInterop.waveOutReset(System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveOutReset(IntPtr hWaveOut)
+    parameters:
+    - id: hWaveOut
+      type: System.IntPtr
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveOutReset(hWaveOut As IntPtr) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveOutReset*
+- uid: NAudio.Wave.WaveInterop.waveOutClose(System.IntPtr)
+  commentId: M:NAudio.Wave.WaveInterop.waveOutClose(System.IntPtr)
+  id: waveOutClose(System.IntPtr)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveOutClose(IntPtr)
+  nameWithType: WaveInterop.waveOutClose(IntPtr)
+  fullName: NAudio.Wave.WaveInterop.waveOutClose(System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveOutClose(IntPtr hWaveOut)
+    parameters:
+    - id: hWaveOut
+      type: System.IntPtr
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveOutClose(hWaveOut As IntPtr) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveOutClose*
+- uid: NAudio.Wave.WaveInterop.waveOutPause(System.IntPtr)
+  commentId: M:NAudio.Wave.WaveInterop.waveOutPause(System.IntPtr)
+  id: waveOutPause(System.IntPtr)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveOutPause(IntPtr)
+  nameWithType: WaveInterop.waveOutPause(IntPtr)
+  fullName: NAudio.Wave.WaveInterop.waveOutPause(System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveOutPause(IntPtr hWaveOut)
+    parameters:
+    - id: hWaveOut
+      type: System.IntPtr
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveOutPause(hWaveOut As IntPtr) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveOutPause*
+- uid: NAudio.Wave.WaveInterop.waveOutRestart(System.IntPtr)
+  commentId: M:NAudio.Wave.WaveInterop.waveOutRestart(System.IntPtr)
+  id: waveOutRestart(System.IntPtr)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveOutRestart(IntPtr)
+  nameWithType: WaveInterop.waveOutRestart(IntPtr)
+  fullName: NAudio.Wave.WaveInterop.waveOutRestart(System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveOutRestart(IntPtr hWaveOut)
+    parameters:
+    - id: hWaveOut
+      type: System.IntPtr
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveOutRestart(hWaveOut As IntPtr) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveOutRestart*
+- uid: NAudio.Wave.WaveInterop.waveOutGetPosition(System.IntPtr,NAudio.Wave.MmTime@,System.Int32)
+  commentId: M:NAudio.Wave.WaveInterop.waveOutGetPosition(System.IntPtr,NAudio.Wave.MmTime@,System.Int32)
+  id: waveOutGetPosition(System.IntPtr,NAudio.Wave.MmTime@,System.Int32)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveOutGetPosition(IntPtr, ref MmTime, int)
+  nameWithType: WaveInterop.waveOutGetPosition(IntPtr, ref MmTime, int)
+  fullName: NAudio.Wave.WaveInterop.waveOutGetPosition(System.IntPtr, ref NAudio.Wave.MmTime, int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveOutGetPosition(IntPtr hWaveOut, ref MmTime mmTime, int uSize)
+    parameters:
+    - id: hWaveOut
+      type: System.IntPtr
+    - id: mmTime
+      type: NAudio.Wave.MmTime
+    - id: uSize
+      type: System.Int32
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveOutGetPosition(hWaveOut As IntPtr, mmTime As MmTime, uSize As Integer) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveOutGetPosition*
+  nameWithType.vb: WaveInterop.waveOutGetPosition(IntPtr, MmTime, Integer)
+  fullName.vb: NAudio.Wave.WaveInterop.waveOutGetPosition(System.IntPtr, NAudio.Wave.MmTime, Integer)
+  name.vb: waveOutGetPosition(IntPtr, MmTime, Integer)
+- uid: NAudio.Wave.WaveInterop.waveOutSetVolume(System.IntPtr,System.Int32)
+  commentId: M:NAudio.Wave.WaveInterop.waveOutSetVolume(System.IntPtr,System.Int32)
+  id: waveOutSetVolume(System.IntPtr,System.Int32)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveOutSetVolume(IntPtr, int)
+  nameWithType: WaveInterop.waveOutSetVolume(IntPtr, int)
+  fullName: NAudio.Wave.WaveInterop.waveOutSetVolume(System.IntPtr, int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveOutSetVolume(IntPtr hWaveOut, int dwVolume)
+    parameters:
+    - id: hWaveOut
+      type: System.IntPtr
+    - id: dwVolume
+      type: System.Int32
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveOutSetVolume(hWaveOut As IntPtr, dwVolume As Integer) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveOutSetVolume*
+  nameWithType.vb: WaveInterop.waveOutSetVolume(IntPtr, Integer)
+  fullName.vb: NAudio.Wave.WaveInterop.waveOutSetVolume(System.IntPtr, Integer)
+  name.vb: waveOutSetVolume(IntPtr, Integer)
+- uid: NAudio.Wave.WaveInterop.waveOutGetVolume(System.IntPtr,System.Int32@)
+  commentId: M:NAudio.Wave.WaveInterop.waveOutGetVolume(System.IntPtr,System.Int32@)
+  id: waveOutGetVolume(System.IntPtr,System.Int32@)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveOutGetVolume(IntPtr, out int)
+  nameWithType: WaveInterop.waveOutGetVolume(IntPtr, out int)
+  fullName: NAudio.Wave.WaveInterop.waveOutGetVolume(System.IntPtr, out int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveOutGetVolume(IntPtr hWaveOut, out int dwVolume)
+    parameters:
+    - id: hWaveOut
+      type: System.IntPtr
+    - id: dwVolume
+      type: System.Int32
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveOutGetVolume(hWaveOut As IntPtr, dwVolume As Integer) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveOutGetVolume*
+  nameWithType.vb: WaveInterop.waveOutGetVolume(IntPtr, Integer)
+  fullName.vb: NAudio.Wave.WaveInterop.waveOutGetVolume(System.IntPtr, Integer)
+  name.vb: waveOutGetVolume(IntPtr, Integer)
+- uid: NAudio.Wave.WaveInterop.waveOutGetDevCaps(System.IntPtr,NAudio.Wave.WaveOutCapabilities@,System.Int32)
+  commentId: M:NAudio.Wave.WaveInterop.waveOutGetDevCaps(System.IntPtr,NAudio.Wave.WaveOutCapabilities@,System.Int32)
+  id: waveOutGetDevCaps(System.IntPtr,NAudio.Wave.WaveOutCapabilities@,System.Int32)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveOutGetDevCaps(IntPtr, out WaveOutCapabilities, int)
+  nameWithType: WaveInterop.waveOutGetDevCaps(IntPtr, out WaveOutCapabilities, int)
+  fullName: NAudio.Wave.WaveInterop.waveOutGetDevCaps(System.IntPtr, out NAudio.Wave.WaveOutCapabilities, int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveOutGetDevCaps(IntPtr deviceID, out WaveOutCapabilities waveOutCaps, int waveOutCapsSize)
+    parameters:
+    - id: deviceID
+      type: System.IntPtr
+    - id: waveOutCaps
+      type: NAudio.Wave.WaveOutCapabilities
+    - id: waveOutCapsSize
+      type: System.Int32
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveOutGetDevCaps(deviceID As IntPtr, waveOutCaps As WaveOutCapabilities, waveOutCapsSize As Integer) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveOutGetDevCaps*
+  nameWithType.vb: WaveInterop.waveOutGetDevCaps(IntPtr, WaveOutCapabilities, Integer)
+  fullName.vb: NAudio.Wave.WaveInterop.waveOutGetDevCaps(System.IntPtr, NAudio.Wave.WaveOutCapabilities, Integer)
+  name.vb: waveOutGetDevCaps(IntPtr, WaveOutCapabilities, Integer)
+- uid: NAudio.Wave.WaveInterop.waveInGetNumDevs
+  commentId: M:NAudio.Wave.WaveInterop.waveInGetNumDevs
+  id: waveInGetNumDevs
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveInGetNumDevs()
+  nameWithType: WaveInterop.waveInGetNumDevs()
+  fullName: NAudio.Wave.WaveInterop.waveInGetNumDevs()
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern int waveInGetNumDevs()
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function waveInGetNumDevs() As Integer
+  overload: NAudio.Wave.WaveInterop.waveInGetNumDevs*
+- uid: NAudio.Wave.WaveInterop.waveInGetDevCaps(System.IntPtr,NAudio.Wave.WaveInCapabilities@,System.Int32)
+  commentId: M:NAudio.Wave.WaveInterop.waveInGetDevCaps(System.IntPtr,NAudio.Wave.WaveInCapabilities@,System.Int32)
+  id: waveInGetDevCaps(System.IntPtr,NAudio.Wave.WaveInCapabilities@,System.Int32)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveInGetDevCaps(IntPtr, out WaveInCapabilities, int)
+  nameWithType: WaveInterop.waveInGetDevCaps(IntPtr, out WaveInCapabilities, int)
+  fullName: NAudio.Wave.WaveInterop.waveInGetDevCaps(System.IntPtr, out NAudio.Wave.WaveInCapabilities, int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveInGetDevCaps(IntPtr deviceID, out WaveInCapabilities waveInCaps, int waveInCapsSize)
+    parameters:
+    - id: deviceID
+      type: System.IntPtr
+    - id: waveInCaps
+      type: NAudio.Wave.WaveInCapabilities
+    - id: waveInCapsSize
+      type: System.Int32
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveInGetDevCaps(deviceID As IntPtr, waveInCaps As WaveInCapabilities, waveInCapsSize As Integer) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveInGetDevCaps*
+  nameWithType.vb: WaveInterop.waveInGetDevCaps(IntPtr, WaveInCapabilities, Integer)
+  fullName.vb: NAudio.Wave.WaveInterop.waveInGetDevCaps(System.IntPtr, NAudio.Wave.WaveInCapabilities, Integer)
+  name.vb: waveInGetDevCaps(IntPtr, WaveInCapabilities, Integer)
+- uid: NAudio.Wave.WaveInterop.waveInAddBuffer(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  commentId: M:NAudio.Wave.WaveInterop.waveInAddBuffer(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  id: waveInAddBuffer(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveInAddBuffer(IntPtr, WaveHeader, int)
+  nameWithType: WaveInterop.waveInAddBuffer(IntPtr, WaveHeader, int)
+  fullName: NAudio.Wave.WaveInterop.waveInAddBuffer(System.IntPtr, NAudio.Wave.WaveHeader, int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveInAddBuffer(IntPtr hWaveIn, WaveHeader pwh, int cbwh)
+    parameters:
+    - id: hWaveIn
+      type: System.IntPtr
+    - id: pwh
+      type: NAudio.Wave.WaveHeader
+    - id: cbwh
+      type: System.Int32
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveInAddBuffer(hWaveIn As IntPtr, pwh As WaveHeader, cbwh As Integer) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveInAddBuffer*
+  nameWithType.vb: WaveInterop.waveInAddBuffer(IntPtr, WaveHeader, Integer)
+  fullName.vb: NAudio.Wave.WaveInterop.waveInAddBuffer(System.IntPtr, NAudio.Wave.WaveHeader, Integer)
+  name.vb: waveInAddBuffer(IntPtr, WaveHeader, Integer)
+- uid: NAudio.Wave.WaveInterop.waveInClose(System.IntPtr)
+  commentId: M:NAudio.Wave.WaveInterop.waveInClose(System.IntPtr)
+  id: waveInClose(System.IntPtr)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveInClose(IntPtr)
+  nameWithType: WaveInterop.waveInClose(IntPtr)
+  fullName: NAudio.Wave.WaveInterop.waveInClose(System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveInClose(IntPtr hWaveIn)
+    parameters:
+    - id: hWaveIn
+      type: System.IntPtr
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveInClose(hWaveIn As IntPtr) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveInClose*
+- uid: NAudio.Wave.WaveInterop.waveInOpen(System.IntPtr@,System.IntPtr,NAudio.Wave.WaveFormat,NAudio.Wave.WaveInterop.WaveCallback,System.IntPtr,NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  commentId: M:NAudio.Wave.WaveInterop.waveInOpen(System.IntPtr@,System.IntPtr,NAudio.Wave.WaveFormat,NAudio.Wave.WaveInterop.WaveCallback,System.IntPtr,NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  id: waveInOpen(System.IntPtr@,System.IntPtr,NAudio.Wave.WaveFormat,NAudio.Wave.WaveInterop.WaveCallback,System.IntPtr,NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveInOpen(out IntPtr, IntPtr, WaveFormat, WaveCallback, IntPtr, WaveInOutOpenFlags)
+  nameWithType: WaveInterop.waveInOpen(out IntPtr, IntPtr, WaveFormat, WaveInterop.WaveCallback, IntPtr, WaveInterop.WaveInOutOpenFlags)
+  fullName: NAudio.Wave.WaveInterop.waveInOpen(out System.IntPtr, System.IntPtr, NAudio.Wave.WaveFormat, NAudio.Wave.WaveInterop.WaveCallback, System.IntPtr, NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveInOpen(out IntPtr hWaveIn, IntPtr uDeviceID, WaveFormat lpFormat, WaveInterop.WaveCallback dwCallback, IntPtr dwInstance, WaveInterop.WaveInOutOpenFlags dwFlags)
+    parameters:
+    - id: hWaveIn
+      type: System.IntPtr
+    - id: uDeviceID
+      type: System.IntPtr
+    - id: lpFormat
+      type: NAudio.Wave.WaveFormat
+    - id: dwCallback
+      type: NAudio.Wave.WaveInterop.WaveCallback
+    - id: dwInstance
+      type: System.IntPtr
+    - id: dwFlags
+      type: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveInOpen(hWaveIn As IntPtr, uDeviceID As IntPtr, lpFormat As WaveFormat, dwCallback As WaveInterop.WaveCallback, dwInstance As IntPtr, dwFlags As WaveInterop.WaveInOutOpenFlags) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveInOpen*
+  nameWithType.vb: WaveInterop.waveInOpen(IntPtr, IntPtr, WaveFormat, WaveInterop.WaveCallback, IntPtr, WaveInterop.WaveInOutOpenFlags)
+  fullName.vb: NAudio.Wave.WaveInterop.waveInOpen(System.IntPtr, System.IntPtr, NAudio.Wave.WaveFormat, NAudio.Wave.WaveInterop.WaveCallback, System.IntPtr, NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  name.vb: waveInOpen(IntPtr, IntPtr, WaveFormat, WaveCallback, IntPtr, WaveInOutOpenFlags)
+- uid: NAudio.Wave.WaveInterop.waveInOpenWindow(System.IntPtr@,System.IntPtr,NAudio.Wave.WaveFormat,System.IntPtr,System.IntPtr,NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  commentId: M:NAudio.Wave.WaveInterop.waveInOpenWindow(System.IntPtr@,System.IntPtr,NAudio.Wave.WaveFormat,System.IntPtr,System.IntPtr,NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  id: waveInOpenWindow(System.IntPtr@,System.IntPtr,NAudio.Wave.WaveFormat,System.IntPtr,System.IntPtr,NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveInOpenWindow(out IntPtr, IntPtr, WaveFormat, IntPtr, IntPtr, WaveInOutOpenFlags)
+  nameWithType: WaveInterop.waveInOpenWindow(out IntPtr, IntPtr, WaveFormat, IntPtr, IntPtr, WaveInterop.WaveInOutOpenFlags)
+  fullName: NAudio.Wave.WaveInterop.waveInOpenWindow(out System.IntPtr, System.IntPtr, NAudio.Wave.WaveFormat, System.IntPtr, System.IntPtr, NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveInOpenWindow(out IntPtr hWaveIn, IntPtr uDeviceID, WaveFormat lpFormat, IntPtr callbackWindowHandle, IntPtr dwInstance, WaveInterop.WaveInOutOpenFlags dwFlags)
+    parameters:
+    - id: hWaveIn
+      type: System.IntPtr
+    - id: uDeviceID
+      type: System.IntPtr
+    - id: lpFormat
+      type: NAudio.Wave.WaveFormat
+    - id: callbackWindowHandle
+      type: System.IntPtr
+    - id: dwInstance
+      type: System.IntPtr
+    - id: dwFlags
+      type: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveInOpenWindow(hWaveIn As IntPtr, uDeviceID As IntPtr, lpFormat As WaveFormat, callbackWindowHandle As IntPtr, dwInstance As IntPtr, dwFlags As WaveInterop.WaveInOutOpenFlags) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveInOpenWindow*
+  nameWithType.vb: WaveInterop.waveInOpenWindow(IntPtr, IntPtr, WaveFormat, IntPtr, IntPtr, WaveInterop.WaveInOutOpenFlags)
+  fullName.vb: NAudio.Wave.WaveInterop.waveInOpenWindow(System.IntPtr, System.IntPtr, NAudio.Wave.WaveFormat, System.IntPtr, System.IntPtr, NAudio.Wave.WaveInterop.WaveInOutOpenFlags)
+  name.vb: waveInOpenWindow(IntPtr, IntPtr, WaveFormat, IntPtr, IntPtr, WaveInOutOpenFlags)
+- uid: NAudio.Wave.WaveInterop.waveInPrepareHeader(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  commentId: M:NAudio.Wave.WaveInterop.waveInPrepareHeader(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  id: waveInPrepareHeader(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveInPrepareHeader(IntPtr, WaveHeader, int)
+  nameWithType: WaveInterop.waveInPrepareHeader(IntPtr, WaveHeader, int)
+  fullName: NAudio.Wave.WaveInterop.waveInPrepareHeader(System.IntPtr, NAudio.Wave.WaveHeader, int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveInPrepareHeader(IntPtr hWaveIn, WaveHeader lpWaveInHdr, int uSize)
+    parameters:
+    - id: hWaveIn
+      type: System.IntPtr
+    - id: lpWaveInHdr
+      type: NAudio.Wave.WaveHeader
+    - id: uSize
+      type: System.Int32
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveInPrepareHeader(hWaveIn As IntPtr, lpWaveInHdr As WaveHeader, uSize As Integer) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveInPrepareHeader*
+  nameWithType.vb: WaveInterop.waveInPrepareHeader(IntPtr, WaveHeader, Integer)
+  fullName.vb: NAudio.Wave.WaveInterop.waveInPrepareHeader(System.IntPtr, NAudio.Wave.WaveHeader, Integer)
+  name.vb: waveInPrepareHeader(IntPtr, WaveHeader, Integer)
+- uid: NAudio.Wave.WaveInterop.waveInUnprepareHeader(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  commentId: M:NAudio.Wave.WaveInterop.waveInUnprepareHeader(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  id: waveInUnprepareHeader(System.IntPtr,NAudio.Wave.WaveHeader,System.Int32)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveInUnprepareHeader(IntPtr, WaveHeader, int)
+  nameWithType: WaveInterop.waveInUnprepareHeader(IntPtr, WaveHeader, int)
+  fullName: NAudio.Wave.WaveInterop.waveInUnprepareHeader(System.IntPtr, NAudio.Wave.WaveHeader, int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveInUnprepareHeader(IntPtr hWaveIn, WaveHeader lpWaveInHdr, int uSize)
+    parameters:
+    - id: hWaveIn
+      type: System.IntPtr
+    - id: lpWaveInHdr
+      type: NAudio.Wave.WaveHeader
+    - id: uSize
+      type: System.Int32
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveInUnprepareHeader(hWaveIn As IntPtr, lpWaveInHdr As WaveHeader, uSize As Integer) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveInUnprepareHeader*
+  nameWithType.vb: WaveInterop.waveInUnprepareHeader(IntPtr, WaveHeader, Integer)
+  fullName.vb: NAudio.Wave.WaveInterop.waveInUnprepareHeader(System.IntPtr, NAudio.Wave.WaveHeader, Integer)
+  name.vb: waveInUnprepareHeader(IntPtr, WaveHeader, Integer)
+- uid: NAudio.Wave.WaveInterop.waveInReset(System.IntPtr)
+  commentId: M:NAudio.Wave.WaveInterop.waveInReset(System.IntPtr)
+  id: waveInReset(System.IntPtr)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveInReset(IntPtr)
+  nameWithType: WaveInterop.waveInReset(IntPtr)
+  fullName: NAudio.Wave.WaveInterop.waveInReset(System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveInReset(IntPtr hWaveIn)
+    parameters:
+    - id: hWaveIn
+      type: System.IntPtr
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveInReset(hWaveIn As IntPtr) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveInReset*
+- uid: NAudio.Wave.WaveInterop.waveInStart(System.IntPtr)
+  commentId: M:NAudio.Wave.WaveInterop.waveInStart(System.IntPtr)
+  id: waveInStart(System.IntPtr)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveInStart(IntPtr)
+  nameWithType: WaveInterop.waveInStart(IntPtr)
+  fullName: NAudio.Wave.WaveInterop.waveInStart(System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveInStart(IntPtr hWaveIn)
+    parameters:
+    - id: hWaveIn
+      type: System.IntPtr
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveInStart(hWaveIn As IntPtr) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveInStart*
+- uid: NAudio.Wave.WaveInterop.waveInStop(System.IntPtr)
+  commentId: M:NAudio.Wave.WaveInterop.waveInStop(System.IntPtr)
+  id: waveInStop(System.IntPtr)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveInStop(IntPtr)
+  nameWithType: WaveInterop.waveInStop(IntPtr)
+  fullName: NAudio.Wave.WaveInterop.waveInStop(System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveInStop(IntPtr hWaveIn)
+    parameters:
+    - id: hWaveIn
+      type: System.IntPtr
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveInStop(hWaveIn As IntPtr) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveInStop*
+- uid: NAudio.Wave.WaveInterop.waveInGetPosition(System.IntPtr,NAudio.Wave.MmTime@,System.Int32)
+  commentId: M:NAudio.Wave.WaveInterop.waveInGetPosition(System.IntPtr,NAudio.Wave.MmTime@,System.Int32)
+  id: waveInGetPosition(System.IntPtr,NAudio.Wave.MmTime@,System.Int32)
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: waveInGetPosition(IntPtr, out MmTime, int)
+  nameWithType: WaveInterop.waveInGetPosition(IntPtr, out MmTime, int)
+  fullName: NAudio.Wave.WaveInterop.waveInGetPosition(System.IntPtr, out NAudio.Wave.MmTime, int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static extern MmResult waveInGetPosition(IntPtr hWaveIn, out MmTime mmTime, int uSize)
+    parameters:
+    - id: hWaveIn
+      type: System.IntPtr
+    - id: mmTime
+      type: NAudio.Wave.MmTime
+    - id: uSize
+      type: System.Int32
+    return:
+      type: NAudio.MmResult
+    content.vb: Public Shared Function waveInGetPosition(hWaveIn As IntPtr, mmTime As MmTime, uSize As Integer) As MmResult
+  overload: NAudio.Wave.WaveInterop.waveInGetPosition*
+  nameWithType.vb: WaveInterop.waveInGetPosition(IntPtr, MmTime, Integer)
+  fullName.vb: NAudio.Wave.WaveInterop.waveInGetPosition(System.IntPtr, NAudio.Wave.MmTime, Integer)
+  name.vb: waveInGetPosition(IntPtr, MmTime, Integer)
+- uid: NAudio.Wave.WaveInterop.#ctor
+  commentId: M:NAudio.Wave.WaveInterop.#ctor
+  id: '#ctor'
+  parent: NAudio.Wave.WaveInterop
+  langs:
+  - csharp
+  - vb
+  name: WaveInterop()
+  nameWithType: WaveInterop.WaveInterop()
+  fullName: NAudio.Wave.WaveInterop.WaveInterop()
+  type: Constructor
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public WaveInterop()
+    content.vb: Public Sub New()
+  overload: NAudio.Wave.WaveInterop.#ctor*
+  nameWithType.vb: WaveInterop.New()
+  fullName.vb: NAudio.Wave.WaveInterop.New()
+  name.vb: New()
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.WaveInterop.mmioStringToFOURCC*
+  commentId: Overload:NAudio.Wave.WaveInterop.mmioStringToFOURCC
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_mmioStringToFOURCC_System_String_System_Int32_
+  name: mmioStringToFOURCC
+  nameWithType: WaveInterop.mmioStringToFOURCC
+  fullName: NAudio.Wave.WaveInterop.mmioStringToFOURCC
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.Wave.WaveInterop.waveOutGetNumDevs*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveOutGetNumDevs
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveOutGetNumDevs
+  name: waveOutGetNumDevs
+  nameWithType: WaveInterop.waveOutGetNumDevs
+  fullName: NAudio.Wave.WaveInterop.waveOutGetNumDevs
+- uid: NAudio.Wave.WaveInterop.waveOutPrepareHeader*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveOutPrepareHeader
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveOutPrepareHeader_System_IntPtr_NAudio_Wave_WaveHeader_System_Int32_
+  name: waveOutPrepareHeader
+  nameWithType: WaveInterop.waveOutPrepareHeader
+  fullName: NAudio.Wave.WaveInterop.waveOutPrepareHeader
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: NAudio.Wave.WaveHeader
+  commentId: T:NAudio.Wave.WaveHeader
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveHeader.html
+  name: WaveHeader
+  nameWithType: WaveHeader
+  fullName: NAudio.Wave.WaveHeader
+- uid: NAudio.MmResult
+  commentId: T:NAudio.MmResult
+  parent: NAudio
+  isExternal: true
+  href: NAudio.MmResult.html
+  name: MmResult
+  nameWithType: MmResult
+  fullName: NAudio.MmResult
+- uid: NAudio
+  commentId: N:NAudio
+  isExternal: true
+  href: NAudio.html
+  name: NAudio
+  nameWithType: NAudio
+  fullName: NAudio
+- uid: NAudio.Wave.WaveInterop.waveOutUnprepareHeader*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveOutUnprepareHeader
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveOutUnprepareHeader_System_IntPtr_NAudio_Wave_WaveHeader_System_Int32_
+  name: waveOutUnprepareHeader
+  nameWithType: WaveInterop.waveOutUnprepareHeader
+  fullName: NAudio.Wave.WaveInterop.waveOutUnprepareHeader
+- uid: NAudio.Wave.WaveInterop.waveOutWrite*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveOutWrite
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveOutWrite_System_IntPtr_NAudio_Wave_WaveHeader_System_Int32_
+  name: waveOutWrite
+  nameWithType: WaveInterop.waveOutWrite
+  fullName: NAudio.Wave.WaveInterop.waveOutWrite
+- uid: NAudio.Wave.WaveInterop.waveOutOpen*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveOutOpen
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveOutOpen_System_IntPtr__System_IntPtr_NAudio_Wave_WaveFormat_NAudio_Wave_WaveInterop_WaveCallback_System_IntPtr_NAudio_Wave_WaveInterop_WaveInOutOpenFlags_
+  name: waveOutOpen
+  nameWithType: WaveInterop.waveOutOpen
+  fullName: NAudio.Wave.WaveInterop.waveOutOpen
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat
+- uid: NAudio.Wave.WaveInterop.WaveCallback
+  commentId: T:NAudio.Wave.WaveInterop.WaveCallback
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html
+  name: WaveInterop.WaveCallback
+  nameWithType: WaveInterop.WaveCallback
+  fullName: NAudio.Wave.WaveInterop.WaveCallback
+  spec.csharp:
+  - uid: NAudio.Wave.WaveInterop
+    name: WaveInterop
+    isExternal: true
+    href: NAudio.Wave.WaveInterop.html
+  - name: .
+  - uid: NAudio.Wave.WaveInterop.WaveCallback
+    name: WaveCallback
+    isExternal: true
+    href: NAudio.Wave.WaveInterop.WaveCallback.html
+  spec.vb:
+  - uid: NAudio.Wave.WaveInterop
+    name: WaveInterop
+    isExternal: true
+    href: NAudio.Wave.WaveInterop.html
+  - name: .
+  - uid: NAudio.Wave.WaveInterop.WaveCallback
+    name: WaveCallback
+    isExternal: true
+    href: NAudio.Wave.WaveInterop.WaveCallback.html
+- uid: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+  commentId: T:NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html
+  name: WaveInterop.WaveInOutOpenFlags
+  nameWithType: WaveInterop.WaveInOutOpenFlags
+  fullName: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+  spec.csharp:
+  - uid: NAudio.Wave.WaveInterop
+    name: WaveInterop
+    isExternal: true
+    href: NAudio.Wave.WaveInterop.html
+  - name: .
+  - uid: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+    name: WaveInOutOpenFlags
+    isExternal: true
+    href: NAudio.Wave.WaveInterop.WaveInOutOpenFlags.html
+  spec.vb:
+  - uid: NAudio.Wave.WaveInterop
+    name: WaveInterop
+    isExternal: true
+    href: NAudio.Wave.WaveInterop.html
+  - name: .
+  - uid: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+    name: WaveInOutOpenFlags
+    isExternal: true
+    href: NAudio.Wave.WaveInterop.WaveInOutOpenFlags.html
+- uid: NAudio.Wave.WaveInterop.waveOutOpenWindow*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveOutOpenWindow
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveOutOpenWindow_System_IntPtr__System_IntPtr_NAudio_Wave_WaveFormat_System_IntPtr_System_IntPtr_NAudio_Wave_WaveInterop_WaveInOutOpenFlags_
+  name: waveOutOpenWindow
+  nameWithType: WaveInterop.waveOutOpenWindow
+  fullName: NAudio.Wave.WaveInterop.waveOutOpenWindow
+- uid: NAudio.Wave.WaveInterop.waveOutReset*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveOutReset
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveOutReset_System_IntPtr_
+  name: waveOutReset
+  nameWithType: WaveInterop.waveOutReset
+  fullName: NAudio.Wave.WaveInterop.waveOutReset
+- uid: NAudio.Wave.WaveInterop.waveOutClose*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveOutClose
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveOutClose_System_IntPtr_
+  name: waveOutClose
+  nameWithType: WaveInterop.waveOutClose
+  fullName: NAudio.Wave.WaveInterop.waveOutClose
+- uid: NAudio.Wave.WaveInterop.waveOutPause*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveOutPause
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveOutPause_System_IntPtr_
+  name: waveOutPause
+  nameWithType: WaveInterop.waveOutPause
+  fullName: NAudio.Wave.WaveInterop.waveOutPause
+- uid: NAudio.Wave.WaveInterop.waveOutRestart*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveOutRestart
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveOutRestart_System_IntPtr_
+  name: waveOutRestart
+  nameWithType: WaveInterop.waveOutRestart
+  fullName: NAudio.Wave.WaveInterop.waveOutRestart
+- uid: NAudio.Wave.WaveInterop.waveOutGetPosition*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveOutGetPosition
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveOutGetPosition_System_IntPtr_NAudio_Wave_MmTime__System_Int32_
+  name: waveOutGetPosition
+  nameWithType: WaveInterop.waveOutGetPosition
+  fullName: NAudio.Wave.WaveInterop.waveOutGetPosition
+- uid: NAudio.Wave.MmTime
+  commentId: T:NAudio.Wave.MmTime
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.MmTime.html
+  name: MmTime
+  nameWithType: MmTime
+  fullName: NAudio.Wave.MmTime
+- uid: NAudio.Wave.WaveInterop.waveOutSetVolume*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveOutSetVolume
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveOutSetVolume_System_IntPtr_System_Int32_
+  name: waveOutSetVolume
+  nameWithType: WaveInterop.waveOutSetVolume
+  fullName: NAudio.Wave.WaveInterop.waveOutSetVolume
+- uid: NAudio.Wave.WaveInterop.waveOutGetVolume*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveOutGetVolume
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveOutGetVolume_System_IntPtr_System_Int32__
+  name: waveOutGetVolume
+  nameWithType: WaveInterop.waveOutGetVolume
+  fullName: NAudio.Wave.WaveInterop.waveOutGetVolume
+- uid: NAudio.Wave.WaveInterop.waveOutGetDevCaps*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveOutGetDevCaps
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveOutGetDevCaps_System_IntPtr_NAudio_Wave_WaveOutCapabilities__System_Int32_
+  name: waveOutGetDevCaps
+  nameWithType: WaveInterop.waveOutGetDevCaps
+  fullName: NAudio.Wave.WaveInterop.waveOutGetDevCaps
+- uid: NAudio.Wave.WaveOutCapabilities
+  commentId: T:NAudio.Wave.WaveOutCapabilities
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveOutCapabilities.html
+  name: WaveOutCapabilities
+  nameWithType: WaveOutCapabilities
+  fullName: NAudio.Wave.WaveOutCapabilities
+- uid: NAudio.Wave.WaveInterop.waveInGetNumDevs*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveInGetNumDevs
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveInGetNumDevs
+  name: waveInGetNumDevs
+  nameWithType: WaveInterop.waveInGetNumDevs
+  fullName: NAudio.Wave.WaveInterop.waveInGetNumDevs
+- uid: NAudio.Wave.WaveInterop.waveInGetDevCaps*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveInGetDevCaps
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveInGetDevCaps_System_IntPtr_NAudio_Wave_WaveInCapabilities__System_Int32_
+  name: waveInGetDevCaps
+  nameWithType: WaveInterop.waveInGetDevCaps
+  fullName: NAudio.Wave.WaveInterop.waveInGetDevCaps
+- uid: NAudio.Wave.WaveInCapabilities
+  commentId: T:NAudio.Wave.WaveInCapabilities
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveInCapabilities.html
+  name: WaveInCapabilities
+  nameWithType: WaveInCapabilities
+  fullName: NAudio.Wave.WaveInCapabilities
+- uid: NAudio.Wave.WaveInterop.waveInAddBuffer*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveInAddBuffer
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveInAddBuffer_System_IntPtr_NAudio_Wave_WaveHeader_System_Int32_
+  name: waveInAddBuffer
+  nameWithType: WaveInterop.waveInAddBuffer
+  fullName: NAudio.Wave.WaveInterop.waveInAddBuffer
+- uid: NAudio.Wave.WaveInterop.waveInClose*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveInClose
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveInClose_System_IntPtr_
+  name: waveInClose
+  nameWithType: WaveInterop.waveInClose
+  fullName: NAudio.Wave.WaveInterop.waveInClose
+- uid: NAudio.Wave.WaveInterop.waveInOpen*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveInOpen
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveInOpen_System_IntPtr__System_IntPtr_NAudio_Wave_WaveFormat_NAudio_Wave_WaveInterop_WaveCallback_System_IntPtr_NAudio_Wave_WaveInterop_WaveInOutOpenFlags_
+  name: waveInOpen
+  nameWithType: WaveInterop.waveInOpen
+  fullName: NAudio.Wave.WaveInterop.waveInOpen
+- uid: NAudio.Wave.WaveInterop.waveInOpenWindow*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveInOpenWindow
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveInOpenWindow_System_IntPtr__System_IntPtr_NAudio_Wave_WaveFormat_System_IntPtr_System_IntPtr_NAudio_Wave_WaveInterop_WaveInOutOpenFlags_
+  name: waveInOpenWindow
+  nameWithType: WaveInterop.waveInOpenWindow
+  fullName: NAudio.Wave.WaveInterop.waveInOpenWindow
+- uid: NAudio.Wave.WaveInterop.waveInPrepareHeader*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveInPrepareHeader
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveInPrepareHeader_System_IntPtr_NAudio_Wave_WaveHeader_System_Int32_
+  name: waveInPrepareHeader
+  nameWithType: WaveInterop.waveInPrepareHeader
+  fullName: NAudio.Wave.WaveInterop.waveInPrepareHeader
+- uid: NAudio.Wave.WaveInterop.waveInUnprepareHeader*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveInUnprepareHeader
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveInUnprepareHeader_System_IntPtr_NAudio_Wave_WaveHeader_System_Int32_
+  name: waveInUnprepareHeader
+  nameWithType: WaveInterop.waveInUnprepareHeader
+  fullName: NAudio.Wave.WaveInterop.waveInUnprepareHeader
+- uid: NAudio.Wave.WaveInterop.waveInReset*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveInReset
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveInReset_System_IntPtr_
+  name: waveInReset
+  nameWithType: WaveInterop.waveInReset
+  fullName: NAudio.Wave.WaveInterop.waveInReset
+- uid: NAudio.Wave.WaveInterop.waveInStart*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveInStart
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveInStart_System_IntPtr_
+  name: waveInStart
+  nameWithType: WaveInterop.waveInStart
+  fullName: NAudio.Wave.WaveInterop.waveInStart
+- uid: NAudio.Wave.WaveInterop.waveInStop*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveInStop
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveInStop_System_IntPtr_
+  name: waveInStop
+  nameWithType: WaveInterop.waveInStop
+  fullName: NAudio.Wave.WaveInterop.waveInStop
+- uid: NAudio.Wave.WaveInterop.waveInGetPosition*
+  commentId: Overload:NAudio.Wave.WaveInterop.waveInGetPosition
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop_waveInGetPosition_System_IntPtr_NAudio_Wave_MmTime__System_Int32_
+  name: waveInGetPosition
+  nameWithType: WaveInterop.waveInGetPosition
+  fullName: NAudio.Wave.WaveInterop.waveInGetPosition
+- uid: NAudio.Wave.WaveInterop.#ctor*
+  commentId: Overload:NAudio.Wave.WaveInterop.#ctor
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html#NAudio_Wave_WaveInterop__ctor
+  name: WaveInterop
+  nameWithType: WaveInterop.WaveInterop
+  fullName: NAudio.Wave.WaveInterop.WaveInterop
+  nameWithType.vb: WaveInterop.New
+  fullName.vb: NAudio.Wave.WaveInterop.New
+  name.vb: New

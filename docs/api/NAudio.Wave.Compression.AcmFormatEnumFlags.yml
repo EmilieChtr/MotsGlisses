@@ -1,0 +1,266 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.Compression.AcmFormatEnumFlags
+  commentId: T:NAudio.Wave.Compression.AcmFormatEnumFlags
+  id: AcmFormatEnumFlags
+  parent: NAudio.Wave.Compression
+  children:
+  - NAudio.Wave.Compression.AcmFormatEnumFlags.BitsPerSample
+  - NAudio.Wave.Compression.AcmFormatEnumFlags.Channels
+  - NAudio.Wave.Compression.AcmFormatEnumFlags.Convert
+  - NAudio.Wave.Compression.AcmFormatEnumFlags.FormatTag
+  - NAudio.Wave.Compression.AcmFormatEnumFlags.Hardware
+  - NAudio.Wave.Compression.AcmFormatEnumFlags.Input
+  - NAudio.Wave.Compression.AcmFormatEnumFlags.None
+  - NAudio.Wave.Compression.AcmFormatEnumFlags.Output
+  - NAudio.Wave.Compression.AcmFormatEnumFlags.SamplesPerSecond
+  - NAudio.Wave.Compression.AcmFormatEnumFlags.Suggest
+  langs:
+  - csharp
+  - vb
+  name: AcmFormatEnumFlags
+  nameWithType: AcmFormatEnumFlags
+  fullName: NAudio.Wave.Compression.AcmFormatEnumFlags
+  type: Enum
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum AcmFormatEnumFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum AcmFormatEnumFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.Wave.Compression.AcmFormatEnumFlags.None
+  commentId: F:NAudio.Wave.Compression.AcmFormatEnumFlags.None
+  id: None
+  parent: NAudio.Wave.Compression.AcmFormatEnumFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AcmFormatEnumFlags.None
+  fullName: NAudio.Wave.Compression.AcmFormatEnumFlags.None
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: None = 0
+    return:
+      type: NAudio.Wave.Compression.AcmFormatEnumFlags
+- uid: NAudio.Wave.Compression.AcmFormatEnumFlags.Convert
+  commentId: F:NAudio.Wave.Compression.AcmFormatEnumFlags.Convert
+  id: Convert
+  parent: NAudio.Wave.Compression.AcmFormatEnumFlags
+  langs:
+  - csharp
+  - vb
+  name: Convert
+  nameWithType: AcmFormatEnumFlags.Convert
+  fullName: NAudio.Wave.Compression.AcmFormatEnumFlags.Convert
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: Convert = 1048576
+    return:
+      type: NAudio.Wave.Compression.AcmFormatEnumFlags
+- uid: NAudio.Wave.Compression.AcmFormatEnumFlags.Hardware
+  commentId: F:NAudio.Wave.Compression.AcmFormatEnumFlags.Hardware
+  id: Hardware
+  parent: NAudio.Wave.Compression.AcmFormatEnumFlags
+  langs:
+  - csharp
+  - vb
+  name: Hardware
+  nameWithType: AcmFormatEnumFlags.Hardware
+  fullName: NAudio.Wave.Compression.AcmFormatEnumFlags.Hardware
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: Hardware = 4194304
+    return:
+      type: NAudio.Wave.Compression.AcmFormatEnumFlags
+- uid: NAudio.Wave.Compression.AcmFormatEnumFlags.Input
+  commentId: F:NAudio.Wave.Compression.AcmFormatEnumFlags.Input
+  id: Input
+  parent: NAudio.Wave.Compression.AcmFormatEnumFlags
+  langs:
+  - csharp
+  - vb
+  name: Input
+  nameWithType: AcmFormatEnumFlags.Input
+  fullName: NAudio.Wave.Compression.AcmFormatEnumFlags.Input
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: Input = 8388608
+    return:
+      type: NAudio.Wave.Compression.AcmFormatEnumFlags
+- uid: NAudio.Wave.Compression.AcmFormatEnumFlags.Channels
+  commentId: F:NAudio.Wave.Compression.AcmFormatEnumFlags.Channels
+  id: Channels
+  parent: NAudio.Wave.Compression.AcmFormatEnumFlags
+  langs:
+  - csharp
+  - vb
+  name: Channels
+  nameWithType: AcmFormatEnumFlags.Channels
+  fullName: NAudio.Wave.Compression.AcmFormatEnumFlags.Channels
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: Channels = 131072
+    return:
+      type: NAudio.Wave.Compression.AcmFormatEnumFlags
+- uid: NAudio.Wave.Compression.AcmFormatEnumFlags.SamplesPerSecond
+  commentId: F:NAudio.Wave.Compression.AcmFormatEnumFlags.SamplesPerSecond
+  id: SamplesPerSecond
+  parent: NAudio.Wave.Compression.AcmFormatEnumFlags
+  langs:
+  - csharp
+  - vb
+  name: SamplesPerSecond
+  nameWithType: AcmFormatEnumFlags.SamplesPerSecond
+  fullName: NAudio.Wave.Compression.AcmFormatEnumFlags.SamplesPerSecond
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: SamplesPerSecond = 262144
+    return:
+      type: NAudio.Wave.Compression.AcmFormatEnumFlags
+- uid: NAudio.Wave.Compression.AcmFormatEnumFlags.Output
+  commentId: F:NAudio.Wave.Compression.AcmFormatEnumFlags.Output
+  id: Output
+  parent: NAudio.Wave.Compression.AcmFormatEnumFlags
+  langs:
+  - csharp
+  - vb
+  name: Output
+  nameWithType: AcmFormatEnumFlags.Output
+  fullName: NAudio.Wave.Compression.AcmFormatEnumFlags.Output
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: Output = 16777216
+    return:
+      type: NAudio.Wave.Compression.AcmFormatEnumFlags
+- uid: NAudio.Wave.Compression.AcmFormatEnumFlags.Suggest
+  commentId: F:NAudio.Wave.Compression.AcmFormatEnumFlags.Suggest
+  id: Suggest
+  parent: NAudio.Wave.Compression.AcmFormatEnumFlags
+  langs:
+  - csharp
+  - vb
+  name: Suggest
+  nameWithType: AcmFormatEnumFlags.Suggest
+  fullName: NAudio.Wave.Compression.AcmFormatEnumFlags.Suggest
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: Suggest = 2097152
+    return:
+      type: NAudio.Wave.Compression.AcmFormatEnumFlags
+- uid: NAudio.Wave.Compression.AcmFormatEnumFlags.BitsPerSample
+  commentId: F:NAudio.Wave.Compression.AcmFormatEnumFlags.BitsPerSample
+  id: BitsPerSample
+  parent: NAudio.Wave.Compression.AcmFormatEnumFlags
+  langs:
+  - csharp
+  - vb
+  name: BitsPerSample
+  nameWithType: AcmFormatEnumFlags.BitsPerSample
+  fullName: NAudio.Wave.Compression.AcmFormatEnumFlags.BitsPerSample
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: BitsPerSample = 524288
+    return:
+      type: NAudio.Wave.Compression.AcmFormatEnumFlags
+- uid: NAudio.Wave.Compression.AcmFormatEnumFlags.FormatTag
+  commentId: F:NAudio.Wave.Compression.AcmFormatEnumFlags.FormatTag
+  id: FormatTag
+  parent: NAudio.Wave.Compression.AcmFormatEnumFlags
+  langs:
+  - csharp
+  - vb
+  name: FormatTag
+  nameWithType: AcmFormatEnumFlags.FormatTag
+  fullName: NAudio.Wave.Compression.AcmFormatEnumFlags.FormatTag
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: FormatTag = 65536
+    return:
+      type: NAudio.Wave.Compression.AcmFormatEnumFlags
+references:
+- uid: NAudio.Wave.Compression
+  commentId: N:NAudio.Wave.Compression
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave.Compression
+  nameWithType: NAudio.Wave.Compression
+  fullName: NAudio.Wave.Compression
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Compression
+    name: Compression
+    isExternal: true
+    href: NAudio.Wave.Compression.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Compression
+    name: Compression
+    isExternal: true
+    href: NAudio.Wave.Compression.html
+- uid: NAudio.Wave.Compression.AcmFormatEnumFlags
+  commentId: T:NAudio.Wave.Compression.AcmFormatEnumFlags
+  parent: NAudio.Wave.Compression
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmFormatEnumFlags.html
+  name: AcmFormatEnumFlags
+  nameWithType: AcmFormatEnumFlags
+  fullName: NAudio.Wave.Compression.AcmFormatEnumFlags

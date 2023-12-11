@@ -1,0 +1,472 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Codecs.G722Codec
+  commentId: T:NAudio.Codecs.G722Codec
+  id: G722Codec
+  parent: NAudio.Codecs
+  children:
+  - NAudio.Codecs.G722Codec.#ctor
+  - NAudio.Codecs.G722Codec.Decode(NAudio.Codecs.G722CodecState,System.Int16[],System.Byte[],System.Int32)
+  - NAudio.Codecs.G722Codec.Encode(NAudio.Codecs.G722CodecState,System.Byte[],System.Int16[],System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: G722Codec
+  nameWithType: G722Codec
+  fullName: NAudio.Codecs.G722Codec
+  type: Class
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public class G722Codec
+    content.vb: Public Class G722Codec
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Codecs.G722Codec.Decode(NAudio.Codecs.G722CodecState,System.Int16[],System.Byte[],System.Int32)
+  commentId: M:NAudio.Codecs.G722Codec.Decode(NAudio.Codecs.G722CodecState,System.Int16[],System.Byte[],System.Int32)
+  id: Decode(NAudio.Codecs.G722CodecState,System.Int16[],System.Byte[],System.Int32)
+  parent: NAudio.Codecs.G722Codec
+  langs:
+  - csharp
+  - vb
+  name: Decode(G722CodecState, short[], byte[], int)
+  nameWithType: G722Codec.Decode(G722CodecState, short[], byte[], int)
+  fullName: NAudio.Codecs.G722Codec.Decode(NAudio.Codecs.G722CodecState, short[], byte[], int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public int Decode(G722CodecState state, short[] outputBuffer, byte[] inputG722Data, int inputLength)
+    parameters:
+    - id: state
+      type: NAudio.Codecs.G722CodecState
+    - id: outputBuffer
+      type: System.Int16[]
+    - id: inputG722Data
+      type: System.Byte[]
+    - id: inputLength
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function Decode(state As G722CodecState, outputBuffer As Short(), inputG722Data As Byte(), inputLength As Integer) As Integer
+  overload: NAudio.Codecs.G722Codec.Decode*
+  nameWithType.vb: G722Codec.Decode(G722CodecState, Short(), Byte(), Integer)
+  fullName.vb: NAudio.Codecs.G722Codec.Decode(NAudio.Codecs.G722CodecState, Short(), Byte(), Integer)
+  name.vb: Decode(G722CodecState, Short(), Byte(), Integer)
+- uid: NAudio.Codecs.G722Codec.Encode(NAudio.Codecs.G722CodecState,System.Byte[],System.Int16[],System.Int32)
+  commentId: M:NAudio.Codecs.G722Codec.Encode(NAudio.Codecs.G722CodecState,System.Byte[],System.Int16[],System.Int32)
+  id: Encode(NAudio.Codecs.G722CodecState,System.Byte[],System.Int16[],System.Int32)
+  parent: NAudio.Codecs.G722Codec
+  langs:
+  - csharp
+  - vb
+  name: Encode(G722CodecState, byte[], short[], int)
+  nameWithType: G722Codec.Encode(G722CodecState, byte[], short[], int)
+  fullName: NAudio.Codecs.G722Codec.Encode(NAudio.Codecs.G722CodecState, byte[], short[], int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public int Encode(G722CodecState state, byte[] outputBuffer, short[] inputBuffer, int inputBufferCount)
+    parameters:
+    - id: state
+      type: NAudio.Codecs.G722CodecState
+    - id: outputBuffer
+      type: System.Byte[]
+    - id: inputBuffer
+      type: System.Int16[]
+    - id: inputBufferCount
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function Encode(state As G722CodecState, outputBuffer As Byte(), inputBuffer As Short(), inputBufferCount As Integer) As Integer
+  overload: NAudio.Codecs.G722Codec.Encode*
+  nameWithType.vb: G722Codec.Encode(G722CodecState, Byte(), Short(), Integer)
+  fullName.vb: NAudio.Codecs.G722Codec.Encode(NAudio.Codecs.G722CodecState, Byte(), Short(), Integer)
+  name.vb: Encode(G722CodecState, Byte(), Short(), Integer)
+- uid: NAudio.Codecs.G722Codec.#ctor
+  commentId: M:NAudio.Codecs.G722Codec.#ctor
+  id: '#ctor'
+  parent: NAudio.Codecs.G722Codec
+  langs:
+  - csharp
+  - vb
+  name: G722Codec()
+  nameWithType: G722Codec.G722Codec()
+  fullName: NAudio.Codecs.G722Codec.G722Codec()
+  type: Constructor
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public G722Codec()
+    content.vb: Public Sub New()
+  overload: NAudio.Codecs.G722Codec.#ctor*
+  nameWithType.vb: G722Codec.New()
+  fullName.vb: NAudio.Codecs.G722Codec.New()
+  name.vb: New()
+references:
+- uid: NAudio.Codecs
+  commentId: N:NAudio.Codecs
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Codecs
+  nameWithType: NAudio.Codecs
+  fullName: NAudio.Codecs
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Codecs
+    name: Codecs
+    isExternal: true
+    href: NAudio.Codecs.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Codecs
+    name: Codecs
+    isExternal: true
+    href: NAudio.Codecs.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Codecs.G722Codec.Decode*
+  commentId: Overload:NAudio.Codecs.G722Codec.Decode
+  isExternal: true
+  href: NAudio.Codecs.G722Codec.html#NAudio_Codecs_G722Codec_Decode_NAudio_Codecs_G722CodecState_System_Int16___System_Byte___System_Int32_
+  name: Decode
+  nameWithType: G722Codec.Decode
+  fullName: NAudio.Codecs.G722Codec.Decode
+- uid: NAudio.Codecs.G722CodecState
+  commentId: T:NAudio.Codecs.G722CodecState
+  parent: NAudio.Codecs
+  isExternal: true
+  href: NAudio.Codecs.G722CodecState.html
+  name: G722CodecState
+  nameWithType: G722CodecState
+  fullName: NAudio.Codecs.G722CodecState
+- uid: System.Int16[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short[]
+  nameWithType: short[]
+  fullName: short[]
+  nameWithType.vb: Short()
+  fullName.vb: Short()
+  name.vb: Short()
+  spec.csharp:
+  - uid: System.Int16
+    name: short
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int16
+    name: Short
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int16
+  - name: (
+  - name: )
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.Codecs.G722Codec.Encode*
+  commentId: Overload:NAudio.Codecs.G722Codec.Encode
+  isExternal: true
+  href: NAudio.Codecs.G722Codec.html#NAudio_Codecs_G722Codec_Encode_NAudio_Codecs_G722CodecState_System_Byte___System_Int16___System_Int32_
+  name: Encode
+  nameWithType: G722Codec.Encode
+  fullName: NAudio.Codecs.G722Codec.Encode
+- uid: NAudio.Codecs.G722Codec.#ctor*
+  commentId: Overload:NAudio.Codecs.G722Codec.#ctor
+  isExternal: true
+  href: NAudio.Codecs.G722Codec.html#NAudio_Codecs_G722Codec__ctor
+  name: G722Codec
+  nameWithType: G722Codec.G722Codec
+  fullName: NAudio.Codecs.G722Codec.G722Codec
+  nameWithType.vb: G722Codec.New
+  fullName.vb: NAudio.Codecs.G722Codec.New
+  name.vb: New

@@ -1,0 +1,637 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.DmoMediaType
+  commentId: T:NAudio.Dmo.DmoMediaType
+  id: DmoMediaType
+  parent: NAudio.Dmo
+  children:
+  - NAudio.Dmo.DmoMediaType.FixedSizeSamples
+  - NAudio.Dmo.DmoMediaType.FormatType
+  - NAudio.Dmo.DmoMediaType.FormatTypeName
+  - NAudio.Dmo.DmoMediaType.GetWaveFormat
+  - NAudio.Dmo.DmoMediaType.MajorType
+  - NAudio.Dmo.DmoMediaType.MajorTypeName
+  - NAudio.Dmo.DmoMediaType.SampleSize
+  - NAudio.Dmo.DmoMediaType.SetWaveFormat(NAudio.Wave.WaveFormat)
+  - NAudio.Dmo.DmoMediaType.SubType
+  - NAudio.Dmo.DmoMediaType.SubTypeName
+  langs:
+  - csharp
+  - vb
+  name: DmoMediaType
+  nameWithType: DmoMediaType
+  fullName: NAudio.Dmo.DmoMediaType
+  type: Struct
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public struct DmoMediaType
+    content.vb: Public Structure DmoMediaType
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NAudio.Dmo.DmoMediaType.GetWaveFormat
+  commentId: M:NAudio.Dmo.DmoMediaType.GetWaveFormat
+  id: GetWaveFormat
+  parent: NAudio.Dmo.DmoMediaType
+  langs:
+  - csharp
+  - vb
+  name: GetWaveFormat()
+  nameWithType: DmoMediaType.GetWaveFormat()
+  fullName: NAudio.Dmo.DmoMediaType.GetWaveFormat()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public WaveFormat GetWaveFormat()
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public Function GetWaveFormat() As WaveFormat
+  overload: NAudio.Dmo.DmoMediaType.GetWaveFormat*
+- uid: NAudio.Dmo.DmoMediaType.SetWaveFormat(NAudio.Wave.WaveFormat)
+  commentId: M:NAudio.Dmo.DmoMediaType.SetWaveFormat(NAudio.Wave.WaveFormat)
+  id: SetWaveFormat(NAudio.Wave.WaveFormat)
+  parent: NAudio.Dmo.DmoMediaType
+  langs:
+  - csharp
+  - vb
+  name: SetWaveFormat(WaveFormat)
+  nameWithType: DmoMediaType.SetWaveFormat(WaveFormat)
+  fullName: NAudio.Dmo.DmoMediaType.SetWaveFormat(NAudio.Wave.WaveFormat)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public void SetWaveFormat(WaveFormat waveFormat)
+    parameters:
+    - id: waveFormat
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public Sub SetWaveFormat(waveFormat As WaveFormat)
+  overload: NAudio.Dmo.DmoMediaType.SetWaveFormat*
+- uid: NAudio.Dmo.DmoMediaType.MajorType
+  commentId: P:NAudio.Dmo.DmoMediaType.MajorType
+  id: MajorType
+  parent: NAudio.Dmo.DmoMediaType
+  langs:
+  - csharp
+  - vb
+  name: MajorType
+  nameWithType: DmoMediaType.MajorType
+  fullName: NAudio.Dmo.DmoMediaType.MajorType
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public Guid MajorType { get; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public ReadOnly Property MajorType As Guid
+  overload: NAudio.Dmo.DmoMediaType.MajorType*
+- uid: NAudio.Dmo.DmoMediaType.MajorTypeName
+  commentId: P:NAudio.Dmo.DmoMediaType.MajorTypeName
+  id: MajorTypeName
+  parent: NAudio.Dmo.DmoMediaType
+  langs:
+  - csharp
+  - vb
+  name: MajorTypeName
+  nameWithType: DmoMediaType.MajorTypeName
+  fullName: NAudio.Dmo.DmoMediaType.MajorTypeName
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public string MajorTypeName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property MajorTypeName As String
+  overload: NAudio.Dmo.DmoMediaType.MajorTypeName*
+- uid: NAudio.Dmo.DmoMediaType.SubType
+  commentId: P:NAudio.Dmo.DmoMediaType.SubType
+  id: SubType
+  parent: NAudio.Dmo.DmoMediaType
+  langs:
+  - csharp
+  - vb
+  name: SubType
+  nameWithType: DmoMediaType.SubType
+  fullName: NAudio.Dmo.DmoMediaType.SubType
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public Guid SubType { get; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public ReadOnly Property SubType As Guid
+  overload: NAudio.Dmo.DmoMediaType.SubType*
+- uid: NAudio.Dmo.DmoMediaType.SubTypeName
+  commentId: P:NAudio.Dmo.DmoMediaType.SubTypeName
+  id: SubTypeName
+  parent: NAudio.Dmo.DmoMediaType
+  langs:
+  - csharp
+  - vb
+  name: SubTypeName
+  nameWithType: DmoMediaType.SubTypeName
+  fullName: NAudio.Dmo.DmoMediaType.SubTypeName
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public string SubTypeName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property SubTypeName As String
+  overload: NAudio.Dmo.DmoMediaType.SubTypeName*
+- uid: NAudio.Dmo.DmoMediaType.FixedSizeSamples
+  commentId: P:NAudio.Dmo.DmoMediaType.FixedSizeSamples
+  id: FixedSizeSamples
+  parent: NAudio.Dmo.DmoMediaType
+  langs:
+  - csharp
+  - vb
+  name: FixedSizeSamples
+  nameWithType: DmoMediaType.FixedSizeSamples
+  fullName: NAudio.Dmo.DmoMediaType.FixedSizeSamples
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public bool FixedSizeSamples { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property FixedSizeSamples As Boolean
+  overload: NAudio.Dmo.DmoMediaType.FixedSizeSamples*
+- uid: NAudio.Dmo.DmoMediaType.SampleSize
+  commentId: P:NAudio.Dmo.DmoMediaType.SampleSize
+  id: SampleSize
+  parent: NAudio.Dmo.DmoMediaType
+  langs:
+  - csharp
+  - vb
+  name: SampleSize
+  nameWithType: DmoMediaType.SampleSize
+  fullName: NAudio.Dmo.DmoMediaType.SampleSize
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public int SampleSize { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property SampleSize As Integer
+  overload: NAudio.Dmo.DmoMediaType.SampleSize*
+- uid: NAudio.Dmo.DmoMediaType.FormatType
+  commentId: P:NAudio.Dmo.DmoMediaType.FormatType
+  id: FormatType
+  parent: NAudio.Dmo.DmoMediaType
+  langs:
+  - csharp
+  - vb
+  name: FormatType
+  nameWithType: DmoMediaType.FormatType
+  fullName: NAudio.Dmo.DmoMediaType.FormatType
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public Guid FormatType { get; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public ReadOnly Property FormatType As Guid
+  overload: NAudio.Dmo.DmoMediaType.FormatType*
+- uid: NAudio.Dmo.DmoMediaType.FormatTypeName
+  commentId: P:NAudio.Dmo.DmoMediaType.FormatTypeName
+  id: FormatTypeName
+  parent: NAudio.Dmo.DmoMediaType
+  langs:
+  - csharp
+  - vb
+  name: FormatTypeName
+  nameWithType: DmoMediaType.FormatTypeName
+  fullName: NAudio.Dmo.DmoMediaType.FormatTypeName
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public string FormatTypeName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FormatTypeName As String
+  overload: NAudio.Dmo.DmoMediaType.FormatTypeName*
+references:
+- uid: NAudio.Dmo
+  commentId: N:NAudio.Dmo
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo
+  nameWithType: NAudio.Dmo
+  fullName: NAudio.Dmo
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Dmo.DmoMediaType.GetWaveFormat*
+  commentId: Overload:NAudio.Dmo.DmoMediaType.GetWaveFormat
+  isExternal: true
+  href: NAudio.Dmo.DmoMediaType.html#NAudio_Dmo_DmoMediaType_GetWaveFormat
+  name: GetWaveFormat
+  nameWithType: DmoMediaType.GetWaveFormat
+  fullName: NAudio.Dmo.DmoMediaType.GetWaveFormat
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Dmo.DmoMediaType.SetWaveFormat*
+  commentId: Overload:NAudio.Dmo.DmoMediaType.SetWaveFormat
+  isExternal: true
+  href: NAudio.Dmo.DmoMediaType.html#NAudio_Dmo_DmoMediaType_SetWaveFormat_NAudio_Wave_WaveFormat_
+  name: SetWaveFormat
+  nameWithType: DmoMediaType.SetWaveFormat
+  fullName: NAudio.Dmo.DmoMediaType.SetWaveFormat
+- uid: NAudio.Dmo.DmoMediaType.MajorType*
+  commentId: Overload:NAudio.Dmo.DmoMediaType.MajorType
+  isExternal: true
+  href: NAudio.Dmo.DmoMediaType.html#NAudio_Dmo_DmoMediaType_MajorType
+  name: MajorType
+  nameWithType: DmoMediaType.MajorType
+  fullName: NAudio.Dmo.DmoMediaType.MajorType
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: NAudio.Dmo.DmoMediaType.MajorTypeName*
+  commentId: Overload:NAudio.Dmo.DmoMediaType.MajorTypeName
+  isExternal: true
+  href: NAudio.Dmo.DmoMediaType.html#NAudio_Dmo_DmoMediaType_MajorTypeName
+  name: MajorTypeName
+  nameWithType: DmoMediaType.MajorTypeName
+  fullName: NAudio.Dmo.DmoMediaType.MajorTypeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.Dmo.DmoMediaType.SubType*
+  commentId: Overload:NAudio.Dmo.DmoMediaType.SubType
+  isExternal: true
+  href: NAudio.Dmo.DmoMediaType.html#NAudio_Dmo_DmoMediaType_SubType
+  name: SubType
+  nameWithType: DmoMediaType.SubType
+  fullName: NAudio.Dmo.DmoMediaType.SubType
+- uid: NAudio.Dmo.DmoMediaType.SubTypeName*
+  commentId: Overload:NAudio.Dmo.DmoMediaType.SubTypeName
+  isExternal: true
+  href: NAudio.Dmo.DmoMediaType.html#NAudio_Dmo_DmoMediaType_SubTypeName
+  name: SubTypeName
+  nameWithType: DmoMediaType.SubTypeName
+  fullName: NAudio.Dmo.DmoMediaType.SubTypeName
+- uid: NAudio.Dmo.DmoMediaType.FixedSizeSamples*
+  commentId: Overload:NAudio.Dmo.DmoMediaType.FixedSizeSamples
+  isExternal: true
+  href: NAudio.Dmo.DmoMediaType.html#NAudio_Dmo_DmoMediaType_FixedSizeSamples
+  name: FixedSizeSamples
+  nameWithType: DmoMediaType.FixedSizeSamples
+  fullName: NAudio.Dmo.DmoMediaType.FixedSizeSamples
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NAudio.Dmo.DmoMediaType.SampleSize*
+  commentId: Overload:NAudio.Dmo.DmoMediaType.SampleSize
+  isExternal: true
+  href: NAudio.Dmo.DmoMediaType.html#NAudio_Dmo_DmoMediaType_SampleSize
+  name: SampleSize
+  nameWithType: DmoMediaType.SampleSize
+  fullName: NAudio.Dmo.DmoMediaType.SampleSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.Dmo.DmoMediaType.FormatType*
+  commentId: Overload:NAudio.Dmo.DmoMediaType.FormatType
+  isExternal: true
+  href: NAudio.Dmo.DmoMediaType.html#NAudio_Dmo_DmoMediaType_FormatType
+  name: FormatType
+  nameWithType: DmoMediaType.FormatType
+  fullName: NAudio.Dmo.DmoMediaType.FormatType
+- uid: NAudio.Dmo.DmoMediaType.FormatTypeName*
+  commentId: Overload:NAudio.Dmo.DmoMediaType.FormatTypeName
+  isExternal: true
+  href: NAudio.Dmo.DmoMediaType.html#NAudio_Dmo_DmoMediaType_FormatTypeName
+  name: FormatTypeName
+  nameWithType: DmoMediaType.FormatTypeName
+  fullName: NAudio.Dmo.DmoMediaType.FormatTypeName

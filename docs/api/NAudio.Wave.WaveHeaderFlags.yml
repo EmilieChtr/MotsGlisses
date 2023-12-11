@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.WaveHeaderFlags
+  commentId: T:NAudio.Wave.WaveHeaderFlags
+  id: WaveHeaderFlags
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.WaveHeaderFlags.BeginLoop
+  - NAudio.Wave.WaveHeaderFlags.Done
+  - NAudio.Wave.WaveHeaderFlags.EndLoop
+  - NAudio.Wave.WaveHeaderFlags.InQueue
+  - NAudio.Wave.WaveHeaderFlags.Prepared
+  langs:
+  - csharp
+  - vb
+  name: WaveHeaderFlags
+  nameWithType: WaveHeaderFlags
+  fullName: NAudio.Wave.WaveHeaderFlags
+  type: Enum
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum WaveHeaderFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum WaveHeaderFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.Wave.WaveHeaderFlags.BeginLoop
+  commentId: F:NAudio.Wave.WaveHeaderFlags.BeginLoop
+  id: BeginLoop
+  parent: NAudio.Wave.WaveHeaderFlags
+  langs:
+  - csharp
+  - vb
+  name: BeginLoop
+  nameWithType: WaveHeaderFlags.BeginLoop
+  fullName: NAudio.Wave.WaveHeaderFlags.BeginLoop
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: BeginLoop = 4
+    return:
+      type: NAudio.Wave.WaveHeaderFlags
+- uid: NAudio.Wave.WaveHeaderFlags.Done
+  commentId: F:NAudio.Wave.WaveHeaderFlags.Done
+  id: Done
+  parent: NAudio.Wave.WaveHeaderFlags
+  langs:
+  - csharp
+  - vb
+  name: Done
+  nameWithType: WaveHeaderFlags.Done
+  fullName: NAudio.Wave.WaveHeaderFlags.Done
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: Done = 1
+    return:
+      type: NAudio.Wave.WaveHeaderFlags
+- uid: NAudio.Wave.WaveHeaderFlags.EndLoop
+  commentId: F:NAudio.Wave.WaveHeaderFlags.EndLoop
+  id: EndLoop
+  parent: NAudio.Wave.WaveHeaderFlags
+  langs:
+  - csharp
+  - vb
+  name: EndLoop
+  nameWithType: WaveHeaderFlags.EndLoop
+  fullName: NAudio.Wave.WaveHeaderFlags.EndLoop
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: EndLoop = 8
+    return:
+      type: NAudio.Wave.WaveHeaderFlags
+- uid: NAudio.Wave.WaveHeaderFlags.InQueue
+  commentId: F:NAudio.Wave.WaveHeaderFlags.InQueue
+  id: InQueue
+  parent: NAudio.Wave.WaveHeaderFlags
+  langs:
+  - csharp
+  - vb
+  name: InQueue
+  nameWithType: WaveHeaderFlags.InQueue
+  fullName: NAudio.Wave.WaveHeaderFlags.InQueue
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: InQueue = 16
+    return:
+      type: NAudio.Wave.WaveHeaderFlags
+- uid: NAudio.Wave.WaveHeaderFlags.Prepared
+  commentId: F:NAudio.Wave.WaveHeaderFlags.Prepared
+  id: Prepared
+  parent: NAudio.Wave.WaveHeaderFlags
+  langs:
+  - csharp
+  - vb
+  name: Prepared
+  nameWithType: WaveHeaderFlags.Prepared
+  fullName: NAudio.Wave.WaveHeaderFlags.Prepared
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: Prepared = 2
+    return:
+      type: NAudio.Wave.WaveHeaderFlags
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Wave.WaveHeaderFlags
+  commentId: T:NAudio.Wave.WaveHeaderFlags
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveHeaderFlags.html
+  name: WaveHeaderFlags
+  nameWithType: WaveHeaderFlags
+  fullName: NAudio.Wave.WaveHeaderFlags

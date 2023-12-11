@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.DmoInPlaceProcessFlags
+  commentId: T:NAudio.Dmo.DmoInPlaceProcessFlags
+  id: DmoInPlaceProcessFlags
+  parent: NAudio.Dmo
+  children:
+  - NAudio.Dmo.DmoInPlaceProcessFlags.Normal
+  - NAudio.Dmo.DmoInPlaceProcessFlags.Zero
+  langs:
+  - csharp
+  - vb
+  name: DmoInPlaceProcessFlags
+  nameWithType: DmoInPlaceProcessFlags
+  fullName: NAudio.Dmo.DmoInPlaceProcessFlags
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum DmoInPlaceProcessFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum DmoInPlaceProcessFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.Dmo.DmoInPlaceProcessFlags.Normal
+  commentId: F:NAudio.Dmo.DmoInPlaceProcessFlags.Normal
+  id: Normal
+  parent: NAudio.Dmo.DmoInPlaceProcessFlags
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: DmoInPlaceProcessFlags.Normal
+  fullName: NAudio.Dmo.DmoInPlaceProcessFlags.Normal
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: Normal = 0
+    return:
+      type: NAudio.Dmo.DmoInPlaceProcessFlags
+- uid: NAudio.Dmo.DmoInPlaceProcessFlags.Zero
+  commentId: F:NAudio.Dmo.DmoInPlaceProcessFlags.Zero
+  id: Zero
+  parent: NAudio.Dmo.DmoInPlaceProcessFlags
+  langs:
+  - csharp
+  - vb
+  name: Zero
+  nameWithType: DmoInPlaceProcessFlags.Zero
+  fullName: NAudio.Dmo.DmoInPlaceProcessFlags.Zero
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: Zero = 1
+    return:
+      type: NAudio.Dmo.DmoInPlaceProcessFlags
+references:
+- uid: NAudio.Dmo
+  commentId: N:NAudio.Dmo
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo
+  nameWithType: NAudio.Dmo
+  fullName: NAudio.Dmo
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+- uid: NAudio.Dmo.DmoInPlaceProcessFlags
+  commentId: T:NAudio.Dmo.DmoInPlaceProcessFlags
+  parent: NAudio.Dmo
+  isExternal: true
+  href: NAudio.Dmo.DmoInPlaceProcessFlags.html
+  name: DmoInPlaceProcessFlags
+  nameWithType: DmoInPlaceProcessFlags
+  fullName: NAudio.Dmo.DmoInPlaceProcessFlags

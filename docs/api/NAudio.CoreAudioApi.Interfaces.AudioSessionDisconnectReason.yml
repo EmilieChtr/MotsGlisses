@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+  commentId: T:NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+  id: AudioSessionDisconnectReason
+  parent: NAudio.CoreAudioApi.Interfaces
+  children:
+  - NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonDeviceRemoval
+  - NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonExclusiveModeOverride
+  - NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonFormatChanged
+  - NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonServerShutdown
+  - NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonSessionDisconnected
+  - NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonSessionLogoff
+  langs:
+  - csharp
+  - vb
+  name: AudioSessionDisconnectReason
+  nameWithType: AudioSessionDisconnectReason
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public enum AudioSessionDisconnectReason
+    content.vb: Public Enum AudioSessionDisconnectReason
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonDeviceRemoval
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonDeviceRemoval
+  id: DisconnectReasonDeviceRemoval
+  parent: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: DisconnectReasonDeviceRemoval
+  nameWithType: AudioSessionDisconnectReason.DisconnectReasonDeviceRemoval
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonDeviceRemoval
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: DisconnectReasonDeviceRemoval = 0
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonServerShutdown
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonServerShutdown
+  id: DisconnectReasonServerShutdown
+  parent: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: DisconnectReasonServerShutdown
+  nameWithType: AudioSessionDisconnectReason.DisconnectReasonServerShutdown
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonServerShutdown
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: DisconnectReasonServerShutdown = 1
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonFormatChanged
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonFormatChanged
+  id: DisconnectReasonFormatChanged
+  parent: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: DisconnectReasonFormatChanged
+  nameWithType: AudioSessionDisconnectReason.DisconnectReasonFormatChanged
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonFormatChanged
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: DisconnectReasonFormatChanged = 2
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonSessionLogoff
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonSessionLogoff
+  id: DisconnectReasonSessionLogoff
+  parent: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: DisconnectReasonSessionLogoff
+  nameWithType: AudioSessionDisconnectReason.DisconnectReasonSessionLogoff
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonSessionLogoff
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: DisconnectReasonSessionLogoff = 3
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonSessionDisconnected
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonSessionDisconnected
+  id: DisconnectReasonSessionDisconnected
+  parent: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: DisconnectReasonSessionDisconnected
+  nameWithType: AudioSessionDisconnectReason.DisconnectReasonSessionDisconnected
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonSessionDisconnected
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: DisconnectReasonSessionDisconnected = 4
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonExclusiveModeOverride
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonExclusiveModeOverride
+  id: DisconnectReasonExclusiveModeOverride
+  parent: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: DisconnectReasonExclusiveModeOverride
+  nameWithType: AudioSessionDisconnectReason.DisconnectReasonExclusiveModeOverride
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.DisconnectReasonExclusiveModeOverride
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: DisconnectReasonExclusiveModeOverride = 5
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+references:
+- uid: NAudio.CoreAudioApi.Interfaces
+  commentId: N:NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi.Interfaces
+  nameWithType: NAudio.CoreAudioApi.Interfaces
+  fullName: NAudio.CoreAudioApi.Interfaces
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+  commentId: T:NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason.html
+  name: AudioSessionDisconnectReason
+  nameWithType: AudioSessionDisconnectReason
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason

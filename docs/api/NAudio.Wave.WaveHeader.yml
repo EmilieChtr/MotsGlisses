@@ -1,0 +1,489 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.WaveHeader
+  commentId: T:NAudio.Wave.WaveHeader
+  id: WaveHeader
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.WaveHeader.#ctor
+  - NAudio.Wave.WaveHeader.bufferLength
+  - NAudio.Wave.WaveHeader.bytesRecorded
+  - NAudio.Wave.WaveHeader.dataBuffer
+  - NAudio.Wave.WaveHeader.flags
+  - NAudio.Wave.WaveHeader.loops
+  - NAudio.Wave.WaveHeader.next
+  - NAudio.Wave.WaveHeader.reserved
+  - NAudio.Wave.WaveHeader.userData
+  langs:
+  - csharp
+  - vb
+  name: WaveHeader
+  nameWithType: WaveHeader
+  fullName: NAudio.Wave.WaveHeader
+  type: Class
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public sealed class WaveHeader
+    content.vb: Public NotInheritable Class WaveHeader
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Wave.WaveHeader.dataBuffer
+  commentId: F:NAudio.Wave.WaveHeader.dataBuffer
+  id: dataBuffer
+  parent: NAudio.Wave.WaveHeader
+  langs:
+  - csharp
+  - vb
+  name: dataBuffer
+  nameWithType: WaveHeader.dataBuffer
+  fullName: NAudio.Wave.WaveHeader.dataBuffer
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public IntPtr dataBuffer
+    return:
+      type: System.IntPtr
+    content.vb: Public dataBuffer As IntPtr
+- uid: NAudio.Wave.WaveHeader.bufferLength
+  commentId: F:NAudio.Wave.WaveHeader.bufferLength
+  id: bufferLength
+  parent: NAudio.Wave.WaveHeader
+  langs:
+  - csharp
+  - vb
+  name: bufferLength
+  nameWithType: WaveHeader.bufferLength
+  fullName: NAudio.Wave.WaveHeader.bufferLength
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public int bufferLength
+    return:
+      type: System.Int32
+    content.vb: Public bufferLength As Integer
+- uid: NAudio.Wave.WaveHeader.bytesRecorded
+  commentId: F:NAudio.Wave.WaveHeader.bytesRecorded
+  id: bytesRecorded
+  parent: NAudio.Wave.WaveHeader
+  langs:
+  - csharp
+  - vb
+  name: bytesRecorded
+  nameWithType: WaveHeader.bytesRecorded
+  fullName: NAudio.Wave.WaveHeader.bytesRecorded
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public int bytesRecorded
+    return:
+      type: System.Int32
+    content.vb: Public bytesRecorded As Integer
+- uid: NAudio.Wave.WaveHeader.userData
+  commentId: F:NAudio.Wave.WaveHeader.userData
+  id: userData
+  parent: NAudio.Wave.WaveHeader
+  langs:
+  - csharp
+  - vb
+  name: userData
+  nameWithType: WaveHeader.userData
+  fullName: NAudio.Wave.WaveHeader.userData
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public IntPtr userData
+    return:
+      type: System.IntPtr
+    content.vb: Public userData As IntPtr
+- uid: NAudio.Wave.WaveHeader.flags
+  commentId: F:NAudio.Wave.WaveHeader.flags
+  id: flags
+  parent: NAudio.Wave.WaveHeader
+  langs:
+  - csharp
+  - vb
+  name: flags
+  nameWithType: WaveHeader.flags
+  fullName: NAudio.Wave.WaveHeader.flags
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public WaveHeaderFlags flags
+    return:
+      type: NAudio.Wave.WaveHeaderFlags
+    content.vb: Public flags As WaveHeaderFlags
+- uid: NAudio.Wave.WaveHeader.loops
+  commentId: F:NAudio.Wave.WaveHeader.loops
+  id: loops
+  parent: NAudio.Wave.WaveHeader
+  langs:
+  - csharp
+  - vb
+  name: loops
+  nameWithType: WaveHeader.loops
+  fullName: NAudio.Wave.WaveHeader.loops
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public int loops
+    return:
+      type: System.Int32
+    content.vb: Public loops As Integer
+- uid: NAudio.Wave.WaveHeader.next
+  commentId: F:NAudio.Wave.WaveHeader.next
+  id: next
+  parent: NAudio.Wave.WaveHeader
+  langs:
+  - csharp
+  - vb
+  name: next
+  nameWithType: WaveHeader.next
+  fullName: NAudio.Wave.WaveHeader.next
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public IntPtr next
+    return:
+      type: System.IntPtr
+    content.vb: Public [next] As IntPtr
+- uid: NAudio.Wave.WaveHeader.reserved
+  commentId: F:NAudio.Wave.WaveHeader.reserved
+  id: reserved
+  parent: NAudio.Wave.WaveHeader
+  langs:
+  - csharp
+  - vb
+  name: reserved
+  nameWithType: WaveHeader.reserved
+  fullName: NAudio.Wave.WaveHeader.reserved
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public IntPtr reserved
+    return:
+      type: System.IntPtr
+    content.vb: Public reserved As IntPtr
+- uid: NAudio.Wave.WaveHeader.#ctor
+  commentId: M:NAudio.Wave.WaveHeader.#ctor
+  id: '#ctor'
+  parent: NAudio.Wave.WaveHeader
+  langs:
+  - csharp
+  - vb
+  name: WaveHeader()
+  nameWithType: WaveHeader.WaveHeader()
+  fullName: NAudio.Wave.WaveHeader.WaveHeader()
+  type: Constructor
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public WaveHeader()
+    content.vb: Public Sub New()
+  overload: NAudio.Wave.WaveHeader.#ctor*
+  nameWithType.vb: WaveHeader.New()
+  fullName.vb: NAudio.Wave.WaveHeader.New()
+  name.vb: New()
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.Wave.WaveHeaderFlags
+  commentId: T:NAudio.Wave.WaveHeaderFlags
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveHeaderFlags.html
+  name: WaveHeaderFlags
+  nameWithType: WaveHeaderFlags
+  fullName: NAudio.Wave.WaveHeaderFlags
+- uid: NAudio.Wave.WaveHeader.#ctor*
+  commentId: Overload:NAudio.Wave.WaveHeader.#ctor
+  isExternal: true
+  href: NAudio.Wave.WaveHeader.html#NAudio_Wave_WaveHeader__ctor
+  name: WaveHeader
+  nameWithType: WaveHeader.WaveHeader
+  fullName: NAudio.Wave.WaveHeader.WaveHeader
+  nameWithType.vb: WaveHeader.New
+  fullName.vb: NAudio.Wave.WaveHeader.New
+  name.vb: New

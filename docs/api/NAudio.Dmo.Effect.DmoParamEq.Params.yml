@@ -1,0 +1,560 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params
+  commentId: T:NAudio.Dmo.Effect.DmoParamEq.Params
+  id: DmoParamEq.Params
+  parent: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.DmoParamEq.Params.BandWidth
+  - NAudio.Dmo.Effect.DmoParamEq.Params.BandWidthDefault
+  - NAudio.Dmo.Effect.DmoParamEq.Params.BandWidthMax
+  - NAudio.Dmo.Effect.DmoParamEq.Params.BandWidthMin
+  - NAudio.Dmo.Effect.DmoParamEq.Params.Center
+  - NAudio.Dmo.Effect.DmoParamEq.Params.CenterDefault
+  - NAudio.Dmo.Effect.DmoParamEq.Params.CenterMax
+  - NAudio.Dmo.Effect.DmoParamEq.Params.CenterMin
+  - NAudio.Dmo.Effect.DmoParamEq.Params.Gain
+  - NAudio.Dmo.Effect.DmoParamEq.Params.GainDefault
+  - NAudio.Dmo.Effect.DmoParamEq.Params.GainMax
+  - NAudio.Dmo.Effect.DmoParamEq.Params.GainMin
+  langs:
+  - csharp
+  - vb
+  name: DmoParamEq.Params
+  nameWithType: DmoParamEq.Params
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params
+  type: Struct
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public struct DmoParamEq.Params
+    content.vb: Public Structure DmoParamEq.Params
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params.CenterMin
+  commentId: F:NAudio.Dmo.Effect.DmoParamEq.Params.CenterMin
+  id: CenterMin
+  parent: NAudio.Dmo.Effect.DmoParamEq.Params
+  langs:
+  - csharp
+  - vb
+  name: CenterMin
+  nameWithType: DmoParamEq.Params.CenterMin
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params.CenterMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float CenterMin = 80
+    return:
+      type: System.Single
+    content.vb: Public Const CenterMin As Single = 80
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params.CenterMax
+  commentId: F:NAudio.Dmo.Effect.DmoParamEq.Params.CenterMax
+  id: CenterMax
+  parent: NAudio.Dmo.Effect.DmoParamEq.Params
+  langs:
+  - csharp
+  - vb
+  name: CenterMax
+  nameWithType: DmoParamEq.Params.CenterMax
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params.CenterMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float CenterMax = 16000
+    return:
+      type: System.Single
+    content.vb: Public Const CenterMax As Single = 16000
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params.CenterDefault
+  commentId: F:NAudio.Dmo.Effect.DmoParamEq.Params.CenterDefault
+  id: CenterDefault
+  parent: NAudio.Dmo.Effect.DmoParamEq.Params
+  langs:
+  - csharp
+  - vb
+  name: CenterDefault
+  nameWithType: DmoParamEq.Params.CenterDefault
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params.CenterDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float CenterDefault = 8000
+    return:
+      type: System.Single
+    content.vb: Public Const CenterDefault As Single = 8000
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params.BandWidthMin
+  commentId: F:NAudio.Dmo.Effect.DmoParamEq.Params.BandWidthMin
+  id: BandWidthMin
+  parent: NAudio.Dmo.Effect.DmoParamEq.Params
+  langs:
+  - csharp
+  - vb
+  name: BandWidthMin
+  nameWithType: DmoParamEq.Params.BandWidthMin
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params.BandWidthMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float BandWidthMin = 1
+    return:
+      type: System.Single
+    content.vb: Public Const BandWidthMin As Single = 1
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params.BandWidthMax
+  commentId: F:NAudio.Dmo.Effect.DmoParamEq.Params.BandWidthMax
+  id: BandWidthMax
+  parent: NAudio.Dmo.Effect.DmoParamEq.Params
+  langs:
+  - csharp
+  - vb
+  name: BandWidthMax
+  nameWithType: DmoParamEq.Params.BandWidthMax
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params.BandWidthMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float BandWidthMax = 36
+    return:
+      type: System.Single
+    content.vb: Public Const BandWidthMax As Single = 36
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params.BandWidthDefault
+  commentId: F:NAudio.Dmo.Effect.DmoParamEq.Params.BandWidthDefault
+  id: BandWidthDefault
+  parent: NAudio.Dmo.Effect.DmoParamEq.Params
+  langs:
+  - csharp
+  - vb
+  name: BandWidthDefault
+  nameWithType: DmoParamEq.Params.BandWidthDefault
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params.BandWidthDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float BandWidthDefault = 12
+    return:
+      type: System.Single
+    content.vb: Public Const BandWidthDefault As Single = 12
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params.GainMin
+  commentId: F:NAudio.Dmo.Effect.DmoParamEq.Params.GainMin
+  id: GainMin
+  parent: NAudio.Dmo.Effect.DmoParamEq.Params
+  langs:
+  - csharp
+  - vb
+  name: GainMin
+  nameWithType: DmoParamEq.Params.GainMin
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params.GainMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float GainMin = -15
+    return:
+      type: System.Single
+    content.vb: Public Const GainMin As Single = -15
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params.GainMax
+  commentId: F:NAudio.Dmo.Effect.DmoParamEq.Params.GainMax
+  id: GainMax
+  parent: NAudio.Dmo.Effect.DmoParamEq.Params
+  langs:
+  - csharp
+  - vb
+  name: GainMax
+  nameWithType: DmoParamEq.Params.GainMax
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params.GainMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float GainMax = 15
+    return:
+      type: System.Single
+    content.vb: Public Const GainMax As Single = 15
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params.GainDefault
+  commentId: F:NAudio.Dmo.Effect.DmoParamEq.Params.GainDefault
+  id: GainDefault
+  parent: NAudio.Dmo.Effect.DmoParamEq.Params
+  langs:
+  - csharp
+  - vb
+  name: GainDefault
+  nameWithType: DmoParamEq.Params.GainDefault
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params.GainDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float GainDefault = 0
+    return:
+      type: System.Single
+    content.vb: Public Const GainDefault As Single = 0
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params.Center
+  commentId: P:NAudio.Dmo.Effect.DmoParamEq.Params.Center
+  id: Center
+  parent: NAudio.Dmo.Effect.DmoParamEq.Params
+  langs:
+  - csharp
+  - vb
+  name: Center
+  nameWithType: DmoParamEq.Params.Center
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params.Center
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float Center { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Center As Single
+  overload: NAudio.Dmo.Effect.DmoParamEq.Params.Center*
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params.BandWidth
+  commentId: P:NAudio.Dmo.Effect.DmoParamEq.Params.BandWidth
+  id: BandWidth
+  parent: NAudio.Dmo.Effect.DmoParamEq.Params
+  langs:
+  - csharp
+  - vb
+  name: BandWidth
+  nameWithType: DmoParamEq.Params.BandWidth
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params.BandWidth
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float BandWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BandWidth As Single
+  overload: NAudio.Dmo.Effect.DmoParamEq.Params.BandWidth*
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params.Gain
+  commentId: P:NAudio.Dmo.Effect.DmoParamEq.Params.Gain
+  id: Gain
+  parent: NAudio.Dmo.Effect.DmoParamEq.Params
+  langs:
+  - csharp
+  - vb
+  name: Gain
+  nameWithType: DmoParamEq.Params.Gain
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params.Gain
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float Gain { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Gain As Single
+  overload: NAudio.Dmo.Effect.DmoParamEq.Params.Gain*
+references:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params.Center*
+  commentId: Overload:NAudio.Dmo.Effect.DmoParamEq.Params.Center
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoParamEq.Params.html#NAudio_Dmo_Effect_DmoParamEq_Params_Center
+  name: Center
+  nameWithType: DmoParamEq.Params.Center
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params.Center
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params.BandWidth*
+  commentId: Overload:NAudio.Dmo.Effect.DmoParamEq.Params.BandWidth
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoParamEq.Params.html#NAudio_Dmo_Effect_DmoParamEq_Params_BandWidth
+  name: BandWidth
+  nameWithType: DmoParamEq.Params.BandWidth
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params.BandWidth
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params.Gain*
+  commentId: Overload:NAudio.Dmo.Effect.DmoParamEq.Params.Gain
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoParamEq.Params.html#NAudio_Dmo_Effect_DmoParamEq_Params_Gain
+  name: Gain
+  nameWithType: DmoParamEq.Params.Gain
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params.Gain

@@ -1,0 +1,114 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.Compression
+  commentId: N:NAudio.Wave.Compression
+  id: NAudio.Wave.Compression
+  children:
+  - NAudio.Wave.Compression.AcmDriver
+  - NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+  - NAudio.Wave.Compression.AcmFormat
+  - NAudio.Wave.Compression.AcmFormatEnumFlags
+  - NAudio.Wave.Compression.AcmFormatTag
+  - NAudio.Wave.Compression.AcmStream
+  - NAudio.Wave.Compression.WaveFilter
+  langs:
+  - csharp
+  - vb
+  name: NAudio.Wave.Compression
+  nameWithType: NAudio.Wave.Compression
+  fullName: NAudio.Wave.Compression
+  type: Namespace
+  assemblies:
+  - NAudio.WinMM
+references:
+- uid: NAudio.Wave.Compression.AcmDriver
+  commentId: T:NAudio.Wave.Compression.AcmDriver
+  parent: NAudio.Wave.Compression
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmDriver.html
+  name: AcmDriver
+  nameWithType: AcmDriver
+  fullName: NAudio.Wave.Compression.AcmDriver
+- uid: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+  commentId: T:NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+  parent: NAudio.Wave.Compression
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags.html
+  name: AcmDriverDetailsSupportFlags
+  nameWithType: AcmDriverDetailsSupportFlags
+  fullName: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+- uid: NAudio.Wave.Compression.AcmFormat
+  commentId: T:NAudio.Wave.Compression.AcmFormat
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmFormat.html
+  name: AcmFormat
+  nameWithType: AcmFormat
+  fullName: NAudio.Wave.Compression.AcmFormat
+- uid: NAudio.Wave.Compression.AcmFormatEnumFlags
+  commentId: T:NAudio.Wave.Compression.AcmFormatEnumFlags
+  parent: NAudio.Wave.Compression
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmFormatEnumFlags.html
+  name: AcmFormatEnumFlags
+  nameWithType: AcmFormatEnumFlags
+  fullName: NAudio.Wave.Compression.AcmFormatEnumFlags
+- uid: NAudio.Wave.Compression.AcmFormatTag
+  commentId: T:NAudio.Wave.Compression.AcmFormatTag
+  parent: NAudio.Wave.Compression
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmFormatTag.html
+  name: AcmFormatTag
+  nameWithType: AcmFormatTag
+  fullName: NAudio.Wave.Compression.AcmFormatTag
+- uid: NAudio.Wave.Compression.AcmStream
+  commentId: T:NAudio.Wave.Compression.AcmStream
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmStream.html
+  name: AcmStream
+  nameWithType: AcmStream
+  fullName: NAudio.Wave.Compression.AcmStream
+- uid: NAudio.Wave.Compression.WaveFilter
+  commentId: T:NAudio.Wave.Compression.WaveFilter
+  parent: NAudio.Wave.Compression
+  isExternal: true
+  href: NAudio.Wave.Compression.WaveFilter.html
+  name: WaveFilter
+  nameWithType: WaveFilter
+  fullName: NAudio.Wave.Compression.WaveFilter
+- uid: NAudio.Wave.Compression
+  commentId: N:NAudio.Wave.Compression
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave.Compression
+  nameWithType: NAudio.Wave.Compression
+  fullName: NAudio.Wave.Compression
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Compression
+    name: Compression
+    isExternal: true
+    href: NAudio.Wave.Compression.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Compression
+    name: Compression
+    isExternal: true
+    href: NAudio.Wave.Compression.html

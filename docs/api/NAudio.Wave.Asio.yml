@@ -1,0 +1,258 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.Asio
+  commentId: N:NAudio.Wave.Asio
+  id: NAudio.Wave.Asio
+  children:
+  - NAudio.Wave.Asio.Asio64Bit
+  - NAudio.Wave.Asio.AsioCallbacks
+  - NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+  - NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+  - NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+  - NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack
+  - NAudio.Wave.Asio.AsioChannelInfo
+  - NAudio.Wave.Asio.AsioDriver
+  - NAudio.Wave.Asio.AsioDriverCapability
+  - NAudio.Wave.Asio.AsioDriverExt
+  - NAudio.Wave.Asio.AsioError
+  - NAudio.Wave.Asio.AsioFillBufferCallback
+  - NAudio.Wave.Asio.AsioMessageSelector
+  - NAudio.Wave.Asio.AsioSampleType
+  langs:
+  - csharp
+  - vb
+  name: NAudio.Wave.Asio
+  nameWithType: NAudio.Wave.Asio
+  fullName: NAudio.Wave.Asio
+  type: Namespace
+  assemblies:
+  - NAudio.Asio
+references:
+- uid: NAudio.Wave.Asio.Asio64Bit
+  commentId: T:NAudio.Wave.Asio.Asio64Bit
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.Asio64Bit.html
+  name: Asio64Bit
+  nameWithType: Asio64Bit
+  fullName: NAudio.Wave.Asio.Asio64Bit
+- uid: NAudio.Wave.Asio.AsioCallbacks
+  commentId: T:NAudio.Wave.Asio.AsioCallbacks
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.html
+  name: AsioCallbacks
+  nameWithType: AsioCallbacks
+  fullName: NAudio.Wave.Asio.AsioCallbacks
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+  commentId: T:NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.html
+  name: AsioCallbacks.AsioBufferSwitchCallBack
+  nameWithType: AsioCallbacks.AsioBufferSwitchCallBack
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+  spec.csharp:
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.html
+  - name: .
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+    name: AsioBufferSwitchCallBack
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.html
+  spec.vb:
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.html
+  - name: .
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+    name: AsioBufferSwitchCallBack
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.html
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack
+  commentId: T:NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.html
+  name: AsioCallbacks.AsioSampleRateDidChangeCallBack
+  nameWithType: AsioCallbacks.AsioSampleRateDidChangeCallBack
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack
+  spec.csharp:
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.html
+  - name: .
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack
+    name: AsioSampleRateDidChangeCallBack
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack.html
+  spec.vb:
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.html
+  - name: .
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack
+    name: AsioSampleRateDidChangeCallBack
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack.html
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+  commentId: T:NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.html
+  name: AsioCallbacks.AsioAsioMessageCallBack
+  nameWithType: AsioCallbacks.AsioAsioMessageCallBack
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+  spec.csharp:
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.html
+  - name: .
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+    name: AsioAsioMessageCallBack
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.html
+  spec.vb:
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.html
+  - name: .
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+    name: AsioAsioMessageCallBack
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.html
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+  commentId: T:NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.html
+  name: AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+  nameWithType: AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+  spec.csharp:
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.html
+  - name: .
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+    name: AsioBufferSwitchTimeInfoCallBack
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack.html
+  spec.vb:
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.html
+  - name: .
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+    name: AsioBufferSwitchTimeInfoCallBack
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack.html
+- uid: NAudio.Wave.Asio.AsioChannelInfo
+  commentId: T:NAudio.Wave.Asio.AsioChannelInfo
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioChannelInfo.html
+  name: AsioChannelInfo
+  nameWithType: AsioChannelInfo
+  fullName: NAudio.Wave.Asio.AsioChannelInfo
+- uid: NAudio.Wave.Asio.AsioDriver
+  commentId: T:NAudio.Wave.Asio.AsioDriver
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioDriver.html
+  name: AsioDriver
+  nameWithType: AsioDriver
+  fullName: NAudio.Wave.Asio.AsioDriver
+- uid: NAudio.Wave.Asio.AsioDriverCapability
+  commentId: T:NAudio.Wave.Asio.AsioDriverCapability
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioDriverCapability.html
+  name: AsioDriverCapability
+  nameWithType: AsioDriverCapability
+  fullName: NAudio.Wave.Asio.AsioDriverCapability
+- uid: NAudio.Wave.Asio.AsioFillBufferCallback
+  commentId: T:NAudio.Wave.Asio.AsioFillBufferCallback
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioFillBufferCallback.html
+  name: AsioFillBufferCallback
+  nameWithType: AsioFillBufferCallback
+  fullName: NAudio.Wave.Asio.AsioFillBufferCallback
+- uid: NAudio.Wave.Asio.AsioDriverExt
+  commentId: T:NAudio.Wave.Asio.AsioDriverExt
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioDriverExt.html
+  name: AsioDriverExt
+  nameWithType: AsioDriverExt
+  fullName: NAudio.Wave.Asio.AsioDriverExt
+- uid: NAudio.Wave.Asio.AsioError
+  commentId: T:NAudio.Wave.Asio.AsioError
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioError.html
+  name: AsioError
+  nameWithType: AsioError
+  fullName: NAudio.Wave.Asio.AsioError
+- uid: NAudio.Wave.Asio.AsioMessageSelector
+  commentId: T:NAudio.Wave.Asio.AsioMessageSelector
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioMessageSelector.html
+  name: AsioMessageSelector
+  nameWithType: AsioMessageSelector
+  fullName: NAudio.Wave.Asio.AsioMessageSelector
+- uid: NAudio.Wave.Asio.AsioSampleType
+  commentId: T:NAudio.Wave.Asio.AsioSampleType
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioSampleType.html
+  name: AsioSampleType
+  nameWithType: AsioSampleType
+  fullName: NAudio.Wave.Asio.AsioSampleType
+- uid: NAudio.Wave.Asio
+  commentId: N:NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave.Asio
+  nameWithType: NAudio.Wave.Asio
+  fullName: NAudio.Wave.Asio
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Asio
+    name: Asio
+    isExternal: true
+    href: NAudio.Wave.Asio.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Asio
+    name: Asio
+    isExternal: true
+    href: NAudio.Wave.Asio.html

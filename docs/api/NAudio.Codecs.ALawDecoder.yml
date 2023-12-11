@@ -1,0 +1,383 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Codecs.ALawDecoder
+  commentId: T:NAudio.Codecs.ALawDecoder
+  id: ALawDecoder
+  parent: NAudio.Codecs
+  children:
+  - NAudio.Codecs.ALawDecoder.#ctor
+  - NAudio.Codecs.ALawDecoder.ALawToLinearSample(System.Byte)
+  langs:
+  - csharp
+  - vb
+  name: ALawDecoder
+  nameWithType: ALawDecoder
+  fullName: NAudio.Codecs.ALawDecoder
+  type: Class
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public class ALawDecoder
+    content.vb: Public Class ALawDecoder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Codecs.ALawDecoder.ALawToLinearSample(System.Byte)
+  commentId: M:NAudio.Codecs.ALawDecoder.ALawToLinearSample(System.Byte)
+  id: ALawToLinearSample(System.Byte)
+  parent: NAudio.Codecs.ALawDecoder
+  langs:
+  - csharp
+  - vb
+  name: ALawToLinearSample(byte)
+  nameWithType: ALawDecoder.ALawToLinearSample(byte)
+  fullName: NAudio.Codecs.ALawDecoder.ALawToLinearSample(byte)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public static short ALawToLinearSample(byte aLaw)
+    parameters:
+    - id: aLaw
+      type: System.Byte
+    return:
+      type: System.Int16
+    content.vb: Public Shared Function ALawToLinearSample(aLaw As Byte) As Short
+  overload: NAudio.Codecs.ALawDecoder.ALawToLinearSample*
+  nameWithType.vb: ALawDecoder.ALawToLinearSample(Byte)
+  fullName.vb: NAudio.Codecs.ALawDecoder.ALawToLinearSample(Byte)
+  name.vb: ALawToLinearSample(Byte)
+- uid: NAudio.Codecs.ALawDecoder.#ctor
+  commentId: M:NAudio.Codecs.ALawDecoder.#ctor
+  id: '#ctor'
+  parent: NAudio.Codecs.ALawDecoder
+  langs:
+  - csharp
+  - vb
+  name: ALawDecoder()
+  nameWithType: ALawDecoder.ALawDecoder()
+  fullName: NAudio.Codecs.ALawDecoder.ALawDecoder()
+  type: Constructor
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public ALawDecoder()
+    content.vb: Public Sub New()
+  overload: NAudio.Codecs.ALawDecoder.#ctor*
+  nameWithType.vb: ALawDecoder.New()
+  fullName.vb: NAudio.Codecs.ALawDecoder.New()
+  name.vb: New()
+references:
+- uid: NAudio.Codecs
+  commentId: N:NAudio.Codecs
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Codecs
+  nameWithType: NAudio.Codecs
+  fullName: NAudio.Codecs
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Codecs
+    name: Codecs
+    isExternal: true
+    href: NAudio.Codecs.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Codecs
+    name: Codecs
+    isExternal: true
+    href: NAudio.Codecs.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Codecs.ALawDecoder.ALawToLinearSample*
+  commentId: Overload:NAudio.Codecs.ALawDecoder.ALawToLinearSample
+  isExternal: true
+  href: NAudio.Codecs.ALawDecoder.html#NAudio_Codecs_ALawDecoder_ALawToLinearSample_System_Byte_
+  name: ALawToLinearSample
+  nameWithType: ALawDecoder.ALawToLinearSample
+  fullName: NAudio.Codecs.ALawDecoder.ALawToLinearSample
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: NAudio.Codecs.ALawDecoder.#ctor*
+  commentId: Overload:NAudio.Codecs.ALawDecoder.#ctor
+  isExternal: true
+  href: NAudio.Codecs.ALawDecoder.html#NAudio_Codecs_ALawDecoder__ctor
+  name: ALawDecoder
+  nameWithType: ALawDecoder.ALawDecoder
+  fullName: NAudio.Codecs.ALawDecoder.ALawDecoder
+  nameWithType.vb: ALawDecoder.New
+  fullName.vb: NAudio.Codecs.ALawDecoder.New
+  name.vb: New

@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Mixer
+  commentId: N:NAudio.Mixer
+  id: NAudio.Mixer
+  children:
+  - NAudio.Mixer.BooleanMixerControl
+  - NAudio.Mixer.CustomMixerControl
+  - NAudio.Mixer.ListTextMixerControl
+  - NAudio.Mixer.Mixer
+  - NAudio.Mixer.MixerControl
+  - NAudio.Mixer.MixerControlType
+  - NAudio.Mixer.MixerFlags
+  - NAudio.Mixer.MixerLine
+  - NAudio.Mixer.MixerLineComponentType
+  - NAudio.Mixer.SignedMixerControl
+  - NAudio.Mixer.UnsignedMixerControl
+  langs:
+  - csharp
+  - vb
+  name: NAudio.Mixer
+  nameWithType: NAudio.Mixer
+  fullName: NAudio.Mixer
+  type: Namespace
+  assemblies:
+  - NAudio.WinMM
+references:
+- uid: NAudio.Mixer.BooleanMixerControl
+  commentId: T:NAudio.Mixer.BooleanMixerControl
+  isExternal: true
+  href: NAudio.Mixer.BooleanMixerControl.html
+  name: BooleanMixerControl
+  nameWithType: BooleanMixerControl
+  fullName: NAudio.Mixer.BooleanMixerControl
+- uid: NAudio.Mixer.CustomMixerControl
+  commentId: T:NAudio.Mixer.CustomMixerControl
+  isExternal: true
+  href: NAudio.Mixer.CustomMixerControl.html
+  name: CustomMixerControl
+  nameWithType: CustomMixerControl
+  fullName: NAudio.Mixer.CustomMixerControl
+- uid: NAudio.Mixer.ListTextMixerControl
+  commentId: T:NAudio.Mixer.ListTextMixerControl
+  isExternal: true
+  href: NAudio.Mixer.ListTextMixerControl.html
+  name: ListTextMixerControl
+  nameWithType: ListTextMixerControl
+  fullName: NAudio.Mixer.ListTextMixerControl
+- uid: NAudio.Mixer.Mixer
+  commentId: T:NAudio.Mixer.Mixer
+  isExternal: true
+  href: NAudio.Mixer.Mixer.html
+  name: Mixer
+  nameWithType: Mixer
+  fullName: NAudio.Mixer.Mixer
+- uid: NAudio.Mixer.MixerControl
+  commentId: T:NAudio.Mixer.MixerControl
+  parent: NAudio.Mixer
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html
+  name: MixerControl
+  nameWithType: MixerControl
+  fullName: NAudio.Mixer.MixerControl
+- uid: NAudio.Mixer.MixerControlType
+  commentId: T:NAudio.Mixer.MixerControlType
+  parent: NAudio.Mixer
+  isExternal: true
+  href: NAudio.Mixer.MixerControlType.html
+  name: MixerControlType
+  nameWithType: MixerControlType
+  fullName: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerFlags
+  commentId: T:NAudio.Mixer.MixerFlags
+  parent: NAudio.Mixer
+  isExternal: true
+  href: NAudio.Mixer.MixerFlags.html
+  name: MixerFlags
+  nameWithType: MixerFlags
+  fullName: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerLine
+  commentId: T:NAudio.Mixer.MixerLine
+  parent: NAudio.Mixer
+  isExternal: true
+  href: NAudio.Mixer.MixerLine.html
+  name: MixerLine
+  nameWithType: MixerLine
+  fullName: NAudio.Mixer.MixerLine
+- uid: NAudio.Mixer.MixerLineComponentType
+  commentId: T:NAudio.Mixer.MixerLineComponentType
+  parent: NAudio.Mixer
+  isExternal: true
+  href: NAudio.Mixer.MixerLineComponentType.html
+  name: MixerLineComponentType
+  nameWithType: MixerLineComponentType
+  fullName: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.SignedMixerControl
+  commentId: T:NAudio.Mixer.SignedMixerControl
+  isExternal: true
+  href: NAudio.Mixer.SignedMixerControl.html
+  name: SignedMixerControl
+  nameWithType: SignedMixerControl
+  fullName: NAudio.Mixer.SignedMixerControl
+- uid: NAudio.Mixer.UnsignedMixerControl
+  commentId: T:NAudio.Mixer.UnsignedMixerControl
+  isExternal: true
+  href: NAudio.Mixer.UnsignedMixerControl.html
+  name: UnsignedMixerControl
+  nameWithType: UnsignedMixerControl
+  fullName: NAudio.Mixer.UnsignedMixerControl
+- uid: NAudio.Mixer
+  commentId: N:NAudio.Mixer
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Mixer
+  nameWithType: NAudio.Mixer
+  fullName: NAudio.Mixer
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Mixer
+    name: Mixer
+    isExternal: true
+    href: NAudio.Mixer.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Mixer
+    name: Mixer
+    isExternal: true
+    href: NAudio.Mixer.html

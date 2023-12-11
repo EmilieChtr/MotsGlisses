@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler
+  commentId: T:NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler
+  id: IActivateAudioInterfaceCompletionHandler
+  parent: NAudio.Wasapi.CoreAudioApi.Interfaces
+  children:
+  - NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler.ActivateCompleted(NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation)
+  langs:
+  - csharp
+  - vb
+  name: IActivateAudioInterfaceCompletionHandler
+  nameWithType: IActivateAudioInterfaceCompletionHandler
+  fullName: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wasapi.CoreAudioApi.Interfaces
+  syntax:
+    content: >-
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      [Guid("41D949AB-9862-444A-80F6-C261334DA5EB")]
+
+      public interface IActivateAudioInterfaceCompletionHandler
+    content.vb: >-
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      <Guid("41D949AB-9862-444A-80F6-C261334DA5EB")>
+
+      Public Interface IActivateAudioInterfaceCompletionHandler
+  attributes:
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 41D949AB-9862-444A-80F6-C261334DA5EB
+- uid: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler.ActivateCompleted(NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation)
+  commentId: M:NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler.ActivateCompleted(NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation)
+  id: ActivateCompleted(NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation)
+  parent: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler
+  langs:
+  - csharp
+  - vb
+  name: ActivateCompleted(IActivateAudioInterfaceAsyncOperation)
+  nameWithType: IActivateAudioInterfaceCompletionHandler.ActivateCompleted(IActivateAudioInterfaceAsyncOperation)
+  fullName: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler.ActivateCompleted(NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wasapi.CoreAudioApi.Interfaces
+  syntax:
+    content: void ActivateCompleted(IActivateAudioInterfaceAsyncOperation activateOperation)
+    parameters:
+    - id: activateOperation
+      type: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation
+    content.vb: Sub ActivateCompleted(activateOperation As IActivateAudioInterfaceAsyncOperation)
+  overload: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler.ActivateCompleted*
+references:
+- uid: NAudio.Wasapi.CoreAudioApi.Interfaces
+  commentId: N:NAudio.Wasapi.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wasapi.CoreAudioApi.Interfaces
+  nameWithType: NAudio.Wasapi.CoreAudioApi.Interfaces
+  fullName: NAudio.Wasapi.CoreAudioApi.Interfaces
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wasapi
+    name: Wasapi
+    isExternal: true
+    href: NAudio.Wasapi.html
+  - name: .
+  - uid: NAudio.Wasapi.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.Wasapi.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.Wasapi.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.Wasapi.CoreAudioApi.Interfaces.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wasapi
+    name: Wasapi
+    isExternal: true
+    href: NAudio.Wasapi.html
+  - name: .
+  - uid: NAudio.Wasapi.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.Wasapi.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.Wasapi.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.Wasapi.CoreAudioApi.Interfaces.html
+- uid: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler.ActivateCompleted*
+  commentId: Overload:NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler.ActivateCompleted
+  isExternal: true
+  href: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler.html#NAudio_Wasapi_CoreAudioApi_Interfaces_IActivateAudioInterfaceCompletionHandler_ActivateCompleted_NAudio_Wasapi_CoreAudioApi_Interfaces_IActivateAudioInterfaceAsyncOperation_
+  name: ActivateCompleted
+  nameWithType: IActivateAudioInterfaceCompletionHandler.ActivateCompleted
+  fullName: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler.ActivateCompleted
+- uid: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation
+  commentId: T:NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation
+  parent: NAudio.Wasapi.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation.html
+  name: IActivateAudioInterfaceAsyncOperation
+  nameWithType: IActivateAudioInterfaceAsyncOperation
+  fullName: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation

@@ -1,0 +1,402 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO
+  commentId: T:NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO
+  id: MFT_INPUT_STREAM_INFO
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.cbAlignment
+  - NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.cbMaxLookahead
+  - NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.cbSize
+  - NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.dwFlags
+  - NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.hnsMaxLatency
+  langs:
+  - csharp
+  - vb
+  name: MFT_INPUT_STREAM_INFO
+  nameWithType: MFT_INPUT_STREAM_INFO
+  fullName: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO
+  type: Struct
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public struct MFT_INPUT_STREAM_INFO
+    content.vb: Public Structure MFT_INPUT_STREAM_INFO
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.hnsMaxLatency
+  commentId: F:NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.hnsMaxLatency
+  id: hnsMaxLatency
+  parent: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO
+  langs:
+  - csharp
+  - vb
+  name: hnsMaxLatency
+  nameWithType: MFT_INPUT_STREAM_INFO.hnsMaxLatency
+  fullName: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.hnsMaxLatency
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public long hnsMaxLatency
+    return:
+      type: System.Int64
+    content.vb: Public hnsMaxLatency As Long
+- uid: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.dwFlags
+  commentId: F:NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.dwFlags
+  id: dwFlags
+  parent: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO
+  langs:
+  - csharp
+  - vb
+  name: dwFlags
+  nameWithType: MFT_INPUT_STREAM_INFO.dwFlags
+  fullName: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.dwFlags
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public _MFT_INPUT_STREAM_INFO_FLAGS dwFlags
+    return:
+      type: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+    content.vb: Public dwFlags As _MFT_INPUT_STREAM_INFO_FLAGS
+- uid: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.cbSize
+  commentId: F:NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.cbSize
+  id: cbSize
+  parent: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO
+  langs:
+  - csharp
+  - vb
+  name: cbSize
+  nameWithType: MFT_INPUT_STREAM_INFO.cbSize
+  fullName: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.cbSize
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public int cbSize
+    return:
+      type: System.Int32
+    content.vb: Public cbSize As Integer
+- uid: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.cbMaxLookahead
+  commentId: F:NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.cbMaxLookahead
+  id: cbMaxLookahead
+  parent: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO
+  langs:
+  - csharp
+  - vb
+  name: cbMaxLookahead
+  nameWithType: MFT_INPUT_STREAM_INFO.cbMaxLookahead
+  fullName: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.cbMaxLookahead
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public int cbMaxLookahead
+    return:
+      type: System.Int32
+    content.vb: Public cbMaxLookahead As Integer
+- uid: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.cbAlignment
+  commentId: F:NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.cbAlignment
+  id: cbAlignment
+  parent: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO
+  langs:
+  - csharp
+  - vb
+  name: cbAlignment
+  nameWithType: MFT_INPUT_STREAM_INFO.cbAlignment
+  fullName: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.cbAlignment
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public int cbAlignment
+    return:
+      type: System.Int32
+    content.vb: Public cbAlignment As Integer
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+  commentId: T:NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS.html
+  name: _MFT_INPUT_STREAM_INFO_FLAGS
+  nameWithType: _MFT_INPUT_STREAM_INFO_FLAGS
+  fullName: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

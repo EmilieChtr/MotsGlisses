@@ -1,0 +1,1005 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.WaveInEvent
+  commentId: T:NAudio.Wave.WaveInEvent
+  id: WaveInEvent
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.WaveInEvent.#ctor
+  - NAudio.Wave.WaveInEvent.BufferMilliseconds
+  - NAudio.Wave.WaveInEvent.DataAvailable
+  - NAudio.Wave.WaveInEvent.DeviceCount
+  - NAudio.Wave.WaveInEvent.DeviceNumber
+  - NAudio.Wave.WaveInEvent.Dispose
+  - NAudio.Wave.WaveInEvent.Dispose(System.Boolean)
+  - NAudio.Wave.WaveInEvent.GetCapabilities(System.Int32)
+  - NAudio.Wave.WaveInEvent.GetMixerLine
+  - NAudio.Wave.WaveInEvent.GetPosition
+  - NAudio.Wave.WaveInEvent.NumberOfBuffers
+  - NAudio.Wave.WaveInEvent.RecordingStopped
+  - NAudio.Wave.WaveInEvent.StartRecording
+  - NAudio.Wave.WaveInEvent.StopRecording
+  - NAudio.Wave.WaveInEvent.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WaveInEvent
+  nameWithType: WaveInEvent
+  fullName: NAudio.Wave.WaveInEvent
+  type: Class
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: 'public class WaveInEvent : IWaveIn, IDisposable'
+    content.vb: Public Class WaveInEvent Implements IWaveIn, IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - NAudio.Wave.IWaveIn
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Wave.WaveInEvent.#ctor
+  commentId: M:NAudio.Wave.WaveInEvent.#ctor
+  id: '#ctor'
+  parent: NAudio.Wave.WaveInEvent
+  langs:
+  - csharp
+  - vb
+  name: WaveInEvent()
+  nameWithType: WaveInEvent.WaveInEvent()
+  fullName: NAudio.Wave.WaveInEvent.WaveInEvent()
+  type: Constructor
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public WaveInEvent()
+    content.vb: Public Sub New()
+  overload: NAudio.Wave.WaveInEvent.#ctor*
+  nameWithType.vb: WaveInEvent.New()
+  fullName.vb: NAudio.Wave.WaveInEvent.New()
+  name.vb: New()
+- uid: NAudio.Wave.WaveInEvent.GetCapabilities(System.Int32)
+  commentId: M:NAudio.Wave.WaveInEvent.GetCapabilities(System.Int32)
+  id: GetCapabilities(System.Int32)
+  parent: NAudio.Wave.WaveInEvent
+  langs:
+  - csharp
+  - vb
+  name: GetCapabilities(int)
+  nameWithType: WaveInEvent.GetCapabilities(int)
+  fullName: NAudio.Wave.WaveInEvent.GetCapabilities(int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static WaveInCapabilities GetCapabilities(int devNumber)
+    parameters:
+    - id: devNumber
+      type: System.Int32
+    return:
+      type: NAudio.Wave.WaveInCapabilities
+    content.vb: Public Shared Function GetCapabilities(devNumber As Integer) As WaveInCapabilities
+  overload: NAudio.Wave.WaveInEvent.GetCapabilities*
+  nameWithType.vb: WaveInEvent.GetCapabilities(Integer)
+  fullName.vb: NAudio.Wave.WaveInEvent.GetCapabilities(Integer)
+  name.vb: GetCapabilities(Integer)
+- uid: NAudio.Wave.WaveInEvent.StartRecording
+  commentId: M:NAudio.Wave.WaveInEvent.StartRecording
+  id: StartRecording
+  parent: NAudio.Wave.WaveInEvent
+  langs:
+  - csharp
+  - vb
+  name: StartRecording()
+  nameWithType: WaveInEvent.StartRecording()
+  fullName: NAudio.Wave.WaveInEvent.StartRecording()
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public void StartRecording()
+    content.vb: Public Sub StartRecording()
+  overload: NAudio.Wave.WaveInEvent.StartRecording*
+  implements:
+  - NAudio.Wave.IWaveIn.StartRecording
+- uid: NAudio.Wave.WaveInEvent.StopRecording
+  commentId: M:NAudio.Wave.WaveInEvent.StopRecording
+  id: StopRecording
+  parent: NAudio.Wave.WaveInEvent
+  langs:
+  - csharp
+  - vb
+  name: StopRecording()
+  nameWithType: WaveInEvent.StopRecording()
+  fullName: NAudio.Wave.WaveInEvent.StopRecording()
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public void StopRecording()
+    content.vb: Public Sub StopRecording()
+  overload: NAudio.Wave.WaveInEvent.StopRecording*
+  implements:
+  - NAudio.Wave.IWaveIn.StopRecording
+- uid: NAudio.Wave.WaveInEvent.GetPosition
+  commentId: M:NAudio.Wave.WaveInEvent.GetPosition
+  id: GetPosition
+  parent: NAudio.Wave.WaveInEvent
+  langs:
+  - csharp
+  - vb
+  name: GetPosition()
+  nameWithType: WaveInEvent.GetPosition()
+  fullName: NAudio.Wave.WaveInEvent.GetPosition()
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public long GetPosition()
+    return:
+      type: System.Int64
+    content.vb: Public Function GetPosition() As Long
+  overload: NAudio.Wave.WaveInEvent.GetPosition*
+- uid: NAudio.Wave.WaveInEvent.Dispose(System.Boolean)
+  commentId: M:NAudio.Wave.WaveInEvent.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: NAudio.Wave.WaveInEvent
+  langs:
+  - csharp
+  - vb
+  name: Dispose(bool)
+  nameWithType: WaveInEvent.Dispose(bool)
+  fullName: NAudio.Wave.WaveInEvent.Dispose(bool)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+  overload: NAudio.Wave.WaveInEvent.Dispose*
+  nameWithType.vb: WaveInEvent.Dispose(Boolean)
+  fullName.vb: NAudio.Wave.WaveInEvent.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+- uid: NAudio.Wave.WaveInEvent.GetMixerLine
+  commentId: M:NAudio.Wave.WaveInEvent.GetMixerLine
+  id: GetMixerLine
+  parent: NAudio.Wave.WaveInEvent
+  langs:
+  - csharp
+  - vb
+  name: GetMixerLine()
+  nameWithType: WaveInEvent.GetMixerLine()
+  fullName: NAudio.Wave.WaveInEvent.GetMixerLine()
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public MixerLine GetMixerLine()
+    return:
+      type: NAudio.Mixer.MixerLine
+    content.vb: Public Function GetMixerLine() As MixerLine
+  overload: NAudio.Wave.WaveInEvent.GetMixerLine*
+- uid: NAudio.Wave.WaveInEvent.Dispose
+  commentId: M:NAudio.Wave.WaveInEvent.Dispose
+  id: Dispose
+  parent: NAudio.Wave.WaveInEvent
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: WaveInEvent.Dispose()
+  fullName: NAudio.Wave.WaveInEvent.Dispose()
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: NAudio.Wave.WaveInEvent.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: NAudio.Wave.WaveInEvent.DeviceCount
+  commentId: P:NAudio.Wave.WaveInEvent.DeviceCount
+  id: DeviceCount
+  parent: NAudio.Wave.WaveInEvent
+  langs:
+  - csharp
+  - vb
+  name: DeviceCount
+  nameWithType: WaveInEvent.DeviceCount
+  fullName: NAudio.Wave.WaveInEvent.DeviceCount
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public static int DeviceCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property DeviceCount As Integer
+  overload: NAudio.Wave.WaveInEvent.DeviceCount*
+- uid: NAudio.Wave.WaveInEvent.BufferMilliseconds
+  commentId: P:NAudio.Wave.WaveInEvent.BufferMilliseconds
+  id: BufferMilliseconds
+  parent: NAudio.Wave.WaveInEvent
+  langs:
+  - csharp
+  - vb
+  name: BufferMilliseconds
+  nameWithType: WaveInEvent.BufferMilliseconds
+  fullName: NAudio.Wave.WaveInEvent.BufferMilliseconds
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public int BufferMilliseconds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BufferMilliseconds As Integer
+  overload: NAudio.Wave.WaveInEvent.BufferMilliseconds*
+- uid: NAudio.Wave.WaveInEvent.NumberOfBuffers
+  commentId: P:NAudio.Wave.WaveInEvent.NumberOfBuffers
+  id: NumberOfBuffers
+  parent: NAudio.Wave.WaveInEvent
+  langs:
+  - csharp
+  - vb
+  name: NumberOfBuffers
+  nameWithType: WaveInEvent.NumberOfBuffers
+  fullName: NAudio.Wave.WaveInEvent.NumberOfBuffers
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public int NumberOfBuffers { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NumberOfBuffers As Integer
+  overload: NAudio.Wave.WaveInEvent.NumberOfBuffers*
+- uid: NAudio.Wave.WaveInEvent.DeviceNumber
+  commentId: P:NAudio.Wave.WaveInEvent.DeviceNumber
+  id: DeviceNumber
+  parent: NAudio.Wave.WaveInEvent
+  langs:
+  - csharp
+  - vb
+  name: DeviceNumber
+  nameWithType: WaveInEvent.DeviceNumber
+  fullName: NAudio.Wave.WaveInEvent.DeviceNumber
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public int DeviceNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DeviceNumber As Integer
+  overload: NAudio.Wave.WaveInEvent.DeviceNumber*
+- uid: NAudio.Wave.WaveInEvent.WaveFormat
+  commentId: P:NAudio.Wave.WaveInEvent.WaveFormat
+  id: WaveFormat
+  parent: NAudio.Wave.WaveInEvent
+  langs:
+  - csharp
+  - vb
+  name: WaveFormat
+  nameWithType: WaveInEvent.WaveFormat
+  fullName: NAudio.Wave.WaveInEvent.WaveFormat
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public WaveFormat WaveFormat { get; set; }
+    parameters: []
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public Property WaveFormat As WaveFormat
+  overload: NAudio.Wave.WaveInEvent.WaveFormat*
+  implements:
+  - NAudio.Wave.IWaveIn.WaveFormat
+- uid: NAudio.Wave.WaveInEvent.DataAvailable
+  commentId: E:NAudio.Wave.WaveInEvent.DataAvailable
+  id: DataAvailable
+  parent: NAudio.Wave.WaveInEvent
+  langs:
+  - csharp
+  - vb
+  name: DataAvailable
+  nameWithType: WaveInEvent.DataAvailable
+  fullName: NAudio.Wave.WaveInEvent.DataAvailable
+  type: Event
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public event EventHandler<WaveInEventArgs> DataAvailable
+    return:
+      type: System.EventHandler{NAudio.Wave.WaveInEventArgs}
+    content.vb: Public Event DataAvailable As EventHandler(Of WaveInEventArgs)
+  implements:
+  - NAudio.Wave.IWaveIn.DataAvailable
+- uid: NAudio.Wave.WaveInEvent.RecordingStopped
+  commentId: E:NAudio.Wave.WaveInEvent.RecordingStopped
+  id: RecordingStopped
+  parent: NAudio.Wave.WaveInEvent
+  langs:
+  - csharp
+  - vb
+  name: RecordingStopped
+  nameWithType: WaveInEvent.RecordingStopped
+  fullName: NAudio.Wave.WaveInEvent.RecordingStopped
+  type: Event
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public event EventHandler<StoppedEventArgs> RecordingStopped
+    return:
+      type: System.EventHandler{NAudio.Wave.StoppedEventArgs}
+    content.vb: Public Event RecordingStopped As EventHandler(Of StoppedEventArgs)
+  implements:
+  - NAudio.Wave.IWaveIn.RecordingStopped
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NAudio.Wave.IWaveIn
+  commentId: T:NAudio.Wave.IWaveIn
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.IWaveIn.html
+  name: IWaveIn
+  nameWithType: IWaveIn
+  fullName: NAudio.Wave.IWaveIn
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.WaveInEvent.#ctor*
+  commentId: Overload:NAudio.Wave.WaveInEvent.#ctor
+  isExternal: true
+  href: NAudio.Wave.WaveInEvent.html#NAudio_Wave_WaveInEvent__ctor
+  name: WaveInEvent
+  nameWithType: WaveInEvent.WaveInEvent
+  fullName: NAudio.Wave.WaveInEvent.WaveInEvent
+  nameWithType.vb: WaveInEvent.New
+  fullName.vb: NAudio.Wave.WaveInEvent.New
+  name.vb: New
+- uid: NAudio.Wave.WaveInEvent.GetCapabilities*
+  commentId: Overload:NAudio.Wave.WaveInEvent.GetCapabilities
+  isExternal: true
+  href: NAudio.Wave.WaveInEvent.html#NAudio_Wave_WaveInEvent_GetCapabilities_System_Int32_
+  name: GetCapabilities
+  nameWithType: WaveInEvent.GetCapabilities
+  fullName: NAudio.Wave.WaveInEvent.GetCapabilities
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.Wave.WaveInCapabilities
+  commentId: T:NAudio.Wave.WaveInCapabilities
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveInCapabilities.html
+  name: WaveInCapabilities
+  nameWithType: WaveInCapabilities
+  fullName: NAudio.Wave.WaveInCapabilities
+- uid: NAudio.Wave.WaveInEvent.StartRecording*
+  commentId: Overload:NAudio.Wave.WaveInEvent.StartRecording
+  isExternal: true
+  href: NAudio.Wave.WaveInEvent.html#NAudio_Wave_WaveInEvent_StartRecording
+  name: StartRecording
+  nameWithType: WaveInEvent.StartRecording
+  fullName: NAudio.Wave.WaveInEvent.StartRecording
+- uid: NAudio.Wave.IWaveIn.StartRecording
+  commentId: M:NAudio.Wave.IWaveIn.StartRecording
+  parent: NAudio.Wave.IWaveIn
+  isExternal: true
+  name: StartRecording()
+  nameWithType: IWaveIn.StartRecording()
+  fullName: NAudio.Wave.IWaveIn.StartRecording()
+  spec.csharp:
+  - uid: NAudio.Wave.IWaveIn.StartRecording
+    name: StartRecording
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.IWaveIn.StartRecording
+    name: StartRecording
+    isExternal: true
+  - name: (
+  - name: )
+- uid: NAudio.Wave.WaveInEvent.StopRecording*
+  commentId: Overload:NAudio.Wave.WaveInEvent.StopRecording
+  isExternal: true
+  href: NAudio.Wave.WaveInEvent.html#NAudio_Wave_WaveInEvent_StopRecording
+  name: StopRecording
+  nameWithType: WaveInEvent.StopRecording
+  fullName: NAudio.Wave.WaveInEvent.StopRecording
+- uid: NAudio.Wave.IWaveIn.StopRecording
+  commentId: M:NAudio.Wave.IWaveIn.StopRecording
+  parent: NAudio.Wave.IWaveIn
+  isExternal: true
+  name: StopRecording()
+  nameWithType: IWaveIn.StopRecording()
+  fullName: NAudio.Wave.IWaveIn.StopRecording()
+  spec.csharp:
+  - uid: NAudio.Wave.IWaveIn.StopRecording
+    name: StopRecording
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.IWaveIn.StopRecording
+    name: StopRecording
+    isExternal: true
+  - name: (
+  - name: )
+- uid: NAudio.Wave.WaveInEvent.GetPosition*
+  commentId: Overload:NAudio.Wave.WaveInEvent.GetPosition
+  isExternal: true
+  href: NAudio.Wave.WaveInEvent.html#NAudio_Wave_WaveInEvent_GetPosition
+  name: GetPosition
+  nameWithType: WaveInEvent.GetPosition
+  fullName: NAudio.Wave.WaveInEvent.GetPosition
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: NAudio.Wave.WaveInEvent.Dispose*
+  commentId: Overload:NAudio.Wave.WaveInEvent.Dispose
+  isExternal: true
+  href: NAudio.Wave.WaveInEvent.html#NAudio_Wave_WaveInEvent_Dispose_System_Boolean_
+  name: Dispose
+  nameWithType: WaveInEvent.Dispose
+  fullName: NAudio.Wave.WaveInEvent.Dispose
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NAudio.Wave.WaveInEvent.GetMixerLine*
+  commentId: Overload:NAudio.Wave.WaveInEvent.GetMixerLine
+  isExternal: true
+  href: NAudio.Wave.WaveInEvent.html#NAudio_Wave_WaveInEvent_GetMixerLine
+  name: GetMixerLine
+  nameWithType: WaveInEvent.GetMixerLine
+  fullName: NAudio.Wave.WaveInEvent.GetMixerLine
+- uid: NAudio.Mixer.MixerLine
+  commentId: T:NAudio.Mixer.MixerLine
+  parent: NAudio.Mixer
+  isExternal: true
+  href: NAudio.Mixer.MixerLine.html
+  name: MixerLine
+  nameWithType: MixerLine
+  fullName: NAudio.Mixer.MixerLine
+- uid: NAudio.Mixer
+  commentId: N:NAudio.Mixer
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Mixer
+  nameWithType: NAudio.Mixer
+  fullName: NAudio.Mixer
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Mixer
+    name: Mixer
+    isExternal: true
+    href: NAudio.Mixer.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Mixer
+    name: Mixer
+    isExternal: true
+    href: NAudio.Mixer.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: NAudio.Wave.WaveInEvent.DeviceCount*
+  commentId: Overload:NAudio.Wave.WaveInEvent.DeviceCount
+  isExternal: true
+  href: NAudio.Wave.WaveInEvent.html#NAudio_Wave_WaveInEvent_DeviceCount
+  name: DeviceCount
+  nameWithType: WaveInEvent.DeviceCount
+  fullName: NAudio.Wave.WaveInEvent.DeviceCount
+- uid: NAudio.Wave.WaveInEvent.BufferMilliseconds*
+  commentId: Overload:NAudio.Wave.WaveInEvent.BufferMilliseconds
+  isExternal: true
+  href: NAudio.Wave.WaveInEvent.html#NAudio_Wave_WaveInEvent_BufferMilliseconds
+  name: BufferMilliseconds
+  nameWithType: WaveInEvent.BufferMilliseconds
+  fullName: NAudio.Wave.WaveInEvent.BufferMilliseconds
+- uid: NAudio.Wave.WaveInEvent.NumberOfBuffers*
+  commentId: Overload:NAudio.Wave.WaveInEvent.NumberOfBuffers
+  isExternal: true
+  href: NAudio.Wave.WaveInEvent.html#NAudio_Wave_WaveInEvent_NumberOfBuffers
+  name: NumberOfBuffers
+  nameWithType: WaveInEvent.NumberOfBuffers
+  fullName: NAudio.Wave.WaveInEvent.NumberOfBuffers
+- uid: NAudio.Wave.WaveInEvent.DeviceNumber*
+  commentId: Overload:NAudio.Wave.WaveInEvent.DeviceNumber
+  isExternal: true
+  href: NAudio.Wave.WaveInEvent.html#NAudio_Wave_WaveInEvent_DeviceNumber
+  name: DeviceNumber
+  nameWithType: WaveInEvent.DeviceNumber
+  fullName: NAudio.Wave.WaveInEvent.DeviceNumber
+- uid: NAudio.Wave.WaveInEvent.WaveFormat*
+  commentId: Overload:NAudio.Wave.WaveInEvent.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveInEvent.html#NAudio_Wave_WaveInEvent_WaveFormat
+  name: WaveFormat
+  nameWithType: WaveInEvent.WaveFormat
+  fullName: NAudio.Wave.WaveInEvent.WaveFormat
+- uid: NAudio.Wave.IWaveIn.WaveFormat
+  commentId: P:NAudio.Wave.IWaveIn.WaveFormat
+  parent: NAudio.Wave.IWaveIn
+  isExternal: true
+  name: WaveFormat
+  nameWithType: IWaveIn.WaveFormat
+  fullName: NAudio.Wave.IWaveIn.WaveFormat
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat
+- uid: NAudio.Wave.IWaveIn.DataAvailable
+  commentId: E:NAudio.Wave.IWaveIn.DataAvailable
+  parent: NAudio.Wave.IWaveIn
+  isExternal: true
+  name: DataAvailable
+  nameWithType: IWaveIn.DataAvailable
+  fullName: NAudio.Wave.IWaveIn.DataAvailable
+- uid: System.EventHandler{NAudio.Wave.WaveInEventArgs}
+  commentId: T:System.EventHandler{NAudio.Wave.WaveInEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<WaveInEventArgs>
+  nameWithType: EventHandler<WaveInEventArgs>
+  fullName: System.EventHandler<NAudio.Wave.WaveInEventArgs>
+  nameWithType.vb: EventHandler(Of WaveInEventArgs)
+  fullName.vb: System.EventHandler(Of NAudio.Wave.WaveInEventArgs)
+  name.vb: EventHandler(Of WaveInEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: NAudio.Wave.WaveInEventArgs
+    name: WaveInEventArgs
+    isExternal: true
+    href: NAudio.Wave.WaveInEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NAudio.Wave.WaveInEventArgs
+    name: WaveInEventArgs
+    isExternal: true
+    href: NAudio.Wave.WaveInEventArgs.html
+  - name: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - name: TEventArgs
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventArgs
+  - name: )
+- uid: NAudio.Wave.IWaveIn.RecordingStopped
+  commentId: E:NAudio.Wave.IWaveIn.RecordingStopped
+  parent: NAudio.Wave.IWaveIn
+  isExternal: true
+  name: RecordingStopped
+  nameWithType: IWaveIn.RecordingStopped
+  fullName: NAudio.Wave.IWaveIn.RecordingStopped
+- uid: System.EventHandler{NAudio.Wave.StoppedEventArgs}
+  commentId: T:System.EventHandler{NAudio.Wave.StoppedEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<StoppedEventArgs>
+  nameWithType: EventHandler<StoppedEventArgs>
+  fullName: System.EventHandler<NAudio.Wave.StoppedEventArgs>
+  nameWithType.vb: EventHandler(Of StoppedEventArgs)
+  fullName.vb: System.EventHandler(Of NAudio.Wave.StoppedEventArgs)
+  name.vb: EventHandler(Of StoppedEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: NAudio.Wave.StoppedEventArgs
+    name: StoppedEventArgs
+    isExternal: true
+    href: NAudio.Wave.StoppedEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NAudio.Wave.StoppedEventArgs
+    name: StoppedEventArgs
+    isExternal: true
+    href: NAudio.Wave.StoppedEventArgs.html
+  - name: )

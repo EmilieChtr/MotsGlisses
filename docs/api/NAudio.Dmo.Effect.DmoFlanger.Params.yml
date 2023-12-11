@@ -1,0 +1,852 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params
+  commentId: T:NAudio.Dmo.Effect.DmoFlanger.Params
+  id: DmoFlanger.Params
+  parent: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.DmoFlanger.Params.Delay
+  - NAudio.Dmo.Effect.DmoFlanger.Params.DelayDefault
+  - NAudio.Dmo.Effect.DmoFlanger.Params.DelayMax
+  - NAudio.Dmo.Effect.DmoFlanger.Params.DelayMin
+  - NAudio.Dmo.Effect.DmoFlanger.Params.Depth
+  - NAudio.Dmo.Effect.DmoFlanger.Params.DepthDefault
+  - NAudio.Dmo.Effect.DmoFlanger.Params.DepthMax
+  - NAudio.Dmo.Effect.DmoFlanger.Params.DepthMin
+  - NAudio.Dmo.Effect.DmoFlanger.Params.FeedBack
+  - NAudio.Dmo.Effect.DmoFlanger.Params.FeedBackMax
+  - NAudio.Dmo.Effect.DmoFlanger.Params.FeedBackMin
+  - NAudio.Dmo.Effect.DmoFlanger.Params.FeedBaclDefault
+  - NAudio.Dmo.Effect.DmoFlanger.Params.Frequency
+  - NAudio.Dmo.Effect.DmoFlanger.Params.FrequencyDefault
+  - NAudio.Dmo.Effect.DmoFlanger.Params.FrequencyMax
+  - NAudio.Dmo.Effect.DmoFlanger.Params.FrequencyMin
+  - NAudio.Dmo.Effect.DmoFlanger.Params.Phase
+  - NAudio.Dmo.Effect.DmoFlanger.Params.PhaseDefault
+  - NAudio.Dmo.Effect.DmoFlanger.Params.WaveForm
+  - NAudio.Dmo.Effect.DmoFlanger.Params.WaveFormDefault
+  - NAudio.Dmo.Effect.DmoFlanger.Params.WetDrtMixDefault
+  - NAudio.Dmo.Effect.DmoFlanger.Params.WetDryMix
+  - NAudio.Dmo.Effect.DmoFlanger.Params.WetDryMixMax
+  - NAudio.Dmo.Effect.DmoFlanger.Params.WetDryMixMin
+  langs:
+  - csharp
+  - vb
+  name: DmoFlanger.Params
+  nameWithType: DmoFlanger.Params
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params
+  type: Struct
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public struct DmoFlanger.Params
+    content.vb: Public Structure DmoFlanger.Params
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.WetDryMixMin
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.WetDryMixMin
+  id: WetDryMixMin
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: WetDryMixMin
+  nameWithType: DmoFlanger.Params.WetDryMixMin
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.WetDryMixMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float WetDryMixMin = 0
+    return:
+      type: System.Single
+    content.vb: Public Const WetDryMixMin As Single = 0
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.WetDryMixMax
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.WetDryMixMax
+  id: WetDryMixMax
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: WetDryMixMax
+  nameWithType: DmoFlanger.Params.WetDryMixMax
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.WetDryMixMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float WetDryMixMax = 100
+    return:
+      type: System.Single
+    content.vb: Public Const WetDryMixMax As Single = 100
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.WetDrtMixDefault
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.WetDrtMixDefault
+  id: WetDrtMixDefault
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: WetDrtMixDefault
+  nameWithType: DmoFlanger.Params.WetDrtMixDefault
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.WetDrtMixDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float WetDrtMixDefault = 50
+    return:
+      type: System.Single
+    content.vb: Public Const WetDrtMixDefault As Single = 50
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.DepthMin
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.DepthMin
+  id: DepthMin
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: DepthMin
+  nameWithType: DmoFlanger.Params.DepthMin
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.DepthMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DepthMin = 0
+    return:
+      type: System.Single
+    content.vb: Public Const DepthMin As Single = 0
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.DepthMax
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.DepthMax
+  id: DepthMax
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: DepthMax
+  nameWithType: DmoFlanger.Params.DepthMax
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.DepthMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DepthMax = 100
+    return:
+      type: System.Single
+    content.vb: Public Const DepthMax As Single = 100
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.DepthDefault
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.DepthDefault
+  id: DepthDefault
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: DepthDefault
+  nameWithType: DmoFlanger.Params.DepthDefault
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.DepthDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DepthDefault = 100
+    return:
+      type: System.Single
+    content.vb: Public Const DepthDefault As Single = 100
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.FeedBackMin
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.FeedBackMin
+  id: FeedBackMin
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: FeedBackMin
+  nameWithType: DmoFlanger.Params.FeedBackMin
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.FeedBackMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float FeedBackMin = -99
+    return:
+      type: System.Single
+    content.vb: Public Const FeedBackMin As Single = -99
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.FeedBackMax
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.FeedBackMax
+  id: FeedBackMax
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: FeedBackMax
+  nameWithType: DmoFlanger.Params.FeedBackMax
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.FeedBackMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float FeedBackMax = 99
+    return:
+      type: System.Single
+    content.vb: Public Const FeedBackMax As Single = 99
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.FeedBaclDefault
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.FeedBaclDefault
+  id: FeedBaclDefault
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: FeedBaclDefault
+  nameWithType: DmoFlanger.Params.FeedBaclDefault
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.FeedBaclDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float FeedBaclDefault = -50
+    return:
+      type: System.Single
+    content.vb: Public Const FeedBaclDefault As Single = -50
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.FrequencyMin
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.FrequencyMin
+  id: FrequencyMin
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: FrequencyMin
+  nameWithType: DmoFlanger.Params.FrequencyMin
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.FrequencyMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float FrequencyMin = 0
+    return:
+      type: System.Single
+    content.vb: Public Const FrequencyMin As Single = 0
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.FrequencyMax
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.FrequencyMax
+  id: FrequencyMax
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: FrequencyMax
+  nameWithType: DmoFlanger.Params.FrequencyMax
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.FrequencyMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float FrequencyMax = 10
+    return:
+      type: System.Single
+    content.vb: Public Const FrequencyMax As Single = 10
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.FrequencyDefault
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.FrequencyDefault
+  id: FrequencyDefault
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: FrequencyDefault
+  nameWithType: DmoFlanger.Params.FrequencyDefault
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.FrequencyDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float FrequencyDefault = 0.25
+    return:
+      type: System.Single
+    content.vb: Public Const FrequencyDefault As Single = 0.25
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.WaveFormDefault
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.WaveFormDefault
+  id: WaveFormDefault
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: WaveFormDefault
+  nameWithType: DmoFlanger.Params.WaveFormDefault
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.WaveFormDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const FlangerWaveForm WaveFormDefault = Sin
+    return:
+      type: NAudio.Dmo.Effect.FlangerWaveForm
+    content.vb: Public Const WaveFormDefault As FlangerWaveForm = Sin
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.DelayMin
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.DelayMin
+  id: DelayMin
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: DelayMin
+  nameWithType: DmoFlanger.Params.DelayMin
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.DelayMin
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DelayMin = 0
+    return:
+      type: System.Single
+    content.vb: Public Const DelayMin As Single = 0
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.DelayMax
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.DelayMax
+  id: DelayMax
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: DelayMax
+  nameWithType: DmoFlanger.Params.DelayMax
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.DelayMax
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DelayMax = 4
+    return:
+      type: System.Single
+    content.vb: Public Const DelayMax As Single = 4
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.DelayDefault
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.DelayDefault
+  id: DelayDefault
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: DelayDefault
+  nameWithType: DmoFlanger.Params.DelayDefault
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.DelayDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const float DelayDefault = 2
+    return:
+      type: System.Single
+    content.vb: Public Const DelayDefault As Single = 2
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.PhaseDefault
+  commentId: F:NAudio.Dmo.Effect.DmoFlanger.Params.PhaseDefault
+  id: PhaseDefault
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: PhaseDefault
+  nameWithType: DmoFlanger.Params.PhaseDefault
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.PhaseDefault
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public const FlangerPhase PhaseDefault = Zero
+    return:
+      type: NAudio.Dmo.Effect.FlangerPhase
+    content.vb: Public Const PhaseDefault As FlangerPhase = Zero
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.WetDryMix
+  commentId: P:NAudio.Dmo.Effect.DmoFlanger.Params.WetDryMix
+  id: WetDryMix
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: WetDryMix
+  nameWithType: DmoFlanger.Params.WetDryMix
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.WetDryMix
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float WetDryMix { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property WetDryMix As Single
+  overload: NAudio.Dmo.Effect.DmoFlanger.Params.WetDryMix*
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.Depth
+  commentId: P:NAudio.Dmo.Effect.DmoFlanger.Params.Depth
+  id: Depth
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: Depth
+  nameWithType: DmoFlanger.Params.Depth
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.Depth
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float Depth { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Depth As Single
+  overload: NAudio.Dmo.Effect.DmoFlanger.Params.Depth*
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.FeedBack
+  commentId: P:NAudio.Dmo.Effect.DmoFlanger.Params.FeedBack
+  id: FeedBack
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: FeedBack
+  nameWithType: DmoFlanger.Params.FeedBack
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.FeedBack
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float FeedBack { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property FeedBack As Single
+  overload: NAudio.Dmo.Effect.DmoFlanger.Params.FeedBack*
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.Frequency
+  commentId: P:NAudio.Dmo.Effect.DmoFlanger.Params.Frequency
+  id: Frequency
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: Frequency
+  nameWithType: DmoFlanger.Params.Frequency
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.Frequency
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float Frequency { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Frequency As Single
+  overload: NAudio.Dmo.Effect.DmoFlanger.Params.Frequency*
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.WaveForm
+  commentId: P:NAudio.Dmo.Effect.DmoFlanger.Params.WaveForm
+  id: WaveForm
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: WaveForm
+  nameWithType: DmoFlanger.Params.WaveForm
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.WaveForm
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public FlangerWaveForm WaveForm { get; set; }
+    parameters: []
+    return:
+      type: NAudio.Dmo.Effect.FlangerWaveForm
+    content.vb: Public Property WaveForm As FlangerWaveForm
+  overload: NAudio.Dmo.Effect.DmoFlanger.Params.WaveForm*
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.Delay
+  commentId: P:NAudio.Dmo.Effect.DmoFlanger.Params.Delay
+  id: Delay
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: Delay
+  nameWithType: DmoFlanger.Params.Delay
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.Delay
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public float Delay { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Delay As Single
+  overload: NAudio.Dmo.Effect.DmoFlanger.Params.Delay*
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.Phase
+  commentId: P:NAudio.Dmo.Effect.DmoFlanger.Params.Phase
+  id: Phase
+  parent: NAudio.Dmo.Effect.DmoFlanger.Params
+  langs:
+  - csharp
+  - vb
+  name: Phase
+  nameWithType: DmoFlanger.Params.Phase
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.Phase
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public FlangerPhase Phase { get; set; }
+    parameters: []
+    return:
+      type: NAudio.Dmo.Effect.FlangerPhase
+    content.vb: Public Property Phase As FlangerPhase
+  overload: NAudio.Dmo.Effect.DmoFlanger.Params.Phase*
+references:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NAudio.Dmo.Effect.FlangerWaveForm
+  commentId: T:NAudio.Dmo.Effect.FlangerWaveForm
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.FlangerWaveForm.html
+  name: FlangerWaveForm
+  nameWithType: FlangerWaveForm
+  fullName: NAudio.Dmo.Effect.FlangerWaveForm
+- uid: NAudio.Dmo.Effect.FlangerPhase
+  commentId: T:NAudio.Dmo.Effect.FlangerPhase
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.FlangerPhase.html
+  name: FlangerPhase
+  nameWithType: FlangerPhase
+  fullName: NAudio.Dmo.Effect.FlangerPhase
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.WetDryMix*
+  commentId: Overload:NAudio.Dmo.Effect.DmoFlanger.Params.WetDryMix
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoFlanger.Params.html#NAudio_Dmo_Effect_DmoFlanger_Params_WetDryMix
+  name: WetDryMix
+  nameWithType: DmoFlanger.Params.WetDryMix
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.WetDryMix
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.Depth*
+  commentId: Overload:NAudio.Dmo.Effect.DmoFlanger.Params.Depth
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoFlanger.Params.html#NAudio_Dmo_Effect_DmoFlanger_Params_Depth
+  name: Depth
+  nameWithType: DmoFlanger.Params.Depth
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.Depth
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.FeedBack*
+  commentId: Overload:NAudio.Dmo.Effect.DmoFlanger.Params.FeedBack
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoFlanger.Params.html#NAudio_Dmo_Effect_DmoFlanger_Params_FeedBack
+  name: FeedBack
+  nameWithType: DmoFlanger.Params.FeedBack
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.FeedBack
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.Frequency*
+  commentId: Overload:NAudio.Dmo.Effect.DmoFlanger.Params.Frequency
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoFlanger.Params.html#NAudio_Dmo_Effect_DmoFlanger_Params_Frequency
+  name: Frequency
+  nameWithType: DmoFlanger.Params.Frequency
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.Frequency
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.WaveForm*
+  commentId: Overload:NAudio.Dmo.Effect.DmoFlanger.Params.WaveForm
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoFlanger.Params.html#NAudio_Dmo_Effect_DmoFlanger_Params_WaveForm
+  name: WaveForm
+  nameWithType: DmoFlanger.Params.WaveForm
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.WaveForm
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.Delay*
+  commentId: Overload:NAudio.Dmo.Effect.DmoFlanger.Params.Delay
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoFlanger.Params.html#NAudio_Dmo_Effect_DmoFlanger_Params_Delay
+  name: Delay
+  nameWithType: DmoFlanger.Params.Delay
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.Delay
+- uid: NAudio.Dmo.Effect.DmoFlanger.Params.Phase*
+  commentId: Overload:NAudio.Dmo.Effect.DmoFlanger.Params.Phase
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoFlanger.Params.html#NAudio_Dmo_Effect_DmoFlanger_Params_Phase
+  name: Phase
+  nameWithType: DmoFlanger.Params.Phase
+  fullName: NAudio.Dmo.Effect.DmoFlanger.Params.Phase

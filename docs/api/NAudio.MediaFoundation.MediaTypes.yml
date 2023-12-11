@@ -1,0 +1,611 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation.MediaTypes
+  commentId: T:NAudio.MediaFoundation.MediaTypes
+  id: MediaTypes
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation.MediaTypes.MFMediaType_Audio
+  - NAudio.MediaFoundation.MediaTypes.MFMediaType_Binary
+  - NAudio.MediaFoundation.MediaTypes.MFMediaType_Default
+  - NAudio.MediaFoundation.MediaTypes.MFMediaType_FileTransfer
+  - NAudio.MediaFoundation.MediaTypes.MFMediaType_HTML
+  - NAudio.MediaFoundation.MediaTypes.MFMediaType_Image
+  - NAudio.MediaFoundation.MediaTypes.MFMediaType_Protected
+  - NAudio.MediaFoundation.MediaTypes.MFMediaType_SAMI
+  - NAudio.MediaFoundation.MediaTypes.MFMediaType_Script
+  - NAudio.MediaFoundation.MediaTypes.MFMediaType_Video
+  langs:
+  - csharp
+  - vb
+  name: MediaTypes
+  nameWithType: MediaTypes
+  fullName: NAudio.MediaFoundation.MediaTypes
+  type: Class
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static class MediaTypes
+    content.vb: Public Module MediaTypes
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.MediaFoundation.MediaTypes.MFMediaType_Default
+  commentId: F:NAudio.MediaFoundation.MediaTypes.MFMediaType_Default
+  id: MFMediaType_Default
+  parent: NAudio.MediaFoundation.MediaTypes
+  langs:
+  - csharp
+  - vb
+  name: MFMediaType_Default
+  nameWithType: MediaTypes.MFMediaType_Default
+  fullName: NAudio.MediaFoundation.MediaTypes.MFMediaType_Default
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static readonly Guid MFMediaType_Default
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MFMediaType_Default As Guid
+- uid: NAudio.MediaFoundation.MediaTypes.MFMediaType_Audio
+  commentId: F:NAudio.MediaFoundation.MediaTypes.MFMediaType_Audio
+  id: MFMediaType_Audio
+  parent: NAudio.MediaFoundation.MediaTypes
+  langs:
+  - csharp
+  - vb
+  name: MFMediaType_Audio
+  nameWithType: MediaTypes.MFMediaType_Audio
+  fullName: NAudio.MediaFoundation.MediaTypes.MFMediaType_Audio
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Audio")]
+
+      public static readonly Guid MFMediaType_Audio
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Audio")>
+
+      Public Shared ReadOnly MFMediaType_Audio As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Audio
+- uid: NAudio.MediaFoundation.MediaTypes.MFMediaType_Video
+  commentId: F:NAudio.MediaFoundation.MediaTypes.MFMediaType_Video
+  id: MFMediaType_Video
+  parent: NAudio.MediaFoundation.MediaTypes
+  langs:
+  - csharp
+  - vb
+  name: MFMediaType_Video
+  nameWithType: MediaTypes.MFMediaType_Video
+  fullName: NAudio.MediaFoundation.MediaTypes.MFMediaType_Video
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Video")]
+
+      public static readonly Guid MFMediaType_Video
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Video")>
+
+      Public Shared ReadOnly MFMediaType_Video As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Video
+- uid: NAudio.MediaFoundation.MediaTypes.MFMediaType_Protected
+  commentId: F:NAudio.MediaFoundation.MediaTypes.MFMediaType_Protected
+  id: MFMediaType_Protected
+  parent: NAudio.MediaFoundation.MediaTypes
+  langs:
+  - csharp
+  - vb
+  name: MFMediaType_Protected
+  nameWithType: MediaTypes.MFMediaType_Protected
+  fullName: NAudio.MediaFoundation.MediaTypes.MFMediaType_Protected
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Protected Media")]
+
+      public static readonly Guid MFMediaType_Protected
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Protected Media")>
+
+      Public Shared ReadOnly MFMediaType_Protected As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Protected Media
+- uid: NAudio.MediaFoundation.MediaTypes.MFMediaType_SAMI
+  commentId: F:NAudio.MediaFoundation.MediaTypes.MFMediaType_SAMI
+  id: MFMediaType_SAMI
+  parent: NAudio.MediaFoundation.MediaTypes
+  langs:
+  - csharp
+  - vb
+  name: MFMediaType_SAMI
+  nameWithType: MediaTypes.MFMediaType_SAMI
+  fullName: NAudio.MediaFoundation.MediaTypes.MFMediaType_SAMI
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("SAMI captions")]
+
+      public static readonly Guid MFMediaType_SAMI
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("SAMI captions")>
+
+      Public Shared ReadOnly MFMediaType_SAMI As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SAMI captions
+- uid: NAudio.MediaFoundation.MediaTypes.MFMediaType_Script
+  commentId: F:NAudio.MediaFoundation.MediaTypes.MFMediaType_Script
+  id: MFMediaType_Script
+  parent: NAudio.MediaFoundation.MediaTypes
+  langs:
+  - csharp
+  - vb
+  name: MFMediaType_Script
+  nameWithType: MediaTypes.MFMediaType_Script
+  fullName: NAudio.MediaFoundation.MediaTypes.MFMediaType_Script
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Script stream")]
+
+      public static readonly Guid MFMediaType_Script
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Script stream")>
+
+      Public Shared ReadOnly MFMediaType_Script As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Script stream
+- uid: NAudio.MediaFoundation.MediaTypes.MFMediaType_Image
+  commentId: F:NAudio.MediaFoundation.MediaTypes.MFMediaType_Image
+  id: MFMediaType_Image
+  parent: NAudio.MediaFoundation.MediaTypes
+  langs:
+  - csharp
+  - vb
+  name: MFMediaType_Image
+  nameWithType: MediaTypes.MFMediaType_Image
+  fullName: NAudio.MediaFoundation.MediaTypes.MFMediaType_Image
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Still image stream")]
+
+      public static readonly Guid MFMediaType_Image
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Still image stream")>
+
+      Public Shared ReadOnly MFMediaType_Image As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Still image stream
+- uid: NAudio.MediaFoundation.MediaTypes.MFMediaType_HTML
+  commentId: F:NAudio.MediaFoundation.MediaTypes.MFMediaType_HTML
+  id: MFMediaType_HTML
+  parent: NAudio.MediaFoundation.MediaTypes
+  langs:
+  - csharp
+  - vb
+  name: MFMediaType_HTML
+  nameWithType: MediaTypes.MFMediaType_HTML
+  fullName: NAudio.MediaFoundation.MediaTypes.MFMediaType_HTML
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("HTML stream")]
+
+      public static readonly Guid MFMediaType_HTML
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("HTML stream")>
+
+      Public Shared ReadOnly MFMediaType_HTML As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: HTML stream
+- uid: NAudio.MediaFoundation.MediaTypes.MFMediaType_Binary
+  commentId: F:NAudio.MediaFoundation.MediaTypes.MFMediaType_Binary
+  id: MFMediaType_Binary
+  parent: NAudio.MediaFoundation.MediaTypes
+  langs:
+  - csharp
+  - vb
+  name: MFMediaType_Binary
+  nameWithType: MediaTypes.MFMediaType_Binary
+  fullName: NAudio.MediaFoundation.MediaTypes.MFMediaType_Binary
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Binary stream")]
+
+      public static readonly Guid MFMediaType_Binary
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Binary stream")>
+
+      Public Shared ReadOnly MFMediaType_Binary As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Binary stream
+- uid: NAudio.MediaFoundation.MediaTypes.MFMediaType_FileTransfer
+  commentId: F:NAudio.MediaFoundation.MediaTypes.MFMediaType_FileTransfer
+  id: MFMediaType_FileTransfer
+  parent: NAudio.MediaFoundation.MediaTypes
+  langs:
+  - csharp
+  - vb
+  name: MFMediaType_FileTransfer
+  nameWithType: MediaTypes.MFMediaType_FileTransfer
+  fullName: NAudio.MediaFoundation.MediaTypes.MFMediaType_FileTransfer
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("File transfer")]
+
+      public static readonly Guid MFMediaType_FileTransfer
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("File transfer")>
+
+      Public Shared ReadOnly MFMediaType_FileTransfer As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: File transfer
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid

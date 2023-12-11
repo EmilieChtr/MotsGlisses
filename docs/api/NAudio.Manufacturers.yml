@@ -1,0 +1,2753 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Manufacturers
+  commentId: T:NAudio.Manufacturers
+  id: Manufacturers
+  parent: NAudio
+  children:
+  - NAudio.Manufacturers.Addx
+  - NAudio.Manufacturers.Adlacc
+  - NAudio.Manufacturers.Ahead
+  - NAudio.Manufacturers.Aldigital
+  - NAudio.Manufacturers.Amd
+  - NAudio.Manufacturers.Antex
+  - NAudio.Manufacturers.Apicom
+  - NAudio.Manufacturers.Apple
+  - NAudio.Manufacturers.Apps
+  - NAudio.Manufacturers.Apt
+  - NAudio.Manufacturers.Artisoft
+  - NAudio.Manufacturers.Ast
+  - NAudio.Manufacturers.Ati
+  - NAudio.Manufacturers.AttMicroelectronics
+  - NAudio.Manufacturers.Audiofile
+  - NAudio.Manufacturers.Audiopt
+  - NAudio.Manufacturers.Auravision
+  - NAudio.Manufacturers.Aztech
+  - NAudio.Manufacturers.Brooktree
+  - NAudio.Manufacturers.Canam
+  - NAudio.Manufacturers.Canopus
+  - NAudio.Manufacturers.Casio
+  - NAudio.Manufacturers.Cat
+  - NAudio.Manufacturers.Chromatic
+  - NAudio.Manufacturers.Cirruslogic
+  - NAudio.Manufacturers.Compaq
+  - NAudio.Manufacturers.Compusic
+  - NAudio.Manufacturers.ComputerFriends
+  - NAudio.Manufacturers.Concepts
+  - NAudio.Manufacturers.Connectix
+  - NAudio.Manufacturers.Controlres
+  - NAudio.Manufacturers.Coredynamics
+  - NAudio.Manufacturers.Creative
+  - NAudio.Manufacturers.Crystal
+  - NAudio.Manufacturers.CrystalNet
+  - NAudio.Manufacturers.Ddd
+  - NAudio.Manufacturers.Diacoustics
+  - NAudio.Manufacturers.Dialogic
+  - NAudio.Manufacturers.Diamondmm
+  - NAudio.Manufacturers.Digital
+  - NAudio.Manufacturers.DigitalAudioLabs
+  - NAudio.Manufacturers.Dolby
+  - NAudio.Manufacturers.DspGroup
+  - NAudio.Manufacturers.DspSolutions
+  - NAudio.Manufacturers.Echo
+  - NAudio.Manufacturers.Ecs
+  - NAudio.Manufacturers.Ensoniq
+  - NAudio.Manufacturers.Epson
+  - NAudio.Manufacturers.Ess
+  - NAudio.Manufacturers.Euphonics
+  - NAudio.Manufacturers.Everex
+  - NAudio.Manufacturers.Exan
+  - NAudio.Manufacturers.Fast
+  - NAudio.Manufacturers.FraunhoferIis
+  - NAudio.Manufacturers.Frontier
+  - NAudio.Manufacturers.Fujitsu
+  - NAudio.Manufacturers.Gadgetlabs
+  - NAudio.Manufacturers.Grande
+  - NAudio.Manufacturers.Gravis
+  - NAudio.Manufacturers.Gulbransen
+  - NAudio.Manufacturers.Horizons
+  - NAudio.Manufacturers.Ibm
+  - NAudio.Manufacturers.IclPS
+  - NAudio.Manufacturers.Ics
+  - NAudio.Manufacturers.Insoft
+  - NAudio.Manufacturers.Intel
+  - NAudio.Manufacturers.Interactive
+  - NAudio.Manufacturers.Iomagic
+  - NAudio.Manufacturers.Isolution
+  - NAudio.Manufacturers.Iteratedsys
+  - NAudio.Manufacturers.KayElemetrics
+  - NAudio.Manufacturers.Korg
+  - NAudio.Manufacturers.LernoutAndHauspie
+  - NAudio.Manufacturers.Logitech
+  - NAudio.Manufacturers.Lyrrus
+  - NAudio.Manufacturers.Matsushita
+  - NAudio.Manufacturers.Mediatrix
+  - NAudio.Manufacturers.Mediavision
+  - NAudio.Manufacturers.Melabs
+  - NAudio.Manufacturers.Metheus
+  - NAudio.Manufacturers.Microsoft
+  - NAudio.Manufacturers.Miro
+  - NAudio.Manufacturers.Moscom
+  - NAudio.Manufacturers.Motorola
+  - NAudio.Manufacturers.Motu
+  - NAudio.Manufacturers.Mptus
+  - NAudio.Manufacturers.Ncr
+  - NAudio.Manufacturers.Nec
+  - NAudio.Manufacturers.Newmedia
+  - NAudio.Manufacturers.Nms
+  - NAudio.Manufacturers.Norris
+  - NAudio.Manufacturers.NorthernTelecom
+  - NAudio.Manufacturers.Nvidia
+  - NAudio.Manufacturers.Oki
+  - NAudio.Manufacturers.Oksori
+  - NAudio.Manufacturers.Olivetti
+  - NAudio.Manufacturers.Opcode
+  - NAudio.Manufacturers.Opti
+  - NAudio.Manufacturers.Ositech
+  - NAudio.Manufacturers.Osprey
+  - NAudio.Manufacturers.Picturetel
+  - NAudio.Manufacturers.Precept
+  - NAudio.Manufacturers.Qciar
+  - NAudio.Manufacturers.Quarterdeck
+  - NAudio.Manufacturers.Radius
+  - NAudio.Manufacturers.Rhetorex
+  - NAudio.Manufacturers.Rockwell
+  - NAudio.Manufacturers.Roland
+  - NAudio.Manufacturers.S3
+  - NAudio.Manufacturers.Scalacs
+  - NAudio.Manufacturers.Seersys
+  - NAudio.Manufacturers.Sierra
+  - NAudio.Manufacturers.Siliconsoft
+  - NAudio.Manufacturers.Softsound
+  - NAudio.Manufacturers.Sonicfoundry
+  - NAudio.Manufacturers.Soundesigns
+  - NAudio.Manufacturers.SpectrumSignalProcessing
+  - NAudio.Manufacturers.Speechcomp
+  - NAudio.Manufacturers.SplashStudios
+  - NAudio.Manufacturers.Supermac
+  - NAudio.Manufacturers.Tandy
+  - NAudio.Manufacturers.Tdk
+  - NAudio.Manufacturers.Truevision
+  - NAudio.Manufacturers.TurtleBeach
+  - NAudio.Manufacturers.Val
+  - NAudio.Manufacturers.Videologic
+  - NAudio.Manufacturers.Viennasys
+  - NAudio.Manufacturers.Viona
+  - NAudio.Manufacturers.Vitec
+  - NAudio.Manufacturers.Vocaltec
+  - NAudio.Manufacturers.Voiceinfo
+  - NAudio.Manufacturers.Voxware
+  - NAudio.Manufacturers.Voyetra
+  - NAudio.Manufacturers.Vtg
+  - NAudio.Manufacturers.Wanglabs
+  - NAudio.Manufacturers.Weitek
+  - NAudio.Manufacturers.Wildcat
+  - NAudio.Manufacturers.Willowpond
+  - NAudio.Manufacturers.Winnov
+  - NAudio.Manufacturers.Workbit
+  - NAudio.Manufacturers.Xebec
+  - NAudio.Manufacturers.Xyz
+  - NAudio.Manufacturers.Yamaha
+  langs:
+  - csharp
+  - vb
+  name: Manufacturers
+  nameWithType: Manufacturers
+  fullName: NAudio.Manufacturers
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: public enum Manufacturers
+    content.vb: Public Enum Manufacturers
+- uid: NAudio.Manufacturers.Microsoft
+  commentId: F:NAudio.Manufacturers.Microsoft
+  id: Microsoft
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Microsoft
+  nameWithType: Manufacturers.Microsoft
+  fullName: NAudio.Manufacturers.Microsoft
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Microsoft = 1
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Creative
+  commentId: F:NAudio.Manufacturers.Creative
+  id: Creative
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Creative
+  nameWithType: Manufacturers.Creative
+  fullName: NAudio.Manufacturers.Creative
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Creative = 2
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Mediavision
+  commentId: F:NAudio.Manufacturers.Mediavision
+  id: Mediavision
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Mediavision
+  nameWithType: Manufacturers.Mediavision
+  fullName: NAudio.Manufacturers.Mediavision
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Mediavision = 3
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Fujitsu
+  commentId: F:NAudio.Manufacturers.Fujitsu
+  id: Fujitsu
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Fujitsu
+  nameWithType: Manufacturers.Fujitsu
+  fullName: NAudio.Manufacturers.Fujitsu
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Fujitsu = 4
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Artisoft
+  commentId: F:NAudio.Manufacturers.Artisoft
+  id: Artisoft
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Artisoft
+  nameWithType: Manufacturers.Artisoft
+  fullName: NAudio.Manufacturers.Artisoft
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Artisoft = 20
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.TurtleBeach
+  commentId: F:NAudio.Manufacturers.TurtleBeach
+  id: TurtleBeach
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: TurtleBeach
+  nameWithType: Manufacturers.TurtleBeach
+  fullName: NAudio.Manufacturers.TurtleBeach
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: TurtleBeach = 21
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Ibm
+  commentId: F:NAudio.Manufacturers.Ibm
+  id: Ibm
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Ibm
+  nameWithType: Manufacturers.Ibm
+  fullName: NAudio.Manufacturers.Ibm
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Ibm = 22
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Vocaltec
+  commentId: F:NAudio.Manufacturers.Vocaltec
+  id: Vocaltec
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Vocaltec
+  nameWithType: Manufacturers.Vocaltec
+  fullName: NAudio.Manufacturers.Vocaltec
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Vocaltec = 23
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Roland
+  commentId: F:NAudio.Manufacturers.Roland
+  id: Roland
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Roland
+  nameWithType: Manufacturers.Roland
+  fullName: NAudio.Manufacturers.Roland
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Roland = 24
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.DspSolutions
+  commentId: F:NAudio.Manufacturers.DspSolutions
+  id: DspSolutions
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: DspSolutions
+  nameWithType: Manufacturers.DspSolutions
+  fullName: NAudio.Manufacturers.DspSolutions
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: DspSolutions = 25
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Nec
+  commentId: F:NAudio.Manufacturers.Nec
+  id: Nec
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Nec
+  nameWithType: Manufacturers.Nec
+  fullName: NAudio.Manufacturers.Nec
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Nec = 26
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Ati
+  commentId: F:NAudio.Manufacturers.Ati
+  id: Ati
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Ati
+  nameWithType: Manufacturers.Ati
+  fullName: NAudio.Manufacturers.Ati
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Ati = 27
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Wanglabs
+  commentId: F:NAudio.Manufacturers.Wanglabs
+  id: Wanglabs
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Wanglabs
+  nameWithType: Manufacturers.Wanglabs
+  fullName: NAudio.Manufacturers.Wanglabs
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Wanglabs = 28
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Tandy
+  commentId: F:NAudio.Manufacturers.Tandy
+  id: Tandy
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Tandy
+  nameWithType: Manufacturers.Tandy
+  fullName: NAudio.Manufacturers.Tandy
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Tandy = 29
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Voyetra
+  commentId: F:NAudio.Manufacturers.Voyetra
+  id: Voyetra
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Voyetra
+  nameWithType: Manufacturers.Voyetra
+  fullName: NAudio.Manufacturers.Voyetra
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Voyetra = 30
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Antex
+  commentId: F:NAudio.Manufacturers.Antex
+  id: Antex
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Antex
+  nameWithType: Manufacturers.Antex
+  fullName: NAudio.Manufacturers.Antex
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Antex = 31
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.IclPS
+  commentId: F:NAudio.Manufacturers.IclPS
+  id: IclPS
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: IclPS
+  nameWithType: Manufacturers.IclPS
+  fullName: NAudio.Manufacturers.IclPS
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: IclPS = 32
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Intel
+  commentId: F:NAudio.Manufacturers.Intel
+  id: Intel
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Intel
+  nameWithType: Manufacturers.Intel
+  fullName: NAudio.Manufacturers.Intel
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Intel = 33
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Gravis
+  commentId: F:NAudio.Manufacturers.Gravis
+  id: Gravis
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Gravis
+  nameWithType: Manufacturers.Gravis
+  fullName: NAudio.Manufacturers.Gravis
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Gravis = 34
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Val
+  commentId: F:NAudio.Manufacturers.Val
+  id: Val
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Val
+  nameWithType: Manufacturers.Val
+  fullName: NAudio.Manufacturers.Val
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Val = 35
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Interactive
+  commentId: F:NAudio.Manufacturers.Interactive
+  id: Interactive
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Interactive
+  nameWithType: Manufacturers.Interactive
+  fullName: NAudio.Manufacturers.Interactive
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Interactive = 36
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Yamaha
+  commentId: F:NAudio.Manufacturers.Yamaha
+  id: Yamaha
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Yamaha
+  nameWithType: Manufacturers.Yamaha
+  fullName: NAudio.Manufacturers.Yamaha
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Yamaha = 37
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Everex
+  commentId: F:NAudio.Manufacturers.Everex
+  id: Everex
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Everex
+  nameWithType: Manufacturers.Everex
+  fullName: NAudio.Manufacturers.Everex
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Everex = 38
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Echo
+  commentId: F:NAudio.Manufacturers.Echo
+  id: Echo
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Echo
+  nameWithType: Manufacturers.Echo
+  fullName: NAudio.Manufacturers.Echo
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Echo = 39
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Sierra
+  commentId: F:NAudio.Manufacturers.Sierra
+  id: Sierra
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Sierra
+  nameWithType: Manufacturers.Sierra
+  fullName: NAudio.Manufacturers.Sierra
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Sierra = 40
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Cat
+  commentId: F:NAudio.Manufacturers.Cat
+  id: Cat
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Cat
+  nameWithType: Manufacturers.Cat
+  fullName: NAudio.Manufacturers.Cat
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Cat = 41
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Apps
+  commentId: F:NAudio.Manufacturers.Apps
+  id: Apps
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Apps
+  nameWithType: Manufacturers.Apps
+  fullName: NAudio.Manufacturers.Apps
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Apps = 42
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.DspGroup
+  commentId: F:NAudio.Manufacturers.DspGroup
+  id: DspGroup
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: DspGroup
+  nameWithType: Manufacturers.DspGroup
+  fullName: NAudio.Manufacturers.DspGroup
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: DspGroup = 43
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Melabs
+  commentId: F:NAudio.Manufacturers.Melabs
+  id: Melabs
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Melabs
+  nameWithType: Manufacturers.Melabs
+  fullName: NAudio.Manufacturers.Melabs
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Melabs = 44
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.ComputerFriends
+  commentId: F:NAudio.Manufacturers.ComputerFriends
+  id: ComputerFriends
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: ComputerFriends
+  nameWithType: Manufacturers.ComputerFriends
+  fullName: NAudio.Manufacturers.ComputerFriends
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: ComputerFriends = 45
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Ess
+  commentId: F:NAudio.Manufacturers.Ess
+  id: Ess
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Ess
+  nameWithType: Manufacturers.Ess
+  fullName: NAudio.Manufacturers.Ess
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Ess = 46
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Audiofile
+  commentId: F:NAudio.Manufacturers.Audiofile
+  id: Audiofile
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Audiofile
+  nameWithType: Manufacturers.Audiofile
+  fullName: NAudio.Manufacturers.Audiofile
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Audiofile = 47
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Motorola
+  commentId: F:NAudio.Manufacturers.Motorola
+  id: Motorola
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Motorola
+  nameWithType: Manufacturers.Motorola
+  fullName: NAudio.Manufacturers.Motorola
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Motorola = 48
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Canopus
+  commentId: F:NAudio.Manufacturers.Canopus
+  id: Canopus
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Canopus
+  nameWithType: Manufacturers.Canopus
+  fullName: NAudio.Manufacturers.Canopus
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Canopus = 49
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Epson
+  commentId: F:NAudio.Manufacturers.Epson
+  id: Epson
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Epson
+  nameWithType: Manufacturers.Epson
+  fullName: NAudio.Manufacturers.Epson
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Epson = 50
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Truevision
+  commentId: F:NAudio.Manufacturers.Truevision
+  id: Truevision
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Truevision
+  nameWithType: Manufacturers.Truevision
+  fullName: NAudio.Manufacturers.Truevision
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Truevision = 51
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Aztech
+  commentId: F:NAudio.Manufacturers.Aztech
+  id: Aztech
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Aztech
+  nameWithType: Manufacturers.Aztech
+  fullName: NAudio.Manufacturers.Aztech
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Aztech = 52
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Videologic
+  commentId: F:NAudio.Manufacturers.Videologic
+  id: Videologic
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Videologic
+  nameWithType: Manufacturers.Videologic
+  fullName: NAudio.Manufacturers.Videologic
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Videologic = 53
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Scalacs
+  commentId: F:NAudio.Manufacturers.Scalacs
+  id: Scalacs
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Scalacs
+  nameWithType: Manufacturers.Scalacs
+  fullName: NAudio.Manufacturers.Scalacs
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Scalacs = 54
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Korg
+  commentId: F:NAudio.Manufacturers.Korg
+  id: Korg
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Korg
+  nameWithType: Manufacturers.Korg
+  fullName: NAudio.Manufacturers.Korg
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Korg = 55
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Apt
+  commentId: F:NAudio.Manufacturers.Apt
+  id: Apt
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Apt
+  nameWithType: Manufacturers.Apt
+  fullName: NAudio.Manufacturers.Apt
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Apt = 56
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Ics
+  commentId: F:NAudio.Manufacturers.Ics
+  id: Ics
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Ics
+  nameWithType: Manufacturers.Ics
+  fullName: NAudio.Manufacturers.Ics
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Ics = 57
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Iteratedsys
+  commentId: F:NAudio.Manufacturers.Iteratedsys
+  id: Iteratedsys
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Iteratedsys
+  nameWithType: Manufacturers.Iteratedsys
+  fullName: NAudio.Manufacturers.Iteratedsys
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Iteratedsys = 58
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Metheus
+  commentId: F:NAudio.Manufacturers.Metheus
+  id: Metheus
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Metheus
+  nameWithType: Manufacturers.Metheus
+  fullName: NAudio.Manufacturers.Metheus
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Metheus = 59
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Logitech
+  commentId: F:NAudio.Manufacturers.Logitech
+  id: Logitech
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Logitech
+  nameWithType: Manufacturers.Logitech
+  fullName: NAudio.Manufacturers.Logitech
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Logitech = 60
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Winnov
+  commentId: F:NAudio.Manufacturers.Winnov
+  id: Winnov
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Winnov
+  nameWithType: Manufacturers.Winnov
+  fullName: NAudio.Manufacturers.Winnov
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Winnov = 61
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Ncr
+  commentId: F:NAudio.Manufacturers.Ncr
+  id: Ncr
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Ncr
+  nameWithType: Manufacturers.Ncr
+  fullName: NAudio.Manufacturers.Ncr
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Ncr = 62
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Exan
+  commentId: F:NAudio.Manufacturers.Exan
+  id: Exan
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Exan
+  nameWithType: Manufacturers.Exan
+  fullName: NAudio.Manufacturers.Exan
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Exan = 63
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Ast
+  commentId: F:NAudio.Manufacturers.Ast
+  id: Ast
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Ast
+  nameWithType: Manufacturers.Ast
+  fullName: NAudio.Manufacturers.Ast
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Ast = 64
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Willowpond
+  commentId: F:NAudio.Manufacturers.Willowpond
+  id: Willowpond
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Willowpond
+  nameWithType: Manufacturers.Willowpond
+  fullName: NAudio.Manufacturers.Willowpond
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Willowpond = 65
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Sonicfoundry
+  commentId: F:NAudio.Manufacturers.Sonicfoundry
+  id: Sonicfoundry
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Sonicfoundry
+  nameWithType: Manufacturers.Sonicfoundry
+  fullName: NAudio.Manufacturers.Sonicfoundry
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Sonicfoundry = 66
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Vitec
+  commentId: F:NAudio.Manufacturers.Vitec
+  id: Vitec
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Vitec
+  nameWithType: Manufacturers.Vitec
+  fullName: NAudio.Manufacturers.Vitec
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Vitec = 67
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Moscom
+  commentId: F:NAudio.Manufacturers.Moscom
+  id: Moscom
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Moscom
+  nameWithType: Manufacturers.Moscom
+  fullName: NAudio.Manufacturers.Moscom
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Moscom = 68
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Siliconsoft
+  commentId: F:NAudio.Manufacturers.Siliconsoft
+  id: Siliconsoft
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Siliconsoft
+  nameWithType: Manufacturers.Siliconsoft
+  fullName: NAudio.Manufacturers.Siliconsoft
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Siliconsoft = 69
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Supermac
+  commentId: F:NAudio.Manufacturers.Supermac
+  id: Supermac
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Supermac
+  nameWithType: Manufacturers.Supermac
+  fullName: NAudio.Manufacturers.Supermac
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Supermac = 73
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Audiopt
+  commentId: F:NAudio.Manufacturers.Audiopt
+  id: Audiopt
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Audiopt
+  nameWithType: Manufacturers.Audiopt
+  fullName: NAudio.Manufacturers.Audiopt
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Audiopt = 74
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Speechcomp
+  commentId: F:NAudio.Manufacturers.Speechcomp
+  id: Speechcomp
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Speechcomp
+  nameWithType: Manufacturers.Speechcomp
+  fullName: NAudio.Manufacturers.Speechcomp
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Speechcomp = 76
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Ahead
+  commentId: F:NAudio.Manufacturers.Ahead
+  id: Ahead
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Ahead
+  nameWithType: Manufacturers.Ahead
+  fullName: NAudio.Manufacturers.Ahead
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Ahead = 77
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Dolby
+  commentId: F:NAudio.Manufacturers.Dolby
+  id: Dolby
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Dolby
+  nameWithType: Manufacturers.Dolby
+  fullName: NAudio.Manufacturers.Dolby
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Dolby = 78
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Oki
+  commentId: F:NAudio.Manufacturers.Oki
+  id: Oki
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Oki
+  nameWithType: Manufacturers.Oki
+  fullName: NAudio.Manufacturers.Oki
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Oki = 79
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Auravision
+  commentId: F:NAudio.Manufacturers.Auravision
+  id: Auravision
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Auravision
+  nameWithType: Manufacturers.Auravision
+  fullName: NAudio.Manufacturers.Auravision
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Auravision = 80
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Olivetti
+  commentId: F:NAudio.Manufacturers.Olivetti
+  id: Olivetti
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Olivetti
+  nameWithType: Manufacturers.Olivetti
+  fullName: NAudio.Manufacturers.Olivetti
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Olivetti = 81
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Iomagic
+  commentId: F:NAudio.Manufacturers.Iomagic
+  id: Iomagic
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Iomagic
+  nameWithType: Manufacturers.Iomagic
+  fullName: NAudio.Manufacturers.Iomagic
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Iomagic = 82
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Matsushita
+  commentId: F:NAudio.Manufacturers.Matsushita
+  id: Matsushita
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Matsushita
+  nameWithType: Manufacturers.Matsushita
+  fullName: NAudio.Manufacturers.Matsushita
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Matsushita = 83
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Controlres
+  commentId: F:NAudio.Manufacturers.Controlres
+  id: Controlres
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Controlres
+  nameWithType: Manufacturers.Controlres
+  fullName: NAudio.Manufacturers.Controlres
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Controlres = 84
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Xebec
+  commentId: F:NAudio.Manufacturers.Xebec
+  id: Xebec
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Xebec
+  nameWithType: Manufacturers.Xebec
+  fullName: NAudio.Manufacturers.Xebec
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Xebec = 85
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Newmedia
+  commentId: F:NAudio.Manufacturers.Newmedia
+  id: Newmedia
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Newmedia
+  nameWithType: Manufacturers.Newmedia
+  fullName: NAudio.Manufacturers.Newmedia
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Newmedia = 86
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Nms
+  commentId: F:NAudio.Manufacturers.Nms
+  id: Nms
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Nms
+  nameWithType: Manufacturers.Nms
+  fullName: NAudio.Manufacturers.Nms
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Nms = 87
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Lyrrus
+  commentId: F:NAudio.Manufacturers.Lyrrus
+  id: Lyrrus
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Lyrrus
+  nameWithType: Manufacturers.Lyrrus
+  fullName: NAudio.Manufacturers.Lyrrus
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Lyrrus = 88
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Compusic
+  commentId: F:NAudio.Manufacturers.Compusic
+  id: Compusic
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Compusic
+  nameWithType: Manufacturers.Compusic
+  fullName: NAudio.Manufacturers.Compusic
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Compusic = 89
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Opti
+  commentId: F:NAudio.Manufacturers.Opti
+  id: Opti
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Opti
+  nameWithType: Manufacturers.Opti
+  fullName: NAudio.Manufacturers.Opti
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Opti = 90
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Adlacc
+  commentId: F:NAudio.Manufacturers.Adlacc
+  id: Adlacc
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Adlacc
+  nameWithType: Manufacturers.Adlacc
+  fullName: NAudio.Manufacturers.Adlacc
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Adlacc = 91
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Compaq
+  commentId: F:NAudio.Manufacturers.Compaq
+  id: Compaq
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Compaq
+  nameWithType: Manufacturers.Compaq
+  fullName: NAudio.Manufacturers.Compaq
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Compaq = 92
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Dialogic
+  commentId: F:NAudio.Manufacturers.Dialogic
+  id: Dialogic
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Dialogic
+  nameWithType: Manufacturers.Dialogic
+  fullName: NAudio.Manufacturers.Dialogic
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Dialogic = 93
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Insoft
+  commentId: F:NAudio.Manufacturers.Insoft
+  id: Insoft
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Insoft
+  nameWithType: Manufacturers.Insoft
+  fullName: NAudio.Manufacturers.Insoft
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Insoft = 94
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Mptus
+  commentId: F:NAudio.Manufacturers.Mptus
+  id: Mptus
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Mptus
+  nameWithType: Manufacturers.Mptus
+  fullName: NAudio.Manufacturers.Mptus
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Mptus = 95
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Weitek
+  commentId: F:NAudio.Manufacturers.Weitek
+  id: Weitek
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Weitek
+  nameWithType: Manufacturers.Weitek
+  fullName: NAudio.Manufacturers.Weitek
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Weitek = 96
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.LernoutAndHauspie
+  commentId: F:NAudio.Manufacturers.LernoutAndHauspie
+  id: LernoutAndHauspie
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: LernoutAndHauspie
+  nameWithType: Manufacturers.LernoutAndHauspie
+  fullName: NAudio.Manufacturers.LernoutAndHauspie
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: LernoutAndHauspie = 97
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Qciar
+  commentId: F:NAudio.Manufacturers.Qciar
+  id: Qciar
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Qciar
+  nameWithType: Manufacturers.Qciar
+  fullName: NAudio.Manufacturers.Qciar
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Qciar = 98
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Apple
+  commentId: F:NAudio.Manufacturers.Apple
+  id: Apple
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Apple
+  nameWithType: Manufacturers.Apple
+  fullName: NAudio.Manufacturers.Apple
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Apple = 99
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Digital
+  commentId: F:NAudio.Manufacturers.Digital
+  id: Digital
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Digital
+  nameWithType: Manufacturers.Digital
+  fullName: NAudio.Manufacturers.Digital
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Digital = 100
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Motu
+  commentId: F:NAudio.Manufacturers.Motu
+  id: Motu
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Motu
+  nameWithType: Manufacturers.Motu
+  fullName: NAudio.Manufacturers.Motu
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Motu = 101
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Workbit
+  commentId: F:NAudio.Manufacturers.Workbit
+  id: Workbit
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Workbit
+  nameWithType: Manufacturers.Workbit
+  fullName: NAudio.Manufacturers.Workbit
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Workbit = 102
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Ositech
+  commentId: F:NAudio.Manufacturers.Ositech
+  id: Ositech
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Ositech
+  nameWithType: Manufacturers.Ositech
+  fullName: NAudio.Manufacturers.Ositech
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Ositech = 103
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Miro
+  commentId: F:NAudio.Manufacturers.Miro
+  id: Miro
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Miro
+  nameWithType: Manufacturers.Miro
+  fullName: NAudio.Manufacturers.Miro
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Miro = 104
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Cirruslogic
+  commentId: F:NAudio.Manufacturers.Cirruslogic
+  id: Cirruslogic
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Cirruslogic
+  nameWithType: Manufacturers.Cirruslogic
+  fullName: NAudio.Manufacturers.Cirruslogic
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Cirruslogic = 105
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Isolution
+  commentId: F:NAudio.Manufacturers.Isolution
+  id: Isolution
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Isolution
+  nameWithType: Manufacturers.Isolution
+  fullName: NAudio.Manufacturers.Isolution
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Isolution = 106
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Horizons
+  commentId: F:NAudio.Manufacturers.Horizons
+  id: Horizons
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Horizons
+  nameWithType: Manufacturers.Horizons
+  fullName: NAudio.Manufacturers.Horizons
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Horizons = 107
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Concepts
+  commentId: F:NAudio.Manufacturers.Concepts
+  id: Concepts
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Concepts
+  nameWithType: Manufacturers.Concepts
+  fullName: NAudio.Manufacturers.Concepts
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Concepts = 108
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Vtg
+  commentId: F:NAudio.Manufacturers.Vtg
+  id: Vtg
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Vtg
+  nameWithType: Manufacturers.Vtg
+  fullName: NAudio.Manufacturers.Vtg
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Vtg = 109
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Radius
+  commentId: F:NAudio.Manufacturers.Radius
+  id: Radius
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Radius
+  nameWithType: Manufacturers.Radius
+  fullName: NAudio.Manufacturers.Radius
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Radius = 110
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Rockwell
+  commentId: F:NAudio.Manufacturers.Rockwell
+  id: Rockwell
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Rockwell
+  nameWithType: Manufacturers.Rockwell
+  fullName: NAudio.Manufacturers.Rockwell
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Rockwell = 111
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Xyz
+  commentId: F:NAudio.Manufacturers.Xyz
+  id: Xyz
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Xyz
+  nameWithType: Manufacturers.Xyz
+  fullName: NAudio.Manufacturers.Xyz
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Xyz = 112
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Opcode
+  commentId: F:NAudio.Manufacturers.Opcode
+  id: Opcode
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Opcode
+  nameWithType: Manufacturers.Opcode
+  fullName: NAudio.Manufacturers.Opcode
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Opcode = 113
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Voxware
+  commentId: F:NAudio.Manufacturers.Voxware
+  id: Voxware
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Voxware
+  nameWithType: Manufacturers.Voxware
+  fullName: NAudio.Manufacturers.Voxware
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Voxware = 114
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.NorthernTelecom
+  commentId: F:NAudio.Manufacturers.NorthernTelecom
+  id: NorthernTelecom
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: NorthernTelecom
+  nameWithType: Manufacturers.NorthernTelecom
+  fullName: NAudio.Manufacturers.NorthernTelecom
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: NorthernTelecom = 115
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Apicom
+  commentId: F:NAudio.Manufacturers.Apicom
+  id: Apicom
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Apicom
+  nameWithType: Manufacturers.Apicom
+  fullName: NAudio.Manufacturers.Apicom
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Apicom = 116
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Grande
+  commentId: F:NAudio.Manufacturers.Grande
+  id: Grande
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Grande
+  nameWithType: Manufacturers.Grande
+  fullName: NAudio.Manufacturers.Grande
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Grande = 117
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Addx
+  commentId: F:NAudio.Manufacturers.Addx
+  id: Addx
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Addx
+  nameWithType: Manufacturers.Addx
+  fullName: NAudio.Manufacturers.Addx
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Addx = 118
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Wildcat
+  commentId: F:NAudio.Manufacturers.Wildcat
+  id: Wildcat
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Wildcat
+  nameWithType: Manufacturers.Wildcat
+  fullName: NAudio.Manufacturers.Wildcat
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Wildcat = 119
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Rhetorex
+  commentId: F:NAudio.Manufacturers.Rhetorex
+  id: Rhetorex
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Rhetorex
+  nameWithType: Manufacturers.Rhetorex
+  fullName: NAudio.Manufacturers.Rhetorex
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Rhetorex = 120
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Brooktree
+  commentId: F:NAudio.Manufacturers.Brooktree
+  id: Brooktree
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Brooktree
+  nameWithType: Manufacturers.Brooktree
+  fullName: NAudio.Manufacturers.Brooktree
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Brooktree = 121
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Ensoniq
+  commentId: F:NAudio.Manufacturers.Ensoniq
+  id: Ensoniq
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Ensoniq
+  nameWithType: Manufacturers.Ensoniq
+  fullName: NAudio.Manufacturers.Ensoniq
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Ensoniq = 125
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Fast
+  commentId: F:NAudio.Manufacturers.Fast
+  id: Fast
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Fast
+  nameWithType: Manufacturers.Fast
+  fullName: NAudio.Manufacturers.Fast
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Fast = 126
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Nvidia
+  commentId: F:NAudio.Manufacturers.Nvidia
+  id: Nvidia
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Nvidia
+  nameWithType: Manufacturers.Nvidia
+  fullName: NAudio.Manufacturers.Nvidia
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Nvidia = 127
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Oksori
+  commentId: F:NAudio.Manufacturers.Oksori
+  id: Oksori
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Oksori
+  nameWithType: Manufacturers.Oksori
+  fullName: NAudio.Manufacturers.Oksori
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Oksori = 128
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Diacoustics
+  commentId: F:NAudio.Manufacturers.Diacoustics
+  id: Diacoustics
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Diacoustics
+  nameWithType: Manufacturers.Diacoustics
+  fullName: NAudio.Manufacturers.Diacoustics
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Diacoustics = 129
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Gulbransen
+  commentId: F:NAudio.Manufacturers.Gulbransen
+  id: Gulbransen
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Gulbransen
+  nameWithType: Manufacturers.Gulbransen
+  fullName: NAudio.Manufacturers.Gulbransen
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Gulbransen = 130
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.KayElemetrics
+  commentId: F:NAudio.Manufacturers.KayElemetrics
+  id: KayElemetrics
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: KayElemetrics
+  nameWithType: Manufacturers.KayElemetrics
+  fullName: NAudio.Manufacturers.KayElemetrics
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: KayElemetrics = 131
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Crystal
+  commentId: F:NAudio.Manufacturers.Crystal
+  id: Crystal
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Crystal
+  nameWithType: Manufacturers.Crystal
+  fullName: NAudio.Manufacturers.Crystal
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Crystal = 132
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.SplashStudios
+  commentId: F:NAudio.Manufacturers.SplashStudios
+  id: SplashStudios
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: SplashStudios
+  nameWithType: Manufacturers.SplashStudios
+  fullName: NAudio.Manufacturers.SplashStudios
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: SplashStudios = 133
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Quarterdeck
+  commentId: F:NAudio.Manufacturers.Quarterdeck
+  id: Quarterdeck
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Quarterdeck
+  nameWithType: Manufacturers.Quarterdeck
+  fullName: NAudio.Manufacturers.Quarterdeck
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Quarterdeck = 134
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Tdk
+  commentId: F:NAudio.Manufacturers.Tdk
+  id: Tdk
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Tdk
+  nameWithType: Manufacturers.Tdk
+  fullName: NAudio.Manufacturers.Tdk
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Tdk = 135
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.DigitalAudioLabs
+  commentId: F:NAudio.Manufacturers.DigitalAudioLabs
+  id: DigitalAudioLabs
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: DigitalAudioLabs
+  nameWithType: Manufacturers.DigitalAudioLabs
+  fullName: NAudio.Manufacturers.DigitalAudioLabs
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: DigitalAudioLabs = 136
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Seersys
+  commentId: F:NAudio.Manufacturers.Seersys
+  id: Seersys
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Seersys
+  nameWithType: Manufacturers.Seersys
+  fullName: NAudio.Manufacturers.Seersys
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Seersys = 137
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Picturetel
+  commentId: F:NAudio.Manufacturers.Picturetel
+  id: Picturetel
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Picturetel
+  nameWithType: Manufacturers.Picturetel
+  fullName: NAudio.Manufacturers.Picturetel
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Picturetel = 138
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.AttMicroelectronics
+  commentId: F:NAudio.Manufacturers.AttMicroelectronics
+  id: AttMicroelectronics
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: AttMicroelectronics
+  nameWithType: Manufacturers.AttMicroelectronics
+  fullName: NAudio.Manufacturers.AttMicroelectronics
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: AttMicroelectronics = 139
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Osprey
+  commentId: F:NAudio.Manufacturers.Osprey
+  id: Osprey
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Osprey
+  nameWithType: Manufacturers.Osprey
+  fullName: NAudio.Manufacturers.Osprey
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Osprey = 140
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Mediatrix
+  commentId: F:NAudio.Manufacturers.Mediatrix
+  id: Mediatrix
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Mediatrix
+  nameWithType: Manufacturers.Mediatrix
+  fullName: NAudio.Manufacturers.Mediatrix
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Mediatrix = 141
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Soundesigns
+  commentId: F:NAudio.Manufacturers.Soundesigns
+  id: Soundesigns
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Soundesigns
+  nameWithType: Manufacturers.Soundesigns
+  fullName: NAudio.Manufacturers.Soundesigns
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Soundesigns = 142
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Aldigital
+  commentId: F:NAudio.Manufacturers.Aldigital
+  id: Aldigital
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Aldigital
+  nameWithType: Manufacturers.Aldigital
+  fullName: NAudio.Manufacturers.Aldigital
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Aldigital = 143
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.SpectrumSignalProcessing
+  commentId: F:NAudio.Manufacturers.SpectrumSignalProcessing
+  id: SpectrumSignalProcessing
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: SpectrumSignalProcessing
+  nameWithType: Manufacturers.SpectrumSignalProcessing
+  fullName: NAudio.Manufacturers.SpectrumSignalProcessing
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: SpectrumSignalProcessing = 144
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Ecs
+  commentId: F:NAudio.Manufacturers.Ecs
+  id: Ecs
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Ecs
+  nameWithType: Manufacturers.Ecs
+  fullName: NAudio.Manufacturers.Ecs
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Ecs = 145
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Amd
+  commentId: F:NAudio.Manufacturers.Amd
+  id: Amd
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Amd
+  nameWithType: Manufacturers.Amd
+  fullName: NAudio.Manufacturers.Amd
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Amd = 146
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Coredynamics
+  commentId: F:NAudio.Manufacturers.Coredynamics
+  id: Coredynamics
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Coredynamics
+  nameWithType: Manufacturers.Coredynamics
+  fullName: NAudio.Manufacturers.Coredynamics
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Coredynamics = 147
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Canam
+  commentId: F:NAudio.Manufacturers.Canam
+  id: Canam
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Canam
+  nameWithType: Manufacturers.Canam
+  fullName: NAudio.Manufacturers.Canam
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Canam = 148
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Softsound
+  commentId: F:NAudio.Manufacturers.Softsound
+  id: Softsound
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Softsound
+  nameWithType: Manufacturers.Softsound
+  fullName: NAudio.Manufacturers.Softsound
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Softsound = 149
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Norris
+  commentId: F:NAudio.Manufacturers.Norris
+  id: Norris
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Norris
+  nameWithType: Manufacturers.Norris
+  fullName: NAudio.Manufacturers.Norris
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Norris = 150
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Ddd
+  commentId: F:NAudio.Manufacturers.Ddd
+  id: Ddd
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Ddd
+  nameWithType: Manufacturers.Ddd
+  fullName: NAudio.Manufacturers.Ddd
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Ddd = 151
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Euphonics
+  commentId: F:NAudio.Manufacturers.Euphonics
+  id: Euphonics
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Euphonics
+  nameWithType: Manufacturers.Euphonics
+  fullName: NAudio.Manufacturers.Euphonics
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Euphonics = 152
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Precept
+  commentId: F:NAudio.Manufacturers.Precept
+  id: Precept
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Precept
+  nameWithType: Manufacturers.Precept
+  fullName: NAudio.Manufacturers.Precept
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Precept = 153
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.CrystalNet
+  commentId: F:NAudio.Manufacturers.CrystalNet
+  id: CrystalNet
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: CrystalNet
+  nameWithType: Manufacturers.CrystalNet
+  fullName: NAudio.Manufacturers.CrystalNet
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: CrystalNet = 154
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Chromatic
+  commentId: F:NAudio.Manufacturers.Chromatic
+  id: Chromatic
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Chromatic
+  nameWithType: Manufacturers.Chromatic
+  fullName: NAudio.Manufacturers.Chromatic
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Chromatic = 155
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Voiceinfo
+  commentId: F:NAudio.Manufacturers.Voiceinfo
+  id: Voiceinfo
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Voiceinfo
+  nameWithType: Manufacturers.Voiceinfo
+  fullName: NAudio.Manufacturers.Voiceinfo
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Voiceinfo = 156
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Viennasys
+  commentId: F:NAudio.Manufacturers.Viennasys
+  id: Viennasys
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Viennasys
+  nameWithType: Manufacturers.Viennasys
+  fullName: NAudio.Manufacturers.Viennasys
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Viennasys = 157
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Connectix
+  commentId: F:NAudio.Manufacturers.Connectix
+  id: Connectix
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Connectix
+  nameWithType: Manufacturers.Connectix
+  fullName: NAudio.Manufacturers.Connectix
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Connectix = 158
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Gadgetlabs
+  commentId: F:NAudio.Manufacturers.Gadgetlabs
+  id: Gadgetlabs
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Gadgetlabs
+  nameWithType: Manufacturers.Gadgetlabs
+  fullName: NAudio.Manufacturers.Gadgetlabs
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Gadgetlabs = 159
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Frontier
+  commentId: F:NAudio.Manufacturers.Frontier
+  id: Frontier
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Frontier
+  nameWithType: Manufacturers.Frontier
+  fullName: NAudio.Manufacturers.Frontier
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Frontier = 160
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Viona
+  commentId: F:NAudio.Manufacturers.Viona
+  id: Viona
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Viona
+  nameWithType: Manufacturers.Viona
+  fullName: NAudio.Manufacturers.Viona
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Viona = 161
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Casio
+  commentId: F:NAudio.Manufacturers.Casio
+  id: Casio
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Casio
+  nameWithType: Manufacturers.Casio
+  fullName: NAudio.Manufacturers.Casio
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Casio = 162
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.Diamondmm
+  commentId: F:NAudio.Manufacturers.Diamondmm
+  id: Diamondmm
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: Diamondmm
+  nameWithType: Manufacturers.Diamondmm
+  fullName: NAudio.Manufacturers.Diamondmm
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: Diamondmm = 163
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.S3
+  commentId: F:NAudio.Manufacturers.S3
+  id: S3
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: S3
+  nameWithType: Manufacturers.S3
+  fullName: NAudio.Manufacturers.S3
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: S3 = 164
+    return:
+      type: NAudio.Manufacturers
+- uid: NAudio.Manufacturers.FraunhoferIis
+  commentId: F:NAudio.Manufacturers.FraunhoferIis
+  id: FraunhoferIis
+  parent: NAudio.Manufacturers
+  langs:
+  - csharp
+  - vb
+  name: FraunhoferIis
+  nameWithType: Manufacturers.FraunhoferIis
+  fullName: NAudio.Manufacturers.FraunhoferIis
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio
+  syntax:
+    content: FraunhoferIis = 172
+    return:
+      type: NAudio.Manufacturers
+references:
+- uid: NAudio
+  commentId: N:NAudio
+  isExternal: true
+  href: NAudio.html
+  name: NAudio
+  nameWithType: NAudio
+  fullName: NAudio
+- uid: NAudio.Manufacturers
+  commentId: T:NAudio.Manufacturers
+  parent: NAudio
+  isExternal: true
+  href: NAudio.Manufacturers.html
+  name: Manufacturers
+  nameWithType: Manufacturers
+  fullName: NAudio.Manufacturers

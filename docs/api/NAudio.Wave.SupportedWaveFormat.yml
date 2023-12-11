@@ -1,0 +1,522 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.SupportedWaveFormat
+  commentId: T:NAudio.Wave.SupportedWaveFormat
+  id: SupportedWaveFormat
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_1M08
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_1M16
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_1S08
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_1S16
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_2M08
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_2M16
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_2S08
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_2S16
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_44M08
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_44M16
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_44S08
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_44S16
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_48M08
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_48M16
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_48S08
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_48S16
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_4M08
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_4M16
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_4S08
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_4S16
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_96M08
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_96M16
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_96S08
+  - NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_96S16
+  langs:
+  - csharp
+  - vb
+  name: SupportedWaveFormat
+  nameWithType: SupportedWaveFormat
+  fullName: NAudio.Wave.SupportedWaveFormat
+  type: Enum
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum SupportedWaveFormat
+    content.vb: >-
+      <Flags>
+
+      Public Enum SupportedWaveFormat
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_1M08
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_1M08
+  id: WAVE_FORMAT_1M08
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_1M08
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_1M08
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_1M08
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_1M08 = 1
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_1S08
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_1S08
+  id: WAVE_FORMAT_1S08
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_1S08
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_1S08
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_1S08
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_1S08 = 2
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_1M16
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_1M16
+  id: WAVE_FORMAT_1M16
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_1M16
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_1M16
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_1M16
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_1M16 = 4
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_1S16
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_1S16
+  id: WAVE_FORMAT_1S16
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_1S16
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_1S16
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_1S16
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_1S16 = 8
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_2M08
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_2M08
+  id: WAVE_FORMAT_2M08
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_2M08
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_2M08
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_2M08
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_2M08 = 16
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_2S08
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_2S08
+  id: WAVE_FORMAT_2S08
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_2S08
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_2S08
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_2S08
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_2S08 = 32
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_2M16
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_2M16
+  id: WAVE_FORMAT_2M16
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_2M16
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_2M16
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_2M16
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_2M16 = 64
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_2S16
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_2S16
+  id: WAVE_FORMAT_2S16
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_2S16
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_2S16
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_2S16
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_2S16 = 128
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_4M08
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_4M08
+  id: WAVE_FORMAT_4M08
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_4M08
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_4M08
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_4M08
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_4M08 = 256
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_4S08
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_4S08
+  id: WAVE_FORMAT_4S08
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_4S08
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_4S08
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_4S08
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_4S08 = 512
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_4M16
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_4M16
+  id: WAVE_FORMAT_4M16
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_4M16
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_4M16
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_4M16
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_4M16 = 1024
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_4S16
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_4S16
+  id: WAVE_FORMAT_4S16
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_4S16
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_4S16
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_4S16
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_4S16 = 2048
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_44M08
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_44M08
+  id: WAVE_FORMAT_44M08
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_44M08
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_44M08
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_44M08
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_44M08 = 256
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_44S08
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_44S08
+  id: WAVE_FORMAT_44S08
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_44S08
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_44S08
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_44S08
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_44S08 = 512
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_44M16
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_44M16
+  id: WAVE_FORMAT_44M16
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_44M16
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_44M16
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_44M16
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_44M16 = 1024
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_44S16
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_44S16
+  id: WAVE_FORMAT_44S16
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_44S16
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_44S16
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_44S16
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_44S16 = 2048
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_48M08
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_48M08
+  id: WAVE_FORMAT_48M08
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_48M08
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_48M08
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_48M08
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_48M08 = 4096
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_48S08
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_48S08
+  id: WAVE_FORMAT_48S08
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_48S08
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_48S08
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_48S08
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_48S08 = 8192
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_48M16
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_48M16
+  id: WAVE_FORMAT_48M16
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_48M16
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_48M16
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_48M16
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_48M16 = 16384
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_48S16
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_48S16
+  id: WAVE_FORMAT_48S16
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_48S16
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_48S16
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_48S16
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_48S16 = 32768
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_96M08
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_96M08
+  id: WAVE_FORMAT_96M08
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_96M08
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_96M08
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_96M08
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_96M08 = 65536
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_96S08
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_96S08
+  id: WAVE_FORMAT_96S08
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_96S08
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_96S08
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_96S08
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_96S08 = 131072
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_96M16
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_96M16
+  id: WAVE_FORMAT_96M16
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_96M16
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_96M16
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_96M16
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_96M16 = 262144
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+- uid: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_96S16
+  commentId: F:NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_96S16
+  id: WAVE_FORMAT_96S16
+  parent: NAudio.Wave.SupportedWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WAVE_FORMAT_96S16
+  nameWithType: SupportedWaveFormat.WAVE_FORMAT_96S16
+  fullName: NAudio.Wave.SupportedWaveFormat.WAVE_FORMAT_96S16
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WAVE_FORMAT_96S16 = 524288
+    return:
+      type: NAudio.Wave.SupportedWaveFormat
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Wave.SupportedWaveFormat
+  commentId: T:NAudio.Wave.SupportedWaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.SupportedWaveFormat.html
+  name: SupportedWaveFormat
+  nameWithType: SupportedWaveFormat
+  fullName: NAudio.Wave.SupportedWaveFormat

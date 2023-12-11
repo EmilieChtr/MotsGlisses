@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.DmoProcessOutputFlags
+  commentId: T:NAudio.Dmo.DmoProcessOutputFlags
+  id: DmoProcessOutputFlags
+  parent: NAudio.Dmo
+  children:
+  - NAudio.Dmo.DmoProcessOutputFlags.DiscardWhenNoBuffer
+  - NAudio.Dmo.DmoProcessOutputFlags.None
+  langs:
+  - csharp
+  - vb
+  name: DmoProcessOutputFlags
+  nameWithType: DmoProcessOutputFlags
+  fullName: NAudio.Dmo.DmoProcessOutputFlags
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum DmoProcessOutputFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum DmoProcessOutputFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.Dmo.DmoProcessOutputFlags.None
+  commentId: F:NAudio.Dmo.DmoProcessOutputFlags.None
+  id: None
+  parent: NAudio.Dmo.DmoProcessOutputFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DmoProcessOutputFlags.None
+  fullName: NAudio.Dmo.DmoProcessOutputFlags.None
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: None = 0
+    return:
+      type: NAudio.Dmo.DmoProcessOutputFlags
+- uid: NAudio.Dmo.DmoProcessOutputFlags.DiscardWhenNoBuffer
+  commentId: F:NAudio.Dmo.DmoProcessOutputFlags.DiscardWhenNoBuffer
+  id: DiscardWhenNoBuffer
+  parent: NAudio.Dmo.DmoProcessOutputFlags
+  langs:
+  - csharp
+  - vb
+  name: DiscardWhenNoBuffer
+  nameWithType: DmoProcessOutputFlags.DiscardWhenNoBuffer
+  fullName: NAudio.Dmo.DmoProcessOutputFlags.DiscardWhenNoBuffer
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: DiscardWhenNoBuffer = 1
+    return:
+      type: NAudio.Dmo.DmoProcessOutputFlags
+references:
+- uid: NAudio.Dmo
+  commentId: N:NAudio.Dmo
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo
+  nameWithType: NAudio.Dmo
+  fullName: NAudio.Dmo
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+- uid: NAudio.Dmo.DmoProcessOutputFlags
+  commentId: T:NAudio.Dmo.DmoProcessOutputFlags
+  parent: NAudio.Dmo
+  isExternal: true
+  href: NAudio.Dmo.DmoProcessOutputFlags.html
+  name: DmoProcessOutputFlags
+  nameWithType: DmoProcessOutputFlags
+  fullName: NAudio.Dmo.DmoProcessOutputFlags

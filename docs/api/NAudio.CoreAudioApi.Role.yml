@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.Role
+  commentId: T:NAudio.CoreAudioApi.Role
+  id: Role
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.Role.Communications
+  - NAudio.CoreAudioApi.Role.Console
+  - NAudio.CoreAudioApi.Role.Multimedia
+  langs:
+  - csharp
+  - vb
+  name: Role
+  nameWithType: Role
+  fullName: NAudio.CoreAudioApi.Role
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public enum Role
+    content.vb: Public Enum Role
+- uid: NAudio.CoreAudioApi.Role.Console
+  commentId: F:NAudio.CoreAudioApi.Role.Console
+  id: Console
+  parent: NAudio.CoreAudioApi.Role
+  langs:
+  - csharp
+  - vb
+  name: Console
+  nameWithType: Role.Console
+  fullName: NAudio.CoreAudioApi.Role.Console
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Console = 0
+    return:
+      type: NAudio.CoreAudioApi.Role
+- uid: NAudio.CoreAudioApi.Role.Multimedia
+  commentId: F:NAudio.CoreAudioApi.Role.Multimedia
+  id: Multimedia
+  parent: NAudio.CoreAudioApi.Role
+  langs:
+  - csharp
+  - vb
+  name: Multimedia
+  nameWithType: Role.Multimedia
+  fullName: NAudio.CoreAudioApi.Role.Multimedia
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Multimedia = 1
+    return:
+      type: NAudio.CoreAudioApi.Role
+- uid: NAudio.CoreAudioApi.Role.Communications
+  commentId: F:NAudio.CoreAudioApi.Role.Communications
+  id: Communications
+  parent: NAudio.CoreAudioApi.Role
+  langs:
+  - csharp
+  - vb
+  name: Communications
+  nameWithType: Role.Communications
+  fullName: NAudio.CoreAudioApi.Role.Communications
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Communications = 2
+    return:
+      type: NAudio.CoreAudioApi.Role
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: NAudio.CoreAudioApi.Role
+  commentId: T:NAudio.CoreAudioApi.Role
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.Role.html
+  name: Role
+  nameWithType: Role
+  fullName: NAudio.CoreAudioApi.Role

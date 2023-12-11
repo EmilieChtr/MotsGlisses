@@ -1,0 +1,985 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AudioSubtypes
+ | MotsGliss&#233;s </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AudioSubtypes
+ | MotsGliss&#233;s ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="MotsGliss&#233;s">
+            MotsGliss&#233;s
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NAudio.MediaFoundation.AudioSubtypes">
+
+
+
+  <h1 id="NAudio_MediaFoundation_AudioSubtypes" data-uid="NAudio.MediaFoundation.AudioSubtypes" class="text-break">
+    Class AudioSubtypes
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NAudio.html">NAudio</a>.<a class="xref" href="NAudio.MediaFoundation.html">MediaFoundation</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NAudio.Wasapi.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class AudioSubtypes</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AudioSubtypes</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_ImaAdpcm" data-uid="NAudio.MediaFoundation.AudioSubtypes.ImaAdpcm">
+  ImaAdpcm
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;IMA ADPCM&quot;)]
+public static readonly Guid ImaAdpcm</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_KSDATAFORMAT_SUBTYPE_ADPCM" data-uid="NAudio.MediaFoundation.AudioSubtypes.KSDATAFORMAT_SUBTYPE_ADPCM">
+  KSDATAFORMAT_SUBTYPE_ADPCM
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;ADPCM&quot;)]
+public static readonly Guid KSDATAFORMAT_SUBTYPE_ADPCM</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_KSDATAFORMAT_SUBTYPE_IEC61937_DOLBY_DIGITAL_PLUS" data-uid="NAudio.MediaFoundation.AudioSubtypes.KSDATAFORMAT_SUBTYPE_IEC61937_DOLBY_DIGITAL_PLUS">
+  KSDATAFORMAT_SUBTYPE_IEC61937_DOLBY_DIGITAL_PLUS
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;Dolby Digital Plus for HDMI&quot;)]
+public static readonly Guid KSDATAFORMAT_SUBTYPE_IEC61937_DOLBY_DIGITAL_PLUS</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_KSDATAFORMAT_SUBTYPE_MULAW" data-uid="NAudio.MediaFoundation.AudioSubtypes.KSDATAFORMAT_SUBTYPE_MULAW">
+  KSDATAFORMAT_SUBTYPE_MULAW
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;μ-law&quot;)]
+public static readonly Guid KSDATAFORMAT_SUBTYPE_MULAW</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MEDIASUBTYPE_DOLBY_DDPLUS" data-uid="NAudio.MediaFoundation.AudioSubtypes.MEDIASUBTYPE_DOLBY_DDPLUS">
+  MEDIASUBTYPE_DOLBY_DDPLUS
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;Dolby Audio Types&quot;)]
+public static readonly Guid MEDIASUBTYPE_DOLBY_DDPLUS</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MEDIASUBTYPE_DVM" data-uid="NAudio.MediaFoundation.AudioSubtypes.MEDIASUBTYPE_DVM">
+  MEDIASUBTYPE_DVM
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;Dolby Audio Types&quot;)]
+public static readonly Guid MEDIASUBTYPE_DVM</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MEDIASUBTYPE_MSAUDIO1" data-uid="NAudio.MediaFoundation.AudioSubtypes.MEDIASUBTYPE_MSAUDIO1">
+  MEDIASUBTYPE_MSAUDIO1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;MSAudio1&quot;)]
+public static readonly Guid MEDIASUBTYPE_MSAUDIO1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MEDIASUBTYPE_RAW_AAC1" data-uid="NAudio.MediaFoundation.AudioSubtypes.MEDIASUBTYPE_RAW_AAC1">
+  MEDIASUBTYPE_RAW_AAC1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;MPEG-4 and AAC Audio Types&quot;)]
+public static readonly Guid MEDIASUBTYPE_RAW_AAC1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_AAC" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_AAC">
+  MFAudioFormat_AAC
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;AAC&quot;)]
+public static readonly Guid MFAudioFormat_AAC</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_ADTS" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_ADTS">
+  MFAudioFormat_ADTS
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;ADTS&quot;)]
+public static readonly Guid MFAudioFormat_ADTS</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_ALAC" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_ALAC">
+  MFAudioFormat_ALAC
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Guid MFAudioFormat_ALAC</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_DRM" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_DRM">
+  MFAudioFormat_DRM
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;DRM&quot;)]
+public static readonly Guid MFAudioFormat_DRM</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_DTS" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_DTS">
+  MFAudioFormat_DTS
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;DTS&quot;)]
+public static readonly Guid MFAudioFormat_DTS</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_Dolby_AC3" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_Dolby_AC3">
+  MFAudioFormat_Dolby_AC3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;Dolby AC3&quot;)]
+public static readonly Guid MFAudioFormat_Dolby_AC3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_Dolby_AC3_SPDIF" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_Dolby_AC3_SPDIF">
+  MFAudioFormat_Dolby_AC3_SPDIF
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;Dolby AC3 SPDIF&quot;)]
+public static readonly Guid MFAudioFormat_Dolby_AC3_SPDIF</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_FLAC" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_FLAC">
+  MFAudioFormat_FLAC
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Guid MFAudioFormat_FLAC</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_Float" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_Float">
+  MFAudioFormat_Float
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;IEEE floating-point&quot;)]
+public static readonly Guid MFAudioFormat_Float</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_MP3" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_MP3">
+  MFAudioFormat_MP3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;MP3&quot;)]
+public static readonly Guid MFAudioFormat_MP3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_MPEG" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_MPEG">
+  MFAudioFormat_MPEG
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;MPEG&quot;)]
+public static readonly Guid MFAudioFormat_MPEG</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_MSP1" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_MSP1">
+  MFAudioFormat_MSP1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;WMA 9 Voice codec&quot;)]
+public static readonly Guid MFAudioFormat_MSP1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_PCM" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_PCM">
+  MFAudioFormat_PCM
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;PCM&quot;)]
+public static readonly Guid MFAudioFormat_PCM</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_WMASPDIF" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_WMASPDIF">
+  MFAudioFormat_WMASPDIF
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;WMA SPDIF&quot;)]
+public static readonly Guid MFAudioFormat_WMASPDIF</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_WMAudioV8" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_WMAudioV8">
+  MFAudioFormat_WMAudioV8
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;Windows Media Audio&quot;)]
+public static readonly Guid MFAudioFormat_WMAudioV8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_WMAudioV9" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_WMAudioV9">
+  MFAudioFormat_WMAudioV9
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;Windows Media Audio Professional&quot;)]
+public static readonly Guid MFAudioFormat_WMAudioV9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_MFAudioFormat_WMAudio_Lossless" data-uid="NAudio.MediaFoundation.AudioSubtypes.MFAudioFormat_WMAudio_Lossless">
+  MFAudioFormat_WMAudio_Lossless
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;WMAudio Lossless&quot;)]
+public static readonly Guid MFAudioFormat_WMAudio_Lossless</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_AudioSubtypes_WMMEDIASUBTYPE_WMSP2" data-uid="NAudio.MediaFoundation.AudioSubtypes.WMMEDIASUBTYPE_WMSP2">
+  WMMEDIASUBTYPE_WMSP2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FieldDescription(&quot;WMSP2&quot;)]
+public static readonly Guid WMMEDIASUBTYPE_WMSP2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

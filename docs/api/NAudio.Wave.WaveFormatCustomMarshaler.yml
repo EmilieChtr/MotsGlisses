@@ -1,0 +1,730 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.WaveFormatCustomMarshaler
+  commentId: T:NAudio.Wave.WaveFormatCustomMarshaler
+  id: WaveFormatCustomMarshaler
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.WaveFormatCustomMarshaler.#ctor
+  - NAudio.Wave.WaveFormatCustomMarshaler.CleanUpManagedData(System.Object)
+  - NAudio.Wave.WaveFormatCustomMarshaler.CleanUpNativeData(System.IntPtr)
+  - NAudio.Wave.WaveFormatCustomMarshaler.GetInstance(System.String)
+  - NAudio.Wave.WaveFormatCustomMarshaler.GetNativeDataSize
+  - NAudio.Wave.WaveFormatCustomMarshaler.MarshalManagedToNative(System.Object)
+  - NAudio.Wave.WaveFormatCustomMarshaler.MarshalNativeToManaged(System.IntPtr)
+  langs:
+  - csharp
+  - vb
+  name: WaveFormatCustomMarshaler
+  nameWithType: WaveFormatCustomMarshaler
+  fullName: NAudio.Wave.WaveFormatCustomMarshaler
+  type: Class
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: 'public sealed class WaveFormatCustomMarshaler : ICustomMarshaler'
+    content.vb: Public NotInheritable Class WaveFormatCustomMarshaler Implements ICustomMarshaler
+  inheritance:
+  - System.Object
+  implements:
+  - System.Runtime.InteropServices.ICustomMarshaler
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Wave.WaveFormatCustomMarshaler.GetInstance(System.String)
+  commentId: M:NAudio.Wave.WaveFormatCustomMarshaler.GetInstance(System.String)
+  id: GetInstance(System.String)
+  parent: NAudio.Wave.WaveFormatCustomMarshaler
+  langs:
+  - csharp
+  - vb
+  name: GetInstance(string)
+  nameWithType: WaveFormatCustomMarshaler.GetInstance(string)
+  fullName: NAudio.Wave.WaveFormatCustomMarshaler.GetInstance(string)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public static ICustomMarshaler GetInstance(string cookie)
+    parameters:
+    - id: cookie
+      type: System.String
+    return:
+      type: System.Runtime.InteropServices.ICustomMarshaler
+    content.vb: Public Shared Function GetInstance(cookie As String) As ICustomMarshaler
+  overload: NAudio.Wave.WaveFormatCustomMarshaler.GetInstance*
+  nameWithType.vb: WaveFormatCustomMarshaler.GetInstance(String)
+  fullName.vb: NAudio.Wave.WaveFormatCustomMarshaler.GetInstance(String)
+  name.vb: GetInstance(String)
+- uid: NAudio.Wave.WaveFormatCustomMarshaler.CleanUpManagedData(System.Object)
+  commentId: M:NAudio.Wave.WaveFormatCustomMarshaler.CleanUpManagedData(System.Object)
+  id: CleanUpManagedData(System.Object)
+  parent: NAudio.Wave.WaveFormatCustomMarshaler
+  langs:
+  - csharp
+  - vb
+  name: CleanUpManagedData(object)
+  nameWithType: WaveFormatCustomMarshaler.CleanUpManagedData(object)
+  fullName: NAudio.Wave.WaveFormatCustomMarshaler.CleanUpManagedData(object)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public void CleanUpManagedData(object ManagedObj)
+    parameters:
+    - id: ManagedObj
+      type: System.Object
+    content.vb: Public Sub CleanUpManagedData(ManagedObj As Object)
+  overload: NAudio.Wave.WaveFormatCustomMarshaler.CleanUpManagedData*
+  implements:
+  - System.Runtime.InteropServices.ICustomMarshaler.CleanUpManagedData(System.Object)
+  nameWithType.vb: WaveFormatCustomMarshaler.CleanUpManagedData(Object)
+  fullName.vb: NAudio.Wave.WaveFormatCustomMarshaler.CleanUpManagedData(Object)
+  name.vb: CleanUpManagedData(Object)
+- uid: NAudio.Wave.WaveFormatCustomMarshaler.CleanUpNativeData(System.IntPtr)
+  commentId: M:NAudio.Wave.WaveFormatCustomMarshaler.CleanUpNativeData(System.IntPtr)
+  id: CleanUpNativeData(System.IntPtr)
+  parent: NAudio.Wave.WaveFormatCustomMarshaler
+  langs:
+  - csharp
+  - vb
+  name: CleanUpNativeData(IntPtr)
+  nameWithType: WaveFormatCustomMarshaler.CleanUpNativeData(IntPtr)
+  fullName: NAudio.Wave.WaveFormatCustomMarshaler.CleanUpNativeData(System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public void CleanUpNativeData(IntPtr pNativeData)
+    parameters:
+    - id: pNativeData
+      type: System.IntPtr
+    content.vb: Public Sub CleanUpNativeData(pNativeData As IntPtr)
+  overload: NAudio.Wave.WaveFormatCustomMarshaler.CleanUpNativeData*
+  implements:
+  - System.Runtime.InteropServices.ICustomMarshaler.CleanUpNativeData(System.IntPtr)
+- uid: NAudio.Wave.WaveFormatCustomMarshaler.GetNativeDataSize
+  commentId: M:NAudio.Wave.WaveFormatCustomMarshaler.GetNativeDataSize
+  id: GetNativeDataSize
+  parent: NAudio.Wave.WaveFormatCustomMarshaler
+  langs:
+  - csharp
+  - vb
+  name: GetNativeDataSize()
+  nameWithType: WaveFormatCustomMarshaler.GetNativeDataSize()
+  fullName: NAudio.Wave.WaveFormatCustomMarshaler.GetNativeDataSize()
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public int GetNativeDataSize()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetNativeDataSize() As Integer
+  overload: NAudio.Wave.WaveFormatCustomMarshaler.GetNativeDataSize*
+  implements:
+  - System.Runtime.InteropServices.ICustomMarshaler.GetNativeDataSize
+- uid: NAudio.Wave.WaveFormatCustomMarshaler.MarshalManagedToNative(System.Object)
+  commentId: M:NAudio.Wave.WaveFormatCustomMarshaler.MarshalManagedToNative(System.Object)
+  id: MarshalManagedToNative(System.Object)
+  parent: NAudio.Wave.WaveFormatCustomMarshaler
+  langs:
+  - csharp
+  - vb
+  name: MarshalManagedToNative(object)
+  nameWithType: WaveFormatCustomMarshaler.MarshalManagedToNative(object)
+  fullName: NAudio.Wave.WaveFormatCustomMarshaler.MarshalManagedToNative(object)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public IntPtr MarshalManagedToNative(object ManagedObj)
+    parameters:
+    - id: ManagedObj
+      type: System.Object
+    return:
+      type: System.IntPtr
+    content.vb: Public Function MarshalManagedToNative(ManagedObj As Object) As IntPtr
+  overload: NAudio.Wave.WaveFormatCustomMarshaler.MarshalManagedToNative*
+  implements:
+  - System.Runtime.InteropServices.ICustomMarshaler.MarshalManagedToNative(System.Object)
+  nameWithType.vb: WaveFormatCustomMarshaler.MarshalManagedToNative(Object)
+  fullName.vb: NAudio.Wave.WaveFormatCustomMarshaler.MarshalManagedToNative(Object)
+  name.vb: MarshalManagedToNative(Object)
+- uid: NAudio.Wave.WaveFormatCustomMarshaler.MarshalNativeToManaged(System.IntPtr)
+  commentId: M:NAudio.Wave.WaveFormatCustomMarshaler.MarshalNativeToManaged(System.IntPtr)
+  id: MarshalNativeToManaged(System.IntPtr)
+  parent: NAudio.Wave.WaveFormatCustomMarshaler
+  langs:
+  - csharp
+  - vb
+  name: MarshalNativeToManaged(IntPtr)
+  nameWithType: WaveFormatCustomMarshaler.MarshalNativeToManaged(IntPtr)
+  fullName: NAudio.Wave.WaveFormatCustomMarshaler.MarshalNativeToManaged(System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public object MarshalNativeToManaged(IntPtr pNativeData)
+    parameters:
+    - id: pNativeData
+      type: System.IntPtr
+    return:
+      type: System.Object
+    content.vb: Public Function MarshalNativeToManaged(pNativeData As IntPtr) As Object
+  overload: NAudio.Wave.WaveFormatCustomMarshaler.MarshalNativeToManaged*
+  implements:
+  - System.Runtime.InteropServices.ICustomMarshaler.MarshalNativeToManaged(System.IntPtr)
+- uid: NAudio.Wave.WaveFormatCustomMarshaler.#ctor
+  commentId: M:NAudio.Wave.WaveFormatCustomMarshaler.#ctor
+  id: '#ctor'
+  parent: NAudio.Wave.WaveFormatCustomMarshaler
+  langs:
+  - csharp
+  - vb
+  name: WaveFormatCustomMarshaler()
+  nameWithType: WaveFormatCustomMarshaler.WaveFormatCustomMarshaler()
+  fullName: NAudio.Wave.WaveFormatCustomMarshaler.WaveFormatCustomMarshaler()
+  type: Constructor
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public WaveFormatCustomMarshaler()
+    content.vb: Public Sub New()
+  overload: NAudio.Wave.WaveFormatCustomMarshaler.#ctor*
+  nameWithType.vb: WaveFormatCustomMarshaler.New()
+  fullName.vb: NAudio.Wave.WaveFormatCustomMarshaler.New()
+  name.vb: New()
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Runtime.InteropServices.ICustomMarshaler
+  commentId: T:System.Runtime.InteropServices.ICustomMarshaler
+  parent: System.Runtime.InteropServices
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.icustommarshaler
+  name: ICustomMarshaler
+  nameWithType: ICustomMarshaler
+  fullName: System.Runtime.InteropServices.ICustomMarshaler
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Runtime.InteropServices
+  commentId: N:System.Runtime.InteropServices
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Runtime.InteropServices
+  nameWithType: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices
+- uid: NAudio.Wave.WaveFormatCustomMarshaler.GetInstance*
+  commentId: Overload:NAudio.Wave.WaveFormatCustomMarshaler.GetInstance
+  isExternal: true
+  href: NAudio.Wave.WaveFormatCustomMarshaler.html#NAudio_Wave_WaveFormatCustomMarshaler_GetInstance_System_String_
+  name: GetInstance
+  nameWithType: WaveFormatCustomMarshaler.GetInstance
+  fullName: NAudio.Wave.WaveFormatCustomMarshaler.GetInstance
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.Wave.WaveFormatCustomMarshaler.CleanUpManagedData*
+  commentId: Overload:NAudio.Wave.WaveFormatCustomMarshaler.CleanUpManagedData
+  isExternal: true
+  href: NAudio.Wave.WaveFormatCustomMarshaler.html#NAudio_Wave_WaveFormatCustomMarshaler_CleanUpManagedData_System_Object_
+  name: CleanUpManagedData
+  nameWithType: WaveFormatCustomMarshaler.CleanUpManagedData
+  fullName: NAudio.Wave.WaveFormatCustomMarshaler.CleanUpManagedData
+- uid: System.Runtime.InteropServices.ICustomMarshaler.CleanUpManagedData(System.Object)
+  commentId: M:System.Runtime.InteropServices.ICustomMarshaler.CleanUpManagedData(System.Object)
+  parent: System.Runtime.InteropServices.ICustomMarshaler
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.icustommarshaler.cleanupmanageddata
+  name: CleanUpManagedData(object)
+  nameWithType: ICustomMarshaler.CleanUpManagedData(object)
+  fullName: System.Runtime.InteropServices.ICustomMarshaler.CleanUpManagedData(object)
+  nameWithType.vb: ICustomMarshaler.CleanUpManagedData(Object)
+  fullName.vb: System.Runtime.InteropServices.ICustomMarshaler.CleanUpManagedData(Object)
+  name.vb: CleanUpManagedData(Object)
+  spec.csharp:
+  - uid: System.Runtime.InteropServices.ICustomMarshaler.CleanUpManagedData(System.Object)
+    name: CleanUpManagedData
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.icustommarshaler.cleanupmanageddata
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.InteropServices.ICustomMarshaler.CleanUpManagedData(System.Object)
+    name: CleanUpManagedData
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.icustommarshaler.cleanupmanageddata
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: NAudio.Wave.WaveFormatCustomMarshaler.CleanUpNativeData*
+  commentId: Overload:NAudio.Wave.WaveFormatCustomMarshaler.CleanUpNativeData
+  isExternal: true
+  href: NAudio.Wave.WaveFormatCustomMarshaler.html#NAudio_Wave_WaveFormatCustomMarshaler_CleanUpNativeData_System_IntPtr_
+  name: CleanUpNativeData
+  nameWithType: WaveFormatCustomMarshaler.CleanUpNativeData
+  fullName: NAudio.Wave.WaveFormatCustomMarshaler.CleanUpNativeData
+- uid: System.Runtime.InteropServices.ICustomMarshaler.CleanUpNativeData(System.IntPtr)
+  commentId: M:System.Runtime.InteropServices.ICustomMarshaler.CleanUpNativeData(System.IntPtr)
+  parent: System.Runtime.InteropServices.ICustomMarshaler
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.icustommarshaler.cleanupnativedata
+  name: CleanUpNativeData(IntPtr)
+  nameWithType: ICustomMarshaler.CleanUpNativeData(IntPtr)
+  fullName: System.Runtime.InteropServices.ICustomMarshaler.CleanUpNativeData(System.IntPtr)
+  spec.csharp:
+  - uid: System.Runtime.InteropServices.ICustomMarshaler.CleanUpNativeData(System.IntPtr)
+    name: CleanUpNativeData
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.icustommarshaler.cleanupnativedata
+  - name: (
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.InteropServices.ICustomMarshaler.CleanUpNativeData(System.IntPtr)
+    name: CleanUpNativeData
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.icustommarshaler.cleanupnativedata
+  - name: (
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: )
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: NAudio.Wave.WaveFormatCustomMarshaler.GetNativeDataSize*
+  commentId: Overload:NAudio.Wave.WaveFormatCustomMarshaler.GetNativeDataSize
+  isExternal: true
+  href: NAudio.Wave.WaveFormatCustomMarshaler.html#NAudio_Wave_WaveFormatCustomMarshaler_GetNativeDataSize
+  name: GetNativeDataSize
+  nameWithType: WaveFormatCustomMarshaler.GetNativeDataSize
+  fullName: NAudio.Wave.WaveFormatCustomMarshaler.GetNativeDataSize
+- uid: System.Runtime.InteropServices.ICustomMarshaler.GetNativeDataSize
+  commentId: M:System.Runtime.InteropServices.ICustomMarshaler.GetNativeDataSize
+  parent: System.Runtime.InteropServices.ICustomMarshaler
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.icustommarshaler.getnativedatasize
+  name: GetNativeDataSize()
+  nameWithType: ICustomMarshaler.GetNativeDataSize()
+  fullName: System.Runtime.InteropServices.ICustomMarshaler.GetNativeDataSize()
+  spec.csharp:
+  - uid: System.Runtime.InteropServices.ICustomMarshaler.GetNativeDataSize
+    name: GetNativeDataSize
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.icustommarshaler.getnativedatasize
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.InteropServices.ICustomMarshaler.GetNativeDataSize
+    name: GetNativeDataSize
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.icustommarshaler.getnativedatasize
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.Wave.WaveFormatCustomMarshaler.MarshalManagedToNative*
+  commentId: Overload:NAudio.Wave.WaveFormatCustomMarshaler.MarshalManagedToNative
+  isExternal: true
+  href: NAudio.Wave.WaveFormatCustomMarshaler.html#NAudio_Wave_WaveFormatCustomMarshaler_MarshalManagedToNative_System_Object_
+  name: MarshalManagedToNative
+  nameWithType: WaveFormatCustomMarshaler.MarshalManagedToNative
+  fullName: NAudio.Wave.WaveFormatCustomMarshaler.MarshalManagedToNative
+- uid: System.Runtime.InteropServices.ICustomMarshaler.MarshalManagedToNative(System.Object)
+  commentId: M:System.Runtime.InteropServices.ICustomMarshaler.MarshalManagedToNative(System.Object)
+  parent: System.Runtime.InteropServices.ICustomMarshaler
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.icustommarshaler.marshalmanagedtonative
+  name: MarshalManagedToNative(object)
+  nameWithType: ICustomMarshaler.MarshalManagedToNative(object)
+  fullName: System.Runtime.InteropServices.ICustomMarshaler.MarshalManagedToNative(object)
+  nameWithType.vb: ICustomMarshaler.MarshalManagedToNative(Object)
+  fullName.vb: System.Runtime.InteropServices.ICustomMarshaler.MarshalManagedToNative(Object)
+  name.vb: MarshalManagedToNative(Object)
+  spec.csharp:
+  - uid: System.Runtime.InteropServices.ICustomMarshaler.MarshalManagedToNative(System.Object)
+    name: MarshalManagedToNative
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.icustommarshaler.marshalmanagedtonative
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.InteropServices.ICustomMarshaler.MarshalManagedToNative(System.Object)
+    name: MarshalManagedToNative
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.icustommarshaler.marshalmanagedtonative
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: NAudio.Wave.WaveFormatCustomMarshaler.MarshalNativeToManaged*
+  commentId: Overload:NAudio.Wave.WaveFormatCustomMarshaler.MarshalNativeToManaged
+  isExternal: true
+  href: NAudio.Wave.WaveFormatCustomMarshaler.html#NAudio_Wave_WaveFormatCustomMarshaler_MarshalNativeToManaged_System_IntPtr_
+  name: MarshalNativeToManaged
+  nameWithType: WaveFormatCustomMarshaler.MarshalNativeToManaged
+  fullName: NAudio.Wave.WaveFormatCustomMarshaler.MarshalNativeToManaged
+- uid: System.Runtime.InteropServices.ICustomMarshaler.MarshalNativeToManaged(System.IntPtr)
+  commentId: M:System.Runtime.InteropServices.ICustomMarshaler.MarshalNativeToManaged(System.IntPtr)
+  parent: System.Runtime.InteropServices.ICustomMarshaler
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.icustommarshaler.marshalnativetomanaged
+  name: MarshalNativeToManaged(IntPtr)
+  nameWithType: ICustomMarshaler.MarshalNativeToManaged(IntPtr)
+  fullName: System.Runtime.InteropServices.ICustomMarshaler.MarshalNativeToManaged(System.IntPtr)
+  spec.csharp:
+  - uid: System.Runtime.InteropServices.ICustomMarshaler.MarshalNativeToManaged(System.IntPtr)
+    name: MarshalNativeToManaged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.icustommarshaler.marshalnativetomanaged
+  - name: (
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.InteropServices.ICustomMarshaler.MarshalNativeToManaged(System.IntPtr)
+    name: MarshalNativeToManaged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.icustommarshaler.marshalnativetomanaged
+  - name: (
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: )
+- uid: NAudio.Wave.WaveFormatCustomMarshaler.#ctor*
+  commentId: Overload:NAudio.Wave.WaveFormatCustomMarshaler.#ctor
+  isExternal: true
+  href: NAudio.Wave.WaveFormatCustomMarshaler.html#NAudio_Wave_WaveFormatCustomMarshaler__ctor
+  name: WaveFormatCustomMarshaler
+  nameWithType: WaveFormatCustomMarshaler.WaveFormatCustomMarshaler
+  fullName: NAudio.Wave.WaveFormatCustomMarshaler.WaveFormatCustomMarshaler
+  nameWithType.vb: WaveFormatCustomMarshaler.New
+  fullName.vb: NAudio.Wave.WaveFormatCustomMarshaler.New
+  name.vb: New

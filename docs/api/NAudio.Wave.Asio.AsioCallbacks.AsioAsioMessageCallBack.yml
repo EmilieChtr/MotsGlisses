@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+  commentId: T:NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+  id: AsioCallbacks.AsioAsioMessageCallBack
+  parent: NAudio.Wave.Asio
+  children:
+  - NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.#ctor(System.Object,System.IntPtr)
+  - NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.BeginInvoke(NAudio.Wave.Asio.AsioMessageSelector,System.Int32,System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+  - NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.EndInvoke(System.IAsyncResult)
+  - NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.Invoke(NAudio.Wave.Asio.AsioMessageSelector,System.Int32,System.IntPtr,System.IntPtr)
+  langs:
+  - csharp
+  - vb
+  name: AsioCallbacks.AsioAsioMessageCallBack
+  nameWithType: AsioCallbacks.AsioAsioMessageCallBack
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+  type: Delegate
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public delegate int AsioCallbacks.AsioAsioMessageCallBack(AsioMessageSelector selector, int value, IntPtr message, IntPtr opt)
+    parameters:
+    - id: selector
+      type: NAudio.Wave.Asio.AsioMessageSelector
+    - id: value
+      type: System.Int32
+    - id: message
+      type: System.IntPtr
+    - id: opt
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Delegate Function AsioCallbacks.AsioAsioMessageCallBack(selector As AsioMessageSelector, value As Integer, message As IntPtr, opt As IntPtr) As Integer
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.#ctor(System.Object,System.IntPtr)
+  commentId: M:NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+  langs:
+  - csharp
+  - vb
+  name: AsioAsioMessageCallBack(object, IntPtr)
+  nameWithType: AsioCallbacks.AsioAsioMessageCallBack.AsioAsioMessageCallBack(object, IntPtr)
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.AsioAsioMessageCallBack(object, System.IntPtr)
+  type: Constructor
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public AsioAsioMessageCallBack(object @object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New([object] As Object, method As IntPtr)
+  overload: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.#ctor*
+  nameWithType.vb: AsioCallbacks.AsioAsioMessageCallBack.New(Object, IntPtr)
+  fullName.vb: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.New(Object, System.IntPtr)
+  name.vb: New(Object, IntPtr)
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.Invoke(NAudio.Wave.Asio.AsioMessageSelector,System.Int32,System.IntPtr,System.IntPtr)
+  commentId: M:NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.Invoke(NAudio.Wave.Asio.AsioMessageSelector,System.Int32,System.IntPtr,System.IntPtr)
+  id: Invoke(NAudio.Wave.Asio.AsioMessageSelector,System.Int32,System.IntPtr,System.IntPtr)
+  parent: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+  langs:
+  - csharp
+  - vb
+  name: Invoke(AsioMessageSelector, int, IntPtr, IntPtr)
+  nameWithType: AsioCallbacks.AsioAsioMessageCallBack.Invoke(AsioMessageSelector, int, IntPtr, IntPtr)
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.Invoke(NAudio.Wave.Asio.AsioMessageSelector, int, System.IntPtr, System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public virtual int Invoke(AsioMessageSelector selector, int value, IntPtr message, IntPtr opt)
+    parameters:
+    - id: selector
+      type: NAudio.Wave.Asio.AsioMessageSelector
+    - id: value
+      type: System.Int32
+    - id: message
+      type: System.IntPtr
+    - id: opt
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Function Invoke(selector As AsioMessageSelector, value As Integer, message As IntPtr, opt As IntPtr) As Integer
+  overload: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.Invoke*
+  nameWithType.vb: AsioCallbacks.AsioAsioMessageCallBack.Invoke(AsioMessageSelector, Integer, IntPtr, IntPtr)
+  fullName.vb: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.Invoke(NAudio.Wave.Asio.AsioMessageSelector, Integer, System.IntPtr, System.IntPtr)
+  name.vb: Invoke(AsioMessageSelector, Integer, IntPtr, IntPtr)
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.BeginInvoke(NAudio.Wave.Asio.AsioMessageSelector,System.Int32,System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+  commentId: M:NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.BeginInvoke(NAudio.Wave.Asio.AsioMessageSelector,System.Int32,System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+  id: BeginInvoke(NAudio.Wave.Asio.AsioMessageSelector,System.Int32,System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+  parent: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(AsioMessageSelector, int, IntPtr, IntPtr, AsyncCallback, object)
+  nameWithType: AsioCallbacks.AsioAsioMessageCallBack.BeginInvoke(AsioMessageSelector, int, IntPtr, IntPtr, AsyncCallback, object)
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.BeginInvoke(NAudio.Wave.Asio.AsioMessageSelector, int, System.IntPtr, System.IntPtr, System.AsyncCallback, object)
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(AsioMessageSelector selector, int value, IntPtr message, IntPtr opt, AsyncCallback callback, object @object)
+    parameters:
+    - id: selector
+      type: NAudio.Wave.Asio.AsioMessageSelector
+    - id: value
+      type: System.Int32
+    - id: message
+      type: System.IntPtr
+    - id: opt
+      type: System.IntPtr
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(selector As AsioMessageSelector, value As Integer, message As IntPtr, opt As IntPtr, callback As AsyncCallback, [object] As Object) As IAsyncResult
+  overload: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.BeginInvoke*
+  nameWithType.vb: AsioCallbacks.AsioAsioMessageCallBack.BeginInvoke(AsioMessageSelector, Integer, IntPtr, IntPtr, AsyncCallback, Object)
+  fullName.vb: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.BeginInvoke(NAudio.Wave.Asio.AsioMessageSelector, Integer, System.IntPtr, System.IntPtr, System.AsyncCallback, Object)
+  name.vb: BeginInvoke(AsioMessageSelector, Integer, IntPtr, IntPtr, AsyncCallback, Object)
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.EndInvoke(System.IAsyncResult)
+  commentId: M:NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: AsioCallbacks.AsioAsioMessageCallBack.EndInvoke(IAsyncResult)
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.EndInvoke(System.IAsyncResult)
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public virtual int EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As Integer
+  overload: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.EndInvoke*
+references:
+- uid: NAudio.Wave.Asio
+  commentId: N:NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave.Asio
+  nameWithType: NAudio.Wave.Asio
+  fullName: NAudio.Wave.Asio
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Asio
+    name: Asio
+    isExternal: true
+    href: NAudio.Wave.Asio.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Asio
+    name: Asio
+    isExternal: true
+    href: NAudio.Wave.Asio.html
+- uid: NAudio.Wave.Asio.AsioMessageSelector
+  commentId: T:NAudio.Wave.Asio.AsioMessageSelector
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioMessageSelector.html
+  name: AsioMessageSelector
+  nameWithType: AsioMessageSelector
+  fullName: NAudio.Wave.Asio.AsioMessageSelector
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.#ctor*
+  commentId: Overload:NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.#ctor
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.html#NAudio_Wave_Asio_AsioCallbacks_AsioAsioMessageCallBack__ctor_System_Object_System_IntPtr_
+  name: AsioAsioMessageCallBack
+  nameWithType: AsioCallbacks.AsioAsioMessageCallBack.AsioAsioMessageCallBack
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.AsioAsioMessageCallBack
+  nameWithType.vb: AsioCallbacks.AsioAsioMessageCallBack.New
+  fullName.vb: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.New
+  name.vb: New
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.Invoke*
+  commentId: Overload:NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.Invoke
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.html#NAudio_Wave_Asio_AsioCallbacks_AsioAsioMessageCallBack_Invoke_NAudio_Wave_Asio_AsioMessageSelector_System_Int32_System_IntPtr_System_IntPtr_
+  name: Invoke
+  nameWithType: AsioCallbacks.AsioAsioMessageCallBack.Invoke
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.Invoke
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.BeginInvoke*
+  commentId: Overload:NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.BeginInvoke
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.html#NAudio_Wave_Asio_AsioCallbacks_AsioAsioMessageCallBack_BeginInvoke_NAudio_Wave_Asio_AsioMessageSelector_System_Int32_System_IntPtr_System_IntPtr_System_AsyncCallback_System_Object_
+  name: BeginInvoke
+  nameWithType: AsioCallbacks.AsioAsioMessageCallBack.BeginInvoke
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.EndInvoke*
+  commentId: Overload:NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.EndInvoke
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.html#NAudio_Wave_Asio_AsioCallbacks_AsioAsioMessageCallBack_EndInvoke_System_IAsyncResult_
+  name: EndInvoke
+  nameWithType: AsioCallbacks.AsioAsioMessageCallBack.EndInvoke
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.EndInvoke

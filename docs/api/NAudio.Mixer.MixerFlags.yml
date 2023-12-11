@@ -1,0 +1,529 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Mixer.MixerFlags
+  commentId: T:NAudio.Mixer.MixerFlags
+  id: MixerFlags
+  parent: NAudio.Mixer
+  children:
+  - NAudio.Mixer.MixerFlags.All
+  - NAudio.Mixer.MixerFlags.Aux
+  - NAudio.Mixer.MixerFlags.GetLineInfoOfComponentType
+  - NAudio.Mixer.MixerFlags.GetLineInfoOfDestination
+  - NAudio.Mixer.MixerFlags.GetLineInfoOfLineId
+  - NAudio.Mixer.MixerFlags.GetLineInfoOfQueryMask
+  - NAudio.Mixer.MixerFlags.GetLineInfoOfSource
+  - NAudio.Mixer.MixerFlags.GetLineInfoOfTargetType
+  - NAudio.Mixer.MixerFlags.Handle
+  - NAudio.Mixer.MixerFlags.ListText
+  - NAudio.Mixer.MixerFlags.MidiIn
+  - NAudio.Mixer.MixerFlags.MidiInHandle
+  - NAudio.Mixer.MixerFlags.MidiOut
+  - NAudio.Mixer.MixerFlags.MidiOutHandle
+  - NAudio.Mixer.MixerFlags.Mixer
+  - NAudio.Mixer.MixerFlags.MixerHandle
+  - NAudio.Mixer.MixerFlags.OneById
+  - NAudio.Mixer.MixerFlags.OneByType
+  - NAudio.Mixer.MixerFlags.QueryMask
+  - NAudio.Mixer.MixerFlags.Value
+  - NAudio.Mixer.MixerFlags.WaveIn
+  - NAudio.Mixer.MixerFlags.WaveInHandle
+  - NAudio.Mixer.MixerFlags.WaveOut
+  - NAudio.Mixer.MixerFlags.WaveOutHandle
+  langs:
+  - csharp
+  - vb
+  name: MixerFlags
+  nameWithType: MixerFlags
+  fullName: NAudio.Mixer.MixerFlags
+  type: Enum
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum MixerFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum MixerFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.Mixer.MixerFlags.Handle
+  commentId: F:NAudio.Mixer.MixerFlags.Handle
+  id: Handle
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: Handle
+  nameWithType: MixerFlags.Handle
+  fullName: NAudio.Mixer.MixerFlags.Handle
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Handle = -2147483648
+    return:
+      type: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerFlags.Mixer
+  commentId: F:NAudio.Mixer.MixerFlags.Mixer
+  id: Mixer
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: Mixer
+  nameWithType: MixerFlags.Mixer
+  fullName: NAudio.Mixer.MixerFlags.Mixer
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Mixer = 0
+    return:
+      type: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerFlags.MixerHandle
+  commentId: F:NAudio.Mixer.MixerFlags.MixerHandle
+  id: MixerHandle
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: MixerHandle
+  nameWithType: MixerFlags.MixerHandle
+  fullName: NAudio.Mixer.MixerFlags.MixerHandle
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: MixerHandle = -2147483648
+    return:
+      type: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerFlags.WaveOut
+  commentId: F:NAudio.Mixer.MixerFlags.WaveOut
+  id: WaveOut
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: WaveOut
+  nameWithType: MixerFlags.WaveOut
+  fullName: NAudio.Mixer.MixerFlags.WaveOut
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: WaveOut = 268435456
+    return:
+      type: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerFlags.WaveOutHandle
+  commentId: F:NAudio.Mixer.MixerFlags.WaveOutHandle
+  id: WaveOutHandle
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: WaveOutHandle
+  nameWithType: MixerFlags.WaveOutHandle
+  fullName: NAudio.Mixer.MixerFlags.WaveOutHandle
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: WaveOutHandle = Handle | WaveOut
+    return:
+      type: NAudio.Mixer.MixerFlags
+    content.vb: WaveOutHandle = Handle Or WaveOut
+- uid: NAudio.Mixer.MixerFlags.WaveIn
+  commentId: F:NAudio.Mixer.MixerFlags.WaveIn
+  id: WaveIn
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: WaveIn
+  nameWithType: MixerFlags.WaveIn
+  fullName: NAudio.Mixer.MixerFlags.WaveIn
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: WaveIn = 536870912
+    return:
+      type: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerFlags.WaveInHandle
+  commentId: F:NAudio.Mixer.MixerFlags.WaveInHandle
+  id: WaveInHandle
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: WaveInHandle
+  nameWithType: MixerFlags.WaveInHandle
+  fullName: NAudio.Mixer.MixerFlags.WaveInHandle
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: WaveInHandle = Handle | WaveIn
+    return:
+      type: NAudio.Mixer.MixerFlags
+    content.vb: WaveInHandle = Handle Or WaveIn
+- uid: NAudio.Mixer.MixerFlags.MidiOut
+  commentId: F:NAudio.Mixer.MixerFlags.MidiOut
+  id: MidiOut
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: MidiOut
+  nameWithType: MixerFlags.MidiOut
+  fullName: NAudio.Mixer.MixerFlags.MidiOut
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: MidiOut = WaveOut | WaveIn
+    return:
+      type: NAudio.Mixer.MixerFlags
+    content.vb: MidiOut = WaveOut Or WaveIn
+- uid: NAudio.Mixer.MixerFlags.MidiOutHandle
+  commentId: F:NAudio.Mixer.MixerFlags.MidiOutHandle
+  id: MidiOutHandle
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: MidiOutHandle
+  nameWithType: MixerFlags.MidiOutHandle
+  fullName: NAudio.Mixer.MixerFlags.MidiOutHandle
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: MidiOutHandle = Handle | MidiOut
+    return:
+      type: NAudio.Mixer.MixerFlags
+    content.vb: MidiOutHandle = Handle Or MidiOut
+- uid: NAudio.Mixer.MixerFlags.MidiIn
+  commentId: F:NAudio.Mixer.MixerFlags.MidiIn
+  id: MidiIn
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: MidiIn
+  nameWithType: MixerFlags.MidiIn
+  fullName: NAudio.Mixer.MixerFlags.MidiIn
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: MidiIn = 1073741824
+    return:
+      type: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerFlags.MidiInHandle
+  commentId: F:NAudio.Mixer.MixerFlags.MidiInHandle
+  id: MidiInHandle
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: MidiInHandle
+  nameWithType: MixerFlags.MidiInHandle
+  fullName: NAudio.Mixer.MixerFlags.MidiInHandle
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: MidiInHandle = Handle | MidiIn
+    return:
+      type: NAudio.Mixer.MixerFlags
+    content.vb: MidiInHandle = Handle Or MidiIn
+- uid: NAudio.Mixer.MixerFlags.Aux
+  commentId: F:NAudio.Mixer.MixerFlags.Aux
+  id: Aux
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: Aux
+  nameWithType: MixerFlags.Aux
+  fullName: NAudio.Mixer.MixerFlags.Aux
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Aux = WaveOut | MidiIn
+    return:
+      type: NAudio.Mixer.MixerFlags
+    content.vb: Aux = WaveOut Or MidiIn
+- uid: NAudio.Mixer.MixerFlags.Value
+  commentId: F:NAudio.Mixer.MixerFlags.Value
+  id: Value
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: MixerFlags.Value
+  fullName: NAudio.Mixer.MixerFlags.Value
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Value = 0
+    return:
+      type: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerFlags.ListText
+  commentId: F:NAudio.Mixer.MixerFlags.ListText
+  id: ListText
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: ListText
+  nameWithType: MixerFlags.ListText
+  fullName: NAudio.Mixer.MixerFlags.ListText
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: ListText = 1
+    return:
+      type: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerFlags.QueryMask
+  commentId: F:NAudio.Mixer.MixerFlags.QueryMask
+  id: QueryMask
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: QueryMask
+  nameWithType: MixerFlags.QueryMask
+  fullName: NAudio.Mixer.MixerFlags.QueryMask
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: QueryMask = 15
+    return:
+      type: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerFlags.All
+  commentId: F:NAudio.Mixer.MixerFlags.All
+  id: All
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: MixerFlags.All
+  fullName: NAudio.Mixer.MixerFlags.All
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: All = 0
+    return:
+      type: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerFlags.OneById
+  commentId: F:NAudio.Mixer.MixerFlags.OneById
+  id: OneById
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: OneById
+  nameWithType: MixerFlags.OneById
+  fullName: NAudio.Mixer.MixerFlags.OneById
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: OneById = 1
+    return:
+      type: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerFlags.OneByType
+  commentId: F:NAudio.Mixer.MixerFlags.OneByType
+  id: OneByType
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: OneByType
+  nameWithType: MixerFlags.OneByType
+  fullName: NAudio.Mixer.MixerFlags.OneByType
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: OneByType = 2
+    return:
+      type: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerFlags.GetLineInfoOfDestination
+  commentId: F:NAudio.Mixer.MixerFlags.GetLineInfoOfDestination
+  id: GetLineInfoOfDestination
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: GetLineInfoOfDestination
+  nameWithType: MixerFlags.GetLineInfoOfDestination
+  fullName: NAudio.Mixer.MixerFlags.GetLineInfoOfDestination
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: GetLineInfoOfDestination = 0
+    return:
+      type: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerFlags.GetLineInfoOfSource
+  commentId: F:NAudio.Mixer.MixerFlags.GetLineInfoOfSource
+  id: GetLineInfoOfSource
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: GetLineInfoOfSource
+  nameWithType: MixerFlags.GetLineInfoOfSource
+  fullName: NAudio.Mixer.MixerFlags.GetLineInfoOfSource
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: GetLineInfoOfSource = 1
+    return:
+      type: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerFlags.GetLineInfoOfLineId
+  commentId: F:NAudio.Mixer.MixerFlags.GetLineInfoOfLineId
+  id: GetLineInfoOfLineId
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: GetLineInfoOfLineId
+  nameWithType: MixerFlags.GetLineInfoOfLineId
+  fullName: NAudio.Mixer.MixerFlags.GetLineInfoOfLineId
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: GetLineInfoOfLineId = 2
+    return:
+      type: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerFlags.GetLineInfoOfComponentType
+  commentId: F:NAudio.Mixer.MixerFlags.GetLineInfoOfComponentType
+  id: GetLineInfoOfComponentType
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: GetLineInfoOfComponentType
+  nameWithType: MixerFlags.GetLineInfoOfComponentType
+  fullName: NAudio.Mixer.MixerFlags.GetLineInfoOfComponentType
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: GetLineInfoOfComponentType = GetLineInfoOfSource | GetLineInfoOfLineId
+    return:
+      type: NAudio.Mixer.MixerFlags
+    content.vb: GetLineInfoOfComponentType = GetLineInfoOfSource Or GetLineInfoOfLineId
+- uid: NAudio.Mixer.MixerFlags.GetLineInfoOfTargetType
+  commentId: F:NAudio.Mixer.MixerFlags.GetLineInfoOfTargetType
+  id: GetLineInfoOfTargetType
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: GetLineInfoOfTargetType
+  nameWithType: MixerFlags.GetLineInfoOfTargetType
+  fullName: NAudio.Mixer.MixerFlags.GetLineInfoOfTargetType
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: GetLineInfoOfTargetType = 4
+    return:
+      type: NAudio.Mixer.MixerFlags
+- uid: NAudio.Mixer.MixerFlags.GetLineInfoOfQueryMask
+  commentId: F:NAudio.Mixer.MixerFlags.GetLineInfoOfQueryMask
+  id: GetLineInfoOfQueryMask
+  parent: NAudio.Mixer.MixerFlags
+  langs:
+  - csharp
+  - vb
+  name: GetLineInfoOfQueryMask
+  nameWithType: MixerFlags.GetLineInfoOfQueryMask
+  fullName: NAudio.Mixer.MixerFlags.GetLineInfoOfQueryMask
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: GetLineInfoOfQueryMask = 15
+    return:
+      type: NAudio.Mixer.MixerFlags
+references:
+- uid: NAudio.Mixer
+  commentId: N:NAudio.Mixer
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Mixer
+  nameWithType: NAudio.Mixer
+  fullName: NAudio.Mixer
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Mixer
+    name: Mixer
+    isExternal: true
+    href: NAudio.Mixer.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Mixer
+    name: Mixer
+    isExternal: true
+    href: NAudio.Mixer.html
+- uid: NAudio.Mixer.MixerFlags
+  commentId: T:NAudio.Mixer.MixerFlags
+  parent: NAudio.Mixer
+  isExternal: true
+  href: NAudio.Mixer.MixerFlags.html
+  name: MixerFlags
+  nameWithType: MixerFlags
+  fullName: NAudio.Mixer.MixerFlags

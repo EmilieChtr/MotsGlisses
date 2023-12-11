@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.AudioClientStreamFlags
+  commentId: T:NAudio.CoreAudioApi.AudioClientStreamFlags
+  id: AudioClientStreamFlags
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.AudioClientStreamFlags.AutoConvertPcm
+  - NAudio.CoreAudioApi.AudioClientStreamFlags.CrossProcess
+  - NAudio.CoreAudioApi.AudioClientStreamFlags.EventCallback
+  - NAudio.CoreAudioApi.AudioClientStreamFlags.Loopback
+  - NAudio.CoreAudioApi.AudioClientStreamFlags.NoPersist
+  - NAudio.CoreAudioApi.AudioClientStreamFlags.None
+  - NAudio.CoreAudioApi.AudioClientStreamFlags.RateAdjust
+  - NAudio.CoreAudioApi.AudioClientStreamFlags.SrcDefaultQuality
+  langs:
+  - csharp
+  - vb
+  name: AudioClientStreamFlags
+  nameWithType: AudioClientStreamFlags
+  fullName: NAudio.CoreAudioApi.AudioClientStreamFlags
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum AudioClientStreamFlags : uint
+    content.vb: >-
+      <Flags>
+
+      Public Enum AudioClientStreamFlags As UInteger
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.CoreAudioApi.AudioClientStreamFlags.None
+  commentId: F:NAudio.CoreAudioApi.AudioClientStreamFlags.None
+  id: None
+  parent: NAudio.CoreAudioApi.AudioClientStreamFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AudioClientStreamFlags.None
+  fullName: NAudio.CoreAudioApi.AudioClientStreamFlags.None
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: None = 0
+    return:
+      type: NAudio.CoreAudioApi.AudioClientStreamFlags
+- uid: NAudio.CoreAudioApi.AudioClientStreamFlags.CrossProcess
+  commentId: F:NAudio.CoreAudioApi.AudioClientStreamFlags.CrossProcess
+  id: CrossProcess
+  parent: NAudio.CoreAudioApi.AudioClientStreamFlags
+  langs:
+  - csharp
+  - vb
+  name: CrossProcess
+  nameWithType: AudioClientStreamFlags.CrossProcess
+  fullName: NAudio.CoreAudioApi.AudioClientStreamFlags.CrossProcess
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: CrossProcess = 65536
+    return:
+      type: NAudio.CoreAudioApi.AudioClientStreamFlags
+- uid: NAudio.CoreAudioApi.AudioClientStreamFlags.Loopback
+  commentId: F:NAudio.CoreAudioApi.AudioClientStreamFlags.Loopback
+  id: Loopback
+  parent: NAudio.CoreAudioApi.AudioClientStreamFlags
+  langs:
+  - csharp
+  - vb
+  name: Loopback
+  nameWithType: AudioClientStreamFlags.Loopback
+  fullName: NAudio.CoreAudioApi.AudioClientStreamFlags.Loopback
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Loopback = 131072
+    return:
+      type: NAudio.CoreAudioApi.AudioClientStreamFlags
+- uid: NAudio.CoreAudioApi.AudioClientStreamFlags.EventCallback
+  commentId: F:NAudio.CoreAudioApi.AudioClientStreamFlags.EventCallback
+  id: EventCallback
+  parent: NAudio.CoreAudioApi.AudioClientStreamFlags
+  langs:
+  - csharp
+  - vb
+  name: EventCallback
+  nameWithType: AudioClientStreamFlags.EventCallback
+  fullName: NAudio.CoreAudioApi.AudioClientStreamFlags.EventCallback
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: EventCallback = 262144
+    return:
+      type: NAudio.CoreAudioApi.AudioClientStreamFlags
+- uid: NAudio.CoreAudioApi.AudioClientStreamFlags.NoPersist
+  commentId: F:NAudio.CoreAudioApi.AudioClientStreamFlags.NoPersist
+  id: NoPersist
+  parent: NAudio.CoreAudioApi.AudioClientStreamFlags
+  langs:
+  - csharp
+  - vb
+  name: NoPersist
+  nameWithType: AudioClientStreamFlags.NoPersist
+  fullName: NAudio.CoreAudioApi.AudioClientStreamFlags.NoPersist
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: NoPersist = 524288
+    return:
+      type: NAudio.CoreAudioApi.AudioClientStreamFlags
+- uid: NAudio.CoreAudioApi.AudioClientStreamFlags.RateAdjust
+  commentId: F:NAudio.CoreAudioApi.AudioClientStreamFlags.RateAdjust
+  id: RateAdjust
+  parent: NAudio.CoreAudioApi.AudioClientStreamFlags
+  langs:
+  - csharp
+  - vb
+  name: RateAdjust
+  nameWithType: AudioClientStreamFlags.RateAdjust
+  fullName: NAudio.CoreAudioApi.AudioClientStreamFlags.RateAdjust
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: RateAdjust = 1048576
+    return:
+      type: NAudio.CoreAudioApi.AudioClientStreamFlags
+- uid: NAudio.CoreAudioApi.AudioClientStreamFlags.SrcDefaultQuality
+  commentId: F:NAudio.CoreAudioApi.AudioClientStreamFlags.SrcDefaultQuality
+  id: SrcDefaultQuality
+  parent: NAudio.CoreAudioApi.AudioClientStreamFlags
+  langs:
+  - csharp
+  - vb
+  name: SrcDefaultQuality
+  nameWithType: AudioClientStreamFlags.SrcDefaultQuality
+  fullName: NAudio.CoreAudioApi.AudioClientStreamFlags.SrcDefaultQuality
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: SrcDefaultQuality = 134217728
+    return:
+      type: NAudio.CoreAudioApi.AudioClientStreamFlags
+- uid: NAudio.CoreAudioApi.AudioClientStreamFlags.AutoConvertPcm
+  commentId: F:NAudio.CoreAudioApi.AudioClientStreamFlags.AutoConvertPcm
+  id: AutoConvertPcm
+  parent: NAudio.CoreAudioApi.AudioClientStreamFlags
+  langs:
+  - csharp
+  - vb
+  name: AutoConvertPcm
+  nameWithType: AudioClientStreamFlags.AutoConvertPcm
+  fullName: NAudio.CoreAudioApi.AudioClientStreamFlags.AutoConvertPcm
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: AutoConvertPcm = 2147483648
+    return:
+      type: NAudio.CoreAudioApi.AudioClientStreamFlags
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: NAudio.CoreAudioApi.AudioClientStreamFlags
+  commentId: T:NAudio.CoreAudioApi.AudioClientStreamFlags
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioClientStreamFlags.html
+  name: AudioClientStreamFlags
+  nameWithType: AudioClientStreamFlags
+  fullName: NAudio.CoreAudioApi.AudioClientStreamFlags

@@ -1,0 +1,506 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation.IMFSinkWriter
+  commentId: T:NAudio.MediaFoundation.IMFSinkWriter
+  id: IMFSinkWriter
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation.IMFSinkWriter.AddStream(NAudio.MediaFoundation.IMFMediaType,System.Int32@)
+  - NAudio.MediaFoundation.IMFSinkWriter.BeginWriting
+  - NAudio.MediaFoundation.IMFSinkWriter.DoFinalize
+  - NAudio.MediaFoundation.IMFSinkWriter.Flush(System.Int32)
+  - NAudio.MediaFoundation.IMFSinkWriter.GetServiceForStream(System.Int32,System.Guid@,System.Guid@,System.IntPtr@)
+  - NAudio.MediaFoundation.IMFSinkWriter.GetStatistics(System.Int32,NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS)
+  - NAudio.MediaFoundation.IMFSinkWriter.NotifyEndOfSegment(System.Int32)
+  - NAudio.MediaFoundation.IMFSinkWriter.PlaceMarker(System.Int32,System.IntPtr)
+  - NAudio.MediaFoundation.IMFSinkWriter.SendStreamTick(System.Int32,System.Int64)
+  - NAudio.MediaFoundation.IMFSinkWriter.SetInputMediaType(System.Int32,NAudio.MediaFoundation.IMFMediaType,NAudio.MediaFoundation.IMFAttributes)
+  - NAudio.MediaFoundation.IMFSinkWriter.WriteSample(System.Int32,NAudio.MediaFoundation.IMFSample)
+  langs:
+  - csharp
+  - vb
+  name: IMFSinkWriter
+  nameWithType: IMFSinkWriter
+  fullName: NAudio.MediaFoundation.IMFSinkWriter
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [Guid("3137f1cd-fe5e-4805-a5d8-fb477448cb3d")]
+
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      public interface IMFSinkWriter
+    content.vb: >-
+      <Guid("3137f1cd-fe5e-4805-a5d8-fb477448cb3d")>
+
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      Public Interface IMFSinkWriter
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 3137f1cd-fe5e-4805-a5d8-fb477448cb3d
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+- uid: NAudio.MediaFoundation.IMFSinkWriter.AddStream(NAudio.MediaFoundation.IMFMediaType,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFSinkWriter.AddStream(NAudio.MediaFoundation.IMFMediaType,System.Int32@)
+  id: AddStream(NAudio.MediaFoundation.IMFMediaType,System.Int32@)
+  parent: NAudio.MediaFoundation.IMFSinkWriter
+  langs:
+  - csharp
+  - vb
+  name: AddStream(IMFMediaType, out int)
+  nameWithType: IMFSinkWriter.AddStream(IMFMediaType, out int)
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.AddStream(NAudio.MediaFoundation.IMFMediaType, out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void AddStream(IMFMediaType pTargetMediaType, out int pdwStreamIndex)
+    parameters:
+    - id: pTargetMediaType
+      type: NAudio.MediaFoundation.IMFMediaType
+    - id: pdwStreamIndex
+      type: System.Int32
+    content.vb: Sub AddStream(pTargetMediaType As IMFMediaType, pdwStreamIndex As Integer)
+  overload: NAudio.MediaFoundation.IMFSinkWriter.AddStream*
+  nameWithType.vb: IMFSinkWriter.AddStream(IMFMediaType, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFSinkWriter.AddStream(NAudio.MediaFoundation.IMFMediaType, Integer)
+  name.vb: AddStream(IMFMediaType, Integer)
+- uid: NAudio.MediaFoundation.IMFSinkWriter.SetInputMediaType(System.Int32,NAudio.MediaFoundation.IMFMediaType,NAudio.MediaFoundation.IMFAttributes)
+  commentId: M:NAudio.MediaFoundation.IMFSinkWriter.SetInputMediaType(System.Int32,NAudio.MediaFoundation.IMFMediaType,NAudio.MediaFoundation.IMFAttributes)
+  id: SetInputMediaType(System.Int32,NAudio.MediaFoundation.IMFMediaType,NAudio.MediaFoundation.IMFAttributes)
+  parent: NAudio.MediaFoundation.IMFSinkWriter
+  langs:
+  - csharp
+  - vb
+  name: SetInputMediaType(int, IMFMediaType, IMFAttributes)
+  nameWithType: IMFSinkWriter.SetInputMediaType(int, IMFMediaType, IMFAttributes)
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.SetInputMediaType(int, NAudio.MediaFoundation.IMFMediaType, NAudio.MediaFoundation.IMFAttributes)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetInputMediaType(int dwStreamIndex, IMFMediaType pInputMediaType, IMFAttributes pEncodingParameters)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    - id: pInputMediaType
+      type: NAudio.MediaFoundation.IMFMediaType
+    - id: pEncodingParameters
+      type: NAudio.MediaFoundation.IMFAttributes
+    content.vb: Sub SetInputMediaType(dwStreamIndex As Integer, pInputMediaType As IMFMediaType, pEncodingParameters As IMFAttributes)
+  overload: NAudio.MediaFoundation.IMFSinkWriter.SetInputMediaType*
+  nameWithType.vb: IMFSinkWriter.SetInputMediaType(Integer, IMFMediaType, IMFAttributes)
+  fullName.vb: NAudio.MediaFoundation.IMFSinkWriter.SetInputMediaType(Integer, NAudio.MediaFoundation.IMFMediaType, NAudio.MediaFoundation.IMFAttributes)
+  name.vb: SetInputMediaType(Integer, IMFMediaType, IMFAttributes)
+- uid: NAudio.MediaFoundation.IMFSinkWriter.BeginWriting
+  commentId: M:NAudio.MediaFoundation.IMFSinkWriter.BeginWriting
+  id: BeginWriting
+  parent: NAudio.MediaFoundation.IMFSinkWriter
+  langs:
+  - csharp
+  - vb
+  name: BeginWriting()
+  nameWithType: IMFSinkWriter.BeginWriting()
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.BeginWriting()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void BeginWriting()
+    content.vb: Sub BeginWriting()
+  overload: NAudio.MediaFoundation.IMFSinkWriter.BeginWriting*
+- uid: NAudio.MediaFoundation.IMFSinkWriter.WriteSample(System.Int32,NAudio.MediaFoundation.IMFSample)
+  commentId: M:NAudio.MediaFoundation.IMFSinkWriter.WriteSample(System.Int32,NAudio.MediaFoundation.IMFSample)
+  id: WriteSample(System.Int32,NAudio.MediaFoundation.IMFSample)
+  parent: NAudio.MediaFoundation.IMFSinkWriter
+  langs:
+  - csharp
+  - vb
+  name: WriteSample(int, IMFSample)
+  nameWithType: IMFSinkWriter.WriteSample(int, IMFSample)
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.WriteSample(int, NAudio.MediaFoundation.IMFSample)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void WriteSample(int dwStreamIndex, IMFSample pSample)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    - id: pSample
+      type: NAudio.MediaFoundation.IMFSample
+    content.vb: Sub WriteSample(dwStreamIndex As Integer, pSample As IMFSample)
+  overload: NAudio.MediaFoundation.IMFSinkWriter.WriteSample*
+  nameWithType.vb: IMFSinkWriter.WriteSample(Integer, IMFSample)
+  fullName.vb: NAudio.MediaFoundation.IMFSinkWriter.WriteSample(Integer, NAudio.MediaFoundation.IMFSample)
+  name.vb: WriteSample(Integer, IMFSample)
+- uid: NAudio.MediaFoundation.IMFSinkWriter.SendStreamTick(System.Int32,System.Int64)
+  commentId: M:NAudio.MediaFoundation.IMFSinkWriter.SendStreamTick(System.Int32,System.Int64)
+  id: SendStreamTick(System.Int32,System.Int64)
+  parent: NAudio.MediaFoundation.IMFSinkWriter
+  langs:
+  - csharp
+  - vb
+  name: SendStreamTick(int, long)
+  nameWithType: IMFSinkWriter.SendStreamTick(int, long)
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.SendStreamTick(int, long)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SendStreamTick(int dwStreamIndex, long llTimestamp)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    - id: llTimestamp
+      type: System.Int64
+    content.vb: Sub SendStreamTick(dwStreamIndex As Integer, llTimestamp As Long)
+  overload: NAudio.MediaFoundation.IMFSinkWriter.SendStreamTick*
+  nameWithType.vb: IMFSinkWriter.SendStreamTick(Integer, Long)
+  fullName.vb: NAudio.MediaFoundation.IMFSinkWriter.SendStreamTick(Integer, Long)
+  name.vb: SendStreamTick(Integer, Long)
+- uid: NAudio.MediaFoundation.IMFSinkWriter.PlaceMarker(System.Int32,System.IntPtr)
+  commentId: M:NAudio.MediaFoundation.IMFSinkWriter.PlaceMarker(System.Int32,System.IntPtr)
+  id: PlaceMarker(System.Int32,System.IntPtr)
+  parent: NAudio.MediaFoundation.IMFSinkWriter
+  langs:
+  - csharp
+  - vb
+  name: PlaceMarker(int, IntPtr)
+  nameWithType: IMFSinkWriter.PlaceMarker(int, IntPtr)
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.PlaceMarker(int, System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void PlaceMarker(int dwStreamIndex, IntPtr pvContext)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    - id: pvContext
+      type: System.IntPtr
+    content.vb: Sub PlaceMarker(dwStreamIndex As Integer, pvContext As IntPtr)
+  overload: NAudio.MediaFoundation.IMFSinkWriter.PlaceMarker*
+  nameWithType.vb: IMFSinkWriter.PlaceMarker(Integer, IntPtr)
+  fullName.vb: NAudio.MediaFoundation.IMFSinkWriter.PlaceMarker(Integer, System.IntPtr)
+  name.vb: PlaceMarker(Integer, IntPtr)
+- uid: NAudio.MediaFoundation.IMFSinkWriter.NotifyEndOfSegment(System.Int32)
+  commentId: M:NAudio.MediaFoundation.IMFSinkWriter.NotifyEndOfSegment(System.Int32)
+  id: NotifyEndOfSegment(System.Int32)
+  parent: NAudio.MediaFoundation.IMFSinkWriter
+  langs:
+  - csharp
+  - vb
+  name: NotifyEndOfSegment(int)
+  nameWithType: IMFSinkWriter.NotifyEndOfSegment(int)
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.NotifyEndOfSegment(int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void NotifyEndOfSegment(int dwStreamIndex)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    content.vb: Sub NotifyEndOfSegment(dwStreamIndex As Integer)
+  overload: NAudio.MediaFoundation.IMFSinkWriter.NotifyEndOfSegment*
+  nameWithType.vb: IMFSinkWriter.NotifyEndOfSegment(Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFSinkWriter.NotifyEndOfSegment(Integer)
+  name.vb: NotifyEndOfSegment(Integer)
+- uid: NAudio.MediaFoundation.IMFSinkWriter.Flush(System.Int32)
+  commentId: M:NAudio.MediaFoundation.IMFSinkWriter.Flush(System.Int32)
+  id: Flush(System.Int32)
+  parent: NAudio.MediaFoundation.IMFSinkWriter
+  langs:
+  - csharp
+  - vb
+  name: Flush(int)
+  nameWithType: IMFSinkWriter.Flush(int)
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.Flush(int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void Flush(int dwStreamIndex)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    content.vb: Sub Flush(dwStreamIndex As Integer)
+  overload: NAudio.MediaFoundation.IMFSinkWriter.Flush*
+  nameWithType.vb: IMFSinkWriter.Flush(Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFSinkWriter.Flush(Integer)
+  name.vb: Flush(Integer)
+- uid: NAudio.MediaFoundation.IMFSinkWriter.DoFinalize
+  commentId: M:NAudio.MediaFoundation.IMFSinkWriter.DoFinalize
+  id: DoFinalize
+  parent: NAudio.MediaFoundation.IMFSinkWriter
+  langs:
+  - csharp
+  - vb
+  name: DoFinalize()
+  nameWithType: IMFSinkWriter.DoFinalize()
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.DoFinalize()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void DoFinalize()
+    content.vb: Sub DoFinalize()
+  overload: NAudio.MediaFoundation.IMFSinkWriter.DoFinalize*
+- uid: NAudio.MediaFoundation.IMFSinkWriter.GetServiceForStream(System.Int32,System.Guid@,System.Guid@,System.IntPtr@)
+  commentId: M:NAudio.MediaFoundation.IMFSinkWriter.GetServiceForStream(System.Int32,System.Guid@,System.Guid@,System.IntPtr@)
+  id: GetServiceForStream(System.Int32,System.Guid@,System.Guid@,System.IntPtr@)
+  parent: NAudio.MediaFoundation.IMFSinkWriter
+  langs:
+  - csharp
+  - vb
+  name: GetServiceForStream(int, ref Guid, ref Guid, out IntPtr)
+  nameWithType: IMFSinkWriter.GetServiceForStream(int, ref Guid, ref Guid, out IntPtr)
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.GetServiceForStream(int, ref System.Guid, ref System.Guid, out System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetServiceForStream(int dwStreamIndex, ref Guid guidService, ref Guid riid, out IntPtr ppvObject)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    - id: guidService
+      type: System.Guid
+    - id: riid
+      type: System.Guid
+    - id: ppvObject
+      type: System.IntPtr
+    content.vb: Sub GetServiceForStream(dwStreamIndex As Integer, guidService As Guid, riid As Guid, ppvObject As IntPtr)
+  overload: NAudio.MediaFoundation.IMFSinkWriter.GetServiceForStream*
+  nameWithType.vb: IMFSinkWriter.GetServiceForStream(Integer, Guid, Guid, IntPtr)
+  fullName.vb: NAudio.MediaFoundation.IMFSinkWriter.GetServiceForStream(Integer, System.Guid, System.Guid, System.IntPtr)
+  name.vb: GetServiceForStream(Integer, Guid, Guid, IntPtr)
+- uid: NAudio.MediaFoundation.IMFSinkWriter.GetStatistics(System.Int32,NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS)
+  commentId: M:NAudio.MediaFoundation.IMFSinkWriter.GetStatistics(System.Int32,NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS)
+  id: GetStatistics(System.Int32,NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS)
+  parent: NAudio.MediaFoundation.IMFSinkWriter
+  langs:
+  - csharp
+  - vb
+  name: GetStatistics(int, MF_SINK_WRITER_STATISTICS)
+  nameWithType: IMFSinkWriter.GetStatistics(int, MF_SINK_WRITER_STATISTICS)
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.GetStatistics(int, NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetStatistics(int dwStreamIndex, MF_SINK_WRITER_STATISTICS pStats)
+    parameters:
+    - id: dwStreamIndex
+      type: System.Int32
+    - id: pStats
+      type: NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS
+    content.vb: Sub GetStatistics(dwStreamIndex As Integer, pStats As MF_SINK_WRITER_STATISTICS)
+  overload: NAudio.MediaFoundation.IMFSinkWriter.GetStatistics*
+  nameWithType.vb: IMFSinkWriter.GetStatistics(Integer, MF_SINK_WRITER_STATISTICS)
+  fullName.vb: NAudio.MediaFoundation.IMFSinkWriter.GetStatistics(Integer, NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS)
+  name.vb: GetStatistics(Integer, MF_SINK_WRITER_STATISTICS)
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation.IMFSinkWriter.AddStream*
+  commentId: Overload:NAudio.MediaFoundation.IMFSinkWriter.AddStream
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSinkWriter.html#NAudio_MediaFoundation_IMFSinkWriter_AddStream_NAudio_MediaFoundation_IMFMediaType_System_Int32__
+  name: AddStream
+  nameWithType: IMFSinkWriter.AddStream
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.AddStream
+- uid: NAudio.MediaFoundation.IMFMediaType
+  commentId: T:NAudio.MediaFoundation.IMFMediaType
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaType.html
+  name: IMFMediaType
+  nameWithType: IMFMediaType
+  fullName: NAudio.MediaFoundation.IMFMediaType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.MediaFoundation.IMFSinkWriter.SetInputMediaType*
+  commentId: Overload:NAudio.MediaFoundation.IMFSinkWriter.SetInputMediaType
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSinkWriter.html#NAudio_MediaFoundation_IMFSinkWriter_SetInputMediaType_System_Int32_NAudio_MediaFoundation_IMFMediaType_NAudio_MediaFoundation_IMFAttributes_
+  name: SetInputMediaType
+  nameWithType: IMFSinkWriter.SetInputMediaType
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.SetInputMediaType
+- uid: NAudio.MediaFoundation.IMFAttributes
+  commentId: T:NAudio.MediaFoundation.IMFAttributes
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFAttributes.html
+  name: IMFAttributes
+  nameWithType: IMFAttributes
+  fullName: NAudio.MediaFoundation.IMFAttributes
+- uid: NAudio.MediaFoundation.IMFSinkWriter.BeginWriting*
+  commentId: Overload:NAudio.MediaFoundation.IMFSinkWriter.BeginWriting
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSinkWriter.html#NAudio_MediaFoundation_IMFSinkWriter_BeginWriting
+  name: BeginWriting
+  nameWithType: IMFSinkWriter.BeginWriting
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.BeginWriting
+- uid: NAudio.MediaFoundation.IMFSinkWriter.WriteSample*
+  commentId: Overload:NAudio.MediaFoundation.IMFSinkWriter.WriteSample
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSinkWriter.html#NAudio_MediaFoundation_IMFSinkWriter_WriteSample_System_Int32_NAudio_MediaFoundation_IMFSample_
+  name: WriteSample
+  nameWithType: IMFSinkWriter.WriteSample
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.WriteSample
+- uid: NAudio.MediaFoundation.IMFSample
+  commentId: T:NAudio.MediaFoundation.IMFSample
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSample.html
+  name: IMFSample
+  nameWithType: IMFSample
+  fullName: NAudio.MediaFoundation.IMFSample
+- uid: NAudio.MediaFoundation.IMFSinkWriter.SendStreamTick*
+  commentId: Overload:NAudio.MediaFoundation.IMFSinkWriter.SendStreamTick
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSinkWriter.html#NAudio_MediaFoundation_IMFSinkWriter_SendStreamTick_System_Int32_System_Int64_
+  name: SendStreamTick
+  nameWithType: IMFSinkWriter.SendStreamTick
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.SendStreamTick
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: NAudio.MediaFoundation.IMFSinkWriter.PlaceMarker*
+  commentId: Overload:NAudio.MediaFoundation.IMFSinkWriter.PlaceMarker
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSinkWriter.html#NAudio_MediaFoundation_IMFSinkWriter_PlaceMarker_System_Int32_System_IntPtr_
+  name: PlaceMarker
+  nameWithType: IMFSinkWriter.PlaceMarker
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.PlaceMarker
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: NAudio.MediaFoundation.IMFSinkWriter.NotifyEndOfSegment*
+  commentId: Overload:NAudio.MediaFoundation.IMFSinkWriter.NotifyEndOfSegment
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSinkWriter.html#NAudio_MediaFoundation_IMFSinkWriter_NotifyEndOfSegment_System_Int32_
+  name: NotifyEndOfSegment
+  nameWithType: IMFSinkWriter.NotifyEndOfSegment
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.NotifyEndOfSegment
+- uid: NAudio.MediaFoundation.IMFSinkWriter.Flush*
+  commentId: Overload:NAudio.MediaFoundation.IMFSinkWriter.Flush
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSinkWriter.html#NAudio_MediaFoundation_IMFSinkWriter_Flush_System_Int32_
+  name: Flush
+  nameWithType: IMFSinkWriter.Flush
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.Flush
+- uid: NAudio.MediaFoundation.IMFSinkWriter.DoFinalize*
+  commentId: Overload:NAudio.MediaFoundation.IMFSinkWriter.DoFinalize
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSinkWriter.html#NAudio_MediaFoundation_IMFSinkWriter_DoFinalize
+  name: DoFinalize
+  nameWithType: IMFSinkWriter.DoFinalize
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.DoFinalize
+- uid: NAudio.MediaFoundation.IMFSinkWriter.GetServiceForStream*
+  commentId: Overload:NAudio.MediaFoundation.IMFSinkWriter.GetServiceForStream
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSinkWriter.html#NAudio_MediaFoundation_IMFSinkWriter_GetServiceForStream_System_Int32_System_Guid__System_Guid__System_IntPtr__
+  name: GetServiceForStream
+  nameWithType: IMFSinkWriter.GetServiceForStream
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.GetServiceForStream
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: NAudio.MediaFoundation.IMFSinkWriter.GetStatistics*
+  commentId: Overload:NAudio.MediaFoundation.IMFSinkWriter.GetStatistics
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSinkWriter.html#NAudio_MediaFoundation_IMFSinkWriter_GetStatistics_System_Int32_NAudio_MediaFoundation_MF_SINK_WRITER_STATISTICS_
+  name: GetStatistics
+  nameWithType: IMFSinkWriter.GetStatistics
+  fullName: NAudio.MediaFoundation.IMFSinkWriter.GetStatistics
+- uid: NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS
+  commentId: T:NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS.html
+  name: MF_SINK_WRITER_STATISTICS
+  nameWithType: MF_SINK_WRITER_STATISTICS
+  fullName: NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS

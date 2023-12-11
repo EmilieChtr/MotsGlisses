@@ -1,0 +1,1739 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes
+  commentId: T:NAudio.MediaFoundation.MediaFoundationAttributes
+  id: MediaFoundationAttributes
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MFT_CODEC_MERIT_Attribute
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MFT_CONNECTED_STREAM_ATTRIBUTE
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MFT_CONNECTED_TO_HW_STREAM
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MFT_ENUM_HARDWARE_URL_Attribute
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MFT_ENUM_TRANSCODE_ONLY_ATTRIBUTE
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MFT_FIELDOFUSE_UNLOCK_Attribute
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MFT_FRIENDLY_NAME_Attribute
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MFT_HW_TIMESTAMP_WITH_QPC_Attribute
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MFT_INPUT_TYPES_Attributes
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MFT_OUTPUT_TYPES_Attributes
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MFT_PREFERRED_ENCODER_PROFILE
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MFT_PREFERRED_OUTPUTTYPE_Attribute
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MFT_PROCESS_LOCAL_Attribute
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MFT_TRANSFORM_CLSID_Attribute
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AAC_PAYLOAD_TYPE
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_ALL_SAMPLES_INDEPENDENT
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AM_FORMAT_TYPE
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_AVG_BYTES_PER_SECOND
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_BITS_PER_SAMPLE
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_BLOCK_ALIGNMENT
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_NUM_CHANNELS
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_PREFER_WAVEFORMATEX
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_SAMPLES_PER_SECOND
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AVG_BITRATE
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_COMPRESSED
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_FIXED_SIZE_SAMPLES
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_MAJOR_TYPE
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_SUBTYPE
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_USER_DATA
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_APP_CONTEXT
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_AUDIO_ENCODING_BITRATE
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_AUDIO_ISVARIABLEBITRATE
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_DURATION
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_LAST_MODIFIED_TIME
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_MIME_TYPE
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_PLAYBACK_BOUNDARY_TIME
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_PLAYBACK_ELEMENT_ID
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_PMPHOST_CONTEXT
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_PREFERRED_LANGUAGE
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_TOTAL_FILE_SIZE
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_VIDEO_ENCODING_BITRATE
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_READWRITE_ENABLE_HARDWARE_TRANSFORMS
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_SINK_WRITER_DISABLE_THROTTLING
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSCODE_CONTAINERTYPE
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSFORM_ASYNC
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSFORM_ASYNC_UNLOCK
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSFORM_CATEGORY_Attribute
+  - NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSFORM_FLAGS_Attribute
+  langs:
+  - csharp
+  - vb
+  name: MediaFoundationAttributes
+  nameWithType: MediaFoundationAttributes
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes
+  type: Class
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static class MediaFoundationAttributes
+    content.vb: Public Module MediaFoundationAttributes
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSFORM_ASYNC
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSFORM_ASYNC
+  id: MF_TRANSFORM_ASYNC
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_TRANSFORM_ASYNC
+  nameWithType: MediaFoundationAttributes.MF_TRANSFORM_ASYNC
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSFORM_ASYNC
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static readonly Guid MF_TRANSFORM_ASYNC
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MF_TRANSFORM_ASYNC As Guid
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSFORM_ASYNC_UNLOCK
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSFORM_ASYNC_UNLOCK
+  id: MF_TRANSFORM_ASYNC_UNLOCK
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_TRANSFORM_ASYNC_UNLOCK
+  nameWithType: MediaFoundationAttributes.MF_TRANSFORM_ASYNC_UNLOCK
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSFORM_ASYNC_UNLOCK
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static readonly Guid MF_TRANSFORM_ASYNC_UNLOCK
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MF_TRANSFORM_ASYNC_UNLOCK As Guid
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSFORM_FLAGS_Attribute
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSFORM_FLAGS_Attribute
+  id: MF_TRANSFORM_FLAGS_Attribute
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_TRANSFORM_FLAGS_Attribute
+  nameWithType: MediaFoundationAttributes.MF_TRANSFORM_FLAGS_Attribute
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSFORM_FLAGS_Attribute
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Transform Flags")]
+
+      public static readonly Guid MF_TRANSFORM_FLAGS_Attribute
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Transform Flags")>
+
+      Public Shared ReadOnly MF_TRANSFORM_FLAGS_Attribute As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Transform Flags
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSFORM_CATEGORY_Attribute
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSFORM_CATEGORY_Attribute
+  id: MF_TRANSFORM_CATEGORY_Attribute
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_TRANSFORM_CATEGORY_Attribute
+  nameWithType: MediaFoundationAttributes.MF_TRANSFORM_CATEGORY_Attribute
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSFORM_CATEGORY_Attribute
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Transform Category")]
+
+      public static readonly Guid MF_TRANSFORM_CATEGORY_Attribute
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Transform Category")>
+
+      Public Shared ReadOnly MF_TRANSFORM_CATEGORY_Attribute As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Transform Category
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_TRANSFORM_CLSID_Attribute
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MFT_TRANSFORM_CLSID_Attribute
+  id: MFT_TRANSFORM_CLSID_Attribute
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MFT_TRANSFORM_CLSID_Attribute
+  nameWithType: MediaFoundationAttributes.MFT_TRANSFORM_CLSID_Attribute
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_TRANSFORM_CLSID_Attribute
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Class identifier")]
+
+      public static readonly Guid MFT_TRANSFORM_CLSID_Attribute
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Class identifier")>
+
+      Public Shared ReadOnly MFT_TRANSFORM_CLSID_Attribute As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Class identifier
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSCODE_CONTAINERTYPE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSCODE_CONTAINERTYPE
+  id: MF_TRANSCODE_CONTAINERTYPE
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_TRANSCODE_CONTAINERTYPE
+  nameWithType: MediaFoundationAttributes.MF_TRANSCODE_CONTAINERTYPE
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_TRANSCODE_CONTAINERTYPE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Container type")]
+
+      public static readonly Guid MF_TRANSCODE_CONTAINERTYPE
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Container type")>
+
+      Public Shared ReadOnly MF_TRANSCODE_CONTAINERTYPE As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Container type
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_INPUT_TYPES_Attributes
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MFT_INPUT_TYPES_Attributes
+  id: MFT_INPUT_TYPES_Attributes
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MFT_INPUT_TYPES_Attributes
+  nameWithType: MediaFoundationAttributes.MFT_INPUT_TYPES_Attributes
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_INPUT_TYPES_Attributes
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Input Types")]
+
+      public static readonly Guid MFT_INPUT_TYPES_Attributes
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Input Types")>
+
+      Public Shared ReadOnly MFT_INPUT_TYPES_Attributes As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Input Types
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_OUTPUT_TYPES_Attributes
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MFT_OUTPUT_TYPES_Attributes
+  id: MFT_OUTPUT_TYPES_Attributes
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MFT_OUTPUT_TYPES_Attributes
+  nameWithType: MediaFoundationAttributes.MFT_OUTPUT_TYPES_Attributes
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_OUTPUT_TYPES_Attributes
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Output Types")]
+
+      public static readonly Guid MFT_OUTPUT_TYPES_Attributes
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Output Types")>
+
+      Public Shared ReadOnly MFT_OUTPUT_TYPES_Attributes As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Output Types
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_ENUM_HARDWARE_URL_Attribute
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MFT_ENUM_HARDWARE_URL_Attribute
+  id: MFT_ENUM_HARDWARE_URL_Attribute
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MFT_ENUM_HARDWARE_URL_Attribute
+  nameWithType: MediaFoundationAttributes.MFT_ENUM_HARDWARE_URL_Attribute
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_ENUM_HARDWARE_URL_Attribute
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static readonly Guid MFT_ENUM_HARDWARE_URL_Attribute
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MFT_ENUM_HARDWARE_URL_Attribute As Guid
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_FRIENDLY_NAME_Attribute
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MFT_FRIENDLY_NAME_Attribute
+  id: MFT_FRIENDLY_NAME_Attribute
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MFT_FRIENDLY_NAME_Attribute
+  nameWithType: MediaFoundationAttributes.MFT_FRIENDLY_NAME_Attribute
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_FRIENDLY_NAME_Attribute
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Name")]
+
+      public static readonly Guid MFT_FRIENDLY_NAME_Attribute
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Name")>
+
+      Public Shared ReadOnly MFT_FRIENDLY_NAME_Attribute As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Name
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_CONNECTED_STREAM_ATTRIBUTE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MFT_CONNECTED_STREAM_ATTRIBUTE
+  id: MFT_CONNECTED_STREAM_ATTRIBUTE
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MFT_CONNECTED_STREAM_ATTRIBUTE
+  nameWithType: MediaFoundationAttributes.MFT_CONNECTED_STREAM_ATTRIBUTE
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_CONNECTED_STREAM_ATTRIBUTE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static readonly Guid MFT_CONNECTED_STREAM_ATTRIBUTE
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MFT_CONNECTED_STREAM_ATTRIBUTE As Guid
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_CONNECTED_TO_HW_STREAM
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MFT_CONNECTED_TO_HW_STREAM
+  id: MFT_CONNECTED_TO_HW_STREAM
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MFT_CONNECTED_TO_HW_STREAM
+  nameWithType: MediaFoundationAttributes.MFT_CONNECTED_TO_HW_STREAM
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_CONNECTED_TO_HW_STREAM
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static readonly Guid MFT_CONNECTED_TO_HW_STREAM
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MFT_CONNECTED_TO_HW_STREAM As Guid
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_PREFERRED_OUTPUTTYPE_Attribute
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MFT_PREFERRED_OUTPUTTYPE_Attribute
+  id: MFT_PREFERRED_OUTPUTTYPE_Attribute
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MFT_PREFERRED_OUTPUTTYPE_Attribute
+  nameWithType: MediaFoundationAttributes.MFT_PREFERRED_OUTPUTTYPE_Attribute
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_PREFERRED_OUTPUTTYPE_Attribute
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Preferred Output Format")]
+
+      public static readonly Guid MFT_PREFERRED_OUTPUTTYPE_Attribute
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Preferred Output Format")>
+
+      Public Shared ReadOnly MFT_PREFERRED_OUTPUTTYPE_Attribute As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Preferred Output Format
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_PROCESS_LOCAL_Attribute
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MFT_PROCESS_LOCAL_Attribute
+  id: MFT_PROCESS_LOCAL_Attribute
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MFT_PROCESS_LOCAL_Attribute
+  nameWithType: MediaFoundationAttributes.MFT_PROCESS_LOCAL_Attribute
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_PROCESS_LOCAL_Attribute
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static readonly Guid MFT_PROCESS_LOCAL_Attribute
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MFT_PROCESS_LOCAL_Attribute As Guid
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_PREFERRED_ENCODER_PROFILE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MFT_PREFERRED_ENCODER_PROFILE
+  id: MFT_PREFERRED_ENCODER_PROFILE
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MFT_PREFERRED_ENCODER_PROFILE
+  nameWithType: MediaFoundationAttributes.MFT_PREFERRED_ENCODER_PROFILE
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_PREFERRED_ENCODER_PROFILE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static readonly Guid MFT_PREFERRED_ENCODER_PROFILE
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MFT_PREFERRED_ENCODER_PROFILE As Guid
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_HW_TIMESTAMP_WITH_QPC_Attribute
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MFT_HW_TIMESTAMP_WITH_QPC_Attribute
+  id: MFT_HW_TIMESTAMP_WITH_QPC_Attribute
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MFT_HW_TIMESTAMP_WITH_QPC_Attribute
+  nameWithType: MediaFoundationAttributes.MFT_HW_TIMESTAMP_WITH_QPC_Attribute
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_HW_TIMESTAMP_WITH_QPC_Attribute
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static readonly Guid MFT_HW_TIMESTAMP_WITH_QPC_Attribute
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MFT_HW_TIMESTAMP_WITH_QPC_Attribute As Guid
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_FIELDOFUSE_UNLOCK_Attribute
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MFT_FIELDOFUSE_UNLOCK_Attribute
+  id: MFT_FIELDOFUSE_UNLOCK_Attribute
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MFT_FIELDOFUSE_UNLOCK_Attribute
+  nameWithType: MediaFoundationAttributes.MFT_FIELDOFUSE_UNLOCK_Attribute
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_FIELDOFUSE_UNLOCK_Attribute
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static readonly Guid MFT_FIELDOFUSE_UNLOCK_Attribute
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MFT_FIELDOFUSE_UNLOCK_Attribute As Guid
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_CODEC_MERIT_Attribute
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MFT_CODEC_MERIT_Attribute
+  id: MFT_CODEC_MERIT_Attribute
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MFT_CODEC_MERIT_Attribute
+  nameWithType: MediaFoundationAttributes.MFT_CODEC_MERIT_Attribute
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_CODEC_MERIT_Attribute
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static readonly Guid MFT_CODEC_MERIT_Attribute
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MFT_CODEC_MERIT_Attribute As Guid
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_ENUM_TRANSCODE_ONLY_ATTRIBUTE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MFT_ENUM_TRANSCODE_ONLY_ATTRIBUTE
+  id: MFT_ENUM_TRANSCODE_ONLY_ATTRIBUTE
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MFT_ENUM_TRANSCODE_ONLY_ATTRIBUTE
+  nameWithType: MediaFoundationAttributes.MFT_ENUM_TRANSCODE_ONLY_ATTRIBUTE
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MFT_ENUM_TRANSCODE_ONLY_ATTRIBUTE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: public static readonly Guid MFT_ENUM_TRANSCODE_ONLY_ATTRIBUTE
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MFT_ENUM_TRANSCODE_ONLY_ATTRIBUTE As Guid
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_PMPHOST_CONTEXT
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_PMPHOST_CONTEXT
+  id: MF_PD_PMPHOST_CONTEXT
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_PD_PMPHOST_CONTEXT
+  nameWithType: MediaFoundationAttributes.MF_PD_PMPHOST_CONTEXT
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_PMPHOST_CONTEXT
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("PMP Host Context")]
+
+      public static readonly Guid MF_PD_PMPHOST_CONTEXT
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("PMP Host Context")>
+
+      Public Shared ReadOnly MF_PD_PMPHOST_CONTEXT As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PMP Host Context
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_APP_CONTEXT
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_APP_CONTEXT
+  id: MF_PD_APP_CONTEXT
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_PD_APP_CONTEXT
+  nameWithType: MediaFoundationAttributes.MF_PD_APP_CONTEXT
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_APP_CONTEXT
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("App Context")]
+
+      public static readonly Guid MF_PD_APP_CONTEXT
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("App Context")>
+
+      Public Shared ReadOnly MF_PD_APP_CONTEXT As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: App Context
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_DURATION
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_DURATION
+  id: MF_PD_DURATION
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_PD_DURATION
+  nameWithType: MediaFoundationAttributes.MF_PD_DURATION
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_DURATION
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Duration")]
+
+      public static readonly Guid MF_PD_DURATION
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Duration")>
+
+      Public Shared ReadOnly MF_PD_DURATION As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Duration
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_TOTAL_FILE_SIZE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_TOTAL_FILE_SIZE
+  id: MF_PD_TOTAL_FILE_SIZE
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_PD_TOTAL_FILE_SIZE
+  nameWithType: MediaFoundationAttributes.MF_PD_TOTAL_FILE_SIZE
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_TOTAL_FILE_SIZE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Total File Size")]
+
+      public static readonly Guid MF_PD_TOTAL_FILE_SIZE
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Total File Size")>
+
+      Public Shared ReadOnly MF_PD_TOTAL_FILE_SIZE As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Total File Size
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_AUDIO_ENCODING_BITRATE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_AUDIO_ENCODING_BITRATE
+  id: MF_PD_AUDIO_ENCODING_BITRATE
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_PD_AUDIO_ENCODING_BITRATE
+  nameWithType: MediaFoundationAttributes.MF_PD_AUDIO_ENCODING_BITRATE
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_AUDIO_ENCODING_BITRATE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Audio encoding bitrate")]
+
+      public static readonly Guid MF_PD_AUDIO_ENCODING_BITRATE
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Audio encoding bitrate")>
+
+      Public Shared ReadOnly MF_PD_AUDIO_ENCODING_BITRATE As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Audio encoding bitrate
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_VIDEO_ENCODING_BITRATE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_VIDEO_ENCODING_BITRATE
+  id: MF_PD_VIDEO_ENCODING_BITRATE
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_PD_VIDEO_ENCODING_BITRATE
+  nameWithType: MediaFoundationAttributes.MF_PD_VIDEO_ENCODING_BITRATE
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_VIDEO_ENCODING_BITRATE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Video Encoding Bitrate")]
+
+      public static readonly Guid MF_PD_VIDEO_ENCODING_BITRATE
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Video Encoding Bitrate")>
+
+      Public Shared ReadOnly MF_PD_VIDEO_ENCODING_BITRATE As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Video Encoding Bitrate
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_MIME_TYPE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_MIME_TYPE
+  id: MF_PD_MIME_TYPE
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_PD_MIME_TYPE
+  nameWithType: MediaFoundationAttributes.MF_PD_MIME_TYPE
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_MIME_TYPE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("MIME Type")]
+
+      public static readonly Guid MF_PD_MIME_TYPE
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("MIME Type")>
+
+      Public Shared ReadOnly MF_PD_MIME_TYPE As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: MIME Type
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_LAST_MODIFIED_TIME
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_LAST_MODIFIED_TIME
+  id: MF_PD_LAST_MODIFIED_TIME
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_PD_LAST_MODIFIED_TIME
+  nameWithType: MediaFoundationAttributes.MF_PD_LAST_MODIFIED_TIME
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_LAST_MODIFIED_TIME
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Last Modified Time")]
+
+      public static readonly Guid MF_PD_LAST_MODIFIED_TIME
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Last Modified Time")>
+
+      Public Shared ReadOnly MF_PD_LAST_MODIFIED_TIME As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Last Modified Time
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_PLAYBACK_ELEMENT_ID
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_PLAYBACK_ELEMENT_ID
+  id: MF_PD_PLAYBACK_ELEMENT_ID
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_PD_PLAYBACK_ELEMENT_ID
+  nameWithType: MediaFoundationAttributes.MF_PD_PLAYBACK_ELEMENT_ID
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_PLAYBACK_ELEMENT_ID
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Element ID")]
+
+      public static readonly Guid MF_PD_PLAYBACK_ELEMENT_ID
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Element ID")>
+
+      Public Shared ReadOnly MF_PD_PLAYBACK_ELEMENT_ID As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Element ID
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_PREFERRED_LANGUAGE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_PREFERRED_LANGUAGE
+  id: MF_PD_PREFERRED_LANGUAGE
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_PD_PREFERRED_LANGUAGE
+  nameWithType: MediaFoundationAttributes.MF_PD_PREFERRED_LANGUAGE
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_PREFERRED_LANGUAGE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Preferred Language")]
+
+      public static readonly Guid MF_PD_PREFERRED_LANGUAGE
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Preferred Language")>
+
+      Public Shared ReadOnly MF_PD_PREFERRED_LANGUAGE As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Preferred Language
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_PLAYBACK_BOUNDARY_TIME
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_PLAYBACK_BOUNDARY_TIME
+  id: MF_PD_PLAYBACK_BOUNDARY_TIME
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_PD_PLAYBACK_BOUNDARY_TIME
+  nameWithType: MediaFoundationAttributes.MF_PD_PLAYBACK_BOUNDARY_TIME
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_PLAYBACK_BOUNDARY_TIME
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Playback boundary time")]
+
+      public static readonly Guid MF_PD_PLAYBACK_BOUNDARY_TIME
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Playback boundary time")>
+
+      Public Shared ReadOnly MF_PD_PLAYBACK_BOUNDARY_TIME As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Playback boundary time
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_AUDIO_ISVARIABLEBITRATE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_AUDIO_ISVARIABLEBITRATE
+  id: MF_PD_AUDIO_ISVARIABLEBITRATE
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_PD_AUDIO_ISVARIABLEBITRATE
+  nameWithType: MediaFoundationAttributes.MF_PD_AUDIO_ISVARIABLEBITRATE
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_PD_AUDIO_ISVARIABLEBITRATE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Audio is variable bitrate")]
+
+      public static readonly Guid MF_PD_AUDIO_ISVARIABLEBITRATE
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Audio is variable bitrate")>
+
+      Public Shared ReadOnly MF_PD_AUDIO_ISVARIABLEBITRATE As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Audio is variable bitrate
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_MAJOR_TYPE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_MAJOR_TYPE
+  id: MF_MT_MAJOR_TYPE
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_MT_MAJOR_TYPE
+  nameWithType: MediaFoundationAttributes.MF_MT_MAJOR_TYPE
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_MAJOR_TYPE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Major Media Type")]
+
+      public static readonly Guid MF_MT_MAJOR_TYPE
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Major Media Type")>
+
+      Public Shared ReadOnly MF_MT_MAJOR_TYPE As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Major Media Type
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_SUBTYPE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_SUBTYPE
+  id: MF_MT_SUBTYPE
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_MT_SUBTYPE
+  nameWithType: MediaFoundationAttributes.MF_MT_SUBTYPE
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_SUBTYPE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Media Subtype")]
+
+      public static readonly Guid MF_MT_SUBTYPE
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Media Subtype")>
+
+      Public Shared ReadOnly MF_MT_SUBTYPE As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Media Subtype
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_BLOCK_ALIGNMENT
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_BLOCK_ALIGNMENT
+  id: MF_MT_AUDIO_BLOCK_ALIGNMENT
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_MT_AUDIO_BLOCK_ALIGNMENT
+  nameWithType: MediaFoundationAttributes.MF_MT_AUDIO_BLOCK_ALIGNMENT
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_BLOCK_ALIGNMENT
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Audio block alignment")]
+
+      public static readonly Guid MF_MT_AUDIO_BLOCK_ALIGNMENT
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Audio block alignment")>
+
+      Public Shared ReadOnly MF_MT_AUDIO_BLOCK_ALIGNMENT As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Audio block alignment
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_AVG_BYTES_PER_SECOND
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_AVG_BYTES_PER_SECOND
+  id: MF_MT_AUDIO_AVG_BYTES_PER_SECOND
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_MT_AUDIO_AVG_BYTES_PER_SECOND
+  nameWithType: MediaFoundationAttributes.MF_MT_AUDIO_AVG_BYTES_PER_SECOND
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_AVG_BYTES_PER_SECOND
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Audio average bytes per second")]
+
+      public static readonly Guid MF_MT_AUDIO_AVG_BYTES_PER_SECOND
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Audio average bytes per second")>
+
+      Public Shared ReadOnly MF_MT_AUDIO_AVG_BYTES_PER_SECOND As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Audio average bytes per second
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_NUM_CHANNELS
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_NUM_CHANNELS
+  id: MF_MT_AUDIO_NUM_CHANNELS
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_MT_AUDIO_NUM_CHANNELS
+  nameWithType: MediaFoundationAttributes.MF_MT_AUDIO_NUM_CHANNELS
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_NUM_CHANNELS
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Audio number of channels")]
+
+      public static readonly Guid MF_MT_AUDIO_NUM_CHANNELS
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Audio number of channels")>
+
+      Public Shared ReadOnly MF_MT_AUDIO_NUM_CHANNELS As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Audio number of channels
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_SAMPLES_PER_SECOND
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_SAMPLES_PER_SECOND
+  id: MF_MT_AUDIO_SAMPLES_PER_SECOND
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_MT_AUDIO_SAMPLES_PER_SECOND
+  nameWithType: MediaFoundationAttributes.MF_MT_AUDIO_SAMPLES_PER_SECOND
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_SAMPLES_PER_SECOND
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Audio samples per second")]
+
+      public static readonly Guid MF_MT_AUDIO_SAMPLES_PER_SECOND
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Audio samples per second")>
+
+      Public Shared ReadOnly MF_MT_AUDIO_SAMPLES_PER_SECOND As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Audio samples per second
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_BITS_PER_SAMPLE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_BITS_PER_SAMPLE
+  id: MF_MT_AUDIO_BITS_PER_SAMPLE
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_MT_AUDIO_BITS_PER_SAMPLE
+  nameWithType: MediaFoundationAttributes.MF_MT_AUDIO_BITS_PER_SAMPLE
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_BITS_PER_SAMPLE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Audio bits per sample")]
+
+      public static readonly Guid MF_MT_AUDIO_BITS_PER_SAMPLE
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Audio bits per sample")>
+
+      Public Shared ReadOnly MF_MT_AUDIO_BITS_PER_SAMPLE As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Audio bits per sample
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_READWRITE_ENABLE_HARDWARE_TRANSFORMS
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_READWRITE_ENABLE_HARDWARE_TRANSFORMS
+  id: MF_READWRITE_ENABLE_HARDWARE_TRANSFORMS
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_READWRITE_ENABLE_HARDWARE_TRANSFORMS
+  nameWithType: MediaFoundationAttributes.MF_READWRITE_ENABLE_HARDWARE_TRANSFORMS
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_READWRITE_ENABLE_HARDWARE_TRANSFORMS
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Enable Hardware Transforms")]
+
+      public static readonly Guid MF_READWRITE_ENABLE_HARDWARE_TRANSFORMS
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Enable Hardware Transforms")>
+
+      Public Shared ReadOnly MF_READWRITE_ENABLE_HARDWARE_TRANSFORMS As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Enable Hardware Transforms
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_SINK_WRITER_DISABLE_THROTTLING
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_SINK_WRITER_DISABLE_THROTTLING
+  id: MF_SINK_WRITER_DISABLE_THROTTLING
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_SINK_WRITER_DISABLE_THROTTLING
+  nameWithType: MediaFoundationAttributes.MF_SINK_WRITER_DISABLE_THROTTLING
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_SINK_WRITER_DISABLE_THROTTLING
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Disable Sink Writer Throttling")]
+
+      public static readonly Guid MF_SINK_WRITER_DISABLE_THROTTLING
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Disable Sink Writer Throttling")>
+
+      Public Shared ReadOnly MF_SINK_WRITER_DISABLE_THROTTLING As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Disable Sink Writer Throttling
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_USER_DATA
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_USER_DATA
+  id: MF_MT_USER_DATA
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_MT_USER_DATA
+  nameWithType: MediaFoundationAttributes.MF_MT_USER_DATA
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_USER_DATA
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("User data")]
+
+      public static readonly Guid MF_MT_USER_DATA
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("User data")>
+
+      Public Shared ReadOnly MF_MT_USER_DATA As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: User data
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_ALL_SAMPLES_INDEPENDENT
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_ALL_SAMPLES_INDEPENDENT
+  id: MF_MT_ALL_SAMPLES_INDEPENDENT
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_MT_ALL_SAMPLES_INDEPENDENT
+  nameWithType: MediaFoundationAttributes.MF_MT_ALL_SAMPLES_INDEPENDENT
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_ALL_SAMPLES_INDEPENDENT
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("All samples independent")]
+
+      public static readonly Guid MF_MT_ALL_SAMPLES_INDEPENDENT
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("All samples independent")>
+
+      Public Shared ReadOnly MF_MT_ALL_SAMPLES_INDEPENDENT As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: All samples independent
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_FIXED_SIZE_SAMPLES
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_FIXED_SIZE_SAMPLES
+  id: MF_MT_FIXED_SIZE_SAMPLES
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_MT_FIXED_SIZE_SAMPLES
+  nameWithType: MediaFoundationAttributes.MF_MT_FIXED_SIZE_SAMPLES
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_FIXED_SIZE_SAMPLES
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Fixed size samples")]
+
+      public static readonly Guid MF_MT_FIXED_SIZE_SAMPLES
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Fixed size samples")>
+
+      Public Shared ReadOnly MF_MT_FIXED_SIZE_SAMPLES As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Fixed size samples
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AM_FORMAT_TYPE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AM_FORMAT_TYPE
+  id: MF_MT_AM_FORMAT_TYPE
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_MT_AM_FORMAT_TYPE
+  nameWithType: MediaFoundationAttributes.MF_MT_AM_FORMAT_TYPE
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AM_FORMAT_TYPE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("DirectShow Format Guid")]
+
+      public static readonly Guid MF_MT_AM_FORMAT_TYPE
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("DirectShow Format Guid")>
+
+      Public Shared ReadOnly MF_MT_AM_FORMAT_TYPE As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DirectShow Format Guid
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_PREFER_WAVEFORMATEX
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_PREFER_WAVEFORMATEX
+  id: MF_MT_AUDIO_PREFER_WAVEFORMATEX
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_MT_AUDIO_PREFER_WAVEFORMATEX
+  nameWithType: MediaFoundationAttributes.MF_MT_AUDIO_PREFER_WAVEFORMATEX
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AUDIO_PREFER_WAVEFORMATEX
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Preferred legacy format structure")]
+
+      public static readonly Guid MF_MT_AUDIO_PREFER_WAVEFORMATEX
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Preferred legacy format structure")>
+
+      Public Shared ReadOnly MF_MT_AUDIO_PREFER_WAVEFORMATEX As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Preferred legacy format structure
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_COMPRESSED
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_COMPRESSED
+  id: MF_MT_COMPRESSED
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_MT_COMPRESSED
+  nameWithType: MediaFoundationAttributes.MF_MT_COMPRESSED
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_COMPRESSED
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Is Compressed")]
+
+      public static readonly Guid MF_MT_COMPRESSED
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Is Compressed")>
+
+      Public Shared ReadOnly MF_MT_COMPRESSED As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Is Compressed
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AVG_BITRATE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AVG_BITRATE
+  id: MF_MT_AVG_BITRATE
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_MT_AVG_BITRATE
+  nameWithType: MediaFoundationAttributes.MF_MT_AVG_BITRATE
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AVG_BITRATE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("Average bitrate")]
+
+      public static readonly Guid MF_MT_AVG_BITRATE
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("Average bitrate")>
+
+      Public Shared ReadOnly MF_MT_AVG_BITRATE As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Average bitrate
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AAC_PAYLOAD_TYPE
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AAC_PAYLOAD_TYPE
+  id: MF_MT_AAC_PAYLOAD_TYPE
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_MT_AAC_PAYLOAD_TYPE
+  nameWithType: MediaFoundationAttributes.MF_MT_AAC_PAYLOAD_TYPE
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AAC_PAYLOAD_TYPE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("AAC payload type")]
+
+      public static readonly Guid MF_MT_AAC_PAYLOAD_TYPE
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("AAC payload type")>
+
+      Public Shared ReadOnly MF_MT_AAC_PAYLOAD_TYPE As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: AAC payload type
+- uid: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION
+  commentId: F:NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION
+  id: MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION
+  parent: NAudio.MediaFoundation.MediaFoundationAttributes
+  langs:
+  - csharp
+  - vb
+  name: MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION
+  nameWithType: MediaFoundationAttributes.MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION
+  fullName: NAudio.MediaFoundation.MediaFoundationAttributes.MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [FieldDescription("AAC Audio Profile Level Indication")]
+
+      public static readonly Guid MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION
+    return:
+      type: System.Guid
+    content.vb: >-
+      <FieldDescription("AAC Audio Profile Level Indication")>
+
+      Public Shared ReadOnly MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION As Guid
+  attributes:
+  - type: NAudio.Utils.FieldDescriptionAttribute
+    ctor: NAudio.Utils.FieldDescriptionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: AAC Audio Profile Level Indication
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid

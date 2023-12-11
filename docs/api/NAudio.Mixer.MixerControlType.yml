@@ -1,0 +1,626 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Mixer.MixerControlType
+  commentId: T:NAudio.Mixer.MixerControlType
+  id: MixerControlType
+  parent: NAudio.Mixer
+  children:
+  - NAudio.Mixer.MixerControlType.Bass
+  - NAudio.Mixer.MixerControlType.Boolean
+  - NAudio.Mixer.MixerControlType.BooleanMeter
+  - NAudio.Mixer.MixerControlType.Button
+  - NAudio.Mixer.MixerControlType.Custom
+  - NAudio.Mixer.MixerControlType.Decibels
+  - NAudio.Mixer.MixerControlType.Equalizer
+  - NAudio.Mixer.MixerControlType.Fader
+  - NAudio.Mixer.MixerControlType.Loudness
+  - NAudio.Mixer.MixerControlType.MicroTime
+  - NAudio.Mixer.MixerControlType.MilliTime
+  - NAudio.Mixer.MixerControlType.Mixer
+  - NAudio.Mixer.MixerControlType.Mono
+  - NAudio.Mixer.MixerControlType.MultipleSelect
+  - NAudio.Mixer.MixerControlType.Mute
+  - NAudio.Mixer.MixerControlType.Mux
+  - NAudio.Mixer.MixerControlType.OnOff
+  - NAudio.Mixer.MixerControlType.Pan
+  - NAudio.Mixer.MixerControlType.PeakMeter
+  - NAudio.Mixer.MixerControlType.Percent
+  - NAudio.Mixer.MixerControlType.QSoundPan
+  - NAudio.Mixer.MixerControlType.Signed
+  - NAudio.Mixer.MixerControlType.SignedMeter
+  - NAudio.Mixer.MixerControlType.SingleSelect
+  - NAudio.Mixer.MixerControlType.Slider
+  - NAudio.Mixer.MixerControlType.StereoEnhance
+  - NAudio.Mixer.MixerControlType.Treble
+  - NAudio.Mixer.MixerControlType.Unsigned
+  - NAudio.Mixer.MixerControlType.UnsignedMeter
+  - NAudio.Mixer.MixerControlType.Volume
+  langs:
+  - csharp
+  - vb
+  name: MixerControlType
+  nameWithType: MixerControlType
+  fullName: NAudio.Mixer.MixerControlType
+  type: Enum
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: public enum MixerControlType
+    content.vb: Public Enum MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Custom
+  commentId: F:NAudio.Mixer.MixerControlType.Custom
+  id: Custom
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: MixerControlType.Custom
+  fullName: NAudio.Mixer.MixerControlType.Custom
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Custom = 0
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.BooleanMeter
+  commentId: F:NAudio.Mixer.MixerControlType.BooleanMeter
+  id: BooleanMeter
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: BooleanMeter
+  nameWithType: MixerControlType.BooleanMeter
+  fullName: NAudio.Mixer.MixerControlType.BooleanMeter
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: BooleanMeter = 268500992
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.SignedMeter
+  commentId: F:NAudio.Mixer.MixerControlType.SignedMeter
+  id: SignedMeter
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: SignedMeter
+  nameWithType: MixerControlType.SignedMeter
+  fullName: NAudio.Mixer.MixerControlType.SignedMeter
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: SignedMeter = 268566528
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.PeakMeter
+  commentId: F:NAudio.Mixer.MixerControlType.PeakMeter
+  id: PeakMeter
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: PeakMeter
+  nameWithType: MixerControlType.PeakMeter
+  fullName: NAudio.Mixer.MixerControlType.PeakMeter
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: PeakMeter = 268566529
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.UnsignedMeter
+  commentId: F:NAudio.Mixer.MixerControlType.UnsignedMeter
+  id: UnsignedMeter
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: UnsignedMeter
+  nameWithType: MixerControlType.UnsignedMeter
+  fullName: NAudio.Mixer.MixerControlType.UnsignedMeter
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: UnsignedMeter = 268632064
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Boolean
+  commentId: F:NAudio.Mixer.MixerControlType.Boolean
+  id: Boolean
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Boolean
+  nameWithType: MixerControlType.Boolean
+  fullName: NAudio.Mixer.MixerControlType.Boolean
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Boolean = 536936448
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.OnOff
+  commentId: F:NAudio.Mixer.MixerControlType.OnOff
+  id: OnOff
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: OnOff
+  nameWithType: MixerControlType.OnOff
+  fullName: NAudio.Mixer.MixerControlType.OnOff
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: OnOff = 536936449
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Mute
+  commentId: F:NAudio.Mixer.MixerControlType.Mute
+  id: Mute
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Mute
+  nameWithType: MixerControlType.Mute
+  fullName: NAudio.Mixer.MixerControlType.Mute
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Mute = 536936450
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Mono
+  commentId: F:NAudio.Mixer.MixerControlType.Mono
+  id: Mono
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Mono
+  nameWithType: MixerControlType.Mono
+  fullName: NAudio.Mixer.MixerControlType.Mono
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Mono = 536936451
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Loudness
+  commentId: F:NAudio.Mixer.MixerControlType.Loudness
+  id: Loudness
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Loudness
+  nameWithType: MixerControlType.Loudness
+  fullName: NAudio.Mixer.MixerControlType.Loudness
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Loudness = 536936452
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.StereoEnhance
+  commentId: F:NAudio.Mixer.MixerControlType.StereoEnhance
+  id: StereoEnhance
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: StereoEnhance
+  nameWithType: MixerControlType.StereoEnhance
+  fullName: NAudio.Mixer.MixerControlType.StereoEnhance
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: StereoEnhance = 536936453
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Button
+  commentId: F:NAudio.Mixer.MixerControlType.Button
+  id: Button
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Button
+  nameWithType: MixerControlType.Button
+  fullName: NAudio.Mixer.MixerControlType.Button
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Button = 553713664
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Decibels
+  commentId: F:NAudio.Mixer.MixerControlType.Decibels
+  id: Decibels
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Decibels
+  nameWithType: MixerControlType.Decibels
+  fullName: NAudio.Mixer.MixerControlType.Decibels
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Decibels = 805568512
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Signed
+  commentId: F:NAudio.Mixer.MixerControlType.Signed
+  id: Signed
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Signed
+  nameWithType: MixerControlType.Signed
+  fullName: NAudio.Mixer.MixerControlType.Signed
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Signed = 805437440
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Unsigned
+  commentId: F:NAudio.Mixer.MixerControlType.Unsigned
+  id: Unsigned
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Unsigned
+  nameWithType: MixerControlType.Unsigned
+  fullName: NAudio.Mixer.MixerControlType.Unsigned
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Unsigned = 805502976
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Percent
+  commentId: F:NAudio.Mixer.MixerControlType.Percent
+  id: Percent
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Percent
+  nameWithType: MixerControlType.Percent
+  fullName: NAudio.Mixer.MixerControlType.Percent
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Percent = 805634048
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Slider
+  commentId: F:NAudio.Mixer.MixerControlType.Slider
+  id: Slider
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Slider
+  nameWithType: MixerControlType.Slider
+  fullName: NAudio.Mixer.MixerControlType.Slider
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Slider = 1073872896
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Pan
+  commentId: F:NAudio.Mixer.MixerControlType.Pan
+  id: Pan
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Pan
+  nameWithType: MixerControlType.Pan
+  fullName: NAudio.Mixer.MixerControlType.Pan
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Pan = 1073872897
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.QSoundPan
+  commentId: F:NAudio.Mixer.MixerControlType.QSoundPan
+  id: QSoundPan
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: QSoundPan
+  nameWithType: MixerControlType.QSoundPan
+  fullName: NAudio.Mixer.MixerControlType.QSoundPan
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: QSoundPan = 1073872898
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Fader
+  commentId: F:NAudio.Mixer.MixerControlType.Fader
+  id: Fader
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Fader
+  nameWithType: MixerControlType.Fader
+  fullName: NAudio.Mixer.MixerControlType.Fader
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Fader = 1342373888
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Volume
+  commentId: F:NAudio.Mixer.MixerControlType.Volume
+  id: Volume
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: MixerControlType.Volume
+  fullName: NAudio.Mixer.MixerControlType.Volume
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Volume = 1342373889
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Bass
+  commentId: F:NAudio.Mixer.MixerControlType.Bass
+  id: Bass
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Bass
+  nameWithType: MixerControlType.Bass
+  fullName: NAudio.Mixer.MixerControlType.Bass
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Bass = 1342373890
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Treble
+  commentId: F:NAudio.Mixer.MixerControlType.Treble
+  id: Treble
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Treble
+  nameWithType: MixerControlType.Treble
+  fullName: NAudio.Mixer.MixerControlType.Treble
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Treble = 1342373891
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Equalizer
+  commentId: F:NAudio.Mixer.MixerControlType.Equalizer
+  id: Equalizer
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Equalizer
+  nameWithType: MixerControlType.Equalizer
+  fullName: NAudio.Mixer.MixerControlType.Equalizer
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Equalizer = 1342373892
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.SingleSelect
+  commentId: F:NAudio.Mixer.MixerControlType.SingleSelect
+  id: SingleSelect
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: SingleSelect
+  nameWithType: MixerControlType.SingleSelect
+  fullName: NAudio.Mixer.MixerControlType.SingleSelect
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: SingleSelect = 1879113728
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Mux
+  commentId: F:NAudio.Mixer.MixerControlType.Mux
+  id: Mux
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Mux
+  nameWithType: MixerControlType.Mux
+  fullName: NAudio.Mixer.MixerControlType.Mux
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Mux = 1879113729
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.MultipleSelect
+  commentId: F:NAudio.Mixer.MixerControlType.MultipleSelect
+  id: MultipleSelect
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: MultipleSelect
+  nameWithType: MixerControlType.MultipleSelect
+  fullName: NAudio.Mixer.MixerControlType.MultipleSelect
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: MultipleSelect = 1895890944
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.Mixer
+  commentId: F:NAudio.Mixer.MixerControlType.Mixer
+  id: Mixer
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: Mixer
+  nameWithType: MixerControlType.Mixer
+  fullName: NAudio.Mixer.MixerControlType.Mixer
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: Mixer = 1895890945
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.MicroTime
+  commentId: F:NAudio.Mixer.MixerControlType.MicroTime
+  id: MicroTime
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: MicroTime
+  nameWithType: MixerControlType.MicroTime
+  fullName: NAudio.Mixer.MixerControlType.MicroTime
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: MicroTime = 1610809344
+    return:
+      type: NAudio.Mixer.MixerControlType
+- uid: NAudio.Mixer.MixerControlType.MilliTime
+  commentId: F:NAudio.Mixer.MixerControlType.MilliTime
+  id: MilliTime
+  parent: NAudio.Mixer.MixerControlType
+  langs:
+  - csharp
+  - vb
+  name: MilliTime
+  nameWithType: MixerControlType.MilliTime
+  fullName: NAudio.Mixer.MixerControlType.MilliTime
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: MilliTime = 1627586560
+    return:
+      type: NAudio.Mixer.MixerControlType
+references:
+- uid: NAudio.Mixer
+  commentId: N:NAudio.Mixer
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Mixer
+  nameWithType: NAudio.Mixer
+  fullName: NAudio.Mixer
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Mixer
+    name: Mixer
+    isExternal: true
+    href: NAudio.Mixer.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Mixer
+    name: Mixer
+    isExternal: true
+    href: NAudio.Mixer.html
+- uid: NAudio.Mixer.MixerControlType
+  commentId: T:NAudio.Mixer.MixerControlType
+  parent: NAudio.Mixer
+  isExternal: true
+  href: NAudio.Mixer.MixerControlType.html
+  name: MixerControlType
+  nameWithType: MixerControlType
+  fullName: NAudio.Mixer.MixerControlType

@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.WaveCallbackStrategy
+  commentId: T:NAudio.Wave.WaveCallbackStrategy
+  id: WaveCallbackStrategy
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.WaveCallbackStrategy.Event
+  - NAudio.Wave.WaveCallbackStrategy.ExistingWindow
+  - NAudio.Wave.WaveCallbackStrategy.FunctionCallback
+  - NAudio.Wave.WaveCallbackStrategy.NewWindow
+  langs:
+  - csharp
+  - vb
+  name: WaveCallbackStrategy
+  nameWithType: WaveCallbackStrategy
+  fullName: NAudio.Wave.WaveCallbackStrategy
+  type: Enum
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public enum WaveCallbackStrategy
+    content.vb: Public Enum WaveCallbackStrategy
+- uid: NAudio.Wave.WaveCallbackStrategy.FunctionCallback
+  commentId: F:NAudio.Wave.WaveCallbackStrategy.FunctionCallback
+  id: FunctionCallback
+  parent: NAudio.Wave.WaveCallbackStrategy
+  langs:
+  - csharp
+  - vb
+  name: FunctionCallback
+  nameWithType: WaveCallbackStrategy.FunctionCallback
+  fullName: NAudio.Wave.WaveCallbackStrategy.FunctionCallback
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: FunctionCallback = 0
+    return:
+      type: NAudio.Wave.WaveCallbackStrategy
+- uid: NAudio.Wave.WaveCallbackStrategy.NewWindow
+  commentId: F:NAudio.Wave.WaveCallbackStrategy.NewWindow
+  id: NewWindow
+  parent: NAudio.Wave.WaveCallbackStrategy
+  langs:
+  - csharp
+  - vb
+  name: NewWindow
+  nameWithType: WaveCallbackStrategy.NewWindow
+  fullName: NAudio.Wave.WaveCallbackStrategy.NewWindow
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: NewWindow = 1
+    return:
+      type: NAudio.Wave.WaveCallbackStrategy
+- uid: NAudio.Wave.WaveCallbackStrategy.ExistingWindow
+  commentId: F:NAudio.Wave.WaveCallbackStrategy.ExistingWindow
+  id: ExistingWindow
+  parent: NAudio.Wave.WaveCallbackStrategy
+  langs:
+  - csharp
+  - vb
+  name: ExistingWindow
+  nameWithType: WaveCallbackStrategy.ExistingWindow
+  fullName: NAudio.Wave.WaveCallbackStrategy.ExistingWindow
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: ExistingWindow = 2
+    return:
+      type: NAudio.Wave.WaveCallbackStrategy
+- uid: NAudio.Wave.WaveCallbackStrategy.Event
+  commentId: F:NAudio.Wave.WaveCallbackStrategy.Event
+  id: Event
+  parent: NAudio.Wave.WaveCallbackStrategy
+  langs:
+  - csharp
+  - vb
+  name: Event
+  nameWithType: WaveCallbackStrategy.Event
+  fullName: NAudio.Wave.WaveCallbackStrategy.Event
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: Event = 3
+    return:
+      type: NAudio.Wave.WaveCallbackStrategy
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Wave.WaveCallbackStrategy
+  commentId: T:NAudio.Wave.WaveCallbackStrategy
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveCallbackStrategy.html
+  name: WaveCallbackStrategy
+  nameWithType: WaveCallbackStrategy
+  fullName: NAudio.Wave.WaveCallbackStrategy

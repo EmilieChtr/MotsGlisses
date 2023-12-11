@@ -1,0 +1,636 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IMFByteStream
+ | MotsGliss&#233;s </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IMFByteStream
+ | MotsGliss&#233;s ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="MotsGliss&#233;s">
+            MotsGliss&#233;s
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NAudio.MediaFoundation.IMFByteStream">
+
+
+
+  <h1 id="NAudio_MediaFoundation_IMFByteStream" data-uid="NAudio.MediaFoundation.IMFByteStream" class="text-break">
+    Interface IMFByteStream
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NAudio.html">NAudio</a>.<a class="xref" href="NAudio.MediaFoundation.html">MediaFoundation</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NAudio.Wasapi.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+[Guid(&quot;ad4c1b00-4bf7-422f-9175-756693d9130d&quot;)]
+public interface IMFByteStream</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NAudio_MediaFoundation_IMFByteStream_BeginRead_" data-uid="NAudio.MediaFoundation.IMFByteStream.BeginRead*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFByteStream_BeginRead_System_IntPtr_System_Int32_System_IntPtr_System_IntPtr_" data-uid="NAudio.MediaFoundation.IMFByteStream.BeginRead(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)">
+  BeginRead(IntPtr, int, IntPtr, IntPtr)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void BeginRead(IntPtr pb, int cb, IntPtr pCallback, IntPtr punkState)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pb</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+    <dt><code>cb</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pCallback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+    <dt><code>punkState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFByteStream_BeginWrite_" data-uid="NAudio.MediaFoundation.IMFByteStream.BeginWrite*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFByteStream_BeginWrite_System_IntPtr_System_Int32_System_IntPtr_System_IntPtr_" data-uid="NAudio.MediaFoundation.IMFByteStream.BeginWrite(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)">
+  BeginWrite(IntPtr, int, IntPtr, IntPtr)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void BeginWrite(IntPtr pb, int cb, IntPtr pCallback, IntPtr punkState)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pb</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+    <dt><code>cb</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pCallback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+    <dt><code>punkState</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFByteStream_Close_" data-uid="NAudio.MediaFoundation.IMFByteStream.Close*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFByteStream_Close" data-uid="NAudio.MediaFoundation.IMFByteStream.Close">
+  Close()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Close()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFByteStream_EndRead_" data-uid="NAudio.MediaFoundation.IMFByteStream.EndRead*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFByteStream_EndRead_System_IntPtr_System_Int32__" data-uid="NAudio.MediaFoundation.IMFByteStream.EndRead(System.IntPtr,System.Int32@)">
+  EndRead(IntPtr, ref int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void EndRead(IntPtr pResult, ref int pcbRead)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pResult</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+    <dt><code>pcbRead</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFByteStream_EndWrite_" data-uid="NAudio.MediaFoundation.IMFByteStream.EndWrite*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFByteStream_EndWrite_System_IntPtr_System_Int32__" data-uid="NAudio.MediaFoundation.IMFByteStream.EndWrite(System.IntPtr,System.Int32@)">
+  EndWrite(IntPtr, ref int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void EndWrite(IntPtr pResult, ref int pcbWritten)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pResult</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+    <dt><code>pcbWritten</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFByteStream_Flush_" data-uid="NAudio.MediaFoundation.IMFByteStream.Flush*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFByteStream_Flush" data-uid="NAudio.MediaFoundation.IMFByteStream.Flush">
+  Flush()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Flush()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFByteStream_GetCapabilities_" data-uid="NAudio.MediaFoundation.IMFByteStream.GetCapabilities*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFByteStream_GetCapabilities_System_Int32__" data-uid="NAudio.MediaFoundation.IMFByteStream.GetCapabilities(System.Int32@)">
+  GetCapabilities(ref int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetCapabilities(ref int pdwCapabiities)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pdwCapabiities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFByteStream_GetCurrentPosition_" data-uid="NAudio.MediaFoundation.IMFByteStream.GetCurrentPosition*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFByteStream_GetCurrentPosition_System_Int64__" data-uid="NAudio.MediaFoundation.IMFByteStream.GetCurrentPosition(System.Int64@)">
+  GetCurrentPosition(ref long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetCurrentPosition(ref long pqwPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pqwPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFByteStream_GetLength_" data-uid="NAudio.MediaFoundation.IMFByteStream.GetLength*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFByteStream_GetLength_System_Int64__" data-uid="NAudio.MediaFoundation.IMFByteStream.GetLength(System.Int64@)">
+  GetLength(ref long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetLength(ref long pqwLength)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pqwLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFByteStream_IsEndOfStream_" data-uid="NAudio.MediaFoundation.IMFByteStream.IsEndOfStream*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFByteStream_IsEndOfStream_System_Boolean__" data-uid="NAudio.MediaFoundation.IMFByteStream.IsEndOfStream(System.Boolean@)">
+  IsEndOfStream(ref bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IsEndOfStream(ref bool pfEndOfStream)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pfEndOfStream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFByteStream_Read_" data-uid="NAudio.MediaFoundation.IMFByteStream.Read*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFByteStream_Read_System_IntPtr_System_Int32_System_Int32__" data-uid="NAudio.MediaFoundation.IMFByteStream.Read(System.IntPtr,System.Int32,System.Int32@)">
+  Read(IntPtr, int, ref int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Read(IntPtr pb, int cb, ref int pcbRead)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pb</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+    <dt><code>cb</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pcbRead</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFByteStream_Seek_" data-uid="NAudio.MediaFoundation.IMFByteStream.Seek*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFByteStream_Seek_System_Int32_System_Int64_System_Int32_System_Int64__" data-uid="NAudio.MediaFoundation.IMFByteStream.Seek(System.Int32,System.Int64,System.Int32,System.Int64@)">
+  Seek(int, long, int, ref long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Seek(int SeekOrigin, long llSeekOffset, int dwSeekFlags, ref long pqwCurrentPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>SeekOrigin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>llSeekOffset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>dwSeekFlags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pqwCurrentPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFByteStream_SetCurrentPosition_" data-uid="NAudio.MediaFoundation.IMFByteStream.SetCurrentPosition*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFByteStream_SetCurrentPosition_System_Int64_" data-uid="NAudio.MediaFoundation.IMFByteStream.SetCurrentPosition(System.Int64)">
+  SetCurrentPosition(long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetCurrentPosition(long qwPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>qwPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFByteStream_SetLength_" data-uid="NAudio.MediaFoundation.IMFByteStream.SetLength*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFByteStream_SetLength_System_Int64_" data-uid="NAudio.MediaFoundation.IMFByteStream.SetLength(System.Int64)">
+  SetLength(long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetLength(long qwLength)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>qwLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFByteStream_Write_" data-uid="NAudio.MediaFoundation.IMFByteStream.Write*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFByteStream_Write_System_IntPtr_System_Int32_System_Int32__" data-uid="NAudio.MediaFoundation.IMFByteStream.Write(System.IntPtr,System.Int32,System.Int32@)">
+  Write(IntPtr, int, ref int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Write(IntPtr pb, int cb, ref int pcbWritten)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pb</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+    <dt><code>cb</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pcbWritten</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

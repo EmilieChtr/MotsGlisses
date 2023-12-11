@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.PlaybackState
+  commentId: T:NAudio.Wave.PlaybackState
+  id: PlaybackState
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.PlaybackState.Paused
+  - NAudio.Wave.PlaybackState.Playing
+  - NAudio.Wave.PlaybackState.Stopped
+  langs:
+  - csharp
+  - vb
+  name: PlaybackState
+  nameWithType: PlaybackState
+  fullName: NAudio.Wave.PlaybackState
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public enum PlaybackState
+    content.vb: Public Enum PlaybackState
+- uid: NAudio.Wave.PlaybackState.Stopped
+  commentId: F:NAudio.Wave.PlaybackState.Stopped
+  id: Stopped
+  parent: NAudio.Wave.PlaybackState
+  langs:
+  - csharp
+  - vb
+  name: Stopped
+  nameWithType: PlaybackState.Stopped
+  fullName: NAudio.Wave.PlaybackState.Stopped
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: Stopped = 0
+    return:
+      type: NAudio.Wave.PlaybackState
+- uid: NAudio.Wave.PlaybackState.Playing
+  commentId: F:NAudio.Wave.PlaybackState.Playing
+  id: Playing
+  parent: NAudio.Wave.PlaybackState
+  langs:
+  - csharp
+  - vb
+  name: Playing
+  nameWithType: PlaybackState.Playing
+  fullName: NAudio.Wave.PlaybackState.Playing
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: Playing = 1
+    return:
+      type: NAudio.Wave.PlaybackState
+- uid: NAudio.Wave.PlaybackState.Paused
+  commentId: F:NAudio.Wave.PlaybackState.Paused
+  id: Paused
+  parent: NAudio.Wave.PlaybackState
+  langs:
+  - csharp
+  - vb
+  name: Paused
+  nameWithType: PlaybackState.Paused
+  fullName: NAudio.Wave.PlaybackState.Paused
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: Paused = 2
+    return:
+      type: NAudio.Wave.PlaybackState
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Wave.PlaybackState
+  commentId: T:NAudio.Wave.PlaybackState
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.PlaybackState.html
+  name: PlaybackState
+  nameWithType: PlaybackState
+  fullName: NAudio.Wave.PlaybackState

@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.WaveInterop.WaveMessage
+  commentId: T:NAudio.Wave.WaveInterop.WaveMessage
+  id: WaveInterop.WaveMessage
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.WaveInterop.WaveMessage.WaveInClose
+  - NAudio.Wave.WaveInterop.WaveMessage.WaveInData
+  - NAudio.Wave.WaveInterop.WaveMessage.WaveInOpen
+  - NAudio.Wave.WaveInterop.WaveMessage.WaveOutClose
+  - NAudio.Wave.WaveInterop.WaveMessage.WaveOutDone
+  - NAudio.Wave.WaveInterop.WaveMessage.WaveOutOpen
+  langs:
+  - csharp
+  - vb
+  name: WaveInterop.WaveMessage
+  nameWithType: WaveInterop.WaveMessage
+  fullName: NAudio.Wave.WaveInterop.WaveMessage
+  type: Enum
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public enum WaveInterop.WaveMessage
+    content.vb: Public Enum WaveInterop.WaveMessage
+- uid: NAudio.Wave.WaveInterop.WaveMessage.WaveInOpen
+  commentId: F:NAudio.Wave.WaveInterop.WaveMessage.WaveInOpen
+  id: WaveInOpen
+  parent: NAudio.Wave.WaveInterop.WaveMessage
+  langs:
+  - csharp
+  - vb
+  name: WaveInOpen
+  nameWithType: WaveInterop.WaveMessage.WaveInOpen
+  fullName: NAudio.Wave.WaveInterop.WaveMessage.WaveInOpen
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WaveInOpen = 958
+    return:
+      type: NAudio.Wave.WaveInterop.WaveMessage
+- uid: NAudio.Wave.WaveInterop.WaveMessage.WaveInClose
+  commentId: F:NAudio.Wave.WaveInterop.WaveMessage.WaveInClose
+  id: WaveInClose
+  parent: NAudio.Wave.WaveInterop.WaveMessage
+  langs:
+  - csharp
+  - vb
+  name: WaveInClose
+  nameWithType: WaveInterop.WaveMessage.WaveInClose
+  fullName: NAudio.Wave.WaveInterop.WaveMessage.WaveInClose
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WaveInClose = 959
+    return:
+      type: NAudio.Wave.WaveInterop.WaveMessage
+- uid: NAudio.Wave.WaveInterop.WaveMessage.WaveInData
+  commentId: F:NAudio.Wave.WaveInterop.WaveMessage.WaveInData
+  id: WaveInData
+  parent: NAudio.Wave.WaveInterop.WaveMessage
+  langs:
+  - csharp
+  - vb
+  name: WaveInData
+  nameWithType: WaveInterop.WaveMessage.WaveInData
+  fullName: NAudio.Wave.WaveInterop.WaveMessage.WaveInData
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WaveInData = 960
+    return:
+      type: NAudio.Wave.WaveInterop.WaveMessage
+- uid: NAudio.Wave.WaveInterop.WaveMessage.WaveOutClose
+  commentId: F:NAudio.Wave.WaveInterop.WaveMessage.WaveOutClose
+  id: WaveOutClose
+  parent: NAudio.Wave.WaveInterop.WaveMessage
+  langs:
+  - csharp
+  - vb
+  name: WaveOutClose
+  nameWithType: WaveInterop.WaveMessage.WaveOutClose
+  fullName: NAudio.Wave.WaveInterop.WaveMessage.WaveOutClose
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WaveOutClose = 956
+    return:
+      type: NAudio.Wave.WaveInterop.WaveMessage
+- uid: NAudio.Wave.WaveInterop.WaveMessage.WaveOutDone
+  commentId: F:NAudio.Wave.WaveInterop.WaveMessage.WaveOutDone
+  id: WaveOutDone
+  parent: NAudio.Wave.WaveInterop.WaveMessage
+  langs:
+  - csharp
+  - vb
+  name: WaveOutDone
+  nameWithType: WaveInterop.WaveMessage.WaveOutDone
+  fullName: NAudio.Wave.WaveInterop.WaveMessage.WaveOutDone
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WaveOutDone = 957
+    return:
+      type: NAudio.Wave.WaveInterop.WaveMessage
+- uid: NAudio.Wave.WaveInterop.WaveMessage.WaveOutOpen
+  commentId: F:NAudio.Wave.WaveInterop.WaveMessage.WaveOutOpen
+  id: WaveOutOpen
+  parent: NAudio.Wave.WaveInterop.WaveMessage
+  langs:
+  - csharp
+  - vb
+  name: WaveOutOpen
+  nameWithType: WaveInterop.WaveMessage.WaveOutOpen
+  fullName: NAudio.Wave.WaveInterop.WaveMessage.WaveOutOpen
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: WaveOutOpen = 955
+    return:
+      type: NAudio.Wave.WaveInterop.WaveMessage
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Wave.WaveInterop.WaveMessage
+  commentId: T:NAudio.Wave.WaveInterop.WaveMessage
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveInterop.html
+  name: WaveInterop.WaveMessage
+  nameWithType: WaveInterop.WaveMessage
+  fullName: NAudio.Wave.WaveInterop.WaveMessage
+  spec.csharp:
+  - uid: NAudio.Wave.WaveInterop
+    name: WaveInterop
+    isExternal: true
+    href: NAudio.Wave.WaveInterop.html
+  - name: .
+  - uid: NAudio.Wave.WaveInterop.WaveMessage
+    name: WaveMessage
+    isExternal: true
+    href: NAudio.Wave.WaveInterop.WaveMessage.html
+  spec.vb:
+  - uid: NAudio.Wave.WaveInterop
+    name: WaveInterop
+    isExternal: true
+    href: NAudio.Wave.WaveInterop.html
+  - name: .
+  - uid: NAudio.Wave.WaveInterop.WaveMessage
+    name: WaveMessage
+    isExternal: true
+    href: NAudio.Wave.WaveInterop.WaveMessage.html

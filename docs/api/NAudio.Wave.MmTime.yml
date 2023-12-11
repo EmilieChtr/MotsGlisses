@@ -1,0 +1,645 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.MmTime
+  commentId: T:NAudio.Wave.MmTime
+  id: MmTime
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.MmTime.TIME_BYTES
+  - NAudio.Wave.MmTime.TIME_MS
+  - NAudio.Wave.MmTime.TIME_SAMPLES
+  - NAudio.Wave.MmTime.cb
+  - NAudio.Wave.MmTime.midiSongPtrPos
+  - NAudio.Wave.MmTime.ms
+  - NAudio.Wave.MmTime.sample
+  - NAudio.Wave.MmTime.smpteDummy
+  - NAudio.Wave.MmTime.smpteFps
+  - NAudio.Wave.MmTime.smpteFrame
+  - NAudio.Wave.MmTime.smpteHour
+  - NAudio.Wave.MmTime.smpteMin
+  - NAudio.Wave.MmTime.smptePad0
+  - NAudio.Wave.MmTime.smptePad1
+  - NAudio.Wave.MmTime.smpteSec
+  - NAudio.Wave.MmTime.ticks
+  - NAudio.Wave.MmTime.wType
+  langs:
+  - csharp
+  - vb
+  name: MmTime
+  nameWithType: MmTime
+  fullName: NAudio.Wave.MmTime
+  type: Struct
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public struct MmTime
+    content.vb: Public Structure MmTime
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NAudio.Wave.MmTime.TIME_MS
+  commentId: F:NAudio.Wave.MmTime.TIME_MS
+  id: TIME_MS
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: TIME_MS
+  nameWithType: MmTime.TIME_MS
+  fullName: NAudio.Wave.MmTime.TIME_MS
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public const int TIME_MS = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const TIME_MS As Integer = 1
+- uid: NAudio.Wave.MmTime.TIME_SAMPLES
+  commentId: F:NAudio.Wave.MmTime.TIME_SAMPLES
+  id: TIME_SAMPLES
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: TIME_SAMPLES
+  nameWithType: MmTime.TIME_SAMPLES
+  fullName: NAudio.Wave.MmTime.TIME_SAMPLES
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public const int TIME_SAMPLES = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const TIME_SAMPLES As Integer = 2
+- uid: NAudio.Wave.MmTime.TIME_BYTES
+  commentId: F:NAudio.Wave.MmTime.TIME_BYTES
+  id: TIME_BYTES
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: TIME_BYTES
+  nameWithType: MmTime.TIME_BYTES
+  fullName: NAudio.Wave.MmTime.TIME_BYTES
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public const int TIME_BYTES = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const TIME_BYTES As Integer = 4
+- uid: NAudio.Wave.MmTime.wType
+  commentId: F:NAudio.Wave.MmTime.wType
+  id: wType
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: wType
+  nameWithType: MmTime.wType
+  fullName: NAudio.Wave.MmTime.wType
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public uint wType
+    return:
+      type: System.UInt32
+    content.vb: Public wType As UInteger
+- uid: NAudio.Wave.MmTime.ms
+  commentId: F:NAudio.Wave.MmTime.ms
+  id: ms
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: ms
+  nameWithType: MmTime.ms
+  fullName: NAudio.Wave.MmTime.ms
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public uint ms
+    return:
+      type: System.UInt32
+    content.vb: Public ms As UInteger
+- uid: NAudio.Wave.MmTime.sample
+  commentId: F:NAudio.Wave.MmTime.sample
+  id: sample
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: sample
+  nameWithType: MmTime.sample
+  fullName: NAudio.Wave.MmTime.sample
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public uint sample
+    return:
+      type: System.UInt32
+    content.vb: Public sample As UInteger
+- uid: NAudio.Wave.MmTime.cb
+  commentId: F:NAudio.Wave.MmTime.cb
+  id: cb
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: cb
+  nameWithType: MmTime.cb
+  fullName: NAudio.Wave.MmTime.cb
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public uint cb
+    return:
+      type: System.UInt32
+    content.vb: Public cb As UInteger
+- uid: NAudio.Wave.MmTime.ticks
+  commentId: F:NAudio.Wave.MmTime.ticks
+  id: ticks
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: ticks
+  nameWithType: MmTime.ticks
+  fullName: NAudio.Wave.MmTime.ticks
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public uint ticks
+    return:
+      type: System.UInt32
+    content.vb: Public ticks As UInteger
+- uid: NAudio.Wave.MmTime.smpteHour
+  commentId: F:NAudio.Wave.MmTime.smpteHour
+  id: smpteHour
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: smpteHour
+  nameWithType: MmTime.smpteHour
+  fullName: NAudio.Wave.MmTime.smpteHour
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public byte smpteHour
+    return:
+      type: System.Byte
+    content.vb: Public smpteHour As Byte
+- uid: NAudio.Wave.MmTime.smpteMin
+  commentId: F:NAudio.Wave.MmTime.smpteMin
+  id: smpteMin
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: smpteMin
+  nameWithType: MmTime.smpteMin
+  fullName: NAudio.Wave.MmTime.smpteMin
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public byte smpteMin
+    return:
+      type: System.Byte
+    content.vb: Public smpteMin As Byte
+- uid: NAudio.Wave.MmTime.smpteSec
+  commentId: F:NAudio.Wave.MmTime.smpteSec
+  id: smpteSec
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: smpteSec
+  nameWithType: MmTime.smpteSec
+  fullName: NAudio.Wave.MmTime.smpteSec
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public byte smpteSec
+    return:
+      type: System.Byte
+    content.vb: Public smpteSec As Byte
+- uid: NAudio.Wave.MmTime.smpteFrame
+  commentId: F:NAudio.Wave.MmTime.smpteFrame
+  id: smpteFrame
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: smpteFrame
+  nameWithType: MmTime.smpteFrame
+  fullName: NAudio.Wave.MmTime.smpteFrame
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public byte smpteFrame
+    return:
+      type: System.Byte
+    content.vb: Public smpteFrame As Byte
+- uid: NAudio.Wave.MmTime.smpteFps
+  commentId: F:NAudio.Wave.MmTime.smpteFps
+  id: smpteFps
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: smpteFps
+  nameWithType: MmTime.smpteFps
+  fullName: NAudio.Wave.MmTime.smpteFps
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public byte smpteFps
+    return:
+      type: System.Byte
+    content.vb: Public smpteFps As Byte
+- uid: NAudio.Wave.MmTime.smpteDummy
+  commentId: F:NAudio.Wave.MmTime.smpteDummy
+  id: smpteDummy
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: smpteDummy
+  nameWithType: MmTime.smpteDummy
+  fullName: NAudio.Wave.MmTime.smpteDummy
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public byte smpteDummy
+    return:
+      type: System.Byte
+    content.vb: Public smpteDummy As Byte
+- uid: NAudio.Wave.MmTime.smptePad0
+  commentId: F:NAudio.Wave.MmTime.smptePad0
+  id: smptePad0
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: smptePad0
+  nameWithType: MmTime.smptePad0
+  fullName: NAudio.Wave.MmTime.smptePad0
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public byte smptePad0
+    return:
+      type: System.Byte
+    content.vb: Public smptePad0 As Byte
+- uid: NAudio.Wave.MmTime.smptePad1
+  commentId: F:NAudio.Wave.MmTime.smptePad1
+  id: smptePad1
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: smptePad1
+  nameWithType: MmTime.smptePad1
+  fullName: NAudio.Wave.MmTime.smptePad1
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public byte smptePad1
+    return:
+      type: System.Byte
+    content.vb: Public smptePad1 As Byte
+- uid: NAudio.Wave.MmTime.midiSongPtrPos
+  commentId: F:NAudio.Wave.MmTime.midiSongPtrPos
+  id: midiSongPtrPos
+  parent: NAudio.Wave.MmTime
+  langs:
+  - csharp
+  - vb
+  name: midiSongPtrPos
+  nameWithType: MmTime.midiSongPtrPos
+  fullName: NAudio.Wave.MmTime.midiSongPtrPos
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave
+  syntax:
+    content: public uint midiSongPtrPos
+    return:
+      type: System.UInt32
+    content.vb: Public midiSongPtrPos As UInteger
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte

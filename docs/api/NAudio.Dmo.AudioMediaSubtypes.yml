@@ -1,0 +1,1803 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.AudioMediaSubtypes
+  commentId: T:NAudio.Dmo.AudioMediaSubtypes
+  id: AudioMediaSubtypes
+  parent: NAudio.Dmo
+  children:
+  - NAudio.Dmo.AudioMediaSubtypes.#ctor
+  - NAudio.Dmo.AudioMediaSubtypes.AudioSubTypeNames
+  - NAudio.Dmo.AudioMediaSubtypes.AudioSubTypes
+  - NAudio.Dmo.AudioMediaSubtypes.GetAudioSubtypeName(System.Guid)
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_AIFF
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_AU
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_DOLBY_AC3
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_DOLBY_AC3_SPDIF
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_DRM_Audio
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_DVD_LPCM_AUDIO
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_I420
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_IEEE_FLOAT
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_IYUV
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_MPEG1Packet
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_MPEG1Payload
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_MPEG2_AUDIO
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_PCM
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_PCMAudioObsolete
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RAW_SPORT
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB1
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB24
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB32
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB4
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB555
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB565
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB8
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_SPDIF_TAG_241h
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_UYVY
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_VIDEOIMAGE
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_WAVE
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_YUY2
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_YV12
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_YVU9
+  - NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_YVYU
+  - NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_MPEG2Video
+  - NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_Script
+  - NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_VideoInfo
+  - NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_WaveFormatEx
+  - NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_WebStream
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_ACELPnet
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_Base
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_DRM
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_M4S2
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MP3
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MP43
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MP4S
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MPEG2_VIDEO
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MSS1
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MSS2
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_P422
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_PCM
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV2
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV7
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV8
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV9
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudio_Lossless
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMSP1
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMV1
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMV2
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMV3
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMVA
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMVP
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WVP2
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WebStream
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Audio
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_FileTransfer
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Image
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Script
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Text
+  - NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Video
+  - NAudio.Dmo.AudioMediaSubtypes.WMSCRIPTTYPE_TwoStrings
+  langs:
+  - csharp
+  - vb
+  name: AudioMediaSubtypes
+  nameWithType: AudioMediaSubtypes
+  fullName: NAudio.Dmo.AudioMediaSubtypes
+  type: Class
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public class AudioMediaSubtypes
+    content.vb: Public Class AudioMediaSubtypes
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_PCM
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_PCM
+  id: MEDIASUBTYPE_PCM
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_PCM
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_PCM
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_PCM
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_PCM
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_PCM As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_PCMAudioObsolete
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_PCMAudioObsolete
+  id: MEDIASUBTYPE_PCMAudioObsolete
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_PCMAudioObsolete
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_PCMAudioObsolete
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_PCMAudioObsolete
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_PCMAudioObsolete
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_PCMAudioObsolete As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_MPEG1Packet
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_MPEG1Packet
+  id: MEDIASUBTYPE_MPEG1Packet
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_MPEG1Packet
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_MPEG1Packet
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_MPEG1Packet
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_MPEG1Packet
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_MPEG1Packet As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_MPEG1Payload
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_MPEG1Payload
+  id: MEDIASUBTYPE_MPEG1Payload
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_MPEG1Payload
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_MPEG1Payload
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_MPEG1Payload
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_MPEG1Payload
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_MPEG1Payload As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_MPEG2_AUDIO
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_MPEG2_AUDIO
+  id: MEDIASUBTYPE_MPEG2_AUDIO
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_MPEG2_AUDIO
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_MPEG2_AUDIO
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_MPEG2_AUDIO
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_MPEG2_AUDIO
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_MPEG2_AUDIO As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_DVD_LPCM_AUDIO
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_DVD_LPCM_AUDIO
+  id: MEDIASUBTYPE_DVD_LPCM_AUDIO
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_DVD_LPCM_AUDIO
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_DVD_LPCM_AUDIO
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_DVD_LPCM_AUDIO
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_DVD_LPCM_AUDIO
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_DVD_LPCM_AUDIO As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_DRM_Audio
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_DRM_Audio
+  id: MEDIASUBTYPE_DRM_Audio
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_DRM_Audio
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_DRM_Audio
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_DRM_Audio
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_DRM_Audio
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_DRM_Audio As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_IEEE_FLOAT
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_IEEE_FLOAT
+  id: MEDIASUBTYPE_IEEE_FLOAT
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_IEEE_FLOAT
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_IEEE_FLOAT
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_IEEE_FLOAT
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_IEEE_FLOAT
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_IEEE_FLOAT As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_DOLBY_AC3
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_DOLBY_AC3
+  id: MEDIASUBTYPE_DOLBY_AC3
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_DOLBY_AC3
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_DOLBY_AC3
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_DOLBY_AC3
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_DOLBY_AC3
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_DOLBY_AC3 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_DOLBY_AC3_SPDIF
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_DOLBY_AC3_SPDIF
+  id: MEDIASUBTYPE_DOLBY_AC3_SPDIF
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_DOLBY_AC3_SPDIF
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_DOLBY_AC3_SPDIF
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_DOLBY_AC3_SPDIF
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_DOLBY_AC3_SPDIF
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_DOLBY_AC3_SPDIF As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RAW_SPORT
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RAW_SPORT
+  id: MEDIASUBTYPE_RAW_SPORT
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_RAW_SPORT
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_RAW_SPORT
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RAW_SPORT
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_RAW_SPORT
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_RAW_SPORT As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_SPDIF_TAG_241h
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_SPDIF_TAG_241h
+  id: MEDIASUBTYPE_SPDIF_TAG_241h
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_SPDIF_TAG_241h
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_SPDIF_TAG_241h
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_SPDIF_TAG_241h
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_SPDIF_TAG_241h
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_SPDIF_TAG_241h As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_I420
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_I420
+  id: MEDIASUBTYPE_I420
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_I420
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_I420
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_I420
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_I420
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_I420 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_IYUV
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_IYUV
+  id: MEDIASUBTYPE_IYUV
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_IYUV
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_IYUV
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_IYUV
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_IYUV
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_IYUV As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB1
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB1
+  id: MEDIASUBTYPE_RGB1
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_RGB1
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_RGB1
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB1
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_RGB1
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_RGB1 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB24
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB24
+  id: MEDIASUBTYPE_RGB24
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_RGB24
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_RGB24
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB24
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_RGB24
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_RGB24 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB32
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB32
+  id: MEDIASUBTYPE_RGB32
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_RGB32
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_RGB32
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB32
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_RGB32
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_RGB32 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB4
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB4
+  id: MEDIASUBTYPE_RGB4
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_RGB4
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_RGB4
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB4
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_RGB4
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_RGB4 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB555
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB555
+  id: MEDIASUBTYPE_RGB555
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_RGB555
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_RGB555
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB555
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_RGB555
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_RGB555 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB565
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB565
+  id: MEDIASUBTYPE_RGB565
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_RGB565
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_RGB565
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB565
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_RGB565
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_RGB565 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB8
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB8
+  id: MEDIASUBTYPE_RGB8
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_RGB8
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_RGB8
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_RGB8
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_RGB8
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_RGB8 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_UYVY
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_UYVY
+  id: MEDIASUBTYPE_UYVY
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_UYVY
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_UYVY
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_UYVY
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_UYVY
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_UYVY As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_VIDEOIMAGE
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_VIDEOIMAGE
+  id: MEDIASUBTYPE_VIDEOIMAGE
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_VIDEOIMAGE
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_VIDEOIMAGE
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_VIDEOIMAGE
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_VIDEOIMAGE
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_VIDEOIMAGE As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_YUY2
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_YUY2
+  id: MEDIASUBTYPE_YUY2
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_YUY2
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_YUY2
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_YUY2
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_YUY2
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_YUY2 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_YV12
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_YV12
+  id: MEDIASUBTYPE_YV12
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_YV12
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_YV12
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_YV12
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_YV12
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_YV12 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_YVU9
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_YVU9
+  id: MEDIASUBTYPE_YVU9
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_YVU9
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_YVU9
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_YVU9
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_YVU9
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_YVU9 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_YVYU
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_YVYU
+  id: MEDIASUBTYPE_YVYU
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_YVYU
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_YVYU
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_YVYU
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_YVYU
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_YVYU As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_MPEG2Video
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_MPEG2Video
+  id: WMFORMAT_MPEG2Video
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMFORMAT_MPEG2Video
+  nameWithType: AudioMediaSubtypes.WMFORMAT_MPEG2Video
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_MPEG2Video
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMFORMAT_MPEG2Video
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMFORMAT_MPEG2Video As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_Script
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_Script
+  id: WMFORMAT_Script
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMFORMAT_Script
+  nameWithType: AudioMediaSubtypes.WMFORMAT_Script
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_Script
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMFORMAT_Script
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMFORMAT_Script As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_VideoInfo
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_VideoInfo
+  id: WMFORMAT_VideoInfo
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMFORMAT_VideoInfo
+  nameWithType: AudioMediaSubtypes.WMFORMAT_VideoInfo
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_VideoInfo
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMFORMAT_VideoInfo
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMFORMAT_VideoInfo As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_WaveFormatEx
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_WaveFormatEx
+  id: WMFORMAT_WaveFormatEx
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMFORMAT_WaveFormatEx
+  nameWithType: AudioMediaSubtypes.WMFORMAT_WaveFormatEx
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_WaveFormatEx
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMFORMAT_WaveFormatEx
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMFORMAT_WaveFormatEx As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_WebStream
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_WebStream
+  id: WMFORMAT_WebStream
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMFORMAT_WebStream
+  nameWithType: AudioMediaSubtypes.WMFORMAT_WebStream
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMFORMAT_WebStream
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMFORMAT_WebStream
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMFORMAT_WebStream As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_ACELPnet
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_ACELPnet
+  id: WMMEDIASUBTYPE_ACELPnet
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_ACELPnet
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_ACELPnet
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_ACELPnet
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_ACELPnet
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_ACELPnet As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_Base
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_Base
+  id: WMMEDIASUBTYPE_Base
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_Base
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_Base
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_Base
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_Base
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_Base As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_DRM
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_DRM
+  id: WMMEDIASUBTYPE_DRM
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_DRM
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_DRM
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_DRM
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_DRM
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_DRM As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MP3
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MP3
+  id: WMMEDIASUBTYPE_MP3
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_MP3
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_MP3
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MP3
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_MP3
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_MP3 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MP43
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MP43
+  id: WMMEDIASUBTYPE_MP43
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_MP43
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_MP43
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MP43
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_MP43
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_MP43 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MP4S
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MP4S
+  id: WMMEDIASUBTYPE_MP4S
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_MP4S
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_MP4S
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MP4S
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_MP4S
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_MP4S As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_M4S2
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_M4S2
+  id: WMMEDIASUBTYPE_M4S2
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_M4S2
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_M4S2
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_M4S2
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_M4S2
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_M4S2 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_P422
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_P422
+  id: WMMEDIASUBTYPE_P422
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_P422
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_P422
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_P422
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_P422
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_P422 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MPEG2_VIDEO
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MPEG2_VIDEO
+  id: WMMEDIASUBTYPE_MPEG2_VIDEO
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_MPEG2_VIDEO
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_MPEG2_VIDEO
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MPEG2_VIDEO
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_MPEG2_VIDEO
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_MPEG2_VIDEO As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MSS1
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MSS1
+  id: WMMEDIASUBTYPE_MSS1
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_MSS1
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_MSS1
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MSS1
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_MSS1
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_MSS1 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MSS2
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MSS2
+  id: WMMEDIASUBTYPE_MSS2
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_MSS2
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_MSS2
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_MSS2
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_MSS2
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_MSS2 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_PCM
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_PCM
+  id: WMMEDIASUBTYPE_PCM
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_PCM
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_PCM
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_PCM
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_PCM
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_PCM As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WebStream
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WebStream
+  id: WMMEDIASUBTYPE_WebStream
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_WebStream
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_WebStream
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WebStream
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_WebStream
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_WebStream As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudio_Lossless
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudio_Lossless
+  id: WMMEDIASUBTYPE_WMAudio_Lossless
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_WMAudio_Lossless
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudio_Lossless
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudio_Lossless
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_WMAudio_Lossless
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_WMAudio_Lossless As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV2
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV2
+  id: WMMEDIASUBTYPE_WMAudioV2
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_WMAudioV2
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV2
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV2
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_WMAudioV2
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_WMAudioV2 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV7
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV7
+  id: WMMEDIASUBTYPE_WMAudioV7
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_WMAudioV7
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV7
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV7
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_WMAudioV7
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_WMAudioV7 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV8
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV8
+  id: WMMEDIASUBTYPE_WMAudioV8
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_WMAudioV8
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV8
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV8
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_WMAudioV8
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_WMAudioV8 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV9
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV9
+  id: WMMEDIASUBTYPE_WMAudioV9
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_WMAudioV9
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV9
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMAudioV9
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_WMAudioV9
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_WMAudioV9 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMSP1
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMSP1
+  id: WMMEDIASUBTYPE_WMSP1
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_WMSP1
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_WMSP1
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMSP1
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_WMSP1
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_WMSP1 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMV1
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMV1
+  id: WMMEDIASUBTYPE_WMV1
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_WMV1
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_WMV1
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMV1
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_WMV1
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_WMV1 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMV2
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMV2
+  id: WMMEDIASUBTYPE_WMV2
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_WMV2
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_WMV2
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMV2
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_WMV2
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_WMV2 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMV3
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMV3
+  id: WMMEDIASUBTYPE_WMV3
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_WMV3
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_WMV3
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMV3
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_WMV3
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_WMV3 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMVA
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMVA
+  id: WMMEDIASUBTYPE_WMVA
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_WMVA
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_WMVA
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMVA
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_WMVA
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_WMVA As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMVP
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMVP
+  id: WMMEDIASUBTYPE_WMVP
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_WMVP
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_WMVP
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WMVP
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_WMVP
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_WMVP As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WVP2
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WVP2
+  id: WMMEDIASUBTYPE_WVP2
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIASUBTYPE_WVP2
+  nameWithType: AudioMediaSubtypes.WMMEDIASUBTYPE_WVP2
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIASUBTYPE_WVP2
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIASUBTYPE_WVP2
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIASUBTYPE_WVP2 As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Audio
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Audio
+  id: WMMEDIATYPE_Audio
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIATYPE_Audio
+  nameWithType: AudioMediaSubtypes.WMMEDIATYPE_Audio
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Audio
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIATYPE_Audio
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIATYPE_Audio As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_FileTransfer
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_FileTransfer
+  id: WMMEDIATYPE_FileTransfer
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIATYPE_FileTransfer
+  nameWithType: AudioMediaSubtypes.WMMEDIATYPE_FileTransfer
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_FileTransfer
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIATYPE_FileTransfer
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIATYPE_FileTransfer As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Image
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Image
+  id: WMMEDIATYPE_Image
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIATYPE_Image
+  nameWithType: AudioMediaSubtypes.WMMEDIATYPE_Image
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Image
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIATYPE_Image
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIATYPE_Image As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Script
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Script
+  id: WMMEDIATYPE_Script
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIATYPE_Script
+  nameWithType: AudioMediaSubtypes.WMMEDIATYPE_Script
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Script
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIATYPE_Script
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIATYPE_Script As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Text
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Text
+  id: WMMEDIATYPE_Text
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIATYPE_Text
+  nameWithType: AudioMediaSubtypes.WMMEDIATYPE_Text
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Text
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIATYPE_Text
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIATYPE_Text As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Video
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Video
+  id: WMMEDIATYPE_Video
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMMEDIATYPE_Video
+  nameWithType: AudioMediaSubtypes.WMMEDIATYPE_Video
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMMEDIATYPE_Video
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMMEDIATYPE_Video
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMMEDIATYPE_Video As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.WMSCRIPTTYPE_TwoStrings
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.WMSCRIPTTYPE_TwoStrings
+  id: WMSCRIPTTYPE_TwoStrings
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: WMSCRIPTTYPE_TwoStrings
+  nameWithType: AudioMediaSubtypes.WMSCRIPTTYPE_TwoStrings
+  fullName: NAudio.Dmo.AudioMediaSubtypes.WMSCRIPTTYPE_TwoStrings
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid WMSCRIPTTYPE_TwoStrings
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly WMSCRIPTTYPE_TwoStrings As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_WAVE
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_WAVE
+  id: MEDIASUBTYPE_WAVE
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_WAVE
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_WAVE
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_WAVE
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_WAVE
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_WAVE As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_AU
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_AU
+  id: MEDIASUBTYPE_AU
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_AU
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_AU
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_AU
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_AU
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_AU As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_AIFF
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_AIFF
+  id: MEDIASUBTYPE_AIFF
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: MEDIASUBTYPE_AIFF
+  nameWithType: AudioMediaSubtypes.MEDIASUBTYPE_AIFF
+  fullName: NAudio.Dmo.AudioMediaSubtypes.MEDIASUBTYPE_AIFF
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid MEDIASUBTYPE_AIFF
+    return:
+      type: System.Guid
+    content.vb: Public Shared ReadOnly MEDIASUBTYPE_AIFF As Guid
+- uid: NAudio.Dmo.AudioMediaSubtypes.AudioSubTypes
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.AudioSubTypes
+  id: AudioSubTypes
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: AudioSubTypes
+  nameWithType: AudioMediaSubtypes.AudioSubTypes
+  fullName: NAudio.Dmo.AudioMediaSubtypes.AudioSubTypes
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly Guid[] AudioSubTypes
+    return:
+      type: System.Guid[]
+    content.vb: Public Shared ReadOnly AudioSubTypes As Guid()
+- uid: NAudio.Dmo.AudioMediaSubtypes.AudioSubTypeNames
+  commentId: F:NAudio.Dmo.AudioMediaSubtypes.AudioSubTypeNames
+  id: AudioSubTypeNames
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: AudioSubTypeNames
+  nameWithType: AudioMediaSubtypes.AudioSubTypeNames
+  fullName: NAudio.Dmo.AudioMediaSubtypes.AudioSubTypeNames
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static readonly string[] AudioSubTypeNames
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly AudioSubTypeNames As String()
+- uid: NAudio.Dmo.AudioMediaSubtypes.GetAudioSubtypeName(System.Guid)
+  commentId: M:NAudio.Dmo.AudioMediaSubtypes.GetAudioSubtypeName(System.Guid)
+  id: GetAudioSubtypeName(System.Guid)
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: GetAudioSubtypeName(Guid)
+  nameWithType: AudioMediaSubtypes.GetAudioSubtypeName(Guid)
+  fullName: NAudio.Dmo.AudioMediaSubtypes.GetAudioSubtypeName(System.Guid)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public static string GetAudioSubtypeName(Guid subType)
+    parameters:
+    - id: subType
+      type: System.Guid
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetAudioSubtypeName(subType As Guid) As String
+  overload: NAudio.Dmo.AudioMediaSubtypes.GetAudioSubtypeName*
+- uid: NAudio.Dmo.AudioMediaSubtypes.#ctor
+  commentId: M:NAudio.Dmo.AudioMediaSubtypes.#ctor
+  id: '#ctor'
+  parent: NAudio.Dmo.AudioMediaSubtypes
+  langs:
+  - csharp
+  - vb
+  name: AudioMediaSubtypes()
+  nameWithType: AudioMediaSubtypes.AudioMediaSubtypes()
+  fullName: NAudio.Dmo.AudioMediaSubtypes.AudioMediaSubtypes()
+  type: Constructor
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dmo
+  syntax:
+    content: public AudioMediaSubtypes()
+    content.vb: Public Sub New()
+  overload: NAudio.Dmo.AudioMediaSubtypes.#ctor*
+  nameWithType.vb: AudioMediaSubtypes.New()
+  fullName.vb: NAudio.Dmo.AudioMediaSubtypes.New()
+  name.vb: New()
+references:
+- uid: NAudio.Dmo
+  commentId: N:NAudio.Dmo
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo
+  nameWithType: NAudio.Dmo
+  fullName: NAudio.Dmo
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System.Guid[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid[]
+  nameWithType: Guid[]
+  fullName: System.Guid[]
+  nameWithType.vb: Guid()
+  fullName.vb: System.Guid()
+  name.vb: Guid()
+  spec.csharp:
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: (
+  - name: )
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: NAudio.Dmo.AudioMediaSubtypes.GetAudioSubtypeName*
+  commentId: Overload:NAudio.Dmo.AudioMediaSubtypes.GetAudioSubtypeName
+  isExternal: true
+  href: NAudio.Dmo.AudioMediaSubtypes.html#NAudio_Dmo_AudioMediaSubtypes_GetAudioSubtypeName_System_Guid_
+  name: GetAudioSubtypeName
+  nameWithType: AudioMediaSubtypes.GetAudioSubtypeName
+  fullName: NAudio.Dmo.AudioMediaSubtypes.GetAudioSubtypeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.Dmo.AudioMediaSubtypes.#ctor*
+  commentId: Overload:NAudio.Dmo.AudioMediaSubtypes.#ctor
+  isExternal: true
+  href: NAudio.Dmo.AudioMediaSubtypes.html#NAudio_Dmo_AudioMediaSubtypes__ctor
+  name: AudioMediaSubtypes
+  nameWithType: AudioMediaSubtypes.AudioMediaSubtypes
+  fullName: NAudio.Dmo.AudioMediaSubtypes.AudioMediaSubtypes
+  nameWithType.vb: AudioMediaSubtypes.New
+  fullName.vb: NAudio.Dmo.AudioMediaSubtypes.New
+  name.vb: New

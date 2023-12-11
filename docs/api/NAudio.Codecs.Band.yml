@@ -1,0 +1,621 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Codecs.Band
+  commentId: T:NAudio.Codecs.Band
+  id: Band
+  parent: NAudio.Codecs
+  children:
+  - NAudio.Codecs.Band.#ctor
+  - NAudio.Codecs.Band.a
+  - NAudio.Codecs.Band.ap
+  - NAudio.Codecs.Band.b
+  - NAudio.Codecs.Band.bp
+  - NAudio.Codecs.Band.d
+  - NAudio.Codecs.Band.det
+  - NAudio.Codecs.Band.nb
+  - NAudio.Codecs.Band.p
+  - NAudio.Codecs.Band.r
+  - NAudio.Codecs.Band.s
+  - NAudio.Codecs.Band.sg
+  - NAudio.Codecs.Band.sp
+  - NAudio.Codecs.Band.sz
+  langs:
+  - csharp
+  - vb
+  name: Band
+  nameWithType: Band
+  fullName: NAudio.Codecs.Band
+  type: Class
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public class Band
+    content.vb: Public Class Band
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Codecs.Band.s
+  commentId: F:NAudio.Codecs.Band.s
+  id: s
+  parent: NAudio.Codecs.Band
+  langs:
+  - csharp
+  - vb
+  name: s
+  nameWithType: Band.s
+  fullName: NAudio.Codecs.Band.s
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public int s
+    return:
+      type: System.Int32
+    content.vb: Public s As Integer
+- uid: NAudio.Codecs.Band.sp
+  commentId: F:NAudio.Codecs.Band.sp
+  id: sp
+  parent: NAudio.Codecs.Band
+  langs:
+  - csharp
+  - vb
+  name: sp
+  nameWithType: Band.sp
+  fullName: NAudio.Codecs.Band.sp
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public int sp
+    return:
+      type: System.Int32
+    content.vb: Public sp As Integer
+- uid: NAudio.Codecs.Band.sz
+  commentId: F:NAudio.Codecs.Band.sz
+  id: sz
+  parent: NAudio.Codecs.Band
+  langs:
+  - csharp
+  - vb
+  name: sz
+  nameWithType: Band.sz
+  fullName: NAudio.Codecs.Band.sz
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public int sz
+    return:
+      type: System.Int32
+    content.vb: Public sz As Integer
+- uid: NAudio.Codecs.Band.r
+  commentId: F:NAudio.Codecs.Band.r
+  id: r
+  parent: NAudio.Codecs.Band
+  langs:
+  - csharp
+  - vb
+  name: r
+  nameWithType: Band.r
+  fullName: NAudio.Codecs.Band.r
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public int[] r
+    return:
+      type: System.Int32[]
+    content.vb: Public r As Integer()
+- uid: NAudio.Codecs.Band.a
+  commentId: F:NAudio.Codecs.Band.a
+  id: a
+  parent: NAudio.Codecs.Band
+  langs:
+  - csharp
+  - vb
+  name: a
+  nameWithType: Band.a
+  fullName: NAudio.Codecs.Band.a
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public int[] a
+    return:
+      type: System.Int32[]
+    content.vb: Public a As Integer()
+- uid: NAudio.Codecs.Band.ap
+  commentId: F:NAudio.Codecs.Band.ap
+  id: ap
+  parent: NAudio.Codecs.Band
+  langs:
+  - csharp
+  - vb
+  name: ap
+  nameWithType: Band.ap
+  fullName: NAudio.Codecs.Band.ap
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public int[] ap
+    return:
+      type: System.Int32[]
+    content.vb: Public ap As Integer()
+- uid: NAudio.Codecs.Band.p
+  commentId: F:NAudio.Codecs.Band.p
+  id: p
+  parent: NAudio.Codecs.Band
+  langs:
+  - csharp
+  - vb
+  name: p
+  nameWithType: Band.p
+  fullName: NAudio.Codecs.Band.p
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public int[] p
+    return:
+      type: System.Int32[]
+    content.vb: Public p As Integer()
+- uid: NAudio.Codecs.Band.d
+  commentId: F:NAudio.Codecs.Band.d
+  id: d
+  parent: NAudio.Codecs.Band
+  langs:
+  - csharp
+  - vb
+  name: d
+  nameWithType: Band.d
+  fullName: NAudio.Codecs.Band.d
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public int[] d
+    return:
+      type: System.Int32[]
+    content.vb: Public d As Integer()
+- uid: NAudio.Codecs.Band.b
+  commentId: F:NAudio.Codecs.Band.b
+  id: b
+  parent: NAudio.Codecs.Band
+  langs:
+  - csharp
+  - vb
+  name: b
+  nameWithType: Band.b
+  fullName: NAudio.Codecs.Band.b
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public int[] b
+    return:
+      type: System.Int32[]
+    content.vb: Public b As Integer()
+- uid: NAudio.Codecs.Band.bp
+  commentId: F:NAudio.Codecs.Band.bp
+  id: bp
+  parent: NAudio.Codecs.Band
+  langs:
+  - csharp
+  - vb
+  name: bp
+  nameWithType: Band.bp
+  fullName: NAudio.Codecs.Band.bp
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public int[] bp
+    return:
+      type: System.Int32[]
+    content.vb: Public bp As Integer()
+- uid: NAudio.Codecs.Band.sg
+  commentId: F:NAudio.Codecs.Band.sg
+  id: sg
+  parent: NAudio.Codecs.Band
+  langs:
+  - csharp
+  - vb
+  name: sg
+  nameWithType: Band.sg
+  fullName: NAudio.Codecs.Band.sg
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public int[] sg
+    return:
+      type: System.Int32[]
+    content.vb: Public sg As Integer()
+- uid: NAudio.Codecs.Band.nb
+  commentId: F:NAudio.Codecs.Band.nb
+  id: nb
+  parent: NAudio.Codecs.Band
+  langs:
+  - csharp
+  - vb
+  name: nb
+  nameWithType: Band.nb
+  fullName: NAudio.Codecs.Band.nb
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public int nb
+    return:
+      type: System.Int32
+    content.vb: Public nb As Integer
+- uid: NAudio.Codecs.Band.det
+  commentId: F:NAudio.Codecs.Band.det
+  id: det
+  parent: NAudio.Codecs.Band
+  langs:
+  - csharp
+  - vb
+  name: det
+  nameWithType: Band.det
+  fullName: NAudio.Codecs.Band.det
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public int det
+    return:
+      type: System.Int32
+    content.vb: Public det As Integer
+- uid: NAudio.Codecs.Band.#ctor
+  commentId: M:NAudio.Codecs.Band.#ctor
+  id: '#ctor'
+  parent: NAudio.Codecs.Band
+  langs:
+  - csharp
+  - vb
+  name: Band()
+  nameWithType: Band.Band()
+  fullName: NAudio.Codecs.Band.Band()
+  type: Constructor
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: public Band()
+    content.vb: Public Sub New()
+  overload: NAudio.Codecs.Band.#ctor*
+  nameWithType.vb: Band.New()
+  fullName.vb: NAudio.Codecs.Band.New()
+  name.vb: New()
+references:
+- uid: NAudio.Codecs
+  commentId: N:NAudio.Codecs
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Codecs
+  nameWithType: NAudio.Codecs
+  fullName: NAudio.Codecs
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Codecs
+    name: Codecs
+    isExternal: true
+    href: NAudio.Codecs.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Codecs
+    name: Codecs
+    isExternal: true
+    href: NAudio.Codecs.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: NAudio.Codecs.Band.#ctor*
+  commentId: Overload:NAudio.Codecs.Band.#ctor
+  isExternal: true
+  href: NAudio.Codecs.Band.html#NAudio_Codecs_Band__ctor
+  name: Band
+  nameWithType: Band.Band
+  fullName: NAudio.Codecs.Band.Band
+  nameWithType.vb: Band.New
+  fullName.vb: NAudio.Codecs.Band.New
+  name.vb: New

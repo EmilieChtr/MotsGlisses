@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.SoundFont.SampleMode
+  commentId: T:NAudio.SoundFont.SampleMode
+  id: SampleMode
+  parent: NAudio.SoundFont
+  children:
+  - NAudio.SoundFont.SampleMode.LoopAndContinue
+  - NAudio.SoundFont.SampleMode.LoopContinuously
+  - NAudio.SoundFont.SampleMode.NoLoop
+  - NAudio.SoundFont.SampleMode.ReservedNoLoop
+  langs:
+  - csharp
+  - vb
+  name: SampleMode
+  nameWithType: SampleMode
+  fullName: NAudio.SoundFont.SampleMode
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: public enum SampleMode
+    content.vb: Public Enum SampleMode
+- uid: NAudio.SoundFont.SampleMode.NoLoop
+  commentId: F:NAudio.SoundFont.SampleMode.NoLoop
+  id: NoLoop
+  parent: NAudio.SoundFont.SampleMode
+  langs:
+  - csharp
+  - vb
+  name: NoLoop
+  nameWithType: SampleMode.NoLoop
+  fullName: NAudio.SoundFont.SampleMode.NoLoop
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: NoLoop = 0
+    return:
+      type: NAudio.SoundFont.SampleMode
+- uid: NAudio.SoundFont.SampleMode.LoopContinuously
+  commentId: F:NAudio.SoundFont.SampleMode.LoopContinuously
+  id: LoopContinuously
+  parent: NAudio.SoundFont.SampleMode
+  langs:
+  - csharp
+  - vb
+  name: LoopContinuously
+  nameWithType: SampleMode.LoopContinuously
+  fullName: NAudio.SoundFont.SampleMode.LoopContinuously
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: LoopContinuously = 1
+    return:
+      type: NAudio.SoundFont.SampleMode
+- uid: NAudio.SoundFont.SampleMode.ReservedNoLoop
+  commentId: F:NAudio.SoundFont.SampleMode.ReservedNoLoop
+  id: ReservedNoLoop
+  parent: NAudio.SoundFont.SampleMode
+  langs:
+  - csharp
+  - vb
+  name: ReservedNoLoop
+  nameWithType: SampleMode.ReservedNoLoop
+  fullName: NAudio.SoundFont.SampleMode.ReservedNoLoop
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: ReservedNoLoop = 2
+    return:
+      type: NAudio.SoundFont.SampleMode
+- uid: NAudio.SoundFont.SampleMode.LoopAndContinue
+  commentId: F:NAudio.SoundFont.SampleMode.LoopAndContinue
+  id: LoopAndContinue
+  parent: NAudio.SoundFont.SampleMode
+  langs:
+  - csharp
+  - vb
+  name: LoopAndContinue
+  nameWithType: SampleMode.LoopAndContinue
+  fullName: NAudio.SoundFont.SampleMode.LoopAndContinue
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: LoopAndContinue = 3
+    return:
+      type: NAudio.SoundFont.SampleMode
+references:
+- uid: NAudio.SoundFont
+  commentId: N:NAudio.SoundFont
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.SoundFont
+  nameWithType: NAudio.SoundFont
+  fullName: NAudio.SoundFont
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.SoundFont
+    name: SoundFont
+    isExternal: true
+    href: NAudio.SoundFont.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.SoundFont
+    name: SoundFont
+    isExternal: true
+    href: NAudio.SoundFont.html
+- uid: NAudio.SoundFont.SampleMode
+  commentId: T:NAudio.SoundFont.SampleMode
+  parent: NAudio.SoundFont
+  isExternal: true
+  href: NAudio.SoundFont.SampleMode.html
+  name: SampleMode
+  nameWithType: SampleMode
+  fullName: NAudio.SoundFont.SampleMode

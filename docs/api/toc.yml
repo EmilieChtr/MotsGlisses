@@ -11,4 +11,862 @@ items:
     name: Joueur
   - uid: Interface.Plateau
     name: Plateau
+- uid: NAudio
+  name: NAudio
+  items:
+  - uid: NAudio.Manufacturers
+    name: Manufacturers
+  - uid: NAudio.MmException
+    name: MmException
+  - uid: NAudio.MmResult
+    name: MmResult
+- uid: NAudio.Codecs
+  name: NAudio.Codecs
+  items:
+  - uid: NAudio.Codecs.ALawDecoder
+    name: ALawDecoder
+  - uid: NAudio.Codecs.ALawEncoder
+    name: ALawEncoder
+  - uid: NAudio.Codecs.Band
+    name: Band
+  - uid: NAudio.Codecs.G722Codec
+    name: G722Codec
+  - uid: NAudio.Codecs.G722CodecState
+    name: G722CodecState
+  - uid: NAudio.Codecs.G722Flags
+    name: G722Flags
+  - uid: NAudio.Codecs.MuLawDecoder
+    name: MuLawDecoder
+  - uid: NAudio.Codecs.MuLawEncoder
+    name: MuLawEncoder
+- uid: NAudio.CoreAudioApi
+  name: NAudio.CoreAudioApi
+  items:
+  - uid: NAudio.CoreAudioApi.AudioCaptureClient
+    name: AudioCaptureClient
+  - uid: NAudio.CoreAudioApi.AudioClient
+    name: AudioClient
+  - uid: NAudio.CoreAudioApi.AudioClientBufferFlags
+    name: AudioClientBufferFlags
+  - uid: NAudio.CoreAudioApi.AudioClientProperties
+    name: AudioClientProperties
+  - uid: NAudio.CoreAudioApi.AudioClientShareMode
+    name: AudioClientShareMode
+  - uid: NAudio.CoreAudioApi.AudioClientStreamFlags
+    name: AudioClientStreamFlags
+  - uid: NAudio.CoreAudioApi.AudioClientStreamOptions
+    name: AudioClientStreamOptions
+  - uid: NAudio.CoreAudioApi.AudioClockClient
+    name: AudioClockClient
+  - uid: NAudio.CoreAudioApi.AudioEndpointVolume
+    name: AudioEndpointVolume
+  - uid: NAudio.CoreAudioApi.AudioEndpointVolumeChannel
+    name: AudioEndpointVolumeChannel
+  - uid: NAudio.CoreAudioApi.AudioEndpointVolumeChannels
+    name: AudioEndpointVolumeChannels
+  - uid: NAudio.CoreAudioApi.AudioEndpointVolumeNotificationDelegate
+    name: AudioEndpointVolumeNotificationDelegate
+  - uid: NAudio.CoreAudioApi.AudioEndpointVolumeStepInformation
+    name: AudioEndpointVolumeStepInformation
+  - uid: NAudio.CoreAudioApi.AudioEndpointVolumeVolumeRange
+    name: AudioEndpointVolumeVolumeRange
+  - uid: NAudio.CoreAudioApi.AudioMeterInformation
+    name: AudioMeterInformation
+  - uid: NAudio.CoreAudioApi.AudioMeterInformationChannels
+    name: AudioMeterInformationChannels
+  - uid: NAudio.CoreAudioApi.AudioMute
+    name: AudioMute
+  - uid: NAudio.CoreAudioApi.AudioRenderClient
+    name: AudioRenderClient
+  - uid: NAudio.CoreAudioApi.AudioSessionControl
+    name: AudioSessionControl
+  - uid: NAudio.CoreAudioApi.AudioSessionEventsCallback
+    name: AudioSessionEventsCallback
+  - uid: NAudio.CoreAudioApi.AudioSessionManager
+    name: AudioSessionManager
+  - uid: NAudio.CoreAudioApi.AudioSessionManager.SessionCreatedDelegate
+    name: AudioSessionManager.SessionCreatedDelegate
+  - uid: NAudio.CoreAudioApi.AudioStreamCategory
+    name: AudioStreamCategory
+  - uid: NAudio.CoreAudioApi.AudioStreamVolume
+    name: AudioStreamVolume
+  - uid: NAudio.CoreAudioApi.AudioVolumeNotificationData
+    name: AudioVolumeNotificationData
+  - uid: NAudio.CoreAudioApi.CaptureState
+    name: CaptureState
+  - uid: NAudio.CoreAudioApi.Connector
+    name: Connector
+  - uid: NAudio.CoreAudioApi.ConnectorType
+    name: ConnectorType
+  - uid: NAudio.CoreAudioApi.DataFlow
+    name: DataFlow
+  - uid: NAudio.CoreAudioApi.DeviceState
+    name: DeviceState
+  - uid: NAudio.CoreAudioApi.DeviceTopology
+    name: DeviceTopology
+  - uid: NAudio.CoreAudioApi.EEndpointHardwareSupport
+    name: EEndpointHardwareSupport
+  - uid: NAudio.CoreAudioApi.KsJackDescription
+    name: KsJackDescription
+  - uid: NAudio.CoreAudioApi.MMDevice
+    name: MMDevice
+  - uid: NAudio.CoreAudioApi.MMDeviceCollection
+    name: MMDeviceCollection
+  - uid: NAudio.CoreAudioApi.MMDeviceEnumerator
+    name: MMDeviceEnumerator
+  - uid: NAudio.CoreAudioApi.Part
+    name: Part
+  - uid: NAudio.CoreAudioApi.PartsList
+    name: PartsList
+  - uid: NAudio.CoreAudioApi.PropertyKey
+    name: PropertyKey
+  - uid: NAudio.CoreAudioApi.PropertyKeys
+    name: PropertyKeys
+  - uid: NAudio.CoreAudioApi.PropertyStore
+    name: PropertyStore
+  - uid: NAudio.CoreAudioApi.PropertyStoreProperty
+    name: PropertyStoreProperty
+  - uid: NAudio.CoreAudioApi.Role
+    name: Role
+  - uid: NAudio.CoreAudioApi.SessionCollection
+    name: SessionCollection
+  - uid: NAudio.CoreAudioApi.SimpleAudioVolume
+    name: SimpleAudioVolume
+  - uid: NAudio.CoreAudioApi.WasapiCapture
+    name: WasapiCapture
+- uid: NAudio.CoreAudioApi.Interfaces
+  name: NAudio.CoreAudioApi.Interfaces
+  items:
+  - uid: NAudio.CoreAudioApi.Interfaces.AudioClientErrorCode
+    name: AudioClientErrorCode
+  - uid: NAudio.CoreAudioApi.Interfaces.AudioSessionDisconnectReason
+    name: AudioSessionDisconnectReason
+  - uid: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+    name: AudioSessionState
+  - uid: NAudio.CoreAudioApi.Interfaces.Blob
+    name: Blob
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient
+    name: IAudioClient
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioClient2
+    name: IAudioClient2
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl
+    name: IAudioSessionControl
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionControl2
+    name: IAudioSessionControl2
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEvents
+    name: IAudioSessionEvents
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionEventsHandler
+    name: IAudioSessionEventsHandler
+  - uid: NAudio.CoreAudioApi.Interfaces.IAudioSessionNotification
+    name: IAudioSessionNotification
+  - uid: NAudio.CoreAudioApi.Interfaces.IControlInterface
+    name: IControlInterface
+  - uid: NAudio.CoreAudioApi.Interfaces.IMMNotificationClient
+    name: IMMNotificationClient
+  - uid: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+    name: PartTypeEnum
+  - uid: NAudio.CoreAudioApi.Interfaces.PropVariant
+    name: PropVariant
+  - uid: NAudio.CoreAudioApi.Interfaces.StorageAccessMode
+    name: StorageAccessMode
+- uid: NAudio.Dmo
+  name: NAudio.Dmo
+  items:
+  - uid: NAudio.Dmo.AudioMediaSubtypes
+    name: AudioMediaSubtypes
+  - uid: NAudio.Dmo.DmoDescriptor
+    name: DmoDescriptor
+  - uid: NAudio.Dmo.DmoEnumerator
+    name: DmoEnumerator
+  - uid: NAudio.Dmo.DmoInPlaceProcessFlags
+    name: DmoInPlaceProcessFlags
+  - uid: NAudio.Dmo.DmoInPlaceProcessReturn
+    name: DmoInPlaceProcessReturn
+  - uid: NAudio.Dmo.DmoInputDataBufferFlags
+    name: DmoInputDataBufferFlags
+  - uid: NAudio.Dmo.DmoMediaType
+    name: DmoMediaType
+  - uid: NAudio.Dmo.DmoOutputDataBuffer
+    name: DmoOutputDataBuffer
+  - uid: NAudio.Dmo.DmoOutputDataBufferFlags
+    name: DmoOutputDataBufferFlags
+  - uid: NAudio.Dmo.DmoProcessOutputFlags
+    name: DmoProcessOutputFlags
+  - uid: NAudio.Dmo.DmoResampler
+    name: DmoResampler
+  - uid: NAudio.Dmo.IMediaBuffer
+    name: IMediaBuffer
+  - uid: NAudio.Dmo.MediaBuffer
+    name: MediaBuffer
+  - uid: NAudio.Dmo.MediaObject
+    name: MediaObject
+  - uid: NAudio.Dmo.MediaObjectInPlace
+    name: MediaObjectInPlace
+  - uid: NAudio.Dmo.MediaObjectSizeInfo
+    name: MediaObjectSizeInfo
+  - uid: NAudio.Dmo.WindowsMediaMp3Decoder
+    name: WindowsMediaMp3Decoder
+- uid: NAudio.Dmo.Effect
+  name: NAudio.Dmo.Effect
+  items:
+  - uid: NAudio.Dmo.Effect.ChorusPhase
+    name: ChorusPhase
+  - uid: NAudio.Dmo.Effect.ChorusWaveForm
+    name: ChorusWaveForm
+  - uid: NAudio.Dmo.Effect.DmoChorus
+    name: DmoChorus
+  - uid: NAudio.Dmo.Effect.DmoChorus.Params
+    name: DmoChorus.Params
+  - uid: NAudio.Dmo.Effect.DmoCompressor
+    name: DmoCompressor
+  - uid: NAudio.Dmo.Effect.DmoCompressor.Params
+    name: DmoCompressor.Params
+  - uid: NAudio.Dmo.Effect.DmoDistortion
+    name: DmoDistortion
+  - uid: NAudio.Dmo.Effect.DmoDistortion.Params
+    name: DmoDistortion.Params
+  - uid: NAudio.Dmo.Effect.DmoEcho
+    name: DmoEcho
+  - uid: NAudio.Dmo.Effect.DmoEcho.Params
+    name: DmoEcho.Params
+  - uid: NAudio.Dmo.Effect.DmoFlanger
+    name: DmoFlanger
+  - uid: NAudio.Dmo.Effect.DmoFlanger.Params
+    name: DmoFlanger.Params
+  - uid: NAudio.Dmo.Effect.DmoGargle
+    name: DmoGargle
+  - uid: NAudio.Dmo.Effect.DmoGargle.Params
+    name: DmoGargle.Params
+  - uid: NAudio.Dmo.Effect.DmoI3DL2Reverb
+    name: DmoI3DL2Reverb
+  - uid: NAudio.Dmo.Effect.DmoI3DL2Reverb.Params
+    name: DmoI3DL2Reverb.Params
+  - uid: NAudio.Dmo.Effect.DmoParamEq
+    name: DmoParamEq
+  - uid: NAudio.Dmo.Effect.DmoParamEq.Params
+    name: DmoParamEq.Params
+  - uid: NAudio.Dmo.Effect.DmoWavesReverb
+    name: DmoWavesReverb
+  - uid: NAudio.Dmo.Effect.DmoWavesReverb.Params
+    name: DmoWavesReverb.Params
+  - uid: NAudio.Dmo.Effect.EchoPanDelay
+    name: EchoPanDelay
+  - uid: NAudio.Dmo.Effect.FlangerPhase
+    name: FlangerPhase
+  - uid: NAudio.Dmo.Effect.FlangerWaveForm
+    name: FlangerWaveForm
+  - uid: NAudio.Dmo.Effect.GargleWaveShape
+    name: GargleWaveShape
+  - uid: NAudio.Dmo.Effect.I3DL2EnvironmentPreset
+    name: I3DL2EnvironmentPreset
+  - uid: NAudio.Dmo.Effect.IDmoEffector`1
+    name: IDmoEffector<TParameters>
+- uid: NAudio.Dsp
+  name: NAudio.Dsp
+  items:
+  - uid: NAudio.Dsp.BiQuadFilter
+    name: BiQuadFilter
+  - uid: NAudio.Dsp.Complex
+    name: Complex
+  - uid: NAudio.Dsp.EnvelopeGenerator
+    name: EnvelopeGenerator
+  - uid: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+    name: EnvelopeGenerator.EnvelopeState
+  - uid: NAudio.Dsp.FastFourierTransform
+    name: FastFourierTransform
+  - uid: NAudio.Dsp.ImpulseResponseConvolution
+    name: ImpulseResponseConvolution
+  - uid: NAudio.Dsp.SmbPitchShifter
+    name: SmbPitchShifter
+  - uid: NAudio.Dsp.WdlResampler
+    name: WdlResampler
+- uid: NAudio.FileFormats.Mp3
+  name: NAudio.FileFormats.Mp3
+  items:
+  - uid: NAudio.FileFormats.Mp3.DmoMp3FrameDecompressor
+    name: DmoMp3FrameDecompressor
+- uid: NAudio.FileFormats.Wav
+  name: NAudio.FileFormats.Wav
+  items:
+  - uid: NAudio.FileFormats.Wav.WaveFileChunkReader
+    name: WaveFileChunkReader
+- uid: NAudio.MediaFoundation
+  name: NAudio.MediaFoundation
+  items:
+  - uid: NAudio.MediaFoundation.AudioSubtypes
+    name: AudioSubtypes
+  - uid: NAudio.MediaFoundation.IMFActivate
+    name: IMFActivate
+  - uid: NAudio.MediaFoundation.IMFAttributes
+    name: IMFAttributes
+  - uid: NAudio.MediaFoundation.IMFByteStream
+    name: IMFByteStream
+  - uid: NAudio.MediaFoundation.IMFCollection
+    name: IMFCollection
+  - uid: NAudio.MediaFoundation.IMFMediaBuffer
+    name: IMFMediaBuffer
+  - uid: NAudio.MediaFoundation.IMFMediaEvent
+    name: IMFMediaEvent
+  - uid: NAudio.MediaFoundation.IMFMediaType
+    name: IMFMediaType
+  - uid: NAudio.MediaFoundation.IMFReadWriteClassFactory
+    name: IMFReadWriteClassFactory
+  - uid: NAudio.MediaFoundation.IMFSample
+    name: IMFSample
+  - uid: NAudio.MediaFoundation.IMFSinkWriter
+    name: IMFSinkWriter
+  - uid: NAudio.MediaFoundation.IMFSourceReader
+    name: IMFSourceReader
+  - uid: NAudio.MediaFoundation.IMFTransform
+    name: IMFTransform
+  - uid: NAudio.MediaFoundation.MFReadWriteClassFactory
+    name: MFReadWriteClassFactory
+  - uid: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO
+    name: MFT_INPUT_STREAM_INFO
+  - uid: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+    name: MFT_MESSAGE_TYPE
+  - uid: NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER
+    name: MFT_OUTPUT_DATA_BUFFER
+  - uid: NAudio.MediaFoundation.MFT_OUTPUT_STREAM_INFO
+    name: MFT_OUTPUT_STREAM_INFO
+  - uid: NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO
+    name: MFT_REGISTER_TYPE_INFO
+  - uid: NAudio.MediaFoundation.MF_SINK_WRITER_STATISTICS
+    name: MF_SINK_WRITER_STATISTICS
+  - uid: NAudio.MediaFoundation.MF_SOURCE_READER_FLAG
+    name: MF_SOURCE_READER_FLAG
+  - uid: NAudio.MediaFoundation.MediaEventType
+    name: MediaEventType
+  - uid: NAudio.MediaFoundation.MediaFoundationApi
+    name: MediaFoundationApi
+  - uid: NAudio.MediaFoundation.MediaFoundationAttributes
+    name: MediaFoundationAttributes
+  - uid: NAudio.MediaFoundation.MediaFoundationErrors
+    name: MediaFoundationErrors
+  - uid: NAudio.MediaFoundation.MediaFoundationInterop
+    name: MediaFoundationInterop
+  - uid: NAudio.MediaFoundation.MediaFoundationTransform
+    name: MediaFoundationTransform
+  - uid: NAudio.MediaFoundation.MediaFoundationTransformCategories
+    name: MediaFoundationTransformCategories
+  - uid: NAudio.MediaFoundation.MediaType
+    name: MediaType
+  - uid: NAudio.MediaFoundation.MediaTypes
+    name: MediaTypes
+  - uid: NAudio.MediaFoundation.TranscodeContainerTypes
+    name: TranscodeContainerTypes
+  - uid: NAudio.MediaFoundation._MFT_ENUM_FLAG
+    name: _MFT_ENUM_FLAG
+  - uid: NAudio.MediaFoundation._MFT_INPUT_STATUS_FLAGS
+    name: _MFT_INPUT_STATUS_FLAGS
+  - uid: NAudio.MediaFoundation._MFT_INPUT_STREAM_INFO_FLAGS
+    name: _MFT_INPUT_STREAM_INFO_FLAGS
+  - uid: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS
+    name: _MFT_OUTPUT_DATA_BUFFER_FLAGS
+  - uid: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS
+    name: _MFT_OUTPUT_STATUS_FLAGS
+  - uid: NAudio.MediaFoundation._MFT_OUTPUT_STREAM_INFO_FLAGS
+    name: _MFT_OUTPUT_STREAM_INFO_FLAGS
+  - uid: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS
+    name: _MFT_PROCESS_OUTPUT_FLAGS
+  - uid: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS
+    name: _MFT_PROCESS_OUTPUT_STATUS
+  - uid: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS
+    name: _MFT_SET_TYPE_FLAGS
+- uid: NAudio.Midi
+  name: NAudio.Midi
+  items:
+  - uid: NAudio.Midi.ChannelAfterTouchEvent
+    name: ChannelAfterTouchEvent
+  - uid: NAudio.Midi.ControlChangeEvent
+    name: ControlChangeEvent
+  - uid: NAudio.Midi.KeySignatureEvent
+    name: KeySignatureEvent
+  - uid: NAudio.Midi.MetaEvent
+    name: MetaEvent
+  - uid: NAudio.Midi.MetaEventType
+    name: MetaEventType
+  - uid: NAudio.Midi.MidiCommandCode
+    name: MidiCommandCode
+  - uid: NAudio.Midi.MidiController
+    name: MidiController
+  - uid: NAudio.Midi.MidiEvent
+    name: MidiEvent
+  - uid: NAudio.Midi.MidiEventCollection
+    name: MidiEventCollection
+  - uid: NAudio.Midi.MidiEventComparer
+    name: MidiEventComparer
+  - uid: NAudio.Midi.MidiFile
+    name: MidiFile
+  - uid: NAudio.Midi.MidiIn
+    name: MidiIn
+  - uid: NAudio.Midi.MidiInCapabilities
+    name: MidiInCapabilities
+  - uid: NAudio.Midi.MidiInMessageEventArgs
+    name: MidiInMessageEventArgs
+  - uid: NAudio.Midi.MidiInSysexMessageEventArgs
+    name: MidiInSysexMessageEventArgs
+  - uid: NAudio.Midi.MidiMessage
+    name: MidiMessage
+  - uid: NAudio.Midi.MidiOut
+    name: MidiOut
+  - uid: NAudio.Midi.MidiOutCapabilities
+    name: MidiOutCapabilities
+  - uid: NAudio.Midi.MidiOutTechnology
+    name: MidiOutTechnology
+  - uid: NAudio.Midi.NoteEvent
+    name: NoteEvent
+  - uid: NAudio.Midi.NoteOnEvent
+    name: NoteOnEvent
+  - uid: NAudio.Midi.PatchChangeEvent
+    name: PatchChangeEvent
+  - uid: NAudio.Midi.PitchWheelChangeEvent
+    name: PitchWheelChangeEvent
+  - uid: NAudio.Midi.RawMetaEvent
+    name: RawMetaEvent
+  - uid: NAudio.Midi.SequencerSpecificEvent
+    name: SequencerSpecificEvent
+  - uid: NAudio.Midi.SmpteOffsetEvent
+    name: SmpteOffsetEvent
+  - uid: NAudio.Midi.SysexEvent
+    name: SysexEvent
+  - uid: NAudio.Midi.TempoEvent
+    name: TempoEvent
+  - uid: NAudio.Midi.TextEvent
+    name: TextEvent
+  - uid: NAudio.Midi.TimeSignatureEvent
+    name: TimeSignatureEvent
+  - uid: NAudio.Midi.TrackSequenceNumberEvent
+    name: TrackSequenceNumberEvent
+- uid: NAudio.Mixer
+  name: NAudio.Mixer
+  items:
+  - uid: NAudio.Mixer.BooleanMixerControl
+    name: BooleanMixerControl
+  - uid: NAudio.Mixer.CustomMixerControl
+    name: CustomMixerControl
+  - uid: NAudio.Mixer.ListTextMixerControl
+    name: ListTextMixerControl
+  - uid: NAudio.Mixer.Mixer
+    name: Mixer
+  - uid: NAudio.Mixer.MixerControl
+    name: MixerControl
+  - uid: NAudio.Mixer.MixerControlType
+    name: MixerControlType
+  - uid: NAudio.Mixer.MixerFlags
+    name: MixerFlags
+  - uid: NAudio.Mixer.MixerLine
+    name: MixerLine
+  - uid: NAudio.Mixer.MixerLineComponentType
+    name: MixerLineComponentType
+  - uid: NAudio.Mixer.SignedMixerControl
+    name: SignedMixerControl
+  - uid: NAudio.Mixer.UnsignedMixerControl
+    name: UnsignedMixerControl
+- uid: NAudio.SoundFont
+  name: NAudio.SoundFont
+  items:
+  - uid: NAudio.SoundFont.ControllerSourceEnum
+    name: ControllerSourceEnum
+  - uid: NAudio.SoundFont.Generator
+    name: Generator
+  - uid: NAudio.SoundFont.GeneratorEnum
+    name: GeneratorEnum
+  - uid: NAudio.SoundFont.InfoChunk
+    name: InfoChunk
+  - uid: NAudio.SoundFont.Instrument
+    name: Instrument
+  - uid: NAudio.SoundFont.Modulator
+    name: Modulator
+  - uid: NAudio.SoundFont.ModulatorType
+    name: ModulatorType
+  - uid: NAudio.SoundFont.Preset
+    name: Preset
+  - uid: NAudio.SoundFont.PresetsChunk
+    name: PresetsChunk
+  - uid: NAudio.SoundFont.SFSampleLink
+    name: SFSampleLink
+  - uid: NAudio.SoundFont.SFVersion
+    name: SFVersion
+  - uid: NAudio.SoundFont.SampleHeader
+    name: SampleHeader
+  - uid: NAudio.SoundFont.SampleMode
+    name: SampleMode
+  - uid: NAudio.SoundFont.SoundFont
+    name: SoundFont
+  - uid: NAudio.SoundFont.SourceTypeEnum
+    name: SourceTypeEnum
+  - uid: NAudio.SoundFont.TransformEnum
+    name: TransformEnum
+  - uid: NAudio.SoundFont.Zone
+    name: Zone
+- uid: NAudio.Utils
+  name: NAudio.Utils
+  items:
+  - uid: NAudio.Utils.BufferHelpers
+    name: BufferHelpers
+  - uid: NAudio.Utils.ByteArrayExtensions
+    name: ByteArrayExtensions
+  - uid: NAudio.Utils.ByteEncoding
+    name: ByteEncoding
+  - uid: NAudio.Utils.ChunkIdentifier
+    name: ChunkIdentifier
+  - uid: NAudio.Utils.CircularBuffer
+    name: CircularBuffer
+  - uid: NAudio.Utils.Decibels
+    name: Decibels
+  - uid: NAudio.Utils.FieldDescriptionAttribute
+    name: FieldDescriptionAttribute
+  - uid: NAudio.Utils.FieldDescriptionHelper
+    name: FieldDescriptionHelper
+  - uid: NAudio.Utils.HResult
+    name: HResult
+  - uid: NAudio.Utils.IEEE
+    name: IEEE
+  - uid: NAudio.Utils.IgnoreDisposeStream
+    name: IgnoreDisposeStream
+  - uid: NAudio.Utils.NativeMethods
+    name: NativeMethods
+  - uid: NAudio.Utils.WavePositionExtensions
+    name: WavePositionExtensions
+- uid: NAudio.Wasapi.CoreAudioApi
+  name: NAudio.Wasapi.CoreAudioApi
+  items:
+  - uid: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+    name: AudioVolumeLevel
+- uid: NAudio.Wasapi.CoreAudioApi.Interfaces
+  name: NAudio.Wasapi.CoreAudioApi.Interfaces
+  items:
+  - uid: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation
+    name: IActivateAudioInterfaceAsyncOperation
+  - uid: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler
+    name: IActivateAudioInterfaceCompletionHandler
+- uid: NAudio.Wave
+  name: NAudio.Wave
+  items:
+  - uid: NAudio.Wave.AcmMp3FrameDecompressor
+    name: AcmMp3FrameDecompressor
+  - uid: NAudio.Wave.AdpcmWaveFormat
+    name: AdpcmWaveFormat
+  - uid: NAudio.Wave.AiffFileReader
+    name: AiffFileReader
+  - uid: NAudio.Wave.AiffFileReader.AiffChunk
+    name: AiffFileReader.AiffChunk
+  - uid: NAudio.Wave.AiffFileWriter
+    name: AiffFileWriter
+  - uid: NAudio.Wave.AsioAudioAvailableEventArgs
+    name: AsioAudioAvailableEventArgs
+  - uid: NAudio.Wave.AsioOut
+    name: AsioOut
+  - uid: NAudio.Wave.AudioFileReader
+    name: AudioFileReader
+  - uid: NAudio.Wave.BextChunkInfo
+    name: BextChunkInfo
+  - uid: NAudio.Wave.BlockAlignReductionStream
+    name: BlockAlignReductionStream
+  - uid: NAudio.Wave.BufferedWaveProvider
+    name: BufferedWaveProvider
+  - uid: NAudio.Wave.BwfWriter
+    name: BwfWriter
+  - uid: NAudio.Wave.ChannelMode
+    name: ChannelMode
+  - uid: NAudio.Wave.Cue
+    name: Cue
+  - uid: NAudio.Wave.CueList
+    name: CueList
+  - uid: NAudio.Wave.CueWaveFileReader
+    name: CueWaveFileReader
+  - uid: NAudio.Wave.CueWaveFileWriter
+    name: CueWaveFileWriter
+  - uid: NAudio.Wave.DirectSoundDeviceInfo
+    name: DirectSoundDeviceInfo
+  - uid: NAudio.Wave.DirectSoundOut
+    name: DirectSoundOut
+  - uid: NAudio.Wave.DmoEffectWaveProvider`2
+    name: DmoEffectWaveProvider<TDmoEffector, TEffectorParam>
+  - uid: NAudio.Wave.Gsm610WaveFormat
+    name: Gsm610WaveFormat
+  - uid: NAudio.Wave.IMp3FrameDecompressor
+    name: IMp3FrameDecompressor
+  - uid: NAudio.Wave.ISampleNotifier
+    name: ISampleNotifier
+  - uid: NAudio.Wave.ISampleProvider
+    name: ISampleProvider
+  - uid: NAudio.Wave.IWaveBuffer
+    name: IWaveBuffer
+  - uid: NAudio.Wave.IWaveIn
+    name: IWaveIn
+  - uid: NAudio.Wave.IWavePlayer
+    name: IWavePlayer
+  - uid: NAudio.Wave.IWavePosition
+    name: IWavePosition
+  - uid: NAudio.Wave.IWaveProvider
+    name: IWaveProvider
+  - uid: NAudio.Wave.Id3v2Tag
+    name: Id3v2Tag
+  - uid: NAudio.Wave.ImaAdpcmWaveFormat
+    name: ImaAdpcmWaveFormat
+  - uid: NAudio.Wave.MediaFoundationEncoder
+    name: MediaFoundationEncoder
+  - uid: NAudio.Wave.MediaFoundationReader
+    name: MediaFoundationReader
+  - uid: NAudio.Wave.MediaFoundationReader.MediaFoundationReaderSettings
+    name: MediaFoundationReader.MediaFoundationReaderSettings
+  - uid: NAudio.Wave.MediaFoundationResampler
+    name: MediaFoundationResampler
+  - uid: NAudio.Wave.MixingWaveProvider32
+    name: MixingWaveProvider32
+  - uid: NAudio.Wave.MmTime
+    name: MmTime
+  - uid: NAudio.Wave.MonoToStereoProvider16
+    name: MonoToStereoProvider16
+  - uid: NAudio.Wave.Mp3FileReader
+    name: Mp3FileReader
+  - uid: NAudio.Wave.Mp3FileReaderBase
+    name: Mp3FileReaderBase
+  - uid: NAudio.Wave.Mp3FileReaderBase.FrameDecompressorBuilder
+    name: Mp3FileReaderBase.FrameDecompressorBuilder
+  - uid: NAudio.Wave.Mp3Frame
+    name: Mp3Frame
+  - uid: NAudio.Wave.Mp3WaveFormat
+    name: Mp3WaveFormat
+  - uid: NAudio.Wave.Mp3WaveFormatFlags
+    name: Mp3WaveFormatFlags
+  - uid: NAudio.Wave.Mp3WaveFormatId
+    name: Mp3WaveFormatId
+  - uid: NAudio.Wave.MpegLayer
+    name: MpegLayer
+  - uid: NAudio.Wave.MpegVersion
+    name: MpegVersion
+  - uid: NAudio.Wave.MultiplexingWaveProvider
+    name: MultiplexingWaveProvider
+  - uid: NAudio.Wave.PlaybackState
+    name: PlaybackState
+  - uid: NAudio.Wave.RawSourceWaveStream
+    name: RawSourceWaveStream
+  - uid: NAudio.Wave.ResamplerDmoStream
+    name: ResamplerDmoStream
+  - uid: NAudio.Wave.RiffChunk
+    name: RiffChunk
+  - uid: NAudio.Wave.SampleEventArgs
+    name: SampleEventArgs
+  - uid: NAudio.Wave.SilenceProvider
+    name: SilenceProvider
+  - uid: NAudio.Wave.SimpleCompressorEffect
+    name: SimpleCompressorEffect
+  - uid: NAudio.Wave.StereoToMonoProvider16
+    name: StereoToMonoProvider16
+  - uid: NAudio.Wave.StoppedEventArgs
+    name: StoppedEventArgs
+  - uid: NAudio.Wave.StreamMediaFoundationReader
+    name: StreamMediaFoundationReader
+  - uid: NAudio.Wave.SupportedWaveFormat
+    name: SupportedWaveFormat
+  - uid: NAudio.Wave.TrueSpeechWaveFormat
+    name: TrueSpeechWaveFormat
+  - uid: NAudio.Wave.VolumeWaveProvider16
+    name: VolumeWaveProvider16
+  - uid: NAudio.Wave.WasapiLoopbackCapture
+    name: WasapiLoopbackCapture
+  - uid: NAudio.Wave.WasapiOut
+    name: WasapiOut
+  - uid: NAudio.Wave.Wave16ToFloatProvider
+    name: Wave16ToFloatProvider
+  - uid: NAudio.Wave.Wave32To16Stream
+    name: Wave32To16Stream
+  - uid: NAudio.Wave.WaveBuffer
+    name: WaveBuffer
+  - uid: NAudio.Wave.WaveCallbackStrategy
+    name: WaveCallbackStrategy
+  - uid: NAudio.Wave.WaveCapabilitiesHelpers
+    name: WaveCapabilitiesHelpers
+  - uid: NAudio.Wave.WaveChannel32
+    name: WaveChannel32
+  - uid: NAudio.Wave.WaveExtensionMethods
+    name: WaveExtensionMethods
+  - uid: NAudio.Wave.WaveFileReader
+    name: WaveFileReader
+  - uid: NAudio.Wave.WaveFileWriter
+    name: WaveFileWriter
+  - uid: NAudio.Wave.WaveFloatTo16Provider
+    name: WaveFloatTo16Provider
+  - uid: NAudio.Wave.WaveFormat
+    name: WaveFormat
+  - uid: NAudio.Wave.WaveFormatConversionProvider
+    name: WaveFormatConversionProvider
+  - uid: NAudio.Wave.WaveFormatConversionStream
+    name: WaveFormatConversionStream
+  - uid: NAudio.Wave.WaveFormatCustomMarshaler
+    name: WaveFormatCustomMarshaler
+  - uid: NAudio.Wave.WaveFormatEncoding
+    name: WaveFormatEncoding
+  - uid: NAudio.Wave.WaveFormatExtensible
+    name: WaveFormatExtensible
+  - uid: NAudio.Wave.WaveFormatExtraData
+    name: WaveFormatExtraData
+  - uid: NAudio.Wave.WaveHeader
+    name: WaveHeader
+  - uid: NAudio.Wave.WaveHeaderFlags
+    name: WaveHeaderFlags
+  - uid: NAudio.Wave.WaveInBuffer
+    name: WaveInBuffer
+  - uid: NAudio.Wave.WaveInCapabilities
+    name: WaveInCapabilities
+  - uid: NAudio.Wave.WaveInEvent
+    name: WaveInEvent
+  - uid: NAudio.Wave.WaveInEventArgs
+    name: WaveInEventArgs
+  - uid: NAudio.Wave.WaveInProvider
+    name: WaveInProvider
+  - uid: NAudio.Wave.WaveInterop
+    name: WaveInterop
+  - uid: NAudio.Wave.WaveInterop.WaveCallback
+    name: WaveInterop.WaveCallback
+  - uid: NAudio.Wave.WaveInterop.WaveInOutOpenFlags
+    name: WaveInterop.WaveInOutOpenFlags
+  - uid: NAudio.Wave.WaveInterop.WaveMessage
+    name: WaveInterop.WaveMessage
+  - uid: NAudio.Wave.WaveMixerStream32
+    name: WaveMixerStream32
+  - uid: NAudio.Wave.WaveOffsetStream
+    name: WaveOffsetStream
+  - uid: NAudio.Wave.WaveOutBuffer
+    name: WaveOutBuffer
+  - uid: NAudio.Wave.WaveOutCapabilities
+    name: WaveOutCapabilities
+  - uid: NAudio.Wave.WaveOutEvent
+    name: WaveOutEvent
+  - uid: NAudio.Wave.WaveOutUtils
+    name: WaveOutUtils
+  - uid: NAudio.Wave.WaveProvider16
+    name: WaveProvider16
+  - uid: NAudio.Wave.WaveProvider32
+    name: WaveProvider32
+  - uid: NAudio.Wave.WaveRecorder
+    name: WaveRecorder
+  - uid: NAudio.Wave.WaveStream
+    name: WaveStream
+  - uid: NAudio.Wave.XingHeader
+    name: XingHeader
+- uid: NAudio.Wave.Asio
+  name: NAudio.Wave.Asio
+  items:
+  - uid: NAudio.Wave.Asio.Asio64Bit
+    name: Asio64Bit
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+    name: AsioCallbacks.AsioAsioMessageCallBack
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+    name: AsioCallbacks.AsioBufferSwitchCallBack
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+    name: AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack
+    name: AsioCallbacks.AsioSampleRateDidChangeCallBack
+  - uid: NAudio.Wave.Asio.AsioChannelInfo
+    name: AsioChannelInfo
+  - uid: NAudio.Wave.Asio.AsioDriver
+    name: AsioDriver
+  - uid: NAudio.Wave.Asio.AsioDriverCapability
+    name: AsioDriverCapability
+  - uid: NAudio.Wave.Asio.AsioDriverExt
+    name: AsioDriverExt
+  - uid: NAudio.Wave.Asio.AsioError
+    name: AsioError
+  - uid: NAudio.Wave.Asio.AsioFillBufferCallback
+    name: AsioFillBufferCallback
+  - uid: NAudio.Wave.Asio.AsioMessageSelector
+    name: AsioMessageSelector
+  - uid: NAudio.Wave.Asio.AsioSampleType
+    name: AsioSampleType
+- uid: NAudio.Wave.Compression
+  name: NAudio.Wave.Compression
+  items:
+  - uid: NAudio.Wave.Compression.AcmDriver
+    name: AcmDriver
+  - uid: NAudio.Wave.Compression.AcmDriverDetailsSupportFlags
+    name: AcmDriverDetailsSupportFlags
+  - uid: NAudio.Wave.Compression.AcmFormat
+    name: AcmFormat
+  - uid: NAudio.Wave.Compression.AcmFormatEnumFlags
+    name: AcmFormatEnumFlags
+  - uid: NAudio.Wave.Compression.AcmFormatTag
+    name: AcmFormatTag
+  - uid: NAudio.Wave.Compression.AcmStream
+    name: AcmStream
+  - uid: NAudio.Wave.Compression.WaveFilter
+    name: WaveFilter
+- uid: NAudio.Wave.SampleProviders
+  name: NAudio.Wave.SampleProviders
+  items:
+  - uid: NAudio.Wave.SampleProviders.AdsrSampleProvider
+    name: AdsrSampleProvider
+  - uid: NAudio.Wave.SampleProviders.ConcatenatingSampleProvider
+    name: ConcatenatingSampleProvider
+  - uid: NAudio.Wave.SampleProviders.FadeInOutSampleProvider
+    name: FadeInOutSampleProvider
+  - uid: NAudio.Wave.SampleProviders.IPanStrategy
+    name: IPanStrategy
+  - uid: NAudio.Wave.SampleProviders.LinearPanStrategy
+    name: LinearPanStrategy
+  - uid: NAudio.Wave.SampleProviders.MeteringSampleProvider
+    name: MeteringSampleProvider
+  - uid: NAudio.Wave.SampleProviders.MixingSampleProvider
+    name: MixingSampleProvider
+  - uid: NAudio.Wave.SampleProviders.MonoToStereoSampleProvider
+    name: MonoToStereoSampleProvider
+  - uid: NAudio.Wave.SampleProviders.MultiplexingSampleProvider
+    name: MultiplexingSampleProvider
+  - uid: NAudio.Wave.SampleProviders.NotifyingSampleProvider
+    name: NotifyingSampleProvider
+  - uid: NAudio.Wave.SampleProviders.OffsetSampleProvider
+    name: OffsetSampleProvider
+  - uid: NAudio.Wave.SampleProviders.PanningSampleProvider
+    name: PanningSampleProvider
+  - uid: NAudio.Wave.SampleProviders.Pcm16BitToSampleProvider
+    name: Pcm16BitToSampleProvider
+  - uid: NAudio.Wave.SampleProviders.Pcm24BitToSampleProvider
+    name: Pcm24BitToSampleProvider
+  - uid: NAudio.Wave.SampleProviders.Pcm32BitToSampleProvider
+    name: Pcm32BitToSampleProvider
+  - uid: NAudio.Wave.SampleProviders.Pcm8BitToSampleProvider
+    name: Pcm8BitToSampleProvider
+  - uid: NAudio.Wave.SampleProviders.SampleChannel
+    name: SampleChannel
+  - uid: NAudio.Wave.SampleProviders.SampleProviderConverterBase
+    name: SampleProviderConverterBase
+  - uid: NAudio.Wave.SampleProviders.SampleProviderEventArgs
+    name: SampleProviderEventArgs
+  - uid: NAudio.Wave.SampleProviders.SampleToWaveProvider
+    name: SampleToWaveProvider
+  - uid: NAudio.Wave.SampleProviders.SampleToWaveProvider16
+    name: SampleToWaveProvider16
+  - uid: NAudio.Wave.SampleProviders.SampleToWaveProvider24
+    name: SampleToWaveProvider24
+  - uid: NAudio.Wave.SampleProviders.SignalGenerator
+    name: SignalGenerator
+  - uid: NAudio.Wave.SampleProviders.SignalGeneratorType
+    name: SignalGeneratorType
+  - uid: NAudio.Wave.SampleProviders.SinPanStrategy
+    name: SinPanStrategy
+  - uid: NAudio.Wave.SampleProviders.SmbPitchShiftingSampleProvider
+    name: SmbPitchShiftingSampleProvider
+  - uid: NAudio.Wave.SampleProviders.SquareRootPanStrategy
+    name: SquareRootPanStrategy
+  - uid: NAudio.Wave.SampleProviders.StereoBalanceStrategy
+    name: StereoBalanceStrategy
+  - uid: NAudio.Wave.SampleProviders.StereoSamplePair
+    name: StereoSamplePair
+  - uid: NAudio.Wave.SampleProviders.StereoToMonoSampleProvider
+    name: StereoToMonoSampleProvider
+  - uid: NAudio.Wave.SampleProviders.StreamVolumeEventArgs
+    name: StreamVolumeEventArgs
+  - uid: NAudio.Wave.SampleProviders.VolumeSampleProvider
+    name: VolumeSampleProvider
+  - uid: NAudio.Wave.SampleProviders.WaveToSampleProvider
+    name: WaveToSampleProvider
+  - uid: NAudio.Wave.SampleProviders.WaveToSampleProvider64
+    name: WaveToSampleProvider64
+  - uid: NAudio.Wave.SampleProviders.WdlResamplingSampleProvider
+    name: WdlResamplingSampleProvider
 memberLayout: SamePage

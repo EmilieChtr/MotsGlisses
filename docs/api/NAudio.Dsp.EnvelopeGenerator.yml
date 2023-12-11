@@ -1,0 +1,636 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dsp.EnvelopeGenerator
+  commentId: T:NAudio.Dsp.EnvelopeGenerator
+  id: EnvelopeGenerator
+  parent: NAudio.Dsp
+  children:
+  - NAudio.Dsp.EnvelopeGenerator.#ctor
+  - NAudio.Dsp.EnvelopeGenerator.AttackRate
+  - NAudio.Dsp.EnvelopeGenerator.DecayRate
+  - NAudio.Dsp.EnvelopeGenerator.Gate(System.Boolean)
+  - NAudio.Dsp.EnvelopeGenerator.GetOutput
+  - NAudio.Dsp.EnvelopeGenerator.Process
+  - NAudio.Dsp.EnvelopeGenerator.ReleaseRate
+  - NAudio.Dsp.EnvelopeGenerator.Reset
+  - NAudio.Dsp.EnvelopeGenerator.State
+  - NAudio.Dsp.EnvelopeGenerator.SustainLevel
+  langs:
+  - csharp
+  - vb
+  name: EnvelopeGenerator
+  nameWithType: EnvelopeGenerator
+  fullName: NAudio.Dsp.EnvelopeGenerator
+  type: Class
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public class EnvelopeGenerator
+    content.vb: Public Class EnvelopeGenerator
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Dsp.EnvelopeGenerator.#ctor
+  commentId: M:NAudio.Dsp.EnvelopeGenerator.#ctor
+  id: '#ctor'
+  parent: NAudio.Dsp.EnvelopeGenerator
+  langs:
+  - csharp
+  - vb
+  name: EnvelopeGenerator()
+  nameWithType: EnvelopeGenerator.EnvelopeGenerator()
+  fullName: NAudio.Dsp.EnvelopeGenerator.EnvelopeGenerator()
+  type: Constructor
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public EnvelopeGenerator()
+    content.vb: Public Sub New()
+  overload: NAudio.Dsp.EnvelopeGenerator.#ctor*
+  nameWithType.vb: EnvelopeGenerator.New()
+  fullName.vb: NAudio.Dsp.EnvelopeGenerator.New()
+  name.vb: New()
+- uid: NAudio.Dsp.EnvelopeGenerator.Process
+  commentId: M:NAudio.Dsp.EnvelopeGenerator.Process
+  id: Process
+  parent: NAudio.Dsp.EnvelopeGenerator
+  langs:
+  - csharp
+  - vb
+  name: Process()
+  nameWithType: EnvelopeGenerator.Process()
+  fullName: NAudio.Dsp.EnvelopeGenerator.Process()
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public float Process()
+    return:
+      type: System.Single
+    content.vb: Public Function Process() As Single
+  overload: NAudio.Dsp.EnvelopeGenerator.Process*
+- uid: NAudio.Dsp.EnvelopeGenerator.Gate(System.Boolean)
+  commentId: M:NAudio.Dsp.EnvelopeGenerator.Gate(System.Boolean)
+  id: Gate(System.Boolean)
+  parent: NAudio.Dsp.EnvelopeGenerator
+  langs:
+  - csharp
+  - vb
+  name: Gate(bool)
+  nameWithType: EnvelopeGenerator.Gate(bool)
+  fullName: NAudio.Dsp.EnvelopeGenerator.Gate(bool)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public void Gate(bool gate)
+    parameters:
+    - id: gate
+      type: System.Boolean
+    content.vb: Public Sub Gate(gate As Boolean)
+  overload: NAudio.Dsp.EnvelopeGenerator.Gate*
+  nameWithType.vb: EnvelopeGenerator.Gate(Boolean)
+  fullName.vb: NAudio.Dsp.EnvelopeGenerator.Gate(Boolean)
+  name.vb: Gate(Boolean)
+- uid: NAudio.Dsp.EnvelopeGenerator.Reset
+  commentId: M:NAudio.Dsp.EnvelopeGenerator.Reset
+  id: Reset
+  parent: NAudio.Dsp.EnvelopeGenerator
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: EnvelopeGenerator.Reset()
+  fullName: NAudio.Dsp.EnvelopeGenerator.Reset()
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset()
+  overload: NAudio.Dsp.EnvelopeGenerator.Reset*
+- uid: NAudio.Dsp.EnvelopeGenerator.GetOutput
+  commentId: M:NAudio.Dsp.EnvelopeGenerator.GetOutput
+  id: GetOutput
+  parent: NAudio.Dsp.EnvelopeGenerator
+  langs:
+  - csharp
+  - vb
+  name: GetOutput()
+  nameWithType: EnvelopeGenerator.GetOutput()
+  fullName: NAudio.Dsp.EnvelopeGenerator.GetOutput()
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public float GetOutput()
+    return:
+      type: System.Single
+    content.vb: Public Function GetOutput() As Single
+  overload: NAudio.Dsp.EnvelopeGenerator.GetOutput*
+- uid: NAudio.Dsp.EnvelopeGenerator.AttackRate
+  commentId: P:NAudio.Dsp.EnvelopeGenerator.AttackRate
+  id: AttackRate
+  parent: NAudio.Dsp.EnvelopeGenerator
+  langs:
+  - csharp
+  - vb
+  name: AttackRate
+  nameWithType: EnvelopeGenerator.AttackRate
+  fullName: NAudio.Dsp.EnvelopeGenerator.AttackRate
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public float AttackRate { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property AttackRate As Single
+  overload: NAudio.Dsp.EnvelopeGenerator.AttackRate*
+- uid: NAudio.Dsp.EnvelopeGenerator.DecayRate
+  commentId: P:NAudio.Dsp.EnvelopeGenerator.DecayRate
+  id: DecayRate
+  parent: NAudio.Dsp.EnvelopeGenerator
+  langs:
+  - csharp
+  - vb
+  name: DecayRate
+  nameWithType: EnvelopeGenerator.DecayRate
+  fullName: NAudio.Dsp.EnvelopeGenerator.DecayRate
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public float DecayRate { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property DecayRate As Single
+  overload: NAudio.Dsp.EnvelopeGenerator.DecayRate*
+- uid: NAudio.Dsp.EnvelopeGenerator.ReleaseRate
+  commentId: P:NAudio.Dsp.EnvelopeGenerator.ReleaseRate
+  id: ReleaseRate
+  parent: NAudio.Dsp.EnvelopeGenerator
+  langs:
+  - csharp
+  - vb
+  name: ReleaseRate
+  nameWithType: EnvelopeGenerator.ReleaseRate
+  fullName: NAudio.Dsp.EnvelopeGenerator.ReleaseRate
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public float ReleaseRate { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ReleaseRate As Single
+  overload: NAudio.Dsp.EnvelopeGenerator.ReleaseRate*
+- uid: NAudio.Dsp.EnvelopeGenerator.SustainLevel
+  commentId: P:NAudio.Dsp.EnvelopeGenerator.SustainLevel
+  id: SustainLevel
+  parent: NAudio.Dsp.EnvelopeGenerator
+  langs:
+  - csharp
+  - vb
+  name: SustainLevel
+  nameWithType: EnvelopeGenerator.SustainLevel
+  fullName: NAudio.Dsp.EnvelopeGenerator.SustainLevel
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public float SustainLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SustainLevel As Single
+  overload: NAudio.Dsp.EnvelopeGenerator.SustainLevel*
+- uid: NAudio.Dsp.EnvelopeGenerator.State
+  commentId: P:NAudio.Dsp.EnvelopeGenerator.State
+  id: State
+  parent: NAudio.Dsp.EnvelopeGenerator
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: EnvelopeGenerator.State
+  fullName: NAudio.Dsp.EnvelopeGenerator.State
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Dsp
+  syntax:
+    content: public EnvelopeGenerator.EnvelopeState State { get; }
+    parameters: []
+    return:
+      type: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+    content.vb: Public ReadOnly Property State As EnvelopeGenerator.EnvelopeState
+  overload: NAudio.Dsp.EnvelopeGenerator.State*
+references:
+- uid: NAudio.Dsp
+  commentId: N:NAudio.Dsp
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dsp
+  nameWithType: NAudio.Dsp
+  fullName: NAudio.Dsp
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dsp
+    name: Dsp
+    isExternal: true
+    href: NAudio.Dsp.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dsp
+    name: Dsp
+    isExternal: true
+    href: NAudio.Dsp.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Dsp.EnvelopeGenerator.#ctor*
+  commentId: Overload:NAudio.Dsp.EnvelopeGenerator.#ctor
+  isExternal: true
+  href: NAudio.Dsp.EnvelopeGenerator.html#NAudio_Dsp_EnvelopeGenerator__ctor
+  name: EnvelopeGenerator
+  nameWithType: EnvelopeGenerator.EnvelopeGenerator
+  fullName: NAudio.Dsp.EnvelopeGenerator.EnvelopeGenerator
+  nameWithType.vb: EnvelopeGenerator.New
+  fullName.vb: NAudio.Dsp.EnvelopeGenerator.New
+  name.vb: New
+- uid: NAudio.Dsp.EnvelopeGenerator.Process*
+  commentId: Overload:NAudio.Dsp.EnvelopeGenerator.Process
+  isExternal: true
+  href: NAudio.Dsp.EnvelopeGenerator.html#NAudio_Dsp_EnvelopeGenerator_Process
+  name: Process
+  nameWithType: EnvelopeGenerator.Process
+  fullName: NAudio.Dsp.EnvelopeGenerator.Process
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NAudio.Dsp.EnvelopeGenerator.Gate*
+  commentId: Overload:NAudio.Dsp.EnvelopeGenerator.Gate
+  isExternal: true
+  href: NAudio.Dsp.EnvelopeGenerator.html#NAudio_Dsp_EnvelopeGenerator_Gate_System_Boolean_
+  name: Gate
+  nameWithType: EnvelopeGenerator.Gate
+  fullName: NAudio.Dsp.EnvelopeGenerator.Gate
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NAudio.Dsp.EnvelopeGenerator.Reset*
+  commentId: Overload:NAudio.Dsp.EnvelopeGenerator.Reset
+  isExternal: true
+  href: NAudio.Dsp.EnvelopeGenerator.html#NAudio_Dsp_EnvelopeGenerator_Reset
+  name: Reset
+  nameWithType: EnvelopeGenerator.Reset
+  fullName: NAudio.Dsp.EnvelopeGenerator.Reset
+- uid: NAudio.Dsp.EnvelopeGenerator.GetOutput*
+  commentId: Overload:NAudio.Dsp.EnvelopeGenerator.GetOutput
+  isExternal: true
+  href: NAudio.Dsp.EnvelopeGenerator.html#NAudio_Dsp_EnvelopeGenerator_GetOutput
+  name: GetOutput
+  nameWithType: EnvelopeGenerator.GetOutput
+  fullName: NAudio.Dsp.EnvelopeGenerator.GetOutput
+- uid: NAudio.Dsp.EnvelopeGenerator.AttackRate*
+  commentId: Overload:NAudio.Dsp.EnvelopeGenerator.AttackRate
+  isExternal: true
+  href: NAudio.Dsp.EnvelopeGenerator.html#NAudio_Dsp_EnvelopeGenerator_AttackRate
+  name: AttackRate
+  nameWithType: EnvelopeGenerator.AttackRate
+  fullName: NAudio.Dsp.EnvelopeGenerator.AttackRate
+- uid: NAudio.Dsp.EnvelopeGenerator.DecayRate*
+  commentId: Overload:NAudio.Dsp.EnvelopeGenerator.DecayRate
+  isExternal: true
+  href: NAudio.Dsp.EnvelopeGenerator.html#NAudio_Dsp_EnvelopeGenerator_DecayRate
+  name: DecayRate
+  nameWithType: EnvelopeGenerator.DecayRate
+  fullName: NAudio.Dsp.EnvelopeGenerator.DecayRate
+- uid: NAudio.Dsp.EnvelopeGenerator.ReleaseRate*
+  commentId: Overload:NAudio.Dsp.EnvelopeGenerator.ReleaseRate
+  isExternal: true
+  href: NAudio.Dsp.EnvelopeGenerator.html#NAudio_Dsp_EnvelopeGenerator_ReleaseRate
+  name: ReleaseRate
+  nameWithType: EnvelopeGenerator.ReleaseRate
+  fullName: NAudio.Dsp.EnvelopeGenerator.ReleaseRate
+- uid: NAudio.Dsp.EnvelopeGenerator.SustainLevel*
+  commentId: Overload:NAudio.Dsp.EnvelopeGenerator.SustainLevel
+  isExternal: true
+  href: NAudio.Dsp.EnvelopeGenerator.html#NAudio_Dsp_EnvelopeGenerator_SustainLevel
+  name: SustainLevel
+  nameWithType: EnvelopeGenerator.SustainLevel
+  fullName: NAudio.Dsp.EnvelopeGenerator.SustainLevel
+- uid: NAudio.Dsp.EnvelopeGenerator.State*
+  commentId: Overload:NAudio.Dsp.EnvelopeGenerator.State
+  isExternal: true
+  href: NAudio.Dsp.EnvelopeGenerator.html#NAudio_Dsp_EnvelopeGenerator_State
+  name: State
+  nameWithType: EnvelopeGenerator.State
+  fullName: NAudio.Dsp.EnvelopeGenerator.State
+- uid: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  commentId: T:NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  parent: NAudio.Dsp
+  isExternal: true
+  href: NAudio.Dsp.EnvelopeGenerator.html
+  name: EnvelopeGenerator.EnvelopeState
+  nameWithType: EnvelopeGenerator.EnvelopeState
+  fullName: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+  spec.csharp:
+  - uid: NAudio.Dsp.EnvelopeGenerator
+    name: EnvelopeGenerator
+    isExternal: true
+    href: NAudio.Dsp.EnvelopeGenerator.html
+  - name: .
+  - uid: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+    name: EnvelopeState
+    isExternal: true
+    href: NAudio.Dsp.EnvelopeGenerator.EnvelopeState.html
+  spec.vb:
+  - uid: NAudio.Dsp.EnvelopeGenerator
+    name: EnvelopeGenerator
+    isExternal: true
+    href: NAudio.Dsp.EnvelopeGenerator.html
+  - name: .
+  - uid: NAudio.Dsp.EnvelopeGenerator.EnvelopeState
+    name: EnvelopeState
+    isExternal: true
+    href: NAudio.Dsp.EnvelopeGenerator.EnvelopeState.html

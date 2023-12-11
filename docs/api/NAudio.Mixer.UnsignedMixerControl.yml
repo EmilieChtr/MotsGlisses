@@ -1,0 +1,799 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Mixer.UnsignedMixerControl
+  commentId: T:NAudio.Mixer.UnsignedMixerControl
+  id: UnsignedMixerControl
+  parent: NAudio.Mixer
+  children:
+  - NAudio.Mixer.UnsignedMixerControl.GetDetails(System.IntPtr)
+  - NAudio.Mixer.UnsignedMixerControl.MaxValue
+  - NAudio.Mixer.UnsignedMixerControl.MinValue
+  - NAudio.Mixer.UnsignedMixerControl.Percent
+  - NAudio.Mixer.UnsignedMixerControl.ToString
+  - NAudio.Mixer.UnsignedMixerControl.Value
+  langs:
+  - csharp
+  - vb
+  name: UnsignedMixerControl
+  nameWithType: UnsignedMixerControl
+  fullName: NAudio.Mixer.UnsignedMixerControl
+  type: Class
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: 'public class UnsignedMixerControl : MixerControl'
+    content.vb: Public Class UnsignedMixerControl Inherits MixerControl
+  inheritance:
+  - System.Object
+  - NAudio.Mixer.MixerControl
+  inheritedMembers:
+  - NAudio.Mixer.MixerControl.mixerHandle
+  - NAudio.Mixer.MixerControl.nChannels
+  - NAudio.Mixer.MixerControl.mixerHandleType
+  - NAudio.Mixer.MixerControl.GetMixerControls(System.IntPtr,NAudio.Mixer.MixerLine,NAudio.Mixer.MixerFlags)
+  - NAudio.Mixer.MixerControl.GetMixerControl(System.IntPtr,System.Int32,System.Int32,System.Int32,NAudio.Mixer.MixerFlags)
+  - NAudio.Mixer.MixerControl.GetControlDetails
+  - NAudio.Mixer.MixerControl.Name
+  - NAudio.Mixer.MixerControl.ControlType
+  - NAudio.Mixer.MixerControl.IsBoolean
+  - NAudio.Mixer.MixerControl.IsListText
+  - NAudio.Mixer.MixerControl.IsSigned
+  - NAudio.Mixer.MixerControl.IsUnsigned
+  - NAudio.Mixer.MixerControl.IsCustom
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Mixer.UnsignedMixerControl.GetDetails(System.IntPtr)
+  commentId: M:NAudio.Mixer.UnsignedMixerControl.GetDetails(System.IntPtr)
+  id: GetDetails(System.IntPtr)
+  parent: NAudio.Mixer.UnsignedMixerControl
+  langs:
+  - csharp
+  - vb
+  name: GetDetails(IntPtr)
+  nameWithType: UnsignedMixerControl.GetDetails(IntPtr)
+  fullName: NAudio.Mixer.UnsignedMixerControl.GetDetails(System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  example: []
+  syntax:
+    content: protected override void GetDetails(IntPtr pDetails)
+    parameters:
+    - id: pDetails
+      type: System.IntPtr
+    content.vb: Protected Overrides Sub GetDetails(pDetails As IntPtr)
+  overridden: NAudio.Mixer.MixerControl.GetDetails(System.IntPtr)
+  overload: NAudio.Mixer.UnsignedMixerControl.GetDetails*
+- uid: NAudio.Mixer.UnsignedMixerControl.ToString
+  commentId: M:NAudio.Mixer.UnsignedMixerControl.ToString
+  id: ToString
+  parent: NAudio.Mixer.UnsignedMixerControl
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: UnsignedMixerControl.ToString()
+  fullName: NAudio.Mixer.UnsignedMixerControl.ToString()
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: NAudio.Mixer.MixerControl.ToString
+  overload: NAudio.Mixer.UnsignedMixerControl.ToString*
+- uid: NAudio.Mixer.UnsignedMixerControl.Value
+  commentId: P:NAudio.Mixer.UnsignedMixerControl.Value
+  id: Value
+  parent: NAudio.Mixer.UnsignedMixerControl
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: UnsignedMixerControl.Value
+  fullName: NAudio.Mixer.UnsignedMixerControl.Value
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: public uint Value { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Value As UInteger
+  overload: NAudio.Mixer.UnsignedMixerControl.Value*
+- uid: NAudio.Mixer.UnsignedMixerControl.MinValue
+  commentId: P:NAudio.Mixer.UnsignedMixerControl.MinValue
+  id: MinValue
+  parent: NAudio.Mixer.UnsignedMixerControl
+  langs:
+  - csharp
+  - vb
+  name: MinValue
+  nameWithType: UnsignedMixerControl.MinValue
+  fullName: NAudio.Mixer.UnsignedMixerControl.MinValue
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: public uint MinValue { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Property MinValue As UInteger
+  overload: NAudio.Mixer.UnsignedMixerControl.MinValue*
+- uid: NAudio.Mixer.UnsignedMixerControl.MaxValue
+  commentId: P:NAudio.Mixer.UnsignedMixerControl.MaxValue
+  id: MaxValue
+  parent: NAudio.Mixer.UnsignedMixerControl
+  langs:
+  - csharp
+  - vb
+  name: MaxValue
+  nameWithType: UnsignedMixerControl.MaxValue
+  fullName: NAudio.Mixer.UnsignedMixerControl.MaxValue
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: public uint MaxValue { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Property MaxValue As UInteger
+  overload: NAudio.Mixer.UnsignedMixerControl.MaxValue*
+- uid: NAudio.Mixer.UnsignedMixerControl.Percent
+  commentId: P:NAudio.Mixer.UnsignedMixerControl.Percent
+  id: Percent
+  parent: NAudio.Mixer.UnsignedMixerControl
+  langs:
+  - csharp
+  - vb
+  name: Percent
+  nameWithType: UnsignedMixerControl.Percent
+  fullName: NAudio.Mixer.UnsignedMixerControl.Percent
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: public double Percent { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Percent As Double
+  overload: NAudio.Mixer.UnsignedMixerControl.Percent*
+references:
+- uid: NAudio.Mixer
+  commentId: N:NAudio.Mixer
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Mixer
+  nameWithType: NAudio.Mixer
+  fullName: NAudio.Mixer
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Mixer
+    name: Mixer
+    isExternal: true
+    href: NAudio.Mixer.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Mixer
+    name: Mixer
+    isExternal: true
+    href: NAudio.Mixer.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NAudio.Mixer.MixerControl
+  commentId: T:NAudio.Mixer.MixerControl
+  parent: NAudio.Mixer
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html
+  name: MixerControl
+  nameWithType: MixerControl
+  fullName: NAudio.Mixer.MixerControl
+- uid: NAudio.Mixer.MixerControl.mixerHandle
+  commentId: F:NAudio.Mixer.MixerControl.mixerHandle
+  parent: NAudio.Mixer.MixerControl
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_mixerHandle
+  name: mixerHandle
+  nameWithType: MixerControl.mixerHandle
+  fullName: NAudio.Mixer.MixerControl.mixerHandle
+- uid: NAudio.Mixer.MixerControl.nChannels
+  commentId: F:NAudio.Mixer.MixerControl.nChannels
+  parent: NAudio.Mixer.MixerControl
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_nChannels
+  name: nChannels
+  nameWithType: MixerControl.nChannels
+  fullName: NAudio.Mixer.MixerControl.nChannels
+- uid: NAudio.Mixer.MixerControl.mixerHandleType
+  commentId: F:NAudio.Mixer.MixerControl.mixerHandleType
+  parent: NAudio.Mixer.MixerControl
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_mixerHandleType
+  name: mixerHandleType
+  nameWithType: MixerControl.mixerHandleType
+  fullName: NAudio.Mixer.MixerControl.mixerHandleType
+- uid: NAudio.Mixer.MixerControl.GetMixerControls(System.IntPtr,NAudio.Mixer.MixerLine,NAudio.Mixer.MixerFlags)
+  commentId: M:NAudio.Mixer.MixerControl.GetMixerControls(System.IntPtr,NAudio.Mixer.MixerLine,NAudio.Mixer.MixerFlags)
+  parent: NAudio.Mixer.MixerControl
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_GetMixerControls_System_IntPtr_NAudio_Mixer_MixerLine_NAudio_Mixer_MixerFlags_
+  name: GetMixerControls(IntPtr, MixerLine, MixerFlags)
+  nameWithType: MixerControl.GetMixerControls(IntPtr, MixerLine, MixerFlags)
+  fullName: NAudio.Mixer.MixerControl.GetMixerControls(System.IntPtr, NAudio.Mixer.MixerLine, NAudio.Mixer.MixerFlags)
+  spec.csharp:
+  - uid: NAudio.Mixer.MixerControl.GetMixerControls(System.IntPtr,NAudio.Mixer.MixerLine,NAudio.Mixer.MixerFlags)
+    name: GetMixerControls
+    isExternal: true
+    href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_GetMixerControls_System_IntPtr_NAudio_Mixer_MixerLine_NAudio_Mixer_MixerFlags_
+  - name: (
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: ','
+  - name: " "
+  - uid: NAudio.Mixer.MixerLine
+    name: MixerLine
+    isExternal: true
+    href: NAudio.Mixer.MixerLine.html
+  - name: ','
+  - name: " "
+  - uid: NAudio.Mixer.MixerFlags
+    name: MixerFlags
+    isExternal: true
+    href: NAudio.Mixer.MixerFlags.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Mixer.MixerControl.GetMixerControls(System.IntPtr,NAudio.Mixer.MixerLine,NAudio.Mixer.MixerFlags)
+    name: GetMixerControls
+    isExternal: true
+    href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_GetMixerControls_System_IntPtr_NAudio_Mixer_MixerLine_NAudio_Mixer_MixerFlags_
+  - name: (
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: ','
+  - name: " "
+  - uid: NAudio.Mixer.MixerLine
+    name: MixerLine
+    isExternal: true
+    href: NAudio.Mixer.MixerLine.html
+  - name: ','
+  - name: " "
+  - uid: NAudio.Mixer.MixerFlags
+    name: MixerFlags
+    isExternal: true
+    href: NAudio.Mixer.MixerFlags.html
+  - name: )
+- uid: NAudio.Mixer.MixerControl.GetMixerControl(System.IntPtr,System.Int32,System.Int32,System.Int32,NAudio.Mixer.MixerFlags)
+  commentId: M:NAudio.Mixer.MixerControl.GetMixerControl(System.IntPtr,System.Int32,System.Int32,System.Int32,NAudio.Mixer.MixerFlags)
+  parent: NAudio.Mixer.MixerControl
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_GetMixerControl_System_IntPtr_System_Int32_System_Int32_System_Int32_NAudio_Mixer_MixerFlags_
+  name: GetMixerControl(IntPtr, int, int, int, MixerFlags)
+  nameWithType: MixerControl.GetMixerControl(IntPtr, int, int, int, MixerFlags)
+  fullName: NAudio.Mixer.MixerControl.GetMixerControl(System.IntPtr, int, int, int, NAudio.Mixer.MixerFlags)
+  nameWithType.vb: MixerControl.GetMixerControl(IntPtr, Integer, Integer, Integer, MixerFlags)
+  fullName.vb: NAudio.Mixer.MixerControl.GetMixerControl(System.IntPtr, Integer, Integer, Integer, NAudio.Mixer.MixerFlags)
+  name.vb: GetMixerControl(IntPtr, Integer, Integer, Integer, MixerFlags)
+  spec.csharp:
+  - uid: NAudio.Mixer.MixerControl.GetMixerControl(System.IntPtr,System.Int32,System.Int32,System.Int32,NAudio.Mixer.MixerFlags)
+    name: GetMixerControl
+    isExternal: true
+    href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_GetMixerControl_System_IntPtr_System_Int32_System_Int32_System_Int32_NAudio_Mixer_MixerFlags_
+  - name: (
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: NAudio.Mixer.MixerFlags
+    name: MixerFlags
+    isExternal: true
+    href: NAudio.Mixer.MixerFlags.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Mixer.MixerControl.GetMixerControl(System.IntPtr,System.Int32,System.Int32,System.Int32,NAudio.Mixer.MixerFlags)
+    name: GetMixerControl
+    isExternal: true
+    href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_GetMixerControl_System_IntPtr_System_Int32_System_Int32_System_Int32_NAudio_Mixer_MixerFlags_
+  - name: (
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: NAudio.Mixer.MixerFlags
+    name: MixerFlags
+    isExternal: true
+    href: NAudio.Mixer.MixerFlags.html
+  - name: )
+- uid: NAudio.Mixer.MixerControl.GetControlDetails
+  commentId: M:NAudio.Mixer.MixerControl.GetControlDetails
+  parent: NAudio.Mixer.MixerControl
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_GetControlDetails
+  name: GetControlDetails()
+  nameWithType: MixerControl.GetControlDetails()
+  fullName: NAudio.Mixer.MixerControl.GetControlDetails()
+  spec.csharp:
+  - uid: NAudio.Mixer.MixerControl.GetControlDetails
+    name: GetControlDetails
+    isExternal: true
+    href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_GetControlDetails
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.Mixer.MixerControl.GetControlDetails
+    name: GetControlDetails
+    isExternal: true
+    href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_GetControlDetails
+  - name: (
+  - name: )
+- uid: NAudio.Mixer.MixerControl.Name
+  commentId: P:NAudio.Mixer.MixerControl.Name
+  parent: NAudio.Mixer.MixerControl
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_Name
+  name: Name
+  nameWithType: MixerControl.Name
+  fullName: NAudio.Mixer.MixerControl.Name
+- uid: NAudio.Mixer.MixerControl.ControlType
+  commentId: P:NAudio.Mixer.MixerControl.ControlType
+  parent: NAudio.Mixer.MixerControl
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_ControlType
+  name: ControlType
+  nameWithType: MixerControl.ControlType
+  fullName: NAudio.Mixer.MixerControl.ControlType
+- uid: NAudio.Mixer.MixerControl.IsBoolean
+  commentId: P:NAudio.Mixer.MixerControl.IsBoolean
+  parent: NAudio.Mixer.MixerControl
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_IsBoolean
+  name: IsBoolean
+  nameWithType: MixerControl.IsBoolean
+  fullName: NAudio.Mixer.MixerControl.IsBoolean
+- uid: NAudio.Mixer.MixerControl.IsListText
+  commentId: P:NAudio.Mixer.MixerControl.IsListText
+  parent: NAudio.Mixer.MixerControl
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_IsListText
+  name: IsListText
+  nameWithType: MixerControl.IsListText
+  fullName: NAudio.Mixer.MixerControl.IsListText
+- uid: NAudio.Mixer.MixerControl.IsSigned
+  commentId: P:NAudio.Mixer.MixerControl.IsSigned
+  parent: NAudio.Mixer.MixerControl
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_IsSigned
+  name: IsSigned
+  nameWithType: MixerControl.IsSigned
+  fullName: NAudio.Mixer.MixerControl.IsSigned
+- uid: NAudio.Mixer.MixerControl.IsUnsigned
+  commentId: P:NAudio.Mixer.MixerControl.IsUnsigned
+  parent: NAudio.Mixer.MixerControl
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_IsUnsigned
+  name: IsUnsigned
+  nameWithType: MixerControl.IsUnsigned
+  fullName: NAudio.Mixer.MixerControl.IsUnsigned
+- uid: NAudio.Mixer.MixerControl.IsCustom
+  commentId: P:NAudio.Mixer.MixerControl.IsCustom
+  parent: NAudio.Mixer.MixerControl
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_IsCustom
+  name: IsCustom
+  nameWithType: MixerControl.IsCustom
+  fullName: NAudio.Mixer.MixerControl.IsCustom
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Mixer.MixerControl.GetDetails(System.IntPtr)
+  commentId: M:NAudio.Mixer.MixerControl.GetDetails(System.IntPtr)
+  parent: NAudio.Mixer.MixerControl
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_GetDetails_System_IntPtr_
+  name: GetDetails(IntPtr)
+  nameWithType: MixerControl.GetDetails(IntPtr)
+  fullName: NAudio.Mixer.MixerControl.GetDetails(System.IntPtr)
+  spec.csharp:
+  - uid: NAudio.Mixer.MixerControl.GetDetails(System.IntPtr)
+    name: GetDetails
+    isExternal: true
+    href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_GetDetails_System_IntPtr_
+  - name: (
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: )
+  spec.vb:
+  - uid: NAudio.Mixer.MixerControl.GetDetails(System.IntPtr)
+    name: GetDetails
+    isExternal: true
+    href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_GetDetails_System_IntPtr_
+  - name: (
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: )
+- uid: NAudio.Mixer.UnsignedMixerControl.GetDetails*
+  commentId: Overload:NAudio.Mixer.UnsignedMixerControl.GetDetails
+  isExternal: true
+  href: NAudio.Mixer.UnsignedMixerControl.html#NAudio_Mixer_UnsignedMixerControl_GetDetails_System_IntPtr_
+  name: GetDetails
+  nameWithType: UnsignedMixerControl.GetDetails
+  fullName: NAudio.Mixer.UnsignedMixerControl.GetDetails
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: NAudio.Mixer.MixerControl.ToString
+  commentId: M:NAudio.Mixer.MixerControl.ToString
+  parent: NAudio.Mixer.MixerControl
+  isExternal: true
+  href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_ToString
+  name: ToString()
+  nameWithType: MixerControl.ToString()
+  fullName: NAudio.Mixer.MixerControl.ToString()
+  spec.csharp:
+  - uid: NAudio.Mixer.MixerControl.ToString
+    name: ToString
+    isExternal: true
+    href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.Mixer.MixerControl.ToString
+    name: ToString
+    isExternal: true
+    href: NAudio.Mixer.MixerControl.html#NAudio_Mixer_MixerControl_ToString
+  - name: (
+  - name: )
+- uid: NAudio.Mixer.UnsignedMixerControl.ToString*
+  commentId: Overload:NAudio.Mixer.UnsignedMixerControl.ToString
+  isExternal: true
+  href: NAudio.Mixer.UnsignedMixerControl.html#NAudio_Mixer_UnsignedMixerControl_ToString
+  name: ToString
+  nameWithType: UnsignedMixerControl.ToString
+  fullName: NAudio.Mixer.UnsignedMixerControl.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.Mixer.UnsignedMixerControl.Value*
+  commentId: Overload:NAudio.Mixer.UnsignedMixerControl.Value
+  isExternal: true
+  href: NAudio.Mixer.UnsignedMixerControl.html#NAudio_Mixer_UnsignedMixerControl_Value
+  name: Value
+  nameWithType: UnsignedMixerControl.Value
+  fullName: NAudio.Mixer.UnsignedMixerControl.Value
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NAudio.Mixer.UnsignedMixerControl.MinValue*
+  commentId: Overload:NAudio.Mixer.UnsignedMixerControl.MinValue
+  isExternal: true
+  href: NAudio.Mixer.UnsignedMixerControl.html#NAudio_Mixer_UnsignedMixerControl_MinValue
+  name: MinValue
+  nameWithType: UnsignedMixerControl.MinValue
+  fullName: NAudio.Mixer.UnsignedMixerControl.MinValue
+- uid: NAudio.Mixer.UnsignedMixerControl.MaxValue*
+  commentId: Overload:NAudio.Mixer.UnsignedMixerControl.MaxValue
+  isExternal: true
+  href: NAudio.Mixer.UnsignedMixerControl.html#NAudio_Mixer_UnsignedMixerControl_MaxValue
+  name: MaxValue
+  nameWithType: UnsignedMixerControl.MaxValue
+  fullName: NAudio.Mixer.UnsignedMixerControl.MaxValue
+- uid: NAudio.Mixer.UnsignedMixerControl.Percent*
+  commentId: Overload:NAudio.Mixer.UnsignedMixerControl.Percent
+  isExternal: true
+  href: NAudio.Mixer.UnsignedMixerControl.html#NAudio_Mixer_UnsignedMixerControl_Percent
+  name: Percent
+  nameWithType: UnsignedMixerControl.Percent
+  fullName: NAudio.Mixer.UnsignedMixerControl.Percent
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double

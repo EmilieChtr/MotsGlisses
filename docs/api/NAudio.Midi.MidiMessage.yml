@@ -1,0 +1,557 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Midi.MidiMessage
+  commentId: T:NAudio.Midi.MidiMessage
+  id: MidiMessage
+  parent: NAudio.Midi
+  children:
+  - NAudio.Midi.MidiMessage.#ctor(System.Int32)
+  - NAudio.Midi.MidiMessage.#ctor(System.Int32,System.Int32,System.Int32)
+  - NAudio.Midi.MidiMessage.ChangeControl(System.Int32,System.Int32,System.Int32)
+  - NAudio.Midi.MidiMessage.ChangePatch(System.Int32,System.Int32)
+  - NAudio.Midi.MidiMessage.RawData
+  - NAudio.Midi.MidiMessage.StartNote(System.Int32,System.Int32,System.Int32)
+  - NAudio.Midi.MidiMessage.StopNote(System.Int32,System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: MidiMessage
+  nameWithType: MidiMessage
+  fullName: NAudio.Midi.MidiMessage
+  type: Class
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public class MidiMessage
+    content.vb: Public Class MidiMessage
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Midi.MidiMessage.#ctor(System.Int32,System.Int32,System.Int32)
+  commentId: M:NAudio.Midi.MidiMessage.#ctor(System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32)'
+  parent: NAudio.Midi.MidiMessage
+  langs:
+  - csharp
+  - vb
+  name: MidiMessage(int, int, int)
+  nameWithType: MidiMessage.MidiMessage(int, int, int)
+  fullName: NAudio.Midi.MidiMessage.MidiMessage(int, int, int)
+  type: Constructor
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public MidiMessage(int status, int data1, int data2)
+    parameters:
+    - id: status
+      type: System.Int32
+    - id: data1
+      type: System.Int32
+    - id: data2
+      type: System.Int32
+    content.vb: Public Sub New(status As Integer, data1 As Integer, data2 As Integer)
+  overload: NAudio.Midi.MidiMessage.#ctor*
+  nameWithType.vb: MidiMessage.New(Integer, Integer, Integer)
+  fullName.vb: NAudio.Midi.MidiMessage.New(Integer, Integer, Integer)
+  name.vb: New(Integer, Integer, Integer)
+- uid: NAudio.Midi.MidiMessage.#ctor(System.Int32)
+  commentId: M:NAudio.Midi.MidiMessage.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: NAudio.Midi.MidiMessage
+  langs:
+  - csharp
+  - vb
+  name: MidiMessage(int)
+  nameWithType: MidiMessage.MidiMessage(int)
+  fullName: NAudio.Midi.MidiMessage.MidiMessage(int)
+  type: Constructor
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public MidiMessage(int rawData)
+    parameters:
+    - id: rawData
+      type: System.Int32
+    content.vb: Public Sub New(rawData As Integer)
+  overload: NAudio.Midi.MidiMessage.#ctor*
+  nameWithType.vb: MidiMessage.New(Integer)
+  fullName.vb: NAudio.Midi.MidiMessage.New(Integer)
+  name.vb: New(Integer)
+- uid: NAudio.Midi.MidiMessage.StartNote(System.Int32,System.Int32,System.Int32)
+  commentId: M:NAudio.Midi.MidiMessage.StartNote(System.Int32,System.Int32,System.Int32)
+  id: StartNote(System.Int32,System.Int32,System.Int32)
+  parent: NAudio.Midi.MidiMessage
+  langs:
+  - csharp
+  - vb
+  name: StartNote(int, int, int)
+  nameWithType: MidiMessage.StartNote(int, int, int)
+  fullName: NAudio.Midi.MidiMessage.StartNote(int, int, int)
+  type: Method
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public static MidiMessage StartNote(int note, int volume, int channel)
+    parameters:
+    - id: note
+      type: System.Int32
+    - id: volume
+      type: System.Int32
+    - id: channel
+      type: System.Int32
+    return:
+      type: NAudio.Midi.MidiMessage
+    content.vb: Public Shared Function StartNote(note As Integer, volume As Integer, channel As Integer) As MidiMessage
+  overload: NAudio.Midi.MidiMessage.StartNote*
+  nameWithType.vb: MidiMessage.StartNote(Integer, Integer, Integer)
+  fullName.vb: NAudio.Midi.MidiMessage.StartNote(Integer, Integer, Integer)
+  name.vb: StartNote(Integer, Integer, Integer)
+- uid: NAudio.Midi.MidiMessage.StopNote(System.Int32,System.Int32,System.Int32)
+  commentId: M:NAudio.Midi.MidiMessage.StopNote(System.Int32,System.Int32,System.Int32)
+  id: StopNote(System.Int32,System.Int32,System.Int32)
+  parent: NAudio.Midi.MidiMessage
+  langs:
+  - csharp
+  - vb
+  name: StopNote(int, int, int)
+  nameWithType: MidiMessage.StopNote(int, int, int)
+  fullName: NAudio.Midi.MidiMessage.StopNote(int, int, int)
+  type: Method
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public static MidiMessage StopNote(int note, int volume, int channel)
+    parameters:
+    - id: note
+      type: System.Int32
+    - id: volume
+      type: System.Int32
+    - id: channel
+      type: System.Int32
+    return:
+      type: NAudio.Midi.MidiMessage
+    content.vb: Public Shared Function StopNote(note As Integer, volume As Integer, channel As Integer) As MidiMessage
+  overload: NAudio.Midi.MidiMessage.StopNote*
+  nameWithType.vb: MidiMessage.StopNote(Integer, Integer, Integer)
+  fullName.vb: NAudio.Midi.MidiMessage.StopNote(Integer, Integer, Integer)
+  name.vb: StopNote(Integer, Integer, Integer)
+- uid: NAudio.Midi.MidiMessage.ChangePatch(System.Int32,System.Int32)
+  commentId: M:NAudio.Midi.MidiMessage.ChangePatch(System.Int32,System.Int32)
+  id: ChangePatch(System.Int32,System.Int32)
+  parent: NAudio.Midi.MidiMessage
+  langs:
+  - csharp
+  - vb
+  name: ChangePatch(int, int)
+  nameWithType: MidiMessage.ChangePatch(int, int)
+  fullName: NAudio.Midi.MidiMessage.ChangePatch(int, int)
+  type: Method
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public static MidiMessage ChangePatch(int patch, int channel)
+    parameters:
+    - id: patch
+      type: System.Int32
+    - id: channel
+      type: System.Int32
+    return:
+      type: NAudio.Midi.MidiMessage
+    content.vb: Public Shared Function ChangePatch(patch As Integer, channel As Integer) As MidiMessage
+  overload: NAudio.Midi.MidiMessage.ChangePatch*
+  nameWithType.vb: MidiMessage.ChangePatch(Integer, Integer)
+  fullName.vb: NAudio.Midi.MidiMessage.ChangePatch(Integer, Integer)
+  name.vb: ChangePatch(Integer, Integer)
+- uid: NAudio.Midi.MidiMessage.ChangeControl(System.Int32,System.Int32,System.Int32)
+  commentId: M:NAudio.Midi.MidiMessage.ChangeControl(System.Int32,System.Int32,System.Int32)
+  id: ChangeControl(System.Int32,System.Int32,System.Int32)
+  parent: NAudio.Midi.MidiMessage
+  langs:
+  - csharp
+  - vb
+  name: ChangeControl(int, int, int)
+  nameWithType: MidiMessage.ChangeControl(int, int, int)
+  fullName: NAudio.Midi.MidiMessage.ChangeControl(int, int, int)
+  type: Method
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public static MidiMessage ChangeControl(int controller, int value, int channel)
+    parameters:
+    - id: controller
+      type: System.Int32
+    - id: value
+      type: System.Int32
+    - id: channel
+      type: System.Int32
+    return:
+      type: NAudio.Midi.MidiMessage
+    content.vb: Public Shared Function ChangeControl(controller As Integer, value As Integer, channel As Integer) As MidiMessage
+  overload: NAudio.Midi.MidiMessage.ChangeControl*
+  nameWithType.vb: MidiMessage.ChangeControl(Integer, Integer, Integer)
+  fullName.vb: NAudio.Midi.MidiMessage.ChangeControl(Integer, Integer, Integer)
+  name.vb: ChangeControl(Integer, Integer, Integer)
+- uid: NAudio.Midi.MidiMessage.RawData
+  commentId: P:NAudio.Midi.MidiMessage.RawData
+  id: RawData
+  parent: NAudio.Midi.MidiMessage
+  langs:
+  - csharp
+  - vb
+  name: RawData
+  nameWithType: MidiMessage.RawData
+  fullName: NAudio.Midi.MidiMessage.RawData
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public int RawData { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property RawData As Integer
+  overload: NAudio.Midi.MidiMessage.RawData*
+references:
+- uid: NAudio.Midi
+  commentId: N:NAudio.Midi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Midi
+  nameWithType: NAudio.Midi
+  fullName: NAudio.Midi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Midi.MidiMessage.#ctor*
+  commentId: Overload:NAudio.Midi.MidiMessage.#ctor
+  isExternal: true
+  href: NAudio.Midi.MidiMessage.html#NAudio_Midi_MidiMessage__ctor_System_Int32_System_Int32_System_Int32_
+  name: MidiMessage
+  nameWithType: MidiMessage.MidiMessage
+  fullName: NAudio.Midi.MidiMessage.MidiMessage
+  nameWithType.vb: MidiMessage.New
+  fullName.vb: NAudio.Midi.MidiMessage.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.Midi.MidiMessage.StartNote*
+  commentId: Overload:NAudio.Midi.MidiMessage.StartNote
+  isExternal: true
+  href: NAudio.Midi.MidiMessage.html#NAudio_Midi_MidiMessage_StartNote_System_Int32_System_Int32_System_Int32_
+  name: StartNote
+  nameWithType: MidiMessage.StartNote
+  fullName: NAudio.Midi.MidiMessage.StartNote
+- uid: NAudio.Midi.MidiMessage
+  commentId: T:NAudio.Midi.MidiMessage
+  parent: NAudio.Midi
+  isExternal: true
+  href: NAudio.Midi.MidiMessage.html
+  name: MidiMessage
+  nameWithType: MidiMessage
+  fullName: NAudio.Midi.MidiMessage
+- uid: NAudio.Midi.MidiMessage.StopNote*
+  commentId: Overload:NAudio.Midi.MidiMessage.StopNote
+  isExternal: true
+  href: NAudio.Midi.MidiMessage.html#NAudio_Midi_MidiMessage_StopNote_System_Int32_System_Int32_System_Int32_
+  name: StopNote
+  nameWithType: MidiMessage.StopNote
+  fullName: NAudio.Midi.MidiMessage.StopNote
+- uid: NAudio.Midi.MidiMessage.ChangePatch*
+  commentId: Overload:NAudio.Midi.MidiMessage.ChangePatch
+  isExternal: true
+  href: NAudio.Midi.MidiMessage.html#NAudio_Midi_MidiMessage_ChangePatch_System_Int32_System_Int32_
+  name: ChangePatch
+  nameWithType: MidiMessage.ChangePatch
+  fullName: NAudio.Midi.MidiMessage.ChangePatch
+- uid: NAudio.Midi.MidiMessage.ChangeControl*
+  commentId: Overload:NAudio.Midi.MidiMessage.ChangeControl
+  isExternal: true
+  href: NAudio.Midi.MidiMessage.html#NAudio_Midi_MidiMessage_ChangeControl_System_Int32_System_Int32_System_Int32_
+  name: ChangeControl
+  nameWithType: MidiMessage.ChangeControl
+  fullName: NAudio.Midi.MidiMessage.ChangeControl
+- uid: NAudio.Midi.MidiMessage.RawData*
+  commentId: Overload:NAudio.Midi.MidiMessage.RawData
+  isExternal: true
+  href: NAudio.Midi.MidiMessage.html#NAudio_Midi_MidiMessage_RawData
+  name: RawData
+  nameWithType: MidiMessage.RawData
+  fullName: NAudio.Midi.MidiMessage.RawData

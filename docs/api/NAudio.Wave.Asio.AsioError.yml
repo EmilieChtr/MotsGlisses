@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.Asio.AsioError
+  commentId: T:NAudio.Wave.Asio.AsioError
+  id: AsioError
+  parent: NAudio.Wave.Asio
+  children:
+  - NAudio.Wave.Asio.AsioError.ASE_HWMalfunction
+  - NAudio.Wave.Asio.AsioError.ASE_InvalidMode
+  - NAudio.Wave.Asio.AsioError.ASE_InvalidParameter
+  - NAudio.Wave.Asio.AsioError.ASE_NoClock
+  - NAudio.Wave.Asio.AsioError.ASE_NoMemory
+  - NAudio.Wave.Asio.AsioError.ASE_NotPresent
+  - NAudio.Wave.Asio.AsioError.ASE_OK
+  - NAudio.Wave.Asio.AsioError.ASE_SPNotAdvancing
+  - NAudio.Wave.Asio.AsioError.ASE_SUCCESS
+  langs:
+  - csharp
+  - vb
+  name: AsioError
+  nameWithType: AsioError
+  fullName: NAudio.Wave.Asio.AsioError
+  type: Enum
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public enum AsioError
+    content.vb: Public Enum AsioError
+- uid: NAudio.Wave.Asio.AsioError.ASE_OK
+  commentId: F:NAudio.Wave.Asio.AsioError.ASE_OK
+  id: ASE_OK
+  parent: NAudio.Wave.Asio.AsioError
+  langs:
+  - csharp
+  - vb
+  name: ASE_OK
+  nameWithType: AsioError.ASE_OK
+  fullName: NAudio.Wave.Asio.AsioError.ASE_OK
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: ASE_OK = 0
+    return:
+      type: NAudio.Wave.Asio.AsioError
+- uid: NAudio.Wave.Asio.AsioError.ASE_SUCCESS
+  commentId: F:NAudio.Wave.Asio.AsioError.ASE_SUCCESS
+  id: ASE_SUCCESS
+  parent: NAudio.Wave.Asio.AsioError
+  langs:
+  - csharp
+  - vb
+  name: ASE_SUCCESS
+  nameWithType: AsioError.ASE_SUCCESS
+  fullName: NAudio.Wave.Asio.AsioError.ASE_SUCCESS
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: ASE_SUCCESS = 1061701536
+    return:
+      type: NAudio.Wave.Asio.AsioError
+- uid: NAudio.Wave.Asio.AsioError.ASE_NotPresent
+  commentId: F:NAudio.Wave.Asio.AsioError.ASE_NotPresent
+  id: ASE_NotPresent
+  parent: NAudio.Wave.Asio.AsioError
+  langs:
+  - csharp
+  - vb
+  name: ASE_NotPresent
+  nameWithType: AsioError.ASE_NotPresent
+  fullName: NAudio.Wave.Asio.AsioError.ASE_NotPresent
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: ASE_NotPresent = -1000
+    return:
+      type: NAudio.Wave.Asio.AsioError
+- uid: NAudio.Wave.Asio.AsioError.ASE_HWMalfunction
+  commentId: F:NAudio.Wave.Asio.AsioError.ASE_HWMalfunction
+  id: ASE_HWMalfunction
+  parent: NAudio.Wave.Asio.AsioError
+  langs:
+  - csharp
+  - vb
+  name: ASE_HWMalfunction
+  nameWithType: AsioError.ASE_HWMalfunction
+  fullName: NAudio.Wave.Asio.AsioError.ASE_HWMalfunction
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: ASE_HWMalfunction = -999
+    return:
+      type: NAudio.Wave.Asio.AsioError
+- uid: NAudio.Wave.Asio.AsioError.ASE_InvalidParameter
+  commentId: F:NAudio.Wave.Asio.AsioError.ASE_InvalidParameter
+  id: ASE_InvalidParameter
+  parent: NAudio.Wave.Asio.AsioError
+  langs:
+  - csharp
+  - vb
+  name: ASE_InvalidParameter
+  nameWithType: AsioError.ASE_InvalidParameter
+  fullName: NAudio.Wave.Asio.AsioError.ASE_InvalidParameter
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: ASE_InvalidParameter = -998
+    return:
+      type: NAudio.Wave.Asio.AsioError
+- uid: NAudio.Wave.Asio.AsioError.ASE_InvalidMode
+  commentId: F:NAudio.Wave.Asio.AsioError.ASE_InvalidMode
+  id: ASE_InvalidMode
+  parent: NAudio.Wave.Asio.AsioError
+  langs:
+  - csharp
+  - vb
+  name: ASE_InvalidMode
+  nameWithType: AsioError.ASE_InvalidMode
+  fullName: NAudio.Wave.Asio.AsioError.ASE_InvalidMode
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: ASE_InvalidMode = -997
+    return:
+      type: NAudio.Wave.Asio.AsioError
+- uid: NAudio.Wave.Asio.AsioError.ASE_SPNotAdvancing
+  commentId: F:NAudio.Wave.Asio.AsioError.ASE_SPNotAdvancing
+  id: ASE_SPNotAdvancing
+  parent: NAudio.Wave.Asio.AsioError
+  langs:
+  - csharp
+  - vb
+  name: ASE_SPNotAdvancing
+  nameWithType: AsioError.ASE_SPNotAdvancing
+  fullName: NAudio.Wave.Asio.AsioError.ASE_SPNotAdvancing
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: ASE_SPNotAdvancing = -996
+    return:
+      type: NAudio.Wave.Asio.AsioError
+- uid: NAudio.Wave.Asio.AsioError.ASE_NoClock
+  commentId: F:NAudio.Wave.Asio.AsioError.ASE_NoClock
+  id: ASE_NoClock
+  parent: NAudio.Wave.Asio.AsioError
+  langs:
+  - csharp
+  - vb
+  name: ASE_NoClock
+  nameWithType: AsioError.ASE_NoClock
+  fullName: NAudio.Wave.Asio.AsioError.ASE_NoClock
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: ASE_NoClock = -995
+    return:
+      type: NAudio.Wave.Asio.AsioError
+- uid: NAudio.Wave.Asio.AsioError.ASE_NoMemory
+  commentId: F:NAudio.Wave.Asio.AsioError.ASE_NoMemory
+  id: ASE_NoMemory
+  parent: NAudio.Wave.Asio.AsioError
+  langs:
+  - csharp
+  - vb
+  name: ASE_NoMemory
+  nameWithType: AsioError.ASE_NoMemory
+  fullName: NAudio.Wave.Asio.AsioError.ASE_NoMemory
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: ASE_NoMemory = -994
+    return:
+      type: NAudio.Wave.Asio.AsioError
+references:
+- uid: NAudio.Wave.Asio
+  commentId: N:NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave.Asio
+  nameWithType: NAudio.Wave.Asio
+  fullName: NAudio.Wave.Asio
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Asio
+    name: Asio
+    isExternal: true
+    href: NAudio.Wave.Asio.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Asio
+    name: Asio
+    isExternal: true
+    href: NAudio.Wave.Asio.html
+- uid: NAudio.Wave.Asio.AsioError
+  commentId: T:NAudio.Wave.Asio.AsioError
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioError.html
+  name: AsioError
+  nameWithType: AsioError
+  fullName: NAudio.Wave.Asio.AsioError

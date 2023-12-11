@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.IMediaBuffer
+  commentId: T:NAudio.Dmo.IMediaBuffer
+  id: IMediaBuffer
+  parent: NAudio.Dmo
+  children:
+  - NAudio.Dmo.IMediaBuffer.GetBufferAndLength(System.IntPtr,System.IntPtr)
+  - NAudio.Dmo.IMediaBuffer.GetMaxLength(System.Int32@)
+  - NAudio.Dmo.IMediaBuffer.SetLength(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IMediaBuffer
+  nameWithType: IMediaBuffer
+  fullName: NAudio.Dmo.IMediaBuffer
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: >-
+      [Guid("59eff8b9-938c-4a26-82f2-95cb84cdc837")]
+
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      public interface IMediaBuffer
+    content.vb: >-
+      <Guid("59eff8b9-938c-4a26-82f2-95cb84cdc837")>
+
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      Public Interface IMediaBuffer
+  attributes:
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 59eff8b9-938c-4a26-82f2-95cb84cdc837
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+- uid: NAudio.Dmo.IMediaBuffer.SetLength(System.Int32)
+  commentId: M:NAudio.Dmo.IMediaBuffer.SetLength(System.Int32)
+  id: SetLength(System.Int32)
+  parent: NAudio.Dmo.IMediaBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetLength(int)
+  nameWithType: IMediaBuffer.SetLength(int)
+  fullName: NAudio.Dmo.IMediaBuffer.SetLength(int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: int SetLength(int length)
+    parameters:
+    - id: length
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Function SetLength(length As Integer) As Integer
+  overload: NAudio.Dmo.IMediaBuffer.SetLength*
+  nameWithType.vb: IMediaBuffer.SetLength(Integer)
+  fullName.vb: NAudio.Dmo.IMediaBuffer.SetLength(Integer)
+  name.vb: SetLength(Integer)
+- uid: NAudio.Dmo.IMediaBuffer.GetMaxLength(System.Int32@)
+  commentId: M:NAudio.Dmo.IMediaBuffer.GetMaxLength(System.Int32@)
+  id: GetMaxLength(System.Int32@)
+  parent: NAudio.Dmo.IMediaBuffer
+  langs:
+  - csharp
+  - vb
+  name: GetMaxLength(out int)
+  nameWithType: IMediaBuffer.GetMaxLength(out int)
+  fullName: NAudio.Dmo.IMediaBuffer.GetMaxLength(out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: int GetMaxLength(out int maxLength)
+    parameters:
+    - id: maxLength
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Function GetMaxLength(maxLength As Integer) As Integer
+  overload: NAudio.Dmo.IMediaBuffer.GetMaxLength*
+  nameWithType.vb: IMediaBuffer.GetMaxLength(Integer)
+  fullName.vb: NAudio.Dmo.IMediaBuffer.GetMaxLength(Integer)
+  name.vb: GetMaxLength(Integer)
+- uid: NAudio.Dmo.IMediaBuffer.GetBufferAndLength(System.IntPtr,System.IntPtr)
+  commentId: M:NAudio.Dmo.IMediaBuffer.GetBufferAndLength(System.IntPtr,System.IntPtr)
+  id: GetBufferAndLength(System.IntPtr,System.IntPtr)
+  parent: NAudio.Dmo.IMediaBuffer
+  langs:
+  - csharp
+  - vb
+  name: GetBufferAndLength(IntPtr, IntPtr)
+  nameWithType: IMediaBuffer.GetBufferAndLength(IntPtr, IntPtr)
+  fullName: NAudio.Dmo.IMediaBuffer.GetBufferAndLength(System.IntPtr, System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: int GetBufferAndLength(IntPtr bufferPointerPointer, IntPtr validDataLengthPointer)
+    parameters:
+    - id: bufferPointerPointer
+      type: System.IntPtr
+    - id: validDataLengthPointer
+      type: System.IntPtr
+    return:
+      type: System.Int32
+    content.vb: Function GetBufferAndLength(bufferPointerPointer As IntPtr, validDataLengthPointer As IntPtr) As Integer
+  overload: NAudio.Dmo.IMediaBuffer.GetBufferAndLength*
+references:
+- uid: NAudio.Dmo
+  commentId: N:NAudio.Dmo
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo
+  nameWithType: NAudio.Dmo
+  fullName: NAudio.Dmo
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+- uid: NAudio.Dmo.IMediaBuffer.SetLength*
+  commentId: Overload:NAudio.Dmo.IMediaBuffer.SetLength
+  isExternal: true
+  href: NAudio.Dmo.IMediaBuffer.html#NAudio_Dmo_IMediaBuffer_SetLength_System_Int32_
+  name: SetLength
+  nameWithType: IMediaBuffer.SetLength
+  fullName: NAudio.Dmo.IMediaBuffer.SetLength
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Dmo.IMediaBuffer.GetMaxLength*
+  commentId: Overload:NAudio.Dmo.IMediaBuffer.GetMaxLength
+  isExternal: true
+  href: NAudio.Dmo.IMediaBuffer.html#NAudio_Dmo_IMediaBuffer_GetMaxLength_System_Int32__
+  name: GetMaxLength
+  nameWithType: IMediaBuffer.GetMaxLength
+  fullName: NAudio.Dmo.IMediaBuffer.GetMaxLength
+- uid: NAudio.Dmo.IMediaBuffer.GetBufferAndLength*
+  commentId: Overload:NAudio.Dmo.IMediaBuffer.GetBufferAndLength
+  isExternal: true
+  href: NAudio.Dmo.IMediaBuffer.html#NAudio_Dmo_IMediaBuffer_GetBufferAndLength_System_IntPtr_System_IntPtr_
+  name: GetBufferAndLength
+  nameWithType: IMediaBuffer.GetBufferAndLength
+  fullName: NAudio.Dmo.IMediaBuffer.GetBufferAndLength
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr

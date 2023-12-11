@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.SoundFont.SFSampleLink
+  commentId: T:NAudio.SoundFont.SFSampleLink
+  id: SFSampleLink
+  parent: NAudio.SoundFont
+  children:
+  - NAudio.SoundFont.SFSampleLink.LeftSample
+  - NAudio.SoundFont.SFSampleLink.LinkedSample
+  - NAudio.SoundFont.SFSampleLink.MonoSample
+  - NAudio.SoundFont.SFSampleLink.RightSample
+  - NAudio.SoundFont.SFSampleLink.RomLeftSample
+  - NAudio.SoundFont.SFSampleLink.RomLinkedSample
+  - NAudio.SoundFont.SFSampleLink.RomMonoSample
+  - NAudio.SoundFont.SFSampleLink.RomRightSample
+  langs:
+  - csharp
+  - vb
+  name: SFSampleLink
+  nameWithType: SFSampleLink
+  fullName: NAudio.SoundFont.SFSampleLink
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: 'public enum SFSampleLink : ushort'
+    content.vb: Public Enum SFSampleLink As UShort
+- uid: NAudio.SoundFont.SFSampleLink.MonoSample
+  commentId: F:NAudio.SoundFont.SFSampleLink.MonoSample
+  id: MonoSample
+  parent: NAudio.SoundFont.SFSampleLink
+  langs:
+  - csharp
+  - vb
+  name: MonoSample
+  nameWithType: SFSampleLink.MonoSample
+  fullName: NAudio.SoundFont.SFSampleLink.MonoSample
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: MonoSample = 1
+    return:
+      type: NAudio.SoundFont.SFSampleLink
+- uid: NAudio.SoundFont.SFSampleLink.RightSample
+  commentId: F:NAudio.SoundFont.SFSampleLink.RightSample
+  id: RightSample
+  parent: NAudio.SoundFont.SFSampleLink
+  langs:
+  - csharp
+  - vb
+  name: RightSample
+  nameWithType: SFSampleLink.RightSample
+  fullName: NAudio.SoundFont.SFSampleLink.RightSample
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: RightSample = 2
+    return:
+      type: NAudio.SoundFont.SFSampleLink
+- uid: NAudio.SoundFont.SFSampleLink.LeftSample
+  commentId: F:NAudio.SoundFont.SFSampleLink.LeftSample
+  id: LeftSample
+  parent: NAudio.SoundFont.SFSampleLink
+  langs:
+  - csharp
+  - vb
+  name: LeftSample
+  nameWithType: SFSampleLink.LeftSample
+  fullName: NAudio.SoundFont.SFSampleLink.LeftSample
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: LeftSample = 4
+    return:
+      type: NAudio.SoundFont.SFSampleLink
+- uid: NAudio.SoundFont.SFSampleLink.LinkedSample
+  commentId: F:NAudio.SoundFont.SFSampleLink.LinkedSample
+  id: LinkedSample
+  parent: NAudio.SoundFont.SFSampleLink
+  langs:
+  - csharp
+  - vb
+  name: LinkedSample
+  nameWithType: SFSampleLink.LinkedSample
+  fullName: NAudio.SoundFont.SFSampleLink.LinkedSample
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: LinkedSample = 8
+    return:
+      type: NAudio.SoundFont.SFSampleLink
+- uid: NAudio.SoundFont.SFSampleLink.RomMonoSample
+  commentId: F:NAudio.SoundFont.SFSampleLink.RomMonoSample
+  id: RomMonoSample
+  parent: NAudio.SoundFont.SFSampleLink
+  langs:
+  - csharp
+  - vb
+  name: RomMonoSample
+  nameWithType: SFSampleLink.RomMonoSample
+  fullName: NAudio.SoundFont.SFSampleLink.RomMonoSample
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: RomMonoSample = 32769
+    return:
+      type: NAudio.SoundFont.SFSampleLink
+- uid: NAudio.SoundFont.SFSampleLink.RomRightSample
+  commentId: F:NAudio.SoundFont.SFSampleLink.RomRightSample
+  id: RomRightSample
+  parent: NAudio.SoundFont.SFSampleLink
+  langs:
+  - csharp
+  - vb
+  name: RomRightSample
+  nameWithType: SFSampleLink.RomRightSample
+  fullName: NAudio.SoundFont.SFSampleLink.RomRightSample
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: RomRightSample = 32770
+    return:
+      type: NAudio.SoundFont.SFSampleLink
+- uid: NAudio.SoundFont.SFSampleLink.RomLeftSample
+  commentId: F:NAudio.SoundFont.SFSampleLink.RomLeftSample
+  id: RomLeftSample
+  parent: NAudio.SoundFont.SFSampleLink
+  langs:
+  - csharp
+  - vb
+  name: RomLeftSample
+  nameWithType: SFSampleLink.RomLeftSample
+  fullName: NAudio.SoundFont.SFSampleLink.RomLeftSample
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: RomLeftSample = 32772
+    return:
+      type: NAudio.SoundFont.SFSampleLink
+- uid: NAudio.SoundFont.SFSampleLink.RomLinkedSample
+  commentId: F:NAudio.SoundFont.SFSampleLink.RomLinkedSample
+  id: RomLinkedSample
+  parent: NAudio.SoundFont.SFSampleLink
+  langs:
+  - csharp
+  - vb
+  name: RomLinkedSample
+  nameWithType: SFSampleLink.RomLinkedSample
+  fullName: NAudio.SoundFont.SFSampleLink.RomLinkedSample
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.SoundFont
+  syntax:
+    content: RomLinkedSample = 32776
+    return:
+      type: NAudio.SoundFont.SFSampleLink
+references:
+- uid: NAudio.SoundFont
+  commentId: N:NAudio.SoundFont
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.SoundFont
+  nameWithType: NAudio.SoundFont
+  fullName: NAudio.SoundFont
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.SoundFont
+    name: SoundFont
+    isExternal: true
+    href: NAudio.SoundFont.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.SoundFont
+    name: SoundFont
+    isExternal: true
+    href: NAudio.SoundFont.html
+- uid: NAudio.SoundFont.SFSampleLink
+  commentId: T:NAudio.SoundFont.SFSampleLink
+  parent: NAudio.SoundFont
+  isExternal: true
+  href: NAudio.SoundFont.SFSampleLink.html
+  name: SFSampleLink
+  nameWithType: SFSampleLink
+  fullName: NAudio.SoundFont.SFSampleLink

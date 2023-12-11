@@ -1,0 +1,950 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.ImaAdpcmWaveFormat
+  commentId: T:NAudio.Wave.ImaAdpcmWaveFormat
+  id: ImaAdpcmWaveFormat
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.ImaAdpcmWaveFormat.#ctor(System.Int32,System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ImaAdpcmWaveFormat
+  nameWithType: ImaAdpcmWaveFormat
+  fullName: NAudio.Wave.ImaAdpcmWaveFormat
+  type: Class
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: 'public class ImaAdpcmWaveFormat : WaveFormat'
+    content.vb: Public Class ImaAdpcmWaveFormat Inherits WaveFormat
+  inheritance:
+  - System.Object
+  - NAudio.Wave.WaveFormat
+  inheritedMembers:
+  - NAudio.Wave.WaveFormat.waveFormatTag
+  - NAudio.Wave.WaveFormat.channels
+  - NAudio.Wave.WaveFormat.sampleRate
+  - NAudio.Wave.WaveFormat.averageBytesPerSecond
+  - NAudio.Wave.WaveFormat.blockAlign
+  - NAudio.Wave.WaveFormat.bitsPerSample
+  - NAudio.Wave.WaveFormat.extraSize
+  - NAudio.Wave.WaveFormat.ConvertLatencyToByteSize(System.Int32)
+  - NAudio.Wave.WaveFormat.CreateCustomFormat(NAudio.Wave.WaveFormatEncoding,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  - NAudio.Wave.WaveFormat.CreateALawFormat(System.Int32,System.Int32)
+  - NAudio.Wave.WaveFormat.CreateMuLawFormat(System.Int32,System.Int32)
+  - NAudio.Wave.WaveFormat.CreateIeeeFloatWaveFormat(System.Int32,System.Int32)
+  - NAudio.Wave.WaveFormat.MarshalFromPtr(System.IntPtr)
+  - NAudio.Wave.WaveFormat.MarshalToPtr(NAudio.Wave.WaveFormat)
+  - NAudio.Wave.WaveFormat.FromFormatChunk(System.IO.BinaryReader,System.Int32)
+  - NAudio.Wave.WaveFormat.ToString
+  - NAudio.Wave.WaveFormat.Equals(System.Object)
+  - NAudio.Wave.WaveFormat.GetHashCode
+  - NAudio.Wave.WaveFormat.Serialize(System.IO.BinaryWriter)
+  - NAudio.Wave.WaveFormat.Encoding
+  - NAudio.Wave.WaveFormat.Channels
+  - NAudio.Wave.WaveFormat.SampleRate
+  - NAudio.Wave.WaveFormat.AverageBytesPerSecond
+  - NAudio.Wave.WaveFormat.BlockAlign
+  - NAudio.Wave.WaveFormat.BitsPerSample
+  - NAudio.Wave.WaveFormat.ExtraSize
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - NAudio.Wave.WaveFormat.NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat
+- uid: NAudio.Wave.ImaAdpcmWaveFormat.#ctor(System.Int32,System.Int32,System.Int32)
+  commentId: M:NAudio.Wave.ImaAdpcmWaveFormat.#ctor(System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32)'
+  parent: NAudio.Wave.ImaAdpcmWaveFormat
+  langs:
+  - csharp
+  - vb
+  name: ImaAdpcmWaveFormat(int, int, int)
+  nameWithType: ImaAdpcmWaveFormat.ImaAdpcmWaveFormat(int, int, int)
+  fullName: NAudio.Wave.ImaAdpcmWaveFormat.ImaAdpcmWaveFormat(int, int, int)
+  type: Constructor
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public ImaAdpcmWaveFormat(int sampleRate, int channels, int bitsPerSample)
+    parameters:
+    - id: sampleRate
+      type: System.Int32
+    - id: channels
+      type: System.Int32
+    - id: bitsPerSample
+      type: System.Int32
+    content.vb: Public Sub New(sampleRate As Integer, channels As Integer, bitsPerSample As Integer)
+  overload: NAudio.Wave.ImaAdpcmWaveFormat.#ctor*
+  nameWithType.vb: ImaAdpcmWaveFormat.New(Integer, Integer, Integer)
+  fullName.vb: NAudio.Wave.ImaAdpcmWaveFormat.New(Integer, Integer, Integer)
+  name.vb: New(Integer, Integer, Integer)
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat
+- uid: NAudio.Wave.WaveFormat.waveFormatTag
+  commentId: F:NAudio.Wave.WaveFormat.waveFormatTag
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_waveFormatTag
+  name: waveFormatTag
+  nameWithType: WaveFormat.waveFormatTag
+  fullName: NAudio.Wave.WaveFormat.waveFormatTag
+- uid: NAudio.Wave.WaveFormat.channels
+  commentId: F:NAudio.Wave.WaveFormat.channels
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_channels
+  name: channels
+  nameWithType: WaveFormat.channels
+  fullName: NAudio.Wave.WaveFormat.channels
+- uid: NAudio.Wave.WaveFormat.sampleRate
+  commentId: F:NAudio.Wave.WaveFormat.sampleRate
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_sampleRate
+  name: sampleRate
+  nameWithType: WaveFormat.sampleRate
+  fullName: NAudio.Wave.WaveFormat.sampleRate
+- uid: NAudio.Wave.WaveFormat.averageBytesPerSecond
+  commentId: F:NAudio.Wave.WaveFormat.averageBytesPerSecond
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_averageBytesPerSecond
+  name: averageBytesPerSecond
+  nameWithType: WaveFormat.averageBytesPerSecond
+  fullName: NAudio.Wave.WaveFormat.averageBytesPerSecond
+- uid: NAudio.Wave.WaveFormat.blockAlign
+  commentId: F:NAudio.Wave.WaveFormat.blockAlign
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_blockAlign
+  name: blockAlign
+  nameWithType: WaveFormat.blockAlign
+  fullName: NAudio.Wave.WaveFormat.blockAlign
+- uid: NAudio.Wave.WaveFormat.bitsPerSample
+  commentId: F:NAudio.Wave.WaveFormat.bitsPerSample
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_bitsPerSample
+  name: bitsPerSample
+  nameWithType: WaveFormat.bitsPerSample
+  fullName: NAudio.Wave.WaveFormat.bitsPerSample
+- uid: NAudio.Wave.WaveFormat.extraSize
+  commentId: F:NAudio.Wave.WaveFormat.extraSize
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_extraSize
+  name: extraSize
+  nameWithType: WaveFormat.extraSize
+  fullName: NAudio.Wave.WaveFormat.extraSize
+- uid: NAudio.Wave.WaveFormat.ConvertLatencyToByteSize(System.Int32)
+  commentId: M:NAudio.Wave.WaveFormat.ConvertLatencyToByteSize(System.Int32)
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_ConvertLatencyToByteSize_System_Int32_
+  name: ConvertLatencyToByteSize(int)
+  nameWithType: WaveFormat.ConvertLatencyToByteSize(int)
+  fullName: NAudio.Wave.WaveFormat.ConvertLatencyToByteSize(int)
+  nameWithType.vb: WaveFormat.ConvertLatencyToByteSize(Integer)
+  fullName.vb: NAudio.Wave.WaveFormat.ConvertLatencyToByteSize(Integer)
+  name.vb: ConvertLatencyToByteSize(Integer)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveFormat.ConvertLatencyToByteSize(System.Int32)
+    name: ConvertLatencyToByteSize
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_ConvertLatencyToByteSize_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveFormat.ConvertLatencyToByteSize(System.Int32)
+    name: ConvertLatencyToByteSize
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_ConvertLatencyToByteSize_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: NAudio.Wave.WaveFormat.CreateCustomFormat(NAudio.Wave.WaveFormatEncoding,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:NAudio.Wave.WaveFormat.CreateCustomFormat(NAudio.Wave.WaveFormatEncoding,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_CreateCustomFormat_NAudio_Wave_WaveFormatEncoding_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
+  name: CreateCustomFormat(WaveFormatEncoding, int, int, int, int, int)
+  nameWithType: WaveFormat.CreateCustomFormat(WaveFormatEncoding, int, int, int, int, int)
+  fullName: NAudio.Wave.WaveFormat.CreateCustomFormat(NAudio.Wave.WaveFormatEncoding, int, int, int, int, int)
+  nameWithType.vb: WaveFormat.CreateCustomFormat(WaveFormatEncoding, Integer, Integer, Integer, Integer, Integer)
+  fullName.vb: NAudio.Wave.WaveFormat.CreateCustomFormat(NAudio.Wave.WaveFormatEncoding, Integer, Integer, Integer, Integer, Integer)
+  name.vb: CreateCustomFormat(WaveFormatEncoding, Integer, Integer, Integer, Integer, Integer)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveFormat.CreateCustomFormat(NAudio.Wave.WaveFormatEncoding,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+    name: CreateCustomFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_CreateCustomFormat_NAudio_Wave_WaveFormatEncoding_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
+  - name: (
+  - uid: NAudio.Wave.WaveFormatEncoding
+    name: WaveFormatEncoding
+    isExternal: true
+    href: NAudio.Wave.WaveFormatEncoding.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveFormat.CreateCustomFormat(NAudio.Wave.WaveFormatEncoding,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+    name: CreateCustomFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_CreateCustomFormat_NAudio_Wave_WaveFormatEncoding_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
+  - name: (
+  - uid: NAudio.Wave.WaveFormatEncoding
+    name: WaveFormatEncoding
+    isExternal: true
+    href: NAudio.Wave.WaveFormatEncoding.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: NAudio.Wave.WaveFormat.CreateALawFormat(System.Int32,System.Int32)
+  commentId: M:NAudio.Wave.WaveFormat.CreateALawFormat(System.Int32,System.Int32)
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_CreateALawFormat_System_Int32_System_Int32_
+  name: CreateALawFormat(int, int)
+  nameWithType: WaveFormat.CreateALawFormat(int, int)
+  fullName: NAudio.Wave.WaveFormat.CreateALawFormat(int, int)
+  nameWithType.vb: WaveFormat.CreateALawFormat(Integer, Integer)
+  fullName.vb: NAudio.Wave.WaveFormat.CreateALawFormat(Integer, Integer)
+  name.vb: CreateALawFormat(Integer, Integer)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveFormat.CreateALawFormat(System.Int32,System.Int32)
+    name: CreateALawFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_CreateALawFormat_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveFormat.CreateALawFormat(System.Int32,System.Int32)
+    name: CreateALawFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_CreateALawFormat_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: NAudio.Wave.WaveFormat.CreateMuLawFormat(System.Int32,System.Int32)
+  commentId: M:NAudio.Wave.WaveFormat.CreateMuLawFormat(System.Int32,System.Int32)
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_CreateMuLawFormat_System_Int32_System_Int32_
+  name: CreateMuLawFormat(int, int)
+  nameWithType: WaveFormat.CreateMuLawFormat(int, int)
+  fullName: NAudio.Wave.WaveFormat.CreateMuLawFormat(int, int)
+  nameWithType.vb: WaveFormat.CreateMuLawFormat(Integer, Integer)
+  fullName.vb: NAudio.Wave.WaveFormat.CreateMuLawFormat(Integer, Integer)
+  name.vb: CreateMuLawFormat(Integer, Integer)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveFormat.CreateMuLawFormat(System.Int32,System.Int32)
+    name: CreateMuLawFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_CreateMuLawFormat_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveFormat.CreateMuLawFormat(System.Int32,System.Int32)
+    name: CreateMuLawFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_CreateMuLawFormat_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: NAudio.Wave.WaveFormat.CreateIeeeFloatWaveFormat(System.Int32,System.Int32)
+  commentId: M:NAudio.Wave.WaveFormat.CreateIeeeFloatWaveFormat(System.Int32,System.Int32)
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_CreateIeeeFloatWaveFormat_System_Int32_System_Int32_
+  name: CreateIeeeFloatWaveFormat(int, int)
+  nameWithType: WaveFormat.CreateIeeeFloatWaveFormat(int, int)
+  fullName: NAudio.Wave.WaveFormat.CreateIeeeFloatWaveFormat(int, int)
+  nameWithType.vb: WaveFormat.CreateIeeeFloatWaveFormat(Integer, Integer)
+  fullName.vb: NAudio.Wave.WaveFormat.CreateIeeeFloatWaveFormat(Integer, Integer)
+  name.vb: CreateIeeeFloatWaveFormat(Integer, Integer)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveFormat.CreateIeeeFloatWaveFormat(System.Int32,System.Int32)
+    name: CreateIeeeFloatWaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_CreateIeeeFloatWaveFormat_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveFormat.CreateIeeeFloatWaveFormat(System.Int32,System.Int32)
+    name: CreateIeeeFloatWaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_CreateIeeeFloatWaveFormat_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: NAudio.Wave.WaveFormat.MarshalFromPtr(System.IntPtr)
+  commentId: M:NAudio.Wave.WaveFormat.MarshalFromPtr(System.IntPtr)
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_MarshalFromPtr_System_IntPtr_
+  name: MarshalFromPtr(IntPtr)
+  nameWithType: WaveFormat.MarshalFromPtr(IntPtr)
+  fullName: NAudio.Wave.WaveFormat.MarshalFromPtr(System.IntPtr)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveFormat.MarshalFromPtr(System.IntPtr)
+    name: MarshalFromPtr
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_MarshalFromPtr_System_IntPtr_
+  - name: (
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveFormat.MarshalFromPtr(System.IntPtr)
+    name: MarshalFromPtr
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_MarshalFromPtr_System_IntPtr_
+  - name: (
+  - uid: System.IntPtr
+    name: IntPtr
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.intptr
+  - name: )
+- uid: NAudio.Wave.WaveFormat.MarshalToPtr(NAudio.Wave.WaveFormat)
+  commentId: M:NAudio.Wave.WaveFormat.MarshalToPtr(NAudio.Wave.WaveFormat)
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_MarshalToPtr_NAudio_Wave_WaveFormat_
+  name: MarshalToPtr(WaveFormat)
+  nameWithType: WaveFormat.MarshalToPtr(WaveFormat)
+  fullName: NAudio.Wave.WaveFormat.MarshalToPtr(NAudio.Wave.WaveFormat)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveFormat.MarshalToPtr(NAudio.Wave.WaveFormat)
+    name: MarshalToPtr
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_MarshalToPtr_NAudio_Wave_WaveFormat_
+  - name: (
+  - uid: NAudio.Wave.WaveFormat
+    name: WaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveFormat.MarshalToPtr(NAudio.Wave.WaveFormat)
+    name: MarshalToPtr
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_MarshalToPtr_NAudio_Wave_WaveFormat_
+  - name: (
+  - uid: NAudio.Wave.WaveFormat
+    name: WaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html
+  - name: )
+- uid: NAudio.Wave.WaveFormat.FromFormatChunk(System.IO.BinaryReader,System.Int32)
+  commentId: M:NAudio.Wave.WaveFormat.FromFormatChunk(System.IO.BinaryReader,System.Int32)
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_FromFormatChunk_System_IO_BinaryReader_System_Int32_
+  name: FromFormatChunk(BinaryReader, int)
+  nameWithType: WaveFormat.FromFormatChunk(BinaryReader, int)
+  fullName: NAudio.Wave.WaveFormat.FromFormatChunk(System.IO.BinaryReader, int)
+  nameWithType.vb: WaveFormat.FromFormatChunk(BinaryReader, Integer)
+  fullName.vb: NAudio.Wave.WaveFormat.FromFormatChunk(System.IO.BinaryReader, Integer)
+  name.vb: FromFormatChunk(BinaryReader, Integer)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveFormat.FromFormatChunk(System.IO.BinaryReader,System.Int32)
+    name: FromFormatChunk
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_FromFormatChunk_System_IO_BinaryReader_System_Int32_
+  - name: (
+  - uid: System.IO.BinaryReader
+    name: BinaryReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.binaryreader
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveFormat.FromFormatChunk(System.IO.BinaryReader,System.Int32)
+    name: FromFormatChunk
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_FromFormatChunk_System_IO_BinaryReader_System_Int32_
+  - name: (
+  - uid: System.IO.BinaryReader
+    name: BinaryReader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.binaryreader
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: NAudio.Wave.WaveFormat.ToString
+  commentId: M:NAudio.Wave.WaveFormat.ToString
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_ToString
+  name: ToString()
+  nameWithType: WaveFormat.ToString()
+  fullName: NAudio.Wave.WaveFormat.ToString()
+  spec.csharp:
+  - uid: NAudio.Wave.WaveFormat.ToString
+    name: ToString
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveFormat.ToString
+    name: ToString
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_ToString
+  - name: (
+  - name: )
+- uid: NAudio.Wave.WaveFormat.Equals(System.Object)
+  commentId: M:NAudio.Wave.WaveFormat.Equals(System.Object)
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_Equals_System_Object_
+  name: Equals(object)
+  nameWithType: WaveFormat.Equals(object)
+  fullName: NAudio.Wave.WaveFormat.Equals(object)
+  nameWithType.vb: WaveFormat.Equals(Object)
+  fullName.vb: NAudio.Wave.WaveFormat.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveFormat.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveFormat.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: NAudio.Wave.WaveFormat.GetHashCode
+  commentId: M:NAudio.Wave.WaveFormat.GetHashCode
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_GetHashCode
+  name: GetHashCode()
+  nameWithType: WaveFormat.GetHashCode()
+  fullName: NAudio.Wave.WaveFormat.GetHashCode()
+  spec.csharp:
+  - uid: NAudio.Wave.WaveFormat.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_GetHashCode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveFormat.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_GetHashCode
+  - name: (
+  - name: )
+- uid: NAudio.Wave.WaveFormat.Serialize(System.IO.BinaryWriter)
+  commentId: M:NAudio.Wave.WaveFormat.Serialize(System.IO.BinaryWriter)
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_Serialize_System_IO_BinaryWriter_
+  name: Serialize(BinaryWriter)
+  nameWithType: WaveFormat.Serialize(BinaryWriter)
+  fullName: NAudio.Wave.WaveFormat.Serialize(System.IO.BinaryWriter)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveFormat.Serialize(System.IO.BinaryWriter)
+    name: Serialize
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_Serialize_System_IO_BinaryWriter_
+  - name: (
+  - uid: System.IO.BinaryWriter
+    name: BinaryWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.binarywriter
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveFormat.Serialize(System.IO.BinaryWriter)
+    name: Serialize
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_Serialize_System_IO_BinaryWriter_
+  - name: (
+  - uid: System.IO.BinaryWriter
+    name: BinaryWriter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.binarywriter
+  - name: )
+- uid: NAudio.Wave.WaveFormat.Encoding
+  commentId: P:NAudio.Wave.WaveFormat.Encoding
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_Encoding
+  name: Encoding
+  nameWithType: WaveFormat.Encoding
+  fullName: NAudio.Wave.WaveFormat.Encoding
+- uid: NAudio.Wave.WaveFormat.Channels
+  commentId: P:NAudio.Wave.WaveFormat.Channels
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_Channels
+  name: Channels
+  nameWithType: WaveFormat.Channels
+  fullName: NAudio.Wave.WaveFormat.Channels
+- uid: NAudio.Wave.WaveFormat.SampleRate
+  commentId: P:NAudio.Wave.WaveFormat.SampleRate
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_SampleRate
+  name: SampleRate
+  nameWithType: WaveFormat.SampleRate
+  fullName: NAudio.Wave.WaveFormat.SampleRate
+- uid: NAudio.Wave.WaveFormat.AverageBytesPerSecond
+  commentId: P:NAudio.Wave.WaveFormat.AverageBytesPerSecond
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_AverageBytesPerSecond
+  name: AverageBytesPerSecond
+  nameWithType: WaveFormat.AverageBytesPerSecond
+  fullName: NAudio.Wave.WaveFormat.AverageBytesPerSecond
+- uid: NAudio.Wave.WaveFormat.BlockAlign
+  commentId: P:NAudio.Wave.WaveFormat.BlockAlign
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_BlockAlign
+  name: BlockAlign
+  nameWithType: WaveFormat.BlockAlign
+  fullName: NAudio.Wave.WaveFormat.BlockAlign
+- uid: NAudio.Wave.WaveFormat.BitsPerSample
+  commentId: P:NAudio.Wave.WaveFormat.BitsPerSample
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_BitsPerSample
+  name: BitsPerSample
+  nameWithType: WaveFormat.BitsPerSample
+  fullName: NAudio.Wave.WaveFormat.BitsPerSample
+- uid: NAudio.Wave.WaveFormat.ExtraSize
+  commentId: P:NAudio.Wave.WaveFormat.ExtraSize
+  parent: NAudio.Wave.WaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_ExtraSize
+  name: ExtraSize
+  nameWithType: WaveFormat.ExtraSize
+  fullName: NAudio.Wave.WaveFormat.ExtraSize
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: NAudio.Wave.WaveFormat.NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat
+  commentId: M:NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+  parent: NAudio.Wave.WaveExtensionMethods
+  definition: NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_AsStandardWaveFormat_NAudio_Wave_WaveFormat_
+  name: AsStandardWaveFormat(WaveFormat)
+  nameWithType: WaveExtensionMethods.AsStandardWaveFormat(WaveFormat)
+  fullName: NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+    name: AsStandardWaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_AsStandardWaveFormat_NAudio_Wave_WaveFormat_
+  - name: (
+  - uid: NAudio.Wave.WaveFormat
+    name: WaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+    name: AsStandardWaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_AsStandardWaveFormat_NAudio_Wave_WaveFormat_
+  - name: (
+  - uid: NAudio.Wave.WaveFormat
+    name: WaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_AsStandardWaveFormat_NAudio_Wave_WaveFormat_
+  name: AsStandardWaveFormat(WaveFormat)
+  nameWithType: WaveExtensionMethods.AsStandardWaveFormat(WaveFormat)
+  fullName: NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+    name: AsStandardWaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_AsStandardWaveFormat_NAudio_Wave_WaveFormat_
+  - name: (
+  - uid: NAudio.Wave.WaveFormat
+    name: WaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+    name: AsStandardWaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_AsStandardWaveFormat_NAudio_Wave_WaveFormat_
+  - name: (
+  - uid: NAudio.Wave.WaveFormat
+    name: WaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html
+  - name: )
+- uid: NAudio.Wave.WaveExtensionMethods
+  commentId: T:NAudio.Wave.WaveExtensionMethods
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html
+  name: WaveExtensionMethods
+  nameWithType: WaveExtensionMethods
+  fullName: NAudio.Wave.WaveExtensionMethods
+- uid: NAudio.Wave.ImaAdpcmWaveFormat.#ctor*
+  commentId: Overload:NAudio.Wave.ImaAdpcmWaveFormat.#ctor
+  isExternal: true
+  href: NAudio.Wave.ImaAdpcmWaveFormat.html#NAudio_Wave_ImaAdpcmWaveFormat__ctor_System_Int32_System_Int32_System_Int32_
+  name: ImaAdpcmWaveFormat
+  nameWithType: ImaAdpcmWaveFormat.ImaAdpcmWaveFormat
+  fullName: NAudio.Wave.ImaAdpcmWaveFormat.ImaAdpcmWaveFormat
+  nameWithType.vb: ImaAdpcmWaveFormat.New
+  fullName.vb: NAudio.Wave.ImaAdpcmWaveFormat.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

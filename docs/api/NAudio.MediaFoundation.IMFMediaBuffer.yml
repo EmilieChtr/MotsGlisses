@@ -1,0 +1,253 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation.IMFMediaBuffer
+  commentId: T:NAudio.MediaFoundation.IMFMediaBuffer
+  id: IMFMediaBuffer
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation.IMFMediaBuffer.GetCurrentLength(System.Int32@)
+  - NAudio.MediaFoundation.IMFMediaBuffer.GetMaxLength(System.Int32@)
+  - NAudio.MediaFoundation.IMFMediaBuffer.Lock(System.IntPtr@,System.Int32@,System.Int32@)
+  - NAudio.MediaFoundation.IMFMediaBuffer.SetCurrentLength(System.Int32)
+  - NAudio.MediaFoundation.IMFMediaBuffer.Unlock
+  langs:
+  - csharp
+  - vb
+  name: IMFMediaBuffer
+  nameWithType: IMFMediaBuffer
+  fullName: NAudio.MediaFoundation.IMFMediaBuffer
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      [Guid("045FA593-8799-42b8-BC8D-8968C6453507")]
+
+      public interface IMFMediaBuffer
+    content.vb: >-
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      <Guid("045FA593-8799-42b8-BC8D-8968C6453507")>
+
+      Public Interface IMFMediaBuffer
+  attributes:
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 045FA593-8799-42b8-BC8D-8968C6453507
+- uid: NAudio.MediaFoundation.IMFMediaBuffer.Lock(System.IntPtr@,System.Int32@,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaBuffer.Lock(System.IntPtr@,System.Int32@,System.Int32@)
+  id: Lock(System.IntPtr@,System.Int32@,System.Int32@)
+  parent: NAudio.MediaFoundation.IMFMediaBuffer
+  langs:
+  - csharp
+  - vb
+  name: Lock(out IntPtr, out int, out int)
+  nameWithType: IMFMediaBuffer.Lock(out IntPtr, out int, out int)
+  fullName: NAudio.MediaFoundation.IMFMediaBuffer.Lock(out System.IntPtr, out int, out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void Lock(out IntPtr ppbBuffer, out int pcbMaxLength, out int pcbCurrentLength)
+    parameters:
+    - id: ppbBuffer
+      type: System.IntPtr
+    - id: pcbMaxLength
+      type: System.Int32
+    - id: pcbCurrentLength
+      type: System.Int32
+    content.vb: Sub Lock(ppbBuffer As IntPtr, pcbMaxLength As Integer, pcbCurrentLength As Integer)
+  overload: NAudio.MediaFoundation.IMFMediaBuffer.Lock*
+  nameWithType.vb: IMFMediaBuffer.Lock(IntPtr, Integer, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaBuffer.Lock(System.IntPtr, Integer, Integer)
+  name.vb: Lock(IntPtr, Integer, Integer)
+- uid: NAudio.MediaFoundation.IMFMediaBuffer.Unlock
+  commentId: M:NAudio.MediaFoundation.IMFMediaBuffer.Unlock
+  id: Unlock
+  parent: NAudio.MediaFoundation.IMFMediaBuffer
+  langs:
+  - csharp
+  - vb
+  name: Unlock()
+  nameWithType: IMFMediaBuffer.Unlock()
+  fullName: NAudio.MediaFoundation.IMFMediaBuffer.Unlock()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void Unlock()
+    content.vb: Sub Unlock()
+  overload: NAudio.MediaFoundation.IMFMediaBuffer.Unlock*
+- uid: NAudio.MediaFoundation.IMFMediaBuffer.GetCurrentLength(System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaBuffer.GetCurrentLength(System.Int32@)
+  id: GetCurrentLength(System.Int32@)
+  parent: NAudio.MediaFoundation.IMFMediaBuffer
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentLength(out int)
+  nameWithType: IMFMediaBuffer.GetCurrentLength(out int)
+  fullName: NAudio.MediaFoundation.IMFMediaBuffer.GetCurrentLength(out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetCurrentLength(out int pcbCurrentLength)
+    parameters:
+    - id: pcbCurrentLength
+      type: System.Int32
+    content.vb: Sub GetCurrentLength(pcbCurrentLength As Integer)
+  overload: NAudio.MediaFoundation.IMFMediaBuffer.GetCurrentLength*
+  nameWithType.vb: IMFMediaBuffer.GetCurrentLength(Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaBuffer.GetCurrentLength(Integer)
+  name.vb: GetCurrentLength(Integer)
+- uid: NAudio.MediaFoundation.IMFMediaBuffer.SetCurrentLength(System.Int32)
+  commentId: M:NAudio.MediaFoundation.IMFMediaBuffer.SetCurrentLength(System.Int32)
+  id: SetCurrentLength(System.Int32)
+  parent: NAudio.MediaFoundation.IMFMediaBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentLength(int)
+  nameWithType: IMFMediaBuffer.SetCurrentLength(int)
+  fullName: NAudio.MediaFoundation.IMFMediaBuffer.SetCurrentLength(int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetCurrentLength(int cbCurrentLength)
+    parameters:
+    - id: cbCurrentLength
+      type: System.Int32
+    content.vb: Sub SetCurrentLength(cbCurrentLength As Integer)
+  overload: NAudio.MediaFoundation.IMFMediaBuffer.SetCurrentLength*
+  nameWithType.vb: IMFMediaBuffer.SetCurrentLength(Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaBuffer.SetCurrentLength(Integer)
+  name.vb: SetCurrentLength(Integer)
+- uid: NAudio.MediaFoundation.IMFMediaBuffer.GetMaxLength(System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFMediaBuffer.GetMaxLength(System.Int32@)
+  id: GetMaxLength(System.Int32@)
+  parent: NAudio.MediaFoundation.IMFMediaBuffer
+  langs:
+  - csharp
+  - vb
+  name: GetMaxLength(out int)
+  nameWithType: IMFMediaBuffer.GetMaxLength(out int)
+  fullName: NAudio.MediaFoundation.IMFMediaBuffer.GetMaxLength(out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetMaxLength(out int pcbMaxLength)
+    parameters:
+    - id: pcbMaxLength
+      type: System.Int32
+    content.vb: Sub GetMaxLength(pcbMaxLength As Integer)
+  overload: NAudio.MediaFoundation.IMFMediaBuffer.GetMaxLength*
+  nameWithType.vb: IMFMediaBuffer.GetMaxLength(Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFMediaBuffer.GetMaxLength(Integer)
+  name.vb: GetMaxLength(Integer)
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation.IMFMediaBuffer.Lock*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaBuffer.Lock
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaBuffer.html#NAudio_MediaFoundation_IMFMediaBuffer_Lock_System_IntPtr__System_Int32__System_Int32__
+  name: Lock
+  nameWithType: IMFMediaBuffer.Lock
+  fullName: NAudio.MediaFoundation.IMFMediaBuffer.Lock
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.MediaFoundation.IMFMediaBuffer.Unlock*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaBuffer.Unlock
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaBuffer.html#NAudio_MediaFoundation_IMFMediaBuffer_Unlock
+  name: Unlock
+  nameWithType: IMFMediaBuffer.Unlock
+  fullName: NAudio.MediaFoundation.IMFMediaBuffer.Unlock
+- uid: NAudio.MediaFoundation.IMFMediaBuffer.GetCurrentLength*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaBuffer.GetCurrentLength
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaBuffer.html#NAudio_MediaFoundation_IMFMediaBuffer_GetCurrentLength_System_Int32__
+  name: GetCurrentLength
+  nameWithType: IMFMediaBuffer.GetCurrentLength
+  fullName: NAudio.MediaFoundation.IMFMediaBuffer.GetCurrentLength
+- uid: NAudio.MediaFoundation.IMFMediaBuffer.SetCurrentLength*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaBuffer.SetCurrentLength
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaBuffer.html#NAudio_MediaFoundation_IMFMediaBuffer_SetCurrentLength_System_Int32_
+  name: SetCurrentLength
+  nameWithType: IMFMediaBuffer.SetCurrentLength
+  fullName: NAudio.MediaFoundation.IMFMediaBuffer.SetCurrentLength
+- uid: NAudio.MediaFoundation.IMFMediaBuffer.GetMaxLength*
+  commentId: Overload:NAudio.MediaFoundation.IMFMediaBuffer.GetMaxLength
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaBuffer.html#NAudio_MediaFoundation_IMFMediaBuffer_GetMaxLength_System_Int32__
+  name: GetMaxLength
+  nameWithType: IMFMediaBuffer.GetMaxLength
+  fullName: NAudio.MediaFoundation.IMFMediaBuffer.GetMaxLength

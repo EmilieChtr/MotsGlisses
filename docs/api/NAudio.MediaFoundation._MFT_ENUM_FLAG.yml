@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation._MFT_ENUM_FLAG
+  commentId: T:NAudio.MediaFoundation._MFT_ENUM_FLAG
+  id: _MFT_ENUM_FLAG
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_ALL
+  - NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_ASYNCMFT
+  - NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_FIELDOFUSE
+  - NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_HARDWARE
+  - NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_LOCALMFT
+  - NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_SORTANDFILTER
+  - NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_SYNCMFT
+  - NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_TRANSCODE_ONLY
+  - NAudio.MediaFoundation._MFT_ENUM_FLAG.None
+  langs:
+  - csharp
+  - vb
+  name: _MFT_ENUM_FLAG
+  nameWithType: _MFT_ENUM_FLAG
+  fullName: NAudio.MediaFoundation._MFT_ENUM_FLAG
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum _MFT_ENUM_FLAG
+    content.vb: >-
+      <Flags>
+
+      Public Enum _MFT_ENUM_FLAG
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.MediaFoundation._MFT_ENUM_FLAG.None
+  commentId: F:NAudio.MediaFoundation._MFT_ENUM_FLAG.None
+  id: None
+  parent: NAudio.MediaFoundation._MFT_ENUM_FLAG
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: _MFT_ENUM_FLAG.None
+  fullName: NAudio.MediaFoundation._MFT_ENUM_FLAG.None
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: None = 0
+    return:
+      type: NAudio.MediaFoundation._MFT_ENUM_FLAG
+- uid: NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_SYNCMFT
+  commentId: F:NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_SYNCMFT
+  id: MFT_ENUM_FLAG_SYNCMFT
+  parent: NAudio.MediaFoundation._MFT_ENUM_FLAG
+  langs:
+  - csharp
+  - vb
+  name: MFT_ENUM_FLAG_SYNCMFT
+  nameWithType: _MFT_ENUM_FLAG.MFT_ENUM_FLAG_SYNCMFT
+  fullName: NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_SYNCMFT
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_ENUM_FLAG_SYNCMFT = 1
+    return:
+      type: NAudio.MediaFoundation._MFT_ENUM_FLAG
+- uid: NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_ASYNCMFT
+  commentId: F:NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_ASYNCMFT
+  id: MFT_ENUM_FLAG_ASYNCMFT
+  parent: NAudio.MediaFoundation._MFT_ENUM_FLAG
+  langs:
+  - csharp
+  - vb
+  name: MFT_ENUM_FLAG_ASYNCMFT
+  nameWithType: _MFT_ENUM_FLAG.MFT_ENUM_FLAG_ASYNCMFT
+  fullName: NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_ASYNCMFT
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_ENUM_FLAG_ASYNCMFT = 2
+    return:
+      type: NAudio.MediaFoundation._MFT_ENUM_FLAG
+- uid: NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_HARDWARE
+  commentId: F:NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_HARDWARE
+  id: MFT_ENUM_FLAG_HARDWARE
+  parent: NAudio.MediaFoundation._MFT_ENUM_FLAG
+  langs:
+  - csharp
+  - vb
+  name: MFT_ENUM_FLAG_HARDWARE
+  nameWithType: _MFT_ENUM_FLAG.MFT_ENUM_FLAG_HARDWARE
+  fullName: NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_HARDWARE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_ENUM_FLAG_HARDWARE = 4
+    return:
+      type: NAudio.MediaFoundation._MFT_ENUM_FLAG
+- uid: NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_FIELDOFUSE
+  commentId: F:NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_FIELDOFUSE
+  id: MFT_ENUM_FLAG_FIELDOFUSE
+  parent: NAudio.MediaFoundation._MFT_ENUM_FLAG
+  langs:
+  - csharp
+  - vb
+  name: MFT_ENUM_FLAG_FIELDOFUSE
+  nameWithType: _MFT_ENUM_FLAG.MFT_ENUM_FLAG_FIELDOFUSE
+  fullName: NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_FIELDOFUSE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_ENUM_FLAG_FIELDOFUSE = 8
+    return:
+      type: NAudio.MediaFoundation._MFT_ENUM_FLAG
+- uid: NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_LOCALMFT
+  commentId: F:NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_LOCALMFT
+  id: MFT_ENUM_FLAG_LOCALMFT
+  parent: NAudio.MediaFoundation._MFT_ENUM_FLAG
+  langs:
+  - csharp
+  - vb
+  name: MFT_ENUM_FLAG_LOCALMFT
+  nameWithType: _MFT_ENUM_FLAG.MFT_ENUM_FLAG_LOCALMFT
+  fullName: NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_LOCALMFT
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_ENUM_FLAG_LOCALMFT = 16
+    return:
+      type: NAudio.MediaFoundation._MFT_ENUM_FLAG
+- uid: NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_TRANSCODE_ONLY
+  commentId: F:NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_TRANSCODE_ONLY
+  id: MFT_ENUM_FLAG_TRANSCODE_ONLY
+  parent: NAudio.MediaFoundation._MFT_ENUM_FLAG
+  langs:
+  - csharp
+  - vb
+  name: MFT_ENUM_FLAG_TRANSCODE_ONLY
+  nameWithType: _MFT_ENUM_FLAG.MFT_ENUM_FLAG_TRANSCODE_ONLY
+  fullName: NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_TRANSCODE_ONLY
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_ENUM_FLAG_TRANSCODE_ONLY = 32
+    return:
+      type: NAudio.MediaFoundation._MFT_ENUM_FLAG
+- uid: NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_SORTANDFILTER
+  commentId: F:NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_SORTANDFILTER
+  id: MFT_ENUM_FLAG_SORTANDFILTER
+  parent: NAudio.MediaFoundation._MFT_ENUM_FLAG
+  langs:
+  - csharp
+  - vb
+  name: MFT_ENUM_FLAG_SORTANDFILTER
+  nameWithType: _MFT_ENUM_FLAG.MFT_ENUM_FLAG_SORTANDFILTER
+  fullName: NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_SORTANDFILTER
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_ENUM_FLAG_SORTANDFILTER = 64
+    return:
+      type: NAudio.MediaFoundation._MFT_ENUM_FLAG
+- uid: NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_ALL
+  commentId: F:NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_ALL
+  id: MFT_ENUM_FLAG_ALL
+  parent: NAudio.MediaFoundation._MFT_ENUM_FLAG
+  langs:
+  - csharp
+  - vb
+  name: MFT_ENUM_FLAG_ALL
+  nameWithType: _MFT_ENUM_FLAG.MFT_ENUM_FLAG_ALL
+  fullName: NAudio.MediaFoundation._MFT_ENUM_FLAG.MFT_ENUM_FLAG_ALL
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_ENUM_FLAG_ALL = MFT_ENUM_FLAG_SYNCMFT | MFT_ENUM_FLAG_ASYNCMFT | MFT_ENUM_FLAG_HARDWARE | MFT_ENUM_FLAG_FIELDOFUSE | MFT_ENUM_FLAG_LOCALMFT | MFT_ENUM_FLAG_TRANSCODE_ONLY
+    return:
+      type: NAudio.MediaFoundation._MFT_ENUM_FLAG
+    content.vb: MFT_ENUM_FLAG_ALL = MFT_ENUM_FLAG_SYNCMFT Or MFT_ENUM_FLAG_ASYNCMFT Or MFT_ENUM_FLAG_HARDWARE Or MFT_ENUM_FLAG_FIELDOFUSE Or MFT_ENUM_FLAG_LOCALMFT Or MFT_ENUM_FLAG_TRANSCODE_ONLY
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation._MFT_ENUM_FLAG
+  commentId: T:NAudio.MediaFoundation._MFT_ENUM_FLAG
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation._MFT_ENUM_FLAG.html
+  name: _MFT_ENUM_FLAG
+  nameWithType: _MFT_ENUM_FLAG
+  fullName: NAudio.MediaFoundation._MFT_ENUM_FLAG

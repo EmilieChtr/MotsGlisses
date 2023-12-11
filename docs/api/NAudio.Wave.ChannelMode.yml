@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.ChannelMode
+  commentId: T:NAudio.Wave.ChannelMode
+  id: ChannelMode
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.ChannelMode.DualChannel
+  - NAudio.Wave.ChannelMode.JointStereo
+  - NAudio.Wave.ChannelMode.Mono
+  - NAudio.Wave.ChannelMode.Stereo
+  langs:
+  - csharp
+  - vb
+  name: ChannelMode
+  nameWithType: ChannelMode
+  fullName: NAudio.Wave.ChannelMode
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public enum ChannelMode
+    content.vb: Public Enum ChannelMode
+- uid: NAudio.Wave.ChannelMode.Stereo
+  commentId: F:NAudio.Wave.ChannelMode.Stereo
+  id: Stereo
+  parent: NAudio.Wave.ChannelMode
+  langs:
+  - csharp
+  - vb
+  name: Stereo
+  nameWithType: ChannelMode.Stereo
+  fullName: NAudio.Wave.ChannelMode.Stereo
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: Stereo = 0
+    return:
+      type: NAudio.Wave.ChannelMode
+- uid: NAudio.Wave.ChannelMode.JointStereo
+  commentId: F:NAudio.Wave.ChannelMode.JointStereo
+  id: JointStereo
+  parent: NAudio.Wave.ChannelMode
+  langs:
+  - csharp
+  - vb
+  name: JointStereo
+  nameWithType: ChannelMode.JointStereo
+  fullName: NAudio.Wave.ChannelMode.JointStereo
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: JointStereo = 1
+    return:
+      type: NAudio.Wave.ChannelMode
+- uid: NAudio.Wave.ChannelMode.DualChannel
+  commentId: F:NAudio.Wave.ChannelMode.DualChannel
+  id: DualChannel
+  parent: NAudio.Wave.ChannelMode
+  langs:
+  - csharp
+  - vb
+  name: DualChannel
+  nameWithType: ChannelMode.DualChannel
+  fullName: NAudio.Wave.ChannelMode.DualChannel
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: DualChannel = 2
+    return:
+      type: NAudio.Wave.ChannelMode
+- uid: NAudio.Wave.ChannelMode.Mono
+  commentId: F:NAudio.Wave.ChannelMode.Mono
+  id: Mono
+  parent: NAudio.Wave.ChannelMode
+  langs:
+  - csharp
+  - vb
+  name: Mono
+  nameWithType: ChannelMode.Mono
+  fullName: NAudio.Wave.ChannelMode.Mono
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: Mono = 3
+    return:
+      type: NAudio.Wave.ChannelMode
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Wave.ChannelMode
+  commentId: T:NAudio.Wave.ChannelMode
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.ChannelMode.html
+  name: ChannelMode
+  nameWithType: ChannelMode
+  fullName: NAudio.Wave.ChannelMode

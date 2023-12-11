@@ -21,18 +21,21 @@ references:
 - uid: Interface.Dictionnaire
   commentId: T:Interface.Dictionnaire
   parent: Interface
+  isExternal: true
   href: Interface.Dictionnaire.html
   name: Dictionnaire
   nameWithType: Dictionnaire
   fullName: Interface.Dictionnaire
 - uid: Interface.Jeu
   commentId: T:Interface.Jeu
+  isExternal: true
   href: Interface.Jeu.html
   name: Jeu
   nameWithType: Jeu
   fullName: Interface.Jeu
 - uid: Interface.Joueur
   commentId: T:Interface.Joueur
+  isExternal: true
   href: Interface.Joueur.html
   name: Joueur
   nameWithType: Joueur
@@ -40,12 +43,14 @@ references:
 - uid: Interface.Plateau
   commentId: T:Interface.Plateau
   parent: Interface
+  isExternal: true
   href: Interface.Plateau.html
   name: Plateau
   nameWithType: Plateau
   fullName: Interface.Plateau
 - uid: Interface
   commentId: N:Interface
+  isExternal: true
   href: Interface.html
   name: Interface
   nameWithType: Interface

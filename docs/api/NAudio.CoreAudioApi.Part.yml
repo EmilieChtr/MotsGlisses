@@ -1,0 +1,837 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.Part
+  commentId: T:NAudio.CoreAudioApi.Part
+  id: Part
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.Part.AudioMute
+  - NAudio.CoreAudioApi.Part.AudioVolumeLevel
+  - NAudio.CoreAudioApi.Part.ControlInterfaceCount
+  - NAudio.CoreAudioApi.Part.DeviceTopology
+  - NAudio.CoreAudioApi.Part.GetControlInterface(System.UInt32)
+  - NAudio.CoreAudioApi.Part.GetSubType
+  - NAudio.CoreAudioApi.Part.GlobalId
+  - NAudio.CoreAudioApi.Part.JackDescription
+  - NAudio.CoreAudioApi.Part.LocalId
+  - NAudio.CoreAudioApi.Part.Name
+  - NAudio.CoreAudioApi.Part.PartType
+  - NAudio.CoreAudioApi.Part.PartsIncoming
+  - NAudio.CoreAudioApi.Part.PartsOutgoing
+  langs:
+  - csharp
+  - vb
+  name: Part
+  nameWithType: Part
+  fullName: NAudio.CoreAudioApi.Part
+  type: Class
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public class Part
+    content.vb: Public Class Part
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.CoreAudioApi.Part.GetControlInterface(System.UInt32)
+  commentId: M:NAudio.CoreAudioApi.Part.GetControlInterface(System.UInt32)
+  id: GetControlInterface(System.UInt32)
+  parent: NAudio.CoreAudioApi.Part
+  langs:
+  - csharp
+  - vb
+  name: GetControlInterface(uint)
+  nameWithType: Part.GetControlInterface(uint)
+  fullName: NAudio.CoreAudioApi.Part.GetControlInterface(uint)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public IControlInterface GetControlInterface(uint index)
+    parameters:
+    - id: index
+      type: System.UInt32
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.IControlInterface
+    content.vb: Public Function GetControlInterface(index As UInteger) As IControlInterface
+  overload: NAudio.CoreAudioApi.Part.GetControlInterface*
+  nameWithType.vb: Part.GetControlInterface(UInteger)
+  fullName.vb: NAudio.CoreAudioApi.Part.GetControlInterface(UInteger)
+  name.vb: GetControlInterface(UInteger)
+- uid: NAudio.CoreAudioApi.Part.Name
+  commentId: P:NAudio.CoreAudioApi.Part.Name
+  id: Name
+  parent: NAudio.CoreAudioApi.Part
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Part.Name
+  fullName: NAudio.CoreAudioApi.Part.Name
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: NAudio.CoreAudioApi.Part.Name*
+- uid: NAudio.CoreAudioApi.Part.LocalId
+  commentId: P:NAudio.CoreAudioApi.Part.LocalId
+  id: LocalId
+  parent: NAudio.CoreAudioApi.Part
+  langs:
+  - csharp
+  - vb
+  name: LocalId
+  nameWithType: Part.LocalId
+  fullName: NAudio.CoreAudioApi.Part.LocalId
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public uint LocalId { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Property LocalId As UInteger
+  overload: NAudio.CoreAudioApi.Part.LocalId*
+- uid: NAudio.CoreAudioApi.Part.GlobalId
+  commentId: P:NAudio.CoreAudioApi.Part.GlobalId
+  id: GlobalId
+  parent: NAudio.CoreAudioApi.Part
+  langs:
+  - csharp
+  - vb
+  name: GlobalId
+  nameWithType: Part.GlobalId
+  fullName: NAudio.CoreAudioApi.Part.GlobalId
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public string GlobalId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property GlobalId As String
+  overload: NAudio.CoreAudioApi.Part.GlobalId*
+- uid: NAudio.CoreAudioApi.Part.PartType
+  commentId: P:NAudio.CoreAudioApi.Part.PartType
+  id: PartType
+  parent: NAudio.CoreAudioApi.Part
+  langs:
+  - csharp
+  - vb
+  name: PartType
+  nameWithType: Part.PartType
+  fullName: NAudio.CoreAudioApi.Part.PartType
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public PartTypeEnum PartType { get; }
+    parameters: []
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+    content.vb: Public ReadOnly Property PartType As PartTypeEnum
+  overload: NAudio.CoreAudioApi.Part.PartType*
+- uid: NAudio.CoreAudioApi.Part.GetSubType
+  commentId: P:NAudio.CoreAudioApi.Part.GetSubType
+  id: GetSubType
+  parent: NAudio.CoreAudioApi.Part
+  langs:
+  - csharp
+  - vb
+  name: GetSubType
+  nameWithType: Part.GetSubType
+  fullName: NAudio.CoreAudioApi.Part.GetSubType
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public Guid GetSubType { get; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public ReadOnly Property GetSubType As Guid
+  overload: NAudio.CoreAudioApi.Part.GetSubType*
+- uid: NAudio.CoreAudioApi.Part.ControlInterfaceCount
+  commentId: P:NAudio.CoreAudioApi.Part.ControlInterfaceCount
+  id: ControlInterfaceCount
+  parent: NAudio.CoreAudioApi.Part
+  langs:
+  - csharp
+  - vb
+  name: ControlInterfaceCount
+  nameWithType: Part.ControlInterfaceCount
+  fullName: NAudio.CoreAudioApi.Part.ControlInterfaceCount
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public uint ControlInterfaceCount { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Property ControlInterfaceCount As UInteger
+  overload: NAudio.CoreAudioApi.Part.ControlInterfaceCount*
+- uid: NAudio.CoreAudioApi.Part.PartsIncoming
+  commentId: P:NAudio.CoreAudioApi.Part.PartsIncoming
+  id: PartsIncoming
+  parent: NAudio.CoreAudioApi.Part
+  langs:
+  - csharp
+  - vb
+  name: PartsIncoming
+  nameWithType: Part.PartsIncoming
+  fullName: NAudio.CoreAudioApi.Part.PartsIncoming
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public PartsList PartsIncoming { get; }
+    parameters: []
+    return:
+      type: NAudio.CoreAudioApi.PartsList
+    content.vb: Public ReadOnly Property PartsIncoming As PartsList
+  overload: NAudio.CoreAudioApi.Part.PartsIncoming*
+- uid: NAudio.CoreAudioApi.Part.PartsOutgoing
+  commentId: P:NAudio.CoreAudioApi.Part.PartsOutgoing
+  id: PartsOutgoing
+  parent: NAudio.CoreAudioApi.Part
+  langs:
+  - csharp
+  - vb
+  name: PartsOutgoing
+  nameWithType: Part.PartsOutgoing
+  fullName: NAudio.CoreAudioApi.Part.PartsOutgoing
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public PartsList PartsOutgoing { get; }
+    parameters: []
+    return:
+      type: NAudio.CoreAudioApi.PartsList
+    content.vb: Public ReadOnly Property PartsOutgoing As PartsList
+  overload: NAudio.CoreAudioApi.Part.PartsOutgoing*
+- uid: NAudio.CoreAudioApi.Part.DeviceTopology
+  commentId: P:NAudio.CoreAudioApi.Part.DeviceTopology
+  id: DeviceTopology
+  parent: NAudio.CoreAudioApi.Part
+  langs:
+  - csharp
+  - vb
+  name: DeviceTopology
+  nameWithType: Part.DeviceTopology
+  fullName: NAudio.CoreAudioApi.Part.DeviceTopology
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public DeviceTopology DeviceTopology { get; }
+    parameters: []
+    return:
+      type: NAudio.CoreAudioApi.DeviceTopology
+    content.vb: Public ReadOnly Property DeviceTopology As DeviceTopology
+  overload: NAudio.CoreAudioApi.Part.DeviceTopology*
+- uid: NAudio.CoreAudioApi.Part.AudioVolumeLevel
+  commentId: P:NAudio.CoreAudioApi.Part.AudioVolumeLevel
+  id: AudioVolumeLevel
+  parent: NAudio.CoreAudioApi.Part
+  langs:
+  - csharp
+  - vb
+  name: AudioVolumeLevel
+  nameWithType: Part.AudioVolumeLevel
+  fullName: NAudio.CoreAudioApi.Part.AudioVolumeLevel
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public AudioVolumeLevel AudioVolumeLevel { get; }
+    parameters: []
+    return:
+      type: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+    content.vb: Public ReadOnly Property AudioVolumeLevel As AudioVolumeLevel
+  overload: NAudio.CoreAudioApi.Part.AudioVolumeLevel*
+- uid: NAudio.CoreAudioApi.Part.AudioMute
+  commentId: P:NAudio.CoreAudioApi.Part.AudioMute
+  id: AudioMute
+  parent: NAudio.CoreAudioApi.Part
+  langs:
+  - csharp
+  - vb
+  name: AudioMute
+  nameWithType: Part.AudioMute
+  fullName: NAudio.CoreAudioApi.Part.AudioMute
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public AudioMute AudioMute { get; }
+    parameters: []
+    return:
+      type: NAudio.CoreAudioApi.AudioMute
+    content.vb: Public ReadOnly Property AudioMute As AudioMute
+  overload: NAudio.CoreAudioApi.Part.AudioMute*
+- uid: NAudio.CoreAudioApi.Part.JackDescription
+  commentId: P:NAudio.CoreAudioApi.Part.JackDescription
+  id: JackDescription
+  parent: NAudio.CoreAudioApi.Part
+  langs:
+  - csharp
+  - vb
+  name: JackDescription
+  nameWithType: Part.JackDescription
+  fullName: NAudio.CoreAudioApi.Part.JackDescription
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public KsJackDescription JackDescription { get; }
+    parameters: []
+    return:
+      type: NAudio.CoreAudioApi.KsJackDescription
+    content.vb: Public ReadOnly Property JackDescription As KsJackDescription
+  overload: NAudio.CoreAudioApi.Part.JackDescription*
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.CoreAudioApi.Part.GetControlInterface*
+  commentId: Overload:NAudio.CoreAudioApi.Part.GetControlInterface
+  isExternal: true
+  href: NAudio.CoreAudioApi.Part.html#NAudio_CoreAudioApi_Part_GetControlInterface_System_UInt32_
+  name: GetControlInterface
+  nameWithType: Part.GetControlInterface
+  fullName: NAudio.CoreAudioApi.Part.GetControlInterface
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: NAudio.CoreAudioApi.Interfaces.IControlInterface
+  commentId: T:NAudio.CoreAudioApi.Interfaces.IControlInterface
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.IControlInterface.html
+  name: IControlInterface
+  nameWithType: IControlInterface
+  fullName: NAudio.CoreAudioApi.Interfaces.IControlInterface
+- uid: NAudio.CoreAudioApi.Interfaces
+  commentId: N:NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi.Interfaces
+  nameWithType: NAudio.CoreAudioApi.Interfaces
+  fullName: NAudio.CoreAudioApi.Interfaces
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+- uid: NAudio.CoreAudioApi.Part.Name*
+  commentId: Overload:NAudio.CoreAudioApi.Part.Name
+  isExternal: true
+  href: NAudio.CoreAudioApi.Part.html#NAudio_CoreAudioApi_Part_Name
+  name: Name
+  nameWithType: Part.Name
+  fullName: NAudio.CoreAudioApi.Part.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.CoreAudioApi.Part.LocalId*
+  commentId: Overload:NAudio.CoreAudioApi.Part.LocalId
+  isExternal: true
+  href: NAudio.CoreAudioApi.Part.html#NAudio_CoreAudioApi_Part_LocalId
+  name: LocalId
+  nameWithType: Part.LocalId
+  fullName: NAudio.CoreAudioApi.Part.LocalId
+- uid: NAudio.CoreAudioApi.Part.GlobalId*
+  commentId: Overload:NAudio.CoreAudioApi.Part.GlobalId
+  isExternal: true
+  href: NAudio.CoreAudioApi.Part.html#NAudio_CoreAudioApi_Part_GlobalId
+  name: GlobalId
+  nameWithType: Part.GlobalId
+  fullName: NAudio.CoreAudioApi.Part.GlobalId
+- uid: NAudio.CoreAudioApi.Part.PartType*
+  commentId: Overload:NAudio.CoreAudioApi.Part.PartType
+  isExternal: true
+  href: NAudio.CoreAudioApi.Part.html#NAudio_CoreAudioApi_Part_PartType
+  name: PartType
+  nameWithType: Part.PartType
+  fullName: NAudio.CoreAudioApi.Part.PartType
+- uid: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  commentId: T:NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.PartTypeEnum.html
+  name: PartTypeEnum
+  nameWithType: PartTypeEnum
+  fullName: NAudio.CoreAudioApi.Interfaces.PartTypeEnum
+- uid: NAudio.CoreAudioApi.Part.GetSubType*
+  commentId: Overload:NAudio.CoreAudioApi.Part.GetSubType
+  isExternal: true
+  href: NAudio.CoreAudioApi.Part.html#NAudio_CoreAudioApi_Part_GetSubType
+  name: GetSubType
+  nameWithType: Part.GetSubType
+  fullName: NAudio.CoreAudioApi.Part.GetSubType
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: NAudio.CoreAudioApi.Part.ControlInterfaceCount*
+  commentId: Overload:NAudio.CoreAudioApi.Part.ControlInterfaceCount
+  isExternal: true
+  href: NAudio.CoreAudioApi.Part.html#NAudio_CoreAudioApi_Part_ControlInterfaceCount
+  name: ControlInterfaceCount
+  nameWithType: Part.ControlInterfaceCount
+  fullName: NAudio.CoreAudioApi.Part.ControlInterfaceCount
+- uid: NAudio.CoreAudioApi.Part.PartsIncoming*
+  commentId: Overload:NAudio.CoreAudioApi.Part.PartsIncoming
+  isExternal: true
+  href: NAudio.CoreAudioApi.Part.html#NAudio_CoreAudioApi_Part_PartsIncoming
+  name: PartsIncoming
+  nameWithType: Part.PartsIncoming
+  fullName: NAudio.CoreAudioApi.Part.PartsIncoming
+- uid: NAudio.CoreAudioApi.PartsList
+  commentId: T:NAudio.CoreAudioApi.PartsList
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.PartsList.html
+  name: PartsList
+  nameWithType: PartsList
+  fullName: NAudio.CoreAudioApi.PartsList
+- uid: NAudio.CoreAudioApi.Part.PartsOutgoing*
+  commentId: Overload:NAudio.CoreAudioApi.Part.PartsOutgoing
+  isExternal: true
+  href: NAudio.CoreAudioApi.Part.html#NAudio_CoreAudioApi_Part_PartsOutgoing
+  name: PartsOutgoing
+  nameWithType: Part.PartsOutgoing
+  fullName: NAudio.CoreAudioApi.Part.PartsOutgoing
+- uid: NAudio.CoreAudioApi.Part.DeviceTopology*
+  commentId: Overload:NAudio.CoreAudioApi.Part.DeviceTopology
+  isExternal: true
+  href: NAudio.CoreAudioApi.Part.html#NAudio_CoreAudioApi_Part_DeviceTopology
+  name: DeviceTopology
+  nameWithType: Part.DeviceTopology
+  fullName: NAudio.CoreAudioApi.Part.DeviceTopology
+- uid: NAudio.CoreAudioApi.DeviceTopology
+  commentId: T:NAudio.CoreAudioApi.DeviceTopology
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.DeviceTopology.html
+  name: DeviceTopology
+  nameWithType: DeviceTopology
+  fullName: NAudio.CoreAudioApi.DeviceTopology
+- uid: NAudio.CoreAudioApi.Part.AudioVolumeLevel*
+  commentId: Overload:NAudio.CoreAudioApi.Part.AudioVolumeLevel
+  isExternal: true
+  href: NAudio.CoreAudioApi.Part.html#NAudio_CoreAudioApi_Part_AudioVolumeLevel
+  name: AudioVolumeLevel
+  nameWithType: Part.AudioVolumeLevel
+  fullName: NAudio.CoreAudioApi.Part.AudioVolumeLevel
+- uid: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+  commentId: T:NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+  parent: NAudio.Wasapi.CoreAudioApi
+  isExternal: true
+  href: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.html
+  name: AudioVolumeLevel
+  nameWithType: AudioVolumeLevel
+  fullName: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+- uid: NAudio.Wasapi.CoreAudioApi
+  commentId: N:NAudio.Wasapi.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wasapi.CoreAudioApi
+  nameWithType: NAudio.Wasapi.CoreAudioApi
+  fullName: NAudio.Wasapi.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wasapi
+    name: Wasapi
+    isExternal: true
+    href: NAudio.Wasapi.html
+  - name: .
+  - uid: NAudio.Wasapi.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.Wasapi.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wasapi
+    name: Wasapi
+    isExternal: true
+    href: NAudio.Wasapi.html
+  - name: .
+  - uid: NAudio.Wasapi.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.Wasapi.CoreAudioApi.html
+- uid: NAudio.CoreAudioApi.Part.AudioMute*
+  commentId: Overload:NAudio.CoreAudioApi.Part.AudioMute
+  isExternal: true
+  href: NAudio.CoreAudioApi.Part.html#NAudio_CoreAudioApi_Part_AudioMute
+  name: AudioMute
+  nameWithType: Part.AudioMute
+  fullName: NAudio.CoreAudioApi.Part.AudioMute
+- uid: NAudio.CoreAudioApi.AudioMute
+  commentId: T:NAudio.CoreAudioApi.AudioMute
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioMute.html
+  name: AudioMute
+  nameWithType: AudioMute
+  fullName: NAudio.CoreAudioApi.AudioMute
+- uid: NAudio.CoreAudioApi.Part.JackDescription*
+  commentId: Overload:NAudio.CoreAudioApi.Part.JackDescription
+  isExternal: true
+  href: NAudio.CoreAudioApi.Part.html#NAudio_CoreAudioApi_Part_JackDescription
+  name: JackDescription
+  nameWithType: Part.JackDescription
+  fullName: NAudio.CoreAudioApi.Part.JackDescription
+- uid: NAudio.CoreAudioApi.KsJackDescription
+  commentId: T:NAudio.CoreAudioApi.KsJackDescription
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.KsJackDescription.html
+  name: KsJackDescription
+  nameWithType: KsJackDescription
+  fullName: NAudio.CoreAudioApi.KsJackDescription

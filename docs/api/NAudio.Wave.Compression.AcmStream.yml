@@ -1,0 +1,846 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.Compression.AcmStream
+  commentId: T:NAudio.Wave.Compression.AcmStream
+  id: AcmStream
+  parent: NAudio.Wave.Compression
+  children:
+  - NAudio.Wave.Compression.AcmStream.#ctor(NAudio.Wave.WaveFormat,NAudio.Wave.WaveFormat)
+  - NAudio.Wave.Compression.AcmStream.#ctor(System.IntPtr,NAudio.Wave.WaveFormat,NAudio.Wave.Compression.WaveFilter)
+  - NAudio.Wave.Compression.AcmStream.Convert(System.Int32)
+  - NAudio.Wave.Compression.AcmStream.Convert(System.Int32,System.Int32@)
+  - NAudio.Wave.Compression.AcmStream.DestBuffer
+  - NAudio.Wave.Compression.AcmStream.DestToSource(System.Int32)
+  - NAudio.Wave.Compression.AcmStream.Dispose
+  - NAudio.Wave.Compression.AcmStream.Dispose(System.Boolean)
+  - NAudio.Wave.Compression.AcmStream.Finalize
+  - NAudio.Wave.Compression.AcmStream.Reposition
+  - NAudio.Wave.Compression.AcmStream.SourceBuffer
+  - NAudio.Wave.Compression.AcmStream.SourceToDest(System.Int32)
+  - NAudio.Wave.Compression.AcmStream.SuggestPcmFormat(NAudio.Wave.WaveFormat)
+  langs:
+  - csharp
+  - vb
+  name: AcmStream
+  nameWithType: AcmStream
+  fullName: NAudio.Wave.Compression.AcmStream
+  type: Class
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: 'public class AcmStream : IDisposable'
+    content.vb: Public Class AcmStream Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Wave.Compression.AcmStream.#ctor(NAudio.Wave.WaveFormat,NAudio.Wave.WaveFormat)
+  commentId: M:NAudio.Wave.Compression.AcmStream.#ctor(NAudio.Wave.WaveFormat,NAudio.Wave.WaveFormat)
+  id: '#ctor(NAudio.Wave.WaveFormat,NAudio.Wave.WaveFormat)'
+  parent: NAudio.Wave.Compression.AcmStream
+  langs:
+  - csharp
+  - vb
+  name: AcmStream(WaveFormat, WaveFormat)
+  nameWithType: AcmStream.AcmStream(WaveFormat, WaveFormat)
+  fullName: NAudio.Wave.Compression.AcmStream.AcmStream(NAudio.Wave.WaveFormat, NAudio.Wave.WaveFormat)
+  type: Constructor
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: public AcmStream(WaveFormat sourceFormat, WaveFormat destFormat)
+    parameters:
+    - id: sourceFormat
+      type: NAudio.Wave.WaveFormat
+    - id: destFormat
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public Sub New(sourceFormat As WaveFormat, destFormat As WaveFormat)
+  overload: NAudio.Wave.Compression.AcmStream.#ctor*
+  nameWithType.vb: AcmStream.New(WaveFormat, WaveFormat)
+  fullName.vb: NAudio.Wave.Compression.AcmStream.New(NAudio.Wave.WaveFormat, NAudio.Wave.WaveFormat)
+  name.vb: New(WaveFormat, WaveFormat)
+- uid: NAudio.Wave.Compression.AcmStream.#ctor(System.IntPtr,NAudio.Wave.WaveFormat,NAudio.Wave.Compression.WaveFilter)
+  commentId: M:NAudio.Wave.Compression.AcmStream.#ctor(System.IntPtr,NAudio.Wave.WaveFormat,NAudio.Wave.Compression.WaveFilter)
+  id: '#ctor(System.IntPtr,NAudio.Wave.WaveFormat,NAudio.Wave.Compression.WaveFilter)'
+  parent: NAudio.Wave.Compression.AcmStream
+  langs:
+  - csharp
+  - vb
+  name: AcmStream(IntPtr, WaveFormat, WaveFilter)
+  nameWithType: AcmStream.AcmStream(IntPtr, WaveFormat, WaveFilter)
+  fullName: NAudio.Wave.Compression.AcmStream.AcmStream(System.IntPtr, NAudio.Wave.WaveFormat, NAudio.Wave.Compression.WaveFilter)
+  type: Constructor
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: public AcmStream(IntPtr driverId, WaveFormat sourceFormat, WaveFilter waveFilter)
+    parameters:
+    - id: driverId
+      type: System.IntPtr
+    - id: sourceFormat
+      type: NAudio.Wave.WaveFormat
+    - id: waveFilter
+      type: NAudio.Wave.Compression.WaveFilter
+    content.vb: Public Sub New(driverId As IntPtr, sourceFormat As WaveFormat, waveFilter As WaveFilter)
+  overload: NAudio.Wave.Compression.AcmStream.#ctor*
+  nameWithType.vb: AcmStream.New(IntPtr, WaveFormat, WaveFilter)
+  fullName.vb: NAudio.Wave.Compression.AcmStream.New(System.IntPtr, NAudio.Wave.WaveFormat, NAudio.Wave.Compression.WaveFilter)
+  name.vb: New(IntPtr, WaveFormat, WaveFilter)
+- uid: NAudio.Wave.Compression.AcmStream.SourceToDest(System.Int32)
+  commentId: M:NAudio.Wave.Compression.AcmStream.SourceToDest(System.Int32)
+  id: SourceToDest(System.Int32)
+  parent: NAudio.Wave.Compression.AcmStream
+  langs:
+  - csharp
+  - vb
+  name: SourceToDest(int)
+  nameWithType: AcmStream.SourceToDest(int)
+  fullName: NAudio.Wave.Compression.AcmStream.SourceToDest(int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: public int SourceToDest(int source)
+    parameters:
+    - id: source
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function SourceToDest(source As Integer) As Integer
+  overload: NAudio.Wave.Compression.AcmStream.SourceToDest*
+  nameWithType.vb: AcmStream.SourceToDest(Integer)
+  fullName.vb: NAudio.Wave.Compression.AcmStream.SourceToDest(Integer)
+  name.vb: SourceToDest(Integer)
+- uid: NAudio.Wave.Compression.AcmStream.DestToSource(System.Int32)
+  commentId: M:NAudio.Wave.Compression.AcmStream.DestToSource(System.Int32)
+  id: DestToSource(System.Int32)
+  parent: NAudio.Wave.Compression.AcmStream
+  langs:
+  - csharp
+  - vb
+  name: DestToSource(int)
+  nameWithType: AcmStream.DestToSource(int)
+  fullName: NAudio.Wave.Compression.AcmStream.DestToSource(int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: public int DestToSource(int dest)
+    parameters:
+    - id: dest
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function DestToSource(dest As Integer) As Integer
+  overload: NAudio.Wave.Compression.AcmStream.DestToSource*
+  nameWithType.vb: AcmStream.DestToSource(Integer)
+  fullName.vb: NAudio.Wave.Compression.AcmStream.DestToSource(Integer)
+  name.vb: DestToSource(Integer)
+- uid: NAudio.Wave.Compression.AcmStream.SuggestPcmFormat(NAudio.Wave.WaveFormat)
+  commentId: M:NAudio.Wave.Compression.AcmStream.SuggestPcmFormat(NAudio.Wave.WaveFormat)
+  id: SuggestPcmFormat(NAudio.Wave.WaveFormat)
+  parent: NAudio.Wave.Compression.AcmStream
+  langs:
+  - csharp
+  - vb
+  name: SuggestPcmFormat(WaveFormat)
+  nameWithType: AcmStream.SuggestPcmFormat(WaveFormat)
+  fullName: NAudio.Wave.Compression.AcmStream.SuggestPcmFormat(NAudio.Wave.WaveFormat)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: public static WaveFormat SuggestPcmFormat(WaveFormat compressedFormat)
+    parameters:
+    - id: compressedFormat
+      type: NAudio.Wave.WaveFormat
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public Shared Function SuggestPcmFormat(compressedFormat As WaveFormat) As WaveFormat
+  overload: NAudio.Wave.Compression.AcmStream.SuggestPcmFormat*
+- uid: NAudio.Wave.Compression.AcmStream.Reposition
+  commentId: M:NAudio.Wave.Compression.AcmStream.Reposition
+  id: Reposition
+  parent: NAudio.Wave.Compression.AcmStream
+  langs:
+  - csharp
+  - vb
+  name: Reposition()
+  nameWithType: AcmStream.Reposition()
+  fullName: NAudio.Wave.Compression.AcmStream.Reposition()
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: public void Reposition()
+    content.vb: Public Sub Reposition()
+  overload: NAudio.Wave.Compression.AcmStream.Reposition*
+- uid: NAudio.Wave.Compression.AcmStream.Convert(System.Int32,System.Int32@)
+  commentId: M:NAudio.Wave.Compression.AcmStream.Convert(System.Int32,System.Int32@)
+  id: Convert(System.Int32,System.Int32@)
+  parent: NAudio.Wave.Compression.AcmStream
+  langs:
+  - csharp
+  - vb
+  name: Convert(int, out int)
+  nameWithType: AcmStream.Convert(int, out int)
+  fullName: NAudio.Wave.Compression.AcmStream.Convert(int, out int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: public int Convert(int bytesToConvert, out int sourceBytesConverted)
+    parameters:
+    - id: bytesToConvert
+      type: System.Int32
+    - id: sourceBytesConverted
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function Convert(bytesToConvert As Integer, sourceBytesConverted As Integer) As Integer
+  overload: NAudio.Wave.Compression.AcmStream.Convert*
+  nameWithType.vb: AcmStream.Convert(Integer, Integer)
+  fullName.vb: NAudio.Wave.Compression.AcmStream.Convert(Integer, Integer)
+  name.vb: Convert(Integer, Integer)
+- uid: NAudio.Wave.Compression.AcmStream.Convert(System.Int32)
+  commentId: M:NAudio.Wave.Compression.AcmStream.Convert(System.Int32)
+  id: Convert(System.Int32)
+  parent: NAudio.Wave.Compression.AcmStream
+  langs:
+  - csharp
+  - vb
+  name: Convert(int)
+  nameWithType: AcmStream.Convert(int)
+  fullName: NAudio.Wave.Compression.AcmStream.Convert(int)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: >-
+      [Obsolete("Call the version returning sourceBytesConverted instead")]
+
+      public int Convert(int bytesToConvert)
+    parameters:
+    - id: bytesToConvert
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Obsolete("Call the version returning sourceBytesConverted instead")>
+
+      Public Function Convert(bytesToConvert As Integer) As Integer
+  overload: NAudio.Wave.Compression.AcmStream.Convert*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Call the version returning sourceBytesConverted instead
+  nameWithType.vb: AcmStream.Convert(Integer)
+  fullName.vb: NAudio.Wave.Compression.AcmStream.Convert(Integer)
+  name.vb: Convert(Integer)
+- uid: NAudio.Wave.Compression.AcmStream.Dispose
+  commentId: M:NAudio.Wave.Compression.AcmStream.Dispose
+  id: Dispose
+  parent: NAudio.Wave.Compression.AcmStream
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: AcmStream.Dispose()
+  fullName: NAudio.Wave.Compression.AcmStream.Dispose()
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: NAudio.Wave.Compression.AcmStream.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: NAudio.Wave.Compression.AcmStream.Dispose(System.Boolean)
+  commentId: M:NAudio.Wave.Compression.AcmStream.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: NAudio.Wave.Compression.AcmStream
+  langs:
+  - csharp
+  - vb
+  name: Dispose(bool)
+  nameWithType: AcmStream.Dispose(bool)
+  fullName: NAudio.Wave.Compression.AcmStream.Dispose(bool)
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: protected virtual void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+    content.vb: Protected Overridable Sub Dispose(disposing As Boolean)
+  overload: NAudio.Wave.Compression.AcmStream.Dispose*
+  nameWithType.vb: AcmStream.Dispose(Boolean)
+  fullName.vb: NAudio.Wave.Compression.AcmStream.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+- uid: NAudio.Wave.Compression.AcmStream.Finalize
+  commentId: M:NAudio.Wave.Compression.AcmStream.Finalize
+  id: Finalize
+  parent: NAudio.Wave.Compression.AcmStream
+  langs:
+  - csharp
+  - vb
+  name: ~AcmStream()
+  nameWithType: AcmStream.~AcmStream()
+  fullName: NAudio.Wave.Compression.AcmStream.~AcmStream()
+  type: Method
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: protected ~AcmStream()
+    content.vb: 'Protected '
+  overload: NAudio.Wave.Compression.AcmStream.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: NAudio.Wave.Compression.AcmStream.SourceBuffer
+  commentId: P:NAudio.Wave.Compression.AcmStream.SourceBuffer
+  id: SourceBuffer
+  parent: NAudio.Wave.Compression.AcmStream
+  langs:
+  - csharp
+  - vb
+  name: SourceBuffer
+  nameWithType: AcmStream.SourceBuffer
+  fullName: NAudio.Wave.Compression.AcmStream.SourceBuffer
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: public byte[] SourceBuffer { get; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public ReadOnly Property SourceBuffer As Byte()
+  overload: NAudio.Wave.Compression.AcmStream.SourceBuffer*
+- uid: NAudio.Wave.Compression.AcmStream.DestBuffer
+  commentId: P:NAudio.Wave.Compression.AcmStream.DestBuffer
+  id: DestBuffer
+  parent: NAudio.Wave.Compression.AcmStream
+  langs:
+  - csharp
+  - vb
+  name: DestBuffer
+  nameWithType: AcmStream.DestBuffer
+  fullName: NAudio.Wave.Compression.AcmStream.DestBuffer
+  type: Property
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Wave.Compression
+  syntax:
+    content: public byte[] DestBuffer { get; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public ReadOnly Property DestBuffer As Byte()
+  overload: NAudio.Wave.Compression.AcmStream.DestBuffer*
+references:
+- uid: NAudio.Wave.Compression
+  commentId: N:NAudio.Wave.Compression
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave.Compression
+  nameWithType: NAudio.Wave.Compression
+  fullName: NAudio.Wave.Compression
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Compression
+    name: Compression
+    isExternal: true
+    href: NAudio.Wave.Compression.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Compression
+    name: Compression
+    isExternal: true
+    href: NAudio.Wave.Compression.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.Compression.AcmStream.#ctor*
+  commentId: Overload:NAudio.Wave.Compression.AcmStream.#ctor
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmStream.html#NAudio_Wave_Compression_AcmStream__ctor_NAudio_Wave_WaveFormat_NAudio_Wave_WaveFormat_
+  name: AcmStream
+  nameWithType: AcmStream.AcmStream
+  fullName: NAudio.Wave.Compression.AcmStream.AcmStream
+  nameWithType.vb: AcmStream.New
+  fullName.vb: NAudio.Wave.Compression.AcmStream.New
+  name.vb: New
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: NAudio.Wave.Compression.WaveFilter
+  commentId: T:NAudio.Wave.Compression.WaveFilter
+  parent: NAudio.Wave.Compression
+  isExternal: true
+  href: NAudio.Wave.Compression.WaveFilter.html
+  name: WaveFilter
+  nameWithType: WaveFilter
+  fullName: NAudio.Wave.Compression.WaveFilter
+- uid: NAudio.Wave.Compression.AcmStream.SourceToDest*
+  commentId: Overload:NAudio.Wave.Compression.AcmStream.SourceToDest
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmStream.html#NAudio_Wave_Compression_AcmStream_SourceToDest_System_Int32_
+  name: SourceToDest
+  nameWithType: AcmStream.SourceToDest
+  fullName: NAudio.Wave.Compression.AcmStream.SourceToDest
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.Wave.Compression.AcmStream.DestToSource*
+  commentId: Overload:NAudio.Wave.Compression.AcmStream.DestToSource
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmStream.html#NAudio_Wave_Compression_AcmStream_DestToSource_System_Int32_
+  name: DestToSource
+  nameWithType: AcmStream.DestToSource
+  fullName: NAudio.Wave.Compression.AcmStream.DestToSource
+- uid: NAudio.Wave.Compression.AcmStream.SuggestPcmFormat*
+  commentId: Overload:NAudio.Wave.Compression.AcmStream.SuggestPcmFormat
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmStream.html#NAudio_Wave_Compression_AcmStream_SuggestPcmFormat_NAudio_Wave_WaveFormat_
+  name: SuggestPcmFormat
+  nameWithType: AcmStream.SuggestPcmFormat
+  fullName: NAudio.Wave.Compression.AcmStream.SuggestPcmFormat
+- uid: NAudio.Wave.Compression.AcmStream.Reposition*
+  commentId: Overload:NAudio.Wave.Compression.AcmStream.Reposition
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmStream.html#NAudio_Wave_Compression_AcmStream_Reposition
+  name: Reposition
+  nameWithType: AcmStream.Reposition
+  fullName: NAudio.Wave.Compression.AcmStream.Reposition
+- uid: NAudio.Wave.Compression.AcmStream.Convert*
+  commentId: Overload:NAudio.Wave.Compression.AcmStream.Convert
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmStream.html#NAudio_Wave_Compression_AcmStream_Convert_System_Int32_System_Int32__
+  name: Convert
+  nameWithType: AcmStream.Convert
+  fullName: NAudio.Wave.Compression.AcmStream.Convert
+- uid: NAudio.Wave.Compression.AcmStream.Dispose*
+  commentId: Overload:NAudio.Wave.Compression.AcmStream.Dispose
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmStream.html#NAudio_Wave_Compression_AcmStream_Dispose
+  name: Dispose
+  nameWithType: AcmStream.Dispose
+  fullName: NAudio.Wave.Compression.AcmStream.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NAudio.Wave.Compression.AcmStream.Finalize*
+  commentId: Overload:NAudio.Wave.Compression.AcmStream.Finalize
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmStream.html#NAudio_Wave_Compression_AcmStream_Finalize
+  name: ~AcmStream
+  nameWithType: AcmStream.~AcmStream
+  fullName: NAudio.Wave.Compression.AcmStream.~AcmStream
+  spec.csharp:
+  - name: "~"
+  - uid: NAudio.Wave.Compression.AcmStream.Finalize*
+    name: AcmStream
+    isExternal: true
+    href: NAudio.Wave.Compression.AcmStream.html#NAudio_Wave_Compression_AcmStream_Finalize
+- uid: NAudio.Wave.Compression.AcmStream.SourceBuffer*
+  commentId: Overload:NAudio.Wave.Compression.AcmStream.SourceBuffer
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmStream.html#NAudio_Wave_Compression_AcmStream_SourceBuffer
+  name: SourceBuffer
+  nameWithType: AcmStream.SourceBuffer
+  fullName: NAudio.Wave.Compression.AcmStream.SourceBuffer
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: NAudio.Wave.Compression.AcmStream.DestBuffer*
+  commentId: Overload:NAudio.Wave.Compression.AcmStream.DestBuffer
+  isExternal: true
+  href: NAudio.Wave.Compression.AcmStream.html#NAudio_Wave_Compression_AcmStream_DestBuffer
+  name: DestBuffer
+  nameWithType: AcmStream.DestBuffer
+  fullName: NAudio.Wave.Compression.AcmStream.DestBuffer

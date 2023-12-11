@@ -1,0 +1,1469 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.MediaObject
+  commentId: T:NAudio.Dmo.MediaObject
+  id: MediaObject
+  parent: NAudio.Dmo
+  children:
+  - NAudio.Dmo.MediaObject.AllocateStreamingResources
+  - NAudio.Dmo.MediaObject.Discontinuity(System.Int32)
+  - NAudio.Dmo.MediaObject.Dispose
+  - NAudio.Dmo.MediaObject.Flush
+  - NAudio.Dmo.MediaObject.FreeStreamingResources
+  - NAudio.Dmo.MediaObject.GetInputMaxLatency(System.Int32)
+  - NAudio.Dmo.MediaObject.GetInputSizeInfo(System.Int32)
+  - NAudio.Dmo.MediaObject.GetInputType(System.Int32,System.Int32)
+  - NAudio.Dmo.MediaObject.GetInputTypes(System.Int32)
+  - NAudio.Dmo.MediaObject.GetOutputCurrentType(System.Int32)
+  - NAudio.Dmo.MediaObject.GetOutputSizeInfo(System.Int32)
+  - NAudio.Dmo.MediaObject.GetOutputType(System.Int32,System.Int32)
+  - NAudio.Dmo.MediaObject.GetOutputTypes(System.Int32)
+  - NAudio.Dmo.MediaObject.InputStreamCount
+  - NAudio.Dmo.MediaObject.IsAcceptingData(System.Int32)
+  - NAudio.Dmo.MediaObject.OutputStreamCount
+  - NAudio.Dmo.MediaObject.ProcessInput(System.Int32,NAudio.Dmo.IMediaBuffer,NAudio.Dmo.DmoInputDataBufferFlags,System.Int64,System.Int64)
+  - NAudio.Dmo.MediaObject.ProcessOutput(NAudio.Dmo.DmoProcessOutputFlags,System.Int32,NAudio.Dmo.DmoOutputDataBuffer[])
+  - NAudio.Dmo.MediaObject.SetInputType(System.Int32,NAudio.Dmo.DmoMediaType)
+  - NAudio.Dmo.MediaObject.SetInputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)
+  - NAudio.Dmo.MediaObject.SetOutputType(System.Int32,NAudio.Dmo.DmoMediaType)
+  - NAudio.Dmo.MediaObject.SetOutputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)
+  - NAudio.Dmo.MediaObject.SupportsInputType(System.Int32,NAudio.Dmo.DmoMediaType)
+  - NAudio.Dmo.MediaObject.SupportsInputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)
+  - NAudio.Dmo.MediaObject.SupportsOutputType(System.Int32,NAudio.Dmo.DmoMediaType)
+  - NAudio.Dmo.MediaObject.SupportsOutputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)
+  langs:
+  - csharp
+  - vb
+  name: MediaObject
+  nameWithType: MediaObject
+  fullName: NAudio.Dmo.MediaObject
+  type: Class
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: 'public class MediaObject : IDisposable'
+    content.vb: Public Class MediaObject Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Dmo.MediaObject.GetInputType(System.Int32,System.Int32)
+  commentId: M:NAudio.Dmo.MediaObject.GetInputType(System.Int32,System.Int32)
+  id: GetInputType(System.Int32,System.Int32)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: GetInputType(int, int)
+  nameWithType: MediaObject.GetInputType(int, int)
+  fullName: NAudio.Dmo.MediaObject.GetInputType(int, int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public DmoMediaType? GetInputType(int inputStream, int inputTypeIndex)
+    parameters:
+    - id: inputStream
+      type: System.Int32
+    - id: inputTypeIndex
+      type: System.Int32
+    return:
+      type: System.Nullable{NAudio.Dmo.DmoMediaType}
+    content.vb: Public Function GetInputType(inputStream As Integer, inputTypeIndex As Integer) As DmoMediaType?
+  overload: NAudio.Dmo.MediaObject.GetInputType*
+  nameWithType.vb: MediaObject.GetInputType(Integer, Integer)
+  fullName.vb: NAudio.Dmo.MediaObject.GetInputType(Integer, Integer)
+  name.vb: GetInputType(Integer, Integer)
+- uid: NAudio.Dmo.MediaObject.GetOutputType(System.Int32,System.Int32)
+  commentId: M:NAudio.Dmo.MediaObject.GetOutputType(System.Int32,System.Int32)
+  id: GetOutputType(System.Int32,System.Int32)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: GetOutputType(int, int)
+  nameWithType: MediaObject.GetOutputType(int, int)
+  fullName: NAudio.Dmo.MediaObject.GetOutputType(int, int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public DmoMediaType? GetOutputType(int outputStream, int outputTypeIndex)
+    parameters:
+    - id: outputStream
+      type: System.Int32
+    - id: outputTypeIndex
+      type: System.Int32
+    return:
+      type: System.Nullable{NAudio.Dmo.DmoMediaType}
+    content.vb: Public Function GetOutputType(outputStream As Integer, outputTypeIndex As Integer) As DmoMediaType?
+  overload: NAudio.Dmo.MediaObject.GetOutputType*
+  nameWithType.vb: MediaObject.GetOutputType(Integer, Integer)
+  fullName.vb: NAudio.Dmo.MediaObject.GetOutputType(Integer, Integer)
+  name.vb: GetOutputType(Integer, Integer)
+- uid: NAudio.Dmo.MediaObject.GetOutputCurrentType(System.Int32)
+  commentId: M:NAudio.Dmo.MediaObject.GetOutputCurrentType(System.Int32)
+  id: GetOutputCurrentType(System.Int32)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: GetOutputCurrentType(int)
+  nameWithType: MediaObject.GetOutputCurrentType(int)
+  fullName: NAudio.Dmo.MediaObject.GetOutputCurrentType(int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public DmoMediaType GetOutputCurrentType(int outputStreamIndex)
+    parameters:
+    - id: outputStreamIndex
+      type: System.Int32
+    return:
+      type: NAudio.Dmo.DmoMediaType
+    content.vb: Public Function GetOutputCurrentType(outputStreamIndex As Integer) As DmoMediaType
+  overload: NAudio.Dmo.MediaObject.GetOutputCurrentType*
+  nameWithType.vb: MediaObject.GetOutputCurrentType(Integer)
+  fullName.vb: NAudio.Dmo.MediaObject.GetOutputCurrentType(Integer)
+  name.vb: GetOutputCurrentType(Integer)
+- uid: NAudio.Dmo.MediaObject.GetInputTypes(System.Int32)
+  commentId: M:NAudio.Dmo.MediaObject.GetInputTypes(System.Int32)
+  id: GetInputTypes(System.Int32)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: GetInputTypes(int)
+  nameWithType: MediaObject.GetInputTypes(int)
+  fullName: NAudio.Dmo.MediaObject.GetInputTypes(int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public IEnumerable<DmoMediaType> GetInputTypes(int inputStreamIndex)
+    parameters:
+    - id: inputStreamIndex
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.IEnumerable{NAudio.Dmo.DmoMediaType}
+    content.vb: Public Function GetInputTypes(inputStreamIndex As Integer) As IEnumerable(Of DmoMediaType)
+  overload: NAudio.Dmo.MediaObject.GetInputTypes*
+  nameWithType.vb: MediaObject.GetInputTypes(Integer)
+  fullName.vb: NAudio.Dmo.MediaObject.GetInputTypes(Integer)
+  name.vb: GetInputTypes(Integer)
+- uid: NAudio.Dmo.MediaObject.GetOutputTypes(System.Int32)
+  commentId: M:NAudio.Dmo.MediaObject.GetOutputTypes(System.Int32)
+  id: GetOutputTypes(System.Int32)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: GetOutputTypes(int)
+  nameWithType: MediaObject.GetOutputTypes(int)
+  fullName: NAudio.Dmo.MediaObject.GetOutputTypes(int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public IEnumerable<DmoMediaType> GetOutputTypes(int outputStreamIndex)
+    parameters:
+    - id: outputStreamIndex
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.IEnumerable{NAudio.Dmo.DmoMediaType}
+    content.vb: Public Function GetOutputTypes(outputStreamIndex As Integer) As IEnumerable(Of DmoMediaType)
+  overload: NAudio.Dmo.MediaObject.GetOutputTypes*
+  nameWithType.vb: MediaObject.GetOutputTypes(Integer)
+  fullName.vb: NAudio.Dmo.MediaObject.GetOutputTypes(Integer)
+  name.vb: GetOutputTypes(Integer)
+- uid: NAudio.Dmo.MediaObject.SupportsInputType(System.Int32,NAudio.Dmo.DmoMediaType)
+  commentId: M:NAudio.Dmo.MediaObject.SupportsInputType(System.Int32,NAudio.Dmo.DmoMediaType)
+  id: SupportsInputType(System.Int32,NAudio.Dmo.DmoMediaType)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: SupportsInputType(int, DmoMediaType)
+  nameWithType: MediaObject.SupportsInputType(int, DmoMediaType)
+  fullName: NAudio.Dmo.MediaObject.SupportsInputType(int, NAudio.Dmo.DmoMediaType)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public bool SupportsInputType(int inputStreamIndex, DmoMediaType mediaType)
+    parameters:
+    - id: inputStreamIndex
+      type: System.Int32
+    - id: mediaType
+      type: NAudio.Dmo.DmoMediaType
+    return:
+      type: System.Boolean
+    content.vb: Public Function SupportsInputType(inputStreamIndex As Integer, mediaType As DmoMediaType) As Boolean
+  overload: NAudio.Dmo.MediaObject.SupportsInputType*
+  nameWithType.vb: MediaObject.SupportsInputType(Integer, DmoMediaType)
+  fullName.vb: NAudio.Dmo.MediaObject.SupportsInputType(Integer, NAudio.Dmo.DmoMediaType)
+  name.vb: SupportsInputType(Integer, DmoMediaType)
+- uid: NAudio.Dmo.MediaObject.SetInputType(System.Int32,NAudio.Dmo.DmoMediaType)
+  commentId: M:NAudio.Dmo.MediaObject.SetInputType(System.Int32,NAudio.Dmo.DmoMediaType)
+  id: SetInputType(System.Int32,NAudio.Dmo.DmoMediaType)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: SetInputType(int, DmoMediaType)
+  nameWithType: MediaObject.SetInputType(int, DmoMediaType)
+  fullName: NAudio.Dmo.MediaObject.SetInputType(int, NAudio.Dmo.DmoMediaType)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public void SetInputType(int inputStreamIndex, DmoMediaType mediaType)
+    parameters:
+    - id: inputStreamIndex
+      type: System.Int32
+    - id: mediaType
+      type: NAudio.Dmo.DmoMediaType
+    content.vb: Public Sub SetInputType(inputStreamIndex As Integer, mediaType As DmoMediaType)
+  overload: NAudio.Dmo.MediaObject.SetInputType*
+  nameWithType.vb: MediaObject.SetInputType(Integer, DmoMediaType)
+  fullName.vb: NAudio.Dmo.MediaObject.SetInputType(Integer, NAudio.Dmo.DmoMediaType)
+  name.vb: SetInputType(Integer, DmoMediaType)
+- uid: NAudio.Dmo.MediaObject.SetInputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)
+  commentId: M:NAudio.Dmo.MediaObject.SetInputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)
+  id: SetInputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: SetInputWaveFormat(int, WaveFormat)
+  nameWithType: MediaObject.SetInputWaveFormat(int, WaveFormat)
+  fullName: NAudio.Dmo.MediaObject.SetInputWaveFormat(int, NAudio.Wave.WaveFormat)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public void SetInputWaveFormat(int inputStreamIndex, WaveFormat waveFormat)
+    parameters:
+    - id: inputStreamIndex
+      type: System.Int32
+    - id: waveFormat
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public Sub SetInputWaveFormat(inputStreamIndex As Integer, waveFormat As WaveFormat)
+  overload: NAudio.Dmo.MediaObject.SetInputWaveFormat*
+  nameWithType.vb: MediaObject.SetInputWaveFormat(Integer, WaveFormat)
+  fullName.vb: NAudio.Dmo.MediaObject.SetInputWaveFormat(Integer, NAudio.Wave.WaveFormat)
+  name.vb: SetInputWaveFormat(Integer, WaveFormat)
+- uid: NAudio.Dmo.MediaObject.SupportsInputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)
+  commentId: M:NAudio.Dmo.MediaObject.SupportsInputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)
+  id: SupportsInputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: SupportsInputWaveFormat(int, WaveFormat)
+  nameWithType: MediaObject.SupportsInputWaveFormat(int, WaveFormat)
+  fullName: NAudio.Dmo.MediaObject.SupportsInputWaveFormat(int, NAudio.Wave.WaveFormat)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public bool SupportsInputWaveFormat(int inputStreamIndex, WaveFormat waveFormat)
+    parameters:
+    - id: inputStreamIndex
+      type: System.Int32
+    - id: waveFormat
+      type: NAudio.Wave.WaveFormat
+    return:
+      type: System.Boolean
+    content.vb: Public Function SupportsInputWaveFormat(inputStreamIndex As Integer, waveFormat As WaveFormat) As Boolean
+  overload: NAudio.Dmo.MediaObject.SupportsInputWaveFormat*
+  nameWithType.vb: MediaObject.SupportsInputWaveFormat(Integer, WaveFormat)
+  fullName.vb: NAudio.Dmo.MediaObject.SupportsInputWaveFormat(Integer, NAudio.Wave.WaveFormat)
+  name.vb: SupportsInputWaveFormat(Integer, WaveFormat)
+- uid: NAudio.Dmo.MediaObject.SupportsOutputType(System.Int32,NAudio.Dmo.DmoMediaType)
+  commentId: M:NAudio.Dmo.MediaObject.SupportsOutputType(System.Int32,NAudio.Dmo.DmoMediaType)
+  id: SupportsOutputType(System.Int32,NAudio.Dmo.DmoMediaType)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: SupportsOutputType(int, DmoMediaType)
+  nameWithType: MediaObject.SupportsOutputType(int, DmoMediaType)
+  fullName: NAudio.Dmo.MediaObject.SupportsOutputType(int, NAudio.Dmo.DmoMediaType)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public bool SupportsOutputType(int outputStreamIndex, DmoMediaType mediaType)
+    parameters:
+    - id: outputStreamIndex
+      type: System.Int32
+    - id: mediaType
+      type: NAudio.Dmo.DmoMediaType
+    return:
+      type: System.Boolean
+    content.vb: Public Function SupportsOutputType(outputStreamIndex As Integer, mediaType As DmoMediaType) As Boolean
+  overload: NAudio.Dmo.MediaObject.SupportsOutputType*
+  nameWithType.vb: MediaObject.SupportsOutputType(Integer, DmoMediaType)
+  fullName.vb: NAudio.Dmo.MediaObject.SupportsOutputType(Integer, NAudio.Dmo.DmoMediaType)
+  name.vb: SupportsOutputType(Integer, DmoMediaType)
+- uid: NAudio.Dmo.MediaObject.SupportsOutputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)
+  commentId: M:NAudio.Dmo.MediaObject.SupportsOutputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)
+  id: SupportsOutputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: SupportsOutputWaveFormat(int, WaveFormat)
+  nameWithType: MediaObject.SupportsOutputWaveFormat(int, WaveFormat)
+  fullName: NAudio.Dmo.MediaObject.SupportsOutputWaveFormat(int, NAudio.Wave.WaveFormat)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public bool SupportsOutputWaveFormat(int outputStreamIndex, WaveFormat waveFormat)
+    parameters:
+    - id: outputStreamIndex
+      type: System.Int32
+    - id: waveFormat
+      type: NAudio.Wave.WaveFormat
+    return:
+      type: System.Boolean
+    content.vb: Public Function SupportsOutputWaveFormat(outputStreamIndex As Integer, waveFormat As WaveFormat) As Boolean
+  overload: NAudio.Dmo.MediaObject.SupportsOutputWaveFormat*
+  nameWithType.vb: MediaObject.SupportsOutputWaveFormat(Integer, WaveFormat)
+  fullName.vb: NAudio.Dmo.MediaObject.SupportsOutputWaveFormat(Integer, NAudio.Wave.WaveFormat)
+  name.vb: SupportsOutputWaveFormat(Integer, WaveFormat)
+- uid: NAudio.Dmo.MediaObject.SetOutputType(System.Int32,NAudio.Dmo.DmoMediaType)
+  commentId: M:NAudio.Dmo.MediaObject.SetOutputType(System.Int32,NAudio.Dmo.DmoMediaType)
+  id: SetOutputType(System.Int32,NAudio.Dmo.DmoMediaType)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: SetOutputType(int, DmoMediaType)
+  nameWithType: MediaObject.SetOutputType(int, DmoMediaType)
+  fullName: NAudio.Dmo.MediaObject.SetOutputType(int, NAudio.Dmo.DmoMediaType)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public void SetOutputType(int outputStreamIndex, DmoMediaType mediaType)
+    parameters:
+    - id: outputStreamIndex
+      type: System.Int32
+    - id: mediaType
+      type: NAudio.Dmo.DmoMediaType
+    content.vb: Public Sub SetOutputType(outputStreamIndex As Integer, mediaType As DmoMediaType)
+  overload: NAudio.Dmo.MediaObject.SetOutputType*
+  nameWithType.vb: MediaObject.SetOutputType(Integer, DmoMediaType)
+  fullName.vb: NAudio.Dmo.MediaObject.SetOutputType(Integer, NAudio.Dmo.DmoMediaType)
+  name.vb: SetOutputType(Integer, DmoMediaType)
+- uid: NAudio.Dmo.MediaObject.SetOutputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)
+  commentId: M:NAudio.Dmo.MediaObject.SetOutputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)
+  id: SetOutputWaveFormat(System.Int32,NAudio.Wave.WaveFormat)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: SetOutputWaveFormat(int, WaveFormat)
+  nameWithType: MediaObject.SetOutputWaveFormat(int, WaveFormat)
+  fullName: NAudio.Dmo.MediaObject.SetOutputWaveFormat(int, NAudio.Wave.WaveFormat)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public void SetOutputWaveFormat(int outputStreamIndex, WaveFormat waveFormat)
+    parameters:
+    - id: outputStreamIndex
+      type: System.Int32
+    - id: waveFormat
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public Sub SetOutputWaveFormat(outputStreamIndex As Integer, waveFormat As WaveFormat)
+  overload: NAudio.Dmo.MediaObject.SetOutputWaveFormat*
+  nameWithType.vb: MediaObject.SetOutputWaveFormat(Integer, WaveFormat)
+  fullName.vb: NAudio.Dmo.MediaObject.SetOutputWaveFormat(Integer, NAudio.Wave.WaveFormat)
+  name.vb: SetOutputWaveFormat(Integer, WaveFormat)
+- uid: NAudio.Dmo.MediaObject.GetInputSizeInfo(System.Int32)
+  commentId: M:NAudio.Dmo.MediaObject.GetInputSizeInfo(System.Int32)
+  id: GetInputSizeInfo(System.Int32)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: GetInputSizeInfo(int)
+  nameWithType: MediaObject.GetInputSizeInfo(int)
+  fullName: NAudio.Dmo.MediaObject.GetInputSizeInfo(int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public MediaObjectSizeInfo GetInputSizeInfo(int inputStreamIndex)
+    parameters:
+    - id: inputStreamIndex
+      type: System.Int32
+    return:
+      type: NAudio.Dmo.MediaObjectSizeInfo
+    content.vb: Public Function GetInputSizeInfo(inputStreamIndex As Integer) As MediaObjectSizeInfo
+  overload: NAudio.Dmo.MediaObject.GetInputSizeInfo*
+  nameWithType.vb: MediaObject.GetInputSizeInfo(Integer)
+  fullName.vb: NAudio.Dmo.MediaObject.GetInputSizeInfo(Integer)
+  name.vb: GetInputSizeInfo(Integer)
+- uid: NAudio.Dmo.MediaObject.GetOutputSizeInfo(System.Int32)
+  commentId: M:NAudio.Dmo.MediaObject.GetOutputSizeInfo(System.Int32)
+  id: GetOutputSizeInfo(System.Int32)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: GetOutputSizeInfo(int)
+  nameWithType: MediaObject.GetOutputSizeInfo(int)
+  fullName: NAudio.Dmo.MediaObject.GetOutputSizeInfo(int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public MediaObjectSizeInfo GetOutputSizeInfo(int outputStreamIndex)
+    parameters:
+    - id: outputStreamIndex
+      type: System.Int32
+    return:
+      type: NAudio.Dmo.MediaObjectSizeInfo
+    content.vb: Public Function GetOutputSizeInfo(outputStreamIndex As Integer) As MediaObjectSizeInfo
+  overload: NAudio.Dmo.MediaObject.GetOutputSizeInfo*
+  nameWithType.vb: MediaObject.GetOutputSizeInfo(Integer)
+  fullName.vb: NAudio.Dmo.MediaObject.GetOutputSizeInfo(Integer)
+  name.vb: GetOutputSizeInfo(Integer)
+- uid: NAudio.Dmo.MediaObject.ProcessInput(System.Int32,NAudio.Dmo.IMediaBuffer,NAudio.Dmo.DmoInputDataBufferFlags,System.Int64,System.Int64)
+  commentId: M:NAudio.Dmo.MediaObject.ProcessInput(System.Int32,NAudio.Dmo.IMediaBuffer,NAudio.Dmo.DmoInputDataBufferFlags,System.Int64,System.Int64)
+  id: ProcessInput(System.Int32,NAudio.Dmo.IMediaBuffer,NAudio.Dmo.DmoInputDataBufferFlags,System.Int64,System.Int64)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: ProcessInput(int, IMediaBuffer, DmoInputDataBufferFlags, long, long)
+  nameWithType: MediaObject.ProcessInput(int, IMediaBuffer, DmoInputDataBufferFlags, long, long)
+  fullName: NAudio.Dmo.MediaObject.ProcessInput(int, NAudio.Dmo.IMediaBuffer, NAudio.Dmo.DmoInputDataBufferFlags, long, long)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public void ProcessInput(int inputStreamIndex, IMediaBuffer mediaBuffer, DmoInputDataBufferFlags flags, long timestamp, long duration)
+    parameters:
+    - id: inputStreamIndex
+      type: System.Int32
+    - id: mediaBuffer
+      type: NAudio.Dmo.IMediaBuffer
+    - id: flags
+      type: NAudio.Dmo.DmoInputDataBufferFlags
+    - id: timestamp
+      type: System.Int64
+    - id: duration
+      type: System.Int64
+    content.vb: Public Sub ProcessInput(inputStreamIndex As Integer, mediaBuffer As IMediaBuffer, flags As DmoInputDataBufferFlags, timestamp As Long, duration As Long)
+  overload: NAudio.Dmo.MediaObject.ProcessInput*
+  nameWithType.vb: MediaObject.ProcessInput(Integer, IMediaBuffer, DmoInputDataBufferFlags, Long, Long)
+  fullName.vb: NAudio.Dmo.MediaObject.ProcessInput(Integer, NAudio.Dmo.IMediaBuffer, NAudio.Dmo.DmoInputDataBufferFlags, Long, Long)
+  name.vb: ProcessInput(Integer, IMediaBuffer, DmoInputDataBufferFlags, Long, Long)
+- uid: NAudio.Dmo.MediaObject.ProcessOutput(NAudio.Dmo.DmoProcessOutputFlags,System.Int32,NAudio.Dmo.DmoOutputDataBuffer[])
+  commentId: M:NAudio.Dmo.MediaObject.ProcessOutput(NAudio.Dmo.DmoProcessOutputFlags,System.Int32,NAudio.Dmo.DmoOutputDataBuffer[])
+  id: ProcessOutput(NAudio.Dmo.DmoProcessOutputFlags,System.Int32,NAudio.Dmo.DmoOutputDataBuffer[])
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: ProcessOutput(DmoProcessOutputFlags, int, DmoOutputDataBuffer[])
+  nameWithType: MediaObject.ProcessOutput(DmoProcessOutputFlags, int, DmoOutputDataBuffer[])
+  fullName: NAudio.Dmo.MediaObject.ProcessOutput(NAudio.Dmo.DmoProcessOutputFlags, int, NAudio.Dmo.DmoOutputDataBuffer[])
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public void ProcessOutput(DmoProcessOutputFlags flags, int outputBufferCount, DmoOutputDataBuffer[] outputBuffers)
+    parameters:
+    - id: flags
+      type: NAudio.Dmo.DmoProcessOutputFlags
+    - id: outputBufferCount
+      type: System.Int32
+    - id: outputBuffers
+      type: NAudio.Dmo.DmoOutputDataBuffer[]
+    content.vb: Public Sub ProcessOutput(flags As DmoProcessOutputFlags, outputBufferCount As Integer, outputBuffers As DmoOutputDataBuffer())
+  overload: NAudio.Dmo.MediaObject.ProcessOutput*
+  nameWithType.vb: MediaObject.ProcessOutput(DmoProcessOutputFlags, Integer, DmoOutputDataBuffer())
+  fullName.vb: NAudio.Dmo.MediaObject.ProcessOutput(NAudio.Dmo.DmoProcessOutputFlags, Integer, NAudio.Dmo.DmoOutputDataBuffer())
+  name.vb: ProcessOutput(DmoProcessOutputFlags, Integer, DmoOutputDataBuffer())
+- uid: NAudio.Dmo.MediaObject.AllocateStreamingResources
+  commentId: M:NAudio.Dmo.MediaObject.AllocateStreamingResources
+  id: AllocateStreamingResources
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: AllocateStreamingResources()
+  nameWithType: MediaObject.AllocateStreamingResources()
+  fullName: NAudio.Dmo.MediaObject.AllocateStreamingResources()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public void AllocateStreamingResources()
+    content.vb: Public Sub AllocateStreamingResources()
+  overload: NAudio.Dmo.MediaObject.AllocateStreamingResources*
+- uid: NAudio.Dmo.MediaObject.FreeStreamingResources
+  commentId: M:NAudio.Dmo.MediaObject.FreeStreamingResources
+  id: FreeStreamingResources
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: FreeStreamingResources()
+  nameWithType: MediaObject.FreeStreamingResources()
+  fullName: NAudio.Dmo.MediaObject.FreeStreamingResources()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public void FreeStreamingResources()
+    content.vb: Public Sub FreeStreamingResources()
+  overload: NAudio.Dmo.MediaObject.FreeStreamingResources*
+- uid: NAudio.Dmo.MediaObject.GetInputMaxLatency(System.Int32)
+  commentId: M:NAudio.Dmo.MediaObject.GetInputMaxLatency(System.Int32)
+  id: GetInputMaxLatency(System.Int32)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: GetInputMaxLatency(int)
+  nameWithType: MediaObject.GetInputMaxLatency(int)
+  fullName: NAudio.Dmo.MediaObject.GetInputMaxLatency(int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public long GetInputMaxLatency(int inputStreamIndex)
+    parameters:
+    - id: inputStreamIndex
+      type: System.Int32
+    return:
+      type: System.Int64
+    content.vb: Public Function GetInputMaxLatency(inputStreamIndex As Integer) As Long
+  overload: NAudio.Dmo.MediaObject.GetInputMaxLatency*
+  nameWithType.vb: MediaObject.GetInputMaxLatency(Integer)
+  fullName.vb: NAudio.Dmo.MediaObject.GetInputMaxLatency(Integer)
+  name.vb: GetInputMaxLatency(Integer)
+- uid: NAudio.Dmo.MediaObject.Flush
+  commentId: M:NAudio.Dmo.MediaObject.Flush
+  id: Flush
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: Flush()
+  nameWithType: MediaObject.Flush()
+  fullName: NAudio.Dmo.MediaObject.Flush()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public void Flush()
+    content.vb: Public Sub Flush()
+  overload: NAudio.Dmo.MediaObject.Flush*
+- uid: NAudio.Dmo.MediaObject.Discontinuity(System.Int32)
+  commentId: M:NAudio.Dmo.MediaObject.Discontinuity(System.Int32)
+  id: Discontinuity(System.Int32)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: Discontinuity(int)
+  nameWithType: MediaObject.Discontinuity(int)
+  fullName: NAudio.Dmo.MediaObject.Discontinuity(int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public void Discontinuity(int inputStreamIndex)
+    parameters:
+    - id: inputStreamIndex
+      type: System.Int32
+    content.vb: Public Sub Discontinuity(inputStreamIndex As Integer)
+  overload: NAudio.Dmo.MediaObject.Discontinuity*
+  nameWithType.vb: MediaObject.Discontinuity(Integer)
+  fullName.vb: NAudio.Dmo.MediaObject.Discontinuity(Integer)
+  name.vb: Discontinuity(Integer)
+- uid: NAudio.Dmo.MediaObject.IsAcceptingData(System.Int32)
+  commentId: M:NAudio.Dmo.MediaObject.IsAcceptingData(System.Int32)
+  id: IsAcceptingData(System.Int32)
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: IsAcceptingData(int)
+  nameWithType: MediaObject.IsAcceptingData(int)
+  fullName: NAudio.Dmo.MediaObject.IsAcceptingData(int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public bool IsAcceptingData(int inputStreamIndex)
+    parameters:
+    - id: inputStreamIndex
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsAcceptingData(inputStreamIndex As Integer) As Boolean
+  overload: NAudio.Dmo.MediaObject.IsAcceptingData*
+  nameWithType.vb: MediaObject.IsAcceptingData(Integer)
+  fullName.vb: NAudio.Dmo.MediaObject.IsAcceptingData(Integer)
+  name.vb: IsAcceptingData(Integer)
+- uid: NAudio.Dmo.MediaObject.Dispose
+  commentId: M:NAudio.Dmo.MediaObject.Dispose
+  id: Dispose
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: MediaObject.Dispose()
+  fullName: NAudio.Dmo.MediaObject.Dispose()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: NAudio.Dmo.MediaObject.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: NAudio.Dmo.MediaObject.InputStreamCount
+  commentId: P:NAudio.Dmo.MediaObject.InputStreamCount
+  id: InputStreamCount
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: InputStreamCount
+  nameWithType: MediaObject.InputStreamCount
+  fullName: NAudio.Dmo.MediaObject.InputStreamCount
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public int InputStreamCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property InputStreamCount As Integer
+  overload: NAudio.Dmo.MediaObject.InputStreamCount*
+- uid: NAudio.Dmo.MediaObject.OutputStreamCount
+  commentId: P:NAudio.Dmo.MediaObject.OutputStreamCount
+  id: OutputStreamCount
+  parent: NAudio.Dmo.MediaObject
+  langs:
+  - csharp
+  - vb
+  name: OutputStreamCount
+  nameWithType: MediaObject.OutputStreamCount
+  fullName: NAudio.Dmo.MediaObject.OutputStreamCount
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public int OutputStreamCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property OutputStreamCount As Integer
+  overload: NAudio.Dmo.MediaObject.OutputStreamCount*
+references:
+- uid: NAudio.Dmo
+  commentId: N:NAudio.Dmo
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo
+  nameWithType: NAudio.Dmo
+  fullName: NAudio.Dmo
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Dmo.MediaObject.GetInputType*
+  commentId: Overload:NAudio.Dmo.MediaObject.GetInputType
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_GetInputType_System_Int32_System_Int32_
+  name: GetInputType
+  nameWithType: MediaObject.GetInputType
+  fullName: NAudio.Dmo.MediaObject.GetInputType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Nullable{NAudio.Dmo.DmoMediaType}
+  commentId: T:System.Nullable{NAudio.Dmo.DmoMediaType}
+  parent: System
+  definition: System.Nullable`1
+  href: NAudio.Dmo.DmoMediaType.html
+  name: DmoMediaType?
+  nameWithType: DmoMediaType?
+  fullName: NAudio.Dmo.DmoMediaType?
+  spec.csharp:
+  - uid: NAudio.Dmo.DmoMediaType
+    name: DmoMediaType
+    isExternal: true
+    href: NAudio.Dmo.DmoMediaType.html
+  - name: '?'
+  spec.vb:
+  - uid: NAudio.Dmo.DmoMediaType
+    name: DmoMediaType
+    isExternal: true
+    href: NAudio.Dmo.DmoMediaType.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NAudio.Dmo.MediaObject.GetOutputType*
+  commentId: Overload:NAudio.Dmo.MediaObject.GetOutputType
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_GetOutputType_System_Int32_System_Int32_
+  name: GetOutputType
+  nameWithType: MediaObject.GetOutputType
+  fullName: NAudio.Dmo.MediaObject.GetOutputType
+- uid: NAudio.Dmo.MediaObject.GetOutputCurrentType*
+  commentId: Overload:NAudio.Dmo.MediaObject.GetOutputCurrentType
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_GetOutputCurrentType_System_Int32_
+  name: GetOutputCurrentType
+  nameWithType: MediaObject.GetOutputCurrentType
+  fullName: NAudio.Dmo.MediaObject.GetOutputCurrentType
+- uid: NAudio.Dmo.DmoMediaType
+  commentId: T:NAudio.Dmo.DmoMediaType
+  parent: NAudio.Dmo
+  isExternal: true
+  href: NAudio.Dmo.DmoMediaType.html
+  name: DmoMediaType
+  nameWithType: DmoMediaType
+  fullName: NAudio.Dmo.DmoMediaType
+- uid: NAudio.Dmo.MediaObject.GetInputTypes*
+  commentId: Overload:NAudio.Dmo.MediaObject.GetInputTypes
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_GetInputTypes_System_Int32_
+  name: GetInputTypes
+  nameWithType: MediaObject.GetInputTypes
+  fullName: NAudio.Dmo.MediaObject.GetInputTypes
+- uid: System.Collections.Generic.IEnumerable{NAudio.Dmo.DmoMediaType}
+  commentId: T:System.Collections.Generic.IEnumerable{NAudio.Dmo.DmoMediaType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<DmoMediaType>
+  nameWithType: IEnumerable<DmoMediaType>
+  fullName: System.Collections.Generic.IEnumerable<NAudio.Dmo.DmoMediaType>
+  nameWithType.vb: IEnumerable(Of DmoMediaType)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of NAudio.Dmo.DmoMediaType)
+  name.vb: IEnumerable(Of DmoMediaType)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: NAudio.Dmo.DmoMediaType
+    name: DmoMediaType
+    isExternal: true
+    href: NAudio.Dmo.DmoMediaType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NAudio.Dmo.DmoMediaType
+    name: DmoMediaType
+    isExternal: true
+    href: NAudio.Dmo.DmoMediaType.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: NAudio.Dmo.MediaObject.GetOutputTypes*
+  commentId: Overload:NAudio.Dmo.MediaObject.GetOutputTypes
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_GetOutputTypes_System_Int32_
+  name: GetOutputTypes
+  nameWithType: MediaObject.GetOutputTypes
+  fullName: NAudio.Dmo.MediaObject.GetOutputTypes
+- uid: NAudio.Dmo.MediaObject.SupportsInputType*
+  commentId: Overload:NAudio.Dmo.MediaObject.SupportsInputType
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_SupportsInputType_System_Int32_NAudio_Dmo_DmoMediaType_
+  name: SupportsInputType
+  nameWithType: MediaObject.SupportsInputType
+  fullName: NAudio.Dmo.MediaObject.SupportsInputType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NAudio.Dmo.MediaObject.SetInputType*
+  commentId: Overload:NAudio.Dmo.MediaObject.SetInputType
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_SetInputType_System_Int32_NAudio_Dmo_DmoMediaType_
+  name: SetInputType
+  nameWithType: MediaObject.SetInputType
+  fullName: NAudio.Dmo.MediaObject.SetInputType
+- uid: NAudio.Dmo.MediaObject.SetInputWaveFormat*
+  commentId: Overload:NAudio.Dmo.MediaObject.SetInputWaveFormat
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_SetInputWaveFormat_System_Int32_NAudio_Wave_WaveFormat_
+  name: SetInputWaveFormat
+  nameWithType: MediaObject.SetInputWaveFormat
+  fullName: NAudio.Dmo.MediaObject.SetInputWaveFormat
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: NAudio.Dmo.MediaObject.SupportsInputWaveFormat*
+  commentId: Overload:NAudio.Dmo.MediaObject.SupportsInputWaveFormat
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_SupportsInputWaveFormat_System_Int32_NAudio_Wave_WaveFormat_
+  name: SupportsInputWaveFormat
+  nameWithType: MediaObject.SupportsInputWaveFormat
+  fullName: NAudio.Dmo.MediaObject.SupportsInputWaveFormat
+- uid: NAudio.Dmo.MediaObject.SupportsOutputType*
+  commentId: Overload:NAudio.Dmo.MediaObject.SupportsOutputType
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_SupportsOutputType_System_Int32_NAudio_Dmo_DmoMediaType_
+  name: SupportsOutputType
+  nameWithType: MediaObject.SupportsOutputType
+  fullName: NAudio.Dmo.MediaObject.SupportsOutputType
+- uid: NAudio.Dmo.MediaObject.SupportsOutputWaveFormat*
+  commentId: Overload:NAudio.Dmo.MediaObject.SupportsOutputWaveFormat
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_SupportsOutputWaveFormat_System_Int32_NAudio_Wave_WaveFormat_
+  name: SupportsOutputWaveFormat
+  nameWithType: MediaObject.SupportsOutputWaveFormat
+  fullName: NAudio.Dmo.MediaObject.SupportsOutputWaveFormat
+- uid: NAudio.Dmo.MediaObject.SetOutputType*
+  commentId: Overload:NAudio.Dmo.MediaObject.SetOutputType
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_SetOutputType_System_Int32_NAudio_Dmo_DmoMediaType_
+  name: SetOutputType
+  nameWithType: MediaObject.SetOutputType
+  fullName: NAudio.Dmo.MediaObject.SetOutputType
+- uid: NAudio.Dmo.MediaObject.SetOutputWaveFormat*
+  commentId: Overload:NAudio.Dmo.MediaObject.SetOutputWaveFormat
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_SetOutputWaveFormat_System_Int32_NAudio_Wave_WaveFormat_
+  name: SetOutputWaveFormat
+  nameWithType: MediaObject.SetOutputWaveFormat
+  fullName: NAudio.Dmo.MediaObject.SetOutputWaveFormat
+- uid: NAudio.Dmo.MediaObject.GetInputSizeInfo*
+  commentId: Overload:NAudio.Dmo.MediaObject.GetInputSizeInfo
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_GetInputSizeInfo_System_Int32_
+  name: GetInputSizeInfo
+  nameWithType: MediaObject.GetInputSizeInfo
+  fullName: NAudio.Dmo.MediaObject.GetInputSizeInfo
+- uid: NAudio.Dmo.MediaObjectSizeInfo
+  commentId: T:NAudio.Dmo.MediaObjectSizeInfo
+  parent: NAudio.Dmo
+  isExternal: true
+  href: NAudio.Dmo.MediaObjectSizeInfo.html
+  name: MediaObjectSizeInfo
+  nameWithType: MediaObjectSizeInfo
+  fullName: NAudio.Dmo.MediaObjectSizeInfo
+- uid: NAudio.Dmo.MediaObject.GetOutputSizeInfo*
+  commentId: Overload:NAudio.Dmo.MediaObject.GetOutputSizeInfo
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_GetOutputSizeInfo_System_Int32_
+  name: GetOutputSizeInfo
+  nameWithType: MediaObject.GetOutputSizeInfo
+  fullName: NAudio.Dmo.MediaObject.GetOutputSizeInfo
+- uid: NAudio.Dmo.MediaObject.ProcessInput*
+  commentId: Overload:NAudio.Dmo.MediaObject.ProcessInput
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_ProcessInput_System_Int32_NAudio_Dmo_IMediaBuffer_NAudio_Dmo_DmoInputDataBufferFlags_System_Int64_System_Int64_
+  name: ProcessInput
+  nameWithType: MediaObject.ProcessInput
+  fullName: NAudio.Dmo.MediaObject.ProcessInput
+- uid: NAudio.Dmo.IMediaBuffer
+  commentId: T:NAudio.Dmo.IMediaBuffer
+  parent: NAudio.Dmo
+  isExternal: true
+  href: NAudio.Dmo.IMediaBuffer.html
+  name: IMediaBuffer
+  nameWithType: IMediaBuffer
+  fullName: NAudio.Dmo.IMediaBuffer
+- uid: NAudio.Dmo.DmoInputDataBufferFlags
+  commentId: T:NAudio.Dmo.DmoInputDataBufferFlags
+  parent: NAudio.Dmo
+  isExternal: true
+  href: NAudio.Dmo.DmoInputDataBufferFlags.html
+  name: DmoInputDataBufferFlags
+  nameWithType: DmoInputDataBufferFlags
+  fullName: NAudio.Dmo.DmoInputDataBufferFlags
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: NAudio.Dmo.MediaObject.ProcessOutput*
+  commentId: Overload:NAudio.Dmo.MediaObject.ProcessOutput
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_ProcessOutput_NAudio_Dmo_DmoProcessOutputFlags_System_Int32_NAudio_Dmo_DmoOutputDataBuffer___
+  name: ProcessOutput
+  nameWithType: MediaObject.ProcessOutput
+  fullName: NAudio.Dmo.MediaObject.ProcessOutput
+- uid: NAudio.Dmo.DmoProcessOutputFlags
+  commentId: T:NAudio.Dmo.DmoProcessOutputFlags
+  parent: NAudio.Dmo
+  isExternal: true
+  href: NAudio.Dmo.DmoProcessOutputFlags.html
+  name: DmoProcessOutputFlags
+  nameWithType: DmoProcessOutputFlags
+  fullName: NAudio.Dmo.DmoProcessOutputFlags
+- uid: NAudio.Dmo.DmoOutputDataBuffer[]
+  isExternal: true
+  href: NAudio.Dmo.DmoOutputDataBuffer.html
+  name: DmoOutputDataBuffer[]
+  nameWithType: DmoOutputDataBuffer[]
+  fullName: NAudio.Dmo.DmoOutputDataBuffer[]
+  nameWithType.vb: DmoOutputDataBuffer()
+  fullName.vb: NAudio.Dmo.DmoOutputDataBuffer()
+  name.vb: DmoOutputDataBuffer()
+  spec.csharp:
+  - uid: NAudio.Dmo.DmoOutputDataBuffer
+    name: DmoOutputDataBuffer
+    isExternal: true
+    href: NAudio.Dmo.DmoOutputDataBuffer.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NAudio.Dmo.DmoOutputDataBuffer
+    name: DmoOutputDataBuffer
+    isExternal: true
+    href: NAudio.Dmo.DmoOutputDataBuffer.html
+  - name: (
+  - name: )
+- uid: NAudio.Dmo.MediaObject.AllocateStreamingResources*
+  commentId: Overload:NAudio.Dmo.MediaObject.AllocateStreamingResources
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_AllocateStreamingResources
+  name: AllocateStreamingResources
+  nameWithType: MediaObject.AllocateStreamingResources
+  fullName: NAudio.Dmo.MediaObject.AllocateStreamingResources
+- uid: NAudio.Dmo.MediaObject.FreeStreamingResources*
+  commentId: Overload:NAudio.Dmo.MediaObject.FreeStreamingResources
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_FreeStreamingResources
+  name: FreeStreamingResources
+  nameWithType: MediaObject.FreeStreamingResources
+  fullName: NAudio.Dmo.MediaObject.FreeStreamingResources
+- uid: NAudio.Dmo.MediaObject.GetInputMaxLatency*
+  commentId: Overload:NAudio.Dmo.MediaObject.GetInputMaxLatency
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_GetInputMaxLatency_System_Int32_
+  name: GetInputMaxLatency
+  nameWithType: MediaObject.GetInputMaxLatency
+  fullName: NAudio.Dmo.MediaObject.GetInputMaxLatency
+- uid: NAudio.Dmo.MediaObject.Flush*
+  commentId: Overload:NAudio.Dmo.MediaObject.Flush
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_Flush
+  name: Flush
+  nameWithType: MediaObject.Flush
+  fullName: NAudio.Dmo.MediaObject.Flush
+- uid: NAudio.Dmo.MediaObject.Discontinuity*
+  commentId: Overload:NAudio.Dmo.MediaObject.Discontinuity
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_Discontinuity_System_Int32_
+  name: Discontinuity
+  nameWithType: MediaObject.Discontinuity
+  fullName: NAudio.Dmo.MediaObject.Discontinuity
+- uid: NAudio.Dmo.MediaObject.IsAcceptingData*
+  commentId: Overload:NAudio.Dmo.MediaObject.IsAcceptingData
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_IsAcceptingData_System_Int32_
+  name: IsAcceptingData
+  nameWithType: MediaObject.IsAcceptingData
+  fullName: NAudio.Dmo.MediaObject.IsAcceptingData
+- uid: NAudio.Dmo.MediaObject.Dispose*
+  commentId: Overload:NAudio.Dmo.MediaObject.Dispose
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_Dispose
+  name: Dispose
+  nameWithType: MediaObject.Dispose
+  fullName: NAudio.Dmo.MediaObject.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: NAudio.Dmo.MediaObject.InputStreamCount*
+  commentId: Overload:NAudio.Dmo.MediaObject.InputStreamCount
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_InputStreamCount
+  name: InputStreamCount
+  nameWithType: MediaObject.InputStreamCount
+  fullName: NAudio.Dmo.MediaObject.InputStreamCount
+- uid: NAudio.Dmo.MediaObject.OutputStreamCount*
+  commentId: Overload:NAudio.Dmo.MediaObject.OutputStreamCount
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html#NAudio_Dmo_MediaObject_OutputStreamCount
+  name: OutputStreamCount
+  nameWithType: MediaObject.OutputStreamCount
+  fullName: NAudio.Dmo.MediaObject.OutputStreamCount

@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.AudioClientShareMode
+  commentId: T:NAudio.CoreAudioApi.AudioClientShareMode
+  id: AudioClientShareMode
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.AudioClientShareMode.Exclusive
+  - NAudio.CoreAudioApi.AudioClientShareMode.Shared
+  langs:
+  - csharp
+  - vb
+  name: AudioClientShareMode
+  nameWithType: AudioClientShareMode
+  fullName: NAudio.CoreAudioApi.AudioClientShareMode
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public enum AudioClientShareMode
+    content.vb: Public Enum AudioClientShareMode
+- uid: NAudio.CoreAudioApi.AudioClientShareMode.Shared
+  commentId: F:NAudio.CoreAudioApi.AudioClientShareMode.Shared
+  id: Shared
+  parent: NAudio.CoreAudioApi.AudioClientShareMode
+  langs:
+  - csharp
+  - vb
+  name: Shared
+  nameWithType: AudioClientShareMode.Shared
+  fullName: NAudio.CoreAudioApi.AudioClientShareMode.Shared
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Shared = 0
+    return:
+      type: NAudio.CoreAudioApi.AudioClientShareMode
+- uid: NAudio.CoreAudioApi.AudioClientShareMode.Exclusive
+  commentId: F:NAudio.CoreAudioApi.AudioClientShareMode.Exclusive
+  id: Exclusive
+  parent: NAudio.CoreAudioApi.AudioClientShareMode
+  langs:
+  - csharp
+  - vb
+  name: Exclusive
+  nameWithType: AudioClientShareMode.Exclusive
+  fullName: NAudio.CoreAudioApi.AudioClientShareMode.Exclusive
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Exclusive = 1
+    return:
+      type: NAudio.CoreAudioApi.AudioClientShareMode
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: NAudio.CoreAudioApi.AudioClientShareMode
+  commentId: T:NAudio.CoreAudioApi.AudioClientShareMode
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioClientShareMode.html
+  name: AudioClientShareMode
+  nameWithType: AudioClientShareMode
+  fullName: NAudio.CoreAudioApi.AudioClientShareMode

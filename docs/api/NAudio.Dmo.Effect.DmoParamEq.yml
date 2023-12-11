@@ -1,0 +1,696 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect.DmoParamEq
+  commentId: T:NAudio.Dmo.Effect.DmoParamEq
+  id: DmoParamEq
+  parent: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.DmoParamEq.#ctor
+  - NAudio.Dmo.Effect.DmoParamEq.Dispose
+  - NAudio.Dmo.Effect.DmoParamEq.EffectParams
+  - NAudio.Dmo.Effect.DmoParamEq.MediaObject
+  - NAudio.Dmo.Effect.DmoParamEq.MediaObjectInPlace
+  langs:
+  - csharp
+  - vb
+  name: DmoParamEq
+  nameWithType: DmoParamEq
+  fullName: NAudio.Dmo.Effect.DmoParamEq
+  type: Class
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: 'public class DmoParamEq : IDmoEffector<DmoParamEq.Params>, IDisposable'
+    content.vb: Public Class DmoParamEq Implements IDmoEffector(Of DmoParamEq.Params), IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - NAudio.Dmo.Effect.IDmoEffector{NAudio.Dmo.Effect.DmoParamEq.Params}
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Dmo.Effect.DmoParamEq.#ctor
+  commentId: M:NAudio.Dmo.Effect.DmoParamEq.#ctor
+  id: '#ctor'
+  parent: NAudio.Dmo.Effect.DmoParamEq
+  langs:
+  - csharp
+  - vb
+  name: DmoParamEq()
+  nameWithType: DmoParamEq.DmoParamEq()
+  fullName: NAudio.Dmo.Effect.DmoParamEq.DmoParamEq()
+  type: Constructor
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: public DmoParamEq()
+    content.vb: Public Sub New()
+  overload: NAudio.Dmo.Effect.DmoParamEq.#ctor*
+  nameWithType.vb: DmoParamEq.New()
+  fullName.vb: NAudio.Dmo.Effect.DmoParamEq.New()
+  name.vb: New()
+- uid: NAudio.Dmo.Effect.DmoParamEq.Dispose
+  commentId: M:NAudio.Dmo.Effect.DmoParamEq.Dispose
+  id: Dispose
+  parent: NAudio.Dmo.Effect.DmoParamEq
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: DmoParamEq.Dispose()
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Dispose()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: NAudio.Dmo.Effect.DmoParamEq.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: NAudio.Dmo.Effect.DmoParamEq.MediaObject
+  commentId: P:NAudio.Dmo.Effect.DmoParamEq.MediaObject
+  id: MediaObject
+  parent: NAudio.Dmo.Effect.DmoParamEq
+  langs:
+  - csharp
+  - vb
+  name: MediaObject
+  nameWithType: DmoParamEq.MediaObject
+  fullName: NAudio.Dmo.Effect.DmoParamEq.MediaObject
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  example: []
+  syntax:
+    content: public MediaObject MediaObject { get; }
+    parameters: []
+    return:
+      type: NAudio.Dmo.MediaObject
+    content.vb: Public ReadOnly Property MediaObject As MediaObject
+  overload: NAudio.Dmo.Effect.DmoParamEq.MediaObject*
+  implements:
+  - NAudio.Dmo.Effect.IDmoEffector{NAudio.Dmo.Effect.DmoParamEq.Params}.MediaObject
+- uid: NAudio.Dmo.Effect.DmoParamEq.MediaObjectInPlace
+  commentId: P:NAudio.Dmo.Effect.DmoParamEq.MediaObjectInPlace
+  id: MediaObjectInPlace
+  parent: NAudio.Dmo.Effect.DmoParamEq
+  langs:
+  - csharp
+  - vb
+  name: MediaObjectInPlace
+  nameWithType: DmoParamEq.MediaObjectInPlace
+  fullName: NAudio.Dmo.Effect.DmoParamEq.MediaObjectInPlace
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  example: []
+  syntax:
+    content: public MediaObjectInPlace MediaObjectInPlace { get; }
+    parameters: []
+    return:
+      type: NAudio.Dmo.MediaObjectInPlace
+    content.vb: Public ReadOnly Property MediaObjectInPlace As MediaObjectInPlace
+  overload: NAudio.Dmo.Effect.DmoParamEq.MediaObjectInPlace*
+  implements:
+  - NAudio.Dmo.Effect.IDmoEffector{NAudio.Dmo.Effect.DmoParamEq.Params}.MediaObjectInPlace
+- uid: NAudio.Dmo.Effect.DmoParamEq.EffectParams
+  commentId: P:NAudio.Dmo.Effect.DmoParamEq.EffectParams
+  id: EffectParams
+  parent: NAudio.Dmo.Effect.DmoParamEq
+  langs:
+  - csharp
+  - vb
+  name: EffectParams
+  nameWithType: DmoParamEq.EffectParams
+  fullName: NAudio.Dmo.Effect.DmoParamEq.EffectParams
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  example: []
+  syntax:
+    content: public DmoParamEq.Params EffectParams { get; }
+    parameters: []
+    return:
+      type: NAudio.Dmo.Effect.DmoParamEq.Params
+    content.vb: Public ReadOnly Property EffectParams As DmoParamEq.Params
+  overload: NAudio.Dmo.Effect.DmoParamEq.EffectParams*
+  implements:
+  - NAudio.Dmo.Effect.IDmoEffector{NAudio.Dmo.Effect.DmoParamEq.Params}.EffectParams
+references:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NAudio.Dmo.Effect.IDmoEffector{NAudio.Dmo.Effect.DmoParamEq.Params}
+  commentId: T:NAudio.Dmo.Effect.IDmoEffector{NAudio.Dmo.Effect.DmoParamEq.Params}
+  parent: NAudio.Dmo.Effect
+  definition: NAudio.Dmo.Effect.IDmoEffector`1
+  href: NAudio.Dmo.Effect.IDmoEffector-1.html
+  name: IDmoEffector<DmoParamEq.Params>
+  nameWithType: IDmoEffector<DmoParamEq.Params>
+  fullName: NAudio.Dmo.Effect.IDmoEffector<NAudio.Dmo.Effect.DmoParamEq.Params>
+  nameWithType.vb: IDmoEffector(Of DmoParamEq.Params)
+  fullName.vb: NAudio.Dmo.Effect.IDmoEffector(Of NAudio.Dmo.Effect.DmoParamEq.Params)
+  name.vb: IDmoEffector(Of DmoParamEq.Params)
+  spec.csharp:
+  - uid: NAudio.Dmo.Effect.IDmoEffector`1
+    name: IDmoEffector
+    isExternal: true
+    href: NAudio.Dmo.Effect.IDmoEffector-1.html
+  - name: <
+  - uid: NAudio.Dmo.Effect.DmoParamEq
+    name: DmoParamEq
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoParamEq.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoParamEq.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoParamEq.Params.html
+  - name: '>'
+  spec.vb:
+  - uid: NAudio.Dmo.Effect.IDmoEffector`1
+    name: IDmoEffector
+    isExternal: true
+    href: NAudio.Dmo.Effect.IDmoEffector-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NAudio.Dmo.Effect.DmoParamEq
+    name: DmoParamEq
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoParamEq.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoParamEq.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoParamEq.Params.html
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Dmo.Effect.IDmoEffector`1
+  commentId: T:NAudio.Dmo.Effect.IDmoEffector`1
+  isExternal: true
+  href: NAudio.Dmo.Effect.IDmoEffector-1.html
+  name: IDmoEffector<TParameters>
+  nameWithType: IDmoEffector<TParameters>
+  fullName: NAudio.Dmo.Effect.IDmoEffector<TParameters>
+  nameWithType.vb: IDmoEffector(Of TParameters)
+  fullName.vb: NAudio.Dmo.Effect.IDmoEffector(Of TParameters)
+  name.vb: IDmoEffector(Of TParameters)
+  spec.csharp:
+  - uid: NAudio.Dmo.Effect.IDmoEffector`1
+    name: IDmoEffector
+    isExternal: true
+    href: NAudio.Dmo.Effect.IDmoEffector-1.html
+  - name: <
+  - name: TParameters
+  - name: '>'
+  spec.vb:
+  - uid: NAudio.Dmo.Effect.IDmoEffector`1
+    name: IDmoEffector
+    isExternal: true
+    href: NAudio.Dmo.Effect.IDmoEffector-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TParameters
+  - name: )
+- uid: NAudio.Dmo.Effect.DmoParamEq.#ctor*
+  commentId: Overload:NAudio.Dmo.Effect.DmoParamEq.#ctor
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoParamEq.html#NAudio_Dmo_Effect_DmoParamEq__ctor
+  name: DmoParamEq
+  nameWithType: DmoParamEq.DmoParamEq
+  fullName: NAudio.Dmo.Effect.DmoParamEq.DmoParamEq
+  nameWithType.vb: DmoParamEq.New
+  fullName.vb: NAudio.Dmo.Effect.DmoParamEq.New
+  name.vb: New
+- uid: NAudio.Dmo.Effect.DmoParamEq.Dispose*
+  commentId: Overload:NAudio.Dmo.Effect.DmoParamEq.Dispose
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoParamEq.html#NAudio_Dmo_Effect_DmoParamEq_Dispose
+  name: Dispose
+  nameWithType: DmoParamEq.Dispose
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: NAudio.Dmo.Effect.DmoParamEq.MediaObject*
+  commentId: Overload:NAudio.Dmo.Effect.DmoParamEq.MediaObject
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoParamEq.html#NAudio_Dmo_Effect_DmoParamEq_MediaObject
+  name: MediaObject
+  nameWithType: DmoParamEq.MediaObject
+  fullName: NAudio.Dmo.Effect.DmoParamEq.MediaObject
+- uid: NAudio.Dmo.Effect.IDmoEffector{NAudio.Dmo.Effect.DmoParamEq.Params}.MediaObject
+  commentId: P:NAudio.Dmo.Effect.IDmoEffector{NAudio.Dmo.Effect.DmoParamEq.Params}.MediaObject
+  parent: NAudio.Dmo.Effect.IDmoEffector{NAudio.Dmo.Effect.DmoParamEq.Params}
+  definition: NAudio.Dmo.Effect.IDmoEffector`1.MediaObject
+  href: NAudio.Dmo.Effect.IDmoEffector-1.html#NAudio_Dmo_Effect_IDmoEffector_1_MediaObject
+  name: MediaObject
+  nameWithType: IDmoEffector<DmoParamEq.Params>.MediaObject
+  fullName: NAudio.Dmo.Effect.IDmoEffector<NAudio.Dmo.Effect.DmoParamEq.Params>.MediaObject
+  nameWithType.vb: IDmoEffector(Of DmoParamEq.Params).MediaObject
+  fullName.vb: NAudio.Dmo.Effect.IDmoEffector(Of NAudio.Dmo.Effect.DmoParamEq.Params).MediaObject
+- uid: NAudio.Dmo.MediaObject
+  commentId: T:NAudio.Dmo.MediaObject
+  parent: NAudio.Dmo
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html
+  name: MediaObject
+  nameWithType: MediaObject
+  fullName: NAudio.Dmo.MediaObject
+- uid: NAudio.Dmo.Effect.IDmoEffector`1.MediaObject
+  commentId: P:NAudio.Dmo.Effect.IDmoEffector`1.MediaObject
+  isExternal: true
+  href: NAudio.Dmo.Effect.IDmoEffector-1.html#NAudio_Dmo_Effect_IDmoEffector_1_MediaObject
+  name: MediaObject
+  nameWithType: IDmoEffector<TParameters>.MediaObject
+  fullName: NAudio.Dmo.Effect.IDmoEffector<TParameters>.MediaObject
+  nameWithType.vb: IDmoEffector(Of TParameters).MediaObject
+  fullName.vb: NAudio.Dmo.Effect.IDmoEffector(Of TParameters).MediaObject
+- uid: NAudio.Dmo
+  commentId: N:NAudio.Dmo
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo
+  nameWithType: NAudio.Dmo
+  fullName: NAudio.Dmo
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+- uid: NAudio.Dmo.Effect.DmoParamEq.MediaObjectInPlace*
+  commentId: Overload:NAudio.Dmo.Effect.DmoParamEq.MediaObjectInPlace
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoParamEq.html#NAudio_Dmo_Effect_DmoParamEq_MediaObjectInPlace
+  name: MediaObjectInPlace
+  nameWithType: DmoParamEq.MediaObjectInPlace
+  fullName: NAudio.Dmo.Effect.DmoParamEq.MediaObjectInPlace
+- uid: NAudio.Dmo.Effect.IDmoEffector{NAudio.Dmo.Effect.DmoParamEq.Params}.MediaObjectInPlace
+  commentId: P:NAudio.Dmo.Effect.IDmoEffector{NAudio.Dmo.Effect.DmoParamEq.Params}.MediaObjectInPlace
+  parent: NAudio.Dmo.Effect.IDmoEffector{NAudio.Dmo.Effect.DmoParamEq.Params}
+  definition: NAudio.Dmo.Effect.IDmoEffector`1.MediaObjectInPlace
+  href: NAudio.Dmo.Effect.IDmoEffector-1.html#NAudio_Dmo_Effect_IDmoEffector_1_MediaObjectInPlace
+  name: MediaObjectInPlace
+  nameWithType: IDmoEffector<DmoParamEq.Params>.MediaObjectInPlace
+  fullName: NAudio.Dmo.Effect.IDmoEffector<NAudio.Dmo.Effect.DmoParamEq.Params>.MediaObjectInPlace
+  nameWithType.vb: IDmoEffector(Of DmoParamEq.Params).MediaObjectInPlace
+  fullName.vb: NAudio.Dmo.Effect.IDmoEffector(Of NAudio.Dmo.Effect.DmoParamEq.Params).MediaObjectInPlace
+- uid: NAudio.Dmo.MediaObjectInPlace
+  commentId: T:NAudio.Dmo.MediaObjectInPlace
+  parent: NAudio.Dmo
+  isExternal: true
+  href: NAudio.Dmo.MediaObjectInPlace.html
+  name: MediaObjectInPlace
+  nameWithType: MediaObjectInPlace
+  fullName: NAudio.Dmo.MediaObjectInPlace
+- uid: NAudio.Dmo.Effect.IDmoEffector`1.MediaObjectInPlace
+  commentId: P:NAudio.Dmo.Effect.IDmoEffector`1.MediaObjectInPlace
+  isExternal: true
+  href: NAudio.Dmo.Effect.IDmoEffector-1.html#NAudio_Dmo_Effect_IDmoEffector_1_MediaObjectInPlace
+  name: MediaObjectInPlace
+  nameWithType: IDmoEffector<TParameters>.MediaObjectInPlace
+  fullName: NAudio.Dmo.Effect.IDmoEffector<TParameters>.MediaObjectInPlace
+  nameWithType.vb: IDmoEffector(Of TParameters).MediaObjectInPlace
+  fullName.vb: NAudio.Dmo.Effect.IDmoEffector(Of TParameters).MediaObjectInPlace
+- uid: NAudio.Dmo.Effect.DmoParamEq.EffectParams*
+  commentId: Overload:NAudio.Dmo.Effect.DmoParamEq.EffectParams
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoParamEq.html#NAudio_Dmo_Effect_DmoParamEq_EffectParams
+  name: EffectParams
+  nameWithType: DmoParamEq.EffectParams
+  fullName: NAudio.Dmo.Effect.DmoParamEq.EffectParams
+- uid: NAudio.Dmo.Effect.IDmoEffector{NAudio.Dmo.Effect.DmoParamEq.Params}.EffectParams
+  commentId: P:NAudio.Dmo.Effect.IDmoEffector{NAudio.Dmo.Effect.DmoParamEq.Params}.EffectParams
+  parent: NAudio.Dmo.Effect.IDmoEffector{NAudio.Dmo.Effect.DmoParamEq.Params}
+  definition: NAudio.Dmo.Effect.IDmoEffector`1.EffectParams
+  href: NAudio.Dmo.Effect.IDmoEffector-1.html#NAudio_Dmo_Effect_IDmoEffector_1_EffectParams
+  name: EffectParams
+  nameWithType: IDmoEffector<DmoParamEq.Params>.EffectParams
+  fullName: NAudio.Dmo.Effect.IDmoEffector<NAudio.Dmo.Effect.DmoParamEq.Params>.EffectParams
+  nameWithType.vb: IDmoEffector(Of DmoParamEq.Params).EffectParams
+  fullName.vb: NAudio.Dmo.Effect.IDmoEffector(Of NAudio.Dmo.Effect.DmoParamEq.Params).EffectParams
+- uid: NAudio.Dmo.Effect.DmoParamEq.Params
+  commentId: T:NAudio.Dmo.Effect.DmoParamEq.Params
+  parent: NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.Dmo.Effect.DmoParamEq.html
+  name: DmoParamEq.Params
+  nameWithType: DmoParamEq.Params
+  fullName: NAudio.Dmo.Effect.DmoParamEq.Params
+  spec.csharp:
+  - uid: NAudio.Dmo.Effect.DmoParamEq
+    name: DmoParamEq
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoParamEq.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoParamEq.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoParamEq.Params.html
+  spec.vb:
+  - uid: NAudio.Dmo.Effect.DmoParamEq
+    name: DmoParamEq
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoParamEq.html
+  - name: .
+  - uid: NAudio.Dmo.Effect.DmoParamEq.Params
+    name: Params
+    isExternal: true
+    href: NAudio.Dmo.Effect.DmoParamEq.Params.html
+- uid: NAudio.Dmo.Effect.IDmoEffector`1.EffectParams
+  commentId: P:NAudio.Dmo.Effect.IDmoEffector`1.EffectParams
+  isExternal: true
+  href: NAudio.Dmo.Effect.IDmoEffector-1.html#NAudio_Dmo_Effect_IDmoEffector_1_EffectParams
+  name: EffectParams
+  nameWithType: IDmoEffector<TParameters>.EffectParams
+  fullName: NAudio.Dmo.Effect.IDmoEffector<TParameters>.EffectParams
+  nameWithType.vb: IDmoEffector(Of TParameters).EffectParams
+  fullName.vb: NAudio.Dmo.Effect.IDmoEffector(Of TParameters).EffectParams

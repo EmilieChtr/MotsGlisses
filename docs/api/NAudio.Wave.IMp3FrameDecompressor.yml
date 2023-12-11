@@ -1,0 +1,230 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.IMp3FrameDecompressor
+  commentId: T:NAudio.Wave.IMp3FrameDecompressor
+  id: IMp3FrameDecompressor
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.IMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame,System.Byte[],System.Int32)
+  - NAudio.Wave.IMp3FrameDecompressor.OutputFormat
+  - NAudio.Wave.IMp3FrameDecompressor.Reset
+  langs:
+  - csharp
+  - vb
+  name: IMp3FrameDecompressor
+  nameWithType: IMp3FrameDecompressor
+  fullName: NAudio.Wave.IMp3FrameDecompressor
+  type: Interface
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: 'public interface IMp3FrameDecompressor : IDisposable'
+    content.vb: Public Interface IMp3FrameDecompressor Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+- uid: NAudio.Wave.IMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame,System.Byte[],System.Int32)
+  commentId: M:NAudio.Wave.IMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame,System.Byte[],System.Int32)
+  id: DecompressFrame(NAudio.Wave.Mp3Frame,System.Byte[],System.Int32)
+  parent: NAudio.Wave.IMp3FrameDecompressor
+  langs:
+  - csharp
+  - vb
+  name: DecompressFrame(Mp3Frame, byte[], int)
+  nameWithType: IMp3FrameDecompressor.DecompressFrame(Mp3Frame, byte[], int)
+  fullName: NAudio.Wave.IMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame, byte[], int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: int DecompressFrame(Mp3Frame frame, byte[] dest, int destOffset)
+    parameters:
+    - id: frame
+      type: NAudio.Wave.Mp3Frame
+    - id: dest
+      type: System.Byte[]
+    - id: destOffset
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Function DecompressFrame(frame As Mp3Frame, dest As Byte(), destOffset As Integer) As Integer
+  overload: NAudio.Wave.IMp3FrameDecompressor.DecompressFrame*
+  nameWithType.vb: IMp3FrameDecompressor.DecompressFrame(Mp3Frame, Byte(), Integer)
+  fullName.vb: NAudio.Wave.IMp3FrameDecompressor.DecompressFrame(NAudio.Wave.Mp3Frame, Byte(), Integer)
+  name.vb: DecompressFrame(Mp3Frame, Byte(), Integer)
+- uid: NAudio.Wave.IMp3FrameDecompressor.Reset
+  commentId: M:NAudio.Wave.IMp3FrameDecompressor.Reset
+  id: Reset
+  parent: NAudio.Wave.IMp3FrameDecompressor
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: IMp3FrameDecompressor.Reset()
+  fullName: NAudio.Wave.IMp3FrameDecompressor.Reset()
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: void Reset()
+    content.vb: Sub Reset()
+  overload: NAudio.Wave.IMp3FrameDecompressor.Reset*
+- uid: NAudio.Wave.IMp3FrameDecompressor.OutputFormat
+  commentId: P:NAudio.Wave.IMp3FrameDecompressor.OutputFormat
+  id: OutputFormat
+  parent: NAudio.Wave.IMp3FrameDecompressor
+  langs:
+  - csharp
+  - vb
+  name: OutputFormat
+  nameWithType: IMp3FrameDecompressor.OutputFormat
+  fullName: NAudio.Wave.IMp3FrameDecompressor.OutputFormat
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: WaveFormat OutputFormat { get; }
+    parameters: []
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: ReadOnly Property OutputFormat As WaveFormat
+  overload: NAudio.Wave.IMp3FrameDecompressor.OutputFormat*
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.IMp3FrameDecompressor.DecompressFrame*
+  commentId: Overload:NAudio.Wave.IMp3FrameDecompressor.DecompressFrame
+  isExternal: true
+  href: NAudio.Wave.IMp3FrameDecompressor.html#NAudio_Wave_IMp3FrameDecompressor_DecompressFrame_NAudio_Wave_Mp3Frame_System_Byte___System_Int32_
+  name: DecompressFrame
+  nameWithType: IMp3FrameDecompressor.DecompressFrame
+  fullName: NAudio.Wave.IMp3FrameDecompressor.DecompressFrame
+- uid: NAudio.Wave.Mp3Frame
+  commentId: T:NAudio.Wave.Mp3Frame
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.Mp3Frame.html
+  name: Mp3Frame
+  nameWithType: Mp3Frame
+  fullName: NAudio.Wave.Mp3Frame
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.Wave.IMp3FrameDecompressor.Reset*
+  commentId: Overload:NAudio.Wave.IMp3FrameDecompressor.Reset
+  isExternal: true
+  href: NAudio.Wave.IMp3FrameDecompressor.html#NAudio_Wave_IMp3FrameDecompressor_Reset
+  name: Reset
+  nameWithType: IMp3FrameDecompressor.Reset
+  fullName: NAudio.Wave.IMp3FrameDecompressor.Reset
+- uid: NAudio.Wave.IMp3FrameDecompressor.OutputFormat*
+  commentId: Overload:NAudio.Wave.IMp3FrameDecompressor.OutputFormat
+  isExternal: true
+  href: NAudio.Wave.IMp3FrameDecompressor.html#NAudio_Wave_IMp3FrameDecompressor_OutputFormat
+  name: OutputFormat
+  nameWithType: IMp3FrameDecompressor.OutputFormat
+  fullName: NAudio.Wave.IMp3FrameDecompressor.OutputFormat
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat

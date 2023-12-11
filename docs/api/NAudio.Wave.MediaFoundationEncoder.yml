@@ -1,0 +1,1015 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.MediaFoundationEncoder
+  commentId: T:NAudio.Wave.MediaFoundationEncoder
+  id: MediaFoundationEncoder
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.MediaFoundationEncoder.#ctor(NAudio.MediaFoundation.MediaType)
+  - NAudio.Wave.MediaFoundationEncoder.DefaultReadBufferSize
+  - NAudio.Wave.MediaFoundationEncoder.Dispose
+  - NAudio.Wave.MediaFoundationEncoder.Dispose(System.Boolean)
+  - NAudio.Wave.MediaFoundationEncoder.Encode(System.IO.Stream,NAudio.Wave.IWaveProvider,System.Guid)
+  - NAudio.Wave.MediaFoundationEncoder.Encode(System.String,NAudio.Wave.IWaveProvider)
+  - NAudio.Wave.MediaFoundationEncoder.EncodeToAac(NAudio.Wave.IWaveProvider,System.IO.Stream,System.Int32)
+  - NAudio.Wave.MediaFoundationEncoder.EncodeToAac(NAudio.Wave.IWaveProvider,System.String,System.Int32)
+  - NAudio.Wave.MediaFoundationEncoder.EncodeToMp3(NAudio.Wave.IWaveProvider,System.IO.Stream,System.Int32)
+  - NAudio.Wave.MediaFoundationEncoder.EncodeToMp3(NAudio.Wave.IWaveProvider,System.String,System.Int32)
+  - NAudio.Wave.MediaFoundationEncoder.EncodeToWma(NAudio.Wave.IWaveProvider,System.IO.Stream,System.Int32)
+  - NAudio.Wave.MediaFoundationEncoder.EncodeToWma(NAudio.Wave.IWaveProvider,System.String,System.Int32)
+  - NAudio.Wave.MediaFoundationEncoder.Finalize
+  - NAudio.Wave.MediaFoundationEncoder.GetEncodeBitrates(System.Guid,System.Int32,System.Int32)
+  - NAudio.Wave.MediaFoundationEncoder.GetOutputMediaTypes(System.Guid)
+  - NAudio.Wave.MediaFoundationEncoder.SelectMediaType(System.Guid,NAudio.Wave.WaveFormat,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: MediaFoundationEncoder
+  nameWithType: MediaFoundationEncoder
+  fullName: NAudio.Wave.MediaFoundationEncoder
+  type: Class
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  syntax:
+    content: 'public class MediaFoundationEncoder : IDisposable'
+    content.vb: Public Class MediaFoundationEncoder Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Wave.MediaFoundationEncoder.GetEncodeBitrates(System.Guid,System.Int32,System.Int32)
+  commentId: M:NAudio.Wave.MediaFoundationEncoder.GetEncodeBitrates(System.Guid,System.Int32,System.Int32)
+  id: GetEncodeBitrates(System.Guid,System.Int32,System.Int32)
+  parent: NAudio.Wave.MediaFoundationEncoder
+  langs:
+  - csharp
+  - vb
+  name: GetEncodeBitrates(Guid, int, int)
+  nameWithType: MediaFoundationEncoder.GetEncodeBitrates(Guid, int, int)
+  fullName: NAudio.Wave.MediaFoundationEncoder.GetEncodeBitrates(System.Guid, int, int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  syntax:
+    content: public static int[] GetEncodeBitrates(Guid audioSubtype, int sampleRate, int channels)
+    parameters:
+    - id: audioSubtype
+      type: System.Guid
+    - id: sampleRate
+      type: System.Int32
+    - id: channels
+      type: System.Int32
+    return:
+      type: System.Int32[]
+    content.vb: Public Shared Function GetEncodeBitrates(audioSubtype As Guid, sampleRate As Integer, channels As Integer) As Integer()
+  overload: NAudio.Wave.MediaFoundationEncoder.GetEncodeBitrates*
+  nameWithType.vb: MediaFoundationEncoder.GetEncodeBitrates(Guid, Integer, Integer)
+  fullName.vb: NAudio.Wave.MediaFoundationEncoder.GetEncodeBitrates(System.Guid, Integer, Integer)
+  name.vb: GetEncodeBitrates(Guid, Integer, Integer)
+- uid: NAudio.Wave.MediaFoundationEncoder.GetOutputMediaTypes(System.Guid)
+  commentId: M:NAudio.Wave.MediaFoundationEncoder.GetOutputMediaTypes(System.Guid)
+  id: GetOutputMediaTypes(System.Guid)
+  parent: NAudio.Wave.MediaFoundationEncoder
+  langs:
+  - csharp
+  - vb
+  name: GetOutputMediaTypes(Guid)
+  nameWithType: MediaFoundationEncoder.GetOutputMediaTypes(Guid)
+  fullName: NAudio.Wave.MediaFoundationEncoder.GetOutputMediaTypes(System.Guid)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  syntax:
+    content: public static MediaType[] GetOutputMediaTypes(Guid audioSubtype)
+    parameters:
+    - id: audioSubtype
+      type: System.Guid
+    return:
+      type: NAudio.MediaFoundation.MediaType[]
+    content.vb: Public Shared Function GetOutputMediaTypes(audioSubtype As Guid) As MediaType()
+  overload: NAudio.Wave.MediaFoundationEncoder.GetOutputMediaTypes*
+- uid: NAudio.Wave.MediaFoundationEncoder.EncodeToWma(NAudio.Wave.IWaveProvider,System.String,System.Int32)
+  commentId: M:NAudio.Wave.MediaFoundationEncoder.EncodeToWma(NAudio.Wave.IWaveProvider,System.String,System.Int32)
+  id: EncodeToWma(NAudio.Wave.IWaveProvider,System.String,System.Int32)
+  parent: NAudio.Wave.MediaFoundationEncoder
+  langs:
+  - csharp
+  - vb
+  name: EncodeToWma(IWaveProvider, string, int)
+  nameWithType: MediaFoundationEncoder.EncodeToWma(IWaveProvider, string, int)
+  fullName: NAudio.Wave.MediaFoundationEncoder.EncodeToWma(NAudio.Wave.IWaveProvider, string, int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  syntax:
+    content: public static void EncodeToWma(IWaveProvider inputProvider, string outputFile, int desiredBitRate = 192000)
+    parameters:
+    - id: inputProvider
+      type: NAudio.Wave.IWaveProvider
+    - id: outputFile
+      type: System.String
+    - id: desiredBitRate
+      type: System.Int32
+    content.vb: Public Shared Sub EncodeToWma(inputProvider As IWaveProvider, outputFile As String, desiredBitRate As Integer = 192000)
+  overload: NAudio.Wave.MediaFoundationEncoder.EncodeToWma*
+  nameWithType.vb: MediaFoundationEncoder.EncodeToWma(IWaveProvider, String, Integer)
+  fullName.vb: NAudio.Wave.MediaFoundationEncoder.EncodeToWma(NAudio.Wave.IWaveProvider, String, Integer)
+  name.vb: EncodeToWma(IWaveProvider, String, Integer)
+- uid: NAudio.Wave.MediaFoundationEncoder.EncodeToWma(NAudio.Wave.IWaveProvider,System.IO.Stream,System.Int32)
+  commentId: M:NAudio.Wave.MediaFoundationEncoder.EncodeToWma(NAudio.Wave.IWaveProvider,System.IO.Stream,System.Int32)
+  id: EncodeToWma(NAudio.Wave.IWaveProvider,System.IO.Stream,System.Int32)
+  parent: NAudio.Wave.MediaFoundationEncoder
+  langs:
+  - csharp
+  - vb
+  name: EncodeToWma(IWaveProvider, Stream, int)
+  nameWithType: MediaFoundationEncoder.EncodeToWma(IWaveProvider, Stream, int)
+  fullName: NAudio.Wave.MediaFoundationEncoder.EncodeToWma(NAudio.Wave.IWaveProvider, System.IO.Stream, int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  syntax:
+    content: public static void EncodeToWma(IWaveProvider inputProvider, Stream outputStream, int desiredBitRate = 192000)
+    parameters:
+    - id: inputProvider
+      type: NAudio.Wave.IWaveProvider
+    - id: outputStream
+      type: System.IO.Stream
+    - id: desiredBitRate
+      type: System.Int32
+    content.vb: Public Shared Sub EncodeToWma(inputProvider As IWaveProvider, outputStream As Stream, desiredBitRate As Integer = 192000)
+  overload: NAudio.Wave.MediaFoundationEncoder.EncodeToWma*
+  nameWithType.vb: MediaFoundationEncoder.EncodeToWma(IWaveProvider, Stream, Integer)
+  fullName.vb: NAudio.Wave.MediaFoundationEncoder.EncodeToWma(NAudio.Wave.IWaveProvider, System.IO.Stream, Integer)
+  name.vb: EncodeToWma(IWaveProvider, Stream, Integer)
+- uid: NAudio.Wave.MediaFoundationEncoder.EncodeToMp3(NAudio.Wave.IWaveProvider,System.String,System.Int32)
+  commentId: M:NAudio.Wave.MediaFoundationEncoder.EncodeToMp3(NAudio.Wave.IWaveProvider,System.String,System.Int32)
+  id: EncodeToMp3(NAudio.Wave.IWaveProvider,System.String,System.Int32)
+  parent: NAudio.Wave.MediaFoundationEncoder
+  langs:
+  - csharp
+  - vb
+  name: EncodeToMp3(IWaveProvider, string, int)
+  nameWithType: MediaFoundationEncoder.EncodeToMp3(IWaveProvider, string, int)
+  fullName: NAudio.Wave.MediaFoundationEncoder.EncodeToMp3(NAudio.Wave.IWaveProvider, string, int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  syntax:
+    content: public static void EncodeToMp3(IWaveProvider inputProvider, string outputFile, int desiredBitRate = 192000)
+    parameters:
+    - id: inputProvider
+      type: NAudio.Wave.IWaveProvider
+    - id: outputFile
+      type: System.String
+    - id: desiredBitRate
+      type: System.Int32
+    content.vb: Public Shared Sub EncodeToMp3(inputProvider As IWaveProvider, outputFile As String, desiredBitRate As Integer = 192000)
+  overload: NAudio.Wave.MediaFoundationEncoder.EncodeToMp3*
+  nameWithType.vb: MediaFoundationEncoder.EncodeToMp3(IWaveProvider, String, Integer)
+  fullName.vb: NAudio.Wave.MediaFoundationEncoder.EncodeToMp3(NAudio.Wave.IWaveProvider, String, Integer)
+  name.vb: EncodeToMp3(IWaveProvider, String, Integer)
+- uid: NAudio.Wave.MediaFoundationEncoder.EncodeToMp3(NAudio.Wave.IWaveProvider,System.IO.Stream,System.Int32)
+  commentId: M:NAudio.Wave.MediaFoundationEncoder.EncodeToMp3(NAudio.Wave.IWaveProvider,System.IO.Stream,System.Int32)
+  id: EncodeToMp3(NAudio.Wave.IWaveProvider,System.IO.Stream,System.Int32)
+  parent: NAudio.Wave.MediaFoundationEncoder
+  langs:
+  - csharp
+  - vb
+  name: EncodeToMp3(IWaveProvider, Stream, int)
+  nameWithType: MediaFoundationEncoder.EncodeToMp3(IWaveProvider, Stream, int)
+  fullName: NAudio.Wave.MediaFoundationEncoder.EncodeToMp3(NAudio.Wave.IWaveProvider, System.IO.Stream, int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  syntax:
+    content: public static void EncodeToMp3(IWaveProvider inputProvider, Stream outputStream, int desiredBitRate = 192000)
+    parameters:
+    - id: inputProvider
+      type: NAudio.Wave.IWaveProvider
+    - id: outputStream
+      type: System.IO.Stream
+    - id: desiredBitRate
+      type: System.Int32
+    content.vb: Public Shared Sub EncodeToMp3(inputProvider As IWaveProvider, outputStream As Stream, desiredBitRate As Integer = 192000)
+  overload: NAudio.Wave.MediaFoundationEncoder.EncodeToMp3*
+  nameWithType.vb: MediaFoundationEncoder.EncodeToMp3(IWaveProvider, Stream, Integer)
+  fullName.vb: NAudio.Wave.MediaFoundationEncoder.EncodeToMp3(NAudio.Wave.IWaveProvider, System.IO.Stream, Integer)
+  name.vb: EncodeToMp3(IWaveProvider, Stream, Integer)
+- uid: NAudio.Wave.MediaFoundationEncoder.EncodeToAac(NAudio.Wave.IWaveProvider,System.String,System.Int32)
+  commentId: M:NAudio.Wave.MediaFoundationEncoder.EncodeToAac(NAudio.Wave.IWaveProvider,System.String,System.Int32)
+  id: EncodeToAac(NAudio.Wave.IWaveProvider,System.String,System.Int32)
+  parent: NAudio.Wave.MediaFoundationEncoder
+  langs:
+  - csharp
+  - vb
+  name: EncodeToAac(IWaveProvider, string, int)
+  nameWithType: MediaFoundationEncoder.EncodeToAac(IWaveProvider, string, int)
+  fullName: NAudio.Wave.MediaFoundationEncoder.EncodeToAac(NAudio.Wave.IWaveProvider, string, int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  syntax:
+    content: public static void EncodeToAac(IWaveProvider inputProvider, string outputFile, int desiredBitRate = 192000)
+    parameters:
+    - id: inputProvider
+      type: NAudio.Wave.IWaveProvider
+    - id: outputFile
+      type: System.String
+    - id: desiredBitRate
+      type: System.Int32
+    content.vb: Public Shared Sub EncodeToAac(inputProvider As IWaveProvider, outputFile As String, desiredBitRate As Integer = 192000)
+  overload: NAudio.Wave.MediaFoundationEncoder.EncodeToAac*
+  nameWithType.vb: MediaFoundationEncoder.EncodeToAac(IWaveProvider, String, Integer)
+  fullName.vb: NAudio.Wave.MediaFoundationEncoder.EncodeToAac(NAudio.Wave.IWaveProvider, String, Integer)
+  name.vb: EncodeToAac(IWaveProvider, String, Integer)
+- uid: NAudio.Wave.MediaFoundationEncoder.EncodeToAac(NAudio.Wave.IWaveProvider,System.IO.Stream,System.Int32)
+  commentId: M:NAudio.Wave.MediaFoundationEncoder.EncodeToAac(NAudio.Wave.IWaveProvider,System.IO.Stream,System.Int32)
+  id: EncodeToAac(NAudio.Wave.IWaveProvider,System.IO.Stream,System.Int32)
+  parent: NAudio.Wave.MediaFoundationEncoder
+  langs:
+  - csharp
+  - vb
+  name: EncodeToAac(IWaveProvider, Stream, int)
+  nameWithType: MediaFoundationEncoder.EncodeToAac(IWaveProvider, Stream, int)
+  fullName: NAudio.Wave.MediaFoundationEncoder.EncodeToAac(NAudio.Wave.IWaveProvider, System.IO.Stream, int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  syntax:
+    content: public static void EncodeToAac(IWaveProvider inputProvider, Stream outputStream, int desiredBitRate = 192000)
+    parameters:
+    - id: inputProvider
+      type: NAudio.Wave.IWaveProvider
+    - id: outputStream
+      type: System.IO.Stream
+    - id: desiredBitRate
+      type: System.Int32
+    content.vb: Public Shared Sub EncodeToAac(inputProvider As IWaveProvider, outputStream As Stream, desiredBitRate As Integer = 192000)
+  overload: NAudio.Wave.MediaFoundationEncoder.EncodeToAac*
+  nameWithType.vb: MediaFoundationEncoder.EncodeToAac(IWaveProvider, Stream, Integer)
+  fullName.vb: NAudio.Wave.MediaFoundationEncoder.EncodeToAac(NAudio.Wave.IWaveProvider, System.IO.Stream, Integer)
+  name.vb: EncodeToAac(IWaveProvider, Stream, Integer)
+- uid: NAudio.Wave.MediaFoundationEncoder.SelectMediaType(System.Guid,NAudio.Wave.WaveFormat,System.Int32)
+  commentId: M:NAudio.Wave.MediaFoundationEncoder.SelectMediaType(System.Guid,NAudio.Wave.WaveFormat,System.Int32)
+  id: SelectMediaType(System.Guid,NAudio.Wave.WaveFormat,System.Int32)
+  parent: NAudio.Wave.MediaFoundationEncoder
+  langs:
+  - csharp
+  - vb
+  name: SelectMediaType(Guid, WaveFormat, int)
+  nameWithType: MediaFoundationEncoder.SelectMediaType(Guid, WaveFormat, int)
+  fullName: NAudio.Wave.MediaFoundationEncoder.SelectMediaType(System.Guid, NAudio.Wave.WaveFormat, int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  syntax:
+    content: public static MediaType SelectMediaType(Guid audioSubtype, WaveFormat inputFormat, int desiredBitRate)
+    parameters:
+    - id: audioSubtype
+      type: System.Guid
+    - id: inputFormat
+      type: NAudio.Wave.WaveFormat
+    - id: desiredBitRate
+      type: System.Int32
+    return:
+      type: NAudio.MediaFoundation.MediaType
+    content.vb: Public Shared Function SelectMediaType(audioSubtype As Guid, inputFormat As WaveFormat, desiredBitRate As Integer) As MediaType
+  overload: NAudio.Wave.MediaFoundationEncoder.SelectMediaType*
+  nameWithType.vb: MediaFoundationEncoder.SelectMediaType(Guid, WaveFormat, Integer)
+  fullName.vb: NAudio.Wave.MediaFoundationEncoder.SelectMediaType(System.Guid, NAudio.Wave.WaveFormat, Integer)
+  name.vb: SelectMediaType(Guid, WaveFormat, Integer)
+- uid: NAudio.Wave.MediaFoundationEncoder.#ctor(NAudio.MediaFoundation.MediaType)
+  commentId: M:NAudio.Wave.MediaFoundationEncoder.#ctor(NAudio.MediaFoundation.MediaType)
+  id: '#ctor(NAudio.MediaFoundation.MediaType)'
+  parent: NAudio.Wave.MediaFoundationEncoder
+  langs:
+  - csharp
+  - vb
+  name: MediaFoundationEncoder(MediaType)
+  nameWithType: MediaFoundationEncoder.MediaFoundationEncoder(MediaType)
+  fullName: NAudio.Wave.MediaFoundationEncoder.MediaFoundationEncoder(NAudio.MediaFoundation.MediaType)
+  type: Constructor
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  syntax:
+    content: public MediaFoundationEncoder(MediaType outputMediaType)
+    parameters:
+    - id: outputMediaType
+      type: NAudio.MediaFoundation.MediaType
+    content.vb: Public Sub New(outputMediaType As MediaType)
+  overload: NAudio.Wave.MediaFoundationEncoder.#ctor*
+  nameWithType.vb: MediaFoundationEncoder.New(MediaType)
+  fullName.vb: NAudio.Wave.MediaFoundationEncoder.New(NAudio.MediaFoundation.MediaType)
+  name.vb: New(MediaType)
+- uid: NAudio.Wave.MediaFoundationEncoder.Encode(System.String,NAudio.Wave.IWaveProvider)
+  commentId: M:NAudio.Wave.MediaFoundationEncoder.Encode(System.String,NAudio.Wave.IWaveProvider)
+  id: Encode(System.String,NAudio.Wave.IWaveProvider)
+  parent: NAudio.Wave.MediaFoundationEncoder
+  langs:
+  - csharp
+  - vb
+  name: Encode(string, IWaveProvider)
+  nameWithType: MediaFoundationEncoder.Encode(string, IWaveProvider)
+  fullName: NAudio.Wave.MediaFoundationEncoder.Encode(string, NAudio.Wave.IWaveProvider)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  syntax:
+    content: public void Encode(string outputFile, IWaveProvider inputProvider)
+    parameters:
+    - id: outputFile
+      type: System.String
+    - id: inputProvider
+      type: NAudio.Wave.IWaveProvider
+    content.vb: Public Sub Encode(outputFile As String, inputProvider As IWaveProvider)
+  overload: NAudio.Wave.MediaFoundationEncoder.Encode*
+  nameWithType.vb: MediaFoundationEncoder.Encode(String, IWaveProvider)
+  fullName.vb: NAudio.Wave.MediaFoundationEncoder.Encode(String, NAudio.Wave.IWaveProvider)
+  name.vb: Encode(String, IWaveProvider)
+- uid: NAudio.Wave.MediaFoundationEncoder.Encode(System.IO.Stream,NAudio.Wave.IWaveProvider,System.Guid)
+  commentId: M:NAudio.Wave.MediaFoundationEncoder.Encode(System.IO.Stream,NAudio.Wave.IWaveProvider,System.Guid)
+  id: Encode(System.IO.Stream,NAudio.Wave.IWaveProvider,System.Guid)
+  parent: NAudio.Wave.MediaFoundationEncoder
+  langs:
+  - csharp
+  - vb
+  name: Encode(Stream, IWaveProvider, Guid)
+  nameWithType: MediaFoundationEncoder.Encode(Stream, IWaveProvider, Guid)
+  fullName: NAudio.Wave.MediaFoundationEncoder.Encode(System.IO.Stream, NAudio.Wave.IWaveProvider, System.Guid)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  syntax:
+    content: public void Encode(Stream outputStream, IWaveProvider inputProvider, Guid transcodeContainerType)
+    parameters:
+    - id: outputStream
+      type: System.IO.Stream
+    - id: inputProvider
+      type: NAudio.Wave.IWaveProvider
+    - id: transcodeContainerType
+      type: System.Guid
+    content.vb: Public Sub Encode(outputStream As Stream, inputProvider As IWaveProvider, transcodeContainerType As Guid)
+  overload: NAudio.Wave.MediaFoundationEncoder.Encode*
+- uid: NAudio.Wave.MediaFoundationEncoder.Dispose(System.Boolean)
+  commentId: M:NAudio.Wave.MediaFoundationEncoder.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: NAudio.Wave.MediaFoundationEncoder
+  langs:
+  - csharp
+  - vb
+  name: Dispose(bool)
+  nameWithType: MediaFoundationEncoder.Dispose(bool)
+  fullName: NAudio.Wave.MediaFoundationEncoder.Dispose(bool)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  syntax:
+    content: protected void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+    content.vb: Protected Sub Dispose(disposing As Boolean)
+  overload: NAudio.Wave.MediaFoundationEncoder.Dispose*
+  nameWithType.vb: MediaFoundationEncoder.Dispose(Boolean)
+  fullName.vb: NAudio.Wave.MediaFoundationEncoder.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+- uid: NAudio.Wave.MediaFoundationEncoder.Dispose
+  commentId: M:NAudio.Wave.MediaFoundationEncoder.Dispose
+  id: Dispose
+  parent: NAudio.Wave.MediaFoundationEncoder
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: MediaFoundationEncoder.Dispose()
+  fullName: NAudio.Wave.MediaFoundationEncoder.Dispose()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: NAudio.Wave.MediaFoundationEncoder.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: NAudio.Wave.MediaFoundationEncoder.Finalize
+  commentId: M:NAudio.Wave.MediaFoundationEncoder.Finalize
+  id: Finalize
+  parent: NAudio.Wave.MediaFoundationEncoder
+  langs:
+  - csharp
+  - vb
+  name: ~MediaFoundationEncoder()
+  nameWithType: MediaFoundationEncoder.~MediaFoundationEncoder()
+  fullName: NAudio.Wave.MediaFoundationEncoder.~MediaFoundationEncoder()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  syntax:
+    content: protected ~MediaFoundationEncoder()
+    content.vb: 'Protected '
+  overload: NAudio.Wave.MediaFoundationEncoder.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: NAudio.Wave.MediaFoundationEncoder.DefaultReadBufferSize
+  commentId: P:NAudio.Wave.MediaFoundationEncoder.DefaultReadBufferSize
+  id: DefaultReadBufferSize
+  parent: NAudio.Wave.MediaFoundationEncoder
+  langs:
+  - csharp
+  - vb
+  name: DefaultReadBufferSize
+  nameWithType: MediaFoundationEncoder.DefaultReadBufferSize
+  fullName: NAudio.Wave.MediaFoundationEncoder.DefaultReadBufferSize
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Wave
+  syntax:
+    content: public int DefaultReadBufferSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DefaultReadBufferSize As Integer
+  overload: NAudio.Wave.MediaFoundationEncoder.DefaultReadBufferSize*
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.MediaFoundationEncoder.GetEncodeBitrates*
+  commentId: Overload:NAudio.Wave.MediaFoundationEncoder.GetEncodeBitrates
+  isExternal: true
+  href: NAudio.Wave.MediaFoundationEncoder.html#NAudio_Wave_MediaFoundationEncoder_GetEncodeBitrates_System_Guid_System_Int32_System_Int32_
+  name: GetEncodeBitrates
+  nameWithType: MediaFoundationEncoder.GetEncodeBitrates
+  fullName: NAudio.Wave.MediaFoundationEncoder.GetEncodeBitrates
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: NAudio.Wave.MediaFoundationEncoder.GetOutputMediaTypes*
+  commentId: Overload:NAudio.Wave.MediaFoundationEncoder.GetOutputMediaTypes
+  isExternal: true
+  href: NAudio.Wave.MediaFoundationEncoder.html#NAudio_Wave_MediaFoundationEncoder_GetOutputMediaTypes_System_Guid_
+  name: GetOutputMediaTypes
+  nameWithType: MediaFoundationEncoder.GetOutputMediaTypes
+  fullName: NAudio.Wave.MediaFoundationEncoder.GetOutputMediaTypes
+- uid: NAudio.MediaFoundation.MediaType[]
+  isExternal: true
+  href: NAudio.MediaFoundation.MediaType.html
+  name: MediaType[]
+  nameWithType: MediaType[]
+  fullName: NAudio.MediaFoundation.MediaType[]
+  nameWithType.vb: MediaType()
+  fullName.vb: NAudio.MediaFoundation.MediaType()
+  name.vb: MediaType()
+  spec.csharp:
+  - uid: NAudio.MediaFoundation.MediaType
+    name: MediaType
+    isExternal: true
+    href: NAudio.MediaFoundation.MediaType.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NAudio.MediaFoundation.MediaType
+    name: MediaType
+    isExternal: true
+    href: NAudio.MediaFoundation.MediaType.html
+  - name: (
+  - name: )
+- uid: NAudio.Wave.MediaFoundationEncoder.EncodeToWma*
+  commentId: Overload:NAudio.Wave.MediaFoundationEncoder.EncodeToWma
+  isExternal: true
+  href: NAudio.Wave.MediaFoundationEncoder.html#NAudio_Wave_MediaFoundationEncoder_EncodeToWma_NAudio_Wave_IWaveProvider_System_String_System_Int32_
+  name: EncodeToWma
+  nameWithType: MediaFoundationEncoder.EncodeToWma
+  fullName: NAudio.Wave.MediaFoundationEncoder.EncodeToWma
+- uid: NAudio.Wave.IWaveProvider
+  commentId: T:NAudio.Wave.IWaveProvider
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.IWaveProvider.html
+  name: IWaveProvider
+  nameWithType: IWaveProvider
+  fullName: NAudio.Wave.IWaveProvider
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: NAudio.Wave.MediaFoundationEncoder.EncodeToMp3*
+  commentId: Overload:NAudio.Wave.MediaFoundationEncoder.EncodeToMp3
+  isExternal: true
+  href: NAudio.Wave.MediaFoundationEncoder.html#NAudio_Wave_MediaFoundationEncoder_EncodeToMp3_NAudio_Wave_IWaveProvider_System_String_System_Int32_
+  name: EncodeToMp3
+  nameWithType: MediaFoundationEncoder.EncodeToMp3
+  fullName: NAudio.Wave.MediaFoundationEncoder.EncodeToMp3
+- uid: NAudio.Wave.MediaFoundationEncoder.EncodeToAac*
+  commentId: Overload:NAudio.Wave.MediaFoundationEncoder.EncodeToAac
+  isExternal: true
+  href: NAudio.Wave.MediaFoundationEncoder.html#NAudio_Wave_MediaFoundationEncoder_EncodeToAac_NAudio_Wave_IWaveProvider_System_String_System_Int32_
+  name: EncodeToAac
+  nameWithType: MediaFoundationEncoder.EncodeToAac
+  fullName: NAudio.Wave.MediaFoundationEncoder.EncodeToAac
+- uid: NAudio.Wave.MediaFoundationEncoder.SelectMediaType*
+  commentId: Overload:NAudio.Wave.MediaFoundationEncoder.SelectMediaType
+  isExternal: true
+  href: NAudio.Wave.MediaFoundationEncoder.html#NAudio_Wave_MediaFoundationEncoder_SelectMediaType_System_Guid_NAudio_Wave_WaveFormat_System_Int32_
+  name: SelectMediaType
+  nameWithType: MediaFoundationEncoder.SelectMediaType
+  fullName: NAudio.Wave.MediaFoundationEncoder.SelectMediaType
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat
+- uid: NAudio.MediaFoundation.MediaType
+  commentId: T:NAudio.MediaFoundation.MediaType
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.MediaType.html
+  name: MediaType
+  nameWithType: MediaType
+  fullName: NAudio.MediaFoundation.MediaType
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.Wave.MediaFoundationEncoder.#ctor*
+  commentId: Overload:NAudio.Wave.MediaFoundationEncoder.#ctor
+  isExternal: true
+  href: NAudio.Wave.MediaFoundationEncoder.html#NAudio_Wave_MediaFoundationEncoder__ctor_NAudio_MediaFoundation_MediaType_
+  name: MediaFoundationEncoder
+  nameWithType: MediaFoundationEncoder.MediaFoundationEncoder
+  fullName: NAudio.Wave.MediaFoundationEncoder.MediaFoundationEncoder
+  nameWithType.vb: MediaFoundationEncoder.New
+  fullName.vb: NAudio.Wave.MediaFoundationEncoder.New
+  name.vb: New
+- uid: NAudio.Wave.MediaFoundationEncoder.Encode*
+  commentId: Overload:NAudio.Wave.MediaFoundationEncoder.Encode
+  isExternal: true
+  href: NAudio.Wave.MediaFoundationEncoder.html#NAudio_Wave_MediaFoundationEncoder_Encode_System_String_NAudio_Wave_IWaveProvider_
+  name: Encode
+  nameWithType: MediaFoundationEncoder.Encode
+  fullName: NAudio.Wave.MediaFoundationEncoder.Encode
+- uid: NAudio.Wave.MediaFoundationEncoder.Dispose*
+  commentId: Overload:NAudio.Wave.MediaFoundationEncoder.Dispose
+  isExternal: true
+  href: NAudio.Wave.MediaFoundationEncoder.html#NAudio_Wave_MediaFoundationEncoder_Dispose_System_Boolean_
+  name: Dispose
+  nameWithType: MediaFoundationEncoder.Dispose
+  fullName: NAudio.Wave.MediaFoundationEncoder.Dispose
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: NAudio.Wave.MediaFoundationEncoder.Finalize*
+  commentId: Overload:NAudio.Wave.MediaFoundationEncoder.Finalize
+  isExternal: true
+  href: NAudio.Wave.MediaFoundationEncoder.html#NAudio_Wave_MediaFoundationEncoder_Finalize
+  name: ~MediaFoundationEncoder
+  nameWithType: MediaFoundationEncoder.~MediaFoundationEncoder
+  fullName: NAudio.Wave.MediaFoundationEncoder.~MediaFoundationEncoder
+  spec.csharp:
+  - name: "~"
+  - uid: NAudio.Wave.MediaFoundationEncoder.Finalize*
+    name: MediaFoundationEncoder
+    isExternal: true
+    href: NAudio.Wave.MediaFoundationEncoder.html#NAudio_Wave_MediaFoundationEncoder_Finalize
+- uid: NAudio.Wave.MediaFoundationEncoder.DefaultReadBufferSize*
+  commentId: Overload:NAudio.Wave.MediaFoundationEncoder.DefaultReadBufferSize
+  isExternal: true
+  href: NAudio.Wave.MediaFoundationEncoder.html#NAudio_Wave_MediaFoundationEncoder_DefaultReadBufferSize
+  name: DefaultReadBufferSize
+  nameWithType: MediaFoundationEncoder.DefaultReadBufferSize
+  fullName: NAudio.Wave.MediaFoundationEncoder.DefaultReadBufferSize

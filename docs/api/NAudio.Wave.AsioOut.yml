@@ -1,0 +1,1636 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.AsioOut
+  commentId: T:NAudio.Wave.AsioOut
+  id: AsioOut
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.AsioOut.#ctor
+  - NAudio.Wave.AsioOut.#ctor(System.Int32)
+  - NAudio.Wave.AsioOut.#ctor(System.String)
+  - NAudio.Wave.AsioOut.AsioInputChannelName(System.Int32)
+  - NAudio.Wave.AsioOut.AsioOutputChannelName(System.Int32)
+  - NAudio.Wave.AsioOut.AudioAvailable
+  - NAudio.Wave.AsioOut.AutoStop
+  - NAudio.Wave.AsioOut.ChannelOffset
+  - NAudio.Wave.AsioOut.Dispose
+  - NAudio.Wave.AsioOut.DriverInputChannelCount
+  - NAudio.Wave.AsioOut.DriverName
+  - NAudio.Wave.AsioOut.DriverOutputChannelCount
+  - NAudio.Wave.AsioOut.DriverResetRequest
+  - NAudio.Wave.AsioOut.Finalize
+  - NAudio.Wave.AsioOut.FramesPerBuffer
+  - NAudio.Wave.AsioOut.GetDriverNames
+  - NAudio.Wave.AsioOut.HasReachedEnd
+  - NAudio.Wave.AsioOut.Init(NAudio.Wave.IWaveProvider)
+  - NAudio.Wave.AsioOut.InitRecordAndPlayback(NAudio.Wave.IWaveProvider,System.Int32,System.Int32)
+  - NAudio.Wave.AsioOut.InputChannelOffset
+  - NAudio.Wave.AsioOut.IsSampleRateSupported(System.Int32)
+  - NAudio.Wave.AsioOut.NumberOfInputChannels
+  - NAudio.Wave.AsioOut.NumberOfOutputChannels
+  - NAudio.Wave.AsioOut.OutputWaveFormat
+  - NAudio.Wave.AsioOut.Pause
+  - NAudio.Wave.AsioOut.Play
+  - NAudio.Wave.AsioOut.PlaybackLatency
+  - NAudio.Wave.AsioOut.PlaybackState
+  - NAudio.Wave.AsioOut.PlaybackStopped
+  - NAudio.Wave.AsioOut.ShowControlPanel
+  - NAudio.Wave.AsioOut.Stop
+  - NAudio.Wave.AsioOut.Volume
+  - NAudio.Wave.AsioOut.isSupported
+  langs:
+  - csharp
+  - vb
+  name: AsioOut
+  nameWithType: AsioOut
+  fullName: NAudio.Wave.AsioOut
+  type: Class
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: 'public class AsioOut : IWavePlayer, IDisposable'
+    content.vb: Public Class AsioOut Implements IWavePlayer, IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - NAudio.Wave.IWavePlayer
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.Wave.AsioOut.#ctor
+  commentId: M:NAudio.Wave.AsioOut.#ctor
+  id: '#ctor'
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: AsioOut()
+  nameWithType: AsioOut.AsioOut()
+  fullName: NAudio.Wave.AsioOut.AsioOut()
+  type: Constructor
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public AsioOut()
+    content.vb: Public Sub New()
+  overload: NAudio.Wave.AsioOut.#ctor*
+  nameWithType.vb: AsioOut.New()
+  fullName.vb: NAudio.Wave.AsioOut.New()
+  name.vb: New()
+- uid: NAudio.Wave.AsioOut.#ctor(System.String)
+  commentId: M:NAudio.Wave.AsioOut.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: AsioOut(string)
+  nameWithType: AsioOut.AsioOut(string)
+  fullName: NAudio.Wave.AsioOut.AsioOut(string)
+  type: Constructor
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public AsioOut(string driverName)
+    parameters:
+    - id: driverName
+      type: System.String
+    content.vb: Public Sub New(driverName As String)
+  overload: NAudio.Wave.AsioOut.#ctor*
+  nameWithType.vb: AsioOut.New(String)
+  fullName.vb: NAudio.Wave.AsioOut.New(String)
+  name.vb: New(String)
+- uid: NAudio.Wave.AsioOut.#ctor(System.Int32)
+  commentId: M:NAudio.Wave.AsioOut.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: AsioOut(int)
+  nameWithType: AsioOut.AsioOut(int)
+  fullName: NAudio.Wave.AsioOut.AsioOut(int)
+  type: Constructor
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public AsioOut(int driverIndex)
+    parameters:
+    - id: driverIndex
+      type: System.Int32
+    content.vb: Public Sub New(driverIndex As Integer)
+  overload: NAudio.Wave.AsioOut.#ctor*
+  nameWithType.vb: AsioOut.New(Integer)
+  fullName.vb: NAudio.Wave.AsioOut.New(Integer)
+  name.vb: New(Integer)
+- uid: NAudio.Wave.AsioOut.Finalize
+  commentId: M:NAudio.Wave.AsioOut.Finalize
+  id: Finalize
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: ~AsioOut()
+  nameWithType: AsioOut.~AsioOut()
+  fullName: NAudio.Wave.AsioOut.~AsioOut()
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: protected ~AsioOut()
+    content.vb: 'Protected '
+  overload: NAudio.Wave.AsioOut.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: NAudio.Wave.AsioOut.Dispose
+  commentId: M:NAudio.Wave.AsioOut.Dispose
+  id: Dispose
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: AsioOut.Dispose()
+  fullName: NAudio.Wave.AsioOut.Dispose()
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: NAudio.Wave.AsioOut.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: NAudio.Wave.AsioOut.GetDriverNames
+  commentId: M:NAudio.Wave.AsioOut.GetDriverNames
+  id: GetDriverNames
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: GetDriverNames()
+  nameWithType: AsioOut.GetDriverNames()
+  fullName: NAudio.Wave.AsioOut.GetDriverNames()
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public static string[] GetDriverNames()
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function GetDriverNames() As String()
+  overload: NAudio.Wave.AsioOut.GetDriverNames*
+- uid: NAudio.Wave.AsioOut.isSupported
+  commentId: M:NAudio.Wave.AsioOut.isSupported
+  id: isSupported
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: isSupported()
+  nameWithType: AsioOut.isSupported()
+  fullName: NAudio.Wave.AsioOut.isSupported()
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public static bool isSupported()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function isSupported() As Boolean
+  overload: NAudio.Wave.AsioOut.isSupported*
+- uid: NAudio.Wave.AsioOut.IsSampleRateSupported(System.Int32)
+  commentId: M:NAudio.Wave.AsioOut.IsSampleRateSupported(System.Int32)
+  id: IsSampleRateSupported(System.Int32)
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: IsSampleRateSupported(int)
+  nameWithType: AsioOut.IsSampleRateSupported(int)
+  fullName: NAudio.Wave.AsioOut.IsSampleRateSupported(int)
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public bool IsSampleRateSupported(int sampleRate)
+    parameters:
+    - id: sampleRate
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsSampleRateSupported(sampleRate As Integer) As Boolean
+  overload: NAudio.Wave.AsioOut.IsSampleRateSupported*
+  nameWithType.vb: AsioOut.IsSampleRateSupported(Integer)
+  fullName.vb: NAudio.Wave.AsioOut.IsSampleRateSupported(Integer)
+  name.vb: IsSampleRateSupported(Integer)
+- uid: NAudio.Wave.AsioOut.ShowControlPanel
+  commentId: M:NAudio.Wave.AsioOut.ShowControlPanel
+  id: ShowControlPanel
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: ShowControlPanel()
+  nameWithType: AsioOut.ShowControlPanel()
+  fullName: NAudio.Wave.AsioOut.ShowControlPanel()
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public void ShowControlPanel()
+    content.vb: Public Sub ShowControlPanel()
+  overload: NAudio.Wave.AsioOut.ShowControlPanel*
+- uid: NAudio.Wave.AsioOut.Play
+  commentId: M:NAudio.Wave.AsioOut.Play
+  id: Play
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: Play()
+  nameWithType: AsioOut.Play()
+  fullName: NAudio.Wave.AsioOut.Play()
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public void Play()
+    content.vb: Public Sub Play()
+  overload: NAudio.Wave.AsioOut.Play*
+  implements:
+  - NAudio.Wave.IWavePlayer.Play
+- uid: NAudio.Wave.AsioOut.Stop
+  commentId: M:NAudio.Wave.AsioOut.Stop
+  id: Stop
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: AsioOut.Stop()
+  fullName: NAudio.Wave.AsioOut.Stop()
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub [Stop]()
+  overload: NAudio.Wave.AsioOut.Stop*
+  implements:
+  - NAudio.Wave.IWavePlayer.Stop
+- uid: NAudio.Wave.AsioOut.Pause
+  commentId: M:NAudio.Wave.AsioOut.Pause
+  id: Pause
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: Pause()
+  nameWithType: AsioOut.Pause()
+  fullName: NAudio.Wave.AsioOut.Pause()
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public void Pause()
+    content.vb: Public Sub Pause()
+  overload: NAudio.Wave.AsioOut.Pause*
+  implements:
+  - NAudio.Wave.IWavePlayer.Pause
+- uid: NAudio.Wave.AsioOut.Init(NAudio.Wave.IWaveProvider)
+  commentId: M:NAudio.Wave.AsioOut.Init(NAudio.Wave.IWaveProvider)
+  id: Init(NAudio.Wave.IWaveProvider)
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: Init(IWaveProvider)
+  nameWithType: AsioOut.Init(IWaveProvider)
+  fullName: NAudio.Wave.AsioOut.Init(NAudio.Wave.IWaveProvider)
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public void Init(IWaveProvider waveProvider)
+    parameters:
+    - id: waveProvider
+      type: NAudio.Wave.IWaveProvider
+    content.vb: Public Sub Init(waveProvider As IWaveProvider)
+  overload: NAudio.Wave.AsioOut.Init*
+  implements:
+  - NAudio.Wave.IWavePlayer.Init(NAudio.Wave.IWaveProvider)
+- uid: NAudio.Wave.AsioOut.InitRecordAndPlayback(NAudio.Wave.IWaveProvider,System.Int32,System.Int32)
+  commentId: M:NAudio.Wave.AsioOut.InitRecordAndPlayback(NAudio.Wave.IWaveProvider,System.Int32,System.Int32)
+  id: InitRecordAndPlayback(NAudio.Wave.IWaveProvider,System.Int32,System.Int32)
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: InitRecordAndPlayback(IWaveProvider, int, int)
+  nameWithType: AsioOut.InitRecordAndPlayback(IWaveProvider, int, int)
+  fullName: NAudio.Wave.AsioOut.InitRecordAndPlayback(NAudio.Wave.IWaveProvider, int, int)
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public void InitRecordAndPlayback(IWaveProvider waveProvider, int recordChannels, int recordOnlySampleRate)
+    parameters:
+    - id: waveProvider
+      type: NAudio.Wave.IWaveProvider
+    - id: recordChannels
+      type: System.Int32
+    - id: recordOnlySampleRate
+      type: System.Int32
+    content.vb: Public Sub InitRecordAndPlayback(waveProvider As IWaveProvider, recordChannels As Integer, recordOnlySampleRate As Integer)
+  overload: NAudio.Wave.AsioOut.InitRecordAndPlayback*
+  nameWithType.vb: AsioOut.InitRecordAndPlayback(IWaveProvider, Integer, Integer)
+  fullName.vb: NAudio.Wave.AsioOut.InitRecordAndPlayback(NAudio.Wave.IWaveProvider, Integer, Integer)
+  name.vb: InitRecordAndPlayback(IWaveProvider, Integer, Integer)
+- uid: NAudio.Wave.AsioOut.AsioInputChannelName(System.Int32)
+  commentId: M:NAudio.Wave.AsioOut.AsioInputChannelName(System.Int32)
+  id: AsioInputChannelName(System.Int32)
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: AsioInputChannelName(int)
+  nameWithType: AsioOut.AsioInputChannelName(int)
+  fullName: NAudio.Wave.AsioOut.AsioInputChannelName(int)
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public string AsioInputChannelName(int channel)
+    parameters:
+    - id: channel
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function AsioInputChannelName(channel As Integer) As String
+  overload: NAudio.Wave.AsioOut.AsioInputChannelName*
+  nameWithType.vb: AsioOut.AsioInputChannelName(Integer)
+  fullName.vb: NAudio.Wave.AsioOut.AsioInputChannelName(Integer)
+  name.vb: AsioInputChannelName(Integer)
+- uid: NAudio.Wave.AsioOut.AsioOutputChannelName(System.Int32)
+  commentId: M:NAudio.Wave.AsioOut.AsioOutputChannelName(System.Int32)
+  id: AsioOutputChannelName(System.Int32)
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: AsioOutputChannelName(int)
+  nameWithType: AsioOut.AsioOutputChannelName(int)
+  fullName: NAudio.Wave.AsioOut.AsioOutputChannelName(int)
+  type: Method
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public string AsioOutputChannelName(int channel)
+    parameters:
+    - id: channel
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function AsioOutputChannelName(channel As Integer) As String
+  overload: NAudio.Wave.AsioOut.AsioOutputChannelName*
+  nameWithType.vb: AsioOut.AsioOutputChannelName(Integer)
+  fullName.vb: NAudio.Wave.AsioOut.AsioOutputChannelName(Integer)
+  name.vb: AsioOutputChannelName(Integer)
+- uid: NAudio.Wave.AsioOut.PlaybackLatency
+  commentId: P:NAudio.Wave.AsioOut.PlaybackLatency
+  id: PlaybackLatency
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: PlaybackLatency
+  nameWithType: AsioOut.PlaybackLatency
+  fullName: NAudio.Wave.AsioOut.PlaybackLatency
+  type: Property
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public int PlaybackLatency { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property PlaybackLatency As Integer
+  overload: NAudio.Wave.AsioOut.PlaybackLatency*
+- uid: NAudio.Wave.AsioOut.AutoStop
+  commentId: P:NAudio.Wave.AsioOut.AutoStop
+  id: AutoStop
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: AutoStop
+  nameWithType: AsioOut.AutoStop
+  fullName: NAudio.Wave.AsioOut.AutoStop
+  type: Property
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public bool AutoStop { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AutoStop As Boolean
+  overload: NAudio.Wave.AsioOut.AutoStop*
+- uid: NAudio.Wave.AsioOut.HasReachedEnd
+  commentId: P:NAudio.Wave.AsioOut.HasReachedEnd
+  id: HasReachedEnd
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: HasReachedEnd
+  nameWithType: AsioOut.HasReachedEnd
+  fullName: NAudio.Wave.AsioOut.HasReachedEnd
+  type: Property
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public bool HasReachedEnd { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasReachedEnd As Boolean
+  overload: NAudio.Wave.AsioOut.HasReachedEnd*
+- uid: NAudio.Wave.AsioOut.PlaybackState
+  commentId: P:NAudio.Wave.AsioOut.PlaybackState
+  id: PlaybackState
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: PlaybackState
+  nameWithType: AsioOut.PlaybackState
+  fullName: NAudio.Wave.AsioOut.PlaybackState
+  type: Property
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public PlaybackState PlaybackState { get; }
+    parameters: []
+    return:
+      type: NAudio.Wave.PlaybackState
+    content.vb: Public ReadOnly Property PlaybackState As PlaybackState
+  overload: NAudio.Wave.AsioOut.PlaybackState*
+  implements:
+  - NAudio.Wave.IWavePlayer.PlaybackState
+- uid: NAudio.Wave.AsioOut.DriverName
+  commentId: P:NAudio.Wave.AsioOut.DriverName
+  id: DriverName
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: DriverName
+  nameWithType: AsioOut.DriverName
+  fullName: NAudio.Wave.AsioOut.DriverName
+  type: Property
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public string DriverName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DriverName As String
+  overload: NAudio.Wave.AsioOut.DriverName*
+- uid: NAudio.Wave.AsioOut.NumberOfOutputChannels
+  commentId: P:NAudio.Wave.AsioOut.NumberOfOutputChannels
+  id: NumberOfOutputChannels
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: NumberOfOutputChannels
+  nameWithType: AsioOut.NumberOfOutputChannels
+  fullName: NAudio.Wave.AsioOut.NumberOfOutputChannels
+  type: Property
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public int NumberOfOutputChannels { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property NumberOfOutputChannels As Integer
+  overload: NAudio.Wave.AsioOut.NumberOfOutputChannels*
+- uid: NAudio.Wave.AsioOut.NumberOfInputChannels
+  commentId: P:NAudio.Wave.AsioOut.NumberOfInputChannels
+  id: NumberOfInputChannels
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: NumberOfInputChannels
+  nameWithType: AsioOut.NumberOfInputChannels
+  fullName: NAudio.Wave.AsioOut.NumberOfInputChannels
+  type: Property
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public int NumberOfInputChannels { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property NumberOfInputChannels As Integer
+  overload: NAudio.Wave.AsioOut.NumberOfInputChannels*
+- uid: NAudio.Wave.AsioOut.DriverInputChannelCount
+  commentId: P:NAudio.Wave.AsioOut.DriverInputChannelCount
+  id: DriverInputChannelCount
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: DriverInputChannelCount
+  nameWithType: AsioOut.DriverInputChannelCount
+  fullName: NAudio.Wave.AsioOut.DriverInputChannelCount
+  type: Property
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public int DriverInputChannelCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DriverInputChannelCount As Integer
+  overload: NAudio.Wave.AsioOut.DriverInputChannelCount*
+- uid: NAudio.Wave.AsioOut.DriverOutputChannelCount
+  commentId: P:NAudio.Wave.AsioOut.DriverOutputChannelCount
+  id: DriverOutputChannelCount
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: DriverOutputChannelCount
+  nameWithType: AsioOut.DriverOutputChannelCount
+  fullName: NAudio.Wave.AsioOut.DriverOutputChannelCount
+  type: Property
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public int DriverOutputChannelCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DriverOutputChannelCount As Integer
+  overload: NAudio.Wave.AsioOut.DriverOutputChannelCount*
+- uid: NAudio.Wave.AsioOut.FramesPerBuffer
+  commentId: P:NAudio.Wave.AsioOut.FramesPerBuffer
+  id: FramesPerBuffer
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: FramesPerBuffer
+  nameWithType: AsioOut.FramesPerBuffer
+  fullName: NAudio.Wave.AsioOut.FramesPerBuffer
+  type: Property
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public int FramesPerBuffer { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property FramesPerBuffer As Integer
+  overload: NAudio.Wave.AsioOut.FramesPerBuffer*
+- uid: NAudio.Wave.AsioOut.ChannelOffset
+  commentId: P:NAudio.Wave.AsioOut.ChannelOffset
+  id: ChannelOffset
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: ChannelOffset
+  nameWithType: AsioOut.ChannelOffset
+  fullName: NAudio.Wave.AsioOut.ChannelOffset
+  type: Property
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public int ChannelOffset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChannelOffset As Integer
+  overload: NAudio.Wave.AsioOut.ChannelOffset*
+- uid: NAudio.Wave.AsioOut.InputChannelOffset
+  commentId: P:NAudio.Wave.AsioOut.InputChannelOffset
+  id: InputChannelOffset
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: InputChannelOffset
+  nameWithType: AsioOut.InputChannelOffset
+  fullName: NAudio.Wave.AsioOut.InputChannelOffset
+  type: Property
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public int InputChannelOffset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property InputChannelOffset As Integer
+  overload: NAudio.Wave.AsioOut.InputChannelOffset*
+- uid: NAudio.Wave.AsioOut.Volume
+  commentId: P:NAudio.Wave.AsioOut.Volume
+  id: Volume
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: AsioOut.Volume
+  fullName: NAudio.Wave.AsioOut.Volume
+  type: Property
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("this function will be removed in a future NAudio as ASIO does not support setting the volume on the device")]
+
+      public float Volume { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: >-
+      <Obsolete("this function will be removed in a future NAudio as ASIO does not support setting the volume on the device")>
+
+      Public Property Volume As Single
+  overload: NAudio.Wave.AsioOut.Volume*
+  implements:
+  - NAudio.Wave.IWavePlayer.Volume
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: this function will be removed in a future NAudio as ASIO does not support setting the volume on the device
+- uid: NAudio.Wave.AsioOut.OutputWaveFormat
+  commentId: P:NAudio.Wave.AsioOut.OutputWaveFormat
+  id: OutputWaveFormat
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: OutputWaveFormat
+  nameWithType: AsioOut.OutputWaveFormat
+  fullName: NAudio.Wave.AsioOut.OutputWaveFormat
+  type: Property
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public WaveFormat OutputWaveFormat { get; }
+    parameters: []
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public ReadOnly Property OutputWaveFormat As WaveFormat
+  overload: NAudio.Wave.AsioOut.OutputWaveFormat*
+  implements:
+  - NAudio.Wave.IWavePlayer.OutputWaveFormat
+- uid: NAudio.Wave.AsioOut.PlaybackStopped
+  commentId: E:NAudio.Wave.AsioOut.PlaybackStopped
+  id: PlaybackStopped
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: PlaybackStopped
+  nameWithType: AsioOut.PlaybackStopped
+  fullName: NAudio.Wave.AsioOut.PlaybackStopped
+  type: Event
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public event EventHandler<StoppedEventArgs> PlaybackStopped
+    return:
+      type: System.EventHandler{NAudio.Wave.StoppedEventArgs}
+    content.vb: Public Event PlaybackStopped As EventHandler(Of StoppedEventArgs)
+  implements:
+  - NAudio.Wave.IWavePlayer.PlaybackStopped
+- uid: NAudio.Wave.AsioOut.AudioAvailable
+  commentId: E:NAudio.Wave.AsioOut.AudioAvailable
+  id: AudioAvailable
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: AudioAvailable
+  nameWithType: AsioOut.AudioAvailable
+  fullName: NAudio.Wave.AsioOut.AudioAvailable
+  type: Event
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public event EventHandler<AsioAudioAvailableEventArgs> AudioAvailable
+    return:
+      type: System.EventHandler{NAudio.Wave.AsioAudioAvailableEventArgs}
+    content.vb: Public Event AudioAvailable As EventHandler(Of AsioAudioAvailableEventArgs)
+- uid: NAudio.Wave.AsioOut.DriverResetRequest
+  commentId: E:NAudio.Wave.AsioOut.DriverResetRequest
+  id: DriverResetRequest
+  parent: NAudio.Wave.AsioOut
+  langs:
+  - csharp
+  - vb
+  name: DriverResetRequest
+  nameWithType: AsioOut.DriverResetRequest
+  fullName: NAudio.Wave.AsioOut.DriverResetRequest
+  type: Event
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave
+  syntax:
+    content: public event EventHandler DriverResetRequest
+    return:
+      type: System.EventHandler
+    content.vb: Public Event DriverResetRequest As EventHandler
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NAudio.Wave.IWavePlayer
+  commentId: T:NAudio.Wave.IWavePlayer
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.IWavePlayer.html
+  name: IWavePlayer
+  nameWithType: IWavePlayer
+  fullName: NAudio.Wave.IWavePlayer
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.AsioOut.#ctor*
+  commentId: Overload:NAudio.Wave.AsioOut.#ctor
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut__ctor
+  name: AsioOut
+  nameWithType: AsioOut.AsioOut
+  fullName: NAudio.Wave.AsioOut.AsioOut
+  nameWithType.vb: AsioOut.New
+  fullName.vb: NAudio.Wave.AsioOut.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.Wave.AsioOut.Finalize*
+  commentId: Overload:NAudio.Wave.AsioOut.Finalize
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_Finalize
+  name: ~AsioOut
+  nameWithType: AsioOut.~AsioOut
+  fullName: NAudio.Wave.AsioOut.~AsioOut
+  spec.csharp:
+  - name: "~"
+  - uid: NAudio.Wave.AsioOut.Finalize*
+    name: AsioOut
+    isExternal: true
+    href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_Finalize
+- uid: NAudio.Wave.AsioOut.Dispose*
+  commentId: Overload:NAudio.Wave.AsioOut.Dispose
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_Dispose
+  name: Dispose
+  nameWithType: AsioOut.Dispose
+  fullName: NAudio.Wave.AsioOut.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: NAudio.Wave.AsioOut.GetDriverNames*
+  commentId: Overload:NAudio.Wave.AsioOut.GetDriverNames
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_GetDriverNames
+  name: GetDriverNames
+  nameWithType: AsioOut.GetDriverNames
+  fullName: NAudio.Wave.AsioOut.GetDriverNames
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: NAudio.Wave.AsioOut.isSupported*
+  commentId: Overload:NAudio.Wave.AsioOut.isSupported
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_isSupported
+  name: isSupported
+  nameWithType: AsioOut.isSupported
+  fullName: NAudio.Wave.AsioOut.isSupported
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NAudio.Wave.AsioOut.IsSampleRateSupported*
+  commentId: Overload:NAudio.Wave.AsioOut.IsSampleRateSupported
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_IsSampleRateSupported_System_Int32_
+  name: IsSampleRateSupported
+  nameWithType: AsioOut.IsSampleRateSupported
+  fullName: NAudio.Wave.AsioOut.IsSampleRateSupported
+- uid: NAudio.Wave.AsioOut.ShowControlPanel*
+  commentId: Overload:NAudio.Wave.AsioOut.ShowControlPanel
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_ShowControlPanel
+  name: ShowControlPanel
+  nameWithType: AsioOut.ShowControlPanel
+  fullName: NAudio.Wave.AsioOut.ShowControlPanel
+- uid: NAudio.Wave.AsioOut.Play*
+  commentId: Overload:NAudio.Wave.AsioOut.Play
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_Play
+  name: Play
+  nameWithType: AsioOut.Play
+  fullName: NAudio.Wave.AsioOut.Play
+- uid: NAudio.Wave.IWavePlayer.Play
+  commentId: M:NAudio.Wave.IWavePlayer.Play
+  parent: NAudio.Wave.IWavePlayer
+  isExternal: true
+  href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Play
+  name: Play()
+  nameWithType: IWavePlayer.Play()
+  fullName: NAudio.Wave.IWavePlayer.Play()
+  spec.csharp:
+  - uid: NAudio.Wave.IWavePlayer.Play
+    name: Play
+    isExternal: true
+    href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Play
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.IWavePlayer.Play
+    name: Play
+    isExternal: true
+    href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Play
+  - name: (
+  - name: )
+- uid: NAudio.Wave.AsioOut.Stop*
+  commentId: Overload:NAudio.Wave.AsioOut.Stop
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_Stop
+  name: Stop
+  nameWithType: AsioOut.Stop
+  fullName: NAudio.Wave.AsioOut.Stop
+- uid: NAudio.Wave.IWavePlayer.Stop
+  commentId: M:NAudio.Wave.IWavePlayer.Stop
+  parent: NAudio.Wave.IWavePlayer
+  isExternal: true
+  href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Stop
+  name: Stop()
+  nameWithType: IWavePlayer.Stop()
+  fullName: NAudio.Wave.IWavePlayer.Stop()
+  spec.csharp:
+  - uid: NAudio.Wave.IWavePlayer.Stop
+    name: Stop
+    isExternal: true
+    href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Stop
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.IWavePlayer.Stop
+    name: Stop
+    isExternal: true
+    href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Stop
+  - name: (
+  - name: )
+- uid: NAudio.Wave.AsioOut.Pause*
+  commentId: Overload:NAudio.Wave.AsioOut.Pause
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_Pause
+  name: Pause
+  nameWithType: AsioOut.Pause
+  fullName: NAudio.Wave.AsioOut.Pause
+- uid: NAudio.Wave.IWavePlayer.Pause
+  commentId: M:NAudio.Wave.IWavePlayer.Pause
+  parent: NAudio.Wave.IWavePlayer
+  isExternal: true
+  href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Pause
+  name: Pause()
+  nameWithType: IWavePlayer.Pause()
+  fullName: NAudio.Wave.IWavePlayer.Pause()
+  spec.csharp:
+  - uid: NAudio.Wave.IWavePlayer.Pause
+    name: Pause
+    isExternal: true
+    href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Pause
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.IWavePlayer.Pause
+    name: Pause
+    isExternal: true
+    href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Pause
+  - name: (
+  - name: )
+- uid: NAudio.Wave.AsioOut.Init*
+  commentId: Overload:NAudio.Wave.AsioOut.Init
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_Init_NAudio_Wave_IWaveProvider_
+  name: Init
+  nameWithType: AsioOut.Init
+  fullName: NAudio.Wave.AsioOut.Init
+- uid: NAudio.Wave.IWavePlayer.Init(NAudio.Wave.IWaveProvider)
+  commentId: M:NAudio.Wave.IWavePlayer.Init(NAudio.Wave.IWaveProvider)
+  parent: NAudio.Wave.IWavePlayer
+  isExternal: true
+  href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Init_NAudio_Wave_IWaveProvider_
+  name: Init(IWaveProvider)
+  nameWithType: IWavePlayer.Init(IWaveProvider)
+  fullName: NAudio.Wave.IWavePlayer.Init(NAudio.Wave.IWaveProvider)
+  spec.csharp:
+  - uid: NAudio.Wave.IWavePlayer.Init(NAudio.Wave.IWaveProvider)
+    name: Init
+    isExternal: true
+    href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Init_NAudio_Wave_IWaveProvider_
+  - name: (
+  - uid: NAudio.Wave.IWaveProvider
+    name: IWaveProvider
+    isExternal: true
+    href: NAudio.Wave.IWaveProvider.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.IWavePlayer.Init(NAudio.Wave.IWaveProvider)
+    name: Init
+    isExternal: true
+    href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Init_NAudio_Wave_IWaveProvider_
+  - name: (
+  - uid: NAudio.Wave.IWaveProvider
+    name: IWaveProvider
+    isExternal: true
+    href: NAudio.Wave.IWaveProvider.html
+  - name: )
+- uid: NAudio.Wave.IWaveProvider
+  commentId: T:NAudio.Wave.IWaveProvider
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.IWaveProvider.html
+  name: IWaveProvider
+  nameWithType: IWaveProvider
+  fullName: NAudio.Wave.IWaveProvider
+- uid: NAudio.Wave.AsioOut.InitRecordAndPlayback*
+  commentId: Overload:NAudio.Wave.AsioOut.InitRecordAndPlayback
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_InitRecordAndPlayback_NAudio_Wave_IWaveProvider_System_Int32_System_Int32_
+  name: InitRecordAndPlayback
+  nameWithType: AsioOut.InitRecordAndPlayback
+  fullName: NAudio.Wave.AsioOut.InitRecordAndPlayback
+- uid: NAudio.Wave.AsioOut.AsioInputChannelName*
+  commentId: Overload:NAudio.Wave.AsioOut.AsioInputChannelName
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_AsioInputChannelName_System_Int32_
+  name: AsioInputChannelName
+  nameWithType: AsioOut.AsioInputChannelName
+  fullName: NAudio.Wave.AsioOut.AsioInputChannelName
+- uid: NAudio.Wave.AsioOut.AsioOutputChannelName*
+  commentId: Overload:NAudio.Wave.AsioOut.AsioOutputChannelName
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_AsioOutputChannelName_System_Int32_
+  name: AsioOutputChannelName
+  nameWithType: AsioOut.AsioOutputChannelName
+  fullName: NAudio.Wave.AsioOut.AsioOutputChannelName
+- uid: NAudio.Wave.AsioOut.PlaybackLatency*
+  commentId: Overload:NAudio.Wave.AsioOut.PlaybackLatency
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_PlaybackLatency
+  name: PlaybackLatency
+  nameWithType: AsioOut.PlaybackLatency
+  fullName: NAudio.Wave.AsioOut.PlaybackLatency
+- uid: NAudio.Wave.AsioOut.AutoStop*
+  commentId: Overload:NAudio.Wave.AsioOut.AutoStop
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_AutoStop
+  name: AutoStop
+  nameWithType: AsioOut.AutoStop
+  fullName: NAudio.Wave.AsioOut.AutoStop
+- uid: NAudio.Wave.AsioOut.HasReachedEnd*
+  commentId: Overload:NAudio.Wave.AsioOut.HasReachedEnd
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_HasReachedEnd
+  name: HasReachedEnd
+  nameWithType: AsioOut.HasReachedEnd
+  fullName: NAudio.Wave.AsioOut.HasReachedEnd
+- uid: NAudio.Wave.AsioOut.PlaybackState*
+  commentId: Overload:NAudio.Wave.AsioOut.PlaybackState
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_PlaybackState
+  name: PlaybackState
+  nameWithType: AsioOut.PlaybackState
+  fullName: NAudio.Wave.AsioOut.PlaybackState
+- uid: NAudio.Wave.IWavePlayer.PlaybackState
+  commentId: P:NAudio.Wave.IWavePlayer.PlaybackState
+  parent: NAudio.Wave.IWavePlayer
+  isExternal: true
+  href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_PlaybackState
+  name: PlaybackState
+  nameWithType: IWavePlayer.PlaybackState
+  fullName: NAudio.Wave.IWavePlayer.PlaybackState
+- uid: NAudio.Wave.PlaybackState
+  commentId: T:NAudio.Wave.PlaybackState
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.PlaybackState.html
+  name: PlaybackState
+  nameWithType: PlaybackState
+  fullName: NAudio.Wave.PlaybackState
+- uid: NAudio.Wave.AsioOut.DriverName*
+  commentId: Overload:NAudio.Wave.AsioOut.DriverName
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_DriverName
+  name: DriverName
+  nameWithType: AsioOut.DriverName
+  fullName: NAudio.Wave.AsioOut.DriverName
+- uid: NAudio.Wave.AsioOut.NumberOfOutputChannels*
+  commentId: Overload:NAudio.Wave.AsioOut.NumberOfOutputChannels
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_NumberOfOutputChannels
+  name: NumberOfOutputChannels
+  nameWithType: AsioOut.NumberOfOutputChannels
+  fullName: NAudio.Wave.AsioOut.NumberOfOutputChannels
+- uid: NAudio.Wave.AsioOut.NumberOfInputChannels*
+  commentId: Overload:NAudio.Wave.AsioOut.NumberOfInputChannels
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_NumberOfInputChannels
+  name: NumberOfInputChannels
+  nameWithType: AsioOut.NumberOfInputChannels
+  fullName: NAudio.Wave.AsioOut.NumberOfInputChannels
+- uid: NAudio.Wave.AsioOut.DriverInputChannelCount*
+  commentId: Overload:NAudio.Wave.AsioOut.DriverInputChannelCount
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_DriverInputChannelCount
+  name: DriverInputChannelCount
+  nameWithType: AsioOut.DriverInputChannelCount
+  fullName: NAudio.Wave.AsioOut.DriverInputChannelCount
+- uid: NAudio.Wave.AsioOut.DriverOutputChannelCount*
+  commentId: Overload:NAudio.Wave.AsioOut.DriverOutputChannelCount
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_DriverOutputChannelCount
+  name: DriverOutputChannelCount
+  nameWithType: AsioOut.DriverOutputChannelCount
+  fullName: NAudio.Wave.AsioOut.DriverOutputChannelCount
+- uid: NAudio.Wave.AsioOut.FramesPerBuffer*
+  commentId: Overload:NAudio.Wave.AsioOut.FramesPerBuffer
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_FramesPerBuffer
+  name: FramesPerBuffer
+  nameWithType: AsioOut.FramesPerBuffer
+  fullName: NAudio.Wave.AsioOut.FramesPerBuffer
+- uid: NAudio.Wave.AsioOut.ChannelOffset*
+  commentId: Overload:NAudio.Wave.AsioOut.ChannelOffset
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_ChannelOffset
+  name: ChannelOffset
+  nameWithType: AsioOut.ChannelOffset
+  fullName: NAudio.Wave.AsioOut.ChannelOffset
+- uid: NAudio.Wave.AsioOut.InputChannelOffset*
+  commentId: Overload:NAudio.Wave.AsioOut.InputChannelOffset
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_InputChannelOffset
+  name: InputChannelOffset
+  nameWithType: AsioOut.InputChannelOffset
+  fullName: NAudio.Wave.AsioOut.InputChannelOffset
+- uid: NAudio.Wave.AsioOut.Volume*
+  commentId: Overload:NAudio.Wave.AsioOut.Volume
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_Volume
+  name: Volume
+  nameWithType: AsioOut.Volume
+  fullName: NAudio.Wave.AsioOut.Volume
+- uid: NAudio.Wave.IWavePlayer.Volume
+  commentId: P:NAudio.Wave.IWavePlayer.Volume
+  parent: NAudio.Wave.IWavePlayer
+  isExternal: true
+  href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_Volume
+  name: Volume
+  nameWithType: IWavePlayer.Volume
+  fullName: NAudio.Wave.IWavePlayer.Volume
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NAudio.Wave.AsioOut.OutputWaveFormat*
+  commentId: Overload:NAudio.Wave.AsioOut.OutputWaveFormat
+  isExternal: true
+  href: NAudio.Wave.AsioOut.html#NAudio_Wave_AsioOut_OutputWaveFormat
+  name: OutputWaveFormat
+  nameWithType: AsioOut.OutputWaveFormat
+  fullName: NAudio.Wave.AsioOut.OutputWaveFormat
+- uid: NAudio.Wave.IWavePlayer.OutputWaveFormat
+  commentId: P:NAudio.Wave.IWavePlayer.OutputWaveFormat
+  parent: NAudio.Wave.IWavePlayer
+  isExternal: true
+  href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_OutputWaveFormat
+  name: OutputWaveFormat
+  nameWithType: IWavePlayer.OutputWaveFormat
+  fullName: NAudio.Wave.IWavePlayer.OutputWaveFormat
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat
+- uid: NAudio.Wave.IWavePlayer.PlaybackStopped
+  commentId: E:NAudio.Wave.IWavePlayer.PlaybackStopped
+  parent: NAudio.Wave.IWavePlayer
+  isExternal: true
+  href: NAudio.Wave.IWavePlayer.html#NAudio_Wave_IWavePlayer_PlaybackStopped
+  name: PlaybackStopped
+  nameWithType: IWavePlayer.PlaybackStopped
+  fullName: NAudio.Wave.IWavePlayer.PlaybackStopped
+- uid: System.EventHandler{NAudio.Wave.StoppedEventArgs}
+  commentId: T:System.EventHandler{NAudio.Wave.StoppedEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<StoppedEventArgs>
+  nameWithType: EventHandler<StoppedEventArgs>
+  fullName: System.EventHandler<NAudio.Wave.StoppedEventArgs>
+  nameWithType.vb: EventHandler(Of StoppedEventArgs)
+  fullName.vb: System.EventHandler(Of NAudio.Wave.StoppedEventArgs)
+  name.vb: EventHandler(Of StoppedEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: NAudio.Wave.StoppedEventArgs
+    name: StoppedEventArgs
+    isExternal: true
+    href: NAudio.Wave.StoppedEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NAudio.Wave.StoppedEventArgs
+    name: StoppedEventArgs
+    isExternal: true
+    href: NAudio.Wave.StoppedEventArgs.html
+  - name: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - name: TEventArgs
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventArgs
+  - name: )
+- uid: System.EventHandler{NAudio.Wave.AsioAudioAvailableEventArgs}
+  commentId: T:System.EventHandler{NAudio.Wave.AsioAudioAvailableEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<AsioAudioAvailableEventArgs>
+  nameWithType: EventHandler<AsioAudioAvailableEventArgs>
+  fullName: System.EventHandler<NAudio.Wave.AsioAudioAvailableEventArgs>
+  nameWithType.vb: EventHandler(Of AsioAudioAvailableEventArgs)
+  fullName.vb: System.EventHandler(Of NAudio.Wave.AsioAudioAvailableEventArgs)
+  name.vb: EventHandler(Of AsioAudioAvailableEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: NAudio.Wave.AsioAudioAvailableEventArgs
+    name: AsioAudioAvailableEventArgs
+    isExternal: true
+    href: NAudio.Wave.AsioAudioAvailableEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NAudio.Wave.AsioAudioAvailableEventArgs
+    name: AsioAudioAvailableEventArgs
+    isExternal: true
+    href: NAudio.Wave.AsioAudioAvailableEventArgs.html
+  - name: )
+- uid: System.EventHandler
+  commentId: T:System.EventHandler
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: System.EventHandler

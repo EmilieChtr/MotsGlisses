@@ -1,0 +1,648 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.DmoOutputDataBuffer
+  commentId: T:NAudio.Dmo.DmoOutputDataBuffer
+  id: DmoOutputDataBuffer
+  parent: NAudio.Dmo
+  children:
+  - NAudio.Dmo.DmoOutputDataBuffer.#ctor(System.Int32)
+  - NAudio.Dmo.DmoOutputDataBuffer.Dispose
+  - NAudio.Dmo.DmoOutputDataBuffer.Duration
+  - NAudio.Dmo.DmoOutputDataBuffer.Length
+  - NAudio.Dmo.DmoOutputDataBuffer.MediaBuffer
+  - NAudio.Dmo.DmoOutputDataBuffer.MoreDataAvailable
+  - NAudio.Dmo.DmoOutputDataBuffer.RetrieveData(System.Byte[],System.Int32)
+  - NAudio.Dmo.DmoOutputDataBuffer.StatusFlags
+  - NAudio.Dmo.DmoOutputDataBuffer.Timestamp
+  langs:
+  - csharp
+  - vb
+  name: DmoOutputDataBuffer
+  nameWithType: DmoOutputDataBuffer
+  fullName: NAudio.Dmo.DmoOutputDataBuffer
+  type: Struct
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: 'public struct DmoOutputDataBuffer : IDisposable'
+    content.vb: Public Structure DmoOutputDataBuffer Implements IDisposable
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NAudio.Dmo.DmoOutputDataBuffer.#ctor(System.Int32)
+  commentId: M:NAudio.Dmo.DmoOutputDataBuffer.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: NAudio.Dmo.DmoOutputDataBuffer
+  langs:
+  - csharp
+  - vb
+  name: DmoOutputDataBuffer(int)
+  nameWithType: DmoOutputDataBuffer.DmoOutputDataBuffer(int)
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.DmoOutputDataBuffer(int)
+  type: Constructor
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public DmoOutputDataBuffer(int maxBufferSize)
+    parameters:
+    - id: maxBufferSize
+      type: System.Int32
+    content.vb: Public Sub New(maxBufferSize As Integer)
+  overload: NAudio.Dmo.DmoOutputDataBuffer.#ctor*
+  nameWithType.vb: DmoOutputDataBuffer.New(Integer)
+  fullName.vb: NAudio.Dmo.DmoOutputDataBuffer.New(Integer)
+  name.vb: New(Integer)
+- uid: NAudio.Dmo.DmoOutputDataBuffer.Dispose
+  commentId: M:NAudio.Dmo.DmoOutputDataBuffer.Dispose
+  id: Dispose
+  parent: NAudio.Dmo.DmoOutputDataBuffer
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: DmoOutputDataBuffer.Dispose()
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.Dispose()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: NAudio.Dmo.DmoOutputDataBuffer.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: NAudio.Dmo.DmoOutputDataBuffer.RetrieveData(System.Byte[],System.Int32)
+  commentId: M:NAudio.Dmo.DmoOutputDataBuffer.RetrieveData(System.Byte[],System.Int32)
+  id: RetrieveData(System.Byte[],System.Int32)
+  parent: NAudio.Dmo.DmoOutputDataBuffer
+  langs:
+  - csharp
+  - vb
+  name: RetrieveData(byte[], int)
+  nameWithType: DmoOutputDataBuffer.RetrieveData(byte[], int)
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.RetrieveData(byte[], int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public void RetrieveData(byte[] data, int offset)
+    parameters:
+    - id: data
+      type: System.Byte[]
+    - id: offset
+      type: System.Int32
+    content.vb: Public Sub RetrieveData(data As Byte(), offset As Integer)
+  overload: NAudio.Dmo.DmoOutputDataBuffer.RetrieveData*
+  nameWithType.vb: DmoOutputDataBuffer.RetrieveData(Byte(), Integer)
+  fullName.vb: NAudio.Dmo.DmoOutputDataBuffer.RetrieveData(Byte(), Integer)
+  name.vb: RetrieveData(Byte(), Integer)
+- uid: NAudio.Dmo.DmoOutputDataBuffer.MediaBuffer
+  commentId: P:NAudio.Dmo.DmoOutputDataBuffer.MediaBuffer
+  id: MediaBuffer
+  parent: NAudio.Dmo.DmoOutputDataBuffer
+  langs:
+  - csharp
+  - vb
+  name: MediaBuffer
+  nameWithType: DmoOutputDataBuffer.MediaBuffer
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.MediaBuffer
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public IMediaBuffer MediaBuffer { get; }
+    parameters: []
+    return:
+      type: NAudio.Dmo.IMediaBuffer
+    content.vb: Public ReadOnly Property MediaBuffer As IMediaBuffer
+  overload: NAudio.Dmo.DmoOutputDataBuffer.MediaBuffer*
+- uid: NAudio.Dmo.DmoOutputDataBuffer.Length
+  commentId: P:NAudio.Dmo.DmoOutputDataBuffer.Length
+  id: Length
+  parent: NAudio.Dmo.DmoOutputDataBuffer
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: DmoOutputDataBuffer.Length
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.Length
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public int Length { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Length As Integer
+  overload: NAudio.Dmo.DmoOutputDataBuffer.Length*
+- uid: NAudio.Dmo.DmoOutputDataBuffer.StatusFlags
+  commentId: P:NAudio.Dmo.DmoOutputDataBuffer.StatusFlags
+  id: StatusFlags
+  parent: NAudio.Dmo.DmoOutputDataBuffer
+  langs:
+  - csharp
+  - vb
+  name: StatusFlags
+  nameWithType: DmoOutputDataBuffer.StatusFlags
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.StatusFlags
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public DmoOutputDataBufferFlags StatusFlags { get; }
+    parameters: []
+    return:
+      type: NAudio.Dmo.DmoOutputDataBufferFlags
+    content.vb: Public ReadOnly Property StatusFlags As DmoOutputDataBufferFlags
+  overload: NAudio.Dmo.DmoOutputDataBuffer.StatusFlags*
+- uid: NAudio.Dmo.DmoOutputDataBuffer.Timestamp
+  commentId: P:NAudio.Dmo.DmoOutputDataBuffer.Timestamp
+  id: Timestamp
+  parent: NAudio.Dmo.DmoOutputDataBuffer
+  langs:
+  - csharp
+  - vb
+  name: Timestamp
+  nameWithType: DmoOutputDataBuffer.Timestamp
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.Timestamp
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public long Timestamp { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property Timestamp As Long
+  overload: NAudio.Dmo.DmoOutputDataBuffer.Timestamp*
+- uid: NAudio.Dmo.DmoOutputDataBuffer.Duration
+  commentId: P:NAudio.Dmo.DmoOutputDataBuffer.Duration
+  id: Duration
+  parent: NAudio.Dmo.DmoOutputDataBuffer
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: DmoOutputDataBuffer.Duration
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.Duration
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public long Duration { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property Duration As Long
+  overload: NAudio.Dmo.DmoOutputDataBuffer.Duration*
+- uid: NAudio.Dmo.DmoOutputDataBuffer.MoreDataAvailable
+  commentId: P:NAudio.Dmo.DmoOutputDataBuffer.MoreDataAvailable
+  id: MoreDataAvailable
+  parent: NAudio.Dmo.DmoOutputDataBuffer
+  langs:
+  - csharp
+  - vb
+  name: MoreDataAvailable
+  nameWithType: DmoOutputDataBuffer.MoreDataAvailable
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.MoreDataAvailable
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo
+  syntax:
+    content: public bool MoreDataAvailable { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property MoreDataAvailable As Boolean
+  overload: NAudio.Dmo.DmoOutputDataBuffer.MoreDataAvailable*
+references:
+- uid: NAudio.Dmo
+  commentId: N:NAudio.Dmo
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo
+  nameWithType: NAudio.Dmo
+  fullName: NAudio.Dmo
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NAudio.Dmo.DmoOutputDataBuffer.#ctor*
+  commentId: Overload:NAudio.Dmo.DmoOutputDataBuffer.#ctor
+  isExternal: true
+  href: NAudio.Dmo.DmoOutputDataBuffer.html#NAudio_Dmo_DmoOutputDataBuffer__ctor_System_Int32_
+  name: DmoOutputDataBuffer
+  nameWithType: DmoOutputDataBuffer.DmoOutputDataBuffer
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.DmoOutputDataBuffer
+  nameWithType.vb: DmoOutputDataBuffer.New
+  fullName.vb: NAudio.Dmo.DmoOutputDataBuffer.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.Dmo.DmoOutputDataBuffer.Dispose*
+  commentId: Overload:NAudio.Dmo.DmoOutputDataBuffer.Dispose
+  isExternal: true
+  href: NAudio.Dmo.DmoOutputDataBuffer.html#NAudio_Dmo_DmoOutputDataBuffer_Dispose
+  name: Dispose
+  nameWithType: DmoOutputDataBuffer.Dispose
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: NAudio.Dmo.DmoOutputDataBuffer.RetrieveData*
+  commentId: Overload:NAudio.Dmo.DmoOutputDataBuffer.RetrieveData
+  isExternal: true
+  href: NAudio.Dmo.DmoOutputDataBuffer.html#NAudio_Dmo_DmoOutputDataBuffer_RetrieveData_System_Byte___System_Int32_
+  name: RetrieveData
+  nameWithType: DmoOutputDataBuffer.RetrieveData
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.RetrieveData
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: NAudio.Dmo.DmoOutputDataBuffer.MediaBuffer*
+  commentId: Overload:NAudio.Dmo.DmoOutputDataBuffer.MediaBuffer
+  isExternal: true
+  href: NAudio.Dmo.DmoOutputDataBuffer.html#NAudio_Dmo_DmoOutputDataBuffer_MediaBuffer
+  name: MediaBuffer
+  nameWithType: DmoOutputDataBuffer.MediaBuffer
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.MediaBuffer
+- uid: NAudio.Dmo.IMediaBuffer
+  commentId: T:NAudio.Dmo.IMediaBuffer
+  parent: NAudio.Dmo
+  isExternal: true
+  href: NAudio.Dmo.IMediaBuffer.html
+  name: IMediaBuffer
+  nameWithType: IMediaBuffer
+  fullName: NAudio.Dmo.IMediaBuffer
+- uid: NAudio.Dmo.DmoOutputDataBuffer.Length*
+  commentId: Overload:NAudio.Dmo.DmoOutputDataBuffer.Length
+  isExternal: true
+  href: NAudio.Dmo.DmoOutputDataBuffer.html#NAudio_Dmo_DmoOutputDataBuffer_Length
+  name: Length
+  nameWithType: DmoOutputDataBuffer.Length
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.Length
+- uid: NAudio.Dmo.DmoOutputDataBuffer.StatusFlags*
+  commentId: Overload:NAudio.Dmo.DmoOutputDataBuffer.StatusFlags
+  isExternal: true
+  href: NAudio.Dmo.DmoOutputDataBuffer.html#NAudio_Dmo_DmoOutputDataBuffer_StatusFlags
+  name: StatusFlags
+  nameWithType: DmoOutputDataBuffer.StatusFlags
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.StatusFlags
+- uid: NAudio.Dmo.DmoOutputDataBufferFlags
+  commentId: T:NAudio.Dmo.DmoOutputDataBufferFlags
+  parent: NAudio.Dmo
+  isExternal: true
+  href: NAudio.Dmo.DmoOutputDataBufferFlags.html
+  name: DmoOutputDataBufferFlags
+  nameWithType: DmoOutputDataBufferFlags
+  fullName: NAudio.Dmo.DmoOutputDataBufferFlags
+- uid: NAudio.Dmo.DmoOutputDataBuffer.Timestamp*
+  commentId: Overload:NAudio.Dmo.DmoOutputDataBuffer.Timestamp
+  isExternal: true
+  href: NAudio.Dmo.DmoOutputDataBuffer.html#NAudio_Dmo_DmoOutputDataBuffer_Timestamp
+  name: Timestamp
+  nameWithType: DmoOutputDataBuffer.Timestamp
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.Timestamp
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: NAudio.Dmo.DmoOutputDataBuffer.Duration*
+  commentId: Overload:NAudio.Dmo.DmoOutputDataBuffer.Duration
+  isExternal: true
+  href: NAudio.Dmo.DmoOutputDataBuffer.html#NAudio_Dmo_DmoOutputDataBuffer_Duration
+  name: Duration
+  nameWithType: DmoOutputDataBuffer.Duration
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.Duration
+- uid: NAudio.Dmo.DmoOutputDataBuffer.MoreDataAvailable*
+  commentId: Overload:NAudio.Dmo.DmoOutputDataBuffer.MoreDataAvailable
+  isExternal: true
+  href: NAudio.Dmo.DmoOutputDataBuffer.html#NAudio_Dmo_DmoOutputDataBuffer_MoreDataAvailable
+  name: MoreDataAvailable
+  nameWithType: DmoOutputDataBuffer.MoreDataAvailable
+  fullName: NAudio.Dmo.DmoOutputDataBuffer.MoreDataAvailable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

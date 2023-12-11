@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Dmo.Effect.IDmoEffector`1
+  commentId: T:NAudio.Dmo.Effect.IDmoEffector`1
+  id: IDmoEffector`1
+  parent: NAudio.Dmo.Effect
+  children:
+  - NAudio.Dmo.Effect.IDmoEffector`1.EffectParams
+  - NAudio.Dmo.Effect.IDmoEffector`1.MediaObject
+  - NAudio.Dmo.Effect.IDmoEffector`1.MediaObjectInPlace
+  langs:
+  - csharp
+  - vb
+  name: IDmoEffector<TParameters>
+  nameWithType: IDmoEffector<TParameters>
+  fullName: NAudio.Dmo.Effect.IDmoEffector<TParameters>
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: 'public interface IDmoEffector<out TParameters> : IDisposable'
+    typeParameters:
+    - id: TParameters
+    content.vb: Public Interface IDmoEffector(Of Out TParameters) Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+  nameWithType.vb: IDmoEffector(Of TParameters)
+  fullName.vb: NAudio.Dmo.Effect.IDmoEffector(Of TParameters)
+  name.vb: IDmoEffector(Of TParameters)
+- uid: NAudio.Dmo.Effect.IDmoEffector`1.MediaObject
+  commentId: P:NAudio.Dmo.Effect.IDmoEffector`1.MediaObject
+  id: MediaObject
+  parent: NAudio.Dmo.Effect.IDmoEffector`1
+  langs:
+  - csharp
+  - vb
+  name: MediaObject
+  nameWithType: IDmoEffector<TParameters>.MediaObject
+  fullName: NAudio.Dmo.Effect.IDmoEffector<TParameters>.MediaObject
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: MediaObject MediaObject { get; }
+    parameters: []
+    return:
+      type: NAudio.Dmo.MediaObject
+    content.vb: ReadOnly Property MediaObject As MediaObject
+  overload: NAudio.Dmo.Effect.IDmoEffector`1.MediaObject*
+  nameWithType.vb: IDmoEffector(Of TParameters).MediaObject
+  fullName.vb: NAudio.Dmo.Effect.IDmoEffector(Of TParameters).MediaObject
+- uid: NAudio.Dmo.Effect.IDmoEffector`1.MediaObjectInPlace
+  commentId: P:NAudio.Dmo.Effect.IDmoEffector`1.MediaObjectInPlace
+  id: MediaObjectInPlace
+  parent: NAudio.Dmo.Effect.IDmoEffector`1
+  langs:
+  - csharp
+  - vb
+  name: MediaObjectInPlace
+  nameWithType: IDmoEffector<TParameters>.MediaObjectInPlace
+  fullName: NAudio.Dmo.Effect.IDmoEffector<TParameters>.MediaObjectInPlace
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: MediaObjectInPlace MediaObjectInPlace { get; }
+    parameters: []
+    return:
+      type: NAudio.Dmo.MediaObjectInPlace
+    content.vb: ReadOnly Property MediaObjectInPlace As MediaObjectInPlace
+  overload: NAudio.Dmo.Effect.IDmoEffector`1.MediaObjectInPlace*
+  nameWithType.vb: IDmoEffector(Of TParameters).MediaObjectInPlace
+  fullName.vb: NAudio.Dmo.Effect.IDmoEffector(Of TParameters).MediaObjectInPlace
+- uid: NAudio.Dmo.Effect.IDmoEffector`1.EffectParams
+  commentId: P:NAudio.Dmo.Effect.IDmoEffector`1.EffectParams
+  id: EffectParams
+  parent: NAudio.Dmo.Effect.IDmoEffector`1
+  langs:
+  - csharp
+  - vb
+  name: EffectParams
+  nameWithType: IDmoEffector<TParameters>.EffectParams
+  fullName: NAudio.Dmo.Effect.IDmoEffector<TParameters>.EffectParams
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.Dmo.Effect
+  syntax:
+    content: TParameters EffectParams { get; }
+    parameters: []
+    return:
+      type: '{TParameters}'
+    content.vb: ReadOnly Property EffectParams As TParameters
+  overload: NAudio.Dmo.Effect.IDmoEffector`1.EffectParams*
+  nameWithType.vb: IDmoEffector(Of TParameters).EffectParams
+  fullName.vb: NAudio.Dmo.Effect.IDmoEffector(Of TParameters).EffectParams
+references:
+- uid: NAudio.Dmo.Effect
+  commentId: N:NAudio.Dmo.Effect
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo.Effect
+  nameWithType: NAudio.Dmo.Effect
+  fullName: NAudio.Dmo.Effect
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  - name: .
+  - uid: NAudio.Dmo.Effect
+    name: Effect
+    isExternal: true
+    href: NAudio.Dmo.Effect.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Dmo.Effect.IDmoEffector`1.MediaObject*
+  commentId: Overload:NAudio.Dmo.Effect.IDmoEffector`1.MediaObject
+  isExternal: true
+  href: NAudio.Dmo.Effect.IDmoEffector-1.html#NAudio_Dmo_Effect_IDmoEffector_1_MediaObject
+  name: MediaObject
+  nameWithType: IDmoEffector<TParameters>.MediaObject
+  fullName: NAudio.Dmo.Effect.IDmoEffector<TParameters>.MediaObject
+  nameWithType.vb: IDmoEffector(Of TParameters).MediaObject
+  fullName.vb: NAudio.Dmo.Effect.IDmoEffector(Of TParameters).MediaObject
+- uid: NAudio.Dmo.MediaObject
+  commentId: T:NAudio.Dmo.MediaObject
+  parent: NAudio.Dmo
+  isExternal: true
+  href: NAudio.Dmo.MediaObject.html
+  name: MediaObject
+  nameWithType: MediaObject
+  fullName: NAudio.Dmo.MediaObject
+- uid: NAudio.Dmo
+  commentId: N:NAudio.Dmo
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Dmo
+  nameWithType: NAudio.Dmo
+  fullName: NAudio.Dmo
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Dmo
+    name: Dmo
+    isExternal: true
+    href: NAudio.Dmo.html
+- uid: NAudio.Dmo.Effect.IDmoEffector`1.MediaObjectInPlace*
+  commentId: Overload:NAudio.Dmo.Effect.IDmoEffector`1.MediaObjectInPlace
+  isExternal: true
+  href: NAudio.Dmo.Effect.IDmoEffector-1.html#NAudio_Dmo_Effect_IDmoEffector_1_MediaObjectInPlace
+  name: MediaObjectInPlace
+  nameWithType: IDmoEffector<TParameters>.MediaObjectInPlace
+  fullName: NAudio.Dmo.Effect.IDmoEffector<TParameters>.MediaObjectInPlace
+  nameWithType.vb: IDmoEffector(Of TParameters).MediaObjectInPlace
+  fullName.vb: NAudio.Dmo.Effect.IDmoEffector(Of TParameters).MediaObjectInPlace
+- uid: NAudio.Dmo.MediaObjectInPlace
+  commentId: T:NAudio.Dmo.MediaObjectInPlace
+  parent: NAudio.Dmo
+  isExternal: true
+  href: NAudio.Dmo.MediaObjectInPlace.html
+  name: MediaObjectInPlace
+  nameWithType: MediaObjectInPlace
+  fullName: NAudio.Dmo.MediaObjectInPlace
+- uid: NAudio.Dmo.Effect.IDmoEffector`1.EffectParams*
+  commentId: Overload:NAudio.Dmo.Effect.IDmoEffector`1.EffectParams
+  isExternal: true
+  href: NAudio.Dmo.Effect.IDmoEffector-1.html#NAudio_Dmo_Effect_IDmoEffector_1_EffectParams
+  name: EffectParams
+  nameWithType: IDmoEffector<TParameters>.EffectParams
+  fullName: NAudio.Dmo.Effect.IDmoEffector<TParameters>.EffectParams
+  nameWithType.vb: IDmoEffector(Of TParameters).EffectParams
+  fullName.vb: NAudio.Dmo.Effect.IDmoEffector(Of TParameters).EffectParams
+- uid: '{TParameters}'
+  commentId: '!:TParameters'
+  definition: TParameters
+  name: TParameters
+  nameWithType: TParameters
+  fullName: TParameters
+- uid: TParameters
+  commentId: '!:TParameters'
+  name: TParameters
+  nameWithType: TParameters
+  fullName: TParameters

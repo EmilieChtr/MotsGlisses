@@ -1,0 +1,502 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IMFSourceReader
+ | MotsGliss&#233;s </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IMFSourceReader
+ | MotsGliss&#233;s ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="MotsGliss&#233;s">
+            MotsGliss&#233;s
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NAudio.MediaFoundation.IMFSourceReader">
+
+
+
+  <h1 id="NAudio_MediaFoundation_IMFSourceReader" data-uid="NAudio.MediaFoundation.IMFSourceReader" class="text-break">
+    Interface IMFSourceReader
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NAudio.html">NAudio</a>.<a class="xref" href="NAudio.MediaFoundation.html">MediaFoundation</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NAudio.Wasapi.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+[Guid(&quot;70ae66f2-c809-4e4f-8915-bdcb406b7993&quot;)]
+public interface IMFSourceReader</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NAudio_MediaFoundation_IMFSourceReader_Flush_" data-uid="NAudio.MediaFoundation.IMFSourceReader.Flush*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFSourceReader_Flush_System_Int32_" data-uid="NAudio.MediaFoundation.IMFSourceReader.Flush(System.Int32)">
+  Flush(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Flush(int dwStreamIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFSourceReader_GetCurrentMediaType_" data-uid="NAudio.MediaFoundation.IMFSourceReader.GetCurrentMediaType*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFSourceReader_GetCurrentMediaType_System_Int32_NAudio_MediaFoundation_IMFMediaType__" data-uid="NAudio.MediaFoundation.IMFSourceReader.GetCurrentMediaType(System.Int32,NAudio.MediaFoundation.IMFMediaType@)">
+  GetCurrentMediaType(int, out IMFMediaType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetCurrentMediaType(int dwStreamIndex, out IMFMediaType ppMediaType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>ppMediaType</code> <a class="xref" href="NAudio.MediaFoundation.IMFMediaType.html">IMFMediaType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFSourceReader_GetNativeMediaType_" data-uid="NAudio.MediaFoundation.IMFSourceReader.GetNativeMediaType*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFSourceReader_GetNativeMediaType_System_Int32_System_Int32_NAudio_MediaFoundation_IMFMediaType__" data-uid="NAudio.MediaFoundation.IMFSourceReader.GetNativeMediaType(System.Int32,System.Int32,NAudio.MediaFoundation.IMFMediaType@)">
+  GetNativeMediaType(int, int, out IMFMediaType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetNativeMediaType(int dwStreamIndex, int dwMediaTypeIndex, out IMFMediaType ppMediaType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>dwMediaTypeIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>ppMediaType</code> <a class="xref" href="NAudio.MediaFoundation.IMFMediaType.html">IMFMediaType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFSourceReader_GetPresentationAttribute_" data-uid="NAudio.MediaFoundation.IMFSourceReader.GetPresentationAttribute*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFSourceReader_GetPresentationAttribute_System_Int32_System_Guid_System_IntPtr_" data-uid="NAudio.MediaFoundation.IMFSourceReader.GetPresentationAttribute(System.Int32,System.Guid,System.IntPtr)">
+  GetPresentationAttribute(int, Guid, IntPtr)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GetPresentationAttribute(int dwStreamIndex, Guid guidAttribute, IntPtr pvarAttribute)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>guidAttribute</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>pvarAttribute</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFSourceReader_GetServiceForStream_" data-uid="NAudio.MediaFoundation.IMFSourceReader.GetServiceForStream*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFSourceReader_GetServiceForStream_System_Int32_System_Guid_System_Guid_System_IntPtr__" data-uid="NAudio.MediaFoundation.IMFSourceReader.GetServiceForStream(System.Int32,System.Guid,System.Guid,System.IntPtr@)">
+  GetServiceForStream(int, Guid, Guid, out IntPtr)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetServiceForStream(int dwStreamIndex, Guid guidService, Guid riid, out IntPtr ppvObject)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>guidService</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>riid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>ppvObject</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFSourceReader_GetStreamSelection_" data-uid="NAudio.MediaFoundation.IMFSourceReader.GetStreamSelection*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFSourceReader_GetStreamSelection_System_Int32_System_Boolean__" data-uid="NAudio.MediaFoundation.IMFSourceReader.GetStreamSelection(System.Int32,System.Boolean@)">
+  GetStreamSelection(int, out bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetStreamSelection(int dwStreamIndex, out bool pSelected)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pSelected</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFSourceReader_ReadSample_" data-uid="NAudio.MediaFoundation.IMFSourceReader.ReadSample*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFSourceReader_ReadSample_System_Int32_System_Int32_System_Int32__NAudio_MediaFoundation_MF_SOURCE_READER_FLAG__System_UInt64__NAudio_MediaFoundation_IMFSample__" data-uid="NAudio.MediaFoundation.IMFSourceReader.ReadSample(System.Int32,System.Int32,System.Int32@,NAudio.MediaFoundation.MF_SOURCE_READER_FLAG@,System.UInt64@,NAudio.MediaFoundation.IMFSample@)">
+  ReadSample(int, int, out int, out MF_SOURCE_READER_FLAG, out ulong, out IMFSample)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ReadSample(int dwStreamIndex, int dwControlFlags, out int pdwActualStreamIndex, out MF_SOURCE_READER_FLAG pdwStreamFlags, out ulong pllTimestamp, out IMFSample ppSample)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>dwControlFlags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pdwActualStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pdwStreamFlags</code> <a class="xref" href="NAudio.MediaFoundation.MF_SOURCE_READER_FLAG.html">MF_SOURCE_READER_FLAG</a></dt>
+    <dd></dd>
+    <dt><code>pllTimestamp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+    <dt><code>ppSample</code> <a class="xref" href="NAudio.MediaFoundation.IMFSample.html">IMFSample</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFSourceReader_SetCurrentMediaType_" data-uid="NAudio.MediaFoundation.IMFSourceReader.SetCurrentMediaType*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFSourceReader_SetCurrentMediaType_System_Int32_System_IntPtr_NAudio_MediaFoundation_IMFMediaType_" data-uid="NAudio.MediaFoundation.IMFSourceReader.SetCurrentMediaType(System.Int32,System.IntPtr,NAudio.MediaFoundation.IMFMediaType)">
+  SetCurrentMediaType(int, IntPtr, IMFMediaType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetCurrentMediaType(int dwStreamIndex, IntPtr pdwReserved, IMFMediaType pMediaType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pdwReserved</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+    <dt><code>pMediaType</code> <a class="xref" href="NAudio.MediaFoundation.IMFMediaType.html">IMFMediaType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFSourceReader_SetCurrentPosition_" data-uid="NAudio.MediaFoundation.IMFSourceReader.SetCurrentPosition*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFSourceReader_SetCurrentPosition_System_Guid_System_IntPtr_" data-uid="NAudio.MediaFoundation.IMFSourceReader.SetCurrentPosition(System.Guid,System.IntPtr)">
+  SetCurrentPosition(Guid, IntPtr)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetCurrentPosition(Guid guidTimeFormat, IntPtr varPosition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidTimeFormat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>varPosition</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_IMFSourceReader_SetStreamSelection_" data-uid="NAudio.MediaFoundation.IMFSourceReader.SetStreamSelection*"></a>
+
+  <h3 id="NAudio_MediaFoundation_IMFSourceReader_SetStreamSelection_System_Int32_System_Boolean_" data-uid="NAudio.MediaFoundation.IMFSourceReader.SetStreamSelection(System.Int32,System.Boolean)">
+  SetStreamSelection(int, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetStreamSelection(int dwStreamIndex, bool pSelected)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dwStreamIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pSelected</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

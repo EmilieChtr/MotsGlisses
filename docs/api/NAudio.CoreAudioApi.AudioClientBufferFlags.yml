@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.AudioClientBufferFlags
+  commentId: T:NAudio.CoreAudioApi.AudioClientBufferFlags
+  id: AudioClientBufferFlags
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.AudioClientBufferFlags.DataDiscontinuity
+  - NAudio.CoreAudioApi.AudioClientBufferFlags.None
+  - NAudio.CoreAudioApi.AudioClientBufferFlags.Silent
+  - NAudio.CoreAudioApi.AudioClientBufferFlags.TimestampError
+  langs:
+  - csharp
+  - vb
+  name: AudioClientBufferFlags
+  nameWithType: AudioClientBufferFlags
+  fullName: NAudio.CoreAudioApi.AudioClientBufferFlags
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum AudioClientBufferFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum AudioClientBufferFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.CoreAudioApi.AudioClientBufferFlags.None
+  commentId: F:NAudio.CoreAudioApi.AudioClientBufferFlags.None
+  id: None
+  parent: NAudio.CoreAudioApi.AudioClientBufferFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AudioClientBufferFlags.None
+  fullName: NAudio.CoreAudioApi.AudioClientBufferFlags.None
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: None = 0
+    return:
+      type: NAudio.CoreAudioApi.AudioClientBufferFlags
+- uid: NAudio.CoreAudioApi.AudioClientBufferFlags.DataDiscontinuity
+  commentId: F:NAudio.CoreAudioApi.AudioClientBufferFlags.DataDiscontinuity
+  id: DataDiscontinuity
+  parent: NAudio.CoreAudioApi.AudioClientBufferFlags
+  langs:
+  - csharp
+  - vb
+  name: DataDiscontinuity
+  nameWithType: AudioClientBufferFlags.DataDiscontinuity
+  fullName: NAudio.CoreAudioApi.AudioClientBufferFlags.DataDiscontinuity
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: DataDiscontinuity = 1
+    return:
+      type: NAudio.CoreAudioApi.AudioClientBufferFlags
+- uid: NAudio.CoreAudioApi.AudioClientBufferFlags.Silent
+  commentId: F:NAudio.CoreAudioApi.AudioClientBufferFlags.Silent
+  id: Silent
+  parent: NAudio.CoreAudioApi.AudioClientBufferFlags
+  langs:
+  - csharp
+  - vb
+  name: Silent
+  nameWithType: AudioClientBufferFlags.Silent
+  fullName: NAudio.CoreAudioApi.AudioClientBufferFlags.Silent
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Silent = 2
+    return:
+      type: NAudio.CoreAudioApi.AudioClientBufferFlags
+- uid: NAudio.CoreAudioApi.AudioClientBufferFlags.TimestampError
+  commentId: F:NAudio.CoreAudioApi.AudioClientBufferFlags.TimestampError
+  id: TimestampError
+  parent: NAudio.CoreAudioApi.AudioClientBufferFlags
+  langs:
+  - csharp
+  - vb
+  name: TimestampError
+  nameWithType: AudioClientBufferFlags.TimestampError
+  fullName: NAudio.CoreAudioApi.AudioClientBufferFlags.TimestampError
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: TimestampError = 4
+    return:
+      type: NAudio.CoreAudioApi.AudioClientBufferFlags
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: NAudio.CoreAudioApi.AudioClientBufferFlags
+  commentId: T:NAudio.CoreAudioApi.AudioClientBufferFlags
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioClientBufferFlags.html
+  name: AudioClientBufferFlags
+  nameWithType: AudioClientBufferFlags
+  fullName: NAudio.CoreAudioApi.AudioClientBufferFlags

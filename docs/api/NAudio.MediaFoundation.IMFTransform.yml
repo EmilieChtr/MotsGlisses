@@ -1,0 +1,1024 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation.IMFTransform
+  commentId: T:NAudio.MediaFoundation.IMFTransform
+  id: IMFTransform
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation.IMFTransform.AddInputStreams(System.Int32,System.IntPtr)
+  - NAudio.MediaFoundation.IMFTransform.DeleteInputStream(System.Int32)
+  - NAudio.MediaFoundation.IMFTransform.GetAttributes(NAudio.MediaFoundation.IMFAttributes@)
+  - NAudio.MediaFoundation.IMFTransform.GetInputAvailableType(System.Int32,System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  - NAudio.MediaFoundation.IMFTransform.GetInputCurrentType(System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  - NAudio.MediaFoundation.IMFTransform.GetInputStatus(System.Int32,NAudio.MediaFoundation._MFT_INPUT_STATUS_FLAGS@)
+  - NAudio.MediaFoundation.IMFTransform.GetInputStreamAttributes(System.Int32,NAudio.MediaFoundation.IMFAttributes@)
+  - NAudio.MediaFoundation.IMFTransform.GetInputStreamInfo(System.Int32,NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO@)
+  - NAudio.MediaFoundation.IMFTransform.GetOutputAvailableType(System.Int32,System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  - NAudio.MediaFoundation.IMFTransform.GetOutputCurrentType(System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  - NAudio.MediaFoundation.IMFTransform.GetOutputStatus(System.Int32,NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS@)
+  - NAudio.MediaFoundation.IMFTransform.GetOutputStreamAttributes(System.Int32,NAudio.MediaFoundation.IMFAttributes@)
+  - NAudio.MediaFoundation.IMFTransform.GetOutputStreamInfo(System.Int32,NAudio.MediaFoundation.MFT_OUTPUT_STREAM_INFO@)
+  - NAudio.MediaFoundation.IMFTransform.GetStreamCount(System.Int32@,System.Int32@)
+  - NAudio.MediaFoundation.IMFTransform.GetStreamIds(System.Int32,System.IntPtr,System.Int32,System.IntPtr)
+  - NAudio.MediaFoundation.IMFTransform.GetStreamLimits(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
+  - NAudio.MediaFoundation.IMFTransform.ProcessEvent(System.Int32,NAudio.MediaFoundation.IMFMediaEvent)
+  - NAudio.MediaFoundation.IMFTransform.ProcessInput(System.Int32,NAudio.MediaFoundation.IMFSample,System.Int32)
+  - NAudio.MediaFoundation.IMFTransform.ProcessMessage(NAudio.MediaFoundation.MFT_MESSAGE_TYPE,System.IntPtr)
+  - NAudio.MediaFoundation.IMFTransform.ProcessOutput(NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS,System.Int32,NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER[],NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS@)
+  - NAudio.MediaFoundation.IMFTransform.SetInputType(System.Int32,NAudio.MediaFoundation.IMFMediaType,NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS)
+  - NAudio.MediaFoundation.IMFTransform.SetOutputBounds(System.Int64,System.Int64)
+  - NAudio.MediaFoundation.IMFTransform.SetOutputType(System.Int32,NAudio.MediaFoundation.IMFMediaType,NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS)
+  langs:
+  - csharp
+  - vb
+  name: IMFTransform
+  nameWithType: IMFTransform
+  fullName: NAudio.MediaFoundation.IMFTransform
+  type: Interface
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+
+      [Guid("bf94c121-5b05-4e6f-8000-ba598961414d")]
+
+      public interface IMFTransform
+    content.vb: >-
+      <InterfaceType(ComInterfaceType.InterfaceIsIUnknown)>
+
+      <Guid("bf94c121-5b05-4e6f-8000-ba598961414d")>
+
+      Public Interface IMFTransform
+  attributes:
+  - type: System.Runtime.InteropServices.InterfaceTypeAttribute
+    ctor: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor(System.Runtime.InteropServices.ComInterfaceType)
+    arguments:
+    - type: System.Runtime.InteropServices.ComInterfaceType
+      value: 1
+  - type: System.Runtime.InteropServices.GuidAttribute
+    ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: bf94c121-5b05-4e6f-8000-ba598961414d
+- uid: NAudio.MediaFoundation.IMFTransform.GetStreamLimits(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.GetStreamLimits(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
+  id: GetStreamLimits(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: GetStreamLimits(out int, out int, out int, out int)
+  nameWithType: IMFTransform.GetStreamLimits(out int, out int, out int, out int)
+  fullName: NAudio.MediaFoundation.IMFTransform.GetStreamLimits(out int, out int, out int, out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetStreamLimits(out int pdwInputMinimum, out int pdwInputMaximum, out int pdwOutputMinimum, out int pdwOutputMaximum)
+    parameters:
+    - id: pdwInputMinimum
+      type: System.Int32
+    - id: pdwInputMaximum
+      type: System.Int32
+    - id: pdwOutputMinimum
+      type: System.Int32
+    - id: pdwOutputMaximum
+      type: System.Int32
+    content.vb: Sub GetStreamLimits(pdwInputMinimum As Integer, pdwInputMaximum As Integer, pdwOutputMinimum As Integer, pdwOutputMaximum As Integer)
+  overload: NAudio.MediaFoundation.IMFTransform.GetStreamLimits*
+  nameWithType.vb: IMFTransform.GetStreamLimits(Integer, Integer, Integer, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.GetStreamLimits(Integer, Integer, Integer, Integer)
+  name.vb: GetStreamLimits(Integer, Integer, Integer, Integer)
+- uid: NAudio.MediaFoundation.IMFTransform.GetStreamCount(System.Int32@,System.Int32@)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.GetStreamCount(System.Int32@,System.Int32@)
+  id: GetStreamCount(System.Int32@,System.Int32@)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: GetStreamCount(out int, out int)
+  nameWithType: IMFTransform.GetStreamCount(out int, out int)
+  fullName: NAudio.MediaFoundation.IMFTransform.GetStreamCount(out int, out int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetStreamCount(out int pcInputStreams, out int pcOutputStreams)
+    parameters:
+    - id: pcInputStreams
+      type: System.Int32
+    - id: pcOutputStreams
+      type: System.Int32
+    content.vb: Sub GetStreamCount(pcInputStreams As Integer, pcOutputStreams As Integer)
+  overload: NAudio.MediaFoundation.IMFTransform.GetStreamCount*
+  nameWithType.vb: IMFTransform.GetStreamCount(Integer, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.GetStreamCount(Integer, Integer)
+  name.vb: GetStreamCount(Integer, Integer)
+- uid: NAudio.MediaFoundation.IMFTransform.GetStreamIds(System.Int32,System.IntPtr,System.Int32,System.IntPtr)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.GetStreamIds(System.Int32,System.IntPtr,System.Int32,System.IntPtr)
+  id: GetStreamIds(System.Int32,System.IntPtr,System.Int32,System.IntPtr)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: GetStreamIds(int, IntPtr, int, IntPtr)
+  nameWithType: IMFTransform.GetStreamIds(int, IntPtr, int, IntPtr)
+  fullName: NAudio.MediaFoundation.IMFTransform.GetStreamIds(int, System.IntPtr, int, System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetStreamIds(int dwInputIdArraySize, IntPtr pdwInputIDs, int dwOutputIdArraySize, IntPtr pdwOutputIDs)
+    parameters:
+    - id: dwInputIdArraySize
+      type: System.Int32
+    - id: pdwInputIDs
+      type: System.IntPtr
+    - id: dwOutputIdArraySize
+      type: System.Int32
+    - id: pdwOutputIDs
+      type: System.IntPtr
+    content.vb: Sub GetStreamIds(dwInputIdArraySize As Integer, pdwInputIDs As IntPtr, dwOutputIdArraySize As Integer, pdwOutputIDs As IntPtr)
+  overload: NAudio.MediaFoundation.IMFTransform.GetStreamIds*
+  nameWithType.vb: IMFTransform.GetStreamIds(Integer, IntPtr, Integer, IntPtr)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.GetStreamIds(Integer, System.IntPtr, Integer, System.IntPtr)
+  name.vb: GetStreamIds(Integer, IntPtr, Integer, IntPtr)
+- uid: NAudio.MediaFoundation.IMFTransform.GetInputStreamInfo(System.Int32,NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO@)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.GetInputStreamInfo(System.Int32,NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO@)
+  id: GetInputStreamInfo(System.Int32,NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO@)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: GetInputStreamInfo(int, out MFT_INPUT_STREAM_INFO)
+  nameWithType: IMFTransform.GetInputStreamInfo(int, out MFT_INPUT_STREAM_INFO)
+  fullName: NAudio.MediaFoundation.IMFTransform.GetInputStreamInfo(int, out NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetInputStreamInfo(int dwInputStreamId, out MFT_INPUT_STREAM_INFO pStreamInfo)
+    parameters:
+    - id: dwInputStreamId
+      type: System.Int32
+    - id: pStreamInfo
+      type: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO
+    content.vb: Sub GetInputStreamInfo(dwInputStreamId As Integer, pStreamInfo As MFT_INPUT_STREAM_INFO)
+  overload: NAudio.MediaFoundation.IMFTransform.GetInputStreamInfo*
+  nameWithType.vb: IMFTransform.GetInputStreamInfo(Integer, MFT_INPUT_STREAM_INFO)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.GetInputStreamInfo(Integer, NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO)
+  name.vb: GetInputStreamInfo(Integer, MFT_INPUT_STREAM_INFO)
+- uid: NAudio.MediaFoundation.IMFTransform.GetOutputStreamInfo(System.Int32,NAudio.MediaFoundation.MFT_OUTPUT_STREAM_INFO@)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.GetOutputStreamInfo(System.Int32,NAudio.MediaFoundation.MFT_OUTPUT_STREAM_INFO@)
+  id: GetOutputStreamInfo(System.Int32,NAudio.MediaFoundation.MFT_OUTPUT_STREAM_INFO@)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: GetOutputStreamInfo(int, out MFT_OUTPUT_STREAM_INFO)
+  nameWithType: IMFTransform.GetOutputStreamInfo(int, out MFT_OUTPUT_STREAM_INFO)
+  fullName: NAudio.MediaFoundation.IMFTransform.GetOutputStreamInfo(int, out NAudio.MediaFoundation.MFT_OUTPUT_STREAM_INFO)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetOutputStreamInfo(int dwOutputStreamId, out MFT_OUTPUT_STREAM_INFO pStreamInfo)
+    parameters:
+    - id: dwOutputStreamId
+      type: System.Int32
+    - id: pStreamInfo
+      type: NAudio.MediaFoundation.MFT_OUTPUT_STREAM_INFO
+    content.vb: Sub GetOutputStreamInfo(dwOutputStreamId As Integer, pStreamInfo As MFT_OUTPUT_STREAM_INFO)
+  overload: NAudio.MediaFoundation.IMFTransform.GetOutputStreamInfo*
+  nameWithType.vb: IMFTransform.GetOutputStreamInfo(Integer, MFT_OUTPUT_STREAM_INFO)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.GetOutputStreamInfo(Integer, NAudio.MediaFoundation.MFT_OUTPUT_STREAM_INFO)
+  name.vb: GetOutputStreamInfo(Integer, MFT_OUTPUT_STREAM_INFO)
+- uid: NAudio.MediaFoundation.IMFTransform.GetAttributes(NAudio.MediaFoundation.IMFAttributes@)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.GetAttributes(NAudio.MediaFoundation.IMFAttributes@)
+  id: GetAttributes(NAudio.MediaFoundation.IMFAttributes@)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: GetAttributes(out IMFAttributes)
+  nameWithType: IMFTransform.GetAttributes(out IMFAttributes)
+  fullName: NAudio.MediaFoundation.IMFTransform.GetAttributes(out NAudio.MediaFoundation.IMFAttributes)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetAttributes(out IMFAttributes pAttributes)
+    parameters:
+    - id: pAttributes
+      type: NAudio.MediaFoundation.IMFAttributes
+    content.vb: Sub GetAttributes(pAttributes As IMFAttributes)
+  overload: NAudio.MediaFoundation.IMFTransform.GetAttributes*
+  nameWithType.vb: IMFTransform.GetAttributes(IMFAttributes)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.GetAttributes(NAudio.MediaFoundation.IMFAttributes)
+  name.vb: GetAttributes(IMFAttributes)
+- uid: NAudio.MediaFoundation.IMFTransform.GetInputStreamAttributes(System.Int32,NAudio.MediaFoundation.IMFAttributes@)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.GetInputStreamAttributes(System.Int32,NAudio.MediaFoundation.IMFAttributes@)
+  id: GetInputStreamAttributes(System.Int32,NAudio.MediaFoundation.IMFAttributes@)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: GetInputStreamAttributes(int, out IMFAttributes)
+  nameWithType: IMFTransform.GetInputStreamAttributes(int, out IMFAttributes)
+  fullName: NAudio.MediaFoundation.IMFTransform.GetInputStreamAttributes(int, out NAudio.MediaFoundation.IMFAttributes)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetInputStreamAttributes(int dwInputStreamId, out IMFAttributes pAttributes)
+    parameters:
+    - id: dwInputStreamId
+      type: System.Int32
+    - id: pAttributes
+      type: NAudio.MediaFoundation.IMFAttributes
+    content.vb: Sub GetInputStreamAttributes(dwInputStreamId As Integer, pAttributes As IMFAttributes)
+  overload: NAudio.MediaFoundation.IMFTransform.GetInputStreamAttributes*
+  nameWithType.vb: IMFTransform.GetInputStreamAttributes(Integer, IMFAttributes)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.GetInputStreamAttributes(Integer, NAudio.MediaFoundation.IMFAttributes)
+  name.vb: GetInputStreamAttributes(Integer, IMFAttributes)
+- uid: NAudio.MediaFoundation.IMFTransform.GetOutputStreamAttributes(System.Int32,NAudio.MediaFoundation.IMFAttributes@)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.GetOutputStreamAttributes(System.Int32,NAudio.MediaFoundation.IMFAttributes@)
+  id: GetOutputStreamAttributes(System.Int32,NAudio.MediaFoundation.IMFAttributes@)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: GetOutputStreamAttributes(int, out IMFAttributes)
+  nameWithType: IMFTransform.GetOutputStreamAttributes(int, out IMFAttributes)
+  fullName: NAudio.MediaFoundation.IMFTransform.GetOutputStreamAttributes(int, out NAudio.MediaFoundation.IMFAttributes)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetOutputStreamAttributes(int dwOutputStreamId, out IMFAttributes pAttributes)
+    parameters:
+    - id: dwOutputStreamId
+      type: System.Int32
+    - id: pAttributes
+      type: NAudio.MediaFoundation.IMFAttributes
+    content.vb: Sub GetOutputStreamAttributes(dwOutputStreamId As Integer, pAttributes As IMFAttributes)
+  overload: NAudio.MediaFoundation.IMFTransform.GetOutputStreamAttributes*
+  nameWithType.vb: IMFTransform.GetOutputStreamAttributes(Integer, IMFAttributes)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.GetOutputStreamAttributes(Integer, NAudio.MediaFoundation.IMFAttributes)
+  name.vb: GetOutputStreamAttributes(Integer, IMFAttributes)
+- uid: NAudio.MediaFoundation.IMFTransform.DeleteInputStream(System.Int32)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.DeleteInputStream(System.Int32)
+  id: DeleteInputStream(System.Int32)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: DeleteInputStream(int)
+  nameWithType: IMFTransform.DeleteInputStream(int)
+  fullName: NAudio.MediaFoundation.IMFTransform.DeleteInputStream(int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void DeleteInputStream(int dwOutputStreamId)
+    parameters:
+    - id: dwOutputStreamId
+      type: System.Int32
+    content.vb: Sub DeleteInputStream(dwOutputStreamId As Integer)
+  overload: NAudio.MediaFoundation.IMFTransform.DeleteInputStream*
+  nameWithType.vb: IMFTransform.DeleteInputStream(Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.DeleteInputStream(Integer)
+  name.vb: DeleteInputStream(Integer)
+- uid: NAudio.MediaFoundation.IMFTransform.AddInputStreams(System.Int32,System.IntPtr)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.AddInputStreams(System.Int32,System.IntPtr)
+  id: AddInputStreams(System.Int32,System.IntPtr)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: AddInputStreams(int, IntPtr)
+  nameWithType: IMFTransform.AddInputStreams(int, IntPtr)
+  fullName: NAudio.MediaFoundation.IMFTransform.AddInputStreams(int, System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void AddInputStreams(int cStreams, IntPtr adwStreamIDs)
+    parameters:
+    - id: cStreams
+      type: System.Int32
+    - id: adwStreamIDs
+      type: System.IntPtr
+    content.vb: Sub AddInputStreams(cStreams As Integer, adwStreamIDs As IntPtr)
+  overload: NAudio.MediaFoundation.IMFTransform.AddInputStreams*
+  nameWithType.vb: IMFTransform.AddInputStreams(Integer, IntPtr)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.AddInputStreams(Integer, System.IntPtr)
+  name.vb: AddInputStreams(Integer, IntPtr)
+- uid: NAudio.MediaFoundation.IMFTransform.GetInputAvailableType(System.Int32,System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.GetInputAvailableType(System.Int32,System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  id: GetInputAvailableType(System.Int32,System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: GetInputAvailableType(int, int, out IMFMediaType)
+  nameWithType: IMFTransform.GetInputAvailableType(int, int, out IMFMediaType)
+  fullName: NAudio.MediaFoundation.IMFTransform.GetInputAvailableType(int, int, out NAudio.MediaFoundation.IMFMediaType)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetInputAvailableType(int dwInputStreamId, int dwTypeIndex, out IMFMediaType ppType)
+    parameters:
+    - id: dwInputStreamId
+      type: System.Int32
+    - id: dwTypeIndex
+      type: System.Int32
+    - id: ppType
+      type: NAudio.MediaFoundation.IMFMediaType
+    content.vb: Sub GetInputAvailableType(dwInputStreamId As Integer, dwTypeIndex As Integer, ppType As IMFMediaType)
+  overload: NAudio.MediaFoundation.IMFTransform.GetInputAvailableType*
+  nameWithType.vb: IMFTransform.GetInputAvailableType(Integer, Integer, IMFMediaType)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.GetInputAvailableType(Integer, Integer, NAudio.MediaFoundation.IMFMediaType)
+  name.vb: GetInputAvailableType(Integer, Integer, IMFMediaType)
+- uid: NAudio.MediaFoundation.IMFTransform.GetOutputAvailableType(System.Int32,System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.GetOutputAvailableType(System.Int32,System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  id: GetOutputAvailableType(System.Int32,System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: GetOutputAvailableType(int, int, out IMFMediaType)
+  nameWithType: IMFTransform.GetOutputAvailableType(int, int, out IMFMediaType)
+  fullName: NAudio.MediaFoundation.IMFTransform.GetOutputAvailableType(int, int, out NAudio.MediaFoundation.IMFMediaType)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetOutputAvailableType(int dwOutputStreamId, int dwTypeIndex, out IMFMediaType ppType)
+    parameters:
+    - id: dwOutputStreamId
+      type: System.Int32
+    - id: dwTypeIndex
+      type: System.Int32
+    - id: ppType
+      type: NAudio.MediaFoundation.IMFMediaType
+    content.vb: Sub GetOutputAvailableType(dwOutputStreamId As Integer, dwTypeIndex As Integer, ppType As IMFMediaType)
+  overload: NAudio.MediaFoundation.IMFTransform.GetOutputAvailableType*
+  nameWithType.vb: IMFTransform.GetOutputAvailableType(Integer, Integer, IMFMediaType)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.GetOutputAvailableType(Integer, Integer, NAudio.MediaFoundation.IMFMediaType)
+  name.vb: GetOutputAvailableType(Integer, Integer, IMFMediaType)
+- uid: NAudio.MediaFoundation.IMFTransform.SetInputType(System.Int32,NAudio.MediaFoundation.IMFMediaType,NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.SetInputType(System.Int32,NAudio.MediaFoundation.IMFMediaType,NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS)
+  id: SetInputType(System.Int32,NAudio.MediaFoundation.IMFMediaType,NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: SetInputType(int, IMFMediaType, _MFT_SET_TYPE_FLAGS)
+  nameWithType: IMFTransform.SetInputType(int, IMFMediaType, _MFT_SET_TYPE_FLAGS)
+  fullName: NAudio.MediaFoundation.IMFTransform.SetInputType(int, NAudio.MediaFoundation.IMFMediaType, NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetInputType(int dwInputStreamId, IMFMediaType pType, _MFT_SET_TYPE_FLAGS dwFlags)
+    parameters:
+    - id: dwInputStreamId
+      type: System.Int32
+    - id: pType
+      type: NAudio.MediaFoundation.IMFMediaType
+    - id: dwFlags
+      type: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS
+    content.vb: Sub SetInputType(dwInputStreamId As Integer, pType As IMFMediaType, dwFlags As _MFT_SET_TYPE_FLAGS)
+  overload: NAudio.MediaFoundation.IMFTransform.SetInputType*
+  nameWithType.vb: IMFTransform.SetInputType(Integer, IMFMediaType, _MFT_SET_TYPE_FLAGS)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.SetInputType(Integer, NAudio.MediaFoundation.IMFMediaType, NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS)
+  name.vb: SetInputType(Integer, IMFMediaType, _MFT_SET_TYPE_FLAGS)
+- uid: NAudio.MediaFoundation.IMFTransform.SetOutputType(System.Int32,NAudio.MediaFoundation.IMFMediaType,NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.SetOutputType(System.Int32,NAudio.MediaFoundation.IMFMediaType,NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS)
+  id: SetOutputType(System.Int32,NAudio.MediaFoundation.IMFMediaType,NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: SetOutputType(int, IMFMediaType, _MFT_SET_TYPE_FLAGS)
+  nameWithType: IMFTransform.SetOutputType(int, IMFMediaType, _MFT_SET_TYPE_FLAGS)
+  fullName: NAudio.MediaFoundation.IMFTransform.SetOutputType(int, NAudio.MediaFoundation.IMFMediaType, NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetOutputType(int dwOutputStreamId, IMFMediaType pType, _MFT_SET_TYPE_FLAGS dwFlags)
+    parameters:
+    - id: dwOutputStreamId
+      type: System.Int32
+    - id: pType
+      type: NAudio.MediaFoundation.IMFMediaType
+    - id: dwFlags
+      type: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS
+    content.vb: Sub SetOutputType(dwOutputStreamId As Integer, pType As IMFMediaType, dwFlags As _MFT_SET_TYPE_FLAGS)
+  overload: NAudio.MediaFoundation.IMFTransform.SetOutputType*
+  nameWithType.vb: IMFTransform.SetOutputType(Integer, IMFMediaType, _MFT_SET_TYPE_FLAGS)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.SetOutputType(Integer, NAudio.MediaFoundation.IMFMediaType, NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS)
+  name.vb: SetOutputType(Integer, IMFMediaType, _MFT_SET_TYPE_FLAGS)
+- uid: NAudio.MediaFoundation.IMFTransform.GetInputCurrentType(System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.GetInputCurrentType(System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  id: GetInputCurrentType(System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: GetInputCurrentType(int, out IMFMediaType)
+  nameWithType: IMFTransform.GetInputCurrentType(int, out IMFMediaType)
+  fullName: NAudio.MediaFoundation.IMFTransform.GetInputCurrentType(int, out NAudio.MediaFoundation.IMFMediaType)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetInputCurrentType(int dwInputStreamId, out IMFMediaType ppType)
+    parameters:
+    - id: dwInputStreamId
+      type: System.Int32
+    - id: ppType
+      type: NAudio.MediaFoundation.IMFMediaType
+    content.vb: Sub GetInputCurrentType(dwInputStreamId As Integer, ppType As IMFMediaType)
+  overload: NAudio.MediaFoundation.IMFTransform.GetInputCurrentType*
+  nameWithType.vb: IMFTransform.GetInputCurrentType(Integer, IMFMediaType)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.GetInputCurrentType(Integer, NAudio.MediaFoundation.IMFMediaType)
+  name.vb: GetInputCurrentType(Integer, IMFMediaType)
+- uid: NAudio.MediaFoundation.IMFTransform.GetOutputCurrentType(System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.GetOutputCurrentType(System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  id: GetOutputCurrentType(System.Int32,NAudio.MediaFoundation.IMFMediaType@)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: GetOutputCurrentType(int, out IMFMediaType)
+  nameWithType: IMFTransform.GetOutputCurrentType(int, out IMFMediaType)
+  fullName: NAudio.MediaFoundation.IMFTransform.GetOutputCurrentType(int, out NAudio.MediaFoundation.IMFMediaType)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetOutputCurrentType(int dwOutputStreamId, out IMFMediaType ppType)
+    parameters:
+    - id: dwOutputStreamId
+      type: System.Int32
+    - id: ppType
+      type: NAudio.MediaFoundation.IMFMediaType
+    content.vb: Sub GetOutputCurrentType(dwOutputStreamId As Integer, ppType As IMFMediaType)
+  overload: NAudio.MediaFoundation.IMFTransform.GetOutputCurrentType*
+  nameWithType.vb: IMFTransform.GetOutputCurrentType(Integer, IMFMediaType)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.GetOutputCurrentType(Integer, NAudio.MediaFoundation.IMFMediaType)
+  name.vb: GetOutputCurrentType(Integer, IMFMediaType)
+- uid: NAudio.MediaFoundation.IMFTransform.GetInputStatus(System.Int32,NAudio.MediaFoundation._MFT_INPUT_STATUS_FLAGS@)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.GetInputStatus(System.Int32,NAudio.MediaFoundation._MFT_INPUT_STATUS_FLAGS@)
+  id: GetInputStatus(System.Int32,NAudio.MediaFoundation._MFT_INPUT_STATUS_FLAGS@)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: GetInputStatus(int, out _MFT_INPUT_STATUS_FLAGS)
+  nameWithType: IMFTransform.GetInputStatus(int, out _MFT_INPUT_STATUS_FLAGS)
+  fullName: NAudio.MediaFoundation.IMFTransform.GetInputStatus(int, out NAudio.MediaFoundation._MFT_INPUT_STATUS_FLAGS)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetInputStatus(int dwInputStreamId, out _MFT_INPUT_STATUS_FLAGS pdwFlags)
+    parameters:
+    - id: dwInputStreamId
+      type: System.Int32
+    - id: pdwFlags
+      type: NAudio.MediaFoundation._MFT_INPUT_STATUS_FLAGS
+    content.vb: Sub GetInputStatus(dwInputStreamId As Integer, pdwFlags As _MFT_INPUT_STATUS_FLAGS)
+  overload: NAudio.MediaFoundation.IMFTransform.GetInputStatus*
+  nameWithType.vb: IMFTransform.GetInputStatus(Integer, _MFT_INPUT_STATUS_FLAGS)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.GetInputStatus(Integer, NAudio.MediaFoundation._MFT_INPUT_STATUS_FLAGS)
+  name.vb: GetInputStatus(Integer, _MFT_INPUT_STATUS_FLAGS)
+- uid: NAudio.MediaFoundation.IMFTransform.GetOutputStatus(System.Int32,NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS@)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.GetOutputStatus(System.Int32,NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS@)
+  id: GetOutputStatus(System.Int32,NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS@)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: GetOutputStatus(int, out _MFT_OUTPUT_STATUS_FLAGS)
+  nameWithType: IMFTransform.GetOutputStatus(int, out _MFT_OUTPUT_STATUS_FLAGS)
+  fullName: NAudio.MediaFoundation.IMFTransform.GetOutputStatus(int, out NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void GetOutputStatus(int dwInputStreamId, out _MFT_OUTPUT_STATUS_FLAGS pdwFlags)
+    parameters:
+    - id: dwInputStreamId
+      type: System.Int32
+    - id: pdwFlags
+      type: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS
+    content.vb: Sub GetOutputStatus(dwInputStreamId As Integer, pdwFlags As _MFT_OUTPUT_STATUS_FLAGS)
+  overload: NAudio.MediaFoundation.IMFTransform.GetOutputStatus*
+  nameWithType.vb: IMFTransform.GetOutputStatus(Integer, _MFT_OUTPUT_STATUS_FLAGS)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.GetOutputStatus(Integer, NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS)
+  name.vb: GetOutputStatus(Integer, _MFT_OUTPUT_STATUS_FLAGS)
+- uid: NAudio.MediaFoundation.IMFTransform.SetOutputBounds(System.Int64,System.Int64)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.SetOutputBounds(System.Int64,System.Int64)
+  id: SetOutputBounds(System.Int64,System.Int64)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: SetOutputBounds(long, long)
+  nameWithType: IMFTransform.SetOutputBounds(long, long)
+  fullName: NAudio.MediaFoundation.IMFTransform.SetOutputBounds(long, long)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void SetOutputBounds(long hnsLowerBound, long hnsUpperBound)
+    parameters:
+    - id: hnsLowerBound
+      type: System.Int64
+    - id: hnsUpperBound
+      type: System.Int64
+    content.vb: Sub SetOutputBounds(hnsLowerBound As Long, hnsUpperBound As Long)
+  overload: NAudio.MediaFoundation.IMFTransform.SetOutputBounds*
+  nameWithType.vb: IMFTransform.SetOutputBounds(Long, Long)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.SetOutputBounds(Long, Long)
+  name.vb: SetOutputBounds(Long, Long)
+- uid: NAudio.MediaFoundation.IMFTransform.ProcessEvent(System.Int32,NAudio.MediaFoundation.IMFMediaEvent)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.ProcessEvent(System.Int32,NAudio.MediaFoundation.IMFMediaEvent)
+  id: ProcessEvent(System.Int32,NAudio.MediaFoundation.IMFMediaEvent)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: ProcessEvent(int, IMFMediaEvent)
+  nameWithType: IMFTransform.ProcessEvent(int, IMFMediaEvent)
+  fullName: NAudio.MediaFoundation.IMFTransform.ProcessEvent(int, NAudio.MediaFoundation.IMFMediaEvent)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void ProcessEvent(int dwInputStreamId, IMFMediaEvent pEvent)
+    parameters:
+    - id: dwInputStreamId
+      type: System.Int32
+    - id: pEvent
+      type: NAudio.MediaFoundation.IMFMediaEvent
+    content.vb: Sub ProcessEvent(dwInputStreamId As Integer, pEvent As IMFMediaEvent)
+  overload: NAudio.MediaFoundation.IMFTransform.ProcessEvent*
+  nameWithType.vb: IMFTransform.ProcessEvent(Integer, IMFMediaEvent)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.ProcessEvent(Integer, NAudio.MediaFoundation.IMFMediaEvent)
+  name.vb: ProcessEvent(Integer, IMFMediaEvent)
+- uid: NAudio.MediaFoundation.IMFTransform.ProcessMessage(NAudio.MediaFoundation.MFT_MESSAGE_TYPE,System.IntPtr)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.ProcessMessage(NAudio.MediaFoundation.MFT_MESSAGE_TYPE,System.IntPtr)
+  id: ProcessMessage(NAudio.MediaFoundation.MFT_MESSAGE_TYPE,System.IntPtr)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: ProcessMessage(MFT_MESSAGE_TYPE, IntPtr)
+  nameWithType: IMFTransform.ProcessMessage(MFT_MESSAGE_TYPE, IntPtr)
+  fullName: NAudio.MediaFoundation.IMFTransform.ProcessMessage(NAudio.MediaFoundation.MFT_MESSAGE_TYPE, System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void ProcessMessage(MFT_MESSAGE_TYPE eMessage, IntPtr ulParam)
+    parameters:
+    - id: eMessage
+      type: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+    - id: ulParam
+      type: System.IntPtr
+    content.vb: Sub ProcessMessage(eMessage As MFT_MESSAGE_TYPE, ulParam As IntPtr)
+  overload: NAudio.MediaFoundation.IMFTransform.ProcessMessage*
+- uid: NAudio.MediaFoundation.IMFTransform.ProcessInput(System.Int32,NAudio.MediaFoundation.IMFSample,System.Int32)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.ProcessInput(System.Int32,NAudio.MediaFoundation.IMFSample,System.Int32)
+  id: ProcessInput(System.Int32,NAudio.MediaFoundation.IMFSample,System.Int32)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: ProcessInput(int, IMFSample, int)
+  nameWithType: IMFTransform.ProcessInput(int, IMFSample, int)
+  fullName: NAudio.MediaFoundation.IMFTransform.ProcessInput(int, NAudio.MediaFoundation.IMFSample, int)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: void ProcessInput(int dwInputStreamId, IMFSample pSample, int dwFlags)
+    parameters:
+    - id: dwInputStreamId
+      type: System.Int32
+    - id: pSample
+      type: NAudio.MediaFoundation.IMFSample
+    - id: dwFlags
+      type: System.Int32
+    content.vb: Sub ProcessInput(dwInputStreamId As Integer, pSample As IMFSample, dwFlags As Integer)
+  overload: NAudio.MediaFoundation.IMFTransform.ProcessInput*
+  nameWithType.vb: IMFTransform.ProcessInput(Integer, IMFSample, Integer)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.ProcessInput(Integer, NAudio.MediaFoundation.IMFSample, Integer)
+  name.vb: ProcessInput(Integer, IMFSample, Integer)
+- uid: NAudio.MediaFoundation.IMFTransform.ProcessOutput(NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS,System.Int32,NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER[],NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS@)
+  commentId: M:NAudio.MediaFoundation.IMFTransform.ProcessOutput(NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS,System.Int32,NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER[],NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS@)
+  id: ProcessOutput(NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS,System.Int32,NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER[],NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS@)
+  parent: NAudio.MediaFoundation.IMFTransform
+  langs:
+  - csharp
+  - vb
+  name: ProcessOutput(_MFT_PROCESS_OUTPUT_FLAGS, int, MFT_OUTPUT_DATA_BUFFER[], out _MFT_PROCESS_OUTPUT_STATUS)
+  nameWithType: IMFTransform.ProcessOutput(_MFT_PROCESS_OUTPUT_FLAGS, int, MFT_OUTPUT_DATA_BUFFER[], out _MFT_PROCESS_OUTPUT_STATUS)
+  fullName: NAudio.MediaFoundation.IMFTransform.ProcessOutput(NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS, int, NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER[], out NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS)
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: int ProcessOutput(_MFT_PROCESS_OUTPUT_FLAGS dwFlags, int cOutputBufferCount, MFT_OUTPUT_DATA_BUFFER[] pOutputSamples, out _MFT_PROCESS_OUTPUT_STATUS pdwStatus)
+    parameters:
+    - id: dwFlags
+      type: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS
+    - id: cOutputBufferCount
+      type: System.Int32
+    - id: pOutputSamples
+      type: NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER[]
+    - id: pdwStatus
+      type: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS
+    return:
+      type: System.Int32
+    content.vb: Function ProcessOutput(dwFlags As _MFT_PROCESS_OUTPUT_FLAGS, cOutputBufferCount As Integer, pOutputSamples As MFT_OUTPUT_DATA_BUFFER(), pdwStatus As _MFT_PROCESS_OUTPUT_STATUS) As Integer
+  overload: NAudio.MediaFoundation.IMFTransform.ProcessOutput*
+  nameWithType.vb: IMFTransform.ProcessOutput(_MFT_PROCESS_OUTPUT_FLAGS, Integer, MFT_OUTPUT_DATA_BUFFER(), _MFT_PROCESS_OUTPUT_STATUS)
+  fullName.vb: NAudio.MediaFoundation.IMFTransform.ProcessOutput(NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS, Integer, NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER(), NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS)
+  name.vb: ProcessOutput(_MFT_PROCESS_OUTPUT_FLAGS, Integer, MFT_OUTPUT_DATA_BUFFER(), _MFT_PROCESS_OUTPUT_STATUS)
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation.IMFTransform.GetStreamLimits*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.GetStreamLimits
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_GetStreamLimits_System_Int32__System_Int32__System_Int32__System_Int32__
+  name: GetStreamLimits
+  nameWithType: IMFTransform.GetStreamLimits
+  fullName: NAudio.MediaFoundation.IMFTransform.GetStreamLimits
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.MediaFoundation.IMFTransform.GetStreamCount*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.GetStreamCount
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_GetStreamCount_System_Int32__System_Int32__
+  name: GetStreamCount
+  nameWithType: IMFTransform.GetStreamCount
+  fullName: NAudio.MediaFoundation.IMFTransform.GetStreamCount
+- uid: NAudio.MediaFoundation.IMFTransform.GetStreamIds*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.GetStreamIds
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_GetStreamIds_System_Int32_System_IntPtr_System_Int32_System_IntPtr_
+  name: GetStreamIds
+  nameWithType: IMFTransform.GetStreamIds
+  fullName: NAudio.MediaFoundation.IMFTransform.GetStreamIds
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: NAudio.MediaFoundation.IMFTransform.GetInputStreamInfo*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.GetInputStreamInfo
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_GetInputStreamInfo_System_Int32_NAudio_MediaFoundation_MFT_INPUT_STREAM_INFO__
+  name: GetInputStreamInfo
+  nameWithType: IMFTransform.GetInputStreamInfo
+  fullName: NAudio.MediaFoundation.IMFTransform.GetInputStreamInfo
+- uid: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO
+  commentId: T:NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO.html
+  name: MFT_INPUT_STREAM_INFO
+  nameWithType: MFT_INPUT_STREAM_INFO
+  fullName: NAudio.MediaFoundation.MFT_INPUT_STREAM_INFO
+- uid: NAudio.MediaFoundation.IMFTransform.GetOutputStreamInfo*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.GetOutputStreamInfo
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_GetOutputStreamInfo_System_Int32_NAudio_MediaFoundation_MFT_OUTPUT_STREAM_INFO__
+  name: GetOutputStreamInfo
+  nameWithType: IMFTransform.GetOutputStreamInfo
+  fullName: NAudio.MediaFoundation.IMFTransform.GetOutputStreamInfo
+- uid: NAudio.MediaFoundation.MFT_OUTPUT_STREAM_INFO
+  commentId: T:NAudio.MediaFoundation.MFT_OUTPUT_STREAM_INFO
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.MFT_OUTPUT_STREAM_INFO.html
+  name: MFT_OUTPUT_STREAM_INFO
+  nameWithType: MFT_OUTPUT_STREAM_INFO
+  fullName: NAudio.MediaFoundation.MFT_OUTPUT_STREAM_INFO
+- uid: NAudio.MediaFoundation.IMFTransform.GetAttributes*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.GetAttributes
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_GetAttributes_NAudio_MediaFoundation_IMFAttributes__
+  name: GetAttributes
+  nameWithType: IMFTransform.GetAttributes
+  fullName: NAudio.MediaFoundation.IMFTransform.GetAttributes
+- uid: NAudio.MediaFoundation.IMFAttributes
+  commentId: T:NAudio.MediaFoundation.IMFAttributes
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFAttributes.html
+  name: IMFAttributes
+  nameWithType: IMFAttributes
+  fullName: NAudio.MediaFoundation.IMFAttributes
+- uid: NAudio.MediaFoundation.IMFTransform.GetInputStreamAttributes*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.GetInputStreamAttributes
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_GetInputStreamAttributes_System_Int32_NAudio_MediaFoundation_IMFAttributes__
+  name: GetInputStreamAttributes
+  nameWithType: IMFTransform.GetInputStreamAttributes
+  fullName: NAudio.MediaFoundation.IMFTransform.GetInputStreamAttributes
+- uid: NAudio.MediaFoundation.IMFTransform.GetOutputStreamAttributes*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.GetOutputStreamAttributes
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_GetOutputStreamAttributes_System_Int32_NAudio_MediaFoundation_IMFAttributes__
+  name: GetOutputStreamAttributes
+  nameWithType: IMFTransform.GetOutputStreamAttributes
+  fullName: NAudio.MediaFoundation.IMFTransform.GetOutputStreamAttributes
+- uid: NAudio.MediaFoundation.IMFTransform.DeleteInputStream*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.DeleteInputStream
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_DeleteInputStream_System_Int32_
+  name: DeleteInputStream
+  nameWithType: IMFTransform.DeleteInputStream
+  fullName: NAudio.MediaFoundation.IMFTransform.DeleteInputStream
+- uid: NAudio.MediaFoundation.IMFTransform.AddInputStreams*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.AddInputStreams
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_AddInputStreams_System_Int32_System_IntPtr_
+  name: AddInputStreams
+  nameWithType: IMFTransform.AddInputStreams
+  fullName: NAudio.MediaFoundation.IMFTransform.AddInputStreams
+- uid: NAudio.MediaFoundation.IMFTransform.GetInputAvailableType*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.GetInputAvailableType
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_GetInputAvailableType_System_Int32_System_Int32_NAudio_MediaFoundation_IMFMediaType__
+  name: GetInputAvailableType
+  nameWithType: IMFTransform.GetInputAvailableType
+  fullName: NAudio.MediaFoundation.IMFTransform.GetInputAvailableType
+- uid: NAudio.MediaFoundation.IMFMediaType
+  commentId: T:NAudio.MediaFoundation.IMFMediaType
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaType.html
+  name: IMFMediaType
+  nameWithType: IMFMediaType
+  fullName: NAudio.MediaFoundation.IMFMediaType
+- uid: NAudio.MediaFoundation.IMFTransform.GetOutputAvailableType*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.GetOutputAvailableType
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_GetOutputAvailableType_System_Int32_System_Int32_NAudio_MediaFoundation_IMFMediaType__
+  name: GetOutputAvailableType
+  nameWithType: IMFTransform.GetOutputAvailableType
+  fullName: NAudio.MediaFoundation.IMFTransform.GetOutputAvailableType
+- uid: NAudio.MediaFoundation.IMFTransform.SetInputType*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.SetInputType
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_SetInputType_System_Int32_NAudio_MediaFoundation_IMFMediaType_NAudio_MediaFoundation__MFT_SET_TYPE_FLAGS_
+  name: SetInputType
+  nameWithType: IMFTransform.SetInputType
+  fullName: NAudio.MediaFoundation.IMFTransform.SetInputType
+- uid: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS
+  commentId: T:NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS.html
+  name: _MFT_SET_TYPE_FLAGS
+  nameWithType: _MFT_SET_TYPE_FLAGS
+  fullName: NAudio.MediaFoundation._MFT_SET_TYPE_FLAGS
+- uid: NAudio.MediaFoundation.IMFTransform.SetOutputType*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.SetOutputType
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_SetOutputType_System_Int32_NAudio_MediaFoundation_IMFMediaType_NAudio_MediaFoundation__MFT_SET_TYPE_FLAGS_
+  name: SetOutputType
+  nameWithType: IMFTransform.SetOutputType
+  fullName: NAudio.MediaFoundation.IMFTransform.SetOutputType
+- uid: NAudio.MediaFoundation.IMFTransform.GetInputCurrentType*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.GetInputCurrentType
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_GetInputCurrentType_System_Int32_NAudio_MediaFoundation_IMFMediaType__
+  name: GetInputCurrentType
+  nameWithType: IMFTransform.GetInputCurrentType
+  fullName: NAudio.MediaFoundation.IMFTransform.GetInputCurrentType
+- uid: NAudio.MediaFoundation.IMFTransform.GetOutputCurrentType*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.GetOutputCurrentType
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_GetOutputCurrentType_System_Int32_NAudio_MediaFoundation_IMFMediaType__
+  name: GetOutputCurrentType
+  nameWithType: IMFTransform.GetOutputCurrentType
+  fullName: NAudio.MediaFoundation.IMFTransform.GetOutputCurrentType
+- uid: NAudio.MediaFoundation.IMFTransform.GetInputStatus*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.GetInputStatus
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_GetInputStatus_System_Int32_NAudio_MediaFoundation__MFT_INPUT_STATUS_FLAGS__
+  name: GetInputStatus
+  nameWithType: IMFTransform.GetInputStatus
+  fullName: NAudio.MediaFoundation.IMFTransform.GetInputStatus
+- uid: NAudio.MediaFoundation._MFT_INPUT_STATUS_FLAGS
+  commentId: T:NAudio.MediaFoundation._MFT_INPUT_STATUS_FLAGS
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation._MFT_INPUT_STATUS_FLAGS.html
+  name: _MFT_INPUT_STATUS_FLAGS
+  nameWithType: _MFT_INPUT_STATUS_FLAGS
+  fullName: NAudio.MediaFoundation._MFT_INPUT_STATUS_FLAGS
+- uid: NAudio.MediaFoundation.IMFTransform.GetOutputStatus*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.GetOutputStatus
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_GetOutputStatus_System_Int32_NAudio_MediaFoundation__MFT_OUTPUT_STATUS_FLAGS__
+  name: GetOutputStatus
+  nameWithType: IMFTransform.GetOutputStatus
+  fullName: NAudio.MediaFoundation.IMFTransform.GetOutputStatus
+- uid: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS
+  commentId: T:NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS.html
+  name: _MFT_OUTPUT_STATUS_FLAGS
+  nameWithType: _MFT_OUTPUT_STATUS_FLAGS
+  fullName: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS
+- uid: NAudio.MediaFoundation.IMFTransform.SetOutputBounds*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.SetOutputBounds
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_SetOutputBounds_System_Int64_System_Int64_
+  name: SetOutputBounds
+  nameWithType: IMFTransform.SetOutputBounds
+  fullName: NAudio.MediaFoundation.IMFTransform.SetOutputBounds
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: NAudio.MediaFoundation.IMFTransform.ProcessEvent*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.ProcessEvent
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_ProcessEvent_System_Int32_NAudio_MediaFoundation_IMFMediaEvent_
+  name: ProcessEvent
+  nameWithType: IMFTransform.ProcessEvent
+  fullName: NAudio.MediaFoundation.IMFTransform.ProcessEvent
+- uid: NAudio.MediaFoundation.IMFMediaEvent
+  commentId: T:NAudio.MediaFoundation.IMFMediaEvent
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFMediaEvent.html
+  name: IMFMediaEvent
+  nameWithType: IMFMediaEvent
+  fullName: NAudio.MediaFoundation.IMFMediaEvent
+- uid: NAudio.MediaFoundation.IMFTransform.ProcessMessage*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.ProcessMessage
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_ProcessMessage_NAudio_MediaFoundation_MFT_MESSAGE_TYPE_System_IntPtr_
+  name: ProcessMessage
+  nameWithType: IMFTransform.ProcessMessage
+  fullName: NAudio.MediaFoundation.IMFTransform.ProcessMessage
+- uid: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  commentId: T:NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.MFT_MESSAGE_TYPE.html
+  name: MFT_MESSAGE_TYPE
+  nameWithType: MFT_MESSAGE_TYPE
+  fullName: NAudio.MediaFoundation.MFT_MESSAGE_TYPE
+- uid: NAudio.MediaFoundation.IMFTransform.ProcessInput*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.ProcessInput
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_ProcessInput_System_Int32_NAudio_MediaFoundation_IMFSample_System_Int32_
+  name: ProcessInput
+  nameWithType: IMFTransform.ProcessInput
+  fullName: NAudio.MediaFoundation.IMFTransform.ProcessInput
+- uid: NAudio.MediaFoundation.IMFSample
+  commentId: T:NAudio.MediaFoundation.IMFSample
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFSample.html
+  name: IMFSample
+  nameWithType: IMFSample
+  fullName: NAudio.MediaFoundation.IMFSample
+- uid: NAudio.MediaFoundation.IMFTransform.ProcessOutput*
+  commentId: Overload:NAudio.MediaFoundation.IMFTransform.ProcessOutput
+  isExternal: true
+  href: NAudio.MediaFoundation.IMFTransform.html#NAudio_MediaFoundation_IMFTransform_ProcessOutput_NAudio_MediaFoundation__MFT_PROCESS_OUTPUT_FLAGS_System_Int32_NAudio_MediaFoundation_MFT_OUTPUT_DATA_BUFFER___NAudio_MediaFoundation__MFT_PROCESS_OUTPUT_STATUS__
+  name: ProcessOutput
+  nameWithType: IMFTransform.ProcessOutput
+  fullName: NAudio.MediaFoundation.IMFTransform.ProcessOutput
+- uid: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS
+  commentId: T:NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS.html
+  name: _MFT_PROCESS_OUTPUT_FLAGS
+  nameWithType: _MFT_PROCESS_OUTPUT_FLAGS
+  fullName: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_FLAGS
+- uid: NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER[]
+  isExternal: true
+  href: NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER.html
+  name: MFT_OUTPUT_DATA_BUFFER[]
+  nameWithType: MFT_OUTPUT_DATA_BUFFER[]
+  fullName: NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER[]
+  nameWithType.vb: MFT_OUTPUT_DATA_BUFFER()
+  fullName.vb: NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER()
+  name.vb: MFT_OUTPUT_DATA_BUFFER()
+  spec.csharp:
+  - uid: NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER
+    name: MFT_OUTPUT_DATA_BUFFER
+    isExternal: true
+    href: NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER
+    name: MFT_OUTPUT_DATA_BUFFER
+    isExternal: true
+    href: NAudio.MediaFoundation.MFT_OUTPUT_DATA_BUFFER.html
+  - name: (
+  - name: )
+- uid: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS
+  commentId: T:NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS.html
+  name: _MFT_PROCESS_OUTPUT_STATUS
+  nameWithType: _MFT_PROCESS_OUTPUT_STATUS
+  fullName: NAudio.MediaFoundation._MFT_PROCESS_OUTPUT_STATUS

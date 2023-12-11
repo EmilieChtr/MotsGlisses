@@ -1,0 +1,80 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wasapi.CoreAudioApi.Interfaces
+  commentId: N:NAudio.Wasapi.CoreAudioApi.Interfaces
+  id: NAudio.Wasapi.CoreAudioApi.Interfaces
+  children:
+  - NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation
+  - NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler
+  langs:
+  - csharp
+  - vb
+  name: NAudio.Wasapi.CoreAudioApi.Interfaces
+  nameWithType: NAudio.Wasapi.CoreAudioApi.Interfaces
+  fullName: NAudio.Wasapi.CoreAudioApi.Interfaces
+  type: Namespace
+  assemblies:
+  - NAudio.Wasapi
+references:
+- uid: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation
+  commentId: T:NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation
+  parent: NAudio.Wasapi.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation.html
+  name: IActivateAudioInterfaceAsyncOperation
+  nameWithType: IActivateAudioInterfaceAsyncOperation
+  fullName: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceAsyncOperation
+- uid: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler
+  commentId: T:NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler
+  isExternal: true
+  href: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler.html
+  name: IActivateAudioInterfaceCompletionHandler
+  nameWithType: IActivateAudioInterfaceCompletionHandler
+  fullName: NAudio.Wasapi.CoreAudioApi.Interfaces.IActivateAudioInterfaceCompletionHandler
+- uid: NAudio.Wasapi.CoreAudioApi.Interfaces
+  commentId: N:NAudio.Wasapi.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wasapi.CoreAudioApi.Interfaces
+  nameWithType: NAudio.Wasapi.CoreAudioApi.Interfaces
+  fullName: NAudio.Wasapi.CoreAudioApi.Interfaces
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wasapi
+    name: Wasapi
+    isExternal: true
+    href: NAudio.Wasapi.html
+  - name: .
+  - uid: NAudio.Wasapi.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.Wasapi.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.Wasapi.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.Wasapi.CoreAudioApi.Interfaces.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wasapi
+    name: Wasapi
+    isExternal: true
+    href: NAudio.Wasapi.html
+  - name: .
+  - uid: NAudio.Wasapi.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.Wasapi.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.Wasapi.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.Wasapi.CoreAudioApi.Interfaces.html

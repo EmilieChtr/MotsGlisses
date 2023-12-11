@@ -1,0 +1,1345 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  id: WaveFormat
+  parent: NAudio.Wave
+  children:
+  - NAudio.Wave.WaveFormat.#ctor
+  - NAudio.Wave.WaveFormat.#ctor(System.IO.BinaryReader)
+  - NAudio.Wave.WaveFormat.#ctor(System.Int32,System.Int32)
+  - NAudio.Wave.WaveFormat.#ctor(System.Int32,System.Int32,System.Int32)
+  - NAudio.Wave.WaveFormat.AverageBytesPerSecond
+  - NAudio.Wave.WaveFormat.BitsPerSample
+  - NAudio.Wave.WaveFormat.BlockAlign
+  - NAudio.Wave.WaveFormat.Channels
+  - NAudio.Wave.WaveFormat.ConvertLatencyToByteSize(System.Int32)
+  - NAudio.Wave.WaveFormat.CreateALawFormat(System.Int32,System.Int32)
+  - NAudio.Wave.WaveFormat.CreateCustomFormat(NAudio.Wave.WaveFormatEncoding,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  - NAudio.Wave.WaveFormat.CreateIeeeFloatWaveFormat(System.Int32,System.Int32)
+  - NAudio.Wave.WaveFormat.CreateMuLawFormat(System.Int32,System.Int32)
+  - NAudio.Wave.WaveFormat.Encoding
+  - NAudio.Wave.WaveFormat.Equals(System.Object)
+  - NAudio.Wave.WaveFormat.ExtraSize
+  - NAudio.Wave.WaveFormat.FromFormatChunk(System.IO.BinaryReader,System.Int32)
+  - NAudio.Wave.WaveFormat.GetHashCode
+  - NAudio.Wave.WaveFormat.MarshalFromPtr(System.IntPtr)
+  - NAudio.Wave.WaveFormat.MarshalToPtr(NAudio.Wave.WaveFormat)
+  - NAudio.Wave.WaveFormat.SampleRate
+  - NAudio.Wave.WaveFormat.Serialize(System.IO.BinaryWriter)
+  - NAudio.Wave.WaveFormat.ToString
+  - NAudio.Wave.WaveFormat.averageBytesPerSecond
+  - NAudio.Wave.WaveFormat.bitsPerSample
+  - NAudio.Wave.WaveFormat.blockAlign
+  - NAudio.Wave.WaveFormat.channels
+  - NAudio.Wave.WaveFormat.extraSize
+  - NAudio.Wave.WaveFormat.sampleRate
+  - NAudio.Wave.WaveFormat.waveFormatTag
+  langs:
+  - csharp
+  - vb
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat
+  type: Class
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public class WaveFormat
+    content.vb: Public Class WaveFormat
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - NAudio.Wave.AdpcmWaveFormat
+  - NAudio.Wave.Gsm610WaveFormat
+  - NAudio.Wave.ImaAdpcmWaveFormat
+  - NAudio.Wave.Mp3WaveFormat
+  - NAudio.Wave.TrueSpeechWaveFormat
+  - NAudio.Wave.WaveFormatExtensible
+  - NAudio.Wave.WaveFormatExtraData
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - NAudio.Wave.WaveFormat.NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat
+- uid: NAudio.Wave.WaveFormat.waveFormatTag
+  commentId: F:NAudio.Wave.WaveFormat.waveFormatTag
+  id: waveFormatTag
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: waveFormatTag
+  nameWithType: WaveFormat.waveFormatTag
+  fullName: NAudio.Wave.WaveFormat.waveFormatTag
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: protected WaveFormatEncoding waveFormatTag
+    return:
+      type: NAudio.Wave.WaveFormatEncoding
+    content.vb: Protected waveFormatTag As WaveFormatEncoding
+- uid: NAudio.Wave.WaveFormat.channels
+  commentId: F:NAudio.Wave.WaveFormat.channels
+  id: channels
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: channels
+  nameWithType: WaveFormat.channels
+  fullName: NAudio.Wave.WaveFormat.channels
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: protected short channels
+    return:
+      type: System.Int16
+    content.vb: Protected channels As Short
+- uid: NAudio.Wave.WaveFormat.sampleRate
+  commentId: F:NAudio.Wave.WaveFormat.sampleRate
+  id: sampleRate
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: sampleRate
+  nameWithType: WaveFormat.sampleRate
+  fullName: NAudio.Wave.WaveFormat.sampleRate
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: protected int sampleRate
+    return:
+      type: System.Int32
+    content.vb: Protected sampleRate As Integer
+- uid: NAudio.Wave.WaveFormat.averageBytesPerSecond
+  commentId: F:NAudio.Wave.WaveFormat.averageBytesPerSecond
+  id: averageBytesPerSecond
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: averageBytesPerSecond
+  nameWithType: WaveFormat.averageBytesPerSecond
+  fullName: NAudio.Wave.WaveFormat.averageBytesPerSecond
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: protected int averageBytesPerSecond
+    return:
+      type: System.Int32
+    content.vb: Protected averageBytesPerSecond As Integer
+- uid: NAudio.Wave.WaveFormat.blockAlign
+  commentId: F:NAudio.Wave.WaveFormat.blockAlign
+  id: blockAlign
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: blockAlign
+  nameWithType: WaveFormat.blockAlign
+  fullName: NAudio.Wave.WaveFormat.blockAlign
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: protected short blockAlign
+    return:
+      type: System.Int16
+    content.vb: Protected blockAlign As Short
+- uid: NAudio.Wave.WaveFormat.bitsPerSample
+  commentId: F:NAudio.Wave.WaveFormat.bitsPerSample
+  id: bitsPerSample
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: bitsPerSample
+  nameWithType: WaveFormat.bitsPerSample
+  fullName: NAudio.Wave.WaveFormat.bitsPerSample
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: protected short bitsPerSample
+    return:
+      type: System.Int16
+    content.vb: Protected bitsPerSample As Short
+- uid: NAudio.Wave.WaveFormat.extraSize
+  commentId: F:NAudio.Wave.WaveFormat.extraSize
+  id: extraSize
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: extraSize
+  nameWithType: WaveFormat.extraSize
+  fullName: NAudio.Wave.WaveFormat.extraSize
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: protected short extraSize
+    return:
+      type: System.Int16
+    content.vb: Protected extraSize As Short
+- uid: NAudio.Wave.WaveFormat.#ctor
+  commentId: M:NAudio.Wave.WaveFormat.#ctor
+  id: '#ctor'
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WaveFormat()
+  nameWithType: WaveFormat.WaveFormat()
+  fullName: NAudio.Wave.WaveFormat.WaveFormat()
+  type: Constructor
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public WaveFormat()
+    content.vb: Public Sub New()
+  overload: NAudio.Wave.WaveFormat.#ctor*
+  nameWithType.vb: WaveFormat.New()
+  fullName.vb: NAudio.Wave.WaveFormat.New()
+  name.vb: New()
+- uid: NAudio.Wave.WaveFormat.#ctor(System.Int32,System.Int32)
+  commentId: M:NAudio.Wave.WaveFormat.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WaveFormat(int, int)
+  nameWithType: WaveFormat.WaveFormat(int, int)
+  fullName: NAudio.Wave.WaveFormat.WaveFormat(int, int)
+  type: Constructor
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public WaveFormat(int sampleRate, int channels)
+    parameters:
+    - id: sampleRate
+      type: System.Int32
+    - id: channels
+      type: System.Int32
+    content.vb: Public Sub New(sampleRate As Integer, channels As Integer)
+  overload: NAudio.Wave.WaveFormat.#ctor*
+  nameWithType.vb: WaveFormat.New(Integer, Integer)
+  fullName.vb: NAudio.Wave.WaveFormat.New(Integer, Integer)
+  name.vb: New(Integer, Integer)
+- uid: NAudio.Wave.WaveFormat.ConvertLatencyToByteSize(System.Int32)
+  commentId: M:NAudio.Wave.WaveFormat.ConvertLatencyToByteSize(System.Int32)
+  id: ConvertLatencyToByteSize(System.Int32)
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: ConvertLatencyToByteSize(int)
+  nameWithType: WaveFormat.ConvertLatencyToByteSize(int)
+  fullName: NAudio.Wave.WaveFormat.ConvertLatencyToByteSize(int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public int ConvertLatencyToByteSize(int milliseconds)
+    parameters:
+    - id: milliseconds
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function ConvertLatencyToByteSize(milliseconds As Integer) As Integer
+  overload: NAudio.Wave.WaveFormat.ConvertLatencyToByteSize*
+  nameWithType.vb: WaveFormat.ConvertLatencyToByteSize(Integer)
+  fullName.vb: NAudio.Wave.WaveFormat.ConvertLatencyToByteSize(Integer)
+  name.vb: ConvertLatencyToByteSize(Integer)
+- uid: NAudio.Wave.WaveFormat.CreateCustomFormat(NAudio.Wave.WaveFormatEncoding,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:NAudio.Wave.WaveFormat.CreateCustomFormat(NAudio.Wave.WaveFormatEncoding,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: CreateCustomFormat(NAudio.Wave.WaveFormatEncoding,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: CreateCustomFormat(WaveFormatEncoding, int, int, int, int, int)
+  nameWithType: WaveFormat.CreateCustomFormat(WaveFormatEncoding, int, int, int, int, int)
+  fullName: NAudio.Wave.WaveFormat.CreateCustomFormat(NAudio.Wave.WaveFormatEncoding, int, int, int, int, int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public static WaveFormat CreateCustomFormat(WaveFormatEncoding tag, int sampleRate, int channels, int averageBytesPerSecond, int blockAlign, int bitsPerSample)
+    parameters:
+    - id: tag
+      type: NAudio.Wave.WaveFormatEncoding
+    - id: sampleRate
+      type: System.Int32
+    - id: channels
+      type: System.Int32
+    - id: averageBytesPerSecond
+      type: System.Int32
+    - id: blockAlign
+      type: System.Int32
+    - id: bitsPerSample
+      type: System.Int32
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public Shared Function CreateCustomFormat(tag As WaveFormatEncoding, sampleRate As Integer, channels As Integer, averageBytesPerSecond As Integer, blockAlign As Integer, bitsPerSample As Integer) As WaveFormat
+  overload: NAudio.Wave.WaveFormat.CreateCustomFormat*
+  nameWithType.vb: WaveFormat.CreateCustomFormat(WaveFormatEncoding, Integer, Integer, Integer, Integer, Integer)
+  fullName.vb: NAudio.Wave.WaveFormat.CreateCustomFormat(NAudio.Wave.WaveFormatEncoding, Integer, Integer, Integer, Integer, Integer)
+  name.vb: CreateCustomFormat(WaveFormatEncoding, Integer, Integer, Integer, Integer, Integer)
+- uid: NAudio.Wave.WaveFormat.CreateALawFormat(System.Int32,System.Int32)
+  commentId: M:NAudio.Wave.WaveFormat.CreateALawFormat(System.Int32,System.Int32)
+  id: CreateALawFormat(System.Int32,System.Int32)
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: CreateALawFormat(int, int)
+  nameWithType: WaveFormat.CreateALawFormat(int, int)
+  fullName: NAudio.Wave.WaveFormat.CreateALawFormat(int, int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public static WaveFormat CreateALawFormat(int sampleRate, int channels)
+    parameters:
+    - id: sampleRate
+      type: System.Int32
+    - id: channels
+      type: System.Int32
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public Shared Function CreateALawFormat(sampleRate As Integer, channels As Integer) As WaveFormat
+  overload: NAudio.Wave.WaveFormat.CreateALawFormat*
+  nameWithType.vb: WaveFormat.CreateALawFormat(Integer, Integer)
+  fullName.vb: NAudio.Wave.WaveFormat.CreateALawFormat(Integer, Integer)
+  name.vb: CreateALawFormat(Integer, Integer)
+- uid: NAudio.Wave.WaveFormat.CreateMuLawFormat(System.Int32,System.Int32)
+  commentId: M:NAudio.Wave.WaveFormat.CreateMuLawFormat(System.Int32,System.Int32)
+  id: CreateMuLawFormat(System.Int32,System.Int32)
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: CreateMuLawFormat(int, int)
+  nameWithType: WaveFormat.CreateMuLawFormat(int, int)
+  fullName: NAudio.Wave.WaveFormat.CreateMuLawFormat(int, int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public static WaveFormat CreateMuLawFormat(int sampleRate, int channels)
+    parameters:
+    - id: sampleRate
+      type: System.Int32
+    - id: channels
+      type: System.Int32
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public Shared Function CreateMuLawFormat(sampleRate As Integer, channels As Integer) As WaveFormat
+  overload: NAudio.Wave.WaveFormat.CreateMuLawFormat*
+  nameWithType.vb: WaveFormat.CreateMuLawFormat(Integer, Integer)
+  fullName.vb: NAudio.Wave.WaveFormat.CreateMuLawFormat(Integer, Integer)
+  name.vb: CreateMuLawFormat(Integer, Integer)
+- uid: NAudio.Wave.WaveFormat.#ctor(System.Int32,System.Int32,System.Int32)
+  commentId: M:NAudio.Wave.WaveFormat.#ctor(System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32)'
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WaveFormat(int, int, int)
+  nameWithType: WaveFormat.WaveFormat(int, int, int)
+  fullName: NAudio.Wave.WaveFormat.WaveFormat(int, int, int)
+  type: Constructor
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public WaveFormat(int rate, int bits, int channels)
+    parameters:
+    - id: rate
+      type: System.Int32
+    - id: bits
+      type: System.Int32
+    - id: channels
+      type: System.Int32
+    content.vb: Public Sub New(rate As Integer, bits As Integer, channels As Integer)
+  overload: NAudio.Wave.WaveFormat.#ctor*
+  nameWithType.vb: WaveFormat.New(Integer, Integer, Integer)
+  fullName.vb: NAudio.Wave.WaveFormat.New(Integer, Integer, Integer)
+  name.vb: New(Integer, Integer, Integer)
+- uid: NAudio.Wave.WaveFormat.CreateIeeeFloatWaveFormat(System.Int32,System.Int32)
+  commentId: M:NAudio.Wave.WaveFormat.CreateIeeeFloatWaveFormat(System.Int32,System.Int32)
+  id: CreateIeeeFloatWaveFormat(System.Int32,System.Int32)
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: CreateIeeeFloatWaveFormat(int, int)
+  nameWithType: WaveFormat.CreateIeeeFloatWaveFormat(int, int)
+  fullName: NAudio.Wave.WaveFormat.CreateIeeeFloatWaveFormat(int, int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public static WaveFormat CreateIeeeFloatWaveFormat(int sampleRate, int channels)
+    parameters:
+    - id: sampleRate
+      type: System.Int32
+    - id: channels
+      type: System.Int32
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public Shared Function CreateIeeeFloatWaveFormat(sampleRate As Integer, channels As Integer) As WaveFormat
+  overload: NAudio.Wave.WaveFormat.CreateIeeeFloatWaveFormat*
+  nameWithType.vb: WaveFormat.CreateIeeeFloatWaveFormat(Integer, Integer)
+  fullName.vb: NAudio.Wave.WaveFormat.CreateIeeeFloatWaveFormat(Integer, Integer)
+  name.vb: CreateIeeeFloatWaveFormat(Integer, Integer)
+- uid: NAudio.Wave.WaveFormat.MarshalFromPtr(System.IntPtr)
+  commentId: M:NAudio.Wave.WaveFormat.MarshalFromPtr(System.IntPtr)
+  id: MarshalFromPtr(System.IntPtr)
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: MarshalFromPtr(IntPtr)
+  nameWithType: WaveFormat.MarshalFromPtr(IntPtr)
+  fullName: NAudio.Wave.WaveFormat.MarshalFromPtr(System.IntPtr)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public static WaveFormat MarshalFromPtr(IntPtr pointer)
+    parameters:
+    - id: pointer
+      type: System.IntPtr
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public Shared Function MarshalFromPtr(pointer As IntPtr) As WaveFormat
+  overload: NAudio.Wave.WaveFormat.MarshalFromPtr*
+- uid: NAudio.Wave.WaveFormat.MarshalToPtr(NAudio.Wave.WaveFormat)
+  commentId: M:NAudio.Wave.WaveFormat.MarshalToPtr(NAudio.Wave.WaveFormat)
+  id: MarshalToPtr(NAudio.Wave.WaveFormat)
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: MarshalToPtr(WaveFormat)
+  nameWithType: WaveFormat.MarshalToPtr(WaveFormat)
+  fullName: NAudio.Wave.WaveFormat.MarshalToPtr(NAudio.Wave.WaveFormat)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public static IntPtr MarshalToPtr(WaveFormat format)
+    parameters:
+    - id: format
+      type: NAudio.Wave.WaveFormat
+    return:
+      type: System.IntPtr
+    content.vb: Public Shared Function MarshalToPtr(format As WaveFormat) As IntPtr
+  overload: NAudio.Wave.WaveFormat.MarshalToPtr*
+- uid: NAudio.Wave.WaveFormat.FromFormatChunk(System.IO.BinaryReader,System.Int32)
+  commentId: M:NAudio.Wave.WaveFormat.FromFormatChunk(System.IO.BinaryReader,System.Int32)
+  id: FromFormatChunk(System.IO.BinaryReader,System.Int32)
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: FromFormatChunk(BinaryReader, int)
+  nameWithType: WaveFormat.FromFormatChunk(BinaryReader, int)
+  fullName: NAudio.Wave.WaveFormat.FromFormatChunk(System.IO.BinaryReader, int)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public static WaveFormat FromFormatChunk(BinaryReader br, int formatChunkLength)
+    parameters:
+    - id: br
+      type: System.IO.BinaryReader
+    - id: formatChunkLength
+      type: System.Int32
+    return:
+      type: NAudio.Wave.WaveFormat
+    content.vb: Public Shared Function FromFormatChunk(br As BinaryReader, formatChunkLength As Integer) As WaveFormat
+  overload: NAudio.Wave.WaveFormat.FromFormatChunk*
+  nameWithType.vb: WaveFormat.FromFormatChunk(BinaryReader, Integer)
+  fullName.vb: NAudio.Wave.WaveFormat.FromFormatChunk(System.IO.BinaryReader, Integer)
+  name.vb: FromFormatChunk(BinaryReader, Integer)
+- uid: NAudio.Wave.WaveFormat.#ctor(System.IO.BinaryReader)
+  commentId: M:NAudio.Wave.WaveFormat.#ctor(System.IO.BinaryReader)
+  id: '#ctor(System.IO.BinaryReader)'
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: WaveFormat(BinaryReader)
+  nameWithType: WaveFormat.WaveFormat(BinaryReader)
+  fullName: NAudio.Wave.WaveFormat.WaveFormat(System.IO.BinaryReader)
+  type: Constructor
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public WaveFormat(BinaryReader br)
+    parameters:
+    - id: br
+      type: System.IO.BinaryReader
+    content.vb: Public Sub New(br As BinaryReader)
+  overload: NAudio.Wave.WaveFormat.#ctor*
+  nameWithType.vb: WaveFormat.New(BinaryReader)
+  fullName.vb: NAudio.Wave.WaveFormat.New(System.IO.BinaryReader)
+  name.vb: New(BinaryReader)
+- uid: NAudio.Wave.WaveFormat.ToString
+  commentId: M:NAudio.Wave.WaveFormat.ToString
+  id: ToString
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WaveFormat.ToString()
+  fullName: NAudio.Wave.WaveFormat.ToString()
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: NAudio.Wave.WaveFormat.ToString*
+- uid: NAudio.Wave.WaveFormat.Equals(System.Object)
+  commentId: M:NAudio.Wave.WaveFormat.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: WaveFormat.Equals(object)
+  fullName: NAudio.Wave.WaveFormat.Equals(object)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: NAudio.Wave.WaveFormat.Equals*
+  nameWithType.vb: WaveFormat.Equals(Object)
+  fullName.vb: NAudio.Wave.WaveFormat.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NAudio.Wave.WaveFormat.GetHashCode
+  commentId: M:NAudio.Wave.WaveFormat.GetHashCode
+  id: GetHashCode
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: WaveFormat.GetHashCode()
+  fullName: NAudio.Wave.WaveFormat.GetHashCode()
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: NAudio.Wave.WaveFormat.GetHashCode*
+- uid: NAudio.Wave.WaveFormat.Serialize(System.IO.BinaryWriter)
+  commentId: M:NAudio.Wave.WaveFormat.Serialize(System.IO.BinaryWriter)
+  id: Serialize(System.IO.BinaryWriter)
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: Serialize(BinaryWriter)
+  nameWithType: WaveFormat.Serialize(BinaryWriter)
+  fullName: NAudio.Wave.WaveFormat.Serialize(System.IO.BinaryWriter)
+  type: Method
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public virtual void Serialize(BinaryWriter writer)
+    parameters:
+    - id: writer
+      type: System.IO.BinaryWriter
+    content.vb: Public Overridable Sub Serialize(writer As BinaryWriter)
+  overload: NAudio.Wave.WaveFormat.Serialize*
+- uid: NAudio.Wave.WaveFormat.Encoding
+  commentId: P:NAudio.Wave.WaveFormat.Encoding
+  id: Encoding
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: Encoding
+  nameWithType: WaveFormat.Encoding
+  fullName: NAudio.Wave.WaveFormat.Encoding
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public WaveFormatEncoding Encoding { get; }
+    parameters: []
+    return:
+      type: NAudio.Wave.WaveFormatEncoding
+    content.vb: Public ReadOnly Property Encoding As WaveFormatEncoding
+  overload: NAudio.Wave.WaveFormat.Encoding*
+- uid: NAudio.Wave.WaveFormat.Channels
+  commentId: P:NAudio.Wave.WaveFormat.Channels
+  id: Channels
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: Channels
+  nameWithType: WaveFormat.Channels
+  fullName: NAudio.Wave.WaveFormat.Channels
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public int Channels { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Channels As Integer
+  overload: NAudio.Wave.WaveFormat.Channels*
+- uid: NAudio.Wave.WaveFormat.SampleRate
+  commentId: P:NAudio.Wave.WaveFormat.SampleRate
+  id: SampleRate
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: SampleRate
+  nameWithType: WaveFormat.SampleRate
+  fullName: NAudio.Wave.WaveFormat.SampleRate
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public int SampleRate { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property SampleRate As Integer
+  overload: NAudio.Wave.WaveFormat.SampleRate*
+- uid: NAudio.Wave.WaveFormat.AverageBytesPerSecond
+  commentId: P:NAudio.Wave.WaveFormat.AverageBytesPerSecond
+  id: AverageBytesPerSecond
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: AverageBytesPerSecond
+  nameWithType: WaveFormat.AverageBytesPerSecond
+  fullName: NAudio.Wave.WaveFormat.AverageBytesPerSecond
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public int AverageBytesPerSecond { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property AverageBytesPerSecond As Integer
+  overload: NAudio.Wave.WaveFormat.AverageBytesPerSecond*
+- uid: NAudio.Wave.WaveFormat.BlockAlign
+  commentId: P:NAudio.Wave.WaveFormat.BlockAlign
+  id: BlockAlign
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: BlockAlign
+  nameWithType: WaveFormat.BlockAlign
+  fullName: NAudio.Wave.WaveFormat.BlockAlign
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public virtual int BlockAlign { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable ReadOnly Property BlockAlign As Integer
+  overload: NAudio.Wave.WaveFormat.BlockAlign*
+- uid: NAudio.Wave.WaveFormat.BitsPerSample
+  commentId: P:NAudio.Wave.WaveFormat.BitsPerSample
+  id: BitsPerSample
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: BitsPerSample
+  nameWithType: WaveFormat.BitsPerSample
+  fullName: NAudio.Wave.WaveFormat.BitsPerSample
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public int BitsPerSample { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BitsPerSample As Integer
+  overload: NAudio.Wave.WaveFormat.BitsPerSample*
+- uid: NAudio.Wave.WaveFormat.ExtraSize
+  commentId: P:NAudio.Wave.WaveFormat.ExtraSize
+  id: ExtraSize
+  parent: NAudio.Wave.WaveFormat
+  langs:
+  - csharp
+  - vb
+  name: ExtraSize
+  nameWithType: WaveFormat.ExtraSize
+  fullName: NAudio.Wave.WaveFormat.ExtraSize
+  type: Property
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Wave
+  syntax:
+    content: public int ExtraSize { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ExtraSize As Integer
+  overload: NAudio.Wave.WaveFormat.ExtraSize*
+references:
+- uid: NAudio.Wave
+  commentId: N:NAudio.Wave
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave
+  nameWithType: NAudio.Wave
+  fullName: NAudio.Wave
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: NAudio.Wave.WaveFormat.NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat
+  commentId: M:NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+  parent: NAudio.Wave.WaveExtensionMethods
+  definition: NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_AsStandardWaveFormat_NAudio_Wave_WaveFormat_
+  name: AsStandardWaveFormat(WaveFormat)
+  nameWithType: WaveExtensionMethods.AsStandardWaveFormat(WaveFormat)
+  fullName: NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+    name: AsStandardWaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_AsStandardWaveFormat_NAudio_Wave_WaveFormat_
+  - name: (
+  - uid: NAudio.Wave.WaveFormat
+    name: WaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+    name: AsStandardWaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_AsStandardWaveFormat_NAudio_Wave_WaveFormat_
+  - name: (
+  - uid: NAudio.Wave.WaveFormat
+    name: WaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+  commentId: M:NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_AsStandardWaveFormat_NAudio_Wave_WaveFormat_
+  name: AsStandardWaveFormat(WaveFormat)
+  nameWithType: WaveExtensionMethods.AsStandardWaveFormat(WaveFormat)
+  fullName: NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+  spec.csharp:
+  - uid: NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+    name: AsStandardWaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_AsStandardWaveFormat_NAudio_Wave_WaveFormat_
+  - name: (
+  - uid: NAudio.Wave.WaveFormat
+    name: WaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html
+  - name: )
+  spec.vb:
+  - uid: NAudio.Wave.WaveExtensionMethods.AsStandardWaveFormat(NAudio.Wave.WaveFormat)
+    name: AsStandardWaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveExtensionMethods.html#NAudio_Wave_WaveExtensionMethods_AsStandardWaveFormat_NAudio_Wave_WaveFormat_
+  - name: (
+  - uid: NAudio.Wave.WaveFormat
+    name: WaveFormat
+    isExternal: true
+    href: NAudio.Wave.WaveFormat.html
+  - name: )
+- uid: NAudio.Wave.WaveExtensionMethods
+  commentId: T:NAudio.Wave.WaveExtensionMethods
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveExtensionMethods.html
+  name: WaveExtensionMethods
+  nameWithType: WaveExtensionMethods
+  fullName: NAudio.Wave.WaveExtensionMethods
+- uid: NAudio.Wave.WaveFormatEncoding
+  commentId: T:NAudio.Wave.WaveFormatEncoding
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormatEncoding.html
+  name: WaveFormatEncoding
+  nameWithType: WaveFormatEncoding
+  fullName: NAudio.Wave.WaveFormatEncoding
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NAudio.Wave.WaveFormat.#ctor*
+  commentId: Overload:NAudio.Wave.WaveFormat.#ctor
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat__ctor
+  name: WaveFormat
+  nameWithType: WaveFormat.WaveFormat
+  fullName: NAudio.Wave.WaveFormat.WaveFormat
+  nameWithType.vb: WaveFormat.New
+  fullName.vb: NAudio.Wave.WaveFormat.New
+  name.vb: New
+- uid: NAudio.Wave.WaveFormat.ConvertLatencyToByteSize*
+  commentId: Overload:NAudio.Wave.WaveFormat.ConvertLatencyToByteSize
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_ConvertLatencyToByteSize_System_Int32_
+  name: ConvertLatencyToByteSize
+  nameWithType: WaveFormat.ConvertLatencyToByteSize
+  fullName: NAudio.Wave.WaveFormat.ConvertLatencyToByteSize
+- uid: NAudio.Wave.WaveFormat.CreateCustomFormat*
+  commentId: Overload:NAudio.Wave.WaveFormat.CreateCustomFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_CreateCustomFormat_NAudio_Wave_WaveFormatEncoding_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
+  name: CreateCustomFormat
+  nameWithType: WaveFormat.CreateCustomFormat
+  fullName: NAudio.Wave.WaveFormat.CreateCustomFormat
+- uid: NAudio.Wave.WaveFormat
+  commentId: T:NAudio.Wave.WaveFormat
+  parent: NAudio.Wave
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html
+  name: WaveFormat
+  nameWithType: WaveFormat
+  fullName: NAudio.Wave.WaveFormat
+- uid: NAudio.Wave.WaveFormat.CreateALawFormat*
+  commentId: Overload:NAudio.Wave.WaveFormat.CreateALawFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_CreateALawFormat_System_Int32_System_Int32_
+  name: CreateALawFormat
+  nameWithType: WaveFormat.CreateALawFormat
+  fullName: NAudio.Wave.WaveFormat.CreateALawFormat
+- uid: NAudio.Wave.WaveFormat.CreateMuLawFormat*
+  commentId: Overload:NAudio.Wave.WaveFormat.CreateMuLawFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_CreateMuLawFormat_System_Int32_System_Int32_
+  name: CreateMuLawFormat
+  nameWithType: WaveFormat.CreateMuLawFormat
+  fullName: NAudio.Wave.WaveFormat.CreateMuLawFormat
+- uid: NAudio.Wave.WaveFormat.CreateIeeeFloatWaveFormat*
+  commentId: Overload:NAudio.Wave.WaveFormat.CreateIeeeFloatWaveFormat
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_CreateIeeeFloatWaveFormat_System_Int32_System_Int32_
+  name: CreateIeeeFloatWaveFormat
+  nameWithType: WaveFormat.CreateIeeeFloatWaveFormat
+  fullName: NAudio.Wave.WaveFormat.CreateIeeeFloatWaveFormat
+- uid: NAudio.Wave.WaveFormat.MarshalFromPtr*
+  commentId: Overload:NAudio.Wave.WaveFormat.MarshalFromPtr
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_MarshalFromPtr_System_IntPtr_
+  name: MarshalFromPtr
+  nameWithType: WaveFormat.MarshalFromPtr
+  fullName: NAudio.Wave.WaveFormat.MarshalFromPtr
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: NAudio.Wave.WaveFormat.MarshalToPtr*
+  commentId: Overload:NAudio.Wave.WaveFormat.MarshalToPtr
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_MarshalToPtr_NAudio_Wave_WaveFormat_
+  name: MarshalToPtr
+  nameWithType: WaveFormat.MarshalToPtr
+  fullName: NAudio.Wave.WaveFormat.MarshalToPtr
+- uid: NAudio.Wave.WaveFormat.FromFormatChunk*
+  commentId: Overload:NAudio.Wave.WaveFormat.FromFormatChunk
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_FromFormatChunk_System_IO_BinaryReader_System_Int32_
+  name: FromFormatChunk
+  nameWithType: WaveFormat.FromFormatChunk
+  fullName: NAudio.Wave.WaveFormat.FromFormatChunk
+- uid: System.IO.BinaryReader
+  commentId: T:System.IO.BinaryReader
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.binaryreader
+  name: BinaryReader
+  nameWithType: BinaryReader
+  fullName: System.IO.BinaryReader
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: NAudio.Wave.WaveFormat.ToString*
+  commentId: Overload:NAudio.Wave.WaveFormat.ToString
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_ToString
+  name: ToString
+  nameWithType: WaveFormat.ToString
+  fullName: NAudio.Wave.WaveFormat.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: NAudio.Wave.WaveFormat.Equals*
+  commentId: Overload:NAudio.Wave.WaveFormat.Equals
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_Equals_System_Object_
+  name: Equals
+  nameWithType: WaveFormat.Equals
+  fullName: NAudio.Wave.WaveFormat.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: NAudio.Wave.WaveFormat.GetHashCode*
+  commentId: Overload:NAudio.Wave.WaveFormat.GetHashCode
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_GetHashCode
+  name: GetHashCode
+  nameWithType: WaveFormat.GetHashCode
+  fullName: NAudio.Wave.WaveFormat.GetHashCode
+- uid: NAudio.Wave.WaveFormat.Serialize*
+  commentId: Overload:NAudio.Wave.WaveFormat.Serialize
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_Serialize_System_IO_BinaryWriter_
+  name: Serialize
+  nameWithType: WaveFormat.Serialize
+  fullName: NAudio.Wave.WaveFormat.Serialize
+- uid: System.IO.BinaryWriter
+  commentId: T:System.IO.BinaryWriter
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.binarywriter
+  name: BinaryWriter
+  nameWithType: BinaryWriter
+  fullName: System.IO.BinaryWriter
+- uid: NAudio.Wave.WaveFormat.Encoding*
+  commentId: Overload:NAudio.Wave.WaveFormat.Encoding
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_Encoding
+  name: Encoding
+  nameWithType: WaveFormat.Encoding
+  fullName: NAudio.Wave.WaveFormat.Encoding
+- uid: NAudio.Wave.WaveFormat.Channels*
+  commentId: Overload:NAudio.Wave.WaveFormat.Channels
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_Channels
+  name: Channels
+  nameWithType: WaveFormat.Channels
+  fullName: NAudio.Wave.WaveFormat.Channels
+- uid: NAudio.Wave.WaveFormat.SampleRate*
+  commentId: Overload:NAudio.Wave.WaveFormat.SampleRate
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_SampleRate
+  name: SampleRate
+  nameWithType: WaveFormat.SampleRate
+  fullName: NAudio.Wave.WaveFormat.SampleRate
+- uid: NAudio.Wave.WaveFormat.AverageBytesPerSecond*
+  commentId: Overload:NAudio.Wave.WaveFormat.AverageBytesPerSecond
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_AverageBytesPerSecond
+  name: AverageBytesPerSecond
+  nameWithType: WaveFormat.AverageBytesPerSecond
+  fullName: NAudio.Wave.WaveFormat.AverageBytesPerSecond
+- uid: NAudio.Wave.WaveFormat.BlockAlign*
+  commentId: Overload:NAudio.Wave.WaveFormat.BlockAlign
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_BlockAlign
+  name: BlockAlign
+  nameWithType: WaveFormat.BlockAlign
+  fullName: NAudio.Wave.WaveFormat.BlockAlign
+- uid: NAudio.Wave.WaveFormat.BitsPerSample*
+  commentId: Overload:NAudio.Wave.WaveFormat.BitsPerSample
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_BitsPerSample
+  name: BitsPerSample
+  nameWithType: WaveFormat.BitsPerSample
+  fullName: NAudio.Wave.WaveFormat.BitsPerSample
+- uid: NAudio.Wave.WaveFormat.ExtraSize*
+  commentId: Overload:NAudio.Wave.WaveFormat.ExtraSize
+  isExternal: true
+  href: NAudio.Wave.WaveFormat.html#NAudio_Wave_WaveFormat_ExtraSize
+  name: ExtraSize
+  nameWithType: WaveFormat.ExtraSize
+  fullName: NAudio.Wave.WaveFormat.ExtraSize

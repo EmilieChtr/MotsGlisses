@@ -1,0 +1,474 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wave.Asio.AsioCallbacks
+  commentId: T:NAudio.Wave.Asio.AsioCallbacks
+  id: AsioCallbacks
+  parent: NAudio.Wave.Asio
+  children:
+  - NAudio.Wave.Asio.AsioCallbacks.pasioMessage
+  - NAudio.Wave.Asio.AsioCallbacks.pbufferSwitch
+  - NAudio.Wave.Asio.AsioCallbacks.pbufferSwitchTimeInfo
+  - NAudio.Wave.Asio.AsioCallbacks.psampleRateDidChange
+  langs:
+  - csharp
+  - vb
+  name: AsioCallbacks
+  nameWithType: AsioCallbacks
+  fullName: NAudio.Wave.Asio.AsioCallbacks
+  type: Struct
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public struct AsioCallbacks
+    content.vb: Public Structure AsioCallbacks
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NAudio.Wave.Asio.AsioCallbacks.pbufferSwitch
+  commentId: F:NAudio.Wave.Asio.AsioCallbacks.pbufferSwitch
+  id: pbufferSwitch
+  parent: NAudio.Wave.Asio.AsioCallbacks
+  langs:
+  - csharp
+  - vb
+  name: pbufferSwitch
+  nameWithType: AsioCallbacks.pbufferSwitch
+  fullName: NAudio.Wave.Asio.AsioCallbacks.pbufferSwitch
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public AsioCallbacks.AsioBufferSwitchCallBack pbufferSwitch
+    return:
+      type: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+    content.vb: Public pbufferSwitch As AsioCallbacks.AsioBufferSwitchCallBack
+- uid: NAudio.Wave.Asio.AsioCallbacks.psampleRateDidChange
+  commentId: F:NAudio.Wave.Asio.AsioCallbacks.psampleRateDidChange
+  id: psampleRateDidChange
+  parent: NAudio.Wave.Asio.AsioCallbacks
+  langs:
+  - csharp
+  - vb
+  name: psampleRateDidChange
+  nameWithType: AsioCallbacks.psampleRateDidChange
+  fullName: NAudio.Wave.Asio.AsioCallbacks.psampleRateDidChange
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public AsioCallbacks.AsioSampleRateDidChangeCallBack psampleRateDidChange
+    return:
+      type: NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack
+    content.vb: Public psampleRateDidChange As AsioCallbacks.AsioSampleRateDidChangeCallBack
+- uid: NAudio.Wave.Asio.AsioCallbacks.pasioMessage
+  commentId: F:NAudio.Wave.Asio.AsioCallbacks.pasioMessage
+  id: pasioMessage
+  parent: NAudio.Wave.Asio.AsioCallbacks
+  langs:
+  - csharp
+  - vb
+  name: pasioMessage
+  nameWithType: AsioCallbacks.pasioMessage
+  fullName: NAudio.Wave.Asio.AsioCallbacks.pasioMessage
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public AsioCallbacks.AsioAsioMessageCallBack pasioMessage
+    return:
+      type: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+    content.vb: Public pasioMessage As AsioCallbacks.AsioAsioMessageCallBack
+- uid: NAudio.Wave.Asio.AsioCallbacks.pbufferSwitchTimeInfo
+  commentId: F:NAudio.Wave.Asio.AsioCallbacks.pbufferSwitchTimeInfo
+  id: pbufferSwitchTimeInfo
+  parent: NAudio.Wave.Asio.AsioCallbacks
+  langs:
+  - csharp
+  - vb
+  name: pbufferSwitchTimeInfo
+  nameWithType: AsioCallbacks.pbufferSwitchTimeInfo
+  fullName: NAudio.Wave.Asio.AsioCallbacks.pbufferSwitchTimeInfo
+  type: Field
+  assemblies:
+  - NAudio.Asio
+  namespace: NAudio.Wave.Asio
+  syntax:
+    content: public AsioCallbacks.AsioBufferSwitchTimeInfoCallBack pbufferSwitchTimeInfo
+    return:
+      type: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+    content.vb: Public pbufferSwitchTimeInfo As AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+references:
+- uid: NAudio.Wave.Asio
+  commentId: N:NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wave.Asio
+  nameWithType: NAudio.Wave.Asio
+  fullName: NAudio.Wave.Asio
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Asio
+    name: Asio
+    isExternal: true
+    href: NAudio.Wave.Asio.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wave
+    name: Wave
+    isExternal: true
+    href: NAudio.Wave.html
+  - name: .
+  - uid: NAudio.Wave.Asio
+    name: Asio
+    isExternal: true
+    href: NAudio.Wave.Asio.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+  commentId: T:NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.html
+  name: AsioCallbacks.AsioBufferSwitchCallBack
+  nameWithType: AsioCallbacks.AsioBufferSwitchCallBack
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+  spec.csharp:
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.html
+  - name: .
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+    name: AsioBufferSwitchCallBack
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.html
+  spec.vb:
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.html
+  - name: .
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack
+    name: AsioBufferSwitchCallBack
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchCallBack.html
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack
+  commentId: T:NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.html
+  name: AsioCallbacks.AsioSampleRateDidChangeCallBack
+  nameWithType: AsioCallbacks.AsioSampleRateDidChangeCallBack
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack
+  spec.csharp:
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.html
+  - name: .
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack
+    name: AsioSampleRateDidChangeCallBack
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack.html
+  spec.vb:
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.html
+  - name: .
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack
+    name: AsioSampleRateDidChangeCallBack
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.AsioSampleRateDidChangeCallBack.html
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+  commentId: T:NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.html
+  name: AsioCallbacks.AsioAsioMessageCallBack
+  nameWithType: AsioCallbacks.AsioAsioMessageCallBack
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+  spec.csharp:
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.html
+  - name: .
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+    name: AsioAsioMessageCallBack
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.html
+  spec.vb:
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.html
+  - name: .
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack
+    name: AsioAsioMessageCallBack
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.AsioAsioMessageCallBack.html
+- uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+  commentId: T:NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+  parent: NAudio.Wave.Asio
+  isExternal: true
+  href: NAudio.Wave.Asio.AsioCallbacks.html
+  name: AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+  nameWithType: AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+  fullName: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+  spec.csharp:
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.html
+  - name: .
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+    name: AsioBufferSwitchTimeInfoCallBack
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack.html
+  spec.vb:
+  - uid: NAudio.Wave.Asio.AsioCallbacks
+    name: AsioCallbacks
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.html
+  - name: .
+  - uid: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack
+    name: AsioBufferSwitchTimeInfoCallBack
+    isExternal: true
+    href: NAudio.Wave.Asio.AsioCallbacks.AsioBufferSwitchTimeInfoCallBack.html

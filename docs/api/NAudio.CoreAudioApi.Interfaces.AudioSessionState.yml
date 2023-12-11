@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+  commentId: T:NAudio.CoreAudioApi.Interfaces.AudioSessionState
+  id: AudioSessionState
+  parent: NAudio.CoreAudioApi.Interfaces
+  children:
+  - NAudio.CoreAudioApi.Interfaces.AudioSessionState.AudioSessionStateActive
+  - NAudio.CoreAudioApi.Interfaces.AudioSessionState.AudioSessionStateExpired
+  - NAudio.CoreAudioApi.Interfaces.AudioSessionState.AudioSessionStateInactive
+  langs:
+  - csharp
+  - vb
+  name: AudioSessionState
+  nameWithType: AudioSessionState
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: public enum AudioSessionState
+    content.vb: Public Enum AudioSessionState
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionState.AudioSessionStateInactive
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioSessionState.AudioSessionStateInactive
+  id: AudioSessionStateInactive
+  parent: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+  langs:
+  - csharp
+  - vb
+  name: AudioSessionStateInactive
+  nameWithType: AudioSessionState.AudioSessionStateInactive
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionState.AudioSessionStateInactive
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: AudioSessionStateInactive = 0
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionState.AudioSessionStateActive
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioSessionState.AudioSessionStateActive
+  id: AudioSessionStateActive
+  parent: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+  langs:
+  - csharp
+  - vb
+  name: AudioSessionStateActive
+  nameWithType: AudioSessionState.AudioSessionStateActive
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionState.AudioSessionStateActive
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: AudioSessionStateActive = 1
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionState.AudioSessionStateExpired
+  commentId: F:NAudio.CoreAudioApi.Interfaces.AudioSessionState.AudioSessionStateExpired
+  id: AudioSessionStateExpired
+  parent: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+  langs:
+  - csharp
+  - vb
+  name: AudioSessionStateExpired
+  nameWithType: AudioSessionState.AudioSessionStateExpired
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionState.AudioSessionStateExpired
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi.Interfaces
+  syntax:
+    content: AudioSessionStateExpired = 2
+    return:
+      type: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+references:
+- uid: NAudio.CoreAudioApi.Interfaces
+  commentId: N:NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi.Interfaces
+  nameWithType: NAudio.CoreAudioApi.Interfaces
+  fullName: NAudio.CoreAudioApi.Interfaces
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  - name: .
+  - uid: NAudio.CoreAudioApi.Interfaces
+    name: Interfaces
+    isExternal: true
+    href: NAudio.CoreAudioApi.Interfaces.html
+- uid: NAudio.CoreAudioApi.Interfaces.AudioSessionState
+  commentId: T:NAudio.CoreAudioApi.Interfaces.AudioSessionState
+  parent: NAudio.CoreAudioApi.Interfaces
+  isExternal: true
+  href: NAudio.CoreAudioApi.Interfaces.AudioSessionState.html
+  name: AudioSessionState
+  nameWithType: AudioSessionState
+  fullName: NAudio.CoreAudioApi.Interfaces.AudioSessionState

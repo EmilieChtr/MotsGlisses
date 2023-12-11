@@ -1,0 +1,436 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Mixer.MixerLineComponentType
+  commentId: T:NAudio.Mixer.MixerLineComponentType
+  id: MixerLineComponentType
+  parent: NAudio.Mixer
+  children:
+  - NAudio.Mixer.MixerLineComponentType.DestinationDigital
+  - NAudio.Mixer.MixerLineComponentType.DestinationHeadphones
+  - NAudio.Mixer.MixerLineComponentType.DestinationLine
+  - NAudio.Mixer.MixerLineComponentType.DestinationMonitor
+  - NAudio.Mixer.MixerLineComponentType.DestinationSpeakers
+  - NAudio.Mixer.MixerLineComponentType.DestinationTelephone
+  - NAudio.Mixer.MixerLineComponentType.DestinationUndefined
+  - NAudio.Mixer.MixerLineComponentType.DestinationVoiceIn
+  - NAudio.Mixer.MixerLineComponentType.DestinationWaveIn
+  - NAudio.Mixer.MixerLineComponentType.SourceAnalog
+  - NAudio.Mixer.MixerLineComponentType.SourceAuxiliary
+  - NAudio.Mixer.MixerLineComponentType.SourceCompactDisc
+  - NAudio.Mixer.MixerLineComponentType.SourceDigital
+  - NAudio.Mixer.MixerLineComponentType.SourceLine
+  - NAudio.Mixer.MixerLineComponentType.SourceMicrophone
+  - NAudio.Mixer.MixerLineComponentType.SourcePcSpeaker
+  - NAudio.Mixer.MixerLineComponentType.SourceSynthesizer
+  - NAudio.Mixer.MixerLineComponentType.SourceTelephone
+  - NAudio.Mixer.MixerLineComponentType.SourceUndefined
+  - NAudio.Mixer.MixerLineComponentType.SourceWaveOut
+  langs:
+  - csharp
+  - vb
+  name: MixerLineComponentType
+  nameWithType: MixerLineComponentType
+  fullName: NAudio.Mixer.MixerLineComponentType
+  type: Enum
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: public enum MixerLineComponentType
+    content.vb: Public Enum MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.DestinationUndefined
+  commentId: F:NAudio.Mixer.MixerLineComponentType.DestinationUndefined
+  id: DestinationUndefined
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: DestinationUndefined
+  nameWithType: MixerLineComponentType.DestinationUndefined
+  fullName: NAudio.Mixer.MixerLineComponentType.DestinationUndefined
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: DestinationUndefined = 0
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.DestinationDigital
+  commentId: F:NAudio.Mixer.MixerLineComponentType.DestinationDigital
+  id: DestinationDigital
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: DestinationDigital
+  nameWithType: MixerLineComponentType.DestinationDigital
+  fullName: NAudio.Mixer.MixerLineComponentType.DestinationDigital
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: DestinationDigital = 1
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.DestinationLine
+  commentId: F:NAudio.Mixer.MixerLineComponentType.DestinationLine
+  id: DestinationLine
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: DestinationLine
+  nameWithType: MixerLineComponentType.DestinationLine
+  fullName: NAudio.Mixer.MixerLineComponentType.DestinationLine
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: DestinationLine = 2
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.DestinationMonitor
+  commentId: F:NAudio.Mixer.MixerLineComponentType.DestinationMonitor
+  id: DestinationMonitor
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: DestinationMonitor
+  nameWithType: MixerLineComponentType.DestinationMonitor
+  fullName: NAudio.Mixer.MixerLineComponentType.DestinationMonitor
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: DestinationMonitor = 3
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.DestinationSpeakers
+  commentId: F:NAudio.Mixer.MixerLineComponentType.DestinationSpeakers
+  id: DestinationSpeakers
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: DestinationSpeakers
+  nameWithType: MixerLineComponentType.DestinationSpeakers
+  fullName: NAudio.Mixer.MixerLineComponentType.DestinationSpeakers
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: DestinationSpeakers = 4
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.DestinationHeadphones
+  commentId: F:NAudio.Mixer.MixerLineComponentType.DestinationHeadphones
+  id: DestinationHeadphones
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: DestinationHeadphones
+  nameWithType: MixerLineComponentType.DestinationHeadphones
+  fullName: NAudio.Mixer.MixerLineComponentType.DestinationHeadphones
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: DestinationHeadphones = 5
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.DestinationTelephone
+  commentId: F:NAudio.Mixer.MixerLineComponentType.DestinationTelephone
+  id: DestinationTelephone
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: DestinationTelephone
+  nameWithType: MixerLineComponentType.DestinationTelephone
+  fullName: NAudio.Mixer.MixerLineComponentType.DestinationTelephone
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: DestinationTelephone = 6
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.DestinationWaveIn
+  commentId: F:NAudio.Mixer.MixerLineComponentType.DestinationWaveIn
+  id: DestinationWaveIn
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: DestinationWaveIn
+  nameWithType: MixerLineComponentType.DestinationWaveIn
+  fullName: NAudio.Mixer.MixerLineComponentType.DestinationWaveIn
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: DestinationWaveIn = 7
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.DestinationVoiceIn
+  commentId: F:NAudio.Mixer.MixerLineComponentType.DestinationVoiceIn
+  id: DestinationVoiceIn
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: DestinationVoiceIn
+  nameWithType: MixerLineComponentType.DestinationVoiceIn
+  fullName: NAudio.Mixer.MixerLineComponentType.DestinationVoiceIn
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: DestinationVoiceIn = 8
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.SourceUndefined
+  commentId: F:NAudio.Mixer.MixerLineComponentType.SourceUndefined
+  id: SourceUndefined
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: SourceUndefined
+  nameWithType: MixerLineComponentType.SourceUndefined
+  fullName: NAudio.Mixer.MixerLineComponentType.SourceUndefined
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: SourceUndefined = 4096
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.SourceDigital
+  commentId: F:NAudio.Mixer.MixerLineComponentType.SourceDigital
+  id: SourceDigital
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: SourceDigital
+  nameWithType: MixerLineComponentType.SourceDigital
+  fullName: NAudio.Mixer.MixerLineComponentType.SourceDigital
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: SourceDigital = 4097
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.SourceLine
+  commentId: F:NAudio.Mixer.MixerLineComponentType.SourceLine
+  id: SourceLine
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: SourceLine
+  nameWithType: MixerLineComponentType.SourceLine
+  fullName: NAudio.Mixer.MixerLineComponentType.SourceLine
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: SourceLine = 4098
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.SourceMicrophone
+  commentId: F:NAudio.Mixer.MixerLineComponentType.SourceMicrophone
+  id: SourceMicrophone
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: SourceMicrophone
+  nameWithType: MixerLineComponentType.SourceMicrophone
+  fullName: NAudio.Mixer.MixerLineComponentType.SourceMicrophone
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: SourceMicrophone = 4099
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.SourceSynthesizer
+  commentId: F:NAudio.Mixer.MixerLineComponentType.SourceSynthesizer
+  id: SourceSynthesizer
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: SourceSynthesizer
+  nameWithType: MixerLineComponentType.SourceSynthesizer
+  fullName: NAudio.Mixer.MixerLineComponentType.SourceSynthesizer
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: SourceSynthesizer = 4100
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.SourceCompactDisc
+  commentId: F:NAudio.Mixer.MixerLineComponentType.SourceCompactDisc
+  id: SourceCompactDisc
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: SourceCompactDisc
+  nameWithType: MixerLineComponentType.SourceCompactDisc
+  fullName: NAudio.Mixer.MixerLineComponentType.SourceCompactDisc
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: SourceCompactDisc = 4101
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.SourceTelephone
+  commentId: F:NAudio.Mixer.MixerLineComponentType.SourceTelephone
+  id: SourceTelephone
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: SourceTelephone
+  nameWithType: MixerLineComponentType.SourceTelephone
+  fullName: NAudio.Mixer.MixerLineComponentType.SourceTelephone
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: SourceTelephone = 4102
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.SourcePcSpeaker
+  commentId: F:NAudio.Mixer.MixerLineComponentType.SourcePcSpeaker
+  id: SourcePcSpeaker
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: SourcePcSpeaker
+  nameWithType: MixerLineComponentType.SourcePcSpeaker
+  fullName: NAudio.Mixer.MixerLineComponentType.SourcePcSpeaker
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: SourcePcSpeaker = 4103
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.SourceWaveOut
+  commentId: F:NAudio.Mixer.MixerLineComponentType.SourceWaveOut
+  id: SourceWaveOut
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: SourceWaveOut
+  nameWithType: MixerLineComponentType.SourceWaveOut
+  fullName: NAudio.Mixer.MixerLineComponentType.SourceWaveOut
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: SourceWaveOut = 4104
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.SourceAuxiliary
+  commentId: F:NAudio.Mixer.MixerLineComponentType.SourceAuxiliary
+  id: SourceAuxiliary
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: SourceAuxiliary
+  nameWithType: MixerLineComponentType.SourceAuxiliary
+  fullName: NAudio.Mixer.MixerLineComponentType.SourceAuxiliary
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: SourceAuxiliary = 4105
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+- uid: NAudio.Mixer.MixerLineComponentType.SourceAnalog
+  commentId: F:NAudio.Mixer.MixerLineComponentType.SourceAnalog
+  id: SourceAnalog
+  parent: NAudio.Mixer.MixerLineComponentType
+  langs:
+  - csharp
+  - vb
+  name: SourceAnalog
+  nameWithType: MixerLineComponentType.SourceAnalog
+  fullName: NAudio.Mixer.MixerLineComponentType.SourceAnalog
+  type: Field
+  assemblies:
+  - NAudio.WinMM
+  namespace: NAudio.Mixer
+  syntax:
+    content: SourceAnalog = 4106
+    return:
+      type: NAudio.Mixer.MixerLineComponentType
+references:
+- uid: NAudio.Mixer
+  commentId: N:NAudio.Mixer
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Mixer
+  nameWithType: NAudio.Mixer
+  fullName: NAudio.Mixer
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Mixer
+    name: Mixer
+    isExternal: true
+    href: NAudio.Mixer.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Mixer
+    name: Mixer
+    isExternal: true
+    href: NAudio.Mixer.html
+- uid: NAudio.Mixer.MixerLineComponentType
+  commentId: T:NAudio.Mixer.MixerLineComponentType
+  parent: NAudio.Mixer
+  isExternal: true
+  href: NAudio.Mixer.MixerLineComponentType.html
+  name: MixerLineComponentType
+  nameWithType: MixerLineComponentType
+  fullName: NAudio.Mixer.MixerLineComponentType

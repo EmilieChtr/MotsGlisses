@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS
+  commentId: T:NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS
+  id: _MFT_OUTPUT_DATA_BUFFER_FLAGS
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE
+  - NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_INCOMPLETE
+  - NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE
+  - NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_STREAM_END
+  - NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.None
+  langs:
+  - csharp
+  - vb
+  name: _MFT_OUTPUT_DATA_BUFFER_FLAGS
+  nameWithType: _MFT_OUTPUT_DATA_BUFFER_FLAGS
+  fullName: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum _MFT_OUTPUT_DATA_BUFFER_FLAGS
+    content.vb: >-
+      <Flags>
+
+      Public Enum _MFT_OUTPUT_DATA_BUFFER_FLAGS
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.None
+  commentId: F:NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.None
+  id: None
+  parent: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: _MFT_OUTPUT_DATA_BUFFER_FLAGS.None
+  fullName: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.None
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: None = 0
+    return:
+      type: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS
+- uid: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_INCOMPLETE
+  commentId: F:NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_INCOMPLETE
+  id: MFT_OUTPUT_DATA_BUFFER_INCOMPLETE
+  parent: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: MFT_OUTPUT_DATA_BUFFER_INCOMPLETE
+  nameWithType: _MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_INCOMPLETE
+  fullName: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_INCOMPLETE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_OUTPUT_DATA_BUFFER_INCOMPLETE = 16777216
+    return:
+      type: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS
+- uid: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE
+  commentId: F:NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE
+  id: MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE
+  parent: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE
+  nameWithType: _MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE
+  fullName: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE = 256
+    return:
+      type: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS
+- uid: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_STREAM_END
+  commentId: F:NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_STREAM_END
+  id: MFT_OUTPUT_DATA_BUFFER_STREAM_END
+  parent: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: MFT_OUTPUT_DATA_BUFFER_STREAM_END
+  nameWithType: _MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_STREAM_END
+  fullName: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_STREAM_END
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_OUTPUT_DATA_BUFFER_STREAM_END = 512
+    return:
+      type: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS
+- uid: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE
+  commentId: F:NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE
+  id: MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE
+  parent: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE
+  nameWithType: _MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE
+  fullName: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE = MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE | MFT_OUTPUT_DATA_BUFFER_STREAM_END
+    return:
+      type: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS
+    content.vb: MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE = MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE Or MFT_OUTPUT_DATA_BUFFER_STREAM_END
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS
+  commentId: T:NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS.html
+  name: _MFT_OUTPUT_DATA_BUFFER_FLAGS
+  nameWithType: _MFT_OUTPUT_DATA_BUFFER_FLAGS
+  fullName: NAudio.MediaFoundation._MFT_OUTPUT_DATA_BUFFER_FLAGS

@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS
+  commentId: T:NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS
+  id: _MFT_OUTPUT_STATUS_FLAGS
+  parent: NAudio.MediaFoundation
+  children:
+  - NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS.MFT_OUTPUT_STATUS_SAMPLE_READY
+  - NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS.None
+  langs:
+  - csharp
+  - vb
+  name: _MFT_OUTPUT_STATUS_FLAGS
+  nameWithType: _MFT_OUTPUT_STATUS_FLAGS
+  fullName: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum _MFT_OUTPUT_STATUS_FLAGS
+    content.vb: >-
+      <Flags>
+
+      Public Enum _MFT_OUTPUT_STATUS_FLAGS
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS.None
+  commentId: F:NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS.None
+  id: None
+  parent: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: _MFT_OUTPUT_STATUS_FLAGS.None
+  fullName: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS.None
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: None = 0
+    return:
+      type: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS
+- uid: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS.MFT_OUTPUT_STATUS_SAMPLE_READY
+  commentId: F:NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS.MFT_OUTPUT_STATUS_SAMPLE_READY
+  id: MFT_OUTPUT_STATUS_SAMPLE_READY
+  parent: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS
+  langs:
+  - csharp
+  - vb
+  name: MFT_OUTPUT_STATUS_SAMPLE_READY
+  nameWithType: _MFT_OUTPUT_STATUS_FLAGS.MFT_OUTPUT_STATUS_SAMPLE_READY
+  fullName: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS.MFT_OUTPUT_STATUS_SAMPLE_READY
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.MediaFoundation
+  syntax:
+    content: MFT_OUTPUT_STATUS_SAMPLE_READY = 1
+    return:
+      type: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS
+references:
+- uid: NAudio.MediaFoundation
+  commentId: N:NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.MediaFoundation
+  nameWithType: NAudio.MediaFoundation
+  fullName: NAudio.MediaFoundation
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.MediaFoundation
+    name: MediaFoundation
+    isExternal: true
+    href: NAudio.MediaFoundation.html
+- uid: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS
+  commentId: T:NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS
+  parent: NAudio.MediaFoundation
+  isExternal: true
+  href: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS.html
+  name: _MFT_OUTPUT_STATUS_FLAGS
+  nameWithType: _MFT_OUTPUT_STATUS_FLAGS
+  fullName: NAudio.MediaFoundation._MFT_OUTPUT_STATUS_FLAGS

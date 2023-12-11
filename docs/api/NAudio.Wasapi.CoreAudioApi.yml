@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Wasapi.CoreAudioApi
+  commentId: N:NAudio.Wasapi.CoreAudioApi
+  id: NAudio.Wasapi.CoreAudioApi
+  children:
+  - NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+  langs:
+  - csharp
+  - vb
+  name: NAudio.Wasapi.CoreAudioApi
+  nameWithType: NAudio.Wasapi.CoreAudioApi
+  fullName: NAudio.Wasapi.CoreAudioApi
+  type: Namespace
+  assemblies:
+  - NAudio.Wasapi
+references:
+- uid: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+  commentId: T:NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+  parent: NAudio.Wasapi.CoreAudioApi
+  isExternal: true
+  href: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel.html
+  name: AudioVolumeLevel
+  nameWithType: AudioVolumeLevel
+  fullName: NAudio.Wasapi.CoreAudioApi.AudioVolumeLevel
+- uid: NAudio.Wasapi.CoreAudioApi
+  commentId: N:NAudio.Wasapi.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Wasapi.CoreAudioApi
+  nameWithType: NAudio.Wasapi.CoreAudioApi
+  fullName: NAudio.Wasapi.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wasapi
+    name: Wasapi
+    isExternal: true
+    href: NAudio.Wasapi.html
+  - name: .
+  - uid: NAudio.Wasapi.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.Wasapi.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Wasapi
+    name: Wasapi
+    isExternal: true
+    href: NAudio.Wasapi.html
+  - name: .
+  - uid: NAudio.Wasapi.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.Wasapi.CoreAudioApi.html

@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.FileFormats.Wav
+  commentId: N:NAudio.FileFormats.Wav
+  id: NAudio.FileFormats.Wav
+  children:
+  - NAudio.FileFormats.Wav.WaveFileChunkReader
+  langs:
+  - csharp
+  - vb
+  name: NAudio.FileFormats.Wav
+  nameWithType: NAudio.FileFormats.Wav
+  fullName: NAudio.FileFormats.Wav
+  type: Namespace
+  assemblies:
+  - NAudio.Core
+references:
+- uid: NAudio.FileFormats.Wav.WaveFileChunkReader
+  commentId: T:NAudio.FileFormats.Wav.WaveFileChunkReader
+  isExternal: true
+  href: NAudio.FileFormats.Wav.WaveFileChunkReader.html
+  name: WaveFileChunkReader
+  nameWithType: WaveFileChunkReader
+  fullName: NAudio.FileFormats.Wav.WaveFileChunkReader

@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Codecs.G722Flags
+  commentId: T:NAudio.Codecs.G722Flags
+  id: G722Flags
+  parent: NAudio.Codecs
+  children:
+  - NAudio.Codecs.G722Flags.None
+  - NAudio.Codecs.G722Flags.Packed
+  - NAudio.Codecs.G722Flags.SampleRate8000
+  langs:
+  - csharp
+  - vb
+  name: G722Flags
+  nameWithType: G722Flags
+  fullName: NAudio.Codecs.G722Flags
+  type: Enum
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum G722Flags
+    content.vb: >-
+      <Flags>
+
+      Public Enum G722Flags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.Codecs.G722Flags.None
+  commentId: F:NAudio.Codecs.G722Flags.None
+  id: None
+  parent: NAudio.Codecs.G722Flags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: G722Flags.None
+  fullName: NAudio.Codecs.G722Flags.None
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: None = 0
+    return:
+      type: NAudio.Codecs.G722Flags
+- uid: NAudio.Codecs.G722Flags.SampleRate8000
+  commentId: F:NAudio.Codecs.G722Flags.SampleRate8000
+  id: SampleRate8000
+  parent: NAudio.Codecs.G722Flags
+  langs:
+  - csharp
+  - vb
+  name: SampleRate8000
+  nameWithType: G722Flags.SampleRate8000
+  fullName: NAudio.Codecs.G722Flags.SampleRate8000
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: SampleRate8000 = 1
+    return:
+      type: NAudio.Codecs.G722Flags
+- uid: NAudio.Codecs.G722Flags.Packed
+  commentId: F:NAudio.Codecs.G722Flags.Packed
+  id: Packed
+  parent: NAudio.Codecs.G722Flags
+  langs:
+  - csharp
+  - vb
+  name: Packed
+  nameWithType: G722Flags.Packed
+  fullName: NAudio.Codecs.G722Flags.Packed
+  type: Field
+  assemblies:
+  - NAudio.Core
+  namespace: NAudio.Codecs
+  syntax:
+    content: Packed = 2
+    return:
+      type: NAudio.Codecs.G722Flags
+references:
+- uid: NAudio.Codecs
+  commentId: N:NAudio.Codecs
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Codecs
+  nameWithType: NAudio.Codecs
+  fullName: NAudio.Codecs
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Codecs
+    name: Codecs
+    isExternal: true
+    href: NAudio.Codecs.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Codecs
+    name: Codecs
+    isExternal: true
+    href: NAudio.Codecs.html
+- uid: NAudio.Codecs.G722Flags
+  commentId: T:NAudio.Codecs.G722Flags
+  parent: NAudio.Codecs
+  isExternal: true
+  href: NAudio.Codecs.G722Flags.html
+  name: G722Flags
+  nameWithType: G722Flags
+  fullName: NAudio.Codecs.G722Flags

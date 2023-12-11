@@ -1,0 +1,471 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.SimpleAudioVolume
+  commentId: T:NAudio.CoreAudioApi.SimpleAudioVolume
+  id: SimpleAudioVolume
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.SimpleAudioVolume.Dispose
+  - NAudio.CoreAudioApi.SimpleAudioVolume.Finalize
+  - NAudio.CoreAudioApi.SimpleAudioVolume.Mute
+  - NAudio.CoreAudioApi.SimpleAudioVolume.Volume
+  langs:
+  - csharp
+  - vb
+  name: SimpleAudioVolume
+  nameWithType: SimpleAudioVolume
+  fullName: NAudio.CoreAudioApi.SimpleAudioVolume
+  type: Class
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: 'public class SimpleAudioVolume : IDisposable'
+    content.vb: Public Class SimpleAudioVolume Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: NAudio.CoreAudioApi.SimpleAudioVolume.Dispose
+  commentId: M:NAudio.CoreAudioApi.SimpleAudioVolume.Dispose
+  id: Dispose
+  parent: NAudio.CoreAudioApi.SimpleAudioVolume
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SimpleAudioVolume.Dispose()
+  fullName: NAudio.CoreAudioApi.SimpleAudioVolume.Dispose()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: NAudio.CoreAudioApi.SimpleAudioVolume.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: NAudio.CoreAudioApi.SimpleAudioVolume.Finalize
+  commentId: M:NAudio.CoreAudioApi.SimpleAudioVolume.Finalize
+  id: Finalize
+  parent: NAudio.CoreAudioApi.SimpleAudioVolume
+  langs:
+  - csharp
+  - vb
+  name: ~SimpleAudioVolume()
+  nameWithType: SimpleAudioVolume.~SimpleAudioVolume()
+  fullName: NAudio.CoreAudioApi.SimpleAudioVolume.~SimpleAudioVolume()
+  type: Method
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: protected ~SimpleAudioVolume()
+    content.vb: 'Protected '
+  overload: NAudio.CoreAudioApi.SimpleAudioVolume.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: NAudio.CoreAudioApi.SimpleAudioVolume.Volume
+  commentId: P:NAudio.CoreAudioApi.SimpleAudioVolume.Volume
+  id: Volume
+  parent: NAudio.CoreAudioApi.SimpleAudioVolume
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: SimpleAudioVolume.Volume
+  fullName: NAudio.CoreAudioApi.SimpleAudioVolume.Volume
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public float Volume { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Volume As Single
+  overload: NAudio.CoreAudioApi.SimpleAudioVolume.Volume*
+- uid: NAudio.CoreAudioApi.SimpleAudioVolume.Mute
+  commentId: P:NAudio.CoreAudioApi.SimpleAudioVolume.Mute
+  id: Mute
+  parent: NAudio.CoreAudioApi.SimpleAudioVolume
+  langs:
+  - csharp
+  - vb
+  name: Mute
+  nameWithType: SimpleAudioVolume.Mute
+  fullName: NAudio.CoreAudioApi.SimpleAudioVolume.Mute
+  type: Property
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: public bool Mute { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Mute As Boolean
+  overload: NAudio.CoreAudioApi.SimpleAudioVolume.Mute*
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.CoreAudioApi.SimpleAudioVolume.Dispose*
+  commentId: Overload:NAudio.CoreAudioApi.SimpleAudioVolume.Dispose
+  isExternal: true
+  href: NAudio.CoreAudioApi.SimpleAudioVolume.html#NAudio_CoreAudioApi_SimpleAudioVolume_Dispose
+  name: Dispose
+  nameWithType: SimpleAudioVolume.Dispose
+  fullName: NAudio.CoreAudioApi.SimpleAudioVolume.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: NAudio.CoreAudioApi.SimpleAudioVolume.Finalize*
+  commentId: Overload:NAudio.CoreAudioApi.SimpleAudioVolume.Finalize
+  isExternal: true
+  href: NAudio.CoreAudioApi.SimpleAudioVolume.html#NAudio_CoreAudioApi_SimpleAudioVolume_Finalize
+  name: ~SimpleAudioVolume
+  nameWithType: SimpleAudioVolume.~SimpleAudioVolume
+  fullName: NAudio.CoreAudioApi.SimpleAudioVolume.~SimpleAudioVolume
+  spec.csharp:
+  - name: "~"
+  - uid: NAudio.CoreAudioApi.SimpleAudioVolume.Finalize*
+    name: SimpleAudioVolume
+    isExternal: true
+    href: NAudio.CoreAudioApi.SimpleAudioVolume.html#NAudio_CoreAudioApi_SimpleAudioVolume_Finalize
+- uid: NAudio.CoreAudioApi.SimpleAudioVolume.Volume*
+  commentId: Overload:NAudio.CoreAudioApi.SimpleAudioVolume.Volume
+  isExternal: true
+  href: NAudio.CoreAudioApi.SimpleAudioVolume.html#NAudio_CoreAudioApi_SimpleAudioVolume_Volume
+  name: Volume
+  nameWithType: SimpleAudioVolume.Volume
+  fullName: NAudio.CoreAudioApi.SimpleAudioVolume.Volume
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: NAudio.CoreAudioApi.SimpleAudioVolume.Mute*
+  commentId: Overload:NAudio.CoreAudioApi.SimpleAudioVolume.Mute
+  isExternal: true
+  href: NAudio.CoreAudioApi.SimpleAudioVolume.html#NAudio_CoreAudioApi_SimpleAudioVolume_Mute
+  name: Mute
+  nameWithType: SimpleAudioVolume.Mute
+  fullName: NAudio.CoreAudioApi.SimpleAudioVolume.Mute
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

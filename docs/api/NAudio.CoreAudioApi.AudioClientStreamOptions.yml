@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.CoreAudioApi.AudioClientStreamOptions
+  commentId: T:NAudio.CoreAudioApi.AudioClientStreamOptions
+  id: AudioClientStreamOptions
+  parent: NAudio.CoreAudioApi
+  children:
+  - NAudio.CoreAudioApi.AudioClientStreamOptions.Ambisonics
+  - NAudio.CoreAudioApi.AudioClientStreamOptions.MatchFormat
+  - NAudio.CoreAudioApi.AudioClientStreamOptions.None
+  - NAudio.CoreAudioApi.AudioClientStreamOptions.Raw
+  langs:
+  - csharp
+  - vb
+  name: AudioClientStreamOptions
+  nameWithType: AudioClientStreamOptions
+  fullName: NAudio.CoreAudioApi.AudioClientStreamOptions
+  type: Enum
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum AudioClientStreamOptions
+    content.vb: >-
+      <Flags>
+
+      Public Enum AudioClientStreamOptions
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: NAudio.CoreAudioApi.AudioClientStreamOptions.None
+  commentId: F:NAudio.CoreAudioApi.AudioClientStreamOptions.None
+  id: None
+  parent: NAudio.CoreAudioApi.AudioClientStreamOptions
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AudioClientStreamOptions.None
+  fullName: NAudio.CoreAudioApi.AudioClientStreamOptions.None
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: None = 0
+    return:
+      type: NAudio.CoreAudioApi.AudioClientStreamOptions
+- uid: NAudio.CoreAudioApi.AudioClientStreamOptions.Raw
+  commentId: F:NAudio.CoreAudioApi.AudioClientStreamOptions.Raw
+  id: Raw
+  parent: NAudio.CoreAudioApi.AudioClientStreamOptions
+  langs:
+  - csharp
+  - vb
+  name: Raw
+  nameWithType: AudioClientStreamOptions.Raw
+  fullName: NAudio.CoreAudioApi.AudioClientStreamOptions.Raw
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Raw = 1
+    return:
+      type: NAudio.CoreAudioApi.AudioClientStreamOptions
+- uid: NAudio.CoreAudioApi.AudioClientStreamOptions.MatchFormat
+  commentId: F:NAudio.CoreAudioApi.AudioClientStreamOptions.MatchFormat
+  id: MatchFormat
+  parent: NAudio.CoreAudioApi.AudioClientStreamOptions
+  langs:
+  - csharp
+  - vb
+  name: MatchFormat
+  nameWithType: AudioClientStreamOptions.MatchFormat
+  fullName: NAudio.CoreAudioApi.AudioClientStreamOptions.MatchFormat
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: MatchFormat = 2
+    return:
+      type: NAudio.CoreAudioApi.AudioClientStreamOptions
+- uid: NAudio.CoreAudioApi.AudioClientStreamOptions.Ambisonics
+  commentId: F:NAudio.CoreAudioApi.AudioClientStreamOptions.Ambisonics
+  id: Ambisonics
+  parent: NAudio.CoreAudioApi.AudioClientStreamOptions
+  langs:
+  - csharp
+  - vb
+  name: Ambisonics
+  nameWithType: AudioClientStreamOptions.Ambisonics
+  fullName: NAudio.CoreAudioApi.AudioClientStreamOptions.Ambisonics
+  type: Field
+  assemblies:
+  - NAudio.Wasapi
+  namespace: NAudio.CoreAudioApi
+  syntax:
+    content: Ambisonics = 4
+    return:
+      type: NAudio.CoreAudioApi.AudioClientStreamOptions
+references:
+- uid: NAudio.CoreAudioApi
+  commentId: N:NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.CoreAudioApi
+  nameWithType: NAudio.CoreAudioApi
+  fullName: NAudio.CoreAudioApi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.CoreAudioApi
+    name: CoreAudioApi
+    isExternal: true
+    href: NAudio.CoreAudioApi.html
+- uid: NAudio.CoreAudioApi.AudioClientStreamOptions
+  commentId: T:NAudio.CoreAudioApi.AudioClientStreamOptions
+  parent: NAudio.CoreAudioApi
+  isExternal: true
+  href: NAudio.CoreAudioApi.AudioClientStreamOptions.html
+  name: AudioClientStreamOptions
+  nameWithType: AudioClientStreamOptions
+  fullName: NAudio.CoreAudioApi.AudioClientStreamOptions

@@ -1,0 +1,692 @@
+### YamlMime:ManagedReference
+items:
+- uid: NAudio.Midi.MidiOutCapabilities
+  commentId: T:NAudio.Midi.MidiOutCapabilities
+  id: MidiOutCapabilities
+  parent: NAudio.Midi
+  children:
+  - NAudio.Midi.MidiOutCapabilities.Manufacturer
+  - NAudio.Midi.MidiOutCapabilities.Notes
+  - NAudio.Midi.MidiOutCapabilities.ProductId
+  - NAudio.Midi.MidiOutCapabilities.ProductName
+  - NAudio.Midi.MidiOutCapabilities.SupportsAllChannels
+  - NAudio.Midi.MidiOutCapabilities.SupportsChannel(System.Int32)
+  - NAudio.Midi.MidiOutCapabilities.SupportsMidiStreamOut
+  - NAudio.Midi.MidiOutCapabilities.SupportsPatchCaching
+  - NAudio.Midi.MidiOutCapabilities.SupportsSeparateLeftAndRightVolume
+  - NAudio.Midi.MidiOutCapabilities.SupportsVolumeControl
+  - NAudio.Midi.MidiOutCapabilities.Technology
+  - NAudio.Midi.MidiOutCapabilities.Voices
+  langs:
+  - csharp
+  - vb
+  name: MidiOutCapabilities
+  nameWithType: MidiOutCapabilities
+  fullName: NAudio.Midi.MidiOutCapabilities
+  type: Struct
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public struct MidiOutCapabilities
+    content.vb: Public Structure MidiOutCapabilities
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NAudio.Midi.MidiOutCapabilities.SupportsChannel(System.Int32)
+  commentId: M:NAudio.Midi.MidiOutCapabilities.SupportsChannel(System.Int32)
+  id: SupportsChannel(System.Int32)
+  parent: NAudio.Midi.MidiOutCapabilities
+  langs:
+  - csharp
+  - vb
+  name: SupportsChannel(int)
+  nameWithType: MidiOutCapabilities.SupportsChannel(int)
+  fullName: NAudio.Midi.MidiOutCapabilities.SupportsChannel(int)
+  type: Method
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public bool SupportsChannel(int channel)
+    parameters:
+    - id: channel
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function SupportsChannel(channel As Integer) As Boolean
+  overload: NAudio.Midi.MidiOutCapabilities.SupportsChannel*
+  nameWithType.vb: MidiOutCapabilities.SupportsChannel(Integer)
+  fullName.vb: NAudio.Midi.MidiOutCapabilities.SupportsChannel(Integer)
+  name.vb: SupportsChannel(Integer)
+- uid: NAudio.Midi.MidiOutCapabilities.Manufacturer
+  commentId: P:NAudio.Midi.MidiOutCapabilities.Manufacturer
+  id: Manufacturer
+  parent: NAudio.Midi.MidiOutCapabilities
+  langs:
+  - csharp
+  - vb
+  name: Manufacturer
+  nameWithType: MidiOutCapabilities.Manufacturer
+  fullName: NAudio.Midi.MidiOutCapabilities.Manufacturer
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public Manufacturers Manufacturer { get; }
+    parameters: []
+    return:
+      type: NAudio.Manufacturers
+    content.vb: Public ReadOnly Property Manufacturer As Manufacturers
+  overload: NAudio.Midi.MidiOutCapabilities.Manufacturer*
+- uid: NAudio.Midi.MidiOutCapabilities.ProductId
+  commentId: P:NAudio.Midi.MidiOutCapabilities.ProductId
+  id: ProductId
+  parent: NAudio.Midi.MidiOutCapabilities
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: MidiOutCapabilities.ProductId
+  fullName: NAudio.Midi.MidiOutCapabilities.ProductId
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public short ProductId { get; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public ReadOnly Property ProductId As Short
+  overload: NAudio.Midi.MidiOutCapabilities.ProductId*
+- uid: NAudio.Midi.MidiOutCapabilities.ProductName
+  commentId: P:NAudio.Midi.MidiOutCapabilities.ProductName
+  id: ProductName
+  parent: NAudio.Midi.MidiOutCapabilities
+  langs:
+  - csharp
+  - vb
+  name: ProductName
+  nameWithType: MidiOutCapabilities.ProductName
+  fullName: NAudio.Midi.MidiOutCapabilities.ProductName
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public string ProductName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ProductName As String
+  overload: NAudio.Midi.MidiOutCapabilities.ProductName*
+- uid: NAudio.Midi.MidiOutCapabilities.Voices
+  commentId: P:NAudio.Midi.MidiOutCapabilities.Voices
+  id: Voices
+  parent: NAudio.Midi.MidiOutCapabilities
+  langs:
+  - csharp
+  - vb
+  name: Voices
+  nameWithType: MidiOutCapabilities.Voices
+  fullName: NAudio.Midi.MidiOutCapabilities.Voices
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public int Voices { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Voices As Integer
+  overload: NAudio.Midi.MidiOutCapabilities.Voices*
+- uid: NAudio.Midi.MidiOutCapabilities.Notes
+  commentId: P:NAudio.Midi.MidiOutCapabilities.Notes
+  id: Notes
+  parent: NAudio.Midi.MidiOutCapabilities
+  langs:
+  - csharp
+  - vb
+  name: Notes
+  nameWithType: MidiOutCapabilities.Notes
+  fullName: NAudio.Midi.MidiOutCapabilities.Notes
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public int Notes { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Notes As Integer
+  overload: NAudio.Midi.MidiOutCapabilities.Notes*
+- uid: NAudio.Midi.MidiOutCapabilities.SupportsAllChannels
+  commentId: P:NAudio.Midi.MidiOutCapabilities.SupportsAllChannels
+  id: SupportsAllChannels
+  parent: NAudio.Midi.MidiOutCapabilities
+  langs:
+  - csharp
+  - vb
+  name: SupportsAllChannels
+  nameWithType: MidiOutCapabilities.SupportsAllChannels
+  fullName: NAudio.Midi.MidiOutCapabilities.SupportsAllChannels
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public bool SupportsAllChannels { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property SupportsAllChannels As Boolean
+  overload: NAudio.Midi.MidiOutCapabilities.SupportsAllChannels*
+- uid: NAudio.Midi.MidiOutCapabilities.SupportsPatchCaching
+  commentId: P:NAudio.Midi.MidiOutCapabilities.SupportsPatchCaching
+  id: SupportsPatchCaching
+  parent: NAudio.Midi.MidiOutCapabilities
+  langs:
+  - csharp
+  - vb
+  name: SupportsPatchCaching
+  nameWithType: MidiOutCapabilities.SupportsPatchCaching
+  fullName: NAudio.Midi.MidiOutCapabilities.SupportsPatchCaching
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public bool SupportsPatchCaching { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property SupportsPatchCaching As Boolean
+  overload: NAudio.Midi.MidiOutCapabilities.SupportsPatchCaching*
+- uid: NAudio.Midi.MidiOutCapabilities.SupportsSeparateLeftAndRightVolume
+  commentId: P:NAudio.Midi.MidiOutCapabilities.SupportsSeparateLeftAndRightVolume
+  id: SupportsSeparateLeftAndRightVolume
+  parent: NAudio.Midi.MidiOutCapabilities
+  langs:
+  - csharp
+  - vb
+  name: SupportsSeparateLeftAndRightVolume
+  nameWithType: MidiOutCapabilities.SupportsSeparateLeftAndRightVolume
+  fullName: NAudio.Midi.MidiOutCapabilities.SupportsSeparateLeftAndRightVolume
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public bool SupportsSeparateLeftAndRightVolume { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property SupportsSeparateLeftAndRightVolume As Boolean
+  overload: NAudio.Midi.MidiOutCapabilities.SupportsSeparateLeftAndRightVolume*
+- uid: NAudio.Midi.MidiOutCapabilities.SupportsMidiStreamOut
+  commentId: P:NAudio.Midi.MidiOutCapabilities.SupportsMidiStreamOut
+  id: SupportsMidiStreamOut
+  parent: NAudio.Midi.MidiOutCapabilities
+  langs:
+  - csharp
+  - vb
+  name: SupportsMidiStreamOut
+  nameWithType: MidiOutCapabilities.SupportsMidiStreamOut
+  fullName: NAudio.Midi.MidiOutCapabilities.SupportsMidiStreamOut
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public bool SupportsMidiStreamOut { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property SupportsMidiStreamOut As Boolean
+  overload: NAudio.Midi.MidiOutCapabilities.SupportsMidiStreamOut*
+- uid: NAudio.Midi.MidiOutCapabilities.SupportsVolumeControl
+  commentId: P:NAudio.Midi.MidiOutCapabilities.SupportsVolumeControl
+  id: SupportsVolumeControl
+  parent: NAudio.Midi.MidiOutCapabilities
+  langs:
+  - csharp
+  - vb
+  name: SupportsVolumeControl
+  nameWithType: MidiOutCapabilities.SupportsVolumeControl
+  fullName: NAudio.Midi.MidiOutCapabilities.SupportsVolumeControl
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public bool SupportsVolumeControl { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property SupportsVolumeControl As Boolean
+  overload: NAudio.Midi.MidiOutCapabilities.SupportsVolumeControl*
+- uid: NAudio.Midi.MidiOutCapabilities.Technology
+  commentId: P:NAudio.Midi.MidiOutCapabilities.Technology
+  id: Technology
+  parent: NAudio.Midi.MidiOutCapabilities
+  langs:
+  - csharp
+  - vb
+  name: Technology
+  nameWithType: MidiOutCapabilities.Technology
+  fullName: NAudio.Midi.MidiOutCapabilities.Technology
+  type: Property
+  assemblies:
+  - NAudio.Midi
+  namespace: NAudio.Midi
+  syntax:
+    content: public MidiOutTechnology Technology { get; }
+    parameters: []
+    return:
+      type: NAudio.Midi.MidiOutTechnology
+    content.vb: Public ReadOnly Property Technology As MidiOutTechnology
+  overload: NAudio.Midi.MidiOutCapabilities.Technology*
+references:
+- uid: NAudio.Midi
+  commentId: N:NAudio.Midi
+  isExternal: true
+  href: NAudio.html
+  name: NAudio.Midi
+  nameWithType: NAudio.Midi
+  fullName: NAudio.Midi
+  spec.csharp:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+  spec.vb:
+  - uid: NAudio
+    name: NAudio
+    isExternal: true
+    href: NAudio.html
+  - name: .
+  - uid: NAudio.Midi
+    name: Midi
+    isExternal: true
+    href: NAudio.Midi.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NAudio.Midi.MidiOutCapabilities.SupportsChannel*
+  commentId: Overload:NAudio.Midi.MidiOutCapabilities.SupportsChannel
+  isExternal: true
+  href: NAudio.Midi.MidiOutCapabilities.html#NAudio_Midi_MidiOutCapabilities_SupportsChannel_System_Int32_
+  name: SupportsChannel
+  nameWithType: MidiOutCapabilities.SupportsChannel
+  fullName: NAudio.Midi.MidiOutCapabilities.SupportsChannel
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NAudio.Midi.MidiOutCapabilities.Manufacturer*
+  commentId: Overload:NAudio.Midi.MidiOutCapabilities.Manufacturer
+  isExternal: true
+  href: NAudio.Midi.MidiOutCapabilities.html#NAudio_Midi_MidiOutCapabilities_Manufacturer
+  name: Manufacturer
+  nameWithType: MidiOutCapabilities.Manufacturer
+  fullName: NAudio.Midi.MidiOutCapabilities.Manufacturer
+- uid: NAudio.Manufacturers
+  commentId: T:NAudio.Manufacturers
+  parent: NAudio
+  isExternal: true
+  href: NAudio.Manufacturers.html
+  name: Manufacturers
+  nameWithType: Manufacturers
+  fullName: NAudio.Manufacturers
+- uid: NAudio
+  commentId: N:NAudio
+  isExternal: true
+  href: NAudio.html
+  name: NAudio
+  nameWithType: NAudio
+  fullName: NAudio
+- uid: NAudio.Midi.MidiOutCapabilities.ProductId*
+  commentId: Overload:NAudio.Midi.MidiOutCapabilities.ProductId
+  isExternal: true
+  href: NAudio.Midi.MidiOutCapabilities.html#NAudio_Midi_MidiOutCapabilities_ProductId
+  name: ProductId
+  nameWithType: MidiOutCapabilities.ProductId
+  fullName: NAudio.Midi.MidiOutCapabilities.ProductId
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: NAudio.Midi.MidiOutCapabilities.ProductName*
+  commentId: Overload:NAudio.Midi.MidiOutCapabilities.ProductName
+  isExternal: true
+  href: NAudio.Midi.MidiOutCapabilities.html#NAudio_Midi_MidiOutCapabilities_ProductName
+  name: ProductName
+  nameWithType: MidiOutCapabilities.ProductName
+  fullName: NAudio.Midi.MidiOutCapabilities.ProductName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NAudio.Midi.MidiOutCapabilities.Voices*
+  commentId: Overload:NAudio.Midi.MidiOutCapabilities.Voices
+  isExternal: true
+  href: NAudio.Midi.MidiOutCapabilities.html#NAudio_Midi_MidiOutCapabilities_Voices
+  name: Voices
+  nameWithType: MidiOutCapabilities.Voices
+  fullName: NAudio.Midi.MidiOutCapabilities.Voices
+- uid: NAudio.Midi.MidiOutCapabilities.Notes*
+  commentId: Overload:NAudio.Midi.MidiOutCapabilities.Notes
+  isExternal: true
+  href: NAudio.Midi.MidiOutCapabilities.html#NAudio_Midi_MidiOutCapabilities_Notes
+  name: Notes
+  nameWithType: MidiOutCapabilities.Notes
+  fullName: NAudio.Midi.MidiOutCapabilities.Notes
+- uid: NAudio.Midi.MidiOutCapabilities.SupportsAllChannels*
+  commentId: Overload:NAudio.Midi.MidiOutCapabilities.SupportsAllChannels
+  isExternal: true
+  href: NAudio.Midi.MidiOutCapabilities.html#NAudio_Midi_MidiOutCapabilities_SupportsAllChannels
+  name: SupportsAllChannels
+  nameWithType: MidiOutCapabilities.SupportsAllChannels
+  fullName: NAudio.Midi.MidiOutCapabilities.SupportsAllChannels
+- uid: NAudio.Midi.MidiOutCapabilities.SupportsPatchCaching*
+  commentId: Overload:NAudio.Midi.MidiOutCapabilities.SupportsPatchCaching
+  isExternal: true
+  href: NAudio.Midi.MidiOutCapabilities.html#NAudio_Midi_MidiOutCapabilities_SupportsPatchCaching
+  name: SupportsPatchCaching
+  nameWithType: MidiOutCapabilities.SupportsPatchCaching
+  fullName: NAudio.Midi.MidiOutCapabilities.SupportsPatchCaching
+- uid: NAudio.Midi.MidiOutCapabilities.SupportsSeparateLeftAndRightVolume*
+  commentId: Overload:NAudio.Midi.MidiOutCapabilities.SupportsSeparateLeftAndRightVolume
+  isExternal: true
+  href: NAudio.Midi.MidiOutCapabilities.html#NAudio_Midi_MidiOutCapabilities_SupportsSeparateLeftAndRightVolume
+  name: SupportsSeparateLeftAndRightVolume
+  nameWithType: MidiOutCapabilities.SupportsSeparateLeftAndRightVolume
+  fullName: NAudio.Midi.MidiOutCapabilities.SupportsSeparateLeftAndRightVolume
+- uid: NAudio.Midi.MidiOutCapabilities.SupportsMidiStreamOut*
+  commentId: Overload:NAudio.Midi.MidiOutCapabilities.SupportsMidiStreamOut
+  isExternal: true
+  href: NAudio.Midi.MidiOutCapabilities.html#NAudio_Midi_MidiOutCapabilities_SupportsMidiStreamOut
+  name: SupportsMidiStreamOut
+  nameWithType: MidiOutCapabilities.SupportsMidiStreamOut
+  fullName: NAudio.Midi.MidiOutCapabilities.SupportsMidiStreamOut
+- uid: NAudio.Midi.MidiOutCapabilities.SupportsVolumeControl*
+  commentId: Overload:NAudio.Midi.MidiOutCapabilities.SupportsVolumeControl
+  isExternal: true
+  href: NAudio.Midi.MidiOutCapabilities.html#NAudio_Midi_MidiOutCapabilities_SupportsVolumeControl
+  name: SupportsVolumeControl
+  nameWithType: MidiOutCapabilities.SupportsVolumeControl
+  fullName: NAudio.Midi.MidiOutCapabilities.SupportsVolumeControl
+- uid: NAudio.Midi.MidiOutCapabilities.Technology*
+  commentId: Overload:NAudio.Midi.MidiOutCapabilities.Technology
+  isExternal: true
+  href: NAudio.Midi.MidiOutCapabilities.html#NAudio_Midi_MidiOutCapabilities_Technology
+  name: Technology
+  nameWithType: MidiOutCapabilities.Technology
+  fullName: NAudio.Midi.MidiOutCapabilities.Technology
+- uid: NAudio.Midi.MidiOutTechnology
+  commentId: T:NAudio.Midi.MidiOutTechnology
+  parent: NAudio.Midi
+  isExternal: true
+  href: NAudio.Midi.MidiOutTechnology.html
+  name: MidiOutTechnology
+  nameWithType: MidiOutTechnology
+  fullName: NAudio.Midi.MidiOutTechnology
