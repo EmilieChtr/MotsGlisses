@@ -1,7 +1,7 @@
 {
   "metadata": [{
     "src": [{
-      "files": ["bin/Debug/net6.0/*.dll"],
+      "files": ["bin/Debug/net6.0/Interface.dll"],
       "src": "../Interface"
     }],
     "dest": "api",
