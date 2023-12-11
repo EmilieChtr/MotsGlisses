@@ -1,17 +1,14 @@
 {
-  "metadata": [
-    {
-      "src": [
-        {
-          "src": "../Interface",
-          "files": [
-            "**/*.csproj"
-          ]
-        }
-      ],
-      "dest": "api"
+  "metadata": [{
+    "src": [{
+      "files": ["bin/Debug/net6.0/*.dll"],
+      "src": "../Interface"
+    }],
+    "dest": "api",
+    "properties": {
+      "TargetFramework": "net6.0"
     }
-  ],
+  }],
   "build": {
     "content": [
       {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emich\\OneDrive\\Documents\\Perso\\Scolaire\\ESILV\\A2\\A2 S3\\Informatique\\Algo POO\\Interface\\InterfaceTests\\InterfaceTests.csproj": {}
+    "C:\\Users\\emich\\MotsGlisses\\InterfaceTests\\InterfaceTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emich\\OneDrive\\Documents\\Perso\\Scolaire\\ESILV\\A2\\A2 S3\\Informatique\\Algo POO\\Interface\\InterfaceTests\\InterfaceTests.csproj": {
+    "C:\\Users\\emich\\MotsGlisses\\InterfaceTests\\InterfaceTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emich\\OneDrive\\Documents\\Perso\\Scolaire\\ESILV\\A2\\A2 S3\\Informatique\\Algo POO\\Interface\\InterfaceTests\\InterfaceTests.csproj",
+        "projectUniqueName": "C:\\Users\\emich\\MotsGlisses\\InterfaceTests\\InterfaceTests.csproj",
         "projectName": "InterfaceTests",
-        "projectPath": "C:\\Users\\emich\\OneDrive\\Documents\\Perso\\Scolaire\\ESILV\\A2\\A2 S3\\Informatique\\Algo POO\\Interface\\InterfaceTests\\InterfaceTests.csproj",
+        "projectPath": "C:\\Users\\emich\\MotsGlisses\\InterfaceTests\\InterfaceTests.csproj",
         "packagesPath": "C:\\Users\\emich\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emich\\OneDrive\\Documents\\Perso\\Scolaire\\ESILV\\A2\\A2 S3\\Informatique\\Algo POO\\Interface\\InterfaceTests\\obj\\",
+        "outputPath": "C:\\Users\\emich\\MotsGlisses\\InterfaceTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\emich\\OneDrive\\Documents\\Perso\\Scolaire\\ESILV\\A2\\A2 S3\\Informatique\\Algo POO\\Interface\\Interface\\Interface.csproj": {
-                "projectPath": "C:\\Users\\emich\\OneDrive\\Documents\\Perso\\Scolaire\\ESILV\\A2\\A2 S3\\Informatique\\Algo POO\\Interface\\Interface\\Interface.csproj"
+              "C:\\Users\\emich\\MotsGlisses\\Interface\\Interface.csproj": {
+                "projectPath": "C:\\Users\\emich\\MotsGlisses\\Interface\\Interface.csproj"
               }
             }
           }
@@ -76,23 +76,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\emich\\OneDrive\\Documents\\Perso\\Scolaire\\ESILV\\A2\\A2 S3\\Informatique\\Algo POO\\Interface\\Interface\\Interface.csproj": {
+    "C:\\Users\\emich\\MotsGlisses\\Interface\\Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emich\\OneDrive\\Documents\\Perso\\Scolaire\\ESILV\\A2\\A2 S3\\Informatique\\Algo POO\\Interface\\Interface\\Interface.csproj",
+        "projectUniqueName": "C:\\Users\\emich\\MotsGlisses\\Interface\\Interface.csproj",
         "projectName": "Interface",
-        "projectPath": "C:\\Users\\emich\\OneDrive\\Documents\\Perso\\Scolaire\\ESILV\\A2\\A2 S3\\Informatique\\Algo POO\\Interface\\Interface\\Interface.csproj",
+        "projectPath": "C:\\Users\\emich\\MotsGlisses\\Interface\\Interface.csproj",
         "packagesPath": "C:\\Users\\emich\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emich\\OneDrive\\Documents\\Perso\\Scolaire\\ESILV\\A2\\A2 S3\\Informatique\\Algo POO\\Interface\\Interface\\obj\\",
+        "outputPath": "C:\\Users\\emich\\MotsGlisses\\Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -141,12 +155,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
