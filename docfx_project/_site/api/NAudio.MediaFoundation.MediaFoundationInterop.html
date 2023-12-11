@@ -1,0 +1,705 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MediaFoundationInterop
+ | MotsGliss&#233;s </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MediaFoundationInterop
+ | MotsGliss&#233;s ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="MotsGliss&#233;s">
+            MotsGliss&#233;s
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NAudio.MediaFoundation.MediaFoundationInterop">
+
+
+
+  <h1 id="NAudio_MediaFoundation_MediaFoundationInterop" data-uid="NAudio.MediaFoundation.MediaFoundationInterop" class="text-break">
+    Class MediaFoundationInterop
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NAudio.html">NAudio</a>.<a class="xref" href="NAudio.MediaFoundation.html">MediaFoundation</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NAudio.Wasapi.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class MediaFoundationInterop</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">MediaFoundationInterop</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="NAudio_MediaFoundation_MediaFoundationInterop_MF_API_VERSION" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MF_API_VERSION">
+  MF_API_VERSION
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MF_API_VERSION = 112</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_MediaFoundationInterop_MF_SDK_VERSION" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MF_SDK_VERSION">
+  MF_SDK_VERSION
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MF_SDK_VERSION = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_MediaFoundationInterop_MF_SOURCE_READER_ALL_STREAMS" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_ALL_STREAMS">
+  MF_SOURCE_READER_ALL_STREAMS
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MF_SOURCE_READER_ALL_STREAMS = -2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_MediaFoundationInterop_MF_SOURCE_READER_FIRST_AUDIO_STREAM" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_FIRST_AUDIO_STREAM">
+  MF_SOURCE_READER_FIRST_AUDIO_STREAM
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MF_SOURCE_READER_FIRST_AUDIO_STREAM = -3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_MediaFoundationInterop_MF_SOURCE_READER_FIRST_VIDEO_STREAM" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_FIRST_VIDEO_STREAM">
+  MF_SOURCE_READER_FIRST_VIDEO_STREAM
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MF_SOURCE_READER_FIRST_VIDEO_STREAM = -4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_MediaFoundationInterop_MF_SOURCE_READER_MEDIASOURCE" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MF_SOURCE_READER_MEDIASOURCE">
+  MF_SOURCE_READER_MEDIASOURCE
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MF_SOURCE_READER_MEDIASOURCE = -1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="NAudio_MediaFoundation_MediaFoundationInterop_MF_VERSION" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MF_VERSION">
+  MF_VERSION
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MF_VERSION = 131184</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NAudio_MediaFoundation_MediaFoundationInterop_MFCreateMFByteStreamOnStream_" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStream*"></a>
+
+  <h3 id="NAudio_MediaFoundation_MediaFoundationInterop_MFCreateMFByteStreamOnStream_System_Runtime_InteropServices_ComTypes_IStream_NAudio_MediaFoundation_IMFByteStream__" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStream(System.Runtime.InteropServices.ComTypes.IStream,NAudio.MediaFoundation.IMFByteStream@)">
+  MFCreateMFByteStreamOnStream(IStream, out IMFByteStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void MFCreateMFByteStreamOnStream(IStream punkStream, out IMFByteStream ppByteStream)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>punkStream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.comtypes.istream">IStream</a></dt>
+    <dd></dd>
+    <dt><code>ppByteStream</code> <a class="xref" href="NAudio.MediaFoundation.IMFByteStream.html">IMFByteStream</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_MediaFoundationInterop_MFCreateMFByteStreamOnStreamEx_" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStreamEx*"></a>
+
+  <h3 id="NAudio_MediaFoundation_MediaFoundationInterop_MFCreateMFByteStreamOnStreamEx_System_Object_NAudio_MediaFoundation_IMFByteStream__" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFCreateMFByteStreamOnStreamEx(System.Object,NAudio.MediaFoundation.IMFByteStream@)">
+  MFCreateMFByteStreamOnStreamEx(object, out IMFByteStream)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void MFCreateMFByteStreamOnStreamEx(object punkStream, out IMFByteStream ppByteStream)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>punkStream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>ppByteStream</code> <a class="xref" href="NAudio.MediaFoundation.IMFByteStream.html">IMFByteStream</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_MediaFoundationInterop_MFCreateSinkWriterFromURL_" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSinkWriterFromURL*"></a>
+
+  <h3 id="NAudio_MediaFoundation_MediaFoundationInterop_MFCreateSinkWriterFromURL_System_String_NAudio_MediaFoundation_IMFByteStream_NAudio_MediaFoundation_IMFAttributes_NAudio_MediaFoundation_IMFSinkWriter__" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSinkWriterFromURL(System.String,NAudio.MediaFoundation.IMFByteStream,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFSinkWriter@)">
+  MFCreateSinkWriterFromURL(string, IMFByteStream, IMFAttributes, out IMFSinkWriter)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void MFCreateSinkWriterFromURL(string pwszOutputURL, IMFByteStream pByteStream, IMFAttributes pAttributes, out IMFSinkWriter ppSinkWriter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pwszOutputURL</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>pByteStream</code> <a class="xref" href="NAudio.MediaFoundation.IMFByteStream.html">IMFByteStream</a></dt>
+    <dd></dd>
+    <dt><code>pAttributes</code> <a class="xref" href="NAudio.MediaFoundation.IMFAttributes.html">IMFAttributes</a></dt>
+    <dd></dd>
+    <dt><code>ppSinkWriter</code> <a class="xref" href="NAudio.MediaFoundation.IMFSinkWriter.html">IMFSinkWriter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_MediaFoundationInterop_MFCreateSourceReaderFromByteStream_" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromByteStream*"></a>
+
+  <h3 id="NAudio_MediaFoundation_MediaFoundationInterop_MFCreateSourceReaderFromByteStream_NAudio_MediaFoundation_IMFByteStream_NAudio_MediaFoundation_IMFAttributes_NAudio_MediaFoundation_IMFSourceReader__" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromByteStream(NAudio.MediaFoundation.IMFByteStream,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFSourceReader@)">
+  MFCreateSourceReaderFromByteStream(IMFByteStream, IMFAttributes, out IMFSourceReader)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void MFCreateSourceReaderFromByteStream(IMFByteStream pByteStream, IMFAttributes pAttributes, out IMFSourceReader ppSourceReader)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pByteStream</code> <a class="xref" href="NAudio.MediaFoundation.IMFByteStream.html">IMFByteStream</a></dt>
+    <dd></dd>
+    <dt><code>pAttributes</code> <a class="xref" href="NAudio.MediaFoundation.IMFAttributes.html">IMFAttributes</a></dt>
+    <dd></dd>
+    <dt><code>ppSourceReader</code> <a class="xref" href="NAudio.MediaFoundation.IMFSourceReader.html">IMFSourceReader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_MediaFoundationInterop_MFCreateSourceReaderFromURL_" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromURL*"></a>
+
+  <h3 id="NAudio_MediaFoundation_MediaFoundationInterop_MFCreateSourceReaderFromURL_System_String_NAudio_MediaFoundation_IMFAttributes_NAudio_MediaFoundation_IMFSourceReader__" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFCreateSourceReaderFromURL(System.String,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFSourceReader@)">
+  MFCreateSourceReaderFromURL(string, IMFAttributes, out IMFSourceReader)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void MFCreateSourceReaderFromURL(string pwszURL, IMFAttributes pAttributes, out IMFSourceReader ppSourceReader)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pwszURL</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>pAttributes</code> <a class="xref" href="NAudio.MediaFoundation.IMFAttributes.html">IMFAttributes</a></dt>
+    <dd></dd>
+    <dt><code>ppSourceReader</code> <a class="xref" href="NAudio.MediaFoundation.IMFSourceReader.html">IMFSourceReader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_MediaFoundationInterop_MFShutdown_" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFShutdown*"></a>
+
+  <h3 id="NAudio_MediaFoundation_MediaFoundationInterop_MFShutdown" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFShutdown">
+  MFShutdown()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void MFShutdown()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_MediaFoundationInterop_MFStartup_" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFStartup*"></a>
+
+  <h3 id="NAudio_MediaFoundation_MediaFoundationInterop_MFStartup_System_Int32_System_Int32_" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFStartup(System.Int32,System.Int32)">
+  MFStartup(int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void MFStartup(int version, int dwFlags = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>version</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>dwFlags</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_MediaFoundationInterop_MFTEnumEx_" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFTEnumEx*"></a>
+
+  <h3 id="NAudio_MediaFoundation_MediaFoundationInterop_MFTEnumEx_System_Guid_NAudio_MediaFoundation__MFT_ENUM_FLAG_NAudio_MediaFoundation_MFT_REGISTER_TYPE_INFO_NAudio_MediaFoundation_MFT_REGISTER_TYPE_INFO_System_IntPtr__System_Int32__" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFTEnumEx(System.Guid,NAudio.MediaFoundation._MFT_ENUM_FLAG,NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO,NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO,System.IntPtr@,System.Int32@)">
+  MFTEnumEx(Guid, _MFT_ENUM_FLAG, MFT_REGISTER_TYPE_INFO, MFT_REGISTER_TYPE_INFO, out IntPtr, out int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void MFTEnumEx(Guid guidCategory, _MFT_ENUM_FLAG flags, MFT_REGISTER_TYPE_INFO pInputType, MFT_REGISTER_TYPE_INFO pOutputType, out IntPtr pppMFTActivate, out int pcMFTActivate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidCategory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>flags</code> <a class="xref" href="NAudio.MediaFoundation._MFT_ENUM_FLAG.html">_MFT_ENUM_FLAG</a></dt>
+    <dd></dd>
+    <dt><code>pInputType</code> <a class="xref" href="NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO.html">MFT_REGISTER_TYPE_INFO</a></dt>
+    <dd></dd>
+    <dt><code>pOutputType</code> <a class="xref" href="NAudio.MediaFoundation.MFT_REGISTER_TYPE_INFO.html">MFT_REGISTER_TYPE_INFO</a></dt>
+    <dd></dd>
+    <dt><code>pppMFTActivate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></dt>
+    <dd></dd>
+    <dt><code>pcMFTActivate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NAudio_MediaFoundation_MediaFoundationInterop_MFTranscodeGetAudioOutputAvailableTypes_" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFTranscodeGetAudioOutputAvailableTypes*"></a>
+
+  <h3 id="NAudio_MediaFoundation_MediaFoundationInterop_MFTranscodeGetAudioOutputAvailableTypes_System_Guid_NAudio_MediaFoundation__MFT_ENUM_FLAG_NAudio_MediaFoundation_IMFAttributes_NAudio_MediaFoundation_IMFCollection__" data-uid="NAudio.MediaFoundation.MediaFoundationInterop.MFTranscodeGetAudioOutputAvailableTypes(System.Guid,NAudio.MediaFoundation._MFT_ENUM_FLAG,NAudio.MediaFoundation.IMFAttributes,NAudio.MediaFoundation.IMFCollection@)">
+  MFTranscodeGetAudioOutputAvailableTypes(Guid, _MFT_ENUM_FLAG, IMFAttributes, out IMFCollection)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void MFTranscodeGetAudioOutputAvailableTypes(Guid guidSubType, _MFT_ENUM_FLAG dwMFTFlags, IMFAttributes pCodecConfig, out IMFCollection ppAvailableTypes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guidSubType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>dwMFTFlags</code> <a class="xref" href="NAudio.MediaFoundation._MFT_ENUM_FLAG.html">_MFT_ENUM_FLAG</a></dt>
+    <dd></dd>
+    <dt><code>pCodecConfig</code> <a class="xref" href="NAudio.MediaFoundation.IMFAttributes.html">IMFAttributes</a></dt>
+    <dd></dd>
+    <dt><code>ppAvailableTypes</code> <a class="xref" href="NAudio.MediaFoundation.IMFCollection.html">IMFCollection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
